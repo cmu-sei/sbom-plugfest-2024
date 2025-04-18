@@ -1,0 +1,954 @@
+{
+  "artifacts": [
+    {
+      "id": "c26054d4b7e854f0",
+      "name": "./.github/actions/build-docs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/docs.yaml",
+          "accessPath": "/.github/workflows/docs.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/build-docs:.\\/.github\\/actions\\/build-docs:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/build-docs:.\\/.github\\/actions\\/build_docs:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/build_docs:.\\/.github\\/actions\\/build-docs:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/build_docs:.\\/.github\\/actions\\/build_docs:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/build:.\\/.github\\/actions\\/build-docs:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/actions\\/build:.\\/.github\\/actions\\/build_docs:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": ""
+    },
+    {
+      "id": "45c0077e33141f05",
+      "name": "JamesIves/github-pages-deploy-action",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/docs.yaml",
+          "accessPath": "/.github/workflows/docs.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github-pages-deploy-action:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github-pages-deploy-action:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github_pages_deploy_action:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github_pages_deploy_action:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github-pages-deploy:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github-pages-deploy:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github_pages_deploy:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github_pages_deploy:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github-pages:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github-pages:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github_pages:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github_pages:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github:JamesIves\\/github-pages-deploy-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:JamesIves\\/github:JamesIves\\/github_pages_deploy_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/JamesIves/github-pages-deploy-action@v4"
+    },
+    {
+      "id": "705ea9b69ead1558",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/docs.yaml",
+          "accessPath": "/.github/workflows/docs.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "id": "5493bd6efc76cbbe",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/scorecards.yml",
+          "accessPath": "/.github/workflows/scorecards.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "id": "4f4485f6d74e6554",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "id": "be3b97621113ab85",
+      "name": "actions/upload-artifact",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/scorecards.yml",
+          "accessPath": "/.github/workflows/scorecards.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/upload-artifact@v4"
+    },
+    {
+      "id": "5db608ca9a23b462",
+      "name": "codecov/codecov-action",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/codecov/codecov-action@v4"
+    },
+    {
+      "id": "a85f0478b29db794",
+      "name": "github/codeql-action/upload-sarif",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/scorecards.yml",
+          "accessPath": "/.github/workflows/scorecards.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload-sarif:github\\/codeql-action\\/upload-sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload-sarif:github\\/codeql_action\\/upload_sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload_sarif:github\\/codeql-action\\/upload-sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload_sarif:github\\/codeql_action\\/upload_sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload:github\\/codeql-action\\/upload-sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload:github\\/codeql_action\\/upload_sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload:github\\/codeql-action\\/upload-sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload:github\\/codeql_action\\/upload_sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/upload-sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/upload_sarif:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/github/codeql-action@v3#upload-sarif"
+    },
+    {
+      "id": "a258e6887ed02256",
+      "name": "nick-invision/retry",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:nick-invision\\/retry:nick-invision\\/retry:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:nick-invision\\/retry:nick_invision\\/retry:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:nick_invision\\/retry:nick-invision\\/retry:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:nick_invision\\/retry:nick_invision\\/retry:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:nick:nick-invision\\/retry:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:nick:nick_invision\\/retry:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/nick-invision/retry@v3"
+    },
+    {
+      "id": "95511f797863387a",
+      "name": "ossf/scorecard-action",
+      "version": "62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/scorecards.yml",
+          "accessPath": "/.github/workflows/scorecards.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ossf\\/scorecard-action:ossf\\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ossf\\/scorecard-action:ossf\\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ossf\\/scorecard_action:ossf\\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ossf\\/scorecard_action:ossf\\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ossf\\/scorecard:ossf\\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ossf\\/scorecard:ossf\\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46"
+    },
+    {
+      "id": "f14ca7c10e73cb8a",
+      "name": "ramsey/composer-install",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ramsey\\/composer-install:ramsey\\/composer-install:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ramsey\\/composer-install:ramsey\\/composer_install:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ramsey\\/composer_install:ramsey\\/composer-install:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ramsey\\/composer_install:ramsey\\/composer_install:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ramsey\\/composer:ramsey\\/composer-install:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ramsey\\/composer:ramsey\\/composer_install:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/ramsey/composer-install@v3"
+    },
+    {
+      "id": "da750fa0a7c52d2f",
+      "name": "shivammathur/setup-php",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/tests.yml",
+          "accessPath": "/.github/workflows/tests.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/shivammathur/setup-php@v2"
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "45c0077e33141f05",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "4f4485f6d74e6554",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "5493bd6efc76cbbe",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "5db608ca9a23b462",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "705ea9b69ead1558",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "95511f797863387a",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "a258e6887ed02256",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "a85f0478b29db794",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "be3b97621113ab85",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "c26054d4b7e854f0",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "da750fa0a7c52d2f",
+      "type": "contains"
+    },
+    {
+      "parent": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+      "child": "f14ca7c10e73cb8a",
+      "type": "contains"
+    },
+    {
+      "parent": "45c0077e33141f05",
+      "child": "c5b72776554af8f7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4f4485f6d74e6554",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5493bd6efc76cbbe",
+      "child": "ae8b423421606a94",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5db608ca9a23b462",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "705ea9b69ead1558",
+      "child": "c5b72776554af8f7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "95511f797863387a",
+      "child": "ae8b423421606a94",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a258e6887ed02256",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a85f0478b29db794",
+      "child": "ae8b423421606a94",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "be3b97621113ab85",
+      "child": "ae8b423421606a94",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c26054d4b7e854f0",
+      "child": "c5b72776554af8f7",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "da750fa0a7c52d2f",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f14ca7c10e73cb8a",
+      "child": "9b0927f24570d5cb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "c5b72776554af8f7",
+      "location": {
+        "path": "/.github/workflows/docs.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 731
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "6260ab5b06b0d56327069003b646ea53401b466a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "7c1ce5f54d0a6b3669e9eada5f8e2b0c8e805506e0d0d42f7f48bfab450e431c"
+        }
+      ]
+    },
+    {
+      "id": "ae8b423421606a94",
+      "location": {
+        "path": "/.github/workflows/scorecards.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2239
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "273668152906183d38bc097b54e6a74e96e12547"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "da9082d0ea13536111abf8c554597347210994a2738d3206818989cf7f22a989"
+        }
+      ]
+    },
+    {
+      "id": "9b0927f24570d5cb",
+      "location": {
+        "path": "/.github/workflows/tests.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 7699
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e9f9ece6a96c316f3bca83b9627b1c274c11fbf3"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "57d3fb6c721562b5849c5d2035711c8395617fa6067eb718d8a2a5ade124c4a2"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "4129d29933595c69f67b11ba7da6950ea87c779e35b87808818c5865af84bb9b",
+    "name": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.18.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "dotnet-deps-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-store-cataloger",
+          "opam-cataloger",
+          "php-composer-lock-cataloger",
+          "php-pecl-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "java-binary-graalvm",
+          "java-binary-jdk",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/home/alan/go/pkg/mod",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": true,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.18",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.18.json"
+  }
+}

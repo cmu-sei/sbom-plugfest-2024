@@ -1,0 +1,82 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "nexb_dejacode_jq_as_deployed_96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+  "documentNamespace": "https://dejacode.com/spdxdocs/84c149b5-38ac-4dd7-bcbc-48233e3a6b4e",
+  "creationInfo": {
+    "created": "2024-12-11T01:03:26Z",
+    "creators": [
+      "Person: Dennis Clark (dmclark@nexb.com)",
+      "Organization: nexB ()",
+      "Tool: DejaCode-5.2.1"
+    ],
+    "licenseListVersion": "3.18"
+  },
+  "packages": [
+    {
+      "name": "jq",
+      "SPDXID": "SPDXRef-dejacode-package-21f6be9d-0d38-4e53-a501-9a5e2c8f0eb1",
+      "downloadLocation": "https://github.com/jqlang/jq/archive/96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip",
+      "licenseConcluded": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa",
+      "copyrightText": "Copyright Lucent Technologies",
+      "filesAnalyzed": false,
+      "versionInfo": "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+      "licenseDeclared": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa",
+      "packageFileName": "jq-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+        },
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1dcab7e8ec563456fda1cf516efacf06"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+        }
+      ]
+    },
+    {
+      "name": "oniguruma",
+      "SPDXID": "SPDXRef-dejacode-package-b701b581-862b-4023-b218-2136e3076f02",
+      "downloadLocation": "https://github.com/kkos/oniguruma/archive/d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip",
+      "licenseConcluded": "BSD-3-Clause AND BSD-2-Clause",
+      "copyrightText": "Copyright K.Kosako",
+      "filesAnalyzed": false,
+      "versionInfo": "d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+      "licenseDeclared": "BSD-3-Clause AND BSD-2-Clause",
+      "packageFileName": "oniguruma-d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip",
+      "description": "regular expression library",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3fd890fd45e51d2f6d058c17a9389ecb90ae4716"
+        },
+        {
+          "algorithm": "MD5",
+          "checksumValue": "71993e6c8e527226e1d260d6f91a8de9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+        }
+      ],
+      "attributionTexts": [
+        "Oniguruma LICENSE\n-----------------\n\nCopyright (c) 2002-2021  K.Kosako  <kkosako0@gmail.com>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n\n    Scan Summary\nDeclared license\n\n     bsd-new AND bsd-simplified\n\nDeclared holder\n\n     K.Kosako\n\nPrimary language\n\n     C\n\nOther licenses\n\n     bsd-simplified 65\n\n\n gpl-2.0-plus WITH autoconf-simple-exception-2.0 4\n\n\n bsd-new 3\n\n\n public-domain 3\n\n\n gpl-3.0-plus WITH autoconf-simple-exception 2\n warranty-disclaimer 2\n cc0-1.0 1\n\n\n fsf-ap 1\n\n\n x11-xconsortium AND public-domain 1\n\nOther holders\n\n     Free Software Foundation 9\n     Byte 1\n     K.Kosako, Zui Zhong Geng Xin 1\n     KUBO Takehiro K.Kosako 1\n     Oniguruma -- K.Kosako 1\n     X Consortium 1\n\nOther languages\n\n     Bash 12\n     Python 7\n     verilog 5\n     Batchfile 3\n     HTML 2\n     C++ 1\n     Objective-C 1\n\nStatus\n\n    Scan success\n\nCreated date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nStart date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nEnd date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nScanCode.io version\n\n    34.9.0\n\n    Home Documentation Support About Source Code Releases License \n\nCopyright nexB Inc. DejaCode is a trademark of nexB Inc.\n\nNo content on DejaCode should be considered or used as legal advice. Consult an Attorney for any legal advice.\n"
+      ]
+    }
+  ],
+  "documentDescribes": [
+    "SPDXRef-dejacode-package-21f6be9d-0d38-4e53-a501-9a5e2c8f0eb1",
+    "SPDXRef-dejacode-package-b701b581-862b-4023-b218-2136e3076f02"
+  ]
+}

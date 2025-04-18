@@ -1,0 +1,780 @@
+## Document Information
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: Plugfest-Python-SBoM-1.0
+DocumentNamespace: https://arianna.securitypattern.com/spdx/f0a1d244-a5cf-46e8-99b9-29857436c2b0
+DocumentComment: Root directory: /Users/my_user/my_test_env/
+
+## Creation Information
+LicenseListVersion: 3.25
+Creator: Person: system
+Creator: Organization: Security Pattern
+Creator: Tool: ARIANNA Platform
+Created: 2024-12-09T18:10:20Z
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/httpie-3.2.4.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-90ceedad-b554-4896-bdc1-c28b3c76fed0
+FileType: TEXT
+FileChecksum: SHA1: 024cf9e9da587099c4fc54c7f5b2c4f4441fd4b7
+FileChecksum: SHA256: efb0dee0c447da4f473e55e01867cfe56ff8e269995d35ed24f4a8a6c4a80206
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-7e19b56f-dae8-4fc7-90b4-577d8efa2b4a
+FileType: TEXT
+FileChecksum: SHA1: e8c830d8b0942300c7c87b3b8fd15ea1396e07bd
+FileChecksum: SHA256: 6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-76ba43b8-e88f-4a87-83f9-06098d10fca0
+FileType: TEXT
+FileChecksum: SHA1: c37042adc0d1270485f4b8b5b9e085a274dc035b
+FileChecksum: SHA256: 66030d634580651b3e53cc19895d9231f8d22aa06b327817c8332cfc20303308
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-69f272fe-3536-46bc-8f5a-540769e786be
+FileType: TEXT
+FileChecksum: SHA1: ac0db25aefd2679b4c3265e713d00f6155a94465
+FileChecksum: SHA256: 20c51a96236c0395f53b1f4c5d458e6a0721e51e16c1bff733b7aba76f5d06d8
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-373625b5-a405-4ce9-9f3b-68583ffe6046
+FileType: TEXT
+FileChecksum: SHA1: ac9c92013b2f0fc65d741b32a9fe4b956dd6eb7d
+FileChecksum: SHA256: c43b60b897a3d2d37d8845c252fc44261d9aef171e21154111a9012d2afffed6
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-ce600cd2-11df-43dd-bf46-f5b8ee166a02
+FileType: TEXT
+FileChecksum: SHA1: b7a18f079de22d10c4c318e54bd8c48177f91333
+FileChecksum: SHA256: 8b86946900d7fa38dd1102b9c1ebe17a0cb1f09c8b7e29f61f2bda4a4dc51eca
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-a719853f-1b15-4021-a481-b1b60c29aaf7
+FileType: TEXT
+FileChecksum: SHA1: a7763789fa56cebbaa849368faac7d386f170399
+FileChecksum: SHA256: 03359d9ba56231f0ce3e840c7cb5a7db380141218949ccaa78ddbd4dcb965d52
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/markdown_it_py-3.0.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-524f0e35-8730-4ae1-83af-2b9f2c82d0f2
+FileType: TEXT
+FileChecksum: SHA1: 70c9ecb166629d6553abc6ffac1749a244abd081
+FileChecksum: SHA256: d3e90c1382903520863f37d210581073c32151de5c986f8b3b4d3b045937fdfc
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-9adae125-1d77-462d-8013-b4b9804b47bc
+FileType: TEXT
+FileChecksum: SHA1: cc9d84bf84be59dd90368ea2f5e3a9fae8f0f1b7
+FileChecksum: SHA256: b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-708e3f8d-6809-4f06-8327-7f2823748435
+FileType: TEXT
+FileChecksum: SHA1: ffccec7fd799cc4ab07530954fef3be2472e2c23
+FileChecksum: SHA256: 0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/multidict-6.1.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-c03f1c91-d886-4a2e-8ad3-3ed53c49c416
+FileType: TEXT
+FileChecksum: SHA1: d79a1c5fceec4840b5de652a3397d57482913603
+FileChecksum: SHA256: 3a70b1e434785cf7fae062032b85e6700d9eec72d0ffbf38bcc7c4432dbcee43
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/PySocks-1.7.1.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-be3e4988-04ec-48d6-bcb0-2fba7e2b0129
+FileType: TEXT
+FileChecksum: SHA1: e7121f5b856c57e858caf18a23bf0cd497c6b9e2
+FileChecksum: SHA256: cdb40c8b38cf38e3f80e1122117db85d78cdad8b88c45f54194a4dd2e14307a6
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-47b4873b-ea61-4b15-8da3-e1b0de57a1ef
+FileType: TEXT
+FileChecksum: SHA1: 292b8d19cdc308e072817b6407cac3cb5175a060
+FileChecksum: SHA256: a211fceacea4e6621f4316364d2d0b7127c00de3856b8062082f9bc5957ea4db
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/pip-24.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-8c49969e-1fd8-4116-8dee-56d135185df3
+FileType: TEXT
+FileChecksum: SHA1: 7ef1f6226c2acedce857ed89cec1548dc9bacd9c
+FileChecksum: SHA256: 3e1cc2c50c4886c9d9f3bd5c3d47b71dec3d3e186981f94b6dfa94dd68b366a3
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-0ac40d4a-5ebd-4207-b71e-41a647d9781b
+FileType: TEXT
+FileChecksum: SHA1: 1ac8a3679afcfeec0ba00851f5f8095dd1b060cd
+FileChecksum: SHA256: ce6b227b4d46d4cb57474c2022fe57a557933bb89daf4596bdf9b12ac296b869
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/requests-2.32.3.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-51ececca-3c5a-4947-8d31-7799694b5a44
+FileType: TEXT
+FileChecksum: SHA1: 2932497ffb7a7e281a919fc9b881c459e56653e0
+FileChecksum: SHA256: 658ee8454c1e2e76fb8c2127116f61156b3b22941b3559c00389dca70038581a
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-ca9121b7-e591-4643-88aa-58f4b19b0925
+FileType: TEXT
+FileChecksum: SHA1: 171fbbc84e8b7216e237b702f3fda539ffb1e487
+FileChecksum: SHA256: fa52f26237cc8d148d25c5746fdca499a56d0e765e69095cc3564a07cce23967
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/rich-13.9.4.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-f856c1ab-c0f8-460d-b1ad-05045eaa53ce
+FileType: TEXT
+FileChecksum: SHA1: d340ca2c4a33cd3afb0f14e7c924555176d474e6
+FileChecksum: SHA256: 760dbd01312b9b05b786a3846c8b26596d98e227a1dfcc3df2bf65f0c7c8ac62
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools-75.6.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-9aa95cca-11ac-44d5-88bd-dfdbfa760ddc
+FileType: TEXT
+FileChecksum: SHA1: 12f1286865b32c1831844e63692b070c43c4c4a4
+FileChecksum: SHA256: 2fc430773345285fbc17bca8f9ba38e74989cd7c36ad9404cd39dd3dceb3da20
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-787ad089-5297-4824-a459-debf635e7a04
+FileType: TEXT
+FileChecksum: SHA1: d3ea3bda227794ae35fe7ffc5bd6e5fa2a5ef250
+FileChecksum: SHA256: ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-ce6e4d02-f162-4d2d-a271-e68b37cdcc46
+FileType: TEXT
+FileChecksum: SHA1: 9a94672ccfea06156a5f8a321cd0626cfd233ae8
+FileChecksum: SHA256: cf675c1c0a744f08580855390de87cc77d676b312582e8d4cfdb5bb8fd298d21
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-88587786-0acd-4ef4-8b9e-1f05543d4cd3
+FileType: TEXT
+FileChecksum: SHA1: b6ada54b9516d20b69a5dd5cded868da22c5e252
+FileChecksum: SHA256: 05e51021af1c9d86eb8d6c7e37c4cece733d5065b91a6d8389c5690ed440f16d
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/pygments-2.18.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-81bb2561-d926-4a6c-974f-e6f69fc76a77
+FileType: TEXT
+FileChecksum: SHA1: 2646707994af8555350bb4b8da93ceac8bc491c0
+FileChecksum: SHA256: 5965623038f71a812e625f6c21b92603bcefd26d07e6c253517512798ef76ecf
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/urllib3-2.2.3.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-b2d89c26-fa9f-409a-a96c-449193faeb40
+FileType: TEXT
+FileChecksum: SHA1: 150524ee8bba4b41d2e36d789748ec8ec0e65315
+FileChecksum: SHA256: 369c8b318bbe42802640aea99a6828651baad073edfa57ff27dcc8b8218c44d6
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-e264d101-004f-49bd-b4ab-f7e15c97512a
+FileType: TEXT
+FileChecksum: SHA1: 7ceb6dbe498b69abf4087637c6f500742ff7e2b4
+FileChecksum: SHA256: 59bac22b00a59d3e5608a56b8cf8efc43831a36b72792ee4389c9cd4669c7841
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-70a74ad6-2c53-4994-ae4d-955e6f607e89
+FileType: TEXT
+FileChecksum: SHA1: c53b0e6a2e3d94093e2fe4978926a7439b47d43c
+FileChecksum: SHA256: 508ae4fe43081c64b0b0a2828588b3a8cc3430c6693d1676662569400b0dfdb1
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-2ec41563-f41c-48fe-9108-ebd62e64fafb
+FileType: TEXT
+FileChecksum: SHA1: 4310db58f98c12b23286e5fa37f0e27abefb6a4a
+FileChecksum: SHA256: 3800d9b91dceea2065a6ed6279383362e97ac38b8e56b9343f404ee531860099
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-e6558cdd-6139-4901-bee5-bf35e3ccae38
+FileType: TEXT
+FileChecksum: SHA1: 3dd8d93cf7695d1c9d7574751ab5b0dee5dd7f9a
+FileChecksum: SHA256: 8215c54ead77d9dc5a108a25c6bdc72b5999aa6f62c9499a440359412afa5a51
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/certifi-2024.8.30.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-927fb5e3-c28d-47e6-bb17-cd5ea755750b
+FileType: TEXT
+FileChecksum: SHA1: 9327ad0bda86c1be61644acf536b271fd19b0929
+FileChecksum: SHA256: 1a104745550de9ae19754804fcde709ae9097f2ba813e432225f18de27cd4013
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/charset_normalizer-3.4.0.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-6058160f-a4e5-4f0b-b360-ad661cba17a0
+FileType: TEXT
+FileChecksum: SHA1: c10e6e210a50bd5e932c0c69ccc7959264bf2325
+FileChecksum: SHA256: 5866c45bd7a1876b29349c68d4ceac1061995a6b10fa88f60ec323576f73a26b
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/defusedxml-0.7.1.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-735eb02b-a470-4791-aca2-6fb246b64d95
+FileType: TEXT
+FileChecksum: SHA1: bbe8ef8118fece856076610151e3ab2244d2abbf
+FileChecksum: SHA256: 369d3cef64870daf849fba711cb8d05a7efe3c8d9ab0f763adc34079fe378bb1
+FileComment: Metadata file for an installed Python module
+
+## File Information
+FileName: ./.venv/lib/python3.13/site-packages/idna-3.10.dist-info/METADATA
+SPDXID: SPDXRef-File-METADATA-28e8ed03-04ea-4daa-8285-abf128032cb9
+FileType: TEXT
+FileChecksum: SHA1: c2b49b407d6a6a30fd069ab3f1ba78107825ef46
+FileChecksum: SHA256: 5114796720df4353c2106864628a23a9f8b645ad2d6aedbefa58701b85d27e32
+FileComment: Metadata file for an installed Python module
+
+## Package Information
+PackageName: Plugfest Python SBoM
+SPDXID: SPDXRef-PROJECT-Plugfest-Python-SBoM
+PackageVersion: 1.0
+PackageSupplier: Organization: Security Pattern
+PackageOriginator: Organization: Security Pattern
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PrimaryPackagePurpose: OTHER
+
+## Package Information
+PackageName: httpie
+SPDXID: SPDXRef-Package-Python-httpie-edbb3822
+PackageVersion: 3.2.4
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Jakub Roztocil (jakub@roztocil.co)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://httpie.io/
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: HTTPie: modern, user-friendly command-line HTTP client for the API era.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/httpie@3.2.4
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: importlib-metadata
+SPDXID: SPDXRef-Package-Python-importlib-metadata-8ceea989
+PackageVersion: 8.0.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/python/importlib_metadata
+PackageLicenseConcluded: Apache-2.0
+PackageSummary: Read metadata from Python packages
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/importlib_metadata@8.0.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: inflect
+SPDXID: SPDXRef-Package-Python-inflect-4c202e1f
+PackageVersion: 7.3.1
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/jaraco/inflect
+PackageLicenseConcluded: MIT
+PackageSummary: Correctly generate plurals, singular nouns, ordinals, indefinite articles
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/inflect@7.3.1
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: jaraco.collections
+SPDXID: SPDXRef-Package-Python-jaraco.collections-10564a8c
+PackageVersion: 5.1.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/jaraco/jaraco.collections
+PackageLicenseConcluded: MIT
+PackageSummary: Collection objects similar to those in stdlib by jaraco
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.collections@5.1.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: jaraco.context
+SPDXID: SPDXRef-Package-Python-jaraco.context-0532ad85
+PackageVersion: 5.3.0
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Jason R. Coombs (jaraco@jaraco.com)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jaraco/jaraco.context
+PackageLicenseConcluded: MIT
+PackageSummary: Useful decorators and context managers
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.context@5.3.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: jaraco.functools
+SPDXID: SPDXRef-Package-Python-jaraco.functools-d4df04bd
+PackageVersion: 4.0.1
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jaraco/jaraco.functools
+PackageLicenseConcluded: MIT
+PackageSummary: Functools like those found in stdlib
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.functools@4.0.1
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: jaraco.text
+SPDXID: SPDXRef-Package-Python-jaraco.text-213485fa
+PackageVersion: 3.12.1
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jaraco/jaraco.text
+PackageLicenseConcluded: MIT
+PackageSummary: Module for text manipulation
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.text@3.12.1
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: markdown-it-py
+SPDXID: SPDXRef-Package-Python-markdown-it-py-31e72eb7
+PackageVersion: 3.0.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/executablebooks/markdown-it-py
+PackageLicenseConcluded: MIT
+PackageSummary: Python port of markdown-it. Markdown parsing, done right!
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/markdown_it_py@3.0.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: mdurl
+SPDXID: SPDXRef-Package-Python-mdurl-55c70823
+PackageVersion: 0.1.2
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/executablebooks/mdurl
+PackageLicenseConcluded: MIT
+PackageSummary: Markdown URL utilities
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/mdurl@0.1.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: more-itertools
+SPDXID: SPDXRef-Package-Python-more-itertools-6c1dfb7d
+PackageVersion: 10.3.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/more-itertools/more-itertools
+PackageLicenseConcluded: MIT
+PackageSummary: More routines for operating on iterables, beyond itertools
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/more_itertools@10.3.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: multidict
+SPDXID: SPDXRef-Package-Python-multidict-2b4a5840
+PackageVersion: 6.1.0
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Andrew Svetlov (andrew.svetlov@gmail.com)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/aio-libs/multidict
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: multidict implementation
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/multidict@6.1.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: PySocks
+SPDXID: SPDXRef-Package-Python-PySocks-ecda7831
+PackageVersion: 1.7.1
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Anorov (anorov.vorona@gmail.com)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Anorov/PySocks
+PackageLicenseConcluded: BSD-3-Clause
+PackageSummary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pysocks@1.7.1
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: packaging
+SPDXID: SPDXRef-Package-Python-packaging-99e3db30
+PackageVersion: 24.2
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/pypa/packaging
+PackageLicenseConcluded: Apache-2.0
+PackageSummary: Core utilities for Python packages
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/packaging@24.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: pip
+SPDXID: SPDXRef-Package-Python-pip-710d8352
+PackageVersion: 24.2
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://pip.pypa.io/
+PackageSourceInfo: https://github.com/pypa/pip
+PackageLicenseDeclared: MIT
+PackageSummary: The PyPA recommended tool for installing Python packages.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pip@24.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: platformdirs
+SPDXID: SPDXRef-Package-Python-platformdirs-e7e1a160
+PackageVersion: 4.2.2
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/platformdirs/platformdirs
+PackageSourceInfo: https://github.com/platformdirs/platformdirs
+PackageLicenseDeclared: MIT
+PackageSummary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/platformdirs@4.2.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: requests
+SPDXID: SPDXRef-Package-Python-requests-c55d6b4f
+PackageVersion: 2.32.3
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Kenneth Reitz (me@kennethreitz.org)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://requests.readthedocs.io
+PackageSourceInfo: https://github.com/psf/requests
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: Python HTTP for Humans.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/requests@2.32.3
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: requests-toolbelt
+SPDXID: SPDXRef-Package-Python-requests-toolbelt-ebaa7d48
+PackageVersion: 1.0.0
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Ian Cordasco
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://toolbelt.readthedocs.io/
+PackageSourceInfo: https://github.com/requests/toolbelt
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: A utility belt for advanced users of python-requests
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/requests_toolbelt@1.0.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: rich
+SPDXID: SPDXRef-Package-Python-rich-b9c49fc0
+PackageVersion: 13.9.4
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Will McGugan (willmcgugan@gmail.com)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Textualize/rich
+PackageLicenseDeclared: MIT
+PackageSummary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/rich@13.9.4
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: setuptools
+SPDXID: SPDXRef-Package-Python-setuptools-f0295879
+PackageVersion: 75.6.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/pypa/setuptools
+PackageLicenseConcluded: MIT
+PackageSummary: Easily download, build, install, upgrade, and uninstall Python packages
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/setuptools@75.6.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: tomli
+SPDXID: SPDXRef-Package-Python-tomli-5bfa4079
+PackageVersion: 2.0.1
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/hukkin/tomli
+PackageLicenseConcluded: MIT
+PackageSummary: A lil' TOML parser
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomli@2.0.1
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: typeguard
+SPDXID: SPDXRef-Package-Python-typeguard-d74dc755
+PackageVersion: 4.3.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageSummary: Run-time type checker for Python
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/typeguard@4.3.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: typing_extensions
+SPDXID: SPDXRef-Package-Python-typing-extensions-c24b66a7
+PackageVersion: 4.12.2
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: PSF-2.0
+PackageSummary: Backported and Experimental Type Hints for Python 3.8+
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/typing_extensions@4.12.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: Pygments
+SPDXID: SPDXRef-Package-Python-Pygments-8b67656c
+PackageVersion: 2.18.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://pygments.org
+PackageSourceInfo: https://github.com/pygments/pygments
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: Pygments is a syntax highlighting package written in Python.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pygments@2.18.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: urllib3
+SPDXID: SPDXRef-Package-Python-urllib3-52d836ff
+PackageVersion: 2.2.3
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageSummary: HTTP library with thread-safe connection pooling, file post, and more.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/urllib3@2.2.3
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: wheel
+SPDXID: SPDXRef-Package-Python-wheel-bc605c93
+PackageVersion: 0.43.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/pypa/wheel
+PackageLicenseConcluded: MIT
+PackageSummary: A built-package format for Python
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/wheel@0.43.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: zipp
+SPDXID: SPDXRef-Package-Python-zipp-ecd89ab3
+PackageVersion: 3.19.2
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jaraco/zipp
+PackageLicenseConcluded: MIT
+PackageSummary: Backport of pathlib-compatible object wrapper for zip files
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/zipp@3.19.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: autocommand
+SPDXID: SPDXRef-Package-Python-autocommand-2572a44d
+PackageVersion: 2.2.2
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Nathan West
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Lucretiel/autocommand
+PackageLicenseDeclared: LGPL-3.0-only
+PackageSummary: A library to create a command-line program from a function
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/autocommand@2.2.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: backports.tarfile
+SPDXID: SPDXRef-Package-Python-backports.tarfile-34695c1d
+PackageVersion: 1.2.0
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jaraco/backports.tarfile
+PackageLicenseConcluded: MIT
+PackageSummary: Backport of CPython tarfile module
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/backports.tarfile@1.2.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: certifi
+SPDXID: SPDXRef-Package-Python-certifi-563b0bab
+PackageVersion: 2024.8.30
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Kenneth Reitz (me@kennethreitz.com)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/certifi/python-certifi
+PackageSourceInfo: https://github.com/certifi/python-certifi
+PackageLicenseDeclared: MPL-2.0
+PackageSummary: Python package for providing Mozilla's CA Bundle.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/certifi@2024.8.30
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: charset-normalizer
+SPDXID: SPDXRef-Package-Python-charset-normalizer-7c08b333
+PackageVersion: 3.4.0
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Ahmed TAHRI (tahri.ahmed@proton.me)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Ousret/charset_normalizer
+PackageLicenseDeclared: MIT
+PackageSummary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/charset_normalizer@3.4.0
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: defusedxml
+SPDXID: SPDXRef-Package-Python-defusedxml-3c273017
+PackageVersion: 0.7.1
+PackageSupplier: Organization: pip
+PackageOriginator: Person: Christian Heimes (christian@python.org)
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/tiran/defusedxml
+PackageLicenseDeclared: PSF-2.0
+PackageSummary: XML bomb protection for Python stdlib modules
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/defusedxml@0.7.1
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: idna
+SPDXID: SPDXRef-Package-Python-idna-11c7d521
+PackageVersion: 3.10
+PackageSupplier: Organization: pip
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/kjd/idna
+PackageLicenseConcluded: BSD-3-Clause
+PackageSummary: Internationalized Domain Names in Applications (IDNA)
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/idna@3.10
+PrimaryPackagePurpose: LIBRARY
+
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-PROJECT-Plugfest-Python-SBoM
+Relationship: SPDXRef-File-METADATA-90ceedad-b554-4896-bdc1-c28b3c76fed0 METAFILE_OF SPDXRef-Package-Python-httpie-edbb3822
+Relationship: SPDXRef-File-METADATA-7e19b56f-dae8-4fc7-90b4-577d8efa2b4a METAFILE_OF SPDXRef-Package-Python-importlib-metadata-8ceea989
+Relationship: SPDXRef-File-METADATA-76ba43b8-e88f-4a87-83f9-06098d10fca0 METAFILE_OF SPDXRef-Package-Python-inflect-4c202e1f
+Relationship: SPDXRef-File-METADATA-69f272fe-3536-46bc-8f5a-540769e786be METAFILE_OF SPDXRef-Package-Python-jaraco.collections-10564a8c
+Relationship: SPDXRef-File-METADATA-373625b5-a405-4ce9-9f3b-68583ffe6046 METAFILE_OF SPDXRef-Package-Python-jaraco.context-0532ad85
+Relationship: SPDXRef-File-METADATA-ce600cd2-11df-43dd-bf46-f5b8ee166a02 METAFILE_OF SPDXRef-Package-Python-jaraco.functools-d4df04bd
+Relationship: SPDXRef-File-METADATA-a719853f-1b15-4021-a481-b1b60c29aaf7 METAFILE_OF SPDXRef-Package-Python-jaraco.text-213485fa
+Relationship: SPDXRef-File-METADATA-524f0e35-8730-4ae1-83af-2b9f2c82d0f2 METAFILE_OF SPDXRef-Package-Python-markdown-it-py-31e72eb7
+Relationship: SPDXRef-File-METADATA-9adae125-1d77-462d-8013-b4b9804b47bc METAFILE_OF SPDXRef-Package-Python-mdurl-55c70823
+Relationship: SPDXRef-File-METADATA-708e3f8d-6809-4f06-8327-7f2823748435 METAFILE_OF SPDXRef-Package-Python-more-itertools-6c1dfb7d
+Relationship: SPDXRef-File-METADATA-c03f1c91-d886-4a2e-8ad3-3ed53c49c416 METAFILE_OF SPDXRef-Package-Python-multidict-2b4a5840
+Relationship: SPDXRef-File-METADATA-be3e4988-04ec-48d6-bcb0-2fba7e2b0129 METAFILE_OF SPDXRef-Package-Python-PySocks-ecda7831
+Relationship: SPDXRef-File-METADATA-47b4873b-ea61-4b15-8da3-e1b0de57a1ef METAFILE_OF SPDXRef-Package-Python-packaging-99e3db30
+Relationship: SPDXRef-File-METADATA-8c49969e-1fd8-4116-8dee-56d135185df3 METAFILE_OF SPDXRef-Package-Python-pip-710d8352
+Relationship: SPDXRef-File-METADATA-0ac40d4a-5ebd-4207-b71e-41a647d9781b METAFILE_OF SPDXRef-Package-Python-platformdirs-e7e1a160
+Relationship: SPDXRef-File-METADATA-51ececca-3c5a-4947-8d31-7799694b5a44 METAFILE_OF SPDXRef-Package-Python-requests-c55d6b4f
+Relationship: SPDXRef-File-METADATA-ca9121b7-e591-4643-88aa-58f4b19b0925 METAFILE_OF SPDXRef-Package-Python-requests-toolbelt-ebaa7d48
+Relationship: SPDXRef-File-METADATA-f856c1ab-c0f8-460d-b1ad-05045eaa53ce METAFILE_OF SPDXRef-Package-Python-rich-b9c49fc0
+Relationship: SPDXRef-File-METADATA-9aa95cca-11ac-44d5-88bd-dfdbfa760ddc METAFILE_OF SPDXRef-Package-Python-setuptools-f0295879
+Relationship: SPDXRef-File-METADATA-787ad089-5297-4824-a459-debf635e7a04 METAFILE_OF SPDXRef-Package-Python-tomli-5bfa4079
+Relationship: SPDXRef-File-METADATA-ce6e4d02-f162-4d2d-a271-e68b37cdcc46 METAFILE_OF SPDXRef-Package-Python-typeguard-d74dc755
+Relationship: SPDXRef-File-METADATA-88587786-0acd-4ef4-8b9e-1f05543d4cd3 METAFILE_OF SPDXRef-Package-Python-typing-extensions-c24b66a7
+Relationship: SPDXRef-File-METADATA-81bb2561-d926-4a6c-974f-e6f69fc76a77 METAFILE_OF SPDXRef-Package-Python-Pygments-8b67656c
+Relationship: SPDXRef-File-METADATA-b2d89c26-fa9f-409a-a96c-449193faeb40 METAFILE_OF SPDXRef-Package-Python-urllib3-52d836ff
+Relationship: SPDXRef-File-METADATA-e264d101-004f-49bd-b4ab-f7e15c97512a METAFILE_OF SPDXRef-Package-Python-wheel-bc605c93
+Relationship: SPDXRef-File-METADATA-70a74ad6-2c53-4994-ae4d-955e6f607e89 METAFILE_OF SPDXRef-Package-Python-zipp-ecd89ab3
+Relationship: SPDXRef-File-METADATA-2ec41563-f41c-48fe-9108-ebd62e64fafb METAFILE_OF SPDXRef-Package-Python-autocommand-2572a44d
+Relationship: SPDXRef-File-METADATA-e6558cdd-6139-4901-bee5-bf35e3ccae38 METAFILE_OF SPDXRef-Package-Python-backports.tarfile-34695c1d
+Relationship: SPDXRef-File-METADATA-927fb5e3-c28d-47e6-bb17-cd5ea755750b METAFILE_OF SPDXRef-Package-Python-certifi-563b0bab
+Relationship: SPDXRef-File-METADATA-6058160f-a4e5-4f0b-b360-ad661cba17a0 METAFILE_OF SPDXRef-Package-Python-charset-normalizer-7c08b333
+Relationship: SPDXRef-File-METADATA-735eb02b-a470-4791-aca2-6fb246b64d95 METAFILE_OF SPDXRef-Package-Python-defusedxml-3c273017
+Relationship: SPDXRef-File-METADATA-28e8ed03-04ea-4daa-8285-abf128032cb9 METAFILE_OF SPDXRef-Package-Python-idna-11c7d521
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-Pygments-8b67656c
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-defusedxml-3c273017
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-multidict-2b4a5840
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-pip-710d8352
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-requests-c55d6b4f
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-requests-toolbelt-ebaa7d48
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-rich-b9c49fc0
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-setuptools-f0295879
+Relationship: SPDXRef-Package-Python-httpie-edbb3822 DEPENDS_ON SPDXRef-Package-Python-wheel-bc605c93
+Relationship: SPDXRef-Package-Python-importlib-metadata-8ceea989 DEPENDS_ON SPDXRef-Package-Python-packaging-99e3db30
+Relationship: SPDXRef-Package-Python-importlib-metadata-8ceea989 DEPENDS_ON SPDXRef-Package-Python-zipp-ecd89ab3
+Relationship: SPDXRef-Package-Python-inflect-4c202e1f DEPENDS_ON SPDXRef-Package-Python-more-itertools-6c1dfb7d
+Relationship: SPDXRef-Package-Python-inflect-4c202e1f DEPENDS_ON SPDXRef-Package-Python-typeguard-d74dc755
+Relationship: SPDXRef-Package-Python-jaraco.functools-d4df04bd DEPENDS_ON SPDXRef-Package-Python-more-itertools-6c1dfb7d
+Relationship: SPDXRef-Package-Python-jaraco.text-213485fa DEPENDS_ON SPDXRef-Package-Python-autocommand-2572a44d
+Relationship: SPDXRef-Package-Python-jaraco.text-213485fa DEPENDS_ON SPDXRef-Package-Python-inflect-4c202e1f
+Relationship: SPDXRef-Package-Python-jaraco.text-213485fa DEPENDS_ON SPDXRef-Package-Python-more-itertools-6c1dfb7d
+Relationship: SPDXRef-Package-Python-markdown-it-py-31e72eb7 DEPENDS_ON SPDXRef-Package-Python-mdurl-55c70823
+Relationship: SPDXRef-Package-Python-requests-c55d6b4f DEPENDS_ON SPDXRef-Package-Python-PySocks-ecda7831
+Relationship: SPDXRef-Package-Python-requests-c55d6b4f DEPENDS_ON SPDXRef-Package-Python-certifi-563b0bab
+Relationship: SPDXRef-Package-Python-requests-c55d6b4f DEPENDS_ON SPDXRef-Package-Python-charset-normalizer-7c08b333
+Relationship: SPDXRef-Package-Python-requests-c55d6b4f DEPENDS_ON SPDXRef-Package-Python-idna-11c7d521
+Relationship: SPDXRef-Package-Python-requests-c55d6b4f DEPENDS_ON SPDXRef-Package-Python-urllib3-52d836ff
+Relationship: SPDXRef-Package-Python-requests-toolbelt-ebaa7d48 DEPENDS_ON SPDXRef-Package-Python-requests-c55d6b4f
+Relationship: SPDXRef-Package-Python-rich-b9c49fc0 DEPENDS_ON SPDXRef-Package-Python-markdown-it-py-31e72eb7
+Relationship: SPDXRef-Package-Python-setuptools-f0295879 DEPENDS_ON SPDXRef-Package-Python-importlib-metadata-8ceea989
+Relationship: SPDXRef-Package-Python-setuptools-f0295879 DEPENDS_ON SPDXRef-Package-Python-packaging-99e3db30
+Relationship: SPDXRef-Package-Python-setuptools-f0295879 DEPENDS_ON SPDXRef-Package-Python-pip-710d8352
+Relationship: SPDXRef-Package-Python-setuptools-f0295879 DEPENDS_ON SPDXRef-Package-Python-platformdirs-e7e1a160
+Relationship: SPDXRef-Package-Python-setuptools-f0295879 DEPENDS_ON SPDXRef-Package-Python-tomli-5bfa4079
+Relationship: SPDXRef-Package-Python-setuptools-f0295879 DEPENDS_ON SPDXRef-Package-Python-wheel-bc605c93
+Relationship: SPDXRef-Package-Python-typeguard-d74dc755 DEPENDS_ON SPDXRef-Package-Python-packaging-99e3db30
+Relationship: SPDXRef-Package-Python-wheel-bc605c93 DEPENDS_ON SPDXRef-Package-Python-setuptools-f0295879
+Relationship: SPDXRef-Package-Python-zipp-ecd89ab3 DEPENDS_ON SPDXRef-Package-Python-more-itertools-6c1dfb7d
+

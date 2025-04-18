@@ -1,0 +1,368 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "type": "container",
+      "name": "httpie",
+      "purl": "pkg:oci/httpie@sha256:29b391dd791cd23a84ba19e578023c5cdd5048c8f416471b182ce3189f86990e?repository_url=quay.io/rbean/sbom/plugfest/httpie",
+      "version": "latest",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "29b391dd791cd23a84ba19e578023c5cdd5048c8f416471b182ce3189f86990e"
+        }
+      ]
+    },
+    {
+      "name": "calver",
+      "purl": "pkg:pypi/calver@2022.6.26",
+      "version": "2022.6.26",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "certifi",
+      "purl": "pkg:pypi/certifi@2024.8.30",
+      "version": "2024.8.30",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "charset-normalizer",
+      "purl": "pkg:pypi/charset-normalizer@3.4.0",
+      "version": "3.4.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "defusedxml",
+      "purl": "pkg:pypi/defusedxml@0.7.1",
+      "version": "0.7.1",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "flit-core",
+      "purl": "pkg:pypi/flit-core@3.10.1",
+      "version": "3.10.1",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "hatch-vcs",
+      "purl": "pkg:pypi/hatch-vcs@0.4.0",
+      "version": "0.4.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "hatchling",
+      "purl": "pkg:pypi/hatchling@1.26.3",
+      "version": "1.26.3",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "httpie",
+      "purl": "pkg:pypi/httpie@3.2.3?vcs_url=git%2Bssh://git%40github.com/httpie/cli%40f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+      "version": "3.2.3",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "idna",
+      "purl": "pkg:pypi/idna@3.10",
+      "version": "3.10",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "markdown-it-py",
+      "purl": "pkg:pypi/markdown-it-py@3.0.0",
+      "version": "3.0.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "mdurl",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "version": "0.1.2",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "multidict",
+      "purl": "pkg:pypi/multidict@6.1.0",
+      "version": "6.1.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "packaging",
+      "purl": "pkg:pypi/packaging@24.2",
+      "version": "24.2",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "pathspec",
+      "purl": "pkg:pypi/pathspec@0.12.1",
+      "version": "0.12.1",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "pip",
+      "purl": "pkg:pypi/pip@24.3.1",
+      "version": "24.3.1",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "pluggy",
+      "purl": "pkg:pypi/pluggy@1.5.0",
+      "version": "1.5.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "poetry-core",
+      "purl": "pkg:pypi/poetry-core@1.9.1",
+      "version": "1.9.1",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "pygments",
+      "purl": "pkg:pypi/pygments@2.18.0",
+      "version": "2.18.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "pysocks",
+      "purl": "pkg:pypi/pysocks@1.7.1",
+      "version": "1.7.1",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "requests-toolbelt",
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+      "version": "1.0.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "requests",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "version": "2.31.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "rich",
+      "purl": "pkg:pypi/rich@13.9.4",
+      "version": "13.9.4",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "setuptools-scm",
+      "purl": "pkg:pypi/setuptools-scm@8.1.0",
+      "version": "8.1.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "setuptools",
+      "purl": "pkg:pypi/setuptools@75.6.0",
+      "version": "75.6.0",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "trove-classifiers",
+      "purl": "pkg:pypi/trove-classifiers@2024.10.21.16",
+      "version": "2024.10.21.16",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "urllib3",
+      "purl": "pkg:pypi/urllib3@2.2.3",
+      "version": "2.2.3",
+      "properties": [
+        {
+          "name": "cachi2:found_by",
+          "value": "cachi2"
+        }
+      ],
+      "type": "library"
+    }
+  ],
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "red hat",
+        "name": "cachi2"
+      }
+    ],
+    "component": {
+      "type": "container",
+      "name": "httpie",
+      "purl": "pkg:oci/httpie@sha256:29b391dd791cd23a84ba19e578023c5cdd5048c8f416471b182ce3189f86990e?repository_url=quay.io/rbean/sbom/plugfest/httpie",
+      "version": "latest",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "29b391dd791cd23a84ba19e578023c5cdd5048c8f416471b182ce3189f86990e"
+        }
+      ]
+    }
+  },
+  "specVersion": "1.4",
+  "version": 1,
+  "formulation": [
+    {
+      "components": [
+        {
+          "type": "container",
+          "name": "registry.redhat.io/ubi9/python-312",
+          "purl": "pkg:oci/python-312@sha256:88ea2d10c741f169681102b46b16c66d20c94c3cc561edbb6444b0de3a1c81b3?repository_url=registry.redhat.io/ubi9/python-312",
+          "properties": [
+            {
+              "name": "konflux:container:is_base_image",
+              "value": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

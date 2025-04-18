@@ -1,0 +1,2276 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: /home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track
+DocumentNamespace: https://anchore.com/syft/dir/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track-2f5ffcfd-649e-4efc-b6f6-1fcd3c981055
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:06:00Z
+
+##### Unpackaged files
+
+FileName: .github/workflows/ci-test-pr-coverage.yml
+SPDXID: SPDXRef-File-...workflows-ci-test-pr-coverage.yml-00b464bde0e2c19d
+FileType: TEXT
+FileChecksum: SHA1: 475a8ad8ac730bf057d4b4d64c8807bd2fd2a76d
+FileChecksum: SHA256: 8febdf27cc93d8bf465da1f90f604ab4c890ebdc7d2b5cf1e4f79f442c6b621d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/dependency-review.yaml
+SPDXID: SPDXRef-File-...workflows-dependency-review.yaml-103463566181141f
+FileType: TEXT
+FileChecksum: SHA1: 05ff95fc684b4381570df52a8eb937596cc5dede
+FileChecksum: SHA256: 73a9a9650f5adcb78629e9471dfbf9553f9f3cd8016e545f08cbb347e6e1c760
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/_meta-build.yaml
+SPDXID: SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+FileType: TEXT
+FileChecksum: SHA1: 86384a6c131f8f0f699af656cfc5020c789b4940
+FileChecksum: SHA256: 45419d5ae743adb39ac33e6b99dcc0a1bc60d21f9a4a94f6018026236a66b183
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/ci-build.yaml
+SPDXID: SPDXRef-File-.github-workflows-ci-build.yaml-1924293db72f4769
+FileType: TEXT
+FileChecksum: SHA1: 3941cffbe8bafc152b19887fa70d7d66a6676ff7
+FileChecksum: SHA256: 0845d39b1cc290b12ef6aaca47eb41ee85a04281bcec0fd150aa4db1b0a73e3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/ci-publish.yaml
+SPDXID: SPDXRef-File-.github-workflows-ci-publish.yaml-9da4f0cccc39d3d3
+FileType: TEXT
+FileChecksum: SHA1: 15e818e3e94af58d130a22a6a5787acad678dc37
+FileChecksum: SHA256: decf6d432d7c951bf54643a6813a100d82a78499db10785978ca950be5b99aae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/ci-release.yaml
+SPDXID: SPDXRef-File-.github-workflows-ci-release.yaml-5153a7bac527fa0a
+FileType: TEXT
+FileChecksum: SHA1: de4285c561f8af85cbf4733c24a84f656d5e2105
+FileChecksum: SHA256: 775dc036bf8d843fc60e1911b461416ddc132627d516e77182a39828e74007d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/ci-test.yaml
+SPDXID: SPDXRef-File-.github-workflows-ci-test.yaml-8746367bbbbc44fd
+FileType: TEXT
+FileChecksum: SHA1: 6fa45d1e385a17b0b79a64d859107a01f1e84fad
+FileChecksum: SHA256: 197d53e5710b8760dffb9cbf0406c7aab377278d1d9c769e2ab8cd1a5de87187
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/lock.yaml
+SPDXID: SPDXRef-File-.github-workflows-lock.yaml-cf5a33e532a055a1
+FileType: TEXT
+FileChecksum: SHA1: cff0c58c86b3f61f81bee6501f61533eb77a09b3
+FileChecksum: SHA256: ecf0bf7d4f7a52776a52f627c2fb8569f88756b49c98e9b351564dcfdcb38af7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: pom.xml
+SPDXID: SPDXRef-File-pom.xml-0328106cb52bb1b0
+FileType: TEXT
+FileChecksum: SHA1: 0bfab817376983ca0fec00a1fa267944e1b2a039
+FileChecksum: SHA256: c35038681e911a85289428cacc8d793c58405a1507188357f472e45cff1dd925
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Package: /home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track
+
+PackageName: /home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track
+SPDXID: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: FILE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-1ba631c5ce486d6f
+PackageVersion: d632683dd7b4114ad314bca15554477dd762a938
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-publish.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:d632683dd7b4114ad314bca15554477dd762a938:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-1cc9779e6081939d
+PackageVersion: d632683dd7b4114ad314bca15554477dd762a938
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:d632683dd7b4114ad314bca15554477dd762a938:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-958714521eb91989
+PackageVersion: d632683dd7b4114ad314bca15554477dd762a938
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-test.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:d632683dd7b4114ad314bca15554477dd762a938:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-dafbc13c332c9b91
+PackageVersion: d632683dd7b4114ad314bca15554477dd762a938
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-release.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:d632683dd7b4114ad314bca15554477dd762a938:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-e6ddafb83e526205
+PackageVersion: d632683dd7b4114ad314bca15554477dd762a938
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/dependency-review.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:d632683dd7b4114ad314bca15554477dd762a938:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+
+##### Package: actions/dependency-review-action
+
+PackageName: actions/dependency-review-action
+SPDXID: SPDXRef-Package-github-action-actions-dependency-review-action-0bd658d4ee39a0a5
+PackageVersion: 5a2ce3f5b92ee19cbb1541a4984c76d921601d7c
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/dependency-review.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency-review-action:actions\/dependency-review-action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency-review-action:actions\/dependency_review_action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency_review_action:actions\/dependency-review-action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency_review_action:actions\/dependency_review_action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency-review:actions\/dependency-review-action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency-review:actions\/dependency_review_action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency_review:actions\/dependency-review-action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency_review:actions\/dependency_review_action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency:actions\/dependency-review-action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/dependency:actions\/dependency_review_action:5a2ce3f5b92ee19cbb1541a4984c76d921601d7c:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c
+
+##### Package: actions/download-artifact
+
+PackageName: actions/download-artifact
+SPDXID: SPDXRef-Package-github-action-actions-download-artifact-0eb36f9081c754b3
+PackageVersion: fa0a91b85d4f404e444e00e005971372dc801d16
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-test-pr-coverage.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16
+
+##### Package: actions/download-artifact
+
+PackageName: actions/download-artifact
+SPDXID: SPDXRef-Package-github-action-actions-download-artifact-49cad60f075e7c61
+PackageVersion: fa0a91b85d4f404e444e00e005971372dc801d16
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-publish.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16
+
+##### Package: actions/download-artifact
+
+PackageName: actions/download-artifact
+SPDXID: SPDXRef-Package-github-action-actions-download-artifact-78d6bccf4f4b962c
+PackageVersion: fa0a91b85d4f404e444e00e005971372dc801d16
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download-artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download_artifact:fa0a91b85d4f404e444e00e005971372dc801d16:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16
+
+##### Package: actions/setup-java
+
+PackageName: actions/setup-java
+SPDXID: SPDXRef-Package-github-action-actions-setup-java-51bad94c7d35e9aa
+PackageVersion: b36c23c0d998641eff861008f374ee103c25ac73
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-java:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-java:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_java:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_java:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73
+
+##### Package: actions/setup-java
+
+PackageName: actions/setup-java
+SPDXID: SPDXRef-Package-github-action-actions-setup-java-da91983b95ef0fbc
+PackageVersion: b36c23c0d998641eff861008f374ee103c25ac73
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-test.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-java:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-java:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_java:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_java:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73
+
+##### Package: actions/setup-java
+
+PackageName: actions/setup-java
+SPDXID: SPDXRef-Package-github-action-actions-setup-java-fce3afff5c436c36
+PackageVersion: b36c23c0d998641eff861008f374ee103c25ac73
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-release.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-java:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-java:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_java:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_java:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_java:b36c23c0d998641eff861008f374ee103c25ac73:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-548515ab7a6e42dd
+PackageVersion: 50769540e7f4bd5e21e526ee35c689e35e0d6874
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-test.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-b889f2e4a00b7e6a
+PackageVersion: 50769540e7f4bd5e21e526ee35c689e35e0d6874
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:50769540e7f4bd5e21e526ee35c689e35e0d6874:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874
+
+##### Package: aquasecurity/trivy-action
+
+PackageName: aquasecurity/trivy-action
+SPDXID: SPDXRef-Package-github-action-aquasecurity-trivy-action-15a06134694e73d9
+PackageVersion: 6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aquasecurity\/trivy-action:aquasecurity\/trivy-action:6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aquasecurity\/trivy-action:aquasecurity\/trivy_action:6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aquasecurity\/trivy_action:aquasecurity\/trivy-action:6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aquasecurity\/trivy_action:aquasecurity\/trivy_action:6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aquasecurity\/trivy:aquasecurity\/trivy-action:6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aquasecurity\/trivy:aquasecurity\/trivy_action:6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/aquasecurity/trivy-action@6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8
+
+##### Package: codacy/codacy-coverage-reporter-action
+
+PackageName: codacy/codacy-coverage-reporter-action
+SPDXID: SPDXRef-Package-github-action-codacy-codacy-coverage-reporter-action-dbcc97ac11d7d9ea
+PackageVersion: v1.3.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-test.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy-coverage-reporter-action:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy-coverage-reporter-action:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy_coverage_reporter_action:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy_coverage_reporter_action:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy-coverage-reporter:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy-coverage-reporter:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy_coverage_reporter:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy_coverage_reporter:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy-coverage:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy-coverage:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy_coverage:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy_coverage:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy:codacy\/codacy-coverage-reporter-action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codacy\/codacy:codacy\/codacy_coverage_reporter_action:v1.3.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/codacy/codacy-coverage-reporter-action@v1.3.0
+
+##### Package: dessant/lock-threads
+
+PackageName: dessant/lock-threads
+SPDXID: SPDXRef-Package-github-action-dessant-lock-threads-aa34ede98037cfd0
+PackageVersion: be8aa5be94131386884a6da4189effda9b14aa21
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/lock.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dessant\/lock-threads:dessant\/lock-threads:be8aa5be94131386884a6da4189effda9b14aa21:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dessant\/lock-threads:dessant\/lock_threads:be8aa5be94131386884a6da4189effda9b14aa21:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dessant\/lock_threads:dessant\/lock-threads:be8aa5be94131386884a6da4189effda9b14aa21:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dessant\/lock_threads:dessant\/lock_threads:be8aa5be94131386884a6da4189effda9b14aa21:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dessant\/lock:dessant\/lock-threads:be8aa5be94131386884a6da4189effda9b14aa21:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dessant\/lock:dessant\/lock_threads:be8aa5be94131386884a6da4189effda9b14aa21:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/dessant/lock-threads@be8aa5be94131386884a6da4189effda9b14aa21
+
+##### Package: docker/build-push-action
+
+PackageName: docker/build-push-action
+SPDXID: SPDXRef-Package-github-action-docker-build-push-action-333cc5b987bbf00d
+PackageVersion: 32945a339266b759abcbdc89316275140b0fc960
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push-action:docker\/build-push-action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push-action:docker\/build_push_action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push_action:docker\/build-push-action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push_action:docker\/build_push_action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push:docker\/build-push-action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push:docker\/build_push_action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push:docker\/build-push-action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push:docker\/build_push_action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build:docker\/build-push-action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build:docker\/build_push_action:32945a339266b759abcbdc89316275140b0fc960:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/build-push-action@32945a339266b759abcbdc89316275140b0fc960
+
+##### Package: docker/login-action
+
+PackageName: docker/login-action
+SPDXID: SPDXRef-Package-github-action-docker-login-action-dfa598830b5ec143
+PackageVersion: 9780b0c442fbb1117ed29e0efdff1e18412f7567
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login-action:docker\/login-action:9780b0c442fbb1117ed29e0efdff1e18412f7567:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login-action:docker\/login_action:9780b0c442fbb1117ed29e0efdff1e18412f7567:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login_action:docker\/login-action:9780b0c442fbb1117ed29e0efdff1e18412f7567:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login_action:docker\/login_action:9780b0c442fbb1117ed29e0efdff1e18412f7567:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login:docker\/login-action:9780b0c442fbb1117ed29e0efdff1e18412f7567:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login:docker\/login_action:9780b0c442fbb1117ed29e0efdff1e18412f7567:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567
+
+##### Package: docker/setup-buildx-action
+
+PackageName: docker/setup-buildx-action
+SPDXID: SPDXRef-Package-github-action-docker-setup-buildx-action-7bc338e26ed653cb
+PackageVersion: 988b5a0280414f521da01fcc63a27aeeb4b104db
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx-action:docker\/setup-buildx-action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx-action:docker\/setup_buildx_action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx_action:docker\/setup-buildx-action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx_action:docker\/setup_buildx_action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx:docker\/setup-buildx-action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx:docker\/setup_buildx_action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx:docker\/setup-buildx-action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx:docker\/setup_buildx_action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup-buildx-action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup_buildx_action:988b5a0280414f521da01fcc63a27aeeb4b104db:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/setup-buildx-action@988b5a0280414f521da01fcc63a27aeeb4b104db
+
+##### Package: docker/setup-qemu-action
+
+PackageName: docker/setup-qemu-action
+SPDXID: SPDXRef-Package-github-action-docker-setup-qemu-action-fc5f3862129e525f
+PackageVersion: 49b3bc8e6bdd4a60e6116a5414239cba5943d3cf
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu-action:docker\/setup-qemu-action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu-action:docker\/setup_qemu_action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu_action:docker\/setup-qemu-action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu_action:docker\/setup_qemu_action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu:docker\/setup-qemu-action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu:docker\/setup_qemu_action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu:docker\/setup-qemu-action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu:docker\/setup_qemu_action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup-qemu-action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup_qemu_action:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/setup-qemu-action@49b3bc8e6bdd4a60e6116a5414239cba5943d3cf
+
+##### Package: github/codeql-action/upload-sarif
+
+PackageName: github/codeql-action/upload-sarif
+SPDXID: SPDXRef-Package-github-action-github-codeql-action-upload-sarif-c05dcb7abcc42a89
+PackageVersion: 461ef6c76dfe95d5c364de2f431ddbd31a417628
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/_meta-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql-action\/upload-sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql_action\/upload_sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql-action\/upload-sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql_action\/upload_sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload:github\/codeql-action\/upload-sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload:github\/codeql_action\/upload_sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload:github\/codeql-action\/upload-sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload:github\/codeql_action\/upload_sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql-action\/upload-sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql_action\/upload_sarif:461ef6c76dfe95d5c364de2f431ddbd31a417628:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/github/codeql-action@461ef6c76dfe95d5c364de2f431ddbd31a417628#upload-sarif
+
+##### Package: ./.github/workflows/_meta-build.yaml
+
+PackageName: ./.github/workflows/_meta-build.yaml
+SPDXID: SPDXRef-Package-github-action-workflow-.-.github-workflows--meta-build.yaml-60f5562eedd01057
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-publish.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta-build.yaml:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta-build.yaml:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta-build.yaml:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta-build.yaml:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta-build.yaml:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta-build.yaml:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta_build.yaml:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta_build.yaml:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta_build.yaml:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+
+##### Package: ./.github/workflows/_meta-build.yaml
+
+PackageName: ./.github/workflows/_meta-build.yaml
+SPDXID: SPDXRef-Package-github-action-workflow-.-.github-workflows--meta-build.yaml-660a09bead3f1098
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci-build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta-build.yaml:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta-build.yaml:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta-build.yaml:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta-build.yaml:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta-build.yaml:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta-build.yaml:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta_build.yaml:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta_build.yaml:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta_build.yaml:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/-meta:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/_meta:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/:.\/.github\/workflows\/-meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/:.\/.github\/workflows\/_meta-build.yaml:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/workflows\/:.\/.github\/workflows\/_meta_build.yaml:*:*:*:*:*:*:*:*
+
+##### Package: JUnitParams
+
+PackageName: JUnitParams
+SPDXID: SPDXRef-Package-java-archive-JUnitParams-30e52c0f42986ec4
+PackageVersion: 1.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JUnitParams:JUnitParams:1.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/pl.pragmatists/JUnitParams@1.1.1
+
+##### Package: alpine-common
+
+PackageName: alpine-common
+SPDXID: SPDXRef-Package-java-archive-alpine-common-a4f311b070115bc3
+PackageVersion: 3.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-common:alpine-common:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-common:alpine_common:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_common:alpine-common:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_common:alpine_common:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine-common:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine_common:3.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/alpine-common@3.1.1
+
+##### Package: alpine-infra
+
+PackageName: alpine-infra
+SPDXID: SPDXRef-Package-java-archive-alpine-infra-0da892e561d95895
+PackageVersion: 3.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-infra:alpine-infra:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-infra:alpine_infra:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_infra:alpine-infra:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_infra:alpine_infra:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine-infra:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine_infra:3.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/alpine-infra@3.1.1
+
+##### Package: alpine-model
+
+PackageName: alpine-model
+SPDXID: SPDXRef-Package-java-archive-alpine-model-e7ecf0cb230076c1
+PackageVersion: 3.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-model:alpine-model:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-model:alpine_model:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_model:alpine-model:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_model:alpine_model:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine-model:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine_model:3.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/alpine-model@3.1.1
+
+##### Package: alpine-server
+
+PackageName: alpine-server
+SPDXID: SPDXRef-Package-java-archive-alpine-server-20f2603d1daa9d04
+PackageVersion: 3.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-server:alpine-server:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine-server:alpine_server:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_server:alpine-server:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine_server:alpine_server:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine-server:3.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alpine:alpine_server:3.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/alpine-server@3.1.1
+
+##### Package: assertj-core
+
+PackageName: assertj-core
+SPDXID: SPDXRef-Package-java-archive-assertj-core-9ed708efda9ac6ba
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assertj-core:assertj-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assertj-core:assertj_core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assertj_core:assertj-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assertj_core:assertj_core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.assertj:assertj-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.assertj:assertj_core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assertj:assertj-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assertj:assertj_core:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.assertj/assertj-core
+
+##### Package: awaitility
+
+PackageName: awaitility
+SPDXID: SPDXRef-Package-java-archive-awaitility-62addb9306e9ddee
+PackageVersion: 4.2.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.awaitility:awaitility:4.2.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:awaitility:awaitility:4.2.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.awaitility/awaitility@4.2.2
+
+##### Package: cloud-sql-connector-jdbc-sqlserver
+
+PackageName: cloud-sql-connector-jdbc-sqlserver
+SPDXID: SPDXRef-Package-java-archive-cloud-sql-connector-jdbc-sqlserver-4b7aa17e53285ee2
+PackageVersion: 1.20.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector-jdbc-sqlserver:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector-jdbc-sqlserver:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector_jdbc_sqlserver:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector_jdbc_sqlserver:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector-jdbc:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector-jdbc:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector_jdbc:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector_jdbc:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector-jdbc-sqlserver:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector_jdbc_sqlserver:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:cloud-sql-connector-jdbc-sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:cloud_sql_connector_jdbc_sqlserver:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector-jdbc:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector_jdbc:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql-connector:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql_connector:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud-sql:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud_sql:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:cloud:1.20.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.google.cloud.sql/cloud-sql-connector-jdbc-sqlserver@1.20.1
+
+##### Package: commons-compress
+
+PackageName: commons-compress
+SPDXID: SPDXRef-Package-java-archive-commons-compress-044d6858ccfaac65
+PackageVersion: 1.27.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:commons-compress:1.27.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:commons_compress:1.27.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:commons:1.27.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.commons/commons-compress@1.27.1
+
+##### Package: commons-text
+
+PackageName: commons-text
+SPDXID: SPDXRef-Package-java-archive-commons-text-bfd38409590a51fa
+PackageVersion: 1.12.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:commons-text:1.12.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:commons_text:1.12.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:commons:1.12.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.commons/commons-text@1.12.0
+
+##### Package: cpe-parser
+
+PackageName: cpe-parser
+SPDXID: SPDXRef-Package-java-archive-cpe-parser-bbe3e5edef0a5fe9
+PackageVersion: 2.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cpe-parser:cpe-parser:2.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cpe-parser:cpe_parser:2.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cpe_parser:cpe-parser:2.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cpe_parser:cpe_parser:2.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cpe:cpe-parser:2.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cpe:cpe_parser:2.1.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/cpe-parser@2.1.0
+
+##### Package: cvss-calculator
+
+PackageName: cvss-calculator
+SPDXID: SPDXRef-Package-java-archive-cvss-calculator-1b79449ba94064f1
+PackageVersion: 1.4.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cvss-calculator:cvss-calculator:1.4.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cvss-calculator:cvss_calculator:1.4.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cvss_calculator:cvss-calculator:1.4.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cvss_calculator:cvss_calculator:1.4.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cvss:cvss-calculator:1.4.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cvss:cvss_calculator:1.4.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/cvss-calculator@1.4.2
+
+##### Package: cyclonedx-core-java
+
+PackageName: cyclonedx-core-java
+SPDXID: SPDXRef-Package-java-archive-cyclonedx-core-java-77146690404ab60e
+PackageVersion: 9.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx-core-java:cyclonedx-core-java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx-core-java:cyclonedx_core_java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx_core_java:cyclonedx-core-java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx_core_java:cyclonedx_core_java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx-core:cyclonedx-core-java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx-core:cyclonedx_core_java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx_core:cyclonedx-core-java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx_core:cyclonedx_core_java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.cyclonedx:cyclonedx-core-java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.cyclonedx:cyclonedx_core_java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx:cyclonedx-core-java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cyclonedx:cyclonedx_core_java:9.1.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.cyclonedx/cyclonedx-core-java@9.1.0
+
+##### Package: dec
+
+PackageName: dec
+SPDXID: SPDXRef-Package-java-archive-dec-1c8d21cf462ca62d
+PackageVersion: 0.1.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.brotli:dec:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:brotli:dec:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dec:dec:0.1.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.brotli/dec@0.1.2
+
+##### Package: dependency-track
+
+PackageName: dependency-track
+SPDXID: SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+PackageVersion: 4.12.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.dependencytrack:dependency-track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.dependencytrack:dependency_track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependency-track:dependency-track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependency-track:dependency_track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependency_track:dependency-track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependency_track:dependency_track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependencytrack:dependency-track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependencytrack:dependency_track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependency:dependency-track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dependency:dependency_track:4.12.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.dependencytrack/dependency-track@4.12.1
+
+##### Package: github-api
+
+PackageName: github-api
+SPDXID: SPDXRef-Package-java-archive-github-api-bc93da2951760edd
+PackageVersion: 1.323
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.kohsuke:github-api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.kohsuke:github_api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github-api:github-api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github-api:github_api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github_api:github-api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github_api:github_api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:kohsuke:github-api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:kohsuke:github_api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:github-api:1.323:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:github_api:1.323:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.kohsuke/github-api@1.323
+
+##### Package: greenmail-junit4
+
+PackageName: greenmail-junit4
+SPDXID: SPDXRef-Package-java-archive-greenmail-junit4-2064caa90ea0ce27
+PackageVersion: 2.0.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:greenmail-junit4:greenmail-junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:greenmail-junit4:greenmail_junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:greenmail_junit4:greenmail-junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:greenmail_junit4:greenmail_junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.icegreen:greenmail-junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.icegreen:greenmail_junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:greenmail:greenmail-junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:greenmail:greenmail_junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:icegreen:greenmail-junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:icegreen:greenmail_junit4:2.0.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.icegreen/greenmail-junit4@2.0.1
+
+##### Package: httpclient
+
+PackageName: httpclient
+SPDXID: SPDXRef-Package-java-archive-httpclient-42e1dfc4e70b4456
+PackageVersion: 4.5.14
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:httpclient:4.5.14:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.httpcomponents/httpclient@4.5.14
+
+##### Package: httpclient5
+
+PackageName: httpclient5
+SPDXID: SPDXRef-Package-java-archive-httpclient5-e200a638db95a762
+PackageVersion: 5.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:httpclient5:5.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:client5:5.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4
+
+##### Package: httpmime
+
+PackageName: httpmime
+SPDXID: SPDXRef-Package-java-archive-httpmime-b1eb454f4f21746c
+PackageVersion: 4.5.14
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:httpmime:4.5.14:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.httpcomponents/httpmime@4.5.14
+
+##### Package: jakarta.servlet-api
+
+PackageName: jakarta.servlet-api
+SPDXID: SPDXRef-Package-java-archive-jakarta.servlet-api-43291cb2c8fadea0
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jakarta.servlet-api:jakarta.servlet-api:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jakarta.servlet-api:jakarta.servlet_api:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jakarta.servlet_api:jakarta.servlet-api:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jakarta.servlet_api:jakarta.servlet_api:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jakarta.servlet:jakarta.servlet-api:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jakarta.servlet:jakarta.servlet_api:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/jakarta.servlet/jakarta.servlet-api
+
+##### Package: jersey-grizzly-connector
+
+PackageName: jersey-grizzly-connector
+SPDXID: SPDXRef-Package-java-archive-jersey-grizzly-connector-61091356c00985cb
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.glassfish.jersey.connectors:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.glassfish.jersey.connectors:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-grizzly-connector:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-grizzly-connector:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_grizzly_connector:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_grizzly_connector:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-grizzly:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-grizzly:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_grizzly:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_grizzly:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.glassfish.jersey.connectors:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:connectors:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:connectors:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:glassfish:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:glassfish:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-grizzly-connector:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey:jersey-grizzly-connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey:jersey_grizzly_connector:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_grizzly_connector:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-grizzly:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_grizzly:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:connectors:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:glassfish:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey:jersey:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.glassfish.jersey.connectors/jersey-grizzly-connector
+
+##### Package: jersey-test-framework-provider-grizzly2
+
+PackageName: jersey-test-framework-provider-grizzly2
+SPDXID: SPDXRef-Package-java-archive-jersey-test-framework-provider-grizzly2-d3777c99d019383c
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.glassfish.jersey.test-framework.providers:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework-provider-grizzly2:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework-provider-grizzly2:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework_provider_grizzly2:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework_provider_grizzly2:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework-provider:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework-provider:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework_provider:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework_provider:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test-framework:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test-framework:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test_framework:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test_framework:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.glassfish.jersey.test-framework.providers:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:glassfish:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:glassfish:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:providers:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:providers:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework-provider-grizzly2:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework_provider_grizzly2:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test:jersey-test-framework-provider-grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test:jersey_test_framework_provider_grizzly2:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework-provider:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework_provider:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test-framework:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test_framework:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test-framework:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test_framework:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey-test:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey_test:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:glassfish:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:providers:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jersey:jersey:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:test:jersey:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2
+
+##### Package: json
+
+PackageName: json
+SPDXID: SPDXRef-Package-java-archive-json-ba374b72b0b74b94
+PackageVersion: 20240303
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.json:json:20240303:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json:json:20240303:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.json/json@20240303
+
+##### Package: json-unit-assertj
+
+PackageName: json-unit-assertj
+SPDXID: SPDXRef-Package-java-archive-json-unit-assertj-6bfa3c431b51039a
+PackageVersion: 3.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.javacrumbs.json-unit:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.javacrumbs.json-unit:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit-assertj:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit-assertj:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit_assertj:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit_assertj:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.javacrumbs.json-unit:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.javacrumbs.json-unit:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:javacrumbs:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:javacrumbs:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit-assertj:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit-assertj:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit_assertj:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit_assertj:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json:json-unit-assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json:json_unit_assertj:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:javacrumbs:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:javacrumbs:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-unit:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_unit:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json:json-unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json:json_unit:3.4.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/net.javacrumbs.json-unit/json-unit-assertj@3.4.1
+
+##### Package: junit
+
+PackageName: junit
+SPDXID: SPDXRef-Package-java-archive-junit-ea20f6e900441c9f
+PackageVersion: 4.13.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:junit:junit:4.13.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/junit/junit@4.13.2
+
+##### Package: log4j-over-slf4j
+
+PackageName: log4j-over-slf4j
+SPDXID: SPDXRef-Package-java-archive-log4j-over-slf4j-9fc99726918a2fe4
+PackageVersion: 2.0.16
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j-over-slf4j:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j-over-slf4j:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j_over_slf4j:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j_over_slf4j:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j-over:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j-over:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j_over:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j_over:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.slf4j:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.slf4j:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:log4j:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:slf4j:log4j-over-slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:slf4j:log4j_over_slf4j:2.0.16:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.slf4j/log4j-over-slf4j@2.0.16
+
+##### Package: lucene-analyzers-common
+
+PackageName: lucene-analyzers-common
+SPDXID: SPDXRef-Package-java-archive-lucene-analyzers-common-8ebad02a03cf6b23
+PackageVersion: 8.11.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene-analyzers-common:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene_analyzers_common:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene:8.11.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.lucene/lucene-analyzers-common@8.11.4
+
+##### Package: lucene-core
+
+PackageName: lucene-core
+SPDXID: SPDXRef-Package-java-archive-lucene-core-e8bc4cd09554a6b7
+PackageVersion: 8.11.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene-core:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene_core:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene:8.11.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.lucene/lucene-core@8.11.4
+
+##### Package: lucene-queries
+
+PackageName: lucene-queries
+SPDXID: SPDXRef-Package-java-archive-lucene-queries-88da4549193a6f1b
+PackageVersion: 8.11.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene-queries:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene_queries:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene:8.11.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.lucene/lucene-queries@8.11.4
+
+##### Package: lucene-queryparser
+
+PackageName: lucene-queryparser
+SPDXID: SPDXRef-Package-java-archive-lucene-queryparser-2b08a569f5d17221
+PackageVersion: 8.11.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene-queryparser:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene_queryparser:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene:8.11.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.lucene/lucene-queryparser@8.11.4
+
+##### Package: lucene-sandbox
+
+PackageName: lucene-sandbox
+SPDXID: SPDXRef-Package-java-archive-lucene-sandbox-a4ae4fc31a525190
+PackageVersion: 8.11.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene-sandbox:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene_sandbox:8.11.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:lucene:8.11.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.lucene/lucene-sandbox@8.11.4
+
+##### Package: maven-artifact
+
+PackageName: maven-artifact
+SPDXID: SPDXRef-Package-java-archive-maven-artifact-0550faf0ae4d0ccf
+PackageVersion: 3.9.9
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:maven-artifact:3.9.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:maven_artifact:3.9.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:apache:maven:3.9.9:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.maven/maven-artifact@3.9.9
+
+##### Package: mockito-core
+
+PackageName: mockito-core
+SPDXID: SPDXRef-Package-java-archive-mockito-core-b1a15a6e93dab83d
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockito-core:mockito-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockito-core:mockito_core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockito_core:mockito-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockito_core:mockito_core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.mockito:mockito-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.mockito:mockito_core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockito:mockito-core:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockito:mockito_core:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.mockito/mockito-core
+
+##### Package: mockserver-netty
+
+PackageName: mockserver-netty
+SPDXID: SPDXRef-Package-java-archive-mockserver-netty-62da331cd2085262
+PackageVersion: 5.15.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockserver-netty:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockserver-netty:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockserver_netty:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockserver_netty:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.mock-server:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.mock-server:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mock-server:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mock-server:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mock_server:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mock_server:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockserver:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mockserver:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mock:mockserver-netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mock:mockserver_netty:5.15.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.mock-server/mockserver-netty@5.15.0
+
+##### Package: mssql-jdbc
+
+PackageName: mssql-jdbc
+SPDXID: SPDXRef-Package-java-archive-mssql-jdbc-9d340e74f5cfa73c
+PackageVersion: 12.8.1.jre11
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.microsoft.sqlserver:mssql-jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.microsoft.sqlserver:mssql_jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mssql-jdbc:mssql-jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mssql-jdbc:mssql_jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mssql_jdbc:mssql-jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mssql_jdbc:mssql_jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:microsoft:mssql-jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:microsoft:mssql_jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sqlserver:mssql-jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sqlserver:mssql_jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mssql:mssql-jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mssql:mssql_jdbc:12.8.1.jre11:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.microsoft.sqlserver/mssql-jdbc@12.8.1.jre11
+
+##### Package: mysql-connector-j
+
+PackageName: mysql-connector-j
+SPDXID: SPDXRef-Package-java-archive-mysql-connector-j-45c798ebc3fa5e73
+PackageVersion: 8.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-connector-j:mysql-connector-j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-connector-j:mysql_connector_j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_connector_j:mysql-connector-j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_connector_j:mysql_connector_j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-connector:mysql-connector-j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-connector:mysql_connector_j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_connector:mysql-connector-j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_connector:mysql_connector_j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.mysql:mysql-connector-j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.mysql:mysql_connector_j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql:mysql-connector-j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql:mysql_connector_j:8.2.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.mysql/mysql-connector-j@8.2.0
+
+##### Package: mysql-socket-factory-connector-j-8
+
+PackageName: mysql-socket-factory-connector-j-8
+SPDXID: SPDXRef-Package-java-archive-mysql-socket-factory-connector-j-8-0e029b6a13f869af
+PackageVersion: 1.20.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory-connector-j-8:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory-connector-j-8:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory_connector_j_8:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory_connector_j_8:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory-connector-j:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory-connector-j:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory_connector_j:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory_connector_j:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory-connector:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory-connector:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory_connector:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory_connector:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket-factory:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket_factory:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql-socket:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql_socket:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mysql:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:mysql-socket-factory-connector-j-8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:mysql_socket_factory_connector_j_8:1.20.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.google.cloud.sql/mysql-socket-factory-connector-j-8@1.20.1
+
+##### Package: open-vulnerability-clients
+
+PackageName: open-vulnerability-clients
+SPDXID: SPDXRef-Package-java-archive-open-vulnerability-clients-eb0e89d2d6326beb
+PackageVersion: 7.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open-vulnerability-clients:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open-vulnerability-clients:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open_vulnerability_clients:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open_vulnerability_clients:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.jeremylong:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.jeremylong:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open-vulnerability:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open-vulnerability:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open_vulnerability:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open_vulnerability:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jeremylong:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jeremylong:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open:open-vulnerability-clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:open:open_vulnerability_clients:7.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.github.jeremylong/open-vulnerability-clients@7.0.0
+
+##### Package: owasp-risk-rating-calculator
+
+PackageName: owasp-risk-rating-calculator
+SPDXID: SPDXRef-Package-java-archive-owasp-risk-rating-calculator-50999771cb2f16e2
+PackageVersion: 1.0.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp-risk-rating-calculator:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp-risk-rating-calculator:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp_risk_rating_calculator:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp_risk_rating_calculator:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp-risk-rating:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp-risk-rating:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp_risk_rating:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp_risk_rating:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp-risk:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp-risk:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp_risk:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp_risk:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp:owasp-risk-rating-calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owasp:owasp_risk_rating_calculator:1.0.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/us.springett/owasp-risk-rating-calculator@1.0.1
+
+##### Package: packageurl-java
+
+PackageName: packageurl-java
+SPDXID: SPDXRef-Package-java-archive-packageurl-java-af1e2f067f60d0c7
+PackageVersion: 1.5.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.github.package-url:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.github.package-url:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:packageurl-java:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:packageurl-java:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:packageurl_java:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:packageurl_java:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:package-url:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:package-url:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:package_url:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:package_url:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:packageurl:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:packageurl:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:package:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:package:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:packageurl-java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:packageurl_java:1.5.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.github.package-url/packageurl-java@1.5.0
+
+##### Package: pebble
+
+PackageName: pebble
+SPDXID: SPDXRef-Package-java-archive-pebble-ad794e12af77ab99
+PackageVersion: 3.2.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.pebbletemplates:pebble:3.2.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pebbletemplates:pebble:3.2.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pebble:pebble:3.2.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.pebbletemplates/pebble@3.2.2
+
+##### Package: postgres-socket-factory
+
+PackageName: postgres-socket-factory
+SPDXID: SPDXRef-Package-java-archive-postgres-socket-factory-4a5b71108238e402
+PackageVersion: 1.20.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres-socket-factory:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres-socket-factory:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres_socket_factory:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres_socket_factory:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.cloud.sql:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres-socket:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres-socket:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres_socket:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres_socket:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgres:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloud:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:postgres-socket-factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:sql:postgres_socket_factory:1.20.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.google.cloud.sql/postgres-socket-factory@1.20.1
+
+##### Package: postgresql
+
+PackageName: postgresql
+SPDXID: SPDXRef-Package-java-archive-postgresql-f6f7e8409492b97e
+PackageVersion: 42.7.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.postgresql:postgresql:42.7.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:postgresql:postgresql:42.7.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.postgresql/postgresql@42.7.4
+
+##### Package: protobuf-java
+
+PackageName: protobuf-java
+SPDXID: SPDXRef-Package-java-archive-protobuf-java-e0042bc8665c02a0
+PackageVersion: 4.28.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.protobuf:protobuf-java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.protobuf:protobuf_java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.protobuf:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java:protobuf-java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java:protobuf_java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java:protobuf-java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java:protobuf_java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf:protobuf-java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf:protobuf_java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf-java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf_java:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.google.protobuf/protobuf-java@4.28.2
+
+##### Package: protobuf-java-util
+
+PackageName: protobuf-java-util
+SPDXID: SPDXRef-Package-java-archive-protobuf-java-util-e134a5f8188725f1
+PackageVersion: 4.28.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.protobuf:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.protobuf:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java-util:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java-util:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java_util:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java_util:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.google.protobuf:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java-util:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java_util:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf-java-util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf_java_util:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf-java:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf_java:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:protobuf:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf:4.28.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.google.protobuf/protobuf-java-util@4.28.2
+
+##### Package: resilience4j-micrometer
+
+PackageName: resilience4j-micrometer
+SPDXID: SPDXRef-Package-java-archive-resilience4j-micrometer-01984b9d5cce737f
+PackageVersion: 2.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-micrometer:resilience4j-micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-micrometer:resilience4j_micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_micrometer:resilience4j-micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_micrometer:resilience4j_micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j-micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j_micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-micrometer:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j-micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j_micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_micrometer:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j-micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j_micrometer:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.github.resilience4j/resilience4j-micrometer@2.2.0
+
+##### Package: resilience4j-ratelimiter
+
+PackageName: resilience4j-ratelimiter
+SPDXID: SPDXRef-Package-java-archive-resilience4j-ratelimiter-238e6aa26f7becdb
+PackageVersion: 2.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-ratelimiter:resilience4j-ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-ratelimiter:resilience4j_ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_ratelimiter:resilience4j-ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_ratelimiter:resilience4j_ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j-ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j_ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-ratelimiter:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j-ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j_ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_ratelimiter:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j-ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j_ratelimiter:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.github.resilience4j/resilience4j-ratelimiter@2.2.0
+
+##### Package: resilience4j-retry
+
+PackageName: resilience4j-retry
+SPDXID: SPDXRef-Package-java-archive-resilience4j-retry-cdeafb8024c6786b
+PackageVersion: 2.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j-retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j_retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-retry:resilience4j-retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-retry:resilience4j_retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_retry:resilience4j-retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_retry:resilience4j_retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.github.resilience4j:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j-retry:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j-retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j_retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j_retry:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j-retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j_retry:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:resilience4j:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:resilience4j:2.2.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.github.resilience4j/resilience4j-retry@2.2.0
+
+##### Package: signpost-core
+
+PackageName: signpost-core
+SPDXID: SPDXRef-Package-java-archive-signpost-core-6a121f7b6614aece
+PackageVersion: 2.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:signpost-core:signpost-core:2.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:signpost-core:signpost_core:2.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:signpost_core:signpost-core:2.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:signpost_core:signpost_core:2.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:signpost:signpost-core:2.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:signpost:signpost_core:2.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/oauth.signpost/signpost-core@2.1.1
+
+##### Package: swagger-jaxrs2-jakarta
+
+PackageName: swagger-jaxrs2-jakarta
+SPDXID: SPDXRef-Package-java-archive-swagger-jaxrs2-jakarta-a5a663f3e1f3d203
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-jaxrs2-jakarta:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-jaxrs2-jakarta:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_jaxrs2_jakarta:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_jaxrs2_jakarta:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.swagger.core.v3:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.swagger.core.v3:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-jaxrs2:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-jaxrs2:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_jaxrs2:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_jaxrs2:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:core:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:core:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:v3:swagger-jaxrs2-jakarta:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:v3:swagger_jaxrs2_jakarta:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.swagger.core.v3/swagger-jaxrs2-jakarta
+
+##### Package: swagger-parser
+
+PackageName: swagger-parser
+SPDXID: SPDXRef-Package-java-archive-swagger-parser-a6381351ed5366d6
+PackageVersion: 2.1.22
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.swagger.parser.v3:swagger-parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.swagger.parser.v3:swagger_parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-parser:swagger-parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-parser:swagger_parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_parser:swagger-parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_parser:swagger_parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io.swagger.parser.v3:parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger:swagger-parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger:swagger_parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:parser:swagger-parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:parser:swagger_parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger-parser:parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger_parser:parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:v3:swagger-parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:v3:swagger_parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:swagger:parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:parser:parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:v3:parser:2.1.22:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.swagger.parser.v3/swagger-parser@2.1.22
+
+##### Package: system-rules
+
+PackageName: system-rules
+SPDXID: SPDXRef-Package-java-archive-system-rules-294c48e3dfec7a04
+PackageVersion: 1.19.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.github.stefanbirkner:system-rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.github.stefanbirkner:system_rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:stefanbirkner:system-rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:stefanbirkner:system_rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:system-rules:system-rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:system-rules:system_rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:system_rules:system-rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:system_rules:system_rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:system-rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:system_rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:system:system-rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:system:system_rules:1.19.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.github.stefanbirkner/system-rules@1.19.0
+
+##### Package: testcontainers
+
+PackageName: testcontainers
+SPDXID: SPDXRef-Package-java-archive-testcontainers-2d5f5671f232ff3a
+PackageVersion: 1.20.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org.testcontainers:testcontainers:1.20.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:testcontainers:testcontainers:1.20.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.testcontainers/testcontainers@1.20.2
+
+##### Package: wiremock-jre8
+
+PackageName: wiremock-jre8
+SPDXID: SPDXRef-Package-java-archive-wiremock-jre8-3c625d47afb400bd
+PackageVersion: 2.35.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.github.tomakehurst:wiremock-jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.github.tomakehurst:wiremock_jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wiremock-jre8:wiremock-jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wiremock-jre8:wiremock_jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wiremock_jre8:wiremock-jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wiremock_jre8:wiremock_jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:tomakehurst:wiremock-jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:tomakehurst:wiremock_jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wiremock:wiremock-jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wiremock:wiremock_jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:wiremock-jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github:wiremock_jre8:2.35.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.github.tomakehurst/wiremock-jre8@2.35.2
+
+##### Package: woodstox-core
+
+PackageName: woodstox-core
+SPDXID: SPDXRef-Package-java-archive-woodstox-core-42074102c8b70487
+PackageVersion: 7.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed java archive: /pom.xml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.fasterxml.woodstox:woodstox-core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.fasterxml.woodstox:woodstox_core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:com.fasterxml.woodstox:woodstox:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox-core:woodstox-core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox-core:woodstox_core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox_core:woodstox-core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox_core:woodstox_core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:fasterxml:woodstox-core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:fasterxml:woodstox_core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox-core:woodstox:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox:woodstox-core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox:woodstox_core:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox_core:woodstox:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:fasterxml:woodstox:7.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:woodstox:woodstox:7.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.fasterxml.woodstox/woodstox-core@7.0.0
+
+##### Relationships
+
+Relationship: SPDXRef-Package-java-archive-resilience4j-micrometer-01984b9d5cce737f DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-commons-compress-044d6858ccfaac65 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-maven-artifact-0550faf0ae4d0ccf DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-alpine-infra-0da892e561d95895 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-mysql-socket-factory-connector-j-8-0e029b6a13f869af DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-cvss-calculator-1b79449ba94064f1 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-dec-1c8d21cf462ca62d DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-greenmail-junit4-2064caa90ea0ce27 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-alpine-server-20f2603d1daa9d04 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-resilience4j-ratelimiter-238e6aa26f7becdb DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-system-rules-294c48e3dfec7a04 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-lucene-queryparser-2b08a569f5d17221 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-testcontainers-2d5f5671f232ff3a DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-JUnitParams-30e52c0f42986ec4 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-wiremock-jre8-3c625d47afb400bd DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-woodstox-core-42074102c8b70487 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-httpclient-42e1dfc4e70b4456 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-jakarta.servlet-api-43291cb2c8fadea0 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-mysql-connector-j-45c798ebc3fa5e73 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-postgres-socket-factory-4a5b71108238e402 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-cloud-sql-connector-jdbc-sqlserver-4b7aa17e53285ee2 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-owasp-risk-rating-calculator-50999771cb2f16e2 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-jersey-grizzly-connector-61091356c00985cb DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-awaitility-62addb9306e9ddee DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-mockserver-netty-62da331cd2085262 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-signpost-core-6a121f7b6614aece DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-json-unit-assertj-6bfa3c431b51039a DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-cyclonedx-core-java-77146690404ab60e DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-lucene-queries-88da4549193a6f1b DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-lucene-analyzers-common-8ebad02a03cf6b23 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-mssql-jdbc-9d340e74f5cfa73c DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-assertj-core-9ed708efda9ac6ba DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-log4j-over-slf4j-9fc99726918a2fe4 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-lucene-sandbox-a4ae4fc31a525190 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-alpine-common-a4f311b070115bc3 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-swagger-jaxrs2-jakarta-a5a663f3e1f3d203 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-swagger-parser-a6381351ed5366d6 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-pebble-ad794e12af77ab99 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-packageurl-java-af1e2f067f60d0c7 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-mockito-core-b1a15a6e93dab83d DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-httpmime-b1eb454f4f21746c DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-json-ba374b72b0b74b94 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-cpe-parser-bbe3e5edef0a5fe9 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-github-api-bc93da2951760edd DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-commons-text-bfd38409590a51fa DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-resilience4j-retry-cdeafb8024c6786b DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-jersey-test-framework-provider-grizzly2-d3777c99d019383c DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-protobuf-java-e0042bc8665c02a0 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-protobuf-java-util-e134a5f8188725f1 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-httpclient5-e200a638db95a762 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-alpine-model-e7ecf0cb230076c1 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-lucene-core-e8bc4cd09554a6b7 DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-junit-ea20f6e900441c9f DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-open-vulnerability-clients-eb0e89d2d6326beb DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-postgresql-f6f7e8409492b97e DEPENDENCY_OF SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-Package-java-archive-resilience4j-micrometer-01984b9d5cce737f OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-commons-compress-044d6858ccfaac65 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-maven-artifact-0550faf0ae4d0ccf OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-dependency-review-action-0bd658d4ee39a0a5 OTHER SPDXRef-File-...workflows-dependency-review.yaml-103463566181141f
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-alpine-infra-0da892e561d95895 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-mysql-socket-factory-connector-j-8-0e029b6a13f869af OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-download-artifact-0eb36f9081c754b3 OTHER SPDXRef-File-...workflows-ci-test-pr-coverage.yml-00b464bde0e2c19d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-aquasecurity-trivy-action-15a06134694e73d9 OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-cvss-calculator-1b79449ba94064f1 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-1ba631c5ce486d6f OTHER SPDXRef-File-.github-workflows-ci-publish.yaml-9da4f0cccc39d3d3
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-dec-1c8d21cf462ca62d OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-1cc9779e6081939d OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-greenmail-junit4-2064caa90ea0ce27 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-alpine-server-20f2603d1daa9d04 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-resilience4j-ratelimiter-238e6aa26f7becdb OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-system-rules-294c48e3dfec7a04 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-lucene-queryparser-2b08a569f5d17221 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-testcontainers-2d5f5671f232ff3a OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-JUnitParams-30e52c0f42986ec4 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-build-push-action-333cc5b987bbf00d OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-wiremock-jre8-3c625d47afb400bd OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-woodstox-core-42074102c8b70487 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-httpclient-42e1dfc4e70b4456 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-jakarta.servlet-api-43291cb2c8fadea0 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-mysql-connector-j-45c798ebc3fa5e73 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-download-artifact-49cad60f075e7c61 OTHER SPDXRef-File-.github-workflows-ci-publish.yaml-9da4f0cccc39d3d3
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-postgres-socket-factory-4a5b71108238e402 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-cloud-sql-connector-jdbc-sqlserver-4b7aa17e53285ee2 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-owasp-risk-rating-calculator-50999771cb2f16e2 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-java-51bad94c7d35e9aa OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-548515ab7a6e42dd OTHER SPDXRef-File-.github-workflows-ci-test.yaml-8746367bbbbc44fd
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-workflow-.-.github-workflows--meta-build.yaml-60f5562eedd01057 OTHER SPDXRef-File-.github-workflows-ci-publish.yaml-9da4f0cccc39d3d3
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-jersey-grizzly-connector-61091356c00985cb OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-awaitility-62addb9306e9ddee OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-mockserver-netty-62da331cd2085262 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-workflow-.-.github-workflows--meta-build.yaml-660a09bead3f1098 OTHER SPDXRef-File-.github-workflows-ci-build.yaml-1924293db72f4769
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-signpost-core-6a121f7b6614aece OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-json-unit-assertj-6bfa3c431b51039a OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-cyclonedx-core-java-77146690404ab60e OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-download-artifact-78d6bccf4f4b962c OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-setup-buildx-action-7bc338e26ed653cb OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-lucene-queries-88da4549193a6f1b OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-lucene-analyzers-common-8ebad02a03cf6b23 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-958714521eb91989 OTHER SPDXRef-File-.github-workflows-ci-test.yaml-8746367bbbbc44fd
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-mssql-jdbc-9d340e74f5cfa73c OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-assertj-core-9ed708efda9ac6ba OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-log4j-over-slf4j-9fc99726918a2fe4 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-lucene-sandbox-a4ae4fc31a525190 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-alpine-common-a4f311b070115bc3 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-swagger-jaxrs2-jakarta-a5a663f3e1f3d203 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-swagger-parser-a6381351ed5366d6 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-dessant-lock-threads-aa34ede98037cfd0 OTHER SPDXRef-File-.github-workflows-lock.yaml-cf5a33e532a055a1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-pebble-ad794e12af77ab99 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-packageurl-java-af1e2f067f60d0c7 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-mockito-core-b1a15a6e93dab83d OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-httpmime-b1eb454f4f21746c OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-b889f2e4a00b7e6a OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-json-ba374b72b0b74b94 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-cpe-parser-bbe3e5edef0a5fe9 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-github-api-bc93da2951760edd OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-commons-text-bfd38409590a51fa OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-github-codeql-action-upload-sarif-c05dcb7abcc42a89 OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-resilience4j-retry-cdeafb8024c6786b OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-jersey-test-framework-provider-grizzly2-d3777c99d019383c OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-java-da91983b95ef0fbc OTHER SPDXRef-File-.github-workflows-ci-test.yaml-8746367bbbbc44fd
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-dafbc13c332c9b91 OTHER SPDXRef-File-.github-workflows-ci-release.yaml-5153a7bac527fa0a
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-codacy-codacy-coverage-reporter-action-dbcc97ac11d7d9ea OTHER SPDXRef-File-.github-workflows-ci-test.yaml-8746367bbbbc44fd
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-login-action-dfa598830b5ec143 OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-protobuf-java-e0042bc8665c02a0 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-protobuf-java-util-e134a5f8188725f1 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-httpclient5-e200a638db95a762 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-e6ddafb83e526205 OTHER SPDXRef-File-...workflows-dependency-review.yaml-103463566181141f
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-alpine-model-e7ecf0cb230076c1 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-lucene-core-e8bc4cd09554a6b7 OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-junit-ea20f6e900441c9f OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-open-vulnerability-clients-eb0e89d2d6326beb OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-postgresql-f6f7e8409492b97e OTHER SPDXRef-File-pom.xml-0328106cb52bb1b0
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-setup-qemu-action-fc5f3862129e525f OTHER SPDXRef-File-.github-workflows--meta-build.yaml-44fca93a00f76e87
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-java-fce3afff5c436c36 OTHER SPDXRef-File-.github-workflows-ci-release.yaml-5153a7bac527fa0a
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-workflow-.-.github-workflows--meta-build.yaml-660a09bead3f1098
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-workflow-.-.github-workflows--meta-build.yaml-60f5562eedd01057
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-JUnitParams-30e52c0f42986ec4
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-checkout-1cc9779e6081939d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-checkout-1ba631c5ce486d6f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-checkout-dafbc13c332c9b91
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-checkout-958714521eb91989
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-checkout-e6ddafb83e526205
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-dependency-review-action-0bd658d4ee39a0a5
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-download-artifact-78d6bccf4f4b962c
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-download-artifact-49cad60f075e7c61
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-download-artifact-0eb36f9081c754b3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-setup-java-51bad94c7d35e9aa
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-setup-java-fce3afff5c436c36
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-setup-java-da91983b95ef0fbc
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-b889f2e4a00b7e6a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-548515ab7a6e42dd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-alpine-common-a4f311b070115bc3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-alpine-infra-0da892e561d95895
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-alpine-model-e7ecf0cb230076c1
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-alpine-server-20f2603d1daa9d04
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-aquasecurity-trivy-action-15a06134694e73d9
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-assertj-core-9ed708efda9ac6ba
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-awaitility-62addb9306e9ddee
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-cloud-sql-connector-jdbc-sqlserver-4b7aa17e53285ee2
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-codacy-codacy-coverage-reporter-action-dbcc97ac11d7d9ea
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-commons-compress-044d6858ccfaac65
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-commons-text-bfd38409590a51fa
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-cpe-parser-bbe3e5edef0a5fe9
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-cvss-calculator-1b79449ba94064f1
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-cyclonedx-core-java-77146690404ab60e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-dec-1c8d21cf462ca62d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-dependency-track-c0dd8eb64785a463
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-dessant-lock-threads-aa34ede98037cfd0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-docker-build-push-action-333cc5b987bbf00d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-docker-login-action-dfa598830b5ec143
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-docker-setup-buildx-action-7bc338e26ed653cb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-docker-setup-qemu-action-fc5f3862129e525f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-github-api-bc93da2951760edd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-github-action-github-codeql-action-upload-sarif-c05dcb7abcc42a89
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-greenmail-junit4-2064caa90ea0ce27
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-httpclient-42e1dfc4e70b4456
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-httpclient5-e200a638db95a762
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-httpmime-b1eb454f4f21746c
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-jakarta.servlet-api-43291cb2c8fadea0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-jersey-grizzly-connector-61091356c00985cb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-jersey-test-framework-provider-grizzly2-d3777c99d019383c
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-json-ba374b72b0b74b94
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-json-unit-assertj-6bfa3c431b51039a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-junit-ea20f6e900441c9f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-log4j-over-slf4j-9fc99726918a2fe4
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-lucene-analyzers-common-8ebad02a03cf6b23
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-lucene-core-e8bc4cd09554a6b7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-lucene-queries-88da4549193a6f1b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-lucene-queryparser-2b08a569f5d17221
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-lucene-sandbox-a4ae4fc31a525190
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-maven-artifact-0550faf0ae4d0ccf
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-mockito-core-b1a15a6e93dab83d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-mockserver-netty-62da331cd2085262
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-mssql-jdbc-9d340e74f5cfa73c
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-mysql-connector-j-45c798ebc3fa5e73
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-mysql-socket-factory-connector-j-8-0e029b6a13f869af
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-open-vulnerability-clients-eb0e89d2d6326beb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-owasp-risk-rating-calculator-50999771cb2f16e2
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-packageurl-java-af1e2f067f60d0c7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-pebble-ad794e12af77ab99
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-postgres-socket-factory-4a5b71108238e402
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-postgresql-f6f7e8409492b97e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-protobuf-java-e0042bc8665c02a0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-protobuf-java-util-e134a5f8188725f1
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-resilience4j-micrometer-01984b9d5cce737f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-resilience4j-ratelimiter-238e6aa26f7becdb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-resilience4j-retry-cdeafb8024c6786b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-signpost-core-6a121f7b6614aece
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-swagger-jaxrs2-jakarta-a5a663f3e1f3d203
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-swagger-parser-a6381351ed5366d6
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-system-rules-294c48e3dfec7a04
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-testcontainers-2d5f5671f232ff3a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-wiremock-jre8-3c625d47afb400bd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track CONTAINS SPDXRef-Package-java-archive-woodstox-core-42074102c8b70487
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-DependencyTrack-dependency-track
+

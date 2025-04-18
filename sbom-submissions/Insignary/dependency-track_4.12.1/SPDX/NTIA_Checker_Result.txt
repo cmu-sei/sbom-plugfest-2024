@@ -1,0 +1,13 @@
+This SPDX Document is valid: No components with missing information.
+
+Is this SBOM NTIA minimum element conformant? True
+
+Individual elements | Status
+-------------------------------------------------------
+All component names provided? | True
+All component versions provided? | True
+All component identifiers provided? | True
+All component suppliers provided? | True
+SBOM author name provided? | True
+SBOM creation timestamp provided? | True
+Dependency relationships provided? | True

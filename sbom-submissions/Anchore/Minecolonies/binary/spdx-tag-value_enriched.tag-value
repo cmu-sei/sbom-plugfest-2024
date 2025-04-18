@@ -1,0 +1,485 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: ./ldtteam/minecolonies
+DocumentNamespace: https://anchore.com/syft/dir/ldtteam/minecolonies-d1d1b393-007b-4808-91d0-b36e042a8457
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:25:37Z
+
+##### Unpackaged files
+
+FileName: build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-binpatched.jar
+SPDXID: SPDXRef-File-...forge-1.20.1-47.1.3-binpatched.jar-33b215dec2d98584
+FileChecksum: SHA1: 0000000000000000000000000000000000000000
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-inject_src.jar
+SPDXID: SPDXRef-File-...forge-1.20.1-47.1.3-inject-src.jar-e768c407a7483d2d
+FileChecksum: SHA1: 0000000000000000000000000000000000000000
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-injected.jar
+SPDXID: SPDXRef-File-...forge-1.20.1-47.1.3-injected.jar-56a1e67b331d7ec6
+FileType: APPLICATION
+FileType: ARCHIVE
+FileChecksum: SHA1: 427aa90ac6bd4831706d833341135f0d8efc1c59
+FileChecksum: SHA256: d8ad46d5d2e838a99db1329d123a21935d74b37d3602bca862fe13506f86e7e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3_mapped_official_1.20.1/forge-1.20.1-47.1.3_mapped_official_1.20.1.jar
+SPDXID: SPDXRef-File-...forge-1.20.1-47.1.3-mapped-official-1.20.1.jar-15d712b7b1960f36
+FileType: APPLICATION
+FileChecksum: SHA1: e06ae8586bb5b94c08c15c6e6e4b75f7903cf001
+FileChecksum: SHA256: 8cc37233963481c50a1c6af93d0f5e3965191eeb7371866e06da5790c2fa2467
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-srg.jar
+SPDXID: SPDXRef-File-...forge-1.20.1-47.1.3-srg.jar-618db56e9d57bab7
+FileType: APPLICATION
+FileType: ARCHIVE
+FileChecksum: SHA1: 9fae865e54884c2ed21a425b7f7b9d2523bd7365
+FileChecksum: SHA256: 606cb86e08ea44d9aab79171d8f6e6fb98083fa7a03396a45ba502d9b892d339
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar
+SPDXID: SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar-fedf00728f20ea6a
+FileType: APPLICATION
+FileType: ARCHIVE
+FileChecksum: SHA1: 752bcab1bd0c51ad3428fe2b87d4f0e54e47c650
+FileChecksum: SHA256: 1f8044fb7da8b1329880ad51513e17e32378cd383a4fb43d2c37eab19ddb83e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar
+SPDXID: SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar-f0e86268990229af
+FileType: APPLICATION
+FileChecksum: SHA1: 5372c62fa132a25197ed003cd9033586c5d37bfd
+FileChecksum: SHA256: fea6e858d706709129aa66902ff412c4ab82dacf2d2be2621832f38b25724678
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar
+SPDXID: SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar-f9cc20f0b474b875
+FileType: APPLICATION
+FileType: ARCHIVE
+FileChecksum: SHA1: 8cbdaed965794abc50e242e965573b35268ff606
+FileChecksum: SHA256: 35e4531c9b1b168740ad9cd2b95c2af722c0a408d12f7bf71ae963a851a68203
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar
+SPDXID: SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar-1e38448b80dba881
+FileType: APPLICATION
+FileChecksum: SHA1: e6a8226216ec3b1922ad2a69a060e33111685692
+FileChecksum: SHA256: b7d9b28cc80a8634ab1660dc6e79dc1692aaa7905f43111854f29d209385dfd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/build.yaml
+SPDXID: SPDXRef-File-.github-workflows-build.yaml-2f60db276a7a09af
+FileType: TEXT
+FileChecksum: SHA1: 8262c6bf017bb09858fc609f1e5b399761f14294
+FileChecksum: SHA256: fad64a3ab2dd813592c59580438c9346922e9bb9b23a50ef35262d447db9fa5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/release.yaml
+SPDXID: SPDXRef-File-.github-workflows-release.yaml-3dfd1ac2074a5862
+FileType: TEXT
+FileChecksum: SHA1: 96b87e90455532c4e955f6ffa5e1ae170f6483fc
+FileChecksum: SHA256: e5597e117b3d412ad91841268d06ffedafc1ca58980287f39a678c684b4613bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/translation.yml
+SPDXID: SPDXRef-File-.github-workflows-translation.yml-27f466d8fb81863e
+FileType: TEXT
+FileChecksum: SHA1: 13a985dbeaab4c8f0d01dabf1c052a9f10384de0
+FileChecksum: SHA256: fbbbc36dd1954041e64560a86ce9224fa278287de85a7fb60093c6d46a460a31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/reobfJar/output.jar
+SPDXID: SPDXRef-File-build-reobfJar-output.jar-9ef18a5049b7cfed
+FileType: APPLICATION
+FileChecksum: SHA1: 5372c62fa132a25197ed003cd9033586c5d37bfd
+FileChecksum: SHA256: fea6e858d706709129aa66902ff412c4ab82dacf2d2be2621832f38b25724678
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: build/reobfShadowJar/output.jar
+SPDXID: SPDXRef-File-build-reobfShadowJar-output.jar-a64c23565cbc0177
+FileType: APPLICATION
+FileChecksum: SHA1: e6a8226216ec3b1922ad2a69a060e33111685692
+FileChecksum: SHA256: b7d9b28cc80a8634ab1660dc6e79dc1692aaa7905f43111854f29d209385dfd3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: gradle/wrapper/gradle-wrapper.jar
+SPDXID: SPDXRef-File-gradle-wrapper-gradle-wrapper.jar-803860b7b0aaa5b6
+FileType: APPLICATION
+FileType: ARCHIVE
+FileChecksum: SHA1: d99b3fab4e678237951d90da6814fc9eb17b97ca
+FileChecksum: SHA256: c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Package: ./ldtteam/minecolonies
+
+PackageName: ./ldtteam/minecolonies
+SPDXID: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: FILE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-2784dfd778b28c40
+PackageVersion: master
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/translation.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:master:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@master
+
+##### Package: ad-m/github-push-action
+
+PackageName: ad-m/github-push-action
+SPDXID: SPDXRef-Package-github-action-ad-m-github-push-action-ce03eec74fa4bd6a
+PackageVersion: master
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/translation.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad-m\/github-push-action:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad-m\/github-push-action:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad_m\/github_push_action:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad_m\/github_push_action:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad-m\/github-push:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad-m\/github-push:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad_m\/github_push:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad_m\/github_push:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad-m\/github:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad-m\/github:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad_m\/github:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad_m\/github:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad:ad-m\/github-push-action:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ad:ad_m\/github_push_action:master:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ad-m/github-push-action@master
+
+##### Package: ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml
+
+PackageName: ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml
+SPDXID: SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.build.yaml-44c4a7e0f297fb83
+PackageVersion: main
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.build.yaml:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.build.yaml:main:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml
+
+##### Package: ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml
+
+PackageName: ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml
+SPDXID: SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.prerelease.yaml-93943d5d84b47a49
+PackageVersion: main
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/build.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.prerelease.yaml:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.prerelease.yaml:main:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml
+
+##### Package: ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml
+
+PackageName: ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml
+SPDXID: SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.publish.yaml-7b731ba6bf89919b
+PackageVersion: main
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/release.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.publish.yaml:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.publish.yaml:main:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml
+
+##### Package: forge
+
+PackageName: forge
+SPDXID: SPDXRef-Package-java-archive-forge-4cfbeb0ddf491666
+PackageVersion: 1.20.1-47.1.3-srg
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: 9fae865e54884c2ed21a425b7f7b9d2523bd7365
+PackageSourceInfo: acquired package info from installed java archive: /build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-srg.jar
+PackageLicenseConcluded: LGPL-2.1-only
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge-development-llc:forge:1.20.1-47.1.3-srg:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge_development_llc:forge:1.20.1-47.1.3-srg:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.minecraftforge:forge:1.20.1-47.1.3-srg:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecraftforge:forge:1.20.1-47.1.3-srg:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mojang:forge:1.20.1-47.1.3-srg:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge:forge:1.20.1-47.1.3-srg:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3-srg
+
+##### Package: forge
+
+PackageName: forge
+SPDXID: SPDXRef-Package-java-archive-forge-7eb0ba7cf2c3b7dd
+PackageVersion: 1.20.1-47.1.3-injected
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: 427aa90ac6bd4831706d833341135f0d8efc1c59
+PackageSourceInfo: acquired package info from installed java archive: /build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-injected.jar
+PackageLicenseConcluded: LGPL-2.1-only
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge-development-llc:forge:1.20.1-47.1.3-injected:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge_development_llc:forge:1.20.1-47.1.3-injected:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.minecraftforge:forge:1.20.1-47.1.3-injected:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecraftforge:forge:1.20.1-47.1.3-injected:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mojang:forge:1.20.1-47.1.3-injected:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge:forge:1.20.1-47.1.3-injected:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3-injected
+
+##### Package: forge
+
+PackageName: forge
+SPDXID: SPDXRef-Package-java-archive-forge-8b6e31c75d4bab4d
+PackageVersion: 1.20.1-47.1.3_mapped_official_1.20.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: e06ae8586bb5b94c08c15c6e6e4b75f7903cf001
+PackageSourceInfo: acquired package info from installed java archive: /build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3_mapped_official_1.20.1/forge-1.20.1-47.1.3_mapped_official_1.20.1.jar
+PackageLicenseConcluded: LGPL-2.1-only
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge-development-llc:forge:1.20.1-47.1.3_mapped_official_1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge_development_llc:forge:1.20.1-47.1.3_mapped_official_1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:net.minecraftforge:forge:1.20.1-47.1.3_mapped_official_1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecraftforge:forge:1.20.1-47.1.3_mapped_official_1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mojang:forge:1.20.1-47.1.3_mapped_official_1.20.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:forge:forge:1.20.1-47.1.3_mapped_official_1.20.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3_mapped_official_1.20.1
+
+##### Package: gradle-wrapper
+
+PackageName: gradle-wrapper
+SPDXID: SPDXRef-Package-java-archive-gradle-wrapper-e88364ec3fa76d61
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: d99b3fab4e678237951d90da6814fc9eb17b97ca
+PackageSourceInfo: acquired package info from installed java archive: /gradle/wrapper/gradle-wrapper.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/gradle-wrapper/gradle-wrapper
+
+##### Package: minecolonies
+
+PackageName: minecolonies
+SPDXID: SPDXRef-Package-java-archive-minecolonies-7794401925c5729e
+PackageVersion: 1.20.1-0.0.1-LOCAL-alpha
+PackageSupplier: Organization: ldtteam
+PackageOriginator: Organization: ldtteam
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: e6a8226216ec3b1922ad2a69a060e33111685692
+PackageSourceInfo: acquired package info from installed java archive: /build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecolonies:minecolonies:1.20.1-0.0.1-LOCAL-alpha:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam:minecolonies:1.20.1-0.0.1-LOCAL-alpha:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha
+
+##### Package: minecolonies
+
+PackageName: minecolonies
+SPDXID: SPDXRef-Package-java-archive-minecolonies-9a06b4cda658d118
+PackageVersion: 1.20.1-0.0.1-LOCAL-alpha-javadoc
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: 752bcab1bd0c51ad3428fe2b87d4f0e54e47c650
+PackageSourceInfo: acquired package info from installed java archive: /build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecolonies:minecolonies:1.20.1-0.0.1-LOCAL-alpha-javadoc:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-javadoc
+
+##### Package: minecolonies
+
+PackageName: minecolonies
+SPDXID: SPDXRef-Package-java-archive-minecolonies-c947245ad0f45e7f
+PackageVersion: 1.20.1-0.0.1-LOCAL-alpha-sources
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: 8cbdaed965794abc50e242e965573b35268ff606
+PackageSourceInfo: acquired package info from installed java archive: /build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecolonies:minecolonies:1.20.1-0.0.1-LOCAL-alpha-sources:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-sources
+
+##### Package: minecolonies
+
+PackageName: minecolonies
+SPDXID: SPDXRef-Package-java-archive-minecolonies-d8e6db321d348d1d
+PackageVersion: 1.20.1-0.0.1-LOCAL-alpha-slim
+PackageSupplier: Organization: ldtteam
+PackageOriginator: Organization: ldtteam
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: 5372c62fa132a25197ed003cd9033586c5d37bfd
+PackageSourceInfo: acquired package info from installed java archive: /build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:minecolonies:minecolonies:1.20.1-0.0.1-LOCAL-alpha-slim:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam:minecolonies:1.20.1-0.0.1-LOCAL-alpha-slim:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-slim
+
+##### Package: output
+
+PackageName: output
+SPDXID: SPDXRef-Package-java-archive-output-32b1dbdba246a43d
+PackageVersion: 1.20.1-0.0.1-LOCAL-alpha
+PackageSupplier: Organization: ldtteam
+PackageOriginator: Organization: ldtteam
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: e6a8226216ec3b1922ad2a69a060e33111685692
+PackageSourceInfo: acquired package info from installed java archive: /build/reobfShadowJar/output.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam:output:1.20.1-0.0.1-LOCAL-alpha:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:output:output:1.20.1-0.0.1-LOCAL-alpha:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/output/output@1.20.1-0.0.1-LOCAL-alpha
+
+##### Package: output
+
+PackageName: output
+SPDXID: SPDXRef-Package-java-archive-output-9829bd938836bcc7
+PackageVersion: 1.20.1-0.0.1-LOCAL-alpha
+PackageSupplier: Organization: ldtteam
+PackageOriginator: Organization: ldtteam
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA1: 5372c62fa132a25197ed003cd9033586c5d37bfd
+PackageSourceInfo: acquired package info from installed java archive: /build/reobfJar/output.jar
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ldtteam:output:1.20.1-0.0.1-LOCAL-alpha:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:output:output:1.20.1-0.0.1-LOCAL-alpha:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/output/output@1.20.1-0.0.1-LOCAL-alpha
+
+##### Relationships
+
+Relationship: SPDXRef-Package-github-action-actions-checkout-2784dfd778b28c40 OTHER SPDXRef-File-.github-workflows-translation.yml-27f466d8fb81863e
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-output-32b1dbdba246a43d OTHER SPDXRef-File-build-reobfShadowJar-output.jar-a64c23565cbc0177
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.build.yaml-44c4a7e0f297fb83 OTHER SPDXRef-File-.github-workflows-build.yaml-2f60db276a7a09af
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-forge-4cfbeb0ddf491666 OTHER SPDXRef-File-...forge-1.20.1-47.1.3-srg.jar-618db56e9d57bab7
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-minecolonies-7794401925c5729e OTHER SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar-1e38448b80dba881
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.publish.yaml-7b731ba6bf89919b OTHER SPDXRef-File-.github-workflows-release.yaml-3dfd1ac2074a5862
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-forge-7eb0ba7cf2c3b7dd OTHER SPDXRef-File-...forge-1.20.1-47.1.3-injected.jar-56a1e67b331d7ec6
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-forge-8b6e31c75d4bab4d OTHER SPDXRef-File-...forge-1.20.1-47.1.3-mapped-official-1.20.1.jar-15d712b7b1960f36
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.prerelease.yaml-93943d5d84b47a49 OTHER SPDXRef-File-.github-workflows-build.yaml-2f60db276a7a09af
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-output-9829bd938836bcc7 OTHER SPDXRef-File-build-reobfJar-output.jar-9ef18a5049b7cfed
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-minecolonies-9a06b4cda658d118 OTHER SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar-fedf00728f20ea6a
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-minecolonies-c947245ad0f45e7f OTHER SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar-f9cc20f0b474b875
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-ad-m-github-push-action-ce03eec74fa4bd6a OTHER SPDXRef-File-.github-workflows-translation.yml-27f466d8fb81863e
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-minecolonies-d8e6db321d348d1d OTHER SPDXRef-File-...minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar-f0e86268990229af
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-java-archive-gradle-wrapper-e88364ec3fa76d61 OTHER SPDXRef-File-gradle-wrapper-gradle-wrapper.jar-803860b7b0aaa5b6
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-github-action-actions-checkout-2784dfd778b28c40
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-github-action-ad-m-github-push-action-ce03eec74fa4bd6a
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-forge-7eb0ba7cf2c3b7dd
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-forge-4cfbeb0ddf491666
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-forge-8b6e31c75d4bab4d
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-gradle-wrapper-e88364ec3fa76d61
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.build.yaml-44c4a7e0f297fb83
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.prerelease.yaml-93943d5d84b47a49
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-github-action-workflow-ldtteam-operapublicacreator-.github-workflows-gradle.publish.yaml-7b731ba6bf89919b
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-minecolonies-7794401925c5729e
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-minecolonies-9a06b4cda658d118
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-minecolonies-d8e6db321d348d1d
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-minecolonies-c947245ad0f45e7f
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-output-9829bd938836bcc7
+Relationship: SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies CONTAINS SPDXRef-Package-java-archive-output-32b1dbdba246a43d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Directory-.-ldtteam-minecolonies
+

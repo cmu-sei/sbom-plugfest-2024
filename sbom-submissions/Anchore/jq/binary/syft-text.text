@@ -1,0 +1,16 @@
+[Image]
+ Layer:		 0
+ Digest:	 sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377
+ Size:		 2118400
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 1
+ Digest:	 sha256:65a52373cc257ced0c49680830386799cd665522e6b6080d01147aaa77cfee07
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+[jq]
+ Version:	 2.36
+ Type:		 binary
+ Found by:	 binary-classifier-cataloger
+

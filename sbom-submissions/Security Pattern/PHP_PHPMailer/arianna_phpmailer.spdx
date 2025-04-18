@@ -1,0 +1,773 @@
+## Document Information
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: Plugfest-PHP-SBoM-1.0
+DocumentNamespace: https://arianna.securitypattern.com/spdx/7a2ce641-82d6-4f98-b18d-0265add478b6
+DocumentComment: Root directory: /Users/my_user/code/PHPMailer/
+
+## Creation Information
+LicenseListVersion: 3.25
+Creator: Person: system
+Creator: Organization: Security Pattern
+Creator: Tool: ARIANNA Platform
+Created: 2024-12-09T18:10:21Z
+
+## File Information
+FileName: ./composer.json
+SPDXID: SPDXRef-File-composer.json-7602367b-a167-46e5-97a8-793fcf806564
+FileType: TEXT
+FileChecksum: SHA1: 2745a8d725fb4615683e1112420c5a7e08df4b9c
+FileChecksum: SHA256: 988c74b659c07ecc32f6473ee151eb808a7f74cb1e3c3e2f14562caaf9c5785a
+FileComment: Metadata file for a PHP project
+
+## File Information
+FileName: ./vendor/composer/installed.json
+SPDXID: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923
+FileType: TEXT
+FileChecksum: SHA1: dc252bda64fcfd9eeec24104d0586cb39e074008
+FileChecksum: SHA256: 6636a468049c3020d006f57801fd61bf3df071fb212593d3bc8351b95032cf81
+FileComment: Metadata file for a PHP project
+
+## Package Information
+PackageName: Plugfest PHP SBoM
+SPDXID: SPDXRef-PROJECT-Plugfest-PHP-SBoM
+PackageVersion: 1.0
+PackageSupplier: Organization: Security Pattern
+PackageOriginator: Organization: Security Pattern
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PrimaryPackagePurpose: OTHER
+
+## Package Information
+PackageName: phpmailer/phpmailer
+SPDXID: SPDXRef-Package-PHP-phpmailer-phpmailer-0d5cff88
+PackageVersion: 6.9.2
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Marcus Bointon, Jim Jagielski, Andy Prevost, Brent R. Matzelle
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseDeclared: LGPL-2.1-only
+PackageSummary: PHPMailer is a full-featured email creation and transfer class for PHP
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpmailer/phpmailer@6.9.2
+PrimaryPackagePurpose: LIBRARY
+
+## Package Information
+PackageName: phar-io/version
+SPDXID: SPDXRef-Package-PHP-phar-io-version-9de1fc31
+PackageVersion: 3.2.1.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Arne Blankerts, Sebastian Heuer, Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/phar-io/version.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Library for handling version information and constraints
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phar-io/version@3.2.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2022-02-21T01:04:05Z
+
+## Package Information
+PackageName: php-parallel-lint/php-console-color
+SPDXID: SPDXRef-Package-PHP-php-parallel-lint-php-console-color-0815587d
+PackageVersion: 1.0.1.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Jakub Onderka
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/php-parallel-lint/PHP-Console-Color.git
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: Simple library for creating colored console ouput.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/php-parallel-lint/php-console-color@1.0.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2021-12-25T06:49:29Z
+
+## Package Information
+PackageName: php-parallel-lint/php-console-highlighter
+SPDXID: SPDXRef-Package-PHP-php-parallel-lint-php-console-highlighter-d7243f6a
+PackageVersion: 1.0.0.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Jakub Onderka
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/php-parallel-lint/PHP-Console-Highlighter.git
+PackageLicenseDeclared: MIT
+PackageSummary: Highlight PHP code in terminal
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/php-parallel-lint/php-console-highlighter@1.0.0.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2022-02-18T08:23:19Z
+
+## Package Information
+PackageName: php-parallel-lint/php-parallel-lint
+SPDXID: SPDXRef-Package-PHP-php-parallel-lint-php-parallel-lint-70b7c44a
+PackageVersion: 1.4.0.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Jakub Onderka
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/php-parallel-lint/PHP-Parallel-Lint
+PackageSourceInfo: https://github.com/php-parallel-lint/PHP-Parallel-Lint.git
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: This tool checks the syntax of PHP files about 20x faster than serial check.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/php-parallel-lint/php-parallel-lint@1.4.0.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-27T12:14:49Z
+
+## Package Information
+PackageName: phpcompatibility/php-compatibility
+SPDXID: SPDXRef-Package-PHP-phpcompatibility-php-compatibility-7db01f3f
+PackageVersion: 9.3.5.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Wim Godden, Juliette Reinders Folmer, Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: http://techblog.wimgodden.be/tag/codesniffer/
+PackageSourceInfo: https://github.com/PHPCompatibility/PHPCompatibility.git
+PackageLicenseDeclared: LGPL-3.0-or-later
+PackageSummary: A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version compatibility.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpcompatibility/php-compatibility@9.3.5.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2019-12-27T09:44:58Z
+
+## Package Information
+PackageName: phpunit/php-code-coverage
+SPDXID: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f
+PackageVersion: 9.2.32.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/php-code-coverage
+PackageSourceInfo: https://github.com/sebastianbergmann/php-code-coverage.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Library that provides collection, processing, and rendering functionality for PHP code coverage information.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpunit/php-code-coverage@9.2.32.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-08-22T04:23:01Z
+
+## Package Information
+PackageName: phpunit/php-file-iterator
+SPDXID: SPDXRef-Package-PHP-phpunit-php-file-iterator-e6388de9
+PackageVersion: 3.0.6.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/php-file-iterator/
+PackageSourceInfo: https://github.com/sebastianbergmann/php-file-iterator.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: FilterIterator implementation that filters files based on a list of suffixes.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpunit/php-file-iterator@3.0.6.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2021-12-02T12:48:52Z
+
+## Package Information
+PackageName: phpunit/php-invoker
+SPDXID: SPDXRef-Package-PHP-phpunit-php-invoker-e86c6ac1
+PackageVersion: 3.1.1.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/php-invoker/
+PackageSourceInfo: https://github.com/sebastianbergmann/php-invoker.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Invoke callables with a timeout
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpunit/php-invoker@3.1.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-09-28T05:58:55Z
+
+## Package Information
+PackageName: phpunit/php-text-template
+SPDXID: SPDXRef-Package-PHP-phpunit-php-text-template-69a26ab5
+PackageVersion: 2.0.4.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/php-text-template/
+PackageSourceInfo: https://github.com/sebastianbergmann/php-text-template.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Simple template engine.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpunit/php-text-template@2.0.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-10-26T05:33:50Z
+
+## Package Information
+PackageName: phpunit/php-timer
+SPDXID: SPDXRef-Package-PHP-phpunit-php-timer-77c707f4
+PackageVersion: 5.0.3.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/php-timer/
+PackageSourceInfo: https://github.com/sebastianbergmann/php-timer.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Utility class for timing
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpunit/php-timer@5.0.3.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-10-26T13:16:10Z
+
+## Package Information
+PackageName: dealerdirect/phpcodesniffer-composer-installer
+SPDXID: SPDXRef-Package-PHP-dealerdirect-phpcodesniffer-composer-installer-80c0cbd0
+PackageVersion: 1.0.0.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Franck Nijhof, Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: http://www.dealerdirect.com
+PackageSourceInfo: https://github.com/PHPCSStandards/composer-installer.git
+PackageLicenseDeclared: MIT
+PackageSummary: PHP_CodeSniffer Standards Composer Installer Plugin
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/dealerdirect/phpcodesniffer-composer-installer@1.0.0.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2023-01-05T11:28:13Z
+
+## Package Information
+PackageName: phpunit/phpunit
+SPDXID: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd
+PackageVersion: 9.6.21.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://phpunit.de/
+PackageSourceInfo: https://github.com/sebastianbergmann/phpunit.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: The PHP Unit Testing framework.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phpunit/phpunit@9.6.21.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-09-19T10:50:18Z
+
+## Package Information
+PackageName: psr/cache
+SPDXID: SPDXRef-Package-PHP-psr-cache-b50deadb
+PackageVersion: 3.0.0.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: PHP-FIG
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/php-fig/cache.git
+PackageLicenseDeclared: MIT
+PackageSummary: Common interface for caching libraries
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/psr/cache@3.0.0.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2021-02-03T23:26:27Z
+
+## Package Information
+PackageName: roave/security-advisories
+SPDXID: SPDXRef-Package-PHP-roave-security-advisories-3f76905b
+PackageVersion: dev-latest
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Marco Pivetta, Ilya Tribusean
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/Roave/SecurityAdvisories.git
+PackageLicenseDeclared: MIT
+PackageSummary: Prevents installation of composer packages with known security vulnerabilities: no API, simply require it
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/roave/security-advisories@dev-latest
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-11-27T22:05:07Z
+
+## Package Information
+PackageName: sebastian/cli-parser
+SPDXID: SPDXRef-Package-PHP-sebastian-cli-parser-39937ab2
+PackageVersion: 1.0.2.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/cli-parser
+PackageSourceInfo: https://github.com/sebastianbergmann/cli-parser.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Library for parsing CLI options
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/cli-parser@1.0.2.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-02T06:27:43Z
+
+## Package Information
+PackageName: sebastian/code-unit
+SPDXID: SPDXRef-Package-PHP-sebastian-code-unit-4ca7af8d
+PackageVersion: 1.0.8.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/code-unit
+PackageSourceInfo: https://github.com/sebastianbergmann/code-unit.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Collection of value objects that represent the PHP code units
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/code-unit@1.0.8.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-10-26T13:08:54Z
+
+## Package Information
+PackageName: sebastian/code-unit-reverse-lookup
+SPDXID: SPDXRef-Package-PHP-sebastian-code-unit-reverse-lookup-d784c0de
+PackageVersion: 2.0.3.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/code-unit-reverse-lookup/
+PackageSourceInfo: https://github.com/sebastianbergmann/code-unit-reverse-lookup.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Looks up which function or method a line of code belongs to
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/code-unit-reverse-lookup@2.0.3.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-09-28T05:30:19Z
+
+## Package Information
+PackageName: sebastian/comparator
+SPDXID: SPDXRef-Package-PHP-sebastian-comparator-3a4e6e53
+PackageVersion: 4.0.8.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann, Jeff Welch, Volker Dusch, Bernhard Schussek
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/comparator
+PackageSourceInfo: https://github.com/sebastianbergmann/comparator.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Provides the functionality to compare PHP values for equality
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/comparator@4.0.8.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2022-09-14T12:41:17Z
+
+## Package Information
+PackageName: sebastian/complexity
+SPDXID: SPDXRef-Package-PHP-sebastian-complexity-c24e2c44
+PackageVersion: 2.0.3.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/complexity
+PackageSourceInfo: https://github.com/sebastianbergmann/complexity.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Library for calculating the complexity of PHP code units
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/complexity@2.0.3.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2023-12-22T06:19:30Z
+
+## Package Information
+PackageName: sebastian/diff
+SPDXID: SPDXRef-Package-PHP-sebastian-diff-56ce803f
+PackageVersion: 4.0.6.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann, Kore Nordmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/diff
+PackageSourceInfo: https://github.com/sebastianbergmann/diff.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Diff implementation
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/diff@4.0.6.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-02T06:30:58Z
+
+## Package Information
+PackageName: sebastian/environment
+SPDXID: SPDXRef-Package-PHP-sebastian-environment-8a8b1cbf
+PackageVersion: 5.1.5.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: http://www.github.com/sebastianbergmann/environment
+PackageSourceInfo: https://github.com/sebastianbergmann/environment.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Provides functionality to handle HHVM/PHP environments
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/environment@5.1.5.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2023-02-03T06:03:51Z
+
+## Package Information
+PackageName: doctrine/annotations
+SPDXID: SPDXRef-Package-PHP-doctrine-annotations-ae4bbdb3
+PackageVersion: 1.14.4.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Guilherme Blanco, Roman Borschel, Benjamin Eberlei, Jonathan Wage, Johannes Schmitt
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://www.doctrine-project.org/projects/annotations.html
+PackageSourceInfo: https://github.com/doctrine/annotations.git
+PackageLicenseDeclared: MIT
+PackageSummary: Docblock Annotations Parser
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/doctrine/annotations@1.14.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-09-05T10:15:52Z
+
+## Package Information
+PackageName: sebastian/exporter
+SPDXID: SPDXRef-Package-PHP-sebastian-exporter-25a833d7
+PackageVersion: 4.0.6.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann, Jeff Welch, Volker Dusch, Adam Harvey, Bernhard Schussek
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://www.github.com/sebastianbergmann/exporter
+PackageSourceInfo: https://github.com/sebastianbergmann/exporter.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Provides the functionality to export PHP variables for visualization
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/exporter@4.0.6.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-02T06:33:00Z
+
+## Package Information
+PackageName: sebastian/global-state
+SPDXID: SPDXRef-Package-PHP-sebastian-global-state-4642bafb
+PackageVersion: 5.0.7.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: http://www.github.com/sebastianbergmann/global-state
+PackageSourceInfo: https://github.com/sebastianbergmann/global-state.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Snapshotting of global state
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/global-state@5.0.7.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-02T06:35:11Z
+
+## Package Information
+PackageName: sebastian/lines-of-code
+SPDXID: SPDXRef-Package-PHP-sebastian-lines-of-code-0017e078
+PackageVersion: 1.0.4.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/lines-of-code
+PackageSourceInfo: https://github.com/sebastianbergmann/lines-of-code.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Library for counting the lines of code in PHP source code
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/lines-of-code@1.0.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2023-12-22T06:20:34Z
+
+## Package Information
+PackageName: sebastian/object-enumerator
+SPDXID: SPDXRef-Package-PHP-sebastian-object-enumerator-1dcd8971
+PackageVersion: 4.0.4.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/object-enumerator/
+PackageSourceInfo: https://github.com/sebastianbergmann/object-enumerator.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Traverses array structures and object graphs to enumerate all referenced objects
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/object-enumerator@4.0.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-10-26T13:12:34Z
+
+## Package Information
+PackageName: sebastian/object-reflector
+SPDXID: SPDXRef-Package-PHP-sebastian-object-reflector-a0426c8c
+PackageVersion: 2.0.4.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/object-reflector/
+PackageSourceInfo: https://github.com/sebastianbergmann/object-reflector.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Allows reflection of object attributes, including inherited and non-public ones
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/object-reflector@2.0.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-10-26T13:14:26Z
+
+## Package Information
+PackageName: sebastian/recursion-context
+SPDXID: SPDXRef-Package-PHP-sebastian-recursion-context-387fbcf1
+PackageVersion: 4.0.5.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann, Jeff Welch, Adam Harvey
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/recursion-context
+PackageSourceInfo: https://github.com/sebastianbergmann/recursion-context.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Provides functionality to recursively process PHP variables
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/recursion-context@4.0.5.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2023-02-03T06:07:39Z
+
+## Package Information
+PackageName: sebastian/resource-operations
+SPDXID: SPDXRef-Package-PHP-sebastian-resource-operations-eed315fa
+PackageVersion: 3.0.4.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://www.github.com/sebastianbergmann/resource-operations
+PackageSourceInfo: https://github.com/sebastianbergmann/resource-operations.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Provides a list of PHP built-in functions that operate on resources
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/resource-operations@3.0.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-14T16:00:52Z
+
+## Package Information
+PackageName: sebastian/type
+SPDXID: SPDXRef-Package-PHP-sebastian-type-5ed82504
+PackageVersion: 3.2.1.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/type
+PackageSourceInfo: https://github.com/sebastianbergmann/type.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Collection of value objects that represent the types of the PHP type system
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/type@3.2.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2023-02-03T06:13:03Z
+
+## Package Information
+PackageName: sebastian/version
+SPDXID: SPDXRef-Package-PHP-sebastian-version-7d447599
+PackageVersion: 3.0.2.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/sebastianbergmann/version
+PackageSourceInfo: https://github.com/sebastianbergmann/version.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Library that helps with managing the version number of Git-hosted PHP projects
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/sebastian/version@3.0.2.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2020-09-28T06:39:44Z
+
+## Package Information
+PackageName: squizlabs/php_codesniffer
+SPDXID: SPDXRef-Package-PHP-squizlabs-php-codesniffer-a9d4d49c
+PackageVersion: 3.11.1.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Greg Sherwood, Juliette Reinders Folmer, Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/PHPCSStandards/PHP_CodeSniffer
+PackageSourceInfo: https://github.com/PHPCSStandards/PHP_CodeSniffer.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/squizlabs/php_codesniffer@3.11.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-11-16T12:02:36Z
+
+## Package Information
+PackageName: doctrine/deprecations
+SPDXID: SPDXRef-Package-PHP-doctrine-deprecations-5e13227a
+PackageVersion: 1.1.3.0
+PackageSupplier: Organization: composer
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://www.doctrine-project.org/
+PackageSourceInfo: https://github.com/doctrine/deprecations.git
+PackageLicenseDeclared: MIT
+PackageSummary: A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/doctrine/deprecations@1.1.3.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-01-30T19:34:25Z
+
+## Package Information
+PackageName: theseer/tokenizer
+SPDXID: SPDXRef-Package-PHP-theseer-tokenizer-f5422b23
+PackageVersion: 1.2.3.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Arne Blankerts
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/theseer/tokenizer.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: A small library for converting tokenized PHP source code into XML and potentially other formats
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/theseer/tokenizer@1.2.3.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-03T12:36:25Z
+
+## Package Information
+PackageName: yoast/phpunit-polyfills
+SPDXID: SPDXRef-Package-PHP-yoast-phpunit-polyfills-7f0dc301
+PackageVersion: 1.1.2.0
+PackageSupplier: Organization: composer
+PackageOriginator: Person: Team Yoast, Contributors
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Yoast/PHPUnit-Polyfills
+PackageSourceInfo: https://github.com/Yoast/PHPUnit-Polyfills.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Set of polyfills for changed PHPUnit functionality to allow for creating PHPUnit cross-version compatible tests
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/yoast/phpunit-polyfills@1.1.2.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-09-06T22:03:10Z
+
+## Package Information
+PackageName: doctrine/instantiator
+SPDXID: SPDXRef-Package-PHP-doctrine-instantiator-43828dd8
+PackageVersion: 2.0.0.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Marco Pivetta
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://www.doctrine-project.org/projects/instantiator.html
+PackageSourceInfo: https://github.com/doctrine/instantiator.git
+PackageLicenseDeclared: MIT
+PackageSummary: A small, lightweight utility to instantiate objects in PHP without invoking their constructors
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/doctrine/instantiator@2.0.0.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2022-12-30T00:23:10Z
+
+## Package Information
+PackageName: doctrine/lexer
+SPDXID: SPDXRef-Package-PHP-doctrine-lexer-2261ff60
+PackageVersion: 2.1.1.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Guilherme Blanco, Roman Borschel, Johannes Schmitt
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageHomePage: https://www.doctrine-project.org/projects/lexer.html
+PackageSourceInfo: https://github.com/doctrine/lexer.git
+PackageLicenseDeclared: MIT
+PackageSummary: PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/doctrine/lexer@2.1.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-02-05T11:35:39Z
+
+## Package Information
+PackageName: myclabs/deep-copy
+SPDXID: SPDXRef-Package-PHP-myclabs-deep-copy-c7a675f4
+PackageVersion: 1.12.1.0
+PackageSupplier: Organization: COMPOSER
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/myclabs/DeepCopy.git
+PackageLicenseDeclared: MIT
+PackageSummary: Create deep copies (clones) of your objects
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/myclabs/deep-copy@1.12.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-11-08T17:47:46Z
+
+## Package Information
+PackageName: nikic/php-parser
+SPDXID: SPDXRef-Package-PHP-nikic-php-parser-08f0c5db
+PackageVersion: 5.3.1.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Nikita Popov
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/nikic/PHP-Parser.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: A PHP parser written in PHP
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/nikic/php-parser@5.3.1.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-10-08T18:51:32Z
+
+## Package Information
+PackageName: phar-io/manifest
+SPDXID: SPDXRef-Package-PHP-phar-io-manifest-ad9b2ddc
+PackageVersion: 2.0.4.0
+PackageSupplier: Organization: COMPOSER
+PackageOriginator: Person: Arne Blankerts, Sebastian Heuer, Sebastian Bergmann
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: https://github.com/phar-io/manifest.git
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: Component for reading phar.io manifest information from a PHP Archive (PHAR)
+ExternalRef: PACKAGE-MANAGER purl pkg:composer/phar-io/manifest@2.0.4.0
+PrimaryPackagePurpose: LIBRARY
+ReleaseDate: 2024-03-03T12:33:53Z
+
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-PROJECT-Plugfest-PHP-SBoM
+Relationship: SPDXRef-File-composer.json-7602367b-a167-46e5-97a8-793fcf806564 METAFILE_OF SPDXRef-Package-PHP-phpmailer-phpmailer-0d5cff88
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phar-io-version-9de1fc31
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-php-parallel-lint-php-console-color-0815587d
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-php-parallel-lint-php-console-highlighter-d7243f6a
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-php-parallel-lint-php-parallel-lint-70b7c44a
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpcompatibility-php-compatibility-7db01f3f
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpunit-php-file-iterator-e6388de9
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpunit-php-invoker-e86c6ac1
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpunit-php-text-template-69a26ab5
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpunit-php-timer-77c707f4
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-dealerdirect-phpcodesniffer-composer-installer-80c0cbd0
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phpunit-phpunit-fad764dd
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-psr-cache-b50deadb
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-roave-security-advisories-3f76905b
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-cli-parser-39937ab2
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-code-unit-4ca7af8d
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-code-unit-reverse-lookup-d784c0de
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-comparator-3a4e6e53
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-complexity-c24e2c44
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-diff-56ce803f
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-environment-8a8b1cbf
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-doctrine-annotations-ae4bbdb3
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-exporter-25a833d7
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-global-state-4642bafb
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-lines-of-code-0017e078
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-object-enumerator-1dcd8971
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-object-reflector-a0426c8c
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-recursion-context-387fbcf1
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-resource-operations-eed315fa
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-type-5ed82504
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-sebastian-version-7d447599
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-squizlabs-php-codesniffer-a9d4d49c
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-doctrine-deprecations-5e13227a
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-theseer-tokenizer-f5422b23
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-yoast-phpunit-polyfills-7f0dc301
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-doctrine-instantiator-43828dd8
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-doctrine-lexer-2261ff60
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-myclabs-deep-copy-c7a675f4
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-nikic-php-parser-08f0c5db
+Relationship: SPDXRef-File-installed.json-431470fd-e896-45f9-af83-7e5723c9a923 METAFILE_OF SPDXRef-Package-PHP-phar-io-manifest-ad9b2ddc
+Relationship: SPDXRef-Package-PHP-php-parallel-lint-php-console-highlighter-d7243f6a DEPENDS_ON SPDXRef-Package-PHP-php-parallel-lint-php-console-color-0815587d
+Relationship: SPDXRef-Package-PHP-phpcompatibility-php-compatibility-7db01f3f DEPENDS_ON SPDXRef-Package-PHP-squizlabs-php-codesniffer-a9d4d49c
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-nikic-php-parser-08f0c5db
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-file-iterator-e6388de9
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-text-template-69a26ab5
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-sebastian-code-unit-reverse-lookup-d784c0de
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-sebastian-complexity-c24e2c44
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-sebastian-environment-8a8b1cbf
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-sebastian-lines-of-code-0017e078
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-sebastian-version-7d447599
+Relationship: SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f DEPENDS_ON SPDXRef-Package-PHP-theseer-tokenizer-f5422b23
+Relationship: SPDXRef-Package-PHP-dealerdirect-phpcodesniffer-composer-installer-80c0cbd0 DEPENDS_ON SPDXRef-Package-PHP-squizlabs-php-codesniffer-a9d4d49c
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-doctrine-instantiator-43828dd8
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-myclabs-deep-copy-c7a675f4
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phar-io-manifest-ad9b2ddc
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phar-io-version-9de1fc31
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-code-coverage-86222e7f
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-file-iterator-e6388de9
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-invoker-e86c6ac1
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-text-template-69a26ab5
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-phpunit-php-timer-77c707f4
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-cli-parser-39937ab2
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-code-unit-4ca7af8d
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-comparator-3a4e6e53
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-diff-56ce803f
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-environment-8a8b1cbf
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-exporter-25a833d7
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-global-state-4642bafb
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-object-enumerator-1dcd8971
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-resource-operations-eed315fa
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-type-5ed82504
+Relationship: SPDXRef-Package-PHP-phpunit-phpunit-fad764dd DEPENDS_ON SPDXRef-Package-PHP-sebastian-version-7d447599
+Relationship: SPDXRef-Package-PHP-sebastian-comparator-3a4e6e53 DEPENDS_ON SPDXRef-Package-PHP-sebastian-diff-56ce803f
+Relationship: SPDXRef-Package-PHP-sebastian-comparator-3a4e6e53 DEPENDS_ON SPDXRef-Package-PHP-sebastian-exporter-25a833d7
+Relationship: SPDXRef-Package-PHP-sebastian-complexity-c24e2c44 DEPENDS_ON SPDXRef-Package-PHP-nikic-php-parser-08f0c5db
+Relationship: SPDXRef-Package-PHP-doctrine-annotations-ae4bbdb3 DEPENDS_ON SPDXRef-Package-PHP-doctrine-lexer-2261ff60
+Relationship: SPDXRef-Package-PHP-doctrine-annotations-ae4bbdb3 DEPENDS_ON SPDXRef-Package-PHP-psr-cache-b50deadb
+Relationship: SPDXRef-Package-PHP-sebastian-exporter-25a833d7 DEPENDS_ON SPDXRef-Package-PHP-sebastian-recursion-context-387fbcf1
+Relationship: SPDXRef-Package-PHP-sebastian-global-state-4642bafb DEPENDS_ON SPDXRef-Package-PHP-sebastian-object-reflector-a0426c8c
+Relationship: SPDXRef-Package-PHP-sebastian-global-state-4642bafb DEPENDS_ON SPDXRef-Package-PHP-sebastian-recursion-context-387fbcf1
+Relationship: SPDXRef-Package-PHP-sebastian-lines-of-code-0017e078 DEPENDS_ON SPDXRef-Package-PHP-nikic-php-parser-08f0c5db
+Relationship: SPDXRef-Package-PHP-sebastian-object-enumerator-1dcd8971 DEPENDS_ON SPDXRef-Package-PHP-sebastian-object-reflector-a0426c8c
+Relationship: SPDXRef-Package-PHP-sebastian-object-enumerator-1dcd8971 DEPENDS_ON SPDXRef-Package-PHP-sebastian-recursion-context-387fbcf1
+Relationship: SPDXRef-Package-PHP-yoast-phpunit-polyfills-7f0dc301 DEPENDS_ON SPDXRef-Package-PHP-phpunit-phpunit-fad764dd
+Relationship: SPDXRef-Package-PHP-doctrine-lexer-2261ff60 DEPENDS_ON SPDXRef-Package-PHP-doctrine-deprecations-5e13227a
+Relationship: SPDXRef-Package-PHP-phar-io-manifest-ad9b2ddc DEPENDS_ON SPDXRef-Package-PHP-phar-io-version-9de1fc31
+

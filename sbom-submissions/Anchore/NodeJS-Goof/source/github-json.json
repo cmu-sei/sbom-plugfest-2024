@@ -1,0 +1,2942 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/codeql-analysis.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/codeql-analysis.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/codeql-analysis.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v1#analyze": {
+          "package_url": "pkg:github/github/codeql-action@v1#analyze",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v1#autobuild": {
+          "package_url": "pkg:github/github/codeql-action@v1#autobuild",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v1#init": {
+          "package_url": "pkg:github/github/codeql-action@v1#init",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-code-manual.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-code-manual.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-code-manual.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v2#upload-sarif": {
+          "package_url": "pkg:github/github/codeql-action@v2#upload-sarif",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-code.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-code.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-code.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v2#upload-sarif": {
+          "package_url": "pkg:github/github/codeql-action@v2#upload-sarif",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snyk/actions@master#setup": {
+          "package_url": "pkg:github/snyk/actions@master#setup",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-test-sarif.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-test-sarif.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/.github/workflows/snyk-test-sarif.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v2#upload-sarif": {
+          "package_url": "pkg:github/github/codeql-action@v2#upload-sarif",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snyk/actions@master#setup": {
+          "package_url": "pkg:github/snyk/actions@master#setup",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/package-lock.json": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/package-lock.json",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/snyk-labs/nodejs-goof/package-lock.json"
+      },
+      "resolved": {
+        "pkg:npm/%40types/color-name@1.1.1": {
+          "package_url": "pkg:npm/%40types/color-name@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/abbrev@1.1.1": {
+          "package_url": "pkg:npm/abbrev@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/accepts@1.1.4": {
+          "package_url": "pkg:npm/accepts@1.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/accepts@1.2.13": {
+          "package_url": "pkg:npm/accepts@1.2.13",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/adm-zip@0.4.7": {
+          "package_url": "pkg:npm/adm-zip@0.4.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ajv@6.10.2": {
+          "package_url": "pkg:npm/ajv@6.10.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/align-text@0.1.4": {
+          "package_url": "pkg:npm/align-text@0.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/amdefine@1.0.1": {
+          "package_url": "pkg:npm/amdefine@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-regex@2.1.1": {
+          "package_url": "pkg:npm/ansi-regex@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-regex@3.0.0": {
+          "package_url": "pkg:npm/ansi-regex@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-regex@4.1.0": {
+          "package_url": "pkg:npm/ansi-regex@4.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-regex@5.0.0": {
+          "package_url": "pkg:npm/ansi-regex@5.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-styles@2.2.1": {
+          "package_url": "pkg:npm/ansi-styles@2.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-styles@3.2.1": {
+          "package_url": "pkg:npm/ansi-styles@3.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ansi-styles@4.2.1": {
+          "package_url": "pkg:npm/ansi-styles@4.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/any-promise@1.3.0": {
+          "package_url": "pkg:npm/any-promise@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/app-root-path@3.0.0": {
+          "package_url": "pkg:npm/app-root-path@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/append-transform@0.4.0": {
+          "package_url": "pkg:npm/append-transform@0.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/archy@1.0.0": {
+          "package_url": "pkg:npm/archy@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/argparse@1.0.10": {
+          "package_url": "pkg:npm/argparse@1.0.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/arr-diff@4.0.0": {
+          "package_url": "pkg:npm/arr-diff@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/arr-flatten@1.1.0": {
+          "package_url": "pkg:npm/arr-flatten@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/arr-union@3.1.0": {
+          "package_url": "pkg:npm/arr-union@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/array-unique@0.3.2": {
+          "package_url": "pkg:npm/array-unique@0.3.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/arrify@1.0.1": {
+          "package_url": "pkg:npm/arrify@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/asn1@0.2.4": {
+          "package_url": "pkg:npm/asn1@0.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/assert-plus@1.0.0": {
+          "package_url": "pkg:npm/assert-plus@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/assign-symbols@1.0.0": {
+          "package_url": "pkg:npm/assign-symbols@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/async-cache@0.1.5": {
+          "package_url": "pkg:npm/async-cache@0.1.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/async@0.9.0": {
+          "package_url": "pkg:npm/async@0.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/async@1.5.2": {
+          "package_url": "pkg:npm/async@1.5.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/async@2.6.3": {
+          "package_url": "pkg:npm/async@2.6.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/asynckit@0.4.0": {
+          "package_url": "pkg:npm/asynckit@0.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/atob@2.1.1": {
+          "package_url": "pkg:npm/atob@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/aws-sign2@0.7.0": {
+          "package_url": "pkg:npm/aws-sign2@0.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/aws4@1.9.1": {
+          "package_url": "pkg:npm/aws4@1.9.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-code-frame@6.26.0": {
+          "package_url": "pkg:npm/babel-code-frame@6.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-generator@6.26.1": {
+          "package_url": "pkg:npm/babel-generator@6.26.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-messages@6.23.0": {
+          "package_url": "pkg:npm/babel-messages@6.23.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-runtime@6.26.0": {
+          "package_url": "pkg:npm/babel-runtime@6.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-template@6.26.0": {
+          "package_url": "pkg:npm/babel-template@6.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-traverse@6.26.0": {
+          "package_url": "pkg:npm/babel-traverse@6.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babel-types@6.26.0": {
+          "package_url": "pkg:npm/babel-types@6.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/babylon@6.18.0": {
+          "package_url": "pkg:npm/babylon@6.18.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/balanced-match@1.0.0": {
+          "package_url": "pkg:npm/balanced-match@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/base64-js@1.3.0": {
+          "package_url": "pkg:npm/base64-js@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/base@0.11.2": {
+          "package_url": "pkg:npm/base@0.11.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/basic-auth@2.0.1": {
+          "package_url": "pkg:npm/basic-auth@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bcrypt-pbkdf@1.0.2": {
+          "package_url": "pkg:npm/bcrypt-pbkdf@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bignumber.js@9.0.0": {
+          "package_url": "pkg:npm/bignumber.js@9.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bind-obj-methods@2.0.0": {
+          "package_url": "pkg:npm/bind-obj-methods@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bl@2.2.0": {
+          "package_url": "pkg:npm/bl@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bluebird@2.9.26": {
+          "package_url": "pkg:npm/bluebird@2.9.26",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bluebird@3.5.4": {
+          "package_url": "pkg:npm/bluebird@3.5.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/body-parser@1.9.0": {
+          "package_url": "pkg:npm/body-parser@1.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/brace-expansion@1.1.11": {
+          "package_url": "pkg:npm/brace-expansion@1.1.11",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/braces@2.3.2": {
+          "package_url": "pkg:npm/braces@2.3.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bson@0.4.23": {
+          "package_url": "pkg:npm/bson@0.4.23",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bson@1.1.4": {
+          "package_url": "pkg:npm/bson@1.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/buffer-from@1.1.1": {
+          "package_url": "pkg:npm/buffer-from@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/buffer@5.6.0": {
+          "package_url": "pkg:npm/buffer@5.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/builtin-modules@1.1.1": {
+          "package_url": "pkg:npm/builtin-modules@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/busboy@0.3.1": {
+          "package_url": "pkg:npm/busboy@0.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/bytes@1.0.0": {
+          "package_url": "pkg:npm/bytes@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cache-base@1.0.1": {
+          "package_url": "pkg:npm/cache-base@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/caching-transform@1.0.1": {
+          "package_url": "pkg:npm/caching-transform@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/camelcase@1.2.1": {
+          "package_url": "pkg:npm/camelcase@1.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/camelcase@4.1.0": {
+          "package_url": "pkg:npm/camelcase@4.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/camelcase@5.3.1": {
+          "package_url": "pkg:npm/camelcase@5.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/caseless@0.12.0": {
+          "package_url": "pkg:npm/caseless@0.12.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/center-align@0.1.3": {
+          "package_url": "pkg:npm/center-align@0.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cfenv@1.2.2": {
+          "package_url": "pkg:npm/cfenv@1.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/chalk@1.1.3": {
+          "package_url": "pkg:npm/chalk@1.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/chalk@2.4.2": {
+          "package_url": "pkg:npm/chalk@2.4.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/chalk@3.0.0": {
+          "package_url": "pkg:npm/chalk@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/class-utils@0.3.6": {
+          "package_url": "pkg:npm/class-utils@0.3.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/clean-yaml-object@0.1.0": {
+          "package_url": "pkg:npm/clean-yaml-object@0.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cli-highlight@2.1.4": {
+          "package_url": "pkg:npm/cli-highlight@2.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cliui@2.1.0": {
+          "package_url": "pkg:npm/cliui@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cliui@4.1.0": {
+          "package_url": "pkg:npm/cliui@4.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cliui@5.0.0": {
+          "package_url": "pkg:npm/cliui@5.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cliui@6.0.0": {
+          "package_url": "pkg:npm/cliui@6.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/code-point-at@1.1.0": {
+          "package_url": "pkg:npm/code-point-at@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/collection-visit@1.0.0": {
+          "package_url": "pkg:npm/collection-visit@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-convert@1.9.3": {
+          "package_url": "pkg:npm/color-convert@1.9.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-convert@2.0.1": {
+          "package_url": "pkg:npm/color-convert@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-name@1.1.3": {
+          "package_url": "pkg:npm/color-name@1.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-name@1.1.4": {
+          "package_url": "pkg:npm/color-name@1.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/color-support@1.1.3": {
+          "package_url": "pkg:npm/color-support@1.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/combined-stream@1.0.8": {
+          "package_url": "pkg:npm/combined-stream@1.0.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/commondir@1.0.1": {
+          "package_url": "pkg:npm/commondir@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/component-emitter@1.2.1": {
+          "package_url": "pkg:npm/component-emitter@1.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/concat-map@0.0.1": {
+          "package_url": "pkg:npm/concat-map@0.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/config-chain@1.1.12": {
+          "package_url": "pkg:npm/config-chain@1.1.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/connect-busboy@0.0.2": {
+          "package_url": "pkg:npm/connect-busboy@0.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/consolidate@0.14.5": {
+          "package_url": "pkg:npm/consolidate@0.14.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/content-disposition@0.5.0": {
+          "package_url": "pkg:npm/content-disposition@0.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/content-type@1.0.4": {
+          "package_url": "pkg:npm/content-type@1.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/convert-source-map@1.5.1": {
+          "package_url": "pkg:npm/convert-source-map@1.5.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cookie-signature@1.0.6": {
+          "package_url": "pkg:npm/cookie-signature@1.0.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cookie@0.1.2": {
+          "package_url": "pkg:npm/cookie@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cookie@0.4.1": {
+          "package_url": "pkg:npm/cookie@0.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/copy-descriptor@0.1.1": {
+          "package_url": "pkg:npm/copy-descriptor@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/core-js@2.5.6": {
+          "package_url": "pkg:npm/core-js@2.5.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/core-util-is@1.0.2": {
+          "package_url": "pkg:npm/core-util-is@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/coveralls@3.0.9": {
+          "package_url": "pkg:npm/coveralls@3.0.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/crc@3.2.1": {
+          "package_url": "pkg:npm/crc@3.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cross-spawn@4.0.2": {
+          "package_url": "pkg:npm/cross-spawn@4.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/cross-spawn@5.1.0": {
+          "package_url": "pkg:npm/cross-spawn@5.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/dashdash@1.14.1": {
+          "package_url": "pkg:npm/dashdash@1.14.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/debug-log@1.0.1": {
+          "package_url": "pkg:npm/debug-log@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/debug@2.2.0": {
+          "package_url": "pkg:npm/debug@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/debug@2.6.9": {
+          "package_url": "pkg:npm/debug@2.6.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/debug@3.1.0": {
+          "package_url": "pkg:npm/debug@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/debug@4.1.1": {
+          "package_url": "pkg:npm/debug@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/decamelize@1.2.0": {
+          "package_url": "pkg:npm/decamelize@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/decode-uri-component@0.2.0": {
+          "package_url": "pkg:npm/decode-uri-component@0.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/default-require-extensions@1.0.0": {
+          "package_url": "pkg:npm/default-require-extensions@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/define-property@0.2.5": {
+          "package_url": "pkg:npm/define-property@0.2.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/define-property@1.0.0": {
+          "package_url": "pkg:npm/define-property@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/define-property@2.0.2": {
+          "package_url": "pkg:npm/define-property@2.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/delayed-stream@1.0.0": {
+          "package_url": "pkg:npm/delayed-stream@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/denque@1.4.1": {
+          "package_url": "pkg:npm/denque@1.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/depd@1.0.1": {
+          "package_url": "pkg:npm/depd@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/depd@2.0.0": {
+          "package_url": "pkg:npm/depd@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/destroy@1.0.3": {
+          "package_url": "pkg:npm/destroy@1.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/detect-indent@4.0.0": {
+          "package_url": "pkg:npm/detect-indent@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/dicer@0.3.0": {
+          "package_url": "pkg:npm/dicer@0.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/diff@1.4.0": {
+          "package_url": "pkg:npm/diff@1.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/dotenv@6.2.0": {
+          "package_url": "pkg:npm/dotenv@6.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/dustjs-helpers@1.5.0": {
+          "package_url": "pkg:npm/dustjs-helpers@1.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/dustjs-linkedin@2.5.0": {
+          "package_url": "pkg:npm/dustjs-linkedin@2.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ecc-jsbn@0.1.2": {
+          "package_url": "pkg:npm/ecc-jsbn@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ee-first@1.0.5": {
+          "package_url": "pkg:npm/ee-first@1.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ee-first@1.1.0": {
+          "package_url": "pkg:npm/ee-first@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ee-first@1.1.1": {
+          "package_url": "pkg:npm/ee-first@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ejs-locals@1.0.2": {
+          "package_url": "pkg:npm/ejs-locals@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ejs@0.8.8": {
+          "package_url": "pkg:npm/ejs@0.8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ejs@1.0.0": {
+          "package_url": "pkg:npm/ejs@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/emoji-regex@7.0.3": {
+          "package_url": "pkg:npm/emoji-regex@7.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/emoji-regex@8.0.0": {
+          "package_url": "pkg:npm/emoji-regex@8.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/error-ex@1.3.1": {
+          "package_url": "pkg:npm/error-ex@1.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/errorhandler@1.2.0": {
+          "package_url": "pkg:npm/errorhandler@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/es6-promise@2.1.1": {
+          "package_url": "pkg:npm/es6-promise@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/escape-html@1.0.1": {
+          "package_url": "pkg:npm/escape-html@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/escape-string-regexp@1.0.5": {
+          "package_url": "pkg:npm/escape-string-regexp@1.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/esprima@4.0.1": {
+          "package_url": "pkg:npm/esprima@4.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/esutils@2.0.2": {
+          "package_url": "pkg:npm/esutils@2.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/etag@1.6.0": {
+          "package_url": "pkg:npm/etag@1.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/events-to-array@1.1.2": {
+          "package_url": "pkg:npm/events-to-array@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/execa@0.7.0": {
+          "package_url": "pkg:npm/execa@0.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/expand-brackets@2.1.4": {
+          "package_url": "pkg:npm/expand-brackets@2.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/express-fileupload@0.0.5": {
+          "package_url": "pkg:npm/express-fileupload@0.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/express-session@1.17.2": {
+          "package_url": "pkg:npm/express-session@1.17.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/express@4.12.4": {
+          "package_url": "pkg:npm/express@4.12.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/extend-shallow@2.0.1": {
+          "package_url": "pkg:npm/extend-shallow@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/extend-shallow@3.0.2": {
+          "package_url": "pkg:npm/extend-shallow@3.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/extend@3.0.2": {
+          "package_url": "pkg:npm/extend@3.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/extglob@2.0.4": {
+          "package_url": "pkg:npm/extglob@2.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/extsprintf@1.3.0": {
+          "package_url": "pkg:npm/extsprintf@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fast-deep-equal@2.0.1": {
+          "package_url": "pkg:npm/fast-deep-equal@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fast-json-stable-stringify@2.1.0": {
+          "package_url": "pkg:npm/fast-json-stable-stringify@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fd@0.0.3": {
+          "package_url": "pkg:npm/fd@0.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/figlet@1.5.0": {
+          "package_url": "pkg:npm/figlet@1.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/file-type@8.1.0": {
+          "package_url": "pkg:npm/file-type@8.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fill-range@4.0.0": {
+          "package_url": "pkg:npm/fill-range@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/finalhandler@0.3.6": {
+          "package_url": "pkg:npm/finalhandler@0.3.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/find-cache-dir@0.1.1": {
+          "package_url": "pkg:npm/find-cache-dir@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/find-up@1.1.2": {
+          "package_url": "pkg:npm/find-up@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/find-up@2.1.0": {
+          "package_url": "pkg:npm/find-up@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/find-up@3.0.0": {
+          "package_url": "pkg:npm/find-up@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/find-up@4.1.0": {
+          "package_url": "pkg:npm/find-up@4.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/for-in@1.0.2": {
+          "package_url": "pkg:npm/for-in@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/foreachasync@3.0.0": {
+          "package_url": "pkg:npm/foreachasync@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/foreground-child@1.5.6": {
+          "package_url": "pkg:npm/foreground-child@1.5.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/forever-agent@0.6.1": {
+          "package_url": "pkg:npm/forever-agent@0.6.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/form-data@2.3.3": {
+          "package_url": "pkg:npm/form-data@2.3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/forwarded@0.1.2": {
+          "package_url": "pkg:npm/forwarded@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fragment-cache@0.2.1": {
+          "package_url": "pkg:npm/fragment-cache@0.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fresh@0.2.4": {
+          "package_url": "pkg:npm/fresh@0.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fs-exists-cached@1.0.0": {
+          "package_url": "pkg:npm/fs-exists-cached@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fs-extra@0.22.1": {
+          "package_url": "pkg:npm/fs-extra@0.22.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/fs.realpath@1.0.0": {
+          "package_url": "pkg:npm/fs.realpath@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/function-loop@1.0.2": {
+          "package_url": "pkg:npm/function-loop@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/get-caller-file@1.0.2": {
+          "package_url": "pkg:npm/get-caller-file@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/get-caller-file@2.0.5": {
+          "package_url": "pkg:npm/get-caller-file@2.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/get-stream@3.0.0": {
+          "package_url": "pkg:npm/get-stream@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/get-value@2.0.6": {
+          "package_url": "pkg:npm/get-value@2.0.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/getpass@0.1.7": {
+          "package_url": "pkg:npm/getpass@0.1.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/glob@7.1.2": {
+          "package_url": "pkg:npm/glob@7.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/glob@7.1.3": {
+          "package_url": "pkg:npm/glob@7.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/globals@9.18.0": {
+          "package_url": "pkg:npm/globals@9.18.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/goof@1.0.1": {
+          "package_url": "pkg:npm/goof@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/graceful-fs@1.2.3": {
+          "package_url": "pkg:npm/graceful-fs@1.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/graceful-fs@4.1.11": {
+          "package_url": "pkg:npm/graceful-fs@4.1.11",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/graceful-fs@4.1.15": {
+          "package_url": "pkg:npm/graceful-fs@4.1.15",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/handlebars@4.0.11": {
+          "package_url": "pkg:npm/handlebars@4.0.11",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/handlebars@4.0.14": {
+          "package_url": "pkg:npm/handlebars@4.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/har-schema@2.0.0": {
+          "package_url": "pkg:npm/har-schema@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/har-validator@5.1.3": {
+          "package_url": "pkg:npm/har-validator@5.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-ansi@2.0.0": {
+          "package_url": "pkg:npm/has-ansi@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-flag@1.0.0": {
+          "package_url": "pkg:npm/has-flag@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-flag@3.0.0": {
+          "package_url": "pkg:npm/has-flag@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-flag@4.0.0": {
+          "package_url": "pkg:npm/has-flag@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-value@0.3.1": {
+          "package_url": "pkg:npm/has-value@0.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-value@1.0.0": {
+          "package_url": "pkg:npm/has-value@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-values@0.1.4": {
+          "package_url": "pkg:npm/has-values@0.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/has-values@1.0.0": {
+          "package_url": "pkg:npm/has-values@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/hbs@4.0.4": {
+          "package_url": "pkg:npm/hbs@4.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/highlight.js@9.18.1": {
+          "package_url": "pkg:npm/highlight.js@9.18.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/hooks-fixed@1.1.0": {
+          "package_url": "pkg:npm/hooks-fixed@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/hosted-git-info@2.6.0": {
+          "package_url": "pkg:npm/hosted-git-info@2.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/http-signature@1.2.0": {
+          "package_url": "pkg:npm/http-signature@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/humanize-ms@1.0.1": {
+          "package_url": "pkg:npm/humanize-ms@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/iconv-lite@0.4.4": {
+          "package_url": "pkg:npm/iconv-lite@0.4.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ieee754@1.1.13": {
+          "package_url": "pkg:npm/ieee754@1.1.13",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/imurmurhash@0.1.4": {
+          "package_url": "pkg:npm/imurmurhash@0.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/inflight@1.0.6": {
+          "package_url": "pkg:npm/inflight@1.0.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/inherits@1.0.2": {
+          "package_url": "pkg:npm/inherits@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/inherits@2.0.3": {
+          "package_url": "pkg:npm/inherits@2.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ini@1.1.0": {
+          "package_url": "pkg:npm/ini@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ini@1.3.5": {
+          "package_url": "pkg:npm/ini@1.3.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/invariant@2.2.4": {
+          "package_url": "pkg:npm/invariant@2.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/invert-kv@1.0.0": {
+          "package_url": "pkg:npm/invert-kv@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ipaddr.js@1.0.5": {
+          "package_url": "pkg:npm/ipaddr.js@1.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-accessor-descriptor@0.1.6": {
+          "package_url": "pkg:npm/is-accessor-descriptor@0.1.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-accessor-descriptor@1.0.0": {
+          "package_url": "pkg:npm/is-accessor-descriptor@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-arrayish@0.2.1": {
+          "package_url": "pkg:npm/is-arrayish@0.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-buffer@1.1.6": {
+          "package_url": "pkg:npm/is-buffer@1.1.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-builtin-module@1.0.0": {
+          "package_url": "pkg:npm/is-builtin-module@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-data-descriptor@0.1.4": {
+          "package_url": "pkg:npm/is-data-descriptor@0.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-data-descriptor@1.0.0": {
+          "package_url": "pkg:npm/is-data-descriptor@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-descriptor@0.1.6": {
+          "package_url": "pkg:npm/is-descriptor@0.1.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-descriptor@1.0.2": {
+          "package_url": "pkg:npm/is-descriptor@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-extendable@0.1.1": {
+          "package_url": "pkg:npm/is-extendable@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-extendable@1.0.1": {
+          "package_url": "pkg:npm/is-extendable@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-finite@1.0.2": {
+          "package_url": "pkg:npm/is-finite@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-fullwidth-code-point@1.0.0": {
+          "package_url": "pkg:npm/is-fullwidth-code-point@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-fullwidth-code-point@2.0.0": {
+          "package_url": "pkg:npm/is-fullwidth-code-point@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-fullwidth-code-point@3.0.0": {
+          "package_url": "pkg:npm/is-fullwidth-code-point@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-number@3.0.0": {
+          "package_url": "pkg:npm/is-number@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-number@4.0.0": {
+          "package_url": "pkg:npm/is-number@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-odd@2.0.0": {
+          "package_url": "pkg:npm/is-odd@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-plain-object@2.0.4": {
+          "package_url": "pkg:npm/is-plain-object@2.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-stream@1.1.0": {
+          "package_url": "pkg:npm/is-stream@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-typedarray@1.0.0": {
+          "package_url": "pkg:npm/is-typedarray@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-utf8@0.2.1": {
+          "package_url": "pkg:npm/is-utf8@0.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/is-windows@1.0.2": {
+          "package_url": "pkg:npm/is-windows@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isarray@0.0.1": {
+          "package_url": "pkg:npm/isarray@0.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isarray@1.0.0": {
+          "package_url": "pkg:npm/isarray@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isexe@2.0.0": {
+          "package_url": "pkg:npm/isexe@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isobject@2.1.0": {
+          "package_url": "pkg:npm/isobject@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isobject@3.0.1": {
+          "package_url": "pkg:npm/isobject@3.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/isstream@0.1.2": {
+          "package_url": "pkg:npm/isstream@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/istanbul-lib-coverage@1.2.0": {
+          "package_url": "pkg:npm/istanbul-lib-coverage@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/istanbul-lib-hook@1.1.0": {
+          "package_url": "pkg:npm/istanbul-lib-hook@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/istanbul-lib-instrument@1.10.1": {
+          "package_url": "pkg:npm/istanbul-lib-instrument@1.10.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/istanbul-lib-report@1.1.3": {
+          "package_url": "pkg:npm/istanbul-lib-report@1.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/istanbul-lib-source-maps@1.2.3": {
+          "package_url": "pkg:npm/istanbul-lib-source-maps@1.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/istanbul-reports@1.4.0": {
+          "package_url": "pkg:npm/istanbul-reports@1.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jquery@2.2.4": {
+          "package_url": "pkg:npm/jquery@2.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/js-tokens@3.0.2": {
+          "package_url": "pkg:npm/js-tokens@3.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/js-yaml@3.13.1": {
+          "package_url": "pkg:npm/js-yaml@3.13.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jsbn@0.1.1": {
+          "package_url": "pkg:npm/jsbn@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jsesc@1.3.0": {
+          "package_url": "pkg:npm/jsesc@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/json-schema-traverse@0.4.1": {
+          "package_url": "pkg:npm/json-schema-traverse@0.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/json-schema@0.2.3": {
+          "package_url": "pkg:npm/json-schema@0.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/json-stringify-safe@5.0.1": {
+          "package_url": "pkg:npm/json-stringify-safe@5.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jsonfile@2.4.0": {
+          "package_url": "pkg:npm/jsonfile@2.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/jsprim@1.4.1": {
+          "package_url": "pkg:npm/jsprim@1.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/kareem@1.0.1": {
+          "package_url": "pkg:npm/kareem@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/kerberos@0.0.24": {
+          "package_url": "pkg:npm/kerberos@0.0.24",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/kind-of@3.2.2": {
+          "package_url": "pkg:npm/kind-of@3.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/kind-of@4.0.0": {
+          "package_url": "pkg:npm/kind-of@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/kind-of@5.1.0": {
+          "package_url": "pkg:npm/kind-of@5.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/kind-of@6.0.2": {
+          "package_url": "pkg:npm/kind-of@6.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lazy-cache@1.0.4": {
+          "package_url": "pkg:npm/lazy-cache@1.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lcid@1.0.0": {
+          "package_url": "pkg:npm/lcid@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lcov-parse@1.0.0": {
+          "package_url": "pkg:npm/lcov-parse@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/load-json-file@1.1.0": {
+          "package_url": "pkg:npm/load-json-file@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/locate-path@2.0.0": {
+          "package_url": "pkg:npm/locate-path@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/locate-path@3.0.0": {
+          "package_url": "pkg:npm/locate-path@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/locate-path@5.0.0": {
+          "package_url": "pkg:npm/locate-path@5.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lodash@4.17.10": {
+          "package_url": "pkg:npm/lodash@4.17.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lodash@4.17.21": {
+          "package_url": "pkg:npm/lodash@4.17.21",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lodash@4.17.4": {
+          "package_url": "pkg:npm/lodash@4.17.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/log-driver@1.2.7": {
+          "package_url": "pkg:npm/log-driver@1.2.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/longest@1.0.1": {
+          "package_url": "pkg:npm/longest@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/loose-envify@1.3.1": {
+          "package_url": "pkg:npm/loose-envify@1.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lru-cache@2.3.1": {
+          "package_url": "pkg:npm/lru-cache@2.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lru-cache@4.1.3": {
+          "package_url": "pkg:npm/lru-cache@4.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/lru-cache@4.1.5": {
+          "package_url": "pkg:npm/lru-cache@4.1.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/map-cache@0.2.2": {
+          "package_url": "pkg:npm/map-cache@0.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/map-visit@1.0.0": {
+          "package_url": "pkg:npm/map-visit@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/marked@0.3.5": {
+          "package_url": "pkg:npm/marked@0.3.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/md5-hex@1.3.0": {
+          "package_url": "pkg:npm/md5-hex@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/md5-o-matic@0.1.1": {
+          "package_url": "pkg:npm/md5-o-matic@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/media-typer@0.3.0": {
+          "package_url": "pkg:npm/media-typer@0.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mem@1.1.0": {
+          "package_url": "pkg:npm/mem@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/memory-pager@1.5.0": {
+          "package_url": "pkg:npm/memory-pager@1.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/merge-descriptors@1.0.0": {
+          "package_url": "pkg:npm/merge-descriptors@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/merge-source-map@1.1.0": {
+          "package_url": "pkg:npm/merge-source-map@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/method-override@3.0.0": {
+          "package_url": "pkg:npm/method-override@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/methods@1.1.2": {
+          "package_url": "pkg:npm/methods@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/micromatch@3.1.10": {
+          "package_url": "pkg:npm/micromatch@3.1.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime-db@1.12.0": {
+          "package_url": "pkg:npm/mime-db@1.12.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime-db@1.39.0": {
+          "package_url": "pkg:npm/mime-db@1.39.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime-db@1.43.0": {
+          "package_url": "pkg:npm/mime-db@1.43.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime-types@2.0.14": {
+          "package_url": "pkg:npm/mime-types@2.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime-types@2.1.23": {
+          "package_url": "pkg:npm/mime-types@2.1.23",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime-types@2.1.26": {
+          "package_url": "pkg:npm/mime-types@2.1.26",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime@1.2.11": {
+          "package_url": "pkg:npm/mime@1.2.11",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mime@1.3.4": {
+          "package_url": "pkg:npm/mime@1.3.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mimic-fn@1.2.0": {
+          "package_url": "pkg:npm/mimic-fn@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minimatch@3.0.4": {
+          "package_url": "pkg:npm/minimatch@3.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minimist@0.0.10": {
+          "package_url": "pkg:npm/minimist@0.0.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minimist@0.0.8": {
+          "package_url": "pkg:npm/minimist@0.0.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minimist@1.2.0": {
+          "package_url": "pkg:npm/minimist@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minimist@1.2.5": {
+          "package_url": "pkg:npm/minimist@1.2.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/minipass@2.9.0": {
+          "package_url": "pkg:npm/minipass@2.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mixin-deep@1.3.1": {
+          "package_url": "pkg:npm/mixin-deep@1.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mkdirp@0.3.5": {
+          "package_url": "pkg:npm/mkdirp@0.3.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mkdirp@0.5.1": {
+          "package_url": "pkg:npm/mkdirp@0.5.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mkdirp@0.5.5": {
+          "package_url": "pkg:npm/mkdirp@0.5.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/moment@2.15.1": {
+          "package_url": "pkg:npm/moment@2.15.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mongodb-core@1.2.19": {
+          "package_url": "pkg:npm/mongodb-core@1.2.19",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mongodb@2.0.46": {
+          "package_url": "pkg:npm/mongodb@2.0.46",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mongodb@3.5.9": {
+          "package_url": "pkg:npm/mongodb@3.5.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mongoose@4.2.4": {
+          "package_url": "pkg:npm/mongoose@4.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/morgan@1.10.0": {
+          "package_url": "pkg:npm/morgan@1.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mpath@0.1.1": {
+          "package_url": "pkg:npm/mpath@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mpromise@0.5.4": {
+          "package_url": "pkg:npm/mpromise@0.5.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mquery@1.6.3": {
+          "package_url": "pkg:npm/mquery@1.6.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ms@0.6.2": {
+          "package_url": "pkg:npm/ms@0.6.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ms@0.7.1": {
+          "package_url": "pkg:npm/ms@0.7.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ms@0.7.3": {
+          "package_url": "pkg:npm/ms@0.7.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ms@2.0.0": {
+          "package_url": "pkg:npm/ms@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ms@2.1.1": {
+          "package_url": "pkg:npm/ms@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/muri@1.0.0": {
+          "package_url": "pkg:npm/muri@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mysql@2.18.1": {
+          "package_url": "pkg:npm/mysql@2.18.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/mz@2.7.0": {
+          "package_url": "pkg:npm/mz@2.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/nan@2.10.0": {
+          "package_url": "pkg:npm/nan@2.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/nanomatch@1.2.9": {
+          "package_url": "pkg:npm/nanomatch@1.2.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/negotiator@0.2.8": {
+          "package_url": "pkg:npm/negotiator@0.2.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/negotiator@0.4.9": {
+          "package_url": "pkg:npm/negotiator@0.4.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/negotiator@0.5.3": {
+          "package_url": "pkg:npm/negotiator@0.5.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/nopt@2.2.1": {
+          "package_url": "pkg:npm/nopt@2.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/normalize-package-data@2.4.0": {
+          "package_url": "pkg:npm/normalize-package-data@2.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/npm-run-path@2.0.2": {
+          "package_url": "pkg:npm/npm-run-path@2.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/npmconf@0.0.24": {
+          "package_url": "pkg:npm/npmconf@0.0.24",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/number-is-nan@1.0.1": {
+          "package_url": "pkg:npm/number-is-nan@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/nyc@11.9.0": {
+          "package_url": "pkg:npm/nyc@11.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/oauth-sign@0.9.0": {
+          "package_url": "pkg:npm/oauth-sign@0.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/object-assign@4.1.1": {
+          "package_url": "pkg:npm/object-assign@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/object-copy@0.1.0": {
+          "package_url": "pkg:npm/object-copy@0.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/object-visit@1.0.1": {
+          "package_url": "pkg:npm/object-visit@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/object.pick@1.3.0": {
+          "package_url": "pkg:npm/object.pick@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/on-finished@2.1.0": {
+          "package_url": "pkg:npm/on-finished@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/on-finished@2.2.1": {
+          "package_url": "pkg:npm/on-finished@2.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/on-finished@2.3.0": {
+          "package_url": "pkg:npm/on-finished@2.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/on-headers@1.0.2": {
+          "package_url": "pkg:npm/on-headers@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/once@1.1.1": {
+          "package_url": "pkg:npm/once@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/once@1.4.0": {
+          "package_url": "pkg:npm/once@1.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/opener@1.5.1": {
+          "package_url": "pkg:npm/opener@1.5.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/optimist@0.6.1": {
+          "package_url": "pkg:npm/optimist@0.6.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/optional@0.1.4": {
+          "package_url": "pkg:npm/optional@0.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/os-homedir@1.0.2": {
+          "package_url": "pkg:npm/os-homedir@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/os-locale@2.1.0": {
+          "package_url": "pkg:npm/os-locale@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/osenv@0.0.3": {
+          "package_url": "pkg:npm/osenv@0.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/own-or-env@1.0.1": {
+          "package_url": "pkg:npm/own-or-env@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/own-or@1.0.0": {
+          "package_url": "pkg:npm/own-or@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-finally@1.0.0": {
+          "package_url": "pkg:npm/p-finally@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-limit@1.2.0": {
+          "package_url": "pkg:npm/p-limit@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-limit@2.3.0": {
+          "package_url": "pkg:npm/p-limit@2.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-locate@2.0.0": {
+          "package_url": "pkg:npm/p-locate@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-locate@3.0.0": {
+          "package_url": "pkg:npm/p-locate@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-locate@4.1.0": {
+          "package_url": "pkg:npm/p-locate@4.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-try@1.0.0": {
+          "package_url": "pkg:npm/p-try@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/p-try@2.2.0": {
+          "package_url": "pkg:npm/p-try@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/parent-require@1.0.0": {
+          "package_url": "pkg:npm/parent-require@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/parse-json@2.2.0": {
+          "package_url": "pkg:npm/parse-json@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/parse5-htmlparser2-tree-adapter@5.1.1": {
+          "package_url": "pkg:npm/parse5-htmlparser2-tree-adapter@5.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/parse5@5.1.1": {
+          "package_url": "pkg:npm/parse5@5.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/parseurl@1.3.3": {
+          "package_url": "pkg:npm/parseurl@1.3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pascalcase@0.1.1": {
+          "package_url": "pkg:npm/pascalcase@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-exists@2.1.0": {
+          "package_url": "pkg:npm/path-exists@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-exists@3.0.0": {
+          "package_url": "pkg:npm/path-exists@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-exists@4.0.0": {
+          "package_url": "pkg:npm/path-exists@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-is-absolute@1.0.1": {
+          "package_url": "pkg:npm/path-is-absolute@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-key@2.0.1": {
+          "package_url": "pkg:npm/path-key@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-parse@1.0.5": {
+          "package_url": "pkg:npm/path-parse@1.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-to-regexp@0.1.3": {
+          "package_url": "pkg:npm/path-to-regexp@0.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/path-type@1.1.0": {
+          "package_url": "pkg:npm/path-type@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/performance-now@2.1.0": {
+          "package_url": "pkg:npm/performance-now@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pify@2.3.0": {
+          "package_url": "pkg:npm/pify@2.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pinkie-promise@2.0.1": {
+          "package_url": "pkg:npm/pinkie-promise@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pinkie@2.0.4": {
+          "package_url": "pkg:npm/pinkie@2.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pkg-dir@1.0.0": {
+          "package_url": "pkg:npm/pkg-dir@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ports@1.1.0": {
+          "package_url": "pkg:npm/ports@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/posix-character-classes@0.1.1": {
+          "package_url": "pkg:npm/posix-character-classes@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/process-nextick-args@2.0.0": {
+          "package_url": "pkg:npm/process-nextick-args@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/proto-list@1.2.4": {
+          "package_url": "pkg:npm/proto-list@1.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/proxy-addr@1.0.10": {
+          "package_url": "pkg:npm/proxy-addr@1.0.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/pseudomap@1.0.2": {
+          "package_url": "pkg:npm/pseudomap@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/psl@1.7.0": {
+          "package_url": "pkg:npm/psl@1.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/punycode@1.4.1": {
+          "package_url": "pkg:npm/punycode@1.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/punycode@2.1.1": {
+          "package_url": "pkg:npm/punycode@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/qs@2.2.4": {
+          "package_url": "pkg:npm/qs@2.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/qs@2.4.2": {
+          "package_url": "pkg:npm/qs@2.4.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/qs@6.5.2": {
+          "package_url": "pkg:npm/qs@6.5.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/random-bytes@1.0.0": {
+          "package_url": "pkg:npm/random-bytes@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/range-parser@1.0.3": {
+          "package_url": "pkg:npm/range-parser@1.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/raw-body@1.3.0": {
+          "package_url": "pkg:npm/raw-body@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/read-pkg-up@1.0.1": {
+          "package_url": "pkg:npm/read-pkg-up@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/read-pkg@1.1.0": {
+          "package_url": "pkg:npm/read-pkg@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/readable-stream@1.0.31": {
+          "package_url": "pkg:npm/readable-stream@1.0.31",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/readable-stream@2.3.7": {
+          "package_url": "pkg:npm/readable-stream@2.3.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/reflect-metadata@0.1.13": {
+          "package_url": "pkg:npm/reflect-metadata@0.1.13",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/regenerator-runtime@0.11.1": {
+          "package_url": "pkg:npm/regenerator-runtime@0.11.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/regex-not@1.0.2": {
+          "package_url": "pkg:npm/regex-not@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/regexp-clone@0.0.1": {
+          "package_url": "pkg:npm/regexp-clone@0.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/repeat-element@1.1.2": {
+          "package_url": "pkg:npm/repeat-element@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/repeat-string@1.6.1": {
+          "package_url": "pkg:npm/repeat-string@1.6.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/repeating@2.0.1": {
+          "package_url": "pkg:npm/repeating@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/request@2.88.0": {
+          "package_url": "pkg:npm/request@2.88.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/require-directory@2.1.1": {
+          "package_url": "pkg:npm/require-directory@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/require-main-filename@1.0.1": {
+          "package_url": "pkg:npm/require-main-filename@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/require-main-filename@2.0.0": {
+          "package_url": "pkg:npm/require-main-filename@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/require_optional@1.0.1": {
+          "package_url": "pkg:npm/require_optional@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/resolve-from@2.0.0": {
+          "package_url": "pkg:npm/resolve-from@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/resolve-url@0.2.1": {
+          "package_url": "pkg:npm/resolve-url@0.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/ret@0.1.15": {
+          "package_url": "pkg:npm/ret@0.1.15",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/right-align@0.1.3": {
+          "package_url": "pkg:npm/right-align@0.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/rimraf@2.6.2": {
+          "package_url": "pkg:npm/rimraf@2.6.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/rimraf@2.6.3": {
+          "package_url": "pkg:npm/rimraf@2.6.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/safe-buffer@5.1.2": {
+          "package_url": "pkg:npm/safe-buffer@5.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/safe-buffer@5.2.1": {
+          "package_url": "pkg:npm/safe-buffer@5.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/safe-regex@1.1.0": {
+          "package_url": "pkg:npm/safe-regex@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/safer-buffer@2.1.2": {
+          "package_url": "pkg:npm/safer-buffer@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/saslprep@1.0.3": {
+          "package_url": "pkg:npm/saslprep@1.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sax@1.2.4": {
+          "package_url": "pkg:npm/sax@1.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/semver@1.1.4": {
+          "package_url": "pkg:npm/semver@1.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/semver@5.5.0": {
+          "package_url": "pkg:npm/semver@5.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/semver@5.7.0": {
+          "package_url": "pkg:npm/semver@5.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/send@0.12.3": {
+          "package_url": "pkg:npm/send@0.12.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/serve-static@1.9.3": {
+          "package_url": "pkg:npm/serve-static@1.9.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/set-blocking@2.0.0": {
+          "package_url": "pkg:npm/set-blocking@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/set-value@0.4.3": {
+          "package_url": "pkg:npm/set-value@0.4.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/set-value@2.0.0": {
+          "package_url": "pkg:npm/set-value@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sha.js@2.4.11": {
+          "package_url": "pkg:npm/sha.js@2.4.11",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/shebang-command@1.2.0": {
+          "package_url": "pkg:npm/shebang-command@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/shebang-regex@1.0.0": {
+          "package_url": "pkg:npm/shebang-regex@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/signal-exit@3.0.2": {
+          "package_url": "pkg:npm/signal-exit@3.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sliced@0.0.5": {
+          "package_url": "pkg:npm/sliced@0.0.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/slide@1.1.6": {
+          "package_url": "pkg:npm/slide@1.1.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/snapdragon-node@2.1.1": {
+          "package_url": "pkg:npm/snapdragon-node@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/snapdragon-util@3.0.1": {
+          "package_url": "pkg:npm/snapdragon-util@3.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/snapdragon@0.8.2": {
+          "package_url": "pkg:npm/snapdragon@0.8.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map-resolve@0.5.1": {
+          "package_url": "pkg:npm/source-map-resolve@0.5.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map-support@0.5.16": {
+          "package_url": "pkg:npm/source-map-support@0.5.16",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map-url@0.4.0": {
+          "package_url": "pkg:npm/source-map-url@0.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map@0.4.4": {
+          "package_url": "pkg:npm/source-map@0.4.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map@0.5.7": {
+          "package_url": "pkg:npm/source-map@0.5.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/source-map@0.6.1": {
+          "package_url": "pkg:npm/source-map@0.6.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sparse-bitfield@3.0.3": {
+          "package_url": "pkg:npm/sparse-bitfield@3.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/spawn-wrap@1.4.2": {
+          "package_url": "pkg:npm/spawn-wrap@1.4.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/spdx-correct@3.0.0": {
+          "package_url": "pkg:npm/spdx-correct@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/spdx-exceptions@2.1.0": {
+          "package_url": "pkg:npm/spdx-exceptions@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/spdx-expression-parse@3.0.0": {
+          "package_url": "pkg:npm/spdx-expression-parse@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/spdx-license-ids@3.0.0": {
+          "package_url": "pkg:npm/spdx-license-ids@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/split-string@3.1.0": {
+          "package_url": "pkg:npm/split-string@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sprintf-js@1.0.3": {
+          "package_url": "pkg:npm/sprintf-js@1.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sqlstring@2.3.1": {
+          "package_url": "pkg:npm/sqlstring@2.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/sshpk@1.16.1": {
+          "package_url": "pkg:npm/sshpk@1.16.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/st@0.2.4": {
+          "package_url": "pkg:npm/st@0.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/stack-utils@1.0.2": {
+          "package_url": "pkg:npm/stack-utils@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/static-extend@0.1.2": {
+          "package_url": "pkg:npm/static-extend@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/stream-buffers@3.0.2": {
+          "package_url": "pkg:npm/stream-buffers@3.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/streamifier@0.1.1": {
+          "package_url": "pkg:npm/streamifier@0.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/streamsearch@0.1.2": {
+          "package_url": "pkg:npm/streamsearch@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string-width@1.0.2": {
+          "package_url": "pkg:npm/string-width@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string-width@2.1.1": {
+          "package_url": "pkg:npm/string-width@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string-width@3.1.0": {
+          "package_url": "pkg:npm/string-width@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string-width@4.2.0": {
+          "package_url": "pkg:npm/string-width@4.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string_decoder@0.10.31": {
+          "package_url": "pkg:npm/string_decoder@0.10.31",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/string_decoder@1.1.1": {
+          "package_url": "pkg:npm/string_decoder@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-ansi@3.0.1": {
+          "package_url": "pkg:npm/strip-ansi@3.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-ansi@4.0.0": {
+          "package_url": "pkg:npm/strip-ansi@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-ansi@5.2.0": {
+          "package_url": "pkg:npm/strip-ansi@5.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-ansi@6.0.0": {
+          "package_url": "pkg:npm/strip-ansi@6.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-bom@2.0.0": {
+          "package_url": "pkg:npm/strip-bom@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/strip-eof@1.0.0": {
+          "package_url": "pkg:npm/strip-eof@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/supports-color@2.0.0": {
+          "package_url": "pkg:npm/supports-color@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/supports-color@3.2.3": {
+          "package_url": "pkg:npm/supports-color@3.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/supports-color@5.5.0": {
+          "package_url": "pkg:npm/supports-color@5.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/supports-color@7.1.0": {
+          "package_url": "pkg:npm/supports-color@7.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tap-mocha-reporter@3.0.9": {
+          "package_url": "pkg:npm/tap-mocha-reporter@3.0.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tap-parser@5.4.0": {
+          "package_url": "pkg:npm/tap-parser@5.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tap-parser@7.0.0": {
+          "package_url": "pkg:npm/tap-parser@7.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tap@11.1.5": {
+          "package_url": "pkg:npm/tap@11.1.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/test-exclude@4.2.1": {
+          "package_url": "pkg:npm/test-exclude@4.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/thenify-all@1.6.0": {
+          "package_url": "pkg:npm/thenify-all@1.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/thenify@3.3.1": {
+          "package_url": "pkg:npm/thenify@3.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tmatch@3.1.0": {
+          "package_url": "pkg:npm/tmatch@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/to-fast-properties@1.0.3": {
+          "package_url": "pkg:npm/to-fast-properties@1.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/to-object-path@0.3.0": {
+          "package_url": "pkg:npm/to-object-path@0.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/to-regex-range@2.1.1": {
+          "package_url": "pkg:npm/to-regex-range@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/to-regex@3.0.2": {
+          "package_url": "pkg:npm/to-regex@3.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tough-cookie@2.4.3": {
+          "package_url": "pkg:npm/tough-cookie@2.4.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/trim-right@1.0.1": {
+          "package_url": "pkg:npm/trim-right@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/trivial-deferred@1.0.1": {
+          "package_url": "pkg:npm/trivial-deferred@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tsame@1.1.2": {
+          "package_url": "pkg:npm/tsame@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tslib@1.10.0": {
+          "package_url": "pkg:npm/tslib@1.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tunnel-agent@0.6.0": {
+          "package_url": "pkg:npm/tunnel-agent@0.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/tweetnacl@0.14.5": {
+          "package_url": "pkg:npm/tweetnacl@0.14.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/type-is@1.5.7": {
+          "package_url": "pkg:npm/type-is@1.5.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/type-is@1.6.16": {
+          "package_url": "pkg:npm/type-is@1.6.16",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/typeorm@0.2.24": {
+          "package_url": "pkg:npm/typeorm@0.2.24",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/uglify-js@2.8.29": {
+          "package_url": "pkg:npm/uglify-js@2.8.29",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/uglify-js@3.13.9": {
+          "package_url": "pkg:npm/uglify-js@3.13.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/uglify-to-browserify@1.0.2": {
+          "package_url": "pkg:npm/uglify-to-browserify@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/uid-safe@2.1.5": {
+          "package_url": "pkg:npm/uid-safe@2.1.5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/underscore@1.9.1": {
+          "package_url": "pkg:npm/underscore@1.9.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/unicode-length@1.0.3": {
+          "package_url": "pkg:npm/unicode-length@1.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/union-value@1.0.0": {
+          "package_url": "pkg:npm/union-value@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/unset-value@1.0.0": {
+          "package_url": "pkg:npm/unset-value@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/uri-js@4.2.2": {
+          "package_url": "pkg:npm/uri-js@4.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/urix@0.1.0": {
+          "package_url": "pkg:npm/urix@0.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/use@3.1.0": {
+          "package_url": "pkg:npm/use@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/util-deprecate@1.0.2": {
+          "package_url": "pkg:npm/util-deprecate@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/utils-merge@1.0.0": {
+          "package_url": "pkg:npm/utils-merge@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/uuid@3.3.2": {
+          "package_url": "pkg:npm/uuid@3.3.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/validate-npm-package-license@3.0.3": {
+          "package_url": "pkg:npm/validate-npm-package-license@3.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/validator@13.5.2": {
+          "package_url": "pkg:npm/validator@13.5.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/vary@1.0.1": {
+          "package_url": "pkg:npm/vary@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/vary@1.1.2": {
+          "package_url": "pkg:npm/vary@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/verror@1.10.0": {
+          "package_url": "pkg:npm/verror@1.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/walk@2.3.9": {
+          "package_url": "pkg:npm/walk@2.3.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/which-module@2.0.0": {
+          "package_url": "pkg:npm/which-module@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/which@1.3.0": {
+          "package_url": "pkg:npm/which@1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/which@1.3.1": {
+          "package_url": "pkg:npm/which@1.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/window-size@0.1.0": {
+          "package_url": "pkg:npm/window-size@0.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wordwrap@0.0.2": {
+          "package_url": "pkg:npm/wordwrap@0.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wordwrap@0.0.3": {
+          "package_url": "pkg:npm/wordwrap@0.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wrap-ansi@2.1.0": {
+          "package_url": "pkg:npm/wrap-ansi@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wrap-ansi@5.1.0": {
+          "package_url": "pkg:npm/wrap-ansi@5.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wrap-ansi@6.2.0": {
+          "package_url": "pkg:npm/wrap-ansi@6.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/wrappy@1.0.2": {
+          "package_url": "pkg:npm/wrappy@1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/write-file-atomic@1.3.4": {
+          "package_url": "pkg:npm/write-file-atomic@1.3.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/write-file-atomic@2.4.3": {
+          "package_url": "pkg:npm/write-file-atomic@2.4.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/xml2js@0.4.23": {
+          "package_url": "pkg:npm/xml2js@0.4.23",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/xmlbuilder@11.0.1": {
+          "package_url": "pkg:npm/xmlbuilder@11.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/y18n@3.2.1": {
+          "package_url": "pkg:npm/y18n@3.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/y18n@4.0.0": {
+          "package_url": "pkg:npm/y18n@4.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yallist@2.1.2": {
+          "package_url": "pkg:npm/yallist@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yallist@3.1.1": {
+          "package_url": "pkg:npm/yallist@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yapool@1.0.0": {
+          "package_url": "pkg:npm/yapool@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargonaut@1.1.4": {
+          "package_url": "pkg:npm/yargonaut@1.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs-parser@13.1.2": {
+          "package_url": "pkg:npm/yargs-parser@13.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs-parser@18.1.3": {
+          "package_url": "pkg:npm/yargs-parser@18.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs-parser@8.1.0": {
+          "package_url": "pkg:npm/yargs-parser@8.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs-parser@9.0.2": {
+          "package_url": "pkg:npm/yargs-parser@9.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs@11.1.0": {
+          "package_url": "pkg:npm/yargs@11.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs@13.3.2": {
+          "package_url": "pkg:npm/yargs@13.3.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs@15.4.1": {
+          "package_url": "pkg:npm/yargs@15.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:npm/yargs@3.10.0": {
+          "package_url": "pkg:npm/yargs@3.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:10:51+01:00"
+}

@@ -1,0 +1,8636 @@
+[Image]
+ Layer:		 0
+ Digest:	 sha256:a9099c3159f52e46aeed72420924377873529e3f36a80eddbfeb63860d036a04
+ Size:		 124081449
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 1
+ Digest:	 sha256:a463dbda46648cc9a3af3f009b2c73035cb068639edb24f1fb5a792b057c6aa8
+ Size:		 10683309
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 2
+ Digest:	 sha256:49b333f7bad4d30043c926b2e1270833f419ee03da204f91e09bd7939c68032e
+ Size:		 18951547
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 3
+ Digest:	 sha256:9f4f964da72795eddb83aa809dd2b336cb37b93238a18a2e230b0adec951d1a7
+ Size:		 151950140
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 4
+ Digest:	 sha256:a4db1a4057634db9daf255df4f001ff04cd7f0018d9b1aac8f56c3cf800f466b
+ Size:		 528958062
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 5
+ Digest:	 sha256:c32c7f13784e5214c5a5d8babe65780b010c84518862e3b8afc2b331c9eab0d4
+ Size:		 333524
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 6
+ Digest:	 sha256:40f10f1140915bd275c759bf38be7a8c6b8b78dbd1ed75afbc3450ac59ec5de2
+ Size:		 152366928
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 7
+ Digest:	 sha256:42a6dd9a35165d35f83215f6d026e48a3f6b444eaa9df0832ea3b1aee8bfad1d
+ Size:		 7604340
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 8
+ Digest:	 sha256:94a84c106f35e9f4e26ea627e65ebcac00cabda565772a1479172cdb9ef5450e
+ Size:		 388
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 9
+ Digest:	 sha256:403f92bac85941c17dc008bcbda5f0359a72833f85e83a4eefc151635198d9ad
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 10
+ Digest:	 sha256:2dcbc0f251cb203a9fceaf9d7997bfb42620a1cc943f3e8a29bb26e0ee4f79c1
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 11
+ Digest:	 sha256:247a6dab74a67040b72102af7ab570bb2abee7e8932cdc016a8b08b1d9533974
+ Size:		 6615642
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 12
+ Digest:	 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 13
+ Digest:	 sha256:f8d206b8ad61c2791ae46608ce99807c2ace4ee9a5e6096fe5d29615be355344
+ Size:		 366836025
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 14
+ Digest:	 sha256:b65232874d7182e958a9fe7a18ec6c6d34156bad965e1288bd2d7f96b4fffb17
+ Size:		 1080585
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+[1to2]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@colors/colors]
+ Version:	 1.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@gar/promisify]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@isaacs/string-locale-compare]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@my-scope/package-a]
+ Version:	 0.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@my-scope/package-b]
+ Version:	 0.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/arborist]
+ Version:	 5.6.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/ci-detect]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/config]
+ Version:	 4.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/disparity-colors]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/fs]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/git]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/installed-package-contents]
+ Version:	 1.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/map-workspaces]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/metavuln-calculator]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/move-file]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/name-from-folder]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/node-gyp]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/package-json]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/promise-spawn]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/query]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@npmcli/run-script]
+ Version:	 4.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sentry-internal/tracing]
+ Version:	 7.120.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sentry/core]
+ Version:	 7.120.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sentry/integrations]
+ Version:	 7.120.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sentry/node]
+ Version:	 7.120.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sentry/types]
+ Version:	 7.120.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sentry/utils]
+ Version:	 7.120.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@sqltools/formatter]
+ Version:	 1.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@tootallnate/once]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[@types/zen-observable]
+ Version:	 0.8.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[JSONStream]
+ Version:	 1.3.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[a]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[a]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[abbrev]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[abbrev]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[accepts]
+ Version:	 1.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[accepts]
+ Version:	 1.2.13
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[acorn]
+ Version:	 5.7.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[acorn]
+ Version:	 7.4.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[acorn-node]
+ Version:	 1.8.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[acorn-walk]
+ Version:	 7.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[adduser]
+ Version:	 3.118
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[adm-zip]
+ Version:	 0.4.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[agent-base]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[agentkeepalive]
+ Version:	 4.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[aggregate-error]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ajv]
+ Version:	 6.12.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[align-text]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[amdefine]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-regex]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-styles]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-styles]
+ Version:	 4.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ansi-styles]
+ Version:	 4.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[any-promise]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[anymatch]
+ Version:	 3.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[app-root-path]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[append-transform]
+ Version:	 0.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[aproba]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[apt]
+ Version:	 2.2.4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[archy]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[archy]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[are-we-there-yet]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[argparse]
+ Version:	 1.0.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[argparse]
+ Version:	 1.0.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[argparse]
+ Version:	 1.0.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[argparse]
+ Version:	 1.0.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[argparse]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[arr-diff]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[arr-diff]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[arr-diff]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[arr-flatten]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[arr-union]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[array-unique]
+ Version:	 0.3.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[array-unique]
+ Version:	 0.3.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[array-unique]
+ Version:	 0.3.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[arrify]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[asap]
+ Version:	 2.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[asn1]
+ Version:	 0.2.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[asn1.js]
+ Version:	 4.10.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[assert]
+ Version:	 1.5.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[assert-plus]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[assign-symbols]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[async]
+ Version:	 0.9.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[async]
+ Version:	 1.5.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[async-cache]
+ Version:	 0.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[asynckit]
+ Version:	 0.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[atob]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[autoconf]
+ Version:	 2.69-14
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[automake]
+ Version:	 1:1.16.3-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[autotools-dev]
+ Version:	 20180224.1+nmu1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[aws-sign2]
+ Version:	 0.7.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[aws4]
+ Version:	 1.13.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[b]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-code-frame]
+ Version:	 6.26.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-generator]
+ Version:	 6.26.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-messages]
+ Version:	 6.23.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-runtime]
+ Version:	 6.26.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-template]
+ Version:	 6.26.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-traverse]
+ Version:	 6.26.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babel-types]
+ Version:	 6.26.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[babylon]
+ Version:	 6.18.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[balanced-match]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[balanced-match]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[balanced-match]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[base]
+ Version:	 0.11.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[base-files]
+ Version:	 11.1+deb11u6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[base-passwd]
+ Version:	 3.5.51
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[base64-js]
+ Version:	 1.5.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bash]
+ Version:	 5.1-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[basic-auth]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[baz]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bcrypt-pbkdf]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bignumber.js]
+ Version:	 9.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bin-links]
+ Version:	 3.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[binary-extensions]
+ Version:	 2.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[binary-extensions]
+ Version:	 2.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bind-obj-methods]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[binutils]
+ Version:	 2.35.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[binutils-common]
+ Version:	 2.35.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[binutils-x86-64-linux-gnu]
+ Version:	 2.35.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[bl]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bluebird]
+ Version:	 2.9.26
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bluebird]
+ Version:	 3.7.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 4.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 4.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 4.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 4.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 4.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 4.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bn.js]
+ Version:	 5.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[body-parser]
+ Version:	 1.9.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[boolean]
+ Version:	 3.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[brace-expansion]
+ Version:	 1.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[brace-expansion]
+ Version:	 1.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[brace-expansion]
+ Version:	 1.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[brace-expansion]
+ Version:	 1.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[brace-expansion]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[braces]
+ Version:	 2.3.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[braces]
+ Version:	 2.3.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[braces]
+ Version:	 3.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[brorand]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browser-pack]
+ Version:	 6.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browser-resolve]
+ Version:	 1.11.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browser_field]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify]
+ Version:	 13.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify-aes]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify-cipher]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify-des]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify-rsa]
+ Version:	 4.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify-sign]
+ Version:	 4.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[browserify-zlib]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bsdutils]
+ Version:	 1:2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[bson]
+ Version:	 0.4.23
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bson]
+ Version:	 0.4.23
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bson]
+ Version:	 1.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bson]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bson]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bson]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[buffer]
+ Version:	 4.9.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[buffer]
+ Version:	 6.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[buffer-from]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[buffer-xor]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[builtin-modules]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[builtin-status-codes]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[builtins]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[busboy]
+ Version:	 1.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bytes]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[bzip2]
+ Version:	 1.0.8-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ca-certificates]
+ Version:	 20210119
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[cacache]
+ Version:	 16.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cache-base]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cached-path-relative]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[caching-transform]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[call-bind]
+ Version:	 1.0.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[call-bind-apply-helpers]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[call-bound]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[camelcase]
+ Version:	 1.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[camelcase]
+ Version:	 4.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[camelcase]
+ Version:	 4.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[caseless]
+ Version:	 0.12.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[center-align]
+ Version:	 0.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cfenv]
+ Version:	 1.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[chalk]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[chalk]
+ Version:	 4.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[chalk]
+ Version:	 4.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[chokidar]
+ Version:	 3.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[chownr]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cidr-regex]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cipher-base]
+ Version:	 1.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[class-utils]
+ Version:	 0.3.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[clean-stack]
+ Version:	 2.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[clean-yaml-object]
+ Version:	 0.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cli-columns]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cli-highlight]
+ Version:	 2.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cli-table3]
+ Version:	 0.6.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cliui]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cliui]
+ Version:	 4.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cliui]
+ Version:	 7.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cliui]
+ Version:	 8.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[clone]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cloud.google.com/go]
+ Version:	 v0.115.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cloud.google.com/go/auth]
+ Version:	 v0.9.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cloud.google.com/go/auth/oauth2adapt]
+ Version:	 v0.2.4
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cloud.google.com/go/compute/metadata]
+ Version:	 v0.5.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cloud.google.com/go/iam]
+ Version:	 v1.2.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cloud.google.com/go/storage]
+ Version:	 v1.43.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cmd-shim]
+ Version:	 5.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[code-point-at]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[collection-visit]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[color-convert]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[color-convert]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[color-name]
+ Version:	 1.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[color-name]
+ Version:	 1.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[color-support]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[color-support]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[columnify]
+ Version:	 1.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[combine-source-map]
+ Version:	 0.8.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[combined-stream]
+ Version:	 1.0.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[comerr-dev]
+ Version:	 2.1-1.46.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[common-ancestor-path]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[commondir]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[component-emitter]
+ Version:	 1.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[concat-map]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[concat-map]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[concat-map]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[concat-stream]
+ Version:	 1.5.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[concat-stream]
+ Version:	 1.6.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[config-chain]
+ Version:	 1.1.13
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[connect-busboy]
+ Version:	 0.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[console-browserify]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[console-control-strings]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[consolidate]
+ Version:	 0.14.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[constants-browserify]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[content-disposition]
+ Version:	 0.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[content-type]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[convert-source-map]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[convert-source-map]
+ Version:	 1.5.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cookie]
+ Version:	 0.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cookie]
+ Version:	 0.7.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cookie-signature]
+ Version:	 1.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cookie-signature]
+ Version:	 1.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[copy-descriptor]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[core-js]
+ Version:	 2.5.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[core-util-is]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[core-util-is]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[corepack]
+ Version:	 0.15.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[coreutils]
+ Version:	 8.32-4+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[coveralls]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cpp]
+ Version:	 4:10.2.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[cpp-10]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[crc]
+ Version:	 3.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[create-ecdh]
+ Version:	 4.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[create-hash]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[create-hmac]
+ Version:	 1.1.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cross-spawn]
+ Version:	 4.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cross-spawn]
+ Version:	 4.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cross-spawn]
+ Version:	 5.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[crypto-browserify]
+ Version:	 3.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cssesc]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[cuelabs.dev/go/oci/ociregistry]
+ Version:	 v0.0.0-20240807094312-a32ad29eed79
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[cuelang.org/go]
+ Version:	 v0.10.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[curl]
+ Version:	 7.74.0-1.3+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dario.cat/mergo]
+ Version:	 v1.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[dash]
+ Version:	 0.5.11+git20200708+dd9ef66-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dash-ast]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[dashdash]
+ Version:	 1.14.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debconf]
+ Version:	 1.5.77
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debian-archive-keyring]
+ Version:	 2021.1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debianutils]
+ Version:	 4.11.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debug]
+ Version:	 2.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 2.6.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 2.6.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 2.6.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 3.2.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 4.3.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug]
+ Version:	 4.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debug-log]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[debuglog]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[decamelize]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[decode-uri-component]
+ Version:	 0.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[deep]
+ Version:	 1.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[default-libmysqlclient-dev]
+ Version:	 1.0.7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[default-require-extensions]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[defaults]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-data-property]
+ Version:	 1.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-properties]
+ Version:	 1.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 0.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 0.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 0.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 0.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 0.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 0.2.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[define-property]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[defined]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[delayed-stream]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[delegates]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[denque]
+ Version:	 1.5.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[depd]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[depd]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[depd]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[depd]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[deps-sort]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[des.js]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[destroy]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[detect-indent]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[detect-node]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[detective]
+ Version:	 4.7.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[dezalgo]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[diff]
+ Version:	 1.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[diff]
+ Version:	 5.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[diffie-hellman]
+ Version:	 5.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[diffutils]
+ Version:	 1:3.7-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dirmngr]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[domain-browser]
+ Version:	 1.1.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[dotenv]
+ Version:	 8.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[dpkg]
+ Version:	 1.20.12
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dpkg-dev]
+ Version:	 1.20.12
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dunder-proto]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[duplexer2]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[dustjs-helpers]
+ Version:	 1.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[dustjs-linkedin]
+ Version:	 2.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[e2fsprogs]
+ Version:	 1.46.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ecc-jsbn]
+ Version:	 0.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ee-first]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ee-first]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ee-first]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ee-first]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ee-first]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ejs]
+ Version:	 0.8.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ejs]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ejs-locals]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[elliptic]
+ Version:	 6.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[emoji-regex]
+ Version:	 8.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[emoji-regex]
+ Version:	 8.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[encoding]
+ Version:	 0.1.13
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[env-paths]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[err-code]
+ Version:	 2.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[error-ex]
+ Version:	 1.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[errorhandler]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[es-define-property]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[es-errors]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[es-object-atoms]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[es6-error]
+ Version:	 4.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[es6-promise]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[escalade]
+ Version:	 3.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[escape-html]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[escape-string-regexp]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[escape-string-regexp]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[escape-string-regexp]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[escape-string-regexp]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[esprima]
+ Version:	 4.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[esutils]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[etag]
+ Version:	 1.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[events]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[events-to-array]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[evil-transform]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[evp_bytestokey]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[example]
+ Version:	 0.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[execa]
+ Version:	 0.7.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[expand-brackets]
+ Version:	 2.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[expand-brackets]
+ Version:	 2.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[express]
+ Version:	 4.12.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[express-fileupload]
+ Version:	 0.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[express-session]
+ Version:	 1.18.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extend-shallow]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extglob]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extglob]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[extsprintf]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[false_main]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fast-deep-equal]
+ Version:	 3.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fast-json-stable-stringify]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fast-safe-stringify]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fastest-levenshtein]
+ Version:	 1.0.12
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fd]
+ Version:	 0.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[file]
+ Version:	 1:5.39-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[file-type]
+ Version:	 8.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fill-range]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fill-range]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fill-range]
+ Version:	 7.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[finalhandler]
+ Version:	 0.3.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[find-cache-dir]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[find-up]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[find-up]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[find-up]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[findutils]
+ Version:	 4.8.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[fontconfig]
+ Version:	 2.13.1-4.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[fontconfig-config]
+ Version:	 2.13.1-4.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[fonts-dejavu-core]
+ Version:	 2.37-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[for-in]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[foreachasync]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[foreground-child]
+ Version:	 1.5.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[foreground-child]
+ Version:	 1.5.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[forever-agent]
+ Version:	 0.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[form-data]
+ Version:	 2.3.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[forwarded]
+ Version:	 0.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fragment-cache]
+ Version:	 0.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fresh]
+ Version:	 0.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fs-exists-cached]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fs-extra]
+ Version:	 0.22.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fs-minipass]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fs.realpath]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fs.realpath]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[fs.realpath]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[function-bind]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[function-bind]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[function-loop]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[g++]
+ Version:	 4:10.2.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[g++-10]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gauge]
+ Version:	 4.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[gcc]
+ Version:	 4:10.2.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gcc-10]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gcc-10-base]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gcc-9-base]
+ Version:	 9.3.0-22
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[get-assigned-identifiers]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[get-caller-file]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[get-caller-file]
+ Version:	 2.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[get-intrinsic]
+ Version:	 1.2.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[get-stream]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[get-value]
+ Version:	 2.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[getpass]
+ Version:	 0.1.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[gir1.2-freedesktop]
+ Version:	 1.66.1-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gir1.2-gdkpixbuf-2.0]
+ Version:	 2.42.2+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gir1.2-glib-2.0]
+ Version:	 1.66.1-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gir1.2-rsvg-2.0]
+ Version:	 2.50.3+dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[git]
+ Version:	 1:2.30.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[git-man]
+ Version:	 1:2.30.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[github.com/OneOfOne/xxhash]
+ Version:	 v1.2.8
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/ProtonMail/go-crypto]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/adrg/strutil]
+ Version:	 v0.3.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/adrg/xdg]
+ Version:	 v0.5.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/agext/levenshtein]
+ Version:	 v1.2.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/agnivade/levenshtein]
+ Version:	 v1.1.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/apapsch/go-jsonmerge/v2]
+ Version:	 v2.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/apparentlymart/go-cidr]
+ Version:	 v1.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/apparentlymart/go-textseg/v13]
+ Version:	 v13.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/apparentlymart/go-versions]
+ Version:	 v1.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/atotto/clipboard]
+ Version:	 v0.1.4
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/aws/aws-sdk-go]
+ Version:	 v1.55.5
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/aymanbagabas/go-osc52/v2]
+ Version:	 v2.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/bgentry/go-netrc]
+ Version:	 v0.0.0-20140422174119-9fd32a8b3d3d
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/bmatcuk/doublestar]
+ Version:	 v1.3.4
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/bmatcuk/doublestar/v4]
+ Version:	 v4.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/charmbracelet/bubbles]
+ Version:	 v0.14.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/charmbracelet/bubbletea]
+ Version:	 v0.23.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/charmbracelet/lipgloss]
+ Version:	 v0.10.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/cloudflare/circl]
+ Version:	 v1.3.8
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/cockroachdb/apd/v3]
+ Version:	 v3.2.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/containerd/console]
+ Version:	 v1.0.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/creachadair/jrpc2]
+ Version:	 v1.2.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/creachadair/mds]
+ Version:	 v0.16.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/cyphar/filepath-securejoin]
+ Version:	 v0.2.5
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/davecgh/go-spew]
+ Version:	 v1.1.2-0.20180830191138-d8f796af33cc
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/denisbrodbeck/machineid]
+ Version:	 v1.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/docker/distribution]
+ Version:	 v2.8.2+incompatible
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/elazarl/goproxy]
+ Version:	 v0.0.0-20231031074852-3ec07828be7a
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/elazarl/goproxy/ext]
+ Version:	 v0.0.0-20230808193330-2592e75ae04a
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/emicklei/proto]
+ Version:	 v1.13.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/emirpasic/gods]
+ Version:	 v1.18.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/erikgeiser/promptkit]
+ Version:	 v0.8.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/erni27/imcache]
+ Version:	 v1.2.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/fatih/color]
+ Version:	 v1.16.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/felixge/httpsnoop]
+ Version:	 v1.0.4
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/fsnotify/fsnotify]
+ Version:	 v1.7.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/gertd/go-pluralize]
+ Version:	 v0.2.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/getsentry/sentry-go]
+ Version:	 v0.28.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/ghodss/yaml]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/go-git/gcfg]
+ Version:	 v1.5.1-0.20230307220236-3a3c6141e376
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/go-git/go-billy/v5]
+ Version:	 v5.5.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/go-git/go-git/v5]
+ Version:	 v5.12.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/go-logr/logr]
+ Version:	 v1.4.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/go-logr/stdr]
+ Version:	 v1.2.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/gobwas/glob]
+ Version:	 v0.2.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/gofrs/flock]
+ Version:	 v0.12.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/golang/groupcache]
+ Version:	 v0.0.0-20210331224755-41bb18bfe9da
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/golang/mock]
+ Version:	 v1.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/gomarkdown/markdown]
+ Version:	 v0.0.0-20240730141124-034f12af3bf6
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/google/go-cmp]
+ Version:	 v0.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/google/go-querystring]
+ Version:	 v1.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/google/s2a-go]
+ Version:	 v0.1.8
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/google/uuid]
+ Version:	 v1.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/googleapis/enterprise-certificate-proxy]
+ Version:	 v0.3.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/googleapis/gax-go/v2]
+ Version:	 v2.13.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/errwrap]
+ Version:	 v1.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-cleanhttp]
+ Version:	 v0.5.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-getter]
+ Version:	 v1.7.5
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-hclog]
+ Version:	 v1.6.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-multierror]
+ Version:	 v1.1.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-retryablehttp]
+ Version:	 v0.7.7
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-safetemp]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-uuid]
+ Version:	 v1.0.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/go-version]
+ Version:	 v1.7.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/hcl]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/hcl/v2]
+ Version:	 v2.16.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/terraform-registry-address]
+ Version:	 v0.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hashicorp/terraform-svchost]
+ Version:	 v0.0.0-20200729002733-f050f53b9734
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/hexops/gotextdiff]
+ Version:	 v1.0.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jbenet/go-context]
+ Version:	 v0.0.0-20150711004518-d14ea06fba99
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jcmturner/aescts/v2]
+ Version:	 v2.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jcmturner/dnsutils/v2]
+ Version:	 v2.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jcmturner/gofork]
+ Version:	 v1.7.6
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jcmturner/goidentity/v6]
+ Version:	 v6.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jcmturner/gokrb5/v8]
+ Version:	 v8.4.4
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jcmturner/rpc/v2]
+ Version:	 v2.0.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/jmespath/go-jmespath]
+ Version:	 v0.4.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/kevinburke/ssh_config]
+ Version:	 v1.2.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/klauspost/compress]
+ Version:	 v1.17.9
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/lucasb-eyer/go-colorful]
+ Version:	 v1.2.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/magiconair/properties]
+ Version:	 v1.8.7
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mattn/go-colorable]
+ Version:	 v0.1.13
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mattn/go-isatty]
+ Version:	 v0.0.20
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mattn/go-localereader]
+ Version:	 v0.0.2-0.20220822084749-2491eb6c1c75
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mattn/go-runewidth]
+ Version:	 v0.0.15
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mitchellh/go-homedir]
+ Version:	 v1.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mitchellh/go-testing-interface]
+ Version:	 v1.14.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mitchellh/go-wordwrap]
+ Version:	 v1.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/mitchellh/mapstructure]
+ Version:	 v1.5.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/muesli/ansi]
+ Version:	 v0.0.0-20221106050444-61f0cd9a192a
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/muesli/cancelreader]
+ Version:	 v0.2.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/muesli/reflow]
+ Version:	 v0.3.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/muesli/termenv]
+ Version:	 v0.15.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/oapi-codegen/runtime]
+ Version:	 v1.1.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/olekukonko/tablewriter]
+ Version:	 v0.0.5
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/open-policy-agent/opa]
+ Version:	 v0.51.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/opencontainers/go-digest]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/opencontainers/image-spec]
+ Version:	 v1.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/otiai10/copy]
+ Version:	 v1.14.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/pelletier/go-toml/v2]
+ Version:	 v2.2.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/peterh/liner]
+ Version:	 v1.2.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/pingcap/errors]
+ Version:	 v0.11.4
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/pjbgf/sha1cd]
+ Version:	 v0.3.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/pkg/browser]
+ Version:	 v0.0.0-20240102092130-5ac0b6a4141c
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/pkg/errors]
+ Version:	 v0.9.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/pmezard/go-difflib]
+ Version:	 v1.0.1-0.20181226105442-5d4384ee4fb2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/protocolbuffers/txtpbfmt]
+ Version:	 v0.0.0-20230328191034-3462fbc510c0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/puzpuzpuz/xsync]
+ Version:	 v1.5.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/puzpuzpuz/xsync/v3]
+ Version:	 v3.4.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/rcrowley/go-metrics]
+ Version:	 v0.0.0-20201227073835-cf1acfcdf475
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/rivo/uniseg]
+ Version:	 v0.4.7
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/rogpeppe/go-internal]
+ Version:	 v1.12.1-0.20240709150035-ccf4b4329d21
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/rs/zerolog]
+ Version:	 v1.33.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/sabhiram/go-gitignore]
+ Version:	 v0.0.0-20210923224102-525f6e181f06
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/sagikazarmark/slog-shim]
+ Version:	 v0.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/sergi/go-diff]
+ Version:	 v1.3.2-0.20230802210424-5b0b94c5c0d3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/shirou/gopsutil]
+ Version:	 v3.21.11+incompatible
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/skeema/knownhosts]
+ Version:	 v1.2.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/cli-extension-dep-graph]
+ Version:	 v0.0.0-20241014075215-311d3c8a423f
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/cli-extension-iac-rules]
+ Version:	 v0.0.0-20241008152401-24c8cf03a1a3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/cli-extension-sbom]
+ Version:	 v0.0.0-20241016065306-0df2be5b3b8f
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/cli/cliv2]
+ Version:	 v1.1294.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/code-client-go]
+ Version:	 v1.11.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/container-cli]
+ Version:	 v0.0.0-20240821111304-7ca1c415a5d7
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/error-catalog-golang-public]
+ Version:	 v0.0.0-20240809094525-c48d19c27edb
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/go-application-framework]
+ Version:	 v0.0.0-20241212133752-e3bec45505c7
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/go-httpauth]
+ Version:	 v0.0.0-20240307114523-1f5ea3f55c65
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/policy-engine]
+ Version:	 v0.31.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/snyk-iac-capture]
+ Version:	 v0.6.5
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/snyk/snyk-ls]
+ Version:	 v0.0.0-20241212134424-3ee12f719f41
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/sourcegraph/go-lsp]
+ Version:	 v0.0.0-20240223163137-f80c5dd31dfd
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/spf13/afero]
+ Version:	 v1.11.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/spf13/cast]
+ Version:	 v1.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/spf13/cobra]
+ Version:	 v1.8.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/spf13/pflag]
+ Version:	 v1.0.5
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/spf13/viper]
+ Version:	 v1.18.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/stretchr/testify]
+ Version:	 v1.9.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/subosito/gotenv]
+ Version:	 v1.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/tchap/go-patricia/v2]
+ Version:	 v2.3.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/tklauser/go-sysconf]
+ Version:	 v0.3.14
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/tklauser/numcpus]
+ Version:	 v0.8.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/ulikunitz/xz]
+ Version:	 v0.5.12
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/vincent-petithory/dataurl]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/writeas/go-strip-markdown]
+ Version:	 v2.0.1+incompatible
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/xanzy/ssh-agent]
+ Version:	 v0.3.3
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/xeipuuv/gojsonpointer]
+ Version:	 v0.0.0-20190905194746-02993c407bfb
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/xeipuuv/gojsonreference]
+ Version:	 v0.0.0-20180127040603-bd5ef7bd5415
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/xeipuuv/gojsonschema]
+ Version:	 v1.2.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/xtgo/uuid]
+ Version:	 v0.0.0-20140804021211-a0b114877d4c
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/yashtewari/glob-intersection]
+ Version:	 v0.1.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/zclconf/go-cty]
+ Version:	 v1.12.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[github.com/zclconf/go-cty-yaml]
+ Version:	 v1.0.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[glob]
+ Version:	 7.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[glob]
+ Version:	 7.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[glob]
+ Version:	 7.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[glob]
+ Version:	 7.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[glob]
+ Version:	 8.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[glob-parent]
+ Version:	 5.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[global-agent]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[globals]
+ Version:	 9.18.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[globalthis]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[gnupg]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gnupg-l10n]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gnupg-utils]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[go.lsp.dev/uri]
+ Version:	 v0.3.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[go.opencensus.io]
+ Version:	 v0.24.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc]
+ Version:	 v0.54.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp]
+ Version:	 v0.54.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[go.opentelemetry.io/otel]
+ Version:	 v1.29.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[go.opentelemetry.io/otel/metric]
+ Version:	 v1.29.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[go.opentelemetry.io/otel/trace]
+ Version:	 v1.29.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/crypto]
+ Version:	 v0.31.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/exp]
+ Version:	 v0.0.0-20240808152545-0cdaa3abc0fa
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/mod]
+ Version:	 v0.20.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/net]
+ Version:	 v0.28.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/oauth2]
+ Version:	 v0.22.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/sync]
+ Version:	 v0.10.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/sys]
+ Version:	 v0.28.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/term]
+ Version:	 v0.27.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/text]
+ Version:	 v0.21.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[golang.org/x/time]
+ Version:	 v0.6.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[goof]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[google.golang.org/api]
+ Version:	 v0.195.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[google.golang.org/genproto]
+ Version:	 v0.0.0-20240827150818-7e3bb234dfed
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[google.golang.org/genproto/googleapis/api]
+ Version:	 v0.0.0-20240827150818-7e3bb234dfed
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[google.golang.org/genproto/googleapis/rpc]
+ Version:	 v0.0.0-20240827150818-7e3bb234dfed
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[google.golang.org/grpc]
+ Version:	 v1.66.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[google.golang.org/protobuf]
+ Version:	 v1.34.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[gopd]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[gopkg.in/ini.v1]
+ Version:	 v1.67.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[gopkg.in/warnings.v0]
+ Version:	 v0.1.2
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[gopkg.in/yaml.v2]
+ Version:	 v2.4.0
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[gopkg.in/yaml.v3]
+ Version:	 v3.0.1
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[gpg]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpg-agent]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpg-wks-client]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpg-wks-server]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpgconf]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpgsm]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpgv]
+ Version:	 2.2.27-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[graceful-fs]
+ Version:	 1.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[graceful-fs]
+ Version:	 4.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[graceful-fs]
+ Version:	 4.2.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[graceful-fs]
+ Version:	 4.2.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[grep]
+ Version:	 3.6-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gzip]
+ Version:	 1.10-4+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[handlebars]
+ Version:	 4.0.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[handlebars]
+ Version:	 4.7.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[har-schema]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[har-validator]
+ Version:	 5.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-ansi]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-flag]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-flag]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-flag]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-flag]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-property-descriptors]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-symbols]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-unicode]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-value]
+ Version:	 0.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-value]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-values]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[has-values]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hash-base]
+ Version:	 3.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hash.js]
+ Version:	 1.1.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hasown]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hbs]
+ Version:	 4.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hicolor-icon-theme]
+ Version:	 0.17-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[highlight.js]
+ Version:	 10.7.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hmac-drbg]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hooks-fixed]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hosted-git-info]
+ Version:	 2.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hosted-git-info]
+ Version:	 5.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[hostname]
+ Version:	 3.23
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[htmlescape]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[http-cache-semantics]
+ Version:	 4.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[http-proxy-agent]
+ Version:	 5.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[http-signature]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[https-browserify]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[https-proxy-agent]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[humanize-ms]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[humanize-ms]
+ Version:	 1.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[iconv-lite]
+ Version:	 0.4.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[iconv-lite]
+ Version:	 0.6.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[icu-devtools]
+ Version:	 67.1-7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ieee754]
+ Version:	 1.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ignore-by-default]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ignore-walk]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[imagemagick]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[imagemagick-6-common]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[imagemagick-6.q16]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[immediate]
+ Version:	 3.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[imurmurhash]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[imurmurhash]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[imurmurhash]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[indent-string]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[indexof]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[infer-owner]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inflight]
+ Version:	 1.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inflight]
+ Version:	 1.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inflight]
+ Version:	 1.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inherits]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inherits]
+ Version:	 2.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inherits]
+ Version:	 2.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inherits]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[inherits]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ini]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ini]
+ Version:	 1.3.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ini]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[init-package-json]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[init-system-helpers]
+ Version:	 1.60
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[inline-source-map]
+ Version:	 0.6.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[insert-module-globals]
+ Version:	 7.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[invalid_main]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[invariant]
+ Version:	 2.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[invert-kv]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ip]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ip-regex]
+ Version:	 4.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ipaddr.js]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 0.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 0.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-accessor-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-arrayish]
+ Version:	 0.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-binary-path]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-buffer]
+ Version:	 1.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-buffer]
+ Version:	 1.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-builtin-module]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-cidr]
+ Version:	 4.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-core-module]
+ Version:	 2.10.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-core-module]
+ Version:	 2.15.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-data-descriptor]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 0.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 0.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-descriptor]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-extendable]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-extendable]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-extendable]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-extglob]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-finite]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-fullwidth-code-point]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-fullwidth-code-point]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-fullwidth-code-point]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-fullwidth-code-point]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-glob]
+ Version:	 4.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-lambda]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-number]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-number]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-number]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-number]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-number]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-number]
+ Version:	 7.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-odd]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-plain-object]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-stream]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-typedarray]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-utf8]
+ Version:	 0.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[is-windows]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isarray]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isarray]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isarray]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isexe]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isexe]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isexe]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isobject]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[isstream]
+ Version:	 0.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[istanbul-lib-coverage]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[istanbul-lib-hook]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[istanbul-lib-instrument]
+ Version:	 1.10.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[istanbul-lib-report]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[istanbul-lib-source-maps]
+ Version:	 1.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[istanbul-reports]
+ Version:	 1.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jquery]
+ Version:	 2.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[js-tokens]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[js-yaml]
+ Version:	 3.14.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[js-yaml]
+ Version:	 3.14.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[js-yaml]
+ Version:	 3.14.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[js-yaml]
+ Version:	 3.14.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[js-yaml]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsbn]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsesc]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[json-parse-even-better-errors]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[json-schema]
+ Version:	 0.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[json-schema-traverse]
+ Version:	 0.4.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[json-stable-stringify]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[json-stringify-nice]
+ Version:	 1.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[json-stringify-safe]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsonfile]
+ Version:	 2.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsonify]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsonparse]
+ Version:	 1.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsonparse]
+ Version:	 1.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[jsprim]
+ Version:	 1.4.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[just-diff]
+ Version:	 5.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[just-diff-apply]
+ Version:	 5.4.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kareem]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kerberos]
+ Version:	 0.0.24
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 3.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 3.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 3.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 3.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 3.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 5.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 5.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[kind-of]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[krb5-multidev]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[labeled-stream-splicer]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lazy-cache]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lcid]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lcov-parse]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libacl1]
+ Version:	 2.2.53-10
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaom0]
+ Version:	 1.0.0.errata1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libapr1]
+ Version:	 1.7.0-6+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaprutil1]
+ Version:	 1.6.1-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libapt-pkg6.0]
+ Version:	 2.2.4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libasan6]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libassuan0]
+ Version:	 2.5.3-7.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libatomic1]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libattr1]
+ Version:	 1:2.4.48-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaudit-common]
+ Version:	 1:3.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaudit1]
+ Version:	 1:3.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbinutils]
+ Version:	 2.35.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libblkid-dev]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libblkid1]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbrotli-dev]
+ Version:	 1.0.9-2+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbrotli1]
+ Version:	 1.0.9-2+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbsd0]
+ Version:	 0.11.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbz2-1.0]
+ Version:	 1.0.8-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbz2-dev]
+ Version:	 1.0.8-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc-bin]
+ Version:	 2.31-13+deb11u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc-dev-bin]
+ Version:	 2.31-13+deb11u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc6]
+ Version:	 2.31-13+deb11u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc6-dev]
+ Version:	 2.31-13+deb11u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcairo-gobject2]
+ Version:	 1.16.0-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcairo-script-interpreter2]
+ Version:	 1.16.0-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcairo2]
+ Version:	 1.16.0-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcairo2-dev]
+ Version:	 1.16.0-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcap-ng0]
+ Version:	 0.7.9-2.2+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcbor0]
+ Version:	 0.5.0+dfsg-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcc1-0]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcom-err2]
+ Version:	 1.46.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcrypt-dev]
+ Version:	 1:4.4.18-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcrypt1]
+ Version:	 1:4.4.18-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libctf-nobfd0]
+ Version:	 2.35.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libctf0]
+ Version:	 2.35.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcurl3-gnutls]
+ Version:	 7.74.0-1.3+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcurl4]
+ Version:	 7.74.0-1.3+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcurl4-openssl-dev]
+ Version:	 7.74.0-1.3+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdatrie1]
+ Version:	 0.2.13-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdav1d4]
+ Version:	 0.7.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdb-dev]
+ Version:	 5.3.1+nmu1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdb5.3]
+ Version:	 5.3.28+dfsg1-0.8
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdb5.3-dev]
+ Version:	 5.3.28+dfsg1-0.8
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libde265-0]
+ Version:	 1.0.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdebconfclient0]
+ Version:	 0.260
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdeflate-dev]
+ Version:	 1.7-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdeflate0]
+ Version:	 1.7-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdjvulibre-dev]
+ Version:	 3.5.28-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdjvulibre-text]
+ Version:	 3.5.28-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdjvulibre21]
+ Version:	 3.5.28-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdpkg-perl]
+ Version:	 1.20.12
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libedit2]
+ Version:	 3.1-20191231-2+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libelf1]
+ Version:	 0.183-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liberror-perl]
+ Version:	 0.17029-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libevent-2.1-7]
+ Version:	 2.1.12-stable-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libevent-core-2.1-7]
+ Version:	 2.1.12-stable-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libevent-dev]
+ Version:	 2.1.12-stable-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libevent-extra-2.1-7]
+ Version:	 2.1.12-stable-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libevent-openssl-2.1-7]
+ Version:	 2.1.12-stable-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libevent-pthreads-2.1-7]
+ Version:	 2.1.12-stable-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libexif-dev]
+ Version:	 0.6.22-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libexif12]
+ Version:	 0.6.22-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libexpat1]
+ Version:	 2.2.10-2+deb11u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libexpat1-dev]
+ Version:	 2.2.10-2+deb11u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libext2fs2]
+ Version:	 1.46.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libffi-dev]
+ Version:	 3.3-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libffi7]
+ Version:	 3.3-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfftw3-double3]
+ Version:	 3.3.8-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfido2-1]
+ Version:	 1.6.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfontconfig-dev]
+ Version:	 2.13.1-4.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfontconfig1]
+ Version:	 2.13.1-4.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfontconfig1-dev]
+ Version:	 2.13.1-4.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfreetype-dev]
+ Version:	 2.10.4+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfreetype6]
+ Version:	 2.10.4+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfreetype6-dev]
+ Version:	 2.10.4+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfribidi0]
+ Version:	 1.0.8-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcc-10-dev]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcc-s1]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcrypt20]
+ Version:	 1.8.7-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdbm-compat4]
+ Version:	 1.19-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdbm-dev]
+ Version:	 1.19-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdbm6]
+ Version:	 1.19-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdk-pixbuf-2.0-0]
+ Version:	 2.42.2+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdk-pixbuf-2.0-dev]
+ Version:	 2.42.2+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdk-pixbuf2.0-bin]
+ Version:	 2.42.2+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdk-pixbuf2.0-common]
+ Version:	 2.42.2+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgirepository-1.0-1]
+ Version:	 1.66.1-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglib2.0-0]
+ Version:	 2.66.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglib2.0-bin]
+ Version:	 2.66.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglib2.0-data]
+ Version:	 2.66.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglib2.0-dev]
+ Version:	 2.66.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglib2.0-dev-bin]
+ Version:	 2.66.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgmp-dev]
+ Version:	 2:6.2.1+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgmp10]
+ Version:	 2:6.2.1+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgmpxx4ldbl]
+ Version:	 2:6.2.1+dfsg-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgnutls30]
+ Version:	 3.7.1-5+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgomp1]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgpg-error0]
+ Version:	 1.38-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgraphite2-3]
+ Version:	 1.3.14-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgssapi-krb5-2]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgssrpc4]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libharfbuzz0b]
+ Version:	 2.7.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libheif1]
+ Version:	 1.11.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libhogweed6]
+ Version:	 3.7.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libice-dev]
+ Version:	 2:1.0.10-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libice6]
+ Version:	 2:1.0.10-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libicu-dev]
+ Version:	 67.1-7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libicu67]
+ Version:	 67.1-7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libidn2-0]
+ Version:	 2.3.0-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libilmbase-dev]
+ Version:	 2.5.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libilmbase25]
+ Version:	 2.5.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libisl23]
+ Version:	 0.23-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libitm1]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjbig-dev]
+ Version:	 2.1-3.1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjbig0]
+ Version:	 2.1-3.1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjpeg-dev]
+ Version:	 1:2.0.6-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjpeg62-turbo]
+ Version:	 1:2.0.6-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjpeg62-turbo-dev]
+ Version:	 1:2.0.6-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libk5crypto3]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkadm5clnt-mit12]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkadm5srv-mit12]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkdb5-10]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkeyutils1]
+ Version:	 1.6.1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkrb5-3]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkrb5-dev]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkrb5support0]
+ Version:	 1.18.3-6+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libksba8]
+ Version:	 1.5.0-3+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblcms2-2]
+ Version:	 2.12~rc1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblcms2-dev]
+ Version:	 2.12~rc1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libldap-2.4-2]
+ Version:	 2.4.57+dfsg-3+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblqr-1-0]
+ Version:	 0.4.2-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblqr-1-0-dev]
+ Version:	 0.4.2-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblsan0]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libltdl-dev]
+ Version:	 2.4.6-15
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libltdl7]
+ Version:	 2.4.6-15
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblz4-1]
+ Version:	 1.9.3-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblzma-dev]
+ Version:	 5.2.5-2.1~deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblzma5]
+ Version:	 5.2.5-2.1~deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblzo2-2]
+ Version:	 2.10-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagic-mgc]
+ Version:	 1:5.39-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagic1]
+ Version:	 1:5.39-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickcore-6-arch-config]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickcore-6-headers]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickcore-6.q16-6]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickcore-6.q16-6-extra]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickcore-6.q16-dev]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickcore-dev]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickwand-6-headers]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickwand-6.q16-6]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickwand-6.q16-dev]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmagickwand-dev]
+ Version:	 8:6.9.11.60+dfsg-1.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmariadb-dev]
+ Version:	 1:10.5.18-0+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmariadb-dev-compat]
+ Version:	 1:10.5.18-0+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmariadb3]
+ Version:	 1:10.5.18-0+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmaxminddb-dev]
+ Version:	 1.5.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmaxminddb0]
+ Version:	 1.5.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmd0]
+ Version:	 1.0.3-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmount-dev]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmount1]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmpc3]
+ Version:	 1.2.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmpdec3]
+ Version:	 2.5.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmpfr6]
+ Version:	 4.1.0-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncurses-dev]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncurses5-dev]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncurses6]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncursesw5-dev]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncursesw6]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnettle8]
+ Version:	 3.7.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnghttp2-14]
+ Version:	 1.43.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnpmaccess]
+ Version:	 6.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmdiff]
+ Version:	 4.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmexec]
+ Version:	 4.0.14
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmfund]
+ Version:	 3.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmhook]
+ Version:	 8.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmorg]
+ Version:	 4.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmpack]
+ Version:	 4.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmpublish]
+ Version:	 6.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmsearch]
+ Version:	 5.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmteam]
+ Version:	 4.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpmversion]
+ Version:	 3.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[libnpth0]
+ Version:	 1.6-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnsl-dev]
+ Version:	 1.3.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnsl2]
+ Version:	 1.3.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnuma1]
+ Version:	 2.0.12-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libopenexr-dev]
+ Version:	 2.5.4-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libopenexr25]
+ Version:	 2.5.4-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libopenjp2-7]
+ Version:	 2.4.0-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libopenjp2-7-dev]
+ Version:	 2.4.0-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libp11-kit0]
+ Version:	 0.23.22-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-modules]
+ Version:	 1.4.0-9+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-modules-bin]
+ Version:	 1.4.0-9+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-runtime]
+ Version:	 1.4.0-9+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam0g]
+ Version:	 1.4.0-9+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpango-1.0-0]
+ Version:	 1.46.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpangocairo-1.0-0]
+ Version:	 1.46.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpangoft2-1.0-0]
+ Version:	 1.46.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre16-3]
+ Version:	 2:8.39-13
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre2-16-0]
+ Version:	 10.36-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre2-32-0]
+ Version:	 10.36-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre2-8-0]
+ Version:	 10.36-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre2-dev]
+ Version:	 10.36-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre2-posix2]
+ Version:	 10.36-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre3]
+ Version:	 2:8.39-13
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre3-dev]
+ Version:	 2:8.39-13
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre32-3]
+ Version:	 2:8.39-13
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcrecpp0v5]
+ Version:	 2:8.39-13
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libperl5.32]
+ Version:	 5.32.1-4+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpixman-1-0]
+ Version:	 0.40.0-1.1~deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpixman-1-dev]
+ Version:	 0.40.0-1.1~deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpng-dev]
+ Version:	 1.6.37-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpng16-16]
+ Version:	 1.6.37-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpq-dev]
+ Version:	 13.9-0+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpq5]
+ Version:	 13.9-0+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libprocps8]
+ Version:	 2:3.3.17-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpsl5]
+ Version:	 0.21.0-1.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpthread-stubs0-dev]
+ Version:	 0.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpython3-stdlib]
+ Version:	 3.9.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpython3.9-minimal]
+ Version:	 3.9.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpython3.9-stdlib]
+ Version:	 3.9.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libquadmath0]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libreadline-dev]
+ Version:	 8.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libreadline8]
+ Version:	 8.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librsvg2-2]
+ Version:	 2.50.3+dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librsvg2-common]
+ Version:	 2.50.3+dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librsvg2-dev]
+ Version:	 2.50.3+dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librtmp1]
+ Version:	 2.4+20151223.gitfa8646d.1-2+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsasl2-2]
+ Version:	 2.1.27+dfsg-2.1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsasl2-modules-db]
+ Version:	 2.1.27+dfsg-2.1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libseccomp2]
+ Version:	 2.5.1-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libselinux1]
+ Version:	 3.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libselinux1-dev]
+ Version:	 3.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsemanage-common]
+ Version:	 3.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsemanage1]
+ Version:	 3.1-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsepol1]
+ Version:	 3.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsepol1-dev]
+ Version:	 3.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libserf-1-1]
+ Version:	 1.3.9-10
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsigsegv2]
+ Version:	 2.13-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsm-dev]
+ Version:	 2:1.2.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsm6]
+ Version:	 2:1.2.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsmartcols1]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsqlite3-0]
+ Version:	 3.34.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsqlite3-dev]
+ Version:	 3.34.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libss2]
+ Version:	 1.46.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libssh2-1]
+ Version:	 1.9.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libssl-dev]
+ Version:	 1.1.1n-0+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libssl1.1]
+ Version:	 1.1.1n-0+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libstdc++-10-dev]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libstdc++6]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsvn1]
+ Version:	 1.14.1-3+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsystemd0]
+ Version:	 247.3-7+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtasn1-6]
+ Version:	 4.16.0-2+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libthai-data]
+ Version:	 0.1.28-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libthai0]
+ Version:	 0.1.28-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtiff-dev]
+ Version:	 4.2.0-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtiff5]
+ Version:	 4.2.0-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtiffxx5]
+ Version:	 4.2.0-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtinfo6]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtirpc-common]
+ Version:	 1.3.1-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtirpc-dev]
+ Version:	 1.3.1-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtirpc3]
+ Version:	 1.3.1-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtool]
+ Version:	 2.4.6-15
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtsan0]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libubsan1]
+ Version:	 10.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libudev1]
+ Version:	 247.3-7+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libunistring2]
+ Version:	 0.9.10-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libutf8proc2]
+ Version:	 2.5.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libuuid1]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwebp-dev]
+ Version:	 0.6.1-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwebp6]
+ Version:	 0.6.1-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwebpdemux2]
+ Version:	 0.6.1-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwebpmux3]
+ Version:	 0.6.1-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwmf-dev]
+ Version:	 0.2.8.4-17
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwmf0.2-7]
+ Version:	 0.2.8.4-17
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx11-6]
+ Version:	 2:1.7.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx11-data]
+ Version:	 2:1.7.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx11-dev]
+ Version:	 2:1.7.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx265-192]
+ Version:	 3.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxau-dev]
+ Version:	 1:1.0.9-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxau6]
+ Version:	 1:1.0.9-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-render0]
+ Version:	 1.14-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-render0-dev]
+ Version:	 1.14-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-shm0]
+ Version:	 1.14-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-shm0-dev]
+ Version:	 1.14-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb1]
+ Version:	 1.14-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb1-dev]
+ Version:	 1.14-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxdmcp-dev]
+ Version:	 1:1.1.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxdmcp6]
+ Version:	 1:1.1.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxext-dev]
+ Version:	 2:1.3.3-1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxext6]
+ Version:	 2:1.3.3-1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxml2]
+ Version:	 2.9.10+dfsg-6.7+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxml2-dev]
+ Version:	 2.9.10+dfsg-6.7+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxrender-dev]
+ Version:	 1:0.9.10-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxrender1]
+ Version:	 1:0.9.10-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxslt1-dev]
+ Version:	 1.1.34-4+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxslt1.1]
+ Version:	 1.1.34-4+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxt-dev]
+ Version:	 1:1.2.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxt6]
+ Version:	 1:1.2.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxxhash0]
+ Version:	 0.8.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libyaml-0-2]
+ Version:	 0.2.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libyaml-dev]
+ Version:	 0.2.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libzstd1]
+ Version:	 1.4.8+dfsg-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[lie]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[linux-libc-dev]
+ Version:	 5.10.158-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ljharb-monorepo-symlink-test]
+ Version:	 0.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[load-json-file]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[localforage]
+ Version:	 1.10.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[locate-path]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lodash]
+ Version:	 4.17.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lodash]
+ Version:	 4.17.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lodash.memoize]
+ Version:	 3.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[log-driver]
+ Version:	 1.2.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[login]
+ Version:	 1:4.8.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[logsave]
+ Version:	 1.46.2-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[longest]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[loose-envify]
+ Version:	 1.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lru-cache]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lru-cache]
+ Version:	 4.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lru-cache]
+ Version:	 4.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lru-cache]
+ Version:	 6.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lru-cache]
+ Version:	 7.13.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[lsb-base]
+ Version:	 11.1.0
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[m4]
+ Version:	 1.4.18-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[make]
+ Version:	 4.3-4.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[make-fetch-happen]
+ Version:	 10.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[map-cache]
+ Version:	 0.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[map-visit]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mariadb-common]
+ Version:	 1:10.5.18-0+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[marked]
+ Version:	 0.3.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[matcher]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[math-intrinsics]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mawk]
+ Version:	 1.3.4.20200120-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[md5-hex]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[md5-o-matic]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[md5.js]
+ Version:	 1.3.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[media-typer]
+ Version:	 0.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[media-types]
+ Version:	 4.0.0
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mem]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[memory-pager]
+ Version:	 1.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mercurial]
+ Version:	 5.6.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[mercurial]
+ Version:	 5.6.1-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mercurial-common]
+ Version:	 5.6.1-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[merge-descriptors]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[merge-source-map]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[method-override]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[methods]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[micromatch]
+ Version:	 3.1.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[micromatch]
+ Version:	 3.1.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[miller-rabin]
+ Version:	 4.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime]
+ Version:	 1.2.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime]
+ Version:	 1.3.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-db]
+ Version:	 1.12.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-db]
+ Version:	 1.52.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-db]
+ Version:	 1.52.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-db]
+ Version:	 1.52.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-types]
+ Version:	 2.0.14
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-types]
+ Version:	 2.1.35
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-types]
+ Version:	 2.1.35
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mime-types]
+ Version:	 2.1.35
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mimic-fn]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimalistic-assert]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimalistic-crypto-utils]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimatch]
+ Version:	 3.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimatch]
+ Version:	 3.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimatch]
+ Version:	 3.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimatch]
+ Version:	 3.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimatch]
+ Version:	 5.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimist]
+ Version:	 0.0.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minimist]
+ Version:	 1.2.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass]
+ Version:	 2.9.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass]
+ Version:	 3.3.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass-collect]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass-fetch]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass-flush]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass-json-stream]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass-pipeline]
+ Version:	 1.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minipass-sized]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[minizlib]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mixin-deep]
+ Version:	 1.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mkdirp]
+ Version:	 0.3.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mkdirp]
+ Version:	 0.5.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mkdirp]
+ Version:	 0.5.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mkdirp]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mkdirp]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mkdirp-infer-owner]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[module-deps]
+ Version:	 4.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[moment]
+ Version:	 2.15.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mongodb]
+ Version:	 2.0.46
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mongodb]
+ Version:	 3.7.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mongodb-core]
+ Version:	 1.2.19
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mongoose]
+ Version:	 4.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[morgan]
+ Version:	 1.10.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mount]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mpath]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mpromise]
+ Version:	 0.5.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mquery]
+ Version:	 1.6.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 0.6.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 0.7.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 0.7.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 0.7.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 0.7.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ms]
+ Version:	 2.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[muri]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mute-stream]
+ Version:	 0.0.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mylib]
+ Version:	 0.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mysql]
+ Version:	 2.18.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[mysql-common]
+ Version:	 5.8+1.0.7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mz]
+ Version:	 2.7.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nan]
+ Version:	 2.10.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nanomatch]
+ Version:	 1.2.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ncurses-base]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ncurses-bin]
+ Version:	 6.2+20201114-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[negotiator]
+ Version:	 0.2.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[negotiator]
+ Version:	 0.4.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[negotiator]
+ Version:	 0.5.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[negotiator]
+ Version:	 0.6.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[neo-async]
+ Version:	 2.6.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[netbase]
+ Version:	 6.3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[node]
+ Version:	 18.13.0
+ Type:		 binary
+ Found by:	 binary-classifier-cataloger
+
+[node-gyp]
+ Version:	 9.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nodemon]
+ Version:	 2.0.22
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nopt]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nopt]
+ Version:	 5.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nopt]
+ Version:	 6.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[normalize-package-data]
+ Version:	 2.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[normalize-package-data]
+ Version:	 4.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[normalize-path]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm]
+ Version:	 8.19.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-audit-report]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-bundled]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-bundled]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-init]
+ Version:	 0.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-install-checks]
+ Version:	 5.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-normalize-package-bin]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-normalize-package-bin]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-normalize-package-bin]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-normalize-package-bin]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-normalize-package-bin]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-normalize-package-bin]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-package-arg]
+ Version:	 9.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-packlist]
+ Version:	 5.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-pick-manifest]
+ Version:	 7.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-profile]
+ Version:	 6.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-registry-fetch]
+ Version:	 13.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-run-path]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npm-user-validate]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npmconf]
+ Version:	 0.0.24
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[npmlog]
+ Version:	 6.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[number-is-nan]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[nyc]
+ Version:	 11.9.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[oauth-sign]
+ Version:	 0.9.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object-assign]
+ Version:	 4.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object-assign]
+ Version:	 4.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object-copy]
+ Version:	 0.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object-inspect]
+ Version:	 1.13.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object-keys]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object-visit]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object.assign]
+ Version:	 4.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[object.pick]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[on-finished]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[on-finished]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[on-finished]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[on-finished]
+ Version:	 2.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[on-finished]
+ Version:	 2.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[on-headers]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[once]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[once]
+ Version:	 1.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[once]
+ Version:	 1.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[once]
+ Version:	 1.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[opener]
+ Version:	 1.5.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[opener]
+ Version:	 1.5.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[openssh-client]
+ Version:	 1:8.4p1-5+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[openssl]
+ Version:	 1.1.1n-0+deb11u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[optimist]
+ Version:	 0.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[optional]
+ Version:	 0.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[optional-require]
+ Version:	 1.1.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[os-browserify]
+ Version:	 0.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[os-homedir]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[os-homedir]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[os-locale]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[osenv]
+ Version:	 0.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[own-or]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[own-or-env]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[p-finally]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[p-limit]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[p-locate]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[p-map]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[p-try]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pacote]
+ Version:	 13.6.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pako]
+ Version:	 0.2.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parents]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parse-asn1]
+ Version:	 5.1.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parse-conflict-json]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parse-json]
+ Version:	 2.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parse5]
+ Version:	 5.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parse5]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parse5-htmlparser2-tree-adapter]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[parseurl]
+ Version:	 1.3.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pascalcase]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[passwd]
+ Version:	 1:4.8.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[patch]
+ Version:	 2.7.6-7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[path-browserify]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-exists]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-exists]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-is-absolute]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-is-absolute]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-is-absolute]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-key]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-parse]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-parse]
+ Version:	 1.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-platform]
+ Version:	 0.11.15
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-to-regexp]
+ Version:	 0.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[path-type]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pbkdf2]
+ Version:	 3.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[performance-now]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[perl]
+ Version:	 5.32.1-4+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[perl-base]
+ Version:	 5.32.1-4+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[perl-modules-5.32]
+ Version:	 5.32.1-4+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[picomatch]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pify]
+ Version:	 2.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pinentry-curses]
+ Version:	 1.1.0-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[pinkie]
+ Version:	 2.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pinkie-promise]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pkg-config]
+ Version:	 0.29.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[pkg-dir]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pkg_event]
+ Version:	 UNKNOWN
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ports]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[posix-character-classes]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[postcss-selector-parser]
+ Version:	 6.0.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[proc-log]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[process]
+ Version:	 0.11.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[process-nextick-args]
+ Version:	 1.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[process-nextick-args]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[procps]
+ Version:	 2:3.3.17-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[promise-all-reject-late]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[promise-call-limit]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[promise-inflight]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[promise-retry]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[promzard]
+ Version:	 0.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[proto-list]
+ Version:	 1.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[proxy-addr]
+ Version:	 1.0.10
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pseudomap]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pseudomap]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[psl]
+ Version:	 1.15.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[pstree.remy]
+ Version:	 1.1.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[public-encrypt]
+ Version:	 4.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[punycode]
+ Version:	 1.4.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[punycode]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[punycode]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[punycode]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[python3]
+ Version:	 3.9.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[python3-distutils]
+ Version:	 3.9.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[python3-lib2to3]
+ Version:	 3.9.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[python3-minimal]
+ Version:	 3.9.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[python3.9]
+ Version:	 3.9.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[python3.9-minimal]
+ Version:	 3.9.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[qrcode-terminal]
+ Version:	 0.12.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[qs]
+ Version:	 2.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[qs]
+ Version:	 2.4.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[qs]
+ Version:	 6.13.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[qs]
+ Version:	 6.5.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[querystring-es3]
+ Version:	 0.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[random-bytes]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[randombytes]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[randomfill]
+ Version:	 1.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[range-parser]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[raw-body]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read]
+ Version:	 1.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read-cmd-shim]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read-only-stream]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read-package-json]
+ Version:	 5.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read-package-json-fast]
+ Version:	 2.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read-pkg]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[read-pkg-up]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readable-stream]
+ Version:	 1.0.31
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readable-stream]
+ Version:	 2.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readable-stream]
+ Version:	 2.3.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readable-stream]
+ Version:	 2.3.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readable-stream]
+ Version:	 3.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readdir-scoped-modules]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readdirp]
+ Version:	 3.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[readline-common]
+ Version:	 8.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[reflect-metadata]
+ Version:	 0.1.14
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[regenerator-runtime]
+ Version:	 0.11.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[regex-not]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[regexp-clone]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[repeat-element]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[repeat-string]
+ Version:	 1.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[repeating]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[request]
+ Version:	 2.88.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[require-at]
+ Version:	 1.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[require-directory]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[require-directory]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[require-main-filename]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[resolve]
+ Version:	 1.1.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[resolve]
+ Version:	 1.22.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[resolve-from]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[resolve-url]
+ Version:	 0.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ret]
+ Version:	 0.1.15
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[retry]
+ Version:	 0.12.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[right-align]
+ Version:	 0.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[rimraf]
+ Version:	 2.6.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[rimraf]
+ Version:	 2.7.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[rimraf]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ripemd160]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[roarr]
+ Version:	 2.15.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safe-buffer]
+ Version:	 5.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safe-buffer]
+ Version:	 5.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safe-buffer]
+ Version:	 5.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safe-buffer]
+ Version:	 5.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safe-buffer]
+ Version:	 5.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safe-regex]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safer-buffer]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[safer-buffer]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[saslprep]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sax]
+ Version:	 1.4.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sed]
+ Version:	 4.7-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[semver]
+ Version:	 1.1.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[semver]
+ Version:	 5.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[semver]
+ Version:	 5.7.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[semver]
+ Version:	 7.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[semver]
+ Version:	 7.3.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[semver]
+ Version:	 7.6.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[semver-compare]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[send]
+ Version:	 0.12.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sensible-utils]
+ Version:	 0.0.14
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[serialize-error]
+ Version:	 7.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[serve-static]
+ Version:	 1.9.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[set-blocking]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[set-blocking]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[set-function-length]
+ Version:	 1.2.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[set-value]
+ Version:	 0.4.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[set-value]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sha.js]
+ Version:	 2.4.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[shared-mime-info]
+ Version:	 2.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[shasum]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[shasum-object]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[shebang-command]
+ Version:	 1.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[shebang-regex]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[shell-quote]
+ Version:	 1.8.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[side-channel]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[side-channel-list]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[side-channel-map]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[side-channel-weakmap]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[signal-exit]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[signal-exit]
+ Version:	 3.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[signal-exit]
+ Version:	 3.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[simple-concat]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[simple-update-notifier]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sliced]
+ Version:	 0.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[slide]
+ Version:	 1.1.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[smart-buffer]
+ Version:	 4.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[snapdragon]
+ Version:	 0.8.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[snapdragon-node]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[snapdragon-util]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[snyk]
+ Version:	 1.1294.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[socks]
+ Version:	 2.7.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[socks-proxy-agent]
+ Version:	 7.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map]
+ Version:	 0.4.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map]
+ Version:	 0.5.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map]
+ Version:	 0.5.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map]
+ Version:	 0.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map]
+ Version:	 0.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map]
+ Version:	 0.6.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map-resolve]
+ Version:	 0.5.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map-support]
+ Version:	 0.5.21
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[source-map-url]
+ Version:	 0.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sparse-bitfield]
+ Version:	 3.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spawn-wrap]
+ Version:	 1.4.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-correct]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-correct]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-exceptions]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-exceptions]
+ Version:	 2.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-expression-parse]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-expression-parse]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-license-ids]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[spdx-license-ids]
+ Version:	 3.0.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[split-string]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sprintf-js]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sprintf-js]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sprintf-js]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sprintf-js]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sprintf-js]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sqlstring]
+ Version:	 2.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sshpk]
+ Version:	 1.18.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[ssri]
+ Version:	 9.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[st]
+ Version:	 0.2.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[stack-utils]
+ Version:	 1.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[static-extend]
+ Version:	 0.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[stdlib]
+ Version:	 go1.22.6
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+
+[stream-browserify]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[stream-buffers]
+ Version:	 3.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[stream-combiner2]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[stream-http]
+ Version:	 2.8.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[stream-splicer]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[streamifier]
+ Version:	 0.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[streamsearch]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string-width]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string-width]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string-width]
+ Version:	 4.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string-width]
+ Version:	 4.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string_decoder]
+ Version:	 0.10.31
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string_decoder]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string_decoder]
+ Version:	 1.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[string_decoder]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 3.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-ansi]
+ Version:	 6.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-bom]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[strip-eof]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[subarg]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[subversion]
+ Version:	 1.14.1-3+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[supports-color]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[supports-color]
+ Version:	 3.2.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[supports-color]
+ Version:	 5.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[supports-color]
+ Version:	 7.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[supports-color]
+ Version:	 7.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[supports-preserve-symlinks-flag]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[syntax-error]
+ Version:	 1.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[sysvinit-utils]
+ Version:	 2.96-7+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[tap]
+ Version:	 11.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tap-mocha-reporter]
+ Version:	 3.0.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tap-parser]
+ Version:	 5.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tap-parser]
+ Version:	 7.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tar]
+ Version:	 1.34+dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[tar]
+ Version:	 6.1.11
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[test-exclude]
+ Version:	 4.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[text-table]
+ Version:	 0.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[thenify]
+ Version:	 3.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[thenify-all]
+ Version:	 1.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[through]
+ Version:	 2.3.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[through2]
+ Version:	 2.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[timers-browserify]
+ Version:	 1.4.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tiny-relative-date]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tmatch]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[to-arraybuffer]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[to-fast-properties]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[to-object-path]
+ Version:	 0.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[to-regex]
+ Version:	 3.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[to-regex-range]
+ Version:	 2.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[to-regex-range]
+ Version:	 5.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[touch]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tough-cookie]
+ Version:	 2.5.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[treeverse]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[trim-right]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[trivial-deferred]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tsame]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tslib]
+ Version:	 2.8.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tty-browserify]
+ Version:	 0.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tunnel-agent]
+ Version:	 0.6.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tweetnacl]
+ Version:	 0.14.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[type-fest]
+ Version:	 0.13.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[type-is]
+ Version:	 1.5.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[type-is]
+ Version:	 1.6.18
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[typedarray]
+ Version:	 0.0.6
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[typedarray]
+ Version:	 0.0.7
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[typeorm]
+ Version:	 0.2.45
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[tzdata]
+ Version:	 2021a-1+deb11u8
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ucf]
+ Version:	 3.0043
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[uglify-js]
+ Version:	 2.8.29
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[uglify-js]
+ Version:	 3.19.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[uglify-to-browserify]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[uid-safe]
+ Version:	 2.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[umd]
+ Version:	 3.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[undeclared-identifiers]
+ Version:	 1.1.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[undefsafe]
+ Version:	 2.0.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[underscore]
+ Version:	 1.12.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[unicode-length]
+ Version:	 1.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[union-value]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[unique-filename]
+ Version:	 2.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[unique-slug]
+ Version:	 3.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[unset-value]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[unzip]
+ Version:	 6.0-26+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[uri-js]
+ Version:	 4.4.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[urix]
+ Version:	 0.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[url]
+ Version:	 0.11.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[use]
+ Version:	 3.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[util]
+ Version:	 0.10.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[util-deprecate]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[util-deprecate]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[util-linux]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[utils-merge]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[uuid]
+ Version:	 3.4.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[uuid]
+ Version:	 8.3.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[uuid-dev]
+ Version:	 2.36.1-8+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[validate-npm-package-license]
+ Version:	 3.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[validate-npm-package-license]
+ Version:	 3.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[validate-npm-package-name]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[validator]
+ Version:	 13.12.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[vary]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[vary]
+ Version:	 1.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[verror]
+ Version:	 1.10.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[vm-browserify]
+ Version:	 0.0.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[walk]
+ Version:	 2.3.15
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[walk-up-path]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wcwidth]
+ Version:	 1.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wget]
+ Version:	 1.21-1+deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[which]
+ Version:	 1.3.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[which]
+ Version:	 1.3.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[which]
+ Version:	 2.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[which-module]
+ Version:	 2.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wide-align]
+ Version:	 1.1.5
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[window-size]
+ Version:	 0.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wordwrap]
+ Version:	 0.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wordwrap]
+ Version:	 0.0.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wordwrap]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wrap-ansi]
+ Version:	 2.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wrap-ansi]
+ Version:	 7.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wrappy]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wrappy]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[wrappy]
+ Version:	 1.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[write-file-atomic]
+ Version:	 1.3.4
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[write-file-atomic]
+ Version:	 2.4.3
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[write-file-atomic]
+ Version:	 4.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[x11-common]
+ Version:	 1:7.7+22
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[x11proto-dev]
+ Version:	 2020.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[x11proto-xext-dev]
+ Version:	 2020.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[xml2js]
+ Version:	 0.4.23
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[xmlbuilder]
+ Version:	 11.0.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[xorg-sgml-doctools]
+ Version:	 1:1.11-1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[xtend]
+ Version:	 4.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[xtrans-dev]
+ Version:	 1.4.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[xz-utils]
+ Version:	 5.2.5-2.1~deb11u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[y18n]
+ Version:	 3.2.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[y18n]
+ Version:	 5.0.8
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yallist]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yallist]
+ Version:	 2.1.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yallist]
+ Version:	 3.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yallist]
+ Version:	 4.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yapool]
+ Version:	 1.0.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs]
+ Version:	 11.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs]
+ Version:	 16.2.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs]
+ Version:	 17.7.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs]
+ Version:	 3.10.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs-parser]
+ Version:	 20.2.9
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs-parser]
+ Version:	 21.1.1
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs-parser]
+ Version:	 8.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yargs-parser]
+ Version:	 9.0.2
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[yarn]
+ Version:	 1.22.19
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[zen-observable]
+ Version:	 0.8.15
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[zen-observable-ts]
+ Version:	 1.1.0
+ Type:		 npm
+ Found by:	 javascript-package-cataloger
+
+[zlib1g]
+ Version:	 1:1.2.11.dfsg-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[zlib1g-dev]
+ Version:	 1:1.2.11.dfsg-2+deb11u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+

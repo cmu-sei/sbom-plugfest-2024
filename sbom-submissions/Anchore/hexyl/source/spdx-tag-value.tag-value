@@ -1,0 +1,1966 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: /home/alan/Work/Anchore/plugfest/repos/sharkdp/hexyl
+DocumentNamespace: https://anchore.com/syft/dir/home/alan/Work/Anchore/plugfest/repos/sharkdp/hexyl-250cf23a-59cd-4ae8-bc87-fc21231d4a8a
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:09:14Z
+
+##### Unpackaged files
+
+FileName: .github/workflows/CICD.yml
+SPDXID: SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+FileType: TEXT
+FileChecksum: SHA1: 1f0f7817820f1805e2a955ae50a9b768db9a919b
+FileChecksum: SHA256: fd362ff731620320dac059ef30131568550cd0b2bd099871e93651eea132d499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: Cargo.lock
+SPDXID: SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+FileType: TEXT
+FileChecksum: SHA1: 3c8374d80abb672d6a75bdbd9795a2b892620b46
+FileChecksum: SHA256: d8018273b3a2ca4ccd116fbfa81b0aa814bf51ddd65faf8b8b7d0c8bd05d89d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: tests/examples/hello_world_elf64
+SPDXID: SPDXRef-File-tests-examples-hello-world-elf64-def326dab2e4ffd9
+FileChecksum: SHA1: 0000000000000000000000000000000000000000
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Package: /home/alan/Work/Anchore/plugfest/repos/sharkdp/hexyl
+
+PackageName: /home/alan/Work/Anchore/plugfest/repos/sharkdp/hexyl
+SPDXID: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: FILE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-aeb03ba31fb61328
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v3
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-3f5c0a3426a340e0
+PackageVersion: main
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:main:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:main:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:main:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:main:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:main:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:main:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@main
+
+##### Package: dtolnay/rust-toolchain
+
+PackageName: dtolnay/rust-toolchain
+SPDXID: SPDXRef-Package-github-action-dtolnay-rust-toolchain-4eaaccb7803a1f76
+PackageVersion: stable
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust-toolchain:dtolnay\/rust-toolchain:stable:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust-toolchain:dtolnay\/rust_toolchain:stable:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust_toolchain:dtolnay\/rust-toolchain:stable:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust_toolchain:dtolnay\/rust_toolchain:stable:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust:dtolnay\/rust-toolchain:stable:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust:dtolnay\/rust_toolchain:stable:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/dtolnay/rust-toolchain@stable
+
+##### Package: dtolnay/rust-toolchain
+
+PackageName: dtolnay/rust-toolchain
+SPDXID: SPDXRef-Package-github-action-dtolnay-rust-toolchain-96aa86d16fd63310
+PackageVersion: master
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust-toolchain:dtolnay\/rust-toolchain:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust-toolchain:dtolnay\/rust_toolchain:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust_toolchain:dtolnay\/rust-toolchain:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust_toolchain:dtolnay\/rust_toolchain:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust:dtolnay\/rust-toolchain:master:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dtolnay\/rust:dtolnay\/rust_toolchain:master:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/dtolnay/rust-toolchain@master
+
+##### Package: r-lib/actions/setup-pandoc
+
+PackageName: r-lib/actions/setup-pandoc
+SPDXID: SPDXRef-Package-github-action-r-lib-actions-setup-pandoc-0ac4a7f817823f1a
+PackageVersion: v2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r-lib\/actions\/setup-pandoc:r-lib\/actions\/setup-pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r-lib\/actions\/setup-pandoc:r_lib\/actions\/setup_pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r_lib\/actions\/setup_pandoc:r-lib\/actions\/setup-pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r_lib\/actions\/setup_pandoc:r_lib\/actions\/setup_pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r-lib\/actions\/setup:r-lib\/actions\/setup-pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r-lib\/actions\/setup:r_lib\/actions\/setup_pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r_lib\/actions\/setup:r-lib\/actions\/setup-pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r_lib\/actions\/setup:r_lib\/actions\/setup_pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r:r-lib\/actions\/setup-pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:r:r_lib\/actions\/setup_pandoc:v2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/r-lib/actions@v2#setup-pandoc
+
+##### Package: softprops/action-gh-release
+
+PackageName: softprops/action-gh-release
+SPDXID: SPDXRef-Package-github-action-softprops-action-gh-release-f4b3ca6905ddfa96
+PackageVersion: v1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action-gh-release:softprops\/action-gh-release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action-gh-release:softprops\/action_gh_release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action_gh_release:softprops\/action-gh-release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action_gh_release:softprops\/action_gh_release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action-gh:softprops\/action-gh-release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action-gh:softprops\/action_gh_release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action_gh:softprops\/action-gh-release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action_gh:softprops\/action_gh_release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action:softprops\/action-gh-release:v1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:softprops\/action:softprops\/action_gh_release:v1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/softprops/action-gh-release@v1
+
+##### Package: taiki-e/install-action
+
+PackageName: taiki-e/install-action
+SPDXID: SPDXRef-Package-github-action-taiki-e-install-action-3140122b21a65b4d
+PackageVersion: v2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/CICD.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki-e\/install-action:taiki-e\/install-action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki-e\/install-action:taiki_e\/install_action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki_e\/install_action:taiki-e\/install-action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki_e\/install_action:taiki_e\/install_action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki-e\/install:taiki-e\/install-action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki-e\/install:taiki_e\/install_action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki_e\/install:taiki-e\/install-action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki_e\/install:taiki_e\/install_action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki:taiki-e\/install-action:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:taiki:taiki_e\/install_action:v2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/taiki-e/install-action@v2
+
+##### Package: aho-corasick
+
+PackageName: aho-corasick
+SPDXID: SPDXRef-Package-rust-crate-aho-corasick-11c37e814052a5b7
+PackageVersion: 1.0.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aho-corasick:aho-corasick:1.0.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aho-corasick:aho_corasick:1.0.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aho_corasick:aho-corasick:1.0.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aho_corasick:aho_corasick:1.0.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aho:aho-corasick:1.0.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:aho:aho_corasick:1.0.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/aho-corasick@1.0.4
+
+##### Package: anstream
+
+PackageName: anstream
+SPDXID: SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+PackageVersion: 0.3.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstream:anstream:0.3.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/anstream@0.3.2
+
+##### Package: anstyle
+
+PackageName: anstyle
+SPDXID: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4
+PackageVersion: 1.0.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle:1.0.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/anstyle@1.0.1
+
+##### Package: anstyle-parse
+
+PackageName: anstyle-parse
+SPDXID: SPDXRef-Package-rust-crate-anstyle-parse-ac820d8c5983e2ca
+PackageVersion: 0.2.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle-parse:anstyle-parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle-parse:anstyle_parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle_parse:anstyle-parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle_parse:anstyle_parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle-parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle_parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/anstyle-parse@0.2.1
+
+##### Package: anstyle-query
+
+PackageName: anstyle-query
+SPDXID: SPDXRef-Package-rust-crate-anstyle-query-1cefdbd89028d37f
+PackageVersion: 1.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle-query:anstyle-query:1.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle-query:anstyle_query:1.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle_query:anstyle-query:1.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle_query:anstyle_query:1.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle-query:1.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle_query:1.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/anstyle-query@1.0.0
+
+##### Package: anstyle-wincon
+
+PackageName: anstyle-wincon
+SPDXID: SPDXRef-Package-rust-crate-anstyle-wincon-416ba8d9f11ae522
+PackageVersion: 1.0.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle-wincon:anstyle-wincon:1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle-wincon:anstyle_wincon:1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle_wincon:anstyle-wincon:1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle_wincon:anstyle_wincon:1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle-wincon:1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anstyle:anstyle_wincon:1.0.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/anstyle-wincon@1.0.2
+
+##### Package: anyhow
+
+PackageName: anyhow
+SPDXID: SPDXRef-Package-rust-crate-anyhow-47ff90916f0111d5
+PackageVersion: 1.0.75
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:anyhow:anyhow:1.0.75:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/anyhow@1.0.75
+
+##### Package: assert_cmd
+
+PackageName: assert_cmd
+SPDXID: SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+PackageVersion: 2.0.12
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assert-cmd:assert-cmd:2.0.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assert-cmd:assert_cmd:2.0.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assert_cmd:assert-cmd:2.0.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assert_cmd:assert_cmd:2.0.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assert:assert-cmd:2.0.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:assert:assert_cmd:2.0.12:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/assert_cmd@2.0.12
+
+##### Package: autocfg
+
+PackageName: autocfg
+SPDXID: SPDXRef-Package-rust-crate-autocfg-476c52bf676193e7
+PackageVersion: 1.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:autocfg:autocfg:1.1.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/autocfg@1.1.0
+
+##### Package: bitflags
+
+PackageName: bitflags
+SPDXID: SPDXRef-Package-rust-crate-bitflags-4e66679aa7bd7439
+PackageVersion: 1.3.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:bitflags:bitflags:1.3.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/bitflags@1.3.2
+
+##### Package: bitflags
+
+PackageName: bitflags
+SPDXID: SPDXRef-Package-rust-crate-bitflags-ee15961e7117e947
+PackageVersion: 2.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:bitflags:bitflags:2.4.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/bitflags@2.4.0
+
+##### Package: bstr
+
+PackageName: bstr
+SPDXID: SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12
+PackageVersion: 1.6.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:bstr:bstr:1.6.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/bstr@1.6.0
+
+##### Package: cc
+
+PackageName: cc
+SPDXID: SPDXRef-Package-rust-crate-cc-59c44dfec1f31fbd
+PackageVersion: 1.0.83
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cc:cc:1.0.83:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/cc@1.0.83
+
+##### Package: clap
+
+PackageName: clap
+SPDXID: SPDXRef-Package-rust-crate-clap-4728260d0f410499
+PackageVersion: 4.3.23
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap:4.3.23:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/clap@4.3.23
+
+##### Package: clap_builder
+
+PackageName: clap_builder
+SPDXID: SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+PackageVersion: 4.3.23
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap-builder:clap-builder:4.3.23:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap-builder:clap_builder:4.3.23:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap_builder:clap-builder:4.3.23:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap_builder:clap_builder:4.3.23:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap-builder:4.3.23:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap_builder:4.3.23:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/clap_builder@4.3.23
+
+##### Package: clap_derive
+
+PackageName: clap_derive
+SPDXID: SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d
+PackageVersion: 4.3.12
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap-derive:clap-derive:4.3.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap-derive:clap_derive:4.3.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap_derive:clap-derive:4.3.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap_derive:clap_derive:4.3.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap-derive:4.3.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap_derive:4.3.12:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/clap_derive@4.3.12
+
+##### Package: clap_lex
+
+PackageName: clap_lex
+SPDXID: SPDXRef-Package-rust-crate-clap-lex-0e2c8310f42386bc
+PackageVersion: 0.5.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap-lex:clap-lex:0.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap-lex:clap_lex:0.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap_lex:clap-lex:0.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap_lex:clap_lex:0.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap-lex:0.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:clap:clap_lex:0.5.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/clap_lex@0.5.0
+
+##### Package: colorchoice
+
+PackageName: colorchoice
+SPDXID: SPDXRef-Package-rust-crate-colorchoice-64dde6bf13309760
+PackageVersion: 1.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:colorchoice:colorchoice:1.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/colorchoice@1.0.0
+
+##### Package: const_format
+
+PackageName: const_format
+SPDXID: SPDXRef-Package-rust-crate-const-format-b06e5226bd9458cc
+PackageVersion: 0.2.31
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format:const-format:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format:const_format:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format:const-format:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format:const_format:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const:const-format:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const:const_format:0.2.31:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/const_format@0.2.31
+
+##### Package: const_format_proc_macros
+
+PackageName: const_format_proc_macros
+SPDXID: SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb
+PackageVersion: 0.2.31
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format-proc-macros:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format-proc-macros:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format_proc_macros:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format_proc_macros:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format-proc:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format-proc:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format_proc:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format_proc:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const-format:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const_format:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:const:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/const_format_proc_macros@0.2.31
+
+##### Package: diff
+
+PackageName: diff
+SPDXID: SPDXRef-Package-rust-crate-diff-ea77deec138dac31
+PackageVersion: 0.1.13
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:diff:diff:0.1.13:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/diff@0.1.13
+
+##### Package: difflib
+
+PackageName: difflib
+SPDXID: SPDXRef-Package-rust-crate-difflib-2212011723d2f13a
+PackageVersion: 0.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:difflib:difflib:0.4.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/difflib@0.4.0
+
+##### Package: doc-comment
+
+PackageName: doc-comment
+SPDXID: SPDXRef-Package-rust-crate-doc-comment-e57c6cf7ee599182
+PackageVersion: 0.3.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:doc-comment:doc-comment:0.3.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:doc-comment:doc_comment:0.3.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:doc_comment:doc-comment:0.3.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:doc_comment:doc_comment:0.3.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:doc:doc-comment:0.3.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:doc:doc_comment:0.3.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/doc-comment@0.3.3
+
+##### Package: either
+
+PackageName: either
+SPDXID: SPDXRef-Package-rust-crate-either-21781382e7e72be8
+PackageVersion: 1.9.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:either:either:1.9.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/either@1.9.0
+
+##### Package: errno
+
+PackageName: errno
+SPDXID: SPDXRef-Package-rust-crate-errno-505844c960ba4898
+PackageVersion: 0.3.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno:errno:0.3.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/errno@0.3.2
+
+##### Package: errno-dragonfly
+
+PackageName: errno-dragonfly
+SPDXID: SPDXRef-Package-rust-crate-errno-dragonfly-e8f90770e1f0f529
+PackageVersion: 0.1.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno-dragonfly:errno-dragonfly:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno-dragonfly:errno_dragonfly:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno_dragonfly:errno-dragonfly:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno_dragonfly:errno_dragonfly:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno:errno-dragonfly:0.1.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:errno:errno_dragonfly:0.1.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/errno-dragonfly@0.1.2
+
+##### Package: float-cmp
+
+PackageName: float-cmp
+SPDXID: SPDXRef-Package-rust-crate-float-cmp-fa9bb76f9f3f7227
+PackageVersion: 0.9.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:float-cmp:float-cmp:0.9.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:float-cmp:float_cmp:0.9.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:float_cmp:float-cmp:0.9.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:float_cmp:float_cmp:0.9.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:float:float-cmp:0.9.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:float:float_cmp:0.9.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/float-cmp@0.9.0
+
+##### Package: heck
+
+PackageName: heck
+SPDXID: SPDXRef-Package-rust-crate-heck-3db5f481a4ee6722
+PackageVersion: 0.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:heck:heck:0.4.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/heck@0.4.1
+
+##### Package: hermit-abi
+
+PackageName: hermit-abi
+SPDXID: SPDXRef-Package-rust-crate-hermit-abi-e1dd3d0d0b9fbaa3
+PackageVersion: 0.3.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hermit-abi:hermit-abi:0.3.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hermit-abi:hermit_abi:0.3.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hermit_abi:hermit-abi:0.3.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hermit_abi:hermit_abi:0.3.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hermit:hermit-abi:0.3.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hermit:hermit_abi:0.3.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/hermit-abi@0.3.2
+
+##### Package: hexyl
+
+PackageName: hexyl
+SPDXID: SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+PackageVersion: 0.14.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:hexyl:hexyl:0.14.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/hexyl@0.14.0
+
+##### Package: io-lifetimes
+
+PackageName: io-lifetimes
+SPDXID: SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479
+PackageVersion: 1.0.11
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io-lifetimes:io-lifetimes:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io-lifetimes:io_lifetimes:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io_lifetimes:io-lifetimes:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io_lifetimes:io_lifetimes:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io:io-lifetimes:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:io:io_lifetimes:1.0.11:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/io-lifetimes@1.0.11
+
+##### Package: is_ci
+
+PackageName: is_ci
+SPDXID: SPDXRef-Package-rust-crate-is-ci-d88df7c8a71e2873
+PackageVersion: 1.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is-ci:is-ci:1.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is-ci:is_ci:1.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is_ci:is-ci:1.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is_ci:is_ci:1.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is:is-ci:1.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is:is_ci:1.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/is_ci@1.1.1
+
+##### Package: is-terminal
+
+PackageName: is-terminal
+SPDXID: SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f
+PackageVersion: 0.4.9
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is-terminal:is-terminal:0.4.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is-terminal:is_terminal:0.4.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is_terminal:is-terminal:0.4.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is_terminal:is_terminal:0.4.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is:is-terminal:0.4.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:is:is_terminal:0.4.9:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/is-terminal@0.4.9
+
+##### Package: itertools
+
+PackageName: itertools
+SPDXID: SPDXRef-Package-rust-crate-itertools-9302b6ecc6ce3fbd
+PackageVersion: 0.10.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:itertools:itertools:0.10.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/itertools@0.10.5
+
+##### Package: libc
+
+PackageName: libc
+SPDXID: SPDXRef-Package-rust-crate-libc-3501b14e3105a728
+PackageVersion: 0.2.155
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:libc:libc:0.2.155:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/libc@0.2.155
+
+##### Package: linux-raw-sys
+
+PackageName: linux-raw-sys
+SPDXID: SPDXRef-Package-rust-crate-linux-raw-sys-15bc0eb7bfcbd6c8
+PackageVersion: 0.3.8
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw-sys:linux-raw-sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw-sys:linux_raw_sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw_sys:linux-raw-sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw_sys:linux_raw_sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw:linux-raw-sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw:linux_raw_sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw:linux-raw-sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw:linux_raw_sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux:linux-raw-sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux:linux_raw_sys:0.3.8:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/linux-raw-sys@0.3.8
+
+##### Package: linux-raw-sys
+
+PackageName: linux-raw-sys
+SPDXID: SPDXRef-Package-rust-crate-linux-raw-sys-6e553329d9df2a4b
+PackageVersion: 0.4.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw-sys:linux-raw-sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw-sys:linux_raw_sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw_sys:linux-raw-sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw_sys:linux_raw_sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw:linux-raw-sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux-raw:linux_raw_sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw:linux-raw-sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux_raw:linux_raw_sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux:linux-raw-sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:linux:linux_raw_sys:0.4.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/linux-raw-sys@0.4.5
+
+##### Package: memchr
+
+PackageName: memchr
+SPDXID: SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744
+PackageVersion: 2.5.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:memchr:memchr:2.5.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/memchr@2.5.0
+
+##### Package: normalize-line-endings
+
+PackageName: normalize-line-endings
+SPDXID: SPDXRef-Package-rust-crate-normalize-line-endings-f4d5d8295976ea80
+PackageVersion: 0.3.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize-line-endings:normalize-line-endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize-line-endings:normalize_line_endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize_line_endings:normalize-line-endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize_line_endings:normalize_line_endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize-line:normalize-line-endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize-line:normalize_line_endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize_line:normalize-line-endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize_line:normalize_line_endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize:normalize-line-endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:normalize:normalize_line_endings:0.3.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/normalize-line-endings@0.3.0
+
+##### Package: num-traits
+
+PackageName: num-traits
+SPDXID: SPDXRef-Package-rust-crate-num-traits-a41134dd5ae5f24f
+PackageVersion: 0.2.16
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:num-traits:num-traits:0.2.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:num-traits:num_traits:0.2.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:num_traits:num-traits:0.2.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:num_traits:num_traits:0.2.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:num:num-traits:0.2.16:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:num:num_traits:0.2.16:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/num-traits@0.2.16
+
+##### Package: once_cell
+
+PackageName: once_cell
+SPDXID: SPDXRef-Package-rust-crate-once-cell-2ed8fcb1a16611e5
+PackageVersion: 1.18.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:once-cell:once-cell:1.18.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:once-cell:once_cell:1.18.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:once_cell:once-cell:1.18.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:once_cell:once_cell:1.18.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:once:once-cell:1.18.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:once:once_cell:1.18.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/once_cell@1.18.0
+
+##### Package: owo-colors
+
+PackageName: owo-colors
+SPDXID: SPDXRef-Package-rust-crate-owo-colors-d16e6e235bac2e6e
+PackageVersion: 3.5.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owo-colors:owo-colors:3.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owo-colors:owo_colors:3.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owo_colors:owo-colors:3.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owo_colors:owo_colors:3.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owo:owo-colors:3.5.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:owo:owo_colors:3.5.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/owo-colors@3.5.0
+
+##### Package: predicates
+
+PackageName: predicates
+SPDXID: SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+PackageVersion: 3.0.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates:predicates:3.0.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/predicates@3.0.3
+
+##### Package: predicates-core
+
+PackageName: predicates-core
+SPDXID: SPDXRef-Package-rust-crate-predicates-core-fea1899ee9bb8149
+PackageVersion: 1.0.6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates-core:predicates-core:1.0.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates-core:predicates_core:1.0.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates_core:predicates-core:1.0.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates_core:predicates_core:1.0.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates:predicates-core:1.0.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates:predicates_core:1.0.6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/predicates-core@1.0.6
+
+##### Package: predicates-tree
+
+PackageName: predicates-tree
+SPDXID: SPDXRef-Package-rust-crate-predicates-tree-928eabf30850c33f
+PackageVersion: 1.0.9
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates-tree:predicates-tree:1.0.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates-tree:predicates_tree:1.0.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates_tree:predicates-tree:1.0.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates_tree:predicates_tree:1.0.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates:predicates-tree:1.0.9:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:predicates:predicates_tree:1.0.9:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/predicates-tree@1.0.9
+
+##### Package: pretty_assertions
+
+PackageName: pretty_assertions
+SPDXID: SPDXRef-Package-rust-crate-pretty-assertions-15064c4403f280ab
+PackageVersion: 1.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pretty-assertions:pretty-assertions:1.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pretty-assertions:pretty_assertions:1.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pretty_assertions:pretty-assertions:1.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pretty_assertions:pretty_assertions:1.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pretty:pretty-assertions:1.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pretty:pretty_assertions:1.4.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/pretty_assertions@1.4.0
+
+##### Package: proc-macro2
+
+PackageName: proc-macro2
+SPDXID: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7
+PackageVersion: 1.0.66
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:proc-macro2:proc-macro2:1.0.66:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:proc-macro2:proc_macro2:1.0.66:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:proc_macro2:proc-macro2:1.0.66:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:proc_macro2:proc_macro2:1.0.66:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:proc:proc-macro2:1.0.66:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:proc:proc_macro2:1.0.66:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/proc-macro2@1.0.66
+
+##### Package: quote
+
+PackageName: quote
+SPDXID: SPDXRef-Package-rust-crate-quote-d19f409afab995be
+PackageVersion: 1.0.33
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quote:quote:1.0.33:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/quote@1.0.33
+
+##### Package: regex-automata
+
+PackageName: regex-automata
+SPDXID: SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6
+PackageVersion: 0.3.6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex-automata:regex-automata:0.3.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex-automata:regex_automata:0.3.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex_automata:regex-automata:0.3.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex_automata:regex_automata:0.3.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex:regex-automata:0.3.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex:regex_automata:0.3.6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/regex-automata@0.3.6
+
+##### Package: regex
+
+PackageName: regex
+SPDXID: SPDXRef-Package-rust-crate-regex-c34bd686bead0903
+PackageVersion: 1.9.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex:regex:1.9.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/regex@1.9.3
+
+##### Package: regex-syntax
+
+PackageName: regex-syntax
+SPDXID: SPDXRef-Package-rust-crate-regex-syntax-e032aa4f34392a00
+PackageVersion: 0.7.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex-syntax:regex-syntax:0.7.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex-syntax:regex_syntax:0.7.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex_syntax:regex-syntax:0.7.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex_syntax:regex_syntax:0.7.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex:regex-syntax:0.7.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:regex:regex_syntax:0.7.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/regex-syntax@0.7.4
+
+##### Package: rustix
+
+PackageName: rustix
+SPDXID: SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+PackageVersion: 0.37.23
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rustix:rustix:0.37.23:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/rustix@0.37.23
+
+##### Package: rustix
+
+PackageName: rustix
+SPDXID: SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+PackageVersion: 0.38.8
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rustix:rustix:0.38.8:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/rustix@0.38.8
+
+##### Package: serde
+
+PackageName: serde
+SPDXID: SPDXRef-Package-rust-crate-serde-a3d00839ce6633ab
+PackageVersion: 1.0.185
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:serde:serde:1.0.185:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/serde@1.0.185
+
+##### Package: strsim
+
+PackageName: strsim
+SPDXID: SPDXRef-Package-rust-crate-strsim-6bd2bd582fabad26
+PackageVersion: 0.10.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:strsim:strsim:0.10.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/strsim@0.10.0
+
+##### Package: supports-color
+
+PackageName: supports-color
+SPDXID: SPDXRef-Package-rust-crate-supports-color-a971f71c20bb421f
+PackageVersion: 2.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:supports-color:supports-color:2.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:supports-color:supports_color:2.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:supports_color:supports-color:2.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:supports_color:supports_color:2.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:supports:supports-color:2.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:supports:supports_color:2.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/supports-color@2.0.0
+
+##### Package: syn
+
+PackageName: syn
+SPDXID: SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e
+PackageVersion: 2.0.29
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:syn:syn:2.0.29:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/syn@2.0.29
+
+##### Package: terminal_size
+
+PackageName: terminal_size
+SPDXID: SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361
+PackageVersion: 0.2.6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:terminal-size:terminal-size:0.2.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:terminal-size:terminal_size:0.2.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:terminal_size:terminal-size:0.2.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:terminal_size:terminal_size:0.2.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:terminal:terminal-size:0.2.6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:terminal:terminal_size:0.2.6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/terminal_size@0.2.6
+
+##### Package: termtree
+
+PackageName: termtree
+SPDXID: SPDXRef-Package-rust-crate-termtree-19439d2d9bcfd148
+PackageVersion: 0.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:termtree:termtree:0.4.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/termtree@0.4.1
+
+##### Package: thiserror
+
+PackageName: thiserror
+SPDXID: SPDXRef-Package-rust-crate-thiserror-e74861184e918335
+PackageVersion: 1.0.47
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror:thiserror:1.0.47:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/thiserror@1.0.47
+
+##### Package: thiserror-impl
+
+PackageName: thiserror-impl
+SPDXID: SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa
+PackageVersion: 1.0.47
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror-impl:thiserror-impl:1.0.47:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror-impl:thiserror_impl:1.0.47:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror_impl:thiserror-impl:1.0.47:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror_impl:thiserror_impl:1.0.47:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror:thiserror-impl:1.0.47:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:thiserror:thiserror_impl:1.0.47:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/thiserror-impl@1.0.47
+
+##### Package: unicode-ident
+
+PackageName: unicode-ident
+SPDXID: SPDXRef-Package-rust-crate-unicode-ident-220e042ce6843473
+PackageVersion: 1.0.11
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode-ident:unicode-ident:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode-ident:unicode_ident:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode_ident:unicode-ident:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode_ident:unicode_ident:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode:unicode-ident:1.0.11:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode:unicode_ident:1.0.11:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/unicode-ident@1.0.11
+
+##### Package: unicode-xid
+
+PackageName: unicode-xid
+SPDXID: SPDXRef-Package-rust-crate-unicode-xid-71ee34e587b710fb
+PackageVersion: 0.2.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode-xid:unicode-xid:0.2.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode-xid:unicode_xid:0.2.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode_xid:unicode-xid:0.2.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode_xid:unicode_xid:0.2.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode:unicode-xid:0.2.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:unicode:unicode_xid:0.2.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/unicode-xid@0.2.4
+
+##### Package: utf8parse
+
+PackageName: utf8parse
+SPDXID: SPDXRef-Package-rust-crate-utf8parse-9dedc970fc6c066b
+PackageVersion: 0.2.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:utf8parse:utf8parse:0.2.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/utf8parse@0.2.1
+
+##### Package: wait-timeout
+
+PackageName: wait-timeout
+SPDXID: SPDXRef-Package-rust-crate-wait-timeout-193b8b96d37494f7
+PackageVersion: 0.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wait-timeout:wait-timeout:0.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wait-timeout:wait_timeout:0.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wait_timeout:wait-timeout:0.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wait_timeout:wait_timeout:0.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wait:wait-timeout:0.2.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:wait:wait_timeout:0.2.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/wait-timeout@0.2.0
+
+##### Package: windows_aarch64_gnullvm
+
+PackageName: windows_aarch64_gnullvm
+SPDXID: SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-de5f462acab97af0
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64-gnullvm:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64-gnullvm:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64_gnullvm:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64_gnullvm:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_aarch64_gnullvm@0.48.5
+
+##### Package: windows_aarch64_msvc
+
+PackageName: windows_aarch64_msvc
+SPDXID: SPDXRef-Package-rust-crate-windows-aarch64-msvc-4cb412554024ca76
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64-msvc:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64-msvc:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64_msvc:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64_msvc:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-aarch64:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_aarch64:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_aarch64_msvc@0.48.5
+
+##### Package: windows_i686_gnu
+
+PackageName: windows_i686_gnu
+SPDXID: SPDXRef-Package-rust-crate-windows-i686-gnu-cb2224e8c9acbadd
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686-gnu:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686-gnu:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686_gnu:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686_gnu:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_i686_gnu@0.48.5
+
+##### Package: windows_i686_msvc
+
+PackageName: windows_i686_msvc
+SPDXID: SPDXRef-Package-rust-crate-windows-i686-msvc-0beb1261b503e6d1
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686-msvc:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686-msvc:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686_msvc:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686_msvc:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-i686:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_i686:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_i686_msvc@0.48.5
+
+##### Package: windows-sys
+
+PackageName: windows-sys
+SPDXID: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b
+PackageVersion: 0.48.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-sys:windows-sys:0.48.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-sys:windows_sys:0.48.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_sys:windows-sys:0.48.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_sys:windows_sys:0.48.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-sys:0.48.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_sys:0.48.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows-sys@0.48.0
+
+##### Package: windows-targets
+
+PackageName: windows-targets
+SPDXID: SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-targets:windows-targets:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-targets:windows_targets:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_targets:windows-targets:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_targets:windows_targets:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-targets:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_targets:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows-targets@0.48.5
+
+##### Package: windows_x86_64_gnu
+
+PackageName: windows_x86_64_gnu
+SPDXID: SPDXRef-Package-rust-crate-windows-x86-64-gnu-851aca70a531a3d2
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64-gnu:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64-gnu:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64_gnu:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64_gnu:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_x86_64_gnu@0.48.5
+
+##### Package: windows_x86_64_gnullvm
+
+PackageName: windows_x86_64_gnullvm
+SPDXID: SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-6d0ba4d4ad06bb30
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64-gnullvm:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64-gnullvm:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64_gnullvm:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64_gnullvm:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_x86_64_gnullvm@0.48.5
+
+##### Package: windows_x86_64_msvc
+
+PackageName: windows_x86_64_msvc
+SPDXID: SPDXRef-Package-rust-crate-windows-x86-64-msvc-fd6119fa316c15e2
+PackageVersion: 0.48.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64-msvc:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64-msvc:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64_msvc:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64_msvc:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86-64:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86_64:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows-x86:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows_x86:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:windows:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/windows_x86_64_msvc@0.48.5
+
+##### Package: yansi
+
+PackageName: yansi
+SPDXID: SPDXRef-Package-rust-crate-yansi-a23d66407c3aa1c1
+PackageVersion: 0.5.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from rust cargo manifest: /Cargo.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:yansi:yansi:0.5.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:cargo/yansi@0.5.1
+
+##### Relationships
+
+Relationship: SPDXRef-Package-rust-crate-windows-i686-msvc-0beb1261b503e6d1 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-clap-lex-0e2c8310f42386bc DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+Relationship: SPDXRef-Package-rust-crate-aho-corasick-11c37e814052a5b7 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6
+Relationship: SPDXRef-Package-rust-crate-aho-corasick-11c37e814052a5b7 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-c34bd686bead0903
+Relationship: SPDXRef-Package-rust-crate-pretty-assertions-15064c4403f280ab DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-linux-raw-sys-15bc0eb7bfcbd6c8 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-Package-rust-crate-wait-timeout-193b8b96d37494f7 DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-termtree-19439d2d9bcfd148 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-tree-928eabf30850c33f
+Relationship: SPDXRef-Package-rust-crate-anstyle-query-1cefdbd89028d37f DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-either-21781382e7e72be8 DEPENDENCY_OF SPDXRef-Package-rust-crate-itertools-9302b6ecc6ce3fbd
+Relationship: SPDXRef-Package-rust-crate-unicode-ident-220e042ce6843473 DEPENDENCY_OF SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e
+Relationship: SPDXRef-Package-rust-crate-unicode-ident-220e042ce6843473 DEPENDENCY_OF SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7
+Relationship: SPDXRef-Package-rust-crate-difflib-2212011723d2f13a DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d
+Relationship: SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e DEPENDENCY_OF SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa
+Relationship: SPDXRef-Package-rust-crate-once-cell-2ed8fcb1a16611e5 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-4728260d0f410499
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-wait-timeout-193b8b96d37494f7
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-errno-505844c960ba4898
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-cc-59c44dfec1f31fbd
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 DEPENDENCY_OF SPDXRef-Package-rust-crate-errno-dragonfly-e8f90770e1f0f529
+Relationship: SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6 DEPENDENCY_OF SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12
+Relationship: SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-c34bd686bead0903
+Relationship: SPDXRef-Package-rust-crate-heck-3db5f481a4ee6722 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d
+Relationship: SPDXRef-Package-rust-crate-anstyle-wincon-416ba8d9f11ae522 DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-clap-4728260d0f410499 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-autocfg-476c52bf676193e7 DEPENDENCY_OF SPDXRef-Package-rust-crate-num-traits-a41134dd5ae5f24f
+Relationship: SPDXRef-Package-rust-crate-anyhow-47ff90916f0111d5 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12 DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-windows-aarch64-msvc-4cb412554024ca76 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-bitflags-4e66679aa7bd7439 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+Relationship: SPDXRef-Package-rust-crate-errno-505844c960ba4898 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-Package-rust-crate-errno-505844c960ba4898 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+Relationship: SPDXRef-Package-rust-crate-cc-59c44dfec1f31fbd DEPENDENCY_OF SPDXRef-Package-rust-crate-errno-dragonfly-e8f90770e1f0f529
+Relationship: SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-4728260d0f410499
+Relationship: SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b
+Relationship: SPDXRef-Package-rust-crate-colorchoice-64dde6bf13309760 DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-strsim-6bd2bd582fabad26 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+Relationship: SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa DEPENDENCY_OF SPDXRef-Package-rust-crate-thiserror-e74861184e918335
+Relationship: SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-6d0ba4d4ad06bb30 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-predicates-6d7058103a689a15 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-predicates-6d7058103a689a15 DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-linux-raw-sys-6e553329d9df2a4b DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+Relationship: SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+Relationship: SPDXRef-Package-rust-crate-unicode-xid-71ee34e587b710fb DEPENDENCY_OF SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb
+Relationship: SPDXRef-Package-rust-crate-rustix-8340c24e921d1456 DEPENDENCY_OF SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361
+Relationship: SPDXRef-Package-rust-crate-windows-x86-64-gnu-851aca70a531a3d2 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744 DEPENDENCY_OF SPDXRef-Package-rust-crate-aho-corasick-11c37e814052a5b7
+Relationship: SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6
+Relationship: SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744 DEPENDENCY_OF SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12
+Relationship: SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-c34bd686bead0903
+Relationship: SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-Package-rust-crate-predicates-tree-928eabf30850c33f DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-itertools-9302b6ecc6ce3fbd DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-utf8parse-9dedc970fc6c066b DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-utf8parse-9dedc970fc6c066b DEPENDENCY_OF SPDXRef-Package-rust-crate-anstyle-parse-ac820d8c5983e2ca
+Relationship: SPDXRef-Package-rust-crate-yansi-a23d66407c3aa1c1 DEPENDENCY_OF SPDXRef-Package-rust-crate-pretty-assertions-15064c4403f280ab
+Relationship: SPDXRef-Package-rust-crate-serde-a3d00839ce6633ab DEPENDENCY_OF SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12
+Relationship: SPDXRef-Package-rust-crate-num-traits-a41134dd5ae5f24f DEPENDENCY_OF SPDXRef-Package-rust-crate-float-cmp-fa9bb76f9f3f7227
+Relationship: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4 DEPENDENCY_OF SPDXRef-Package-rust-crate-anstyle-wincon-416ba8d9f11ae522
+Relationship: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4 DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+Relationship: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4 DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-supports-color-a971f71c20bb421f DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-anstyle-parse-ac820d8c5983e2ca DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-const-format-b06e5226bd9458cc DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55 DEPENDENCY_OF SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f
+Relationship: SPDXRef-Package-rust-crate-regex-c34bd686bead0903 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb DEPENDENCY_OF SPDXRef-Package-rust-crate-const-format-b06e5226bd9458cc
+Relationship: SPDXRef-Package-rust-crate-windows-i686-gnu-cb2224e8c9acbadd DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f DEPENDENCY_OF SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f DEPENDENCY_OF SPDXRef-Package-rust-crate-supports-color-a971f71c20bb421f
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-anstyle-query-1cefdbd89028d37f
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-anstyle-wincon-416ba8d9f11ae522
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-errno-505844c960ba4898
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b DEPENDENCY_OF SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f
+Relationship: SPDXRef-Package-rust-crate-owo-colors-d16e6e235bac2e6e DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-quote-d19f409afab995be DEPENDENCY_OF SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e
+Relationship: SPDXRef-Package-rust-crate-quote-d19f409afab995be DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d
+Relationship: SPDXRef-Package-rust-crate-quote-d19f409afab995be DEPENDENCY_OF SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa
+Relationship: SPDXRef-Package-rust-crate-quote-d19f409afab995be DEPENDENCY_OF SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb
+Relationship: SPDXRef-Package-rust-crate-is-ci-d88df7c8a71e2873 DEPENDENCY_OF SPDXRef-Package-rust-crate-supports-color-a971f71c20bb421f
+Relationship: SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-de5f462acab97af0 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-regex-syntax-e032aa4f34392a00 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6
+Relationship: SPDXRef-Package-rust-crate-regex-syntax-e032aa4f34392a00 DEPENDENCY_OF SPDXRef-Package-rust-crate-regex-c34bd686bead0903
+Relationship: SPDXRef-Package-rust-crate-hermit-abi-e1dd3d0d0b9fbaa3 DEPENDENCY_OF SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479
+Relationship: SPDXRef-Package-rust-crate-hermit-abi-e1dd3d0d0b9fbaa3 DEPENDENCY_OF SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f
+Relationship: SPDXRef-Package-rust-crate-doc-comment-e57c6cf7ee599182 DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-thiserror-e74861184e918335 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-rust-crate-errno-dragonfly-e8f90770e1f0f529 DEPENDENCY_OF SPDXRef-Package-rust-crate-errno-505844c960ba4898
+Relationship: SPDXRef-Package-rust-crate-diff-ea77deec138dac31 DEPENDENCY_OF SPDXRef-Package-rust-crate-pretty-assertions-15064c4403f280ab
+Relationship: SPDXRef-Package-rust-crate-bitflags-ee15961e7117e947 DEPENDENCY_OF SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+Relationship: SPDXRef-Package-rust-crate-normalize-line-endings-f4d5d8295976ea80 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-4728260d0f410499
+Relationship: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7 DEPENDENCY_OF SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e
+Relationship: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7 DEPENDENCY_OF SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d
+Relationship: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7 DEPENDENCY_OF SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa
+Relationship: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7 DEPENDENCY_OF SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb
+Relationship: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7 DEPENDENCY_OF SPDXRef-Package-rust-crate-quote-d19f409afab995be
+Relationship: SPDXRef-Package-rust-crate-float-cmp-fa9bb76f9f3f7227 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-windows-x86-64-msvc-fd6119fa316c15e2 DEPENDENCY_OF SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-Package-rust-crate-predicates-core-fea1899ee9bb8149 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-Package-rust-crate-predicates-core-fea1899ee9bb8149 DEPENDENCY_OF SPDXRef-Package-rust-crate-predicates-tree-928eabf30850c33f
+Relationship: SPDXRef-Package-rust-crate-predicates-core-fea1899ee9bb8149 DEPENDENCY_OF SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681 DEPENDENCY_OF SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-Package-github-action-r-lib-actions-setup-pandoc-0ac4a7f817823f1a OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-i686-msvc-0beb1261b503e6d1 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-clap-lex-0e2c8310f42386bc OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-aho-corasick-11c37e814052a5b7 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-pretty-assertions-15064c4403f280ab OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-linux-raw-sys-15bc0eb7bfcbd6c8 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-wait-timeout-193b8b96d37494f7 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-termtree-19439d2d9bcfd148 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-anstyle-query-1cefdbd89028d37f OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-either-21781382e7e72be8 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-unicode-ident-220e042ce6843473 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-difflib-2212011723d2f13a OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-once-cell-2ed8fcb1a16611e5 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-taiki-e-install-action-3140122b21a65b4d OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-libc-3501b14e3105a728 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-heck-3db5f481a4ee6722 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-3f5c0a3426a340e0 OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-anstyle-wincon-416ba8d9f11ae522 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-clap-4728260d0f410499 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-autocfg-476c52bf676193e7 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-anyhow-47ff90916f0111d5 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-aarch64-msvc-4cb412554024ca76 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-bitflags-4e66679aa7bd7439 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-dtolnay-rust-toolchain-4eaaccb7803a1f76 OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-errno-505844c960ba4898 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-cc-59c44dfec1f31fbd OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-colorchoice-64dde6bf13309760 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-strsim-6bd2bd582fabad26 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-6d0ba4d4ad06bb30 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-predicates-6d7058103a689a15 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-linux-raw-sys-6e553329d9df2a4b OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-unicode-xid-71ee34e587b710fb OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-rustix-8340c24e921d1456 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-x86-64-gnu-851aca70a531a3d2 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-predicates-tree-928eabf30850c33f OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-itertools-9302b6ecc6ce3fbd OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-dtolnay-rust-toolchain-96aa86d16fd63310 OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-utf8parse-9dedc970fc6c066b OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-yansi-a23d66407c3aa1c1 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-serde-a3d00839ce6633ab OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-num-traits-a41134dd5ae5f24f OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-supports-color-a971f71c20bb421f OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-anstyle-parse-ac820d8c5983e2ca OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-aeb03ba31fb61328 OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-const-format-b06e5226bd9458cc OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-regex-c34bd686bead0903 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-i686-gnu-cb2224e8c9acbadd OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-owo-colors-d16e6e235bac2e6e OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-quote-d19f409afab995be OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-is-ci-d88df7c8a71e2873 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-de5f462acab97af0 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-regex-syntax-e032aa4f34392a00 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-hermit-abi-e1dd3d0d0b9fbaa3 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-doc-comment-e57c6cf7ee599182 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-thiserror-e74861184e918335 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-errno-dragonfly-e8f90770e1f0f529 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-diff-ea77deec138dac31 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-bitflags-ee15961e7117e947 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-softprops-action-gh-release-f4b3ca6905ddfa96 OTHER SPDXRef-File-.github-workflows-CICD.yml-a0e04e0d28efa108
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-normalize-line-endings-f4d5d8295976ea80 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-float-cmp-fa9bb76f9f3f7227 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-windows-x86-64-msvc-fd6119fa316c15e2 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-predicates-core-fea1899ee9bb8149 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681 OTHER SPDXRef-File-Cargo.lock-c6bea2c24af05bc1
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-actions-checkout-aeb03ba31fb61328
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-3f5c0a3426a340e0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-aho-corasick-11c37e814052a5b7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-anstream-6e8b4b77168b4fe7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-anstyle-a69c215dc8190cc4
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-anstyle-parse-ac820d8c5983e2ca
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-anstyle-query-1cefdbd89028d37f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-anstyle-wincon-416ba8d9f11ae522
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-anyhow-47ff90916f0111d5
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-assert-cmd-ffeeb818aa38f681
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-autocfg-476c52bf676193e7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-bitflags-4e66679aa7bd7439
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-bitflags-ee15961e7117e947
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-bstr-4c06ddad37ca2b12
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-cc-59c44dfec1f31fbd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-clap-4728260d0f410499
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-clap-builder-f5fbce68e44b064e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-clap-derive-5af368fc8f86603d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-clap-lex-0e2c8310f42386bc
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-colorchoice-64dde6bf13309760
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-const-format-b06e5226bd9458cc
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-const-format-proc-macros-c8fc6734caa4e2fb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-diff-ea77deec138dac31
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-difflib-2212011723d2f13a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-doc-comment-e57c6cf7ee599182
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-dtolnay-rust-toolchain-96aa86d16fd63310
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-dtolnay-rust-toolchain-4eaaccb7803a1f76
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-either-21781382e7e72be8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-errno-505844c960ba4898
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-errno-dragonfly-e8f90770e1f0f529
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-float-cmp-fa9bb76f9f3f7227
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-heck-3db5f481a4ee6722
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-hermit-abi-e1dd3d0d0b9fbaa3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-hexyl-b23f04478f3fabb0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-io-lifetimes-916868540dd69479
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-is-terminal-ceadc742542f394f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-is-ci-d88df7c8a71e2873
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-itertools-9302b6ecc6ce3fbd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-libc-3501b14e3105a728
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-linux-raw-sys-15bc0eb7bfcbd6c8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-linux-raw-sys-6e553329d9df2a4b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-memchr-8fc8f7646a2db744
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-normalize-line-endings-f4d5d8295976ea80
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-num-traits-a41134dd5ae5f24f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-once-cell-2ed8fcb1a16611e5
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-owo-colors-d16e6e235bac2e6e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-predicates-6d7058103a689a15
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-predicates-core-fea1899ee9bb8149
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-predicates-tree-928eabf30850c33f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-pretty-assertions-15064c4403f280ab
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-proc-macro2-f7e017edbbb306e7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-quote-d19f409afab995be
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-r-lib-actions-setup-pandoc-0ac4a7f817823f1a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-regex-c34bd686bead0903
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-regex-automata-3c22dc2b2a0293c6
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-regex-syntax-e032aa4f34392a00
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-rustix-8340c24e921d1456
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-rustix-b6c9175107ea3a55
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-serde-a3d00839ce6633ab
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-softprops-action-gh-release-f4b3ca6905ddfa96
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-strsim-6bd2bd582fabad26
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-supports-color-a971f71c20bb421f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-syn-25302eaa4c1c788e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-github-action-taiki-e-install-action-3140122b21a65b4d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-terminal-size-4fc327ff062f2361
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-termtree-19439d2d9bcfd148
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-thiserror-e74861184e918335
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-thiserror-impl-6c0d2b1fd0ed2dfa
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-unicode-ident-220e042ce6843473
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-unicode-xid-71ee34e587b710fb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-utf8parse-9dedc970fc6c066b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-wait-timeout-193b8b96d37494f7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-sys-d06aa9c8ae18886b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-targets-5fd339ae206440f4
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-aarch64-gnullvm-de5f462acab97af0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-aarch64-msvc-4cb412554024ca76
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-i686-gnu-cb2224e8c9acbadd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-i686-msvc-0beb1261b503e6d1
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-x86-64-gnu-851aca70a531a3d2
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-x86-64-gnullvm-6d0ba4d4ad06bb30
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-windows-x86-64-msvc-fd6119fa316c15e2
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl CONTAINS SPDXRef-Package-rust-crate-yansi-a23d66407c3aa1c1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-sharkdp-hexyl
+

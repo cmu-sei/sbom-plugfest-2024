@@ -1,0 +1,115 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "jq_96e8d89.zip",
+    "documentNamespace": "https://clarity.insignary.com/spdx/documents/jq_96e8d89.zip-8dda6da5-1b83-4753-8d17-2d6345124076",
+    "creationInfo": {
+        "created": "2024-11-29T15:37:31Z",
+        "creators": [
+            "Person: YunSeong Choi (yunseong@korea.ac.kr)",
+            "Organization: Insignary",
+            "Tool: Insignary Clarity-5.0.332b1.331"
+        ],
+        "licenseListVersion": "3.23"
+    },
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-2b277d2a-a023-4f77-9e79-9e249e6a38cd",
+            "spdxDocument": "https://clarity.insignary.com/spdx/documents/jq_96e8d89.zip-8dda6da5-1b83-4753-8d17-2d6345124076",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+            }
+        }
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-debian-jq-1.7.1",
+            "name": "jq",
+            "versionInfo": "1.7.1",
+            "supplier": "Organization: jqlang",
+            "originator": "NOASSERTION",
+            "downloadLocation": "https://github.com/jqlang/jq/archive/refs/tags/jq-1.7.1.tar.gz",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "0be2cbde5ed45dac4e1a77a6b09c9437f1512d08"
+            },
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d6067542408affa63dd76f763f112667c5b09ff6674050bef83a55a1375855b0"
+                },
+                {
+                    "algorithm": "MD5",
+                    "checksumValue": "1dcab7e8ec563456fda1cf516efacf06"
+                }
+            ],
+            "homepage": "https://jqlang.github.io/jq/",
+            "sourceInfo": "The package was detected in the following paths: jq_96e8d89.zip",
+            "licenseConcluded": "MIT",
+            "licenseInfoFromFiles": [
+                "MIT"
+            ],
+            "licenseDeclared": "MIT",
+            "copyrightText": "copyright (C) 2012 Stephen Dolan",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:debian/jq@1.7.1#ftp.jaist.ac.jp/debian/pool/main/j/jq/jq_1.6.orig.tar.gz",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "https://github.com/jqlang/jq",
+                    "referenceType": "git"
+                }
+            ],
+            "primaryPackagePurpose": "SOURCE"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-36d1c83a-8ca0-45e2-b0e6-7ca2a070b8ca",
+            "fileName": "jq_96e8d89.zip",
+            "fileTypes": [
+                "SOURCE"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d6067542408affa63dd76f763f112667c5b09ff6674050bef83a55a1375855b0"
+                },
+                {
+                    "algorithm": "MD5",
+                    "checksumValue": "1dcab7e8ec563456fda1cf516efacf06"
+                }
+            ],
+            "licenseConcluded": "MIT",
+            "licenseInfoInFiles": [
+                "MIT"
+            ],
+            "comment": "Zip archive data, at least v1.0 to extract"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relationshipType": "DESCRIBES",
+            "relatedSpdxElement": "SPDXRef-debian-jq-1.7.1"
+        },
+        {
+            "spdxElementId": "SPDXRef-debian-jq-1.7.1",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-File-36d1c83a-8ca0-45e2-b0e6-7ca2a070b8ca"
+        }
+    ]
+}

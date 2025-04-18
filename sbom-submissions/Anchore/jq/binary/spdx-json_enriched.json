@@ -1,0 +1,110 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "plug-jq",
+  "documentNamespace": "https://anchore.com/syft/image/plug-jq-3959a23e-8395-4b05-8ff6-3f457b5a6d9c",
+  "creationInfo": {
+    "licenseListVersion": "3.25",
+    "creators": [
+      "Organization: Anchore, Inc",
+      "Tool: syft-1.18.0"
+    ],
+    "created": "2024-12-13T13:23:48Z"
+  },
+  "packages": [
+    {
+      "name": "jq",
+      "SPDXID": "SPDXRef-Package-binary-jq-6c367949d7ff9d06",
+      "versionInfo": "2.36",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from the following paths: /jq",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:jqlang:jq:2.36:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/jq@2.36"
+        }
+      ]
+    },
+    {
+      "name": "plug-jq",
+      "SPDXID": "SPDXRef-DocumentRoot-Image-plug-jq",
+      "versionInfo": "sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:oci/plug-jq@sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2?arch=amd64"
+        }
+      ],
+      "primaryPackagePurpose": "CONTAINER"
+    }
+  ],
+  "files": [
+    {
+      "fileName": "jq",
+      "SPDXID": "SPDXRef-File-jq-742835066a754282",
+      "fileTypes": [
+        "APPLICATION",
+        "BINARY"
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "76537afb2a0830fe7f7c3bc60961ed4b43b92802"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5814dcc226b7c2993918af240eb2fd4073f449a6e28e71874a29d482c35692e3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION",
+      "comment": "layerID: sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-binary-jq-6c367949d7ff9d06",
+      "relatedSpdxElement": "SPDXRef-File-jq-742835066a754282",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Image-plug-jq",
+      "relatedSpdxElement": "SPDXRef-Package-binary-jq-6c367949d7ff9d06",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Image-plug-jq",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

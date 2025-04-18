@@ -1,0 +1,76 @@
+[Path: ./ldtteam/minecolonies]
+[actions/checkout]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[ad-m/github-push-action]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[forge]
+ Version:	 1.20.1-47.1.3-injected
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[forge]
+ Version:	 1.20.1-47.1.3-srg
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[forge]
+ Version:	 1.20.1-47.1.3_mapped_official_1.20.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gradle-wrapper]
+ Version:	 UNKNOWN
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[minecolonies]
+ Version:	 1.20.1-0.0.1-LOCAL-alpha
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[minecolonies]
+ Version:	 1.20.1-0.0.1-LOCAL-alpha-javadoc
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[minecolonies]
+ Version:	 1.20.1-0.0.1-LOCAL-alpha-slim
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[minecolonies]
+ Version:	 1.20.1-0.0.1-LOCAL-alpha-sources
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[output]
+ Version:	 1.20.1-0.0.1-LOCAL-alpha
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[output]
+ Version:	 1.20.1-0.0.1-LOCAL-alpha
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+

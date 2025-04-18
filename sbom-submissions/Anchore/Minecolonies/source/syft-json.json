@@ -1,0 +1,616 @@
+{
+  "artifacts": [
+    {
+      "id": "2784dfd778b28c40",
+      "name": "actions/checkout",
+      "version": "master",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/translation.yml",
+          "accessPath": "/.github/workflows/translation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@master"
+    },
+    {
+      "id": "ce03eec74fa4bd6a",
+      "name": "ad-m/github-push-action",
+      "version": "master",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/translation.yml",
+          "accessPath": "/.github/workflows/translation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ad-m\\/github-push-action:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad-m\\/github-push-action:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad_m\\/github_push_action:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad_m\\/github_push_action:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad-m\\/github-push:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad-m\\/github-push:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad_m\\/github_push:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad_m\\/github_push:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad-m\\/github:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad-m\\/github:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad_m\\/github:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad_m\\/github:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ad:ad_m\\/github_push_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/ad-m/github-push-action@master"
+    },
+    {
+      "id": "e88364ec3fa76d61",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44c4a7e0f297fb83",
+      "name": "ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build.yaml",
+          "accessPath": "/.github/workflows/build.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.build.yaml:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.build.yaml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml"
+    },
+    {
+      "id": "93943d5d84b47a49",
+      "name": "ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/build.yaml",
+          "accessPath": "/.github/workflows/build.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.prerelease.yaml:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.prerelease.yaml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml"
+    },
+    {
+      "id": "7b731ba6bf89919b",
+      "name": "ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yaml",
+          "accessPath": "/.github/workflows/release.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.publish.yaml:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.publish.yaml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml"
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+      "child": "2784dfd778b28c40",
+      "type": "contains"
+    },
+    {
+      "parent": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+      "child": "44c4a7e0f297fb83",
+      "type": "contains"
+    },
+    {
+      "parent": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+      "child": "7b731ba6bf89919b",
+      "type": "contains"
+    },
+    {
+      "parent": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+      "child": "93943d5d84b47a49",
+      "type": "contains"
+    },
+    {
+      "parent": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+      "child": "ce03eec74fa4bd6a",
+      "type": "contains"
+    },
+    {
+      "parent": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+      "child": "e88364ec3fa76d61",
+      "type": "contains"
+    },
+    {
+      "parent": "2784dfd778b28c40",
+      "child": "27f466d8fb81863e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "44c4a7e0f297fb83",
+      "child": "2f60db276a7a09af",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7b731ba6bf89919b",
+      "child": "3dfd1ac2074a5862",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "93943d5d84b47a49",
+      "child": "2f60db276a7a09af",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ce03eec74fa4bd6a",
+      "child": "27f466d8fb81863e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e88364ec3fa76d61",
+      "child": "803860b7b0aaa5b6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "2f60db276a7a09af",
+      "location": {
+        "path": "/.github/workflows/build.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 685
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8262c6bf017bb09858fc609f1e5b399761f14294"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "fad64a3ab2dd813592c59580438c9346922e9bb9b23a50ef35262d447db9fa5b"
+        }
+      ]
+    },
+    {
+      "id": "3dfd1ac2074a5862",
+      "location": {
+        "path": "/.github/workflows/release.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 383
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "96b87e90455532c4e955f6ffa5e1ae170f6483fc"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e5597e117b3d412ad91841268d06ffedafc1ca58980287f39a678c684b4613bb"
+        }
+      ]
+    },
+    {
+      "id": "27f466d8fb81863e",
+      "location": {
+        "path": "/.github/workflows/translation.yml"
+      },
+      "metadata": {
+        "mode": 755,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 923
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "13a985dbeaab4c8f0d01dabf1c052a9f10384de0"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "fbbbc36dd1954041e64560a86ce9224fa278287de85a7fb60093c6d46a460a31"
+        }
+      ]
+    },
+    {
+      "id": "803860b7b0aaa5b6",
+      "location": {
+        "path": "/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 61574
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "02544f74cb23c7a2f3afa1fd0a59ff27d009ce1d21f3a71c9ff847a0b87366f4",
+    "name": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.18.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "dotnet-deps-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-store-cataloger",
+          "opam-cataloger",
+          "php-composer-lock-cataloger",
+          "php-pecl-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "java-binary-graalvm",
+          "java-binary-jdk",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/home/alan/go/pkg/mod",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": true,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.18",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.18.json"
+  }
+}

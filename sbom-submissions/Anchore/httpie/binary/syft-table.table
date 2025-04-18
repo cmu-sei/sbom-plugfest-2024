@@ -1,0 +1,50 @@
+NAME                                    VERSION    TYPE                            
+Simple Launcher                         1.1.0.14   dotnet         [38;5;102m(+5 duplicates)[0m   
+actions-ecosystem/action-remove-labels  v1         github-action  [38;5;102m[0m                  
+actions/checkout                        v3         github-action  [38;5;102m(+11 duplicates)[0m  
+actions/checkout                        v4         github-action  [38;5;102m[0m                  
+actions/setup-python                    v4         github-action  [38;5;102m(+6 duplicates)[0m   
+actions/stale                           v8         github-action  [38;5;102m[0m                  
+actions/upload-artifact                 v3         github-action  [38;5;102m[0m                  
+actions/upload-release-asset            v1.0.2     github-action  [38;5;102m[0m                  
+autocommand                             2.2.2      python         [38;5;102m[0m                  
+backports-tarfile                       1.2.0      python         [38;5;102m[0m                  
+certifi                                 2024.8.30  python         [38;5;102m[0m                  
+charset-normalizer                      3.4.0      python         [38;5;102m[0m                  
+defusedxml                              0.7.1      python         [38;5;102m[0m                  
+httpie                                  3.2.3      python         [38;5;102m(+1 duplicate)[0m    
+idna                                    3.10       python         [38;5;102m[0m                  
+importlib-metadata                      8.0.0      python         [38;5;102m[0m                  
+inflect                                 7.3.1      python         [38;5;102m[0m                  
+jaraco-collections                      5.1.0      python         [38;5;102m[0m                  
+jaraco-context                          5.3.0      python         [38;5;102m[0m                  
+jaraco-functools                        4.0.1      python         [38;5;102m[0m                  
+jaraco-text                             3.12.1     python         [38;5;102m[0m                  
+markdown-it-py                          3.0.0      python         [38;5;102m[0m                  
+mdurl                                   0.1.2      python         [38;5;102m[0m                  
+mislav/bump-homebrew-formula-action     v2         github-action  [38;5;102m[0m                  
+more-itertools                          10.3.0     python         [38;5;102m[0m                  
+multidict                               6.1.0      python         [38;5;102m[0m                  
+my-test-package                         1.0        python         [38;5;102m[0m                  
+packaging                               24.2       python         [38;5;102m[0m                  
+peter-evans/create-or-update-comment    v2         github-action  [38;5;102m[0m                  
+peter-evans/create-pull-request         v4         github-action  [38;5;102m[0m                  
+peter-evans/find-comment                v2         github-action  [38;5;102m[0m                  
+pip                                     24.3.1     python         [38;5;102m[0m                  
+platformdirs                            4.2.2      python         [38;5;102m[0m                  
+pygments                                2.18.0     python         [38;5;102m[0m                  
+pypa/gh-action-pypi-publish             master     github-action  [38;5;102m[0m                  
+pysocks                                 1.7.1      python         [38;5;102m[0m                  
+requests                                2.31.0     python         [38;5;102m[0m                  
+requests-toolbelt                       1.0.0      python         [38;5;102m[0m                  
+rich                                    13.9.4     python         [38;5;102m[0m                  
+ruby/setup-ruby                         v1         github-action  [38;5;102m[0m                  
+setuptools                              75.6.0     python         [38;5;102m[0m                  
+snapcore/action-build                   v1         github-action  [38;5;102m(+1 duplicate)[0m    
+snapcore/action-publish                 v1         github-action  [38;5;102m[0m                  
+tomli                                   2.0.1      python         [38;5;102m[0m                  
+typeguard                               4.3.0      python         [38;5;102m[0m                  
+typing-extensions                       4.12.2     python         [38;5;102m(+1 duplicate)[0m    
+urllib3                                 2.2.3      python         [38;5;102m[0m                  
+wheel                                   0.43.0     python         [38;5;102m[0m                  
+zipp                                    3.19.2     python         [38;5;102m[0m                  

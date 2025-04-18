@@ -1,0 +1,416 @@
+[Image]
+ Layer:		 0
+ Digest:	 sha256:63ca1fbb43ae5034640e5e6cb3e083e05c290072c5366fcaa9d62435a4cced85
+ Size:		 7792915
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 1
+ Digest:	 sha256:2137046e0ea100fcca24055cdc7bcc0952885b5ed59fd8ff2d856573df712737
+ Size:		 9485913
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 2
+ Digest:	 sha256:2879cdd907cef3483cb0c3900b65e7687ac112fe0b60a62f7527572bd2f700fa
+ Size:		 10633
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 3
+ Digest:	 sha256:0753eef63e0a49b10f8c3b4c7ab73dce3eb19a337dd05d9e72d40f8fe3adc916
+ Size:		 1620
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 4
+ Digest:	 sha256:b02aa3ab82494684075865c96e004047fb576a0a41f13124b39631724e554e81
+ Size:		 2133
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 5
+ Digest:	 sha256:2a15b3fc26f2e01690091466d4b6ff54c07340b1a73f20878d239928faf0708e
+ Size:		 389
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 6
+ Digest:	 sha256:b206128c24ee17763cb2c1e9f3b03e8917a44bc454a34010fb95f9d778c4bca3
+ Size:		 3010
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 7
+ Digest:	 sha256:8ec2a4af4d888a883eff974edf71c591450b2845137aecf5d71081889ec39220
+ Size:		 4619
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 8
+ Digest:	 sha256:244d6170d44fb895e0b78e0b70f521536872f721884cb775c682cf406238abf1
+ Size:		 35191969
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 9
+ Digest:	 sha256:b7e0ab2acb055a8cbc6b22b6d10c3e9e4b8bec16324e71468ea18c40eff00677
+ Size:		 7851548
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 10
+ Digest:	 sha256:efc930c3b4ebd4c7034303ec22064a24b09c4a0f99fd0b4b0b98858862be4c39
+ Size:		 9161331
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 11
+ Digest:	 sha256:efe2fcc21bb0320b1fa0121a0279fb1c877df6e4bfbf6da0b60c8f66658b849e
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 12
+ Digest:	 sha256:dfcfeeb97e2723b539144c9fe2e617adb00d9a2fb5c84682d07bd09c670e53a6
+ Size:		 567
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 13
+ Digest:	 sha256:1f5a755b1c59cf3654db7aa4d882d25cd2294d4db0ee15683eaa9f0381993c6c
+ Size:		 3329
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 14
+ Digest:	 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+[alpine-baselayout]
+ Version:	 3.6.5-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[alpine-baselayout-data]
+ Version:	 3.6.5-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[alpine-keys]
+ Version:	 2.4-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[aom-libs]
+ Version:	 3.9.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[apk-tools]
+ Version:	 2.14.4-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[brotli-libs]
+ Version:	 1.1.0-r2
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[busybox]
+ Version:	 1.36.1-r29
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[busybox-binsh]
+ Version:	 1.36.1-r29
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[c-ares]
+ Version:	 1.33.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[ca-certificates]
+ Version:	 20240705-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[ca-certificates-bundle]
+ Version:	 20240705-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[curl]
+ Version:	 8.10.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[fontconfig]
+ Version:	 2.15.0-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[freetype]
+ Version:	 2.13.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[geoip]
+ Version:	 1.6.12-r5
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[jq]
+ Version:	 1.7.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libavif]
+ Version:	 1.0.4-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libbsd]
+ Version:	 0.12.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libbz2]
+ Version:	 1.0.8-r6
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libcrypto3]
+ Version:	 3.3.2-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libcurl]
+ Version:	 8.10.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libdav1d]
+ Version:	 1.4.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libedit]
+ Version:	 20240517.3.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libexpat]
+ Version:	 2.6.3-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libgcrypt]
+ Version:	 1.10.3-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libgd]
+ Version:	 2.3.3-r9
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libgpg-error]
+ Version:	 1.49-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libice]
+ Version:	 1.1.1-r6
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libidn2]
+ Version:	 2.3.7-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libintl]
+ Version:	 0.22.5-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libjpeg-turbo]
+ Version:	 3.0.3-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libmd]
+ Version:	 1.1.0-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libncursesw]
+ Version:	 6.4_p20240420-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libpng]
+ Version:	 1.6.44-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libpsl]
+ Version:	 0.21.5-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libsharpyuv]
+ Version:	 1.3.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libsm]
+ Version:	 1.2.4-r4
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libssl3]
+ Version:	 3.3.2-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libunistring]
+ Version:	 1.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libuuid]
+ Version:	 2.40.1-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libwebp]
+ Version:	 1.3.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libx11]
+ Version:	 1.8.9-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxau]
+ Version:	 1.0.11-r4
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxcb]
+ Version:	 1.16.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxdmcp]
+ Version:	 1.1.5-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxext]
+ Version:	 1.3.6-r2
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxml2]
+ Version:	 2.12.7-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxpm]
+ Version:	 3.5.17-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxslt]
+ Version:	 1.1.39-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libxt]
+ Version:	 1.3.0-r5
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[musl]
+ Version:	 1.2.5-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[musl-utils]
+ Version:	 1.2.5-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[ncurses-terminfo-base]
+ Version:	 6.4_p20240420-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[nghttp2-libs]
+ Version:	 1.62.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[nginx]
+ Version:	 1.27.2-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[nginx-module-geoip]
+ Version:	 1.27.2-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[nginx-module-image-filter]
+ Version:	 1.27.2-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[nginx-module-njs]
+ Version:	 1.27.2.0.8.6-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[nginx-module-xslt]
+ Version:	 1.27.2-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[oniguruma]
+ Version:	 6.9.9-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[pcre2]
+ Version:	 10.43-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[scanelf]
+ Version:	 1.3.7-r2
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[ssl_client]
+ Version:	 1.36.1-r29
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[tiff]
+ Version:	 4.6.0t-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[tzdata]
+ Version:	 2024b-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[xz-libs]
+ Version:	 5.6.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[zlib]
+ Version:	 1.3.1-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[zstd-libs]
+ Version:	 1.5.6-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+

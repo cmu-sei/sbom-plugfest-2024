@@ -1,0 +1,58 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:f6ebfc5d-a5df-466b-95b9-1c0700284b31",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-13T14:23:39+01:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.18.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c48c32138fecbb4c",
+      "type": "container",
+      "name": "plug-jq",
+      "version": "sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:generic/jq@2.36?package-id=6c367949d7ff9d06",
+      "type": "application",
+      "name": "jq",
+      "version": "2.36",
+      "cpe": "cpe:2.3:a:jqlang:jq:2.36:*:*:*:*:*:*:*",
+      "purl": "pkg:generic/jq@2.36",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "binary-classifier-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "binary"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "binary-signature"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/jq"
+        }
+      ]
+    }
+  ]
+}

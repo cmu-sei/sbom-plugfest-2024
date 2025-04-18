@@ -1,0 +1,289 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/benchmark.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/benchmark.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/benchmark.yml"
+      },
+      "resolved": {
+        "pkg:github/actions-ecosystem/action-remove-labels@v1": {
+          "package_url": "pkg:github/actions-ecosystem/action-remove-labels@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/peter-evans/create-or-update-comment@v2": {
+          "package_url": "pkg:github/peter-evans/create-or-update-comment@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/peter-evans/find-comment@v2": {
+          "package_url": "pkg:github/peter-evans/find-comment@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/code-style.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/code-style.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/code-style.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/content.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/content.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/content.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/peter-evans/create-pull-request@v4": {
+          "package_url": "pkg:github/peter-evans/create-pull-request@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/coverage.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/coverage.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/coverage.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/docs-check-markdown.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/docs-check-markdown.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/docs-check-markdown.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ruby/setup-ruby@v1": {
+          "package_url": "pkg:github/ruby/setup-ruby@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-brew.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-brew.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-brew.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/mislav/bump-homebrew-formula-action@v2": {
+          "package_url": "pkg:github/mislav/bump-homebrew-formula-action@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-choco.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-choco.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-choco.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-linux-standalone.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-linux-standalone.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-linux-standalone.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-artifact@v3": {
+          "package_url": "pkg:github/actions/upload-artifact@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-release-asset@v1.0.2": {
+          "package_url": "pkg:github/actions/upload-release-asset@v1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-pypi.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-pypi.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-pypi.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/pypa/gh-action-pypi-publish@master": {
+          "package_url": "pkg:github/pypa/gh-action-pypi-publish@master",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-snap.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-snap.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/release-snap.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snapcore/action-build@v1": {
+          "package_url": "pkg:github/snapcore/action-build@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snapcore/action-publish@v1": {
+          "package_url": "pkg:github/snapcore/action-publish@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/stale.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/stale.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/stale.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/stale@v8": {
+          "package_url": "pkg:github/actions/stale@v8",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/test-package-linux-snap.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/test-package-linux-snap.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/test-package-linux-snap.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snapcore/action-build@v1": {
+          "package_url": "pkg:github/snapcore/action-build@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/test-package-mac-brew.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/test-package-mac-brew.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/test-package-mac-brew.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/tests.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/tests.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/httpie/cli/.github/workflows/tests.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:06:46+01:00"
+}

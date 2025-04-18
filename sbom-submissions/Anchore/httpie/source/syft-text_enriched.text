@@ -1,0 +1,166 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/httpie/cli]
+[actions-ecosystem/action-remove-labels]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/stale]
+ Version:	 v8
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-artifact]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-release-asset]
+ Version:	 v1.0.2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[mislav/bump-homebrew-formula-action]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[peter-evans/create-or-update-comment]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[peter-evans/create-pull-request]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[peter-evans/find-comment]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[pypa/gh-action-pypi-publish]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[ruby/setup-ruby]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[snapcore/action-build]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[snapcore/action-build]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[snapcore/action-publish]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+

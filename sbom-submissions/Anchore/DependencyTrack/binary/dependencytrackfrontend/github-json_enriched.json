@@ -1,0 +1,632 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/alpine@3.20.3"
+  },
+  "manifests": {
+    "dependencytrack/frontend:/lib/apk/db/installed": {
+      "name": "dependencytrack/frontend:/lib/apk/db/installed",
+      "file": {
+        "source_location": "dependencytrack/frontend:/lib/apk/db/installed"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:efc930c3b4ebd4c7034303ec22064a24b09c4a0f99fd0b4b0b98858862be4c39"
+      },
+      "resolved": {
+        "pkg:apk/alpine/alpine-baselayout-data@3.6.5-r0": {
+          "package_url": "pkg:apk/alpine/alpine-baselayout-data@3.6.5-r0?arch=x86_64&distro=alpine-3.20.3&upstream=alpine-baselayout",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/alpine-baselayout@3.6.5-r0"
+          ]
+        },
+        "pkg:apk/alpine/alpine-baselayout@3.6.5-r0": {
+          "package_url": "pkg:apk/alpine/alpine-baselayout@3.6.5-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/alpine-keys@2.4-r1": {
+          "package_url": "pkg:apk/alpine/alpine-keys@2.4-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/aom-libs@3.9.1-r0": {
+          "package_url": "pkg:apk/alpine/aom-libs@3.9.1-r0?arch=x86_64&distro=alpine-3.20.3&upstream=aom",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libavif@1.0.4-r0"
+          ]
+        },
+        "pkg:apk/alpine/apk-tools@2.14.4-r0": {
+          "package_url": "pkg:apk/alpine/apk-tools@2.14.4-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/brotli-libs@1.1.0-r2": {
+          "package_url": "pkg:apk/alpine/brotli-libs@1.1.0-r2?arch=x86_64&distro=alpine-3.20.3&upstream=brotli",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/freetype@2.13.2-r0",
+            "pkg:apk/alpine/libcurl@8.10.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/busybox-binsh@1.36.1-r29": {
+          "package_url": "pkg:apk/alpine/busybox-binsh@1.36.1-r29?arch=x86_64&distro=alpine-3.20.3&upstream=busybox",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/alpine-baselayout@3.6.5-r0",
+            "pkg:apk/alpine/nginx@1.27.2-r1",
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1",
+            "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1",
+            "pkg:apk/alpine/nginx-module-geoip@1.27.2-r1",
+            "pkg:apk/alpine/ca-certificates@20240705-r0",
+            "pkg:apk/alpine/nginx-module-image-filter@1.27.2-r1",
+            "pkg:apk/alpine/fontconfig@2.15.0-r1"
+          ]
+        },
+        "pkg:apk/alpine/busybox@1.36.1-r29": {
+          "package_url": "pkg:apk/alpine/busybox@1.36.1-r29?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/busybox-binsh@1.36.1-r29"
+          ]
+        },
+        "pkg:apk/alpine/c-ares@1.33.1-r0": {
+          "package_url": "pkg:apk/alpine/c-ares@1.33.1-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@8.10.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/ca-certificates-bundle@20240705-r0": {
+          "package_url": "pkg:apk/alpine/ca-certificates-bundle@20240705-r0?arch=x86_64&distro=alpine-3.20.3&upstream=ca-certificates",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/apk-tools@2.14.4-r0"
+          ]
+        },
+        "pkg:apk/alpine/ca-certificates@20240705-r0": {
+          "package_url": "pkg:apk/alpine/ca-certificates@20240705-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@8.10.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/curl@8.10.1-r0": {
+          "package_url": "pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/fontconfig@2.15.0-r1": {
+          "package_url": "pkg:apk/alpine/fontconfig@2.15.0-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9"
+          ]
+        },
+        "pkg:apk/alpine/freetype@2.13.2-r0": {
+          "package_url": "pkg:apk/alpine/freetype@2.13.2-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9",
+            "pkg:apk/alpine/fontconfig@2.15.0-r1"
+          ]
+        },
+        "pkg:apk/alpine/geoip@1.6.12-r5": {
+          "package_url": "pkg:apk/alpine/geoip@1.6.12-r5?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx-module-geoip@1.27.2-r1"
+          ]
+        },
+        "pkg:apk/alpine/jq@1.7.1-r0": {
+          "package_url": "pkg:apk/alpine/jq@1.7.1-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libavif@1.0.4-r0": {
+          "package_url": "pkg:apk/alpine/libavif@1.0.4-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9"
+          ]
+        },
+        "pkg:apk/alpine/libbsd@0.12.2-r0": {
+          "package_url": "pkg:apk/alpine/libbsd@0.12.2-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxdmcp@1.1.5-r1"
+          ]
+        },
+        "pkg:apk/alpine/libbz2@1.0.8-r6": {
+          "package_url": "pkg:apk/alpine/libbz2@1.0.8-r6?arch=x86_64&distro=alpine-3.20.3&upstream=bzip2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/freetype@2.13.2-r0"
+          ]
+        },
+        "pkg:apk/alpine/libcrypto3@3.3.2-r1": {
+          "package_url": "pkg:apk/alpine/libcrypto3@3.3.2-r1?arch=x86_64&distro=alpine-3.20.3&upstream=openssl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libssl3@3.3.2-r1",
+            "pkg:apk/alpine/nginx@1.27.2-r1",
+            "pkg:apk/alpine/apk-tools@2.14.4-r0",
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1",
+            "pkg:apk/alpine/libcurl@8.10.1-r0",
+            "pkg:apk/alpine/ssl_client@1.36.1-r29",
+            "pkg:apk/alpine/ca-certificates@20240705-r0"
+          ]
+        },
+        "pkg:apk/alpine/libcurl@8.10.1-r0": {
+          "package_url": "pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=alpine-3.20.3&upstream=curl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/curl@8.10.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/libdav1d@1.4.2-r0": {
+          "package_url": "pkg:apk/alpine/libdav1d@1.4.2-r0?arch=x86_64&distro=alpine-3.20.3&upstream=dav1d",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libavif@1.0.4-r0"
+          ]
+        },
+        "pkg:apk/alpine/libedit@20240517.3.1-r0": {
+          "package_url": "pkg:apk/alpine/libedit@20240517.3.1-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1"
+          ]
+        },
+        "pkg:apk/alpine/libexpat@2.6.3-r0": {
+          "package_url": "pkg:apk/alpine/libexpat@2.6.3-r0?arch=x86_64&distro=alpine-3.20.3&upstream=expat",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/fontconfig@2.15.0-r1"
+          ]
+        },
+        "pkg:apk/alpine/libgcrypt@1.10.3-r0": {
+          "package_url": "pkg:apk/alpine/libgcrypt@1.10.3-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxslt@1.1.39-r1"
+          ]
+        },
+        "pkg:apk/alpine/libgd@2.3.3-r9": {
+          "package_url": "pkg:apk/alpine/libgd@2.3.3-r9?arch=x86_64&distro=alpine-3.20.3&upstream=gd",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx-module-image-filter@1.27.2-r1"
+          ]
+        },
+        "pkg:apk/alpine/libgpg-error@1.49-r0": {
+          "package_url": "pkg:apk/alpine/libgpg-error@1.49-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgcrypt@1.10.3-r0"
+          ]
+        },
+        "pkg:apk/alpine/libice@1.1.1-r6": {
+          "package_url": "pkg:apk/alpine/libice@1.1.1-r6?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libsm@1.2.4-r4",
+            "pkg:apk/alpine/libxt@1.3.0-r5"
+          ]
+        },
+        "pkg:apk/alpine/libidn2@2.3.7-r0": {
+          "package_url": "pkg:apk/alpine/libidn2@2.3.7-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@8.10.1-r0",
+            "pkg:apk/alpine/libpsl@0.21.5-r1"
+          ]
+        },
+        "pkg:apk/alpine/libintl@0.22.5-r0": {
+          "package_url": "pkg:apk/alpine/libintl@0.22.5-r0?arch=x86_64&distro=alpine-3.20.3&upstream=gettext",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libjpeg-turbo@3.0.3-r0": {
+          "package_url": "pkg:apk/alpine/libjpeg-turbo@3.0.3-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9",
+            "pkg:apk/alpine/tiff@4.6.0t-r0"
+          ]
+        },
+        "pkg:apk/alpine/libmd@1.1.0-r0": {
+          "package_url": "pkg:apk/alpine/libmd@1.1.0-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libbsd@0.12.2-r0"
+          ]
+        },
+        "pkg:apk/alpine/libncursesw@6.4_p20240420-r1": {
+          "package_url": "pkg:apk/alpine/libncursesw@6.4_p20240420-r1?arch=x86_64&distro=alpine-3.20.3&upstream=ncurses",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libedit@20240517.3.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/libpng@1.6.44-r0": {
+          "package_url": "pkg:apk/alpine/libpng@1.6.44-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/freetype@2.13.2-r0",
+            "pkg:apk/alpine/libgd@2.3.3-r9"
+          ]
+        },
+        "pkg:apk/alpine/libpsl@0.21.5-r1": {
+          "package_url": "pkg:apk/alpine/libpsl@0.21.5-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@8.10.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/libsharpyuv@1.3.2-r0": {
+          "package_url": "pkg:apk/alpine/libsharpyuv@1.3.2-r0?arch=x86_64&distro=alpine-3.20.3&upstream=libwebp",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libavif@1.0.4-r0",
+            "pkg:apk/alpine/libwebp@1.3.2-r0"
+          ]
+        },
+        "pkg:apk/alpine/libsm@1.2.4-r4": {
+          "package_url": "pkg:apk/alpine/libsm@1.2.4-r4?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxt@1.3.0-r5"
+          ]
+        },
+        "pkg:apk/alpine/libssl3@3.3.2-r1": {
+          "package_url": "pkg:apk/alpine/libssl3@3.3.2-r1?arch=x86_64&distro=alpine-3.20.3&upstream=openssl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx@1.27.2-r1",
+            "pkg:apk/alpine/apk-tools@2.14.4-r0",
+            "pkg:apk/alpine/libcurl@8.10.1-r0",
+            "pkg:apk/alpine/ssl_client@1.36.1-r29"
+          ]
+        },
+        "pkg:apk/alpine/libunistring@1.2-r0": {
+          "package_url": "pkg:apk/alpine/libunistring@1.2-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libidn2@2.3.7-r0",
+            "pkg:apk/alpine/libpsl@0.21.5-r1"
+          ]
+        },
+        "pkg:apk/alpine/libuuid@2.40.1-r1": {
+          "package_url": "pkg:apk/alpine/libuuid@2.40.1-r1?arch=x86_64&distro=alpine-3.20.3&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libsm@1.2.4-r4"
+          ]
+        },
+        "pkg:apk/alpine/libwebp@1.3.2-r0": {
+          "package_url": "pkg:apk/alpine/libwebp@1.3.2-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9",
+            "pkg:apk/alpine/tiff@4.6.0t-r0"
+          ]
+        },
+        "pkg:apk/alpine/libx11@1.8.9-r1": {
+          "package_url": "pkg:apk/alpine/libx11@1.8.9-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxpm@3.5.17-r0",
+            "pkg:apk/alpine/libxt@1.3.0-r5",
+            "pkg:apk/alpine/libxext@1.3.6-r2"
+          ]
+        },
+        "pkg:apk/alpine/libxau@1.0.11-r4": {
+          "package_url": "pkg:apk/alpine/libxau@1.0.11-r4?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxcb@1.16.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/libxcb@1.16.1-r0": {
+          "package_url": "pkg:apk/alpine/libxcb@1.16.1-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libx11@1.8.9-r1"
+          ]
+        },
+        "pkg:apk/alpine/libxdmcp@1.1.5-r1": {
+          "package_url": "pkg:apk/alpine/libxdmcp@1.1.5-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxcb@1.16.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/libxext@1.3.6-r2": {
+          "package_url": "pkg:apk/alpine/libxext@1.3.6-r2?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxpm@3.5.17-r0"
+          ]
+        },
+        "pkg:apk/alpine/libxml2@2.12.7-r0": {
+          "package_url": "pkg:apk/alpine/libxml2@2.12.7-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1",
+            "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1",
+            "pkg:apk/alpine/libxslt@1.1.39-r1"
+          ]
+        },
+        "pkg:apk/alpine/libxpm@3.5.17-r0": {
+          "package_url": "pkg:apk/alpine/libxpm@3.5.17-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9"
+          ]
+        },
+        "pkg:apk/alpine/libxslt@1.1.39-r1": {
+          "package_url": "pkg:apk/alpine/libxslt@1.1.39-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1"
+          ]
+        },
+        "pkg:apk/alpine/libxt@1.3.0-r5": {
+          "package_url": "pkg:apk/alpine/libxt@1.3.0-r5?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxpm@3.5.17-r0"
+          ]
+        },
+        "pkg:apk/alpine/musl-utils@1.2.5-r0": {
+          "package_url": "pkg:apk/alpine/musl-utils@1.2.5-r0?arch=x86_64&distro=alpine-3.20.3&upstream=musl",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/musl@1.2.5-r0": {
+          "package_url": "pkg:apk/alpine/musl@1.2.5-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/curl@8.10.1-r0",
+            "pkg:apk/alpine/libsharpyuv@1.3.2-r0",
+            "pkg:apk/alpine/libncursesw@6.4_p20240420-r1",
+            "pkg:apk/alpine/libedit@20240517.3.1-r0",
+            "pkg:apk/alpine/libpng@1.6.44-r0",
+            "pkg:apk/alpine/libmd@1.1.0-r0",
+            "pkg:apk/alpine/libintl@0.22.5-r0",
+            "pkg:apk/alpine/libavif@1.0.4-r0",
+            "pkg:apk/alpine/busybox@1.36.1-r29",
+            "pkg:apk/alpine/libidn2@2.3.7-r0",
+            "pkg:apk/alpine/pcre2@10.43-r0",
+            "pkg:apk/alpine/libexpat@2.6.3-r0",
+            "pkg:apk/alpine/libssl3@3.3.2-r1",
+            "pkg:apk/alpine/libgcrypt@1.10.3-r0",
+            "pkg:apk/alpine/libxdmcp@1.1.5-r1",
+            "pkg:apk/alpine/libdav1d@1.4.2-r0",
+            "pkg:apk/alpine/libbz2@1.0.8-r6",
+            "pkg:apk/alpine/libwebp@1.3.2-r0",
+            "pkg:apk/alpine/libsm@1.2.4-r4",
+            "pkg:apk/alpine/zstd-libs@1.5.6-r0",
+            "pkg:apk/alpine/libunistring@1.2-r0",
+            "pkg:apk/alpine/libxpm@3.5.17-r0",
+            "pkg:apk/alpine/brotli-libs@1.1.0-r2",
+            "pkg:apk/alpine/nginx@1.27.2-r1",
+            "pkg:apk/alpine/apk-tools@2.14.4-r0",
+            "pkg:apk/alpine/freetype@2.13.2-r0",
+            "pkg:apk/alpine/libxml2@2.12.7-r0",
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1",
+            "pkg:apk/alpine/libcurl@8.10.1-r0",
+            "pkg:apk/alpine/zlib@1.3.1-r1",
+            "pkg:apk/alpine/libjpeg-turbo@3.0.3-r0",
+            "pkg:apk/alpine/geoip@1.6.12-r5",
+            "pkg:apk/alpine/scanelf@1.3.7-r2",
+            "pkg:apk/alpine/aom-libs@3.9.1-r0",
+            "pkg:apk/alpine/libxt@1.3.0-r5",
+            "pkg:apk/alpine/libgpg-error@1.49-r0",
+            "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1",
+            "pkg:apk/alpine/libxslt@1.1.39-r1",
+            "pkg:apk/alpine/musl-utils@1.2.5-r0",
+            "pkg:apk/alpine/nginx-module-geoip@1.27.2-r1",
+            "pkg:apk/alpine/libx11@1.8.9-r1",
+            "pkg:apk/alpine/libxcb@1.16.1-r0",
+            "pkg:apk/alpine/oniguruma@6.9.9-r0",
+            "pkg:apk/alpine/libgd@2.3.3-r9",
+            "pkg:apk/alpine/libxext@1.3.6-r2",
+            "pkg:apk/alpine/ssl_client@1.36.1-r29",
+            "pkg:apk/alpine/jq@1.7.1-r0",
+            "pkg:apk/alpine/libuuid@2.40.1-r1",
+            "pkg:apk/alpine/libcrypto3@3.3.2-r1",
+            "pkg:apk/alpine/tiff@4.6.0t-r0",
+            "pkg:apk/alpine/c-ares@1.33.1-r0",
+            "pkg:apk/alpine/ca-certificates@20240705-r0",
+            "pkg:apk/alpine/libice@1.1.1-r6",
+            "pkg:apk/alpine/nginx-module-image-filter@1.27.2-r1",
+            "pkg:apk/alpine/libpsl@0.21.5-r1",
+            "pkg:apk/alpine/xz-libs@5.6.2-r0",
+            "pkg:apk/alpine/nghttp2-libs@1.62.1-r0",
+            "pkg:apk/alpine/libxau@1.0.11-r4",
+            "pkg:apk/alpine/libbsd@0.12.2-r0",
+            "pkg:apk/alpine/fontconfig@2.15.0-r1"
+          ]
+        },
+        "pkg:apk/alpine/ncurses-terminfo-base@6.4_p20240420-r1": {
+          "package_url": "pkg:apk/alpine/ncurses-terminfo-base@6.4_p20240420-r1?arch=x86_64&distro=alpine-3.20.3&upstream=ncurses",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libncursesw@6.4_p20240420-r1"
+          ]
+        },
+        "pkg:apk/alpine/nghttp2-libs@1.62.1-r0": {
+          "package_url": "pkg:apk/alpine/nghttp2-libs@1.62.1-r0?arch=x86_64&distro=alpine-3.20.3&upstream=nghttp2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@8.10.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/nginx-module-geoip@1.27.2-r1": {
+          "package_url": "pkg:apk/alpine/nginx-module-geoip@1.27.2-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/nginx-module-image-filter@1.27.2-r1": {
+          "package_url": "pkg:apk/alpine/nginx-module-image-filter@1.27.2-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1": {
+          "package_url": "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1": {
+          "package_url": "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/nginx@1.27.2-r1": {
+          "package_url": "pkg:apk/alpine/nginx@1.27.2-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1",
+            "pkg:apk/alpine/nginx-module-xslt@1.27.2-r1",
+            "pkg:apk/alpine/nginx-module-geoip@1.27.2-r1",
+            "pkg:apk/alpine/nginx-module-image-filter@1.27.2-r1"
+          ]
+        },
+        "pkg:apk/alpine/oniguruma@6.9.9-r0": {
+          "package_url": "pkg:apk/alpine/oniguruma@6.9.9-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/jq@1.7.1-r0"
+          ]
+        },
+        "pkg:apk/alpine/pcre2@10.43-r0": {
+          "package_url": "pkg:apk/alpine/pcre2@10.43-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/nginx@1.27.2-r1",
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1"
+          ]
+        },
+        "pkg:apk/alpine/scanelf@1.3.7-r2": {
+          "package_url": "pkg:apk/alpine/scanelf@1.3.7-r2?arch=x86_64&distro=alpine-3.20.3&upstream=pax-utils",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/musl-utils@1.2.5-r0"
+          ]
+        },
+        "pkg:apk/alpine/ssl_client@1.36.1-r29": {
+          "package_url": "pkg:apk/alpine/ssl_client@1.36.1-r29?arch=x86_64&distro=alpine-3.20.3&upstream=busybox",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/tiff@4.6.0t-r0": {
+          "package_url": "pkg:apk/alpine/tiff@4.6.0t-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libgd@2.3.3-r9"
+          ]
+        },
+        "pkg:apk/alpine/tzdata@2024b-r0": {
+          "package_url": "pkg:apk/alpine/tzdata@2024b-r0?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/xz-libs@5.6.2-r0": {
+          "package_url": "pkg:apk/alpine/xz-libs@5.6.2-r0?arch=x86_64&distro=alpine-3.20.3&upstream=xz",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libxml2@2.12.7-r0"
+          ]
+        },
+        "pkg:apk/alpine/zlib@1.3.1-r1": {
+          "package_url": "pkg:apk/alpine/zlib@1.3.1-r1?arch=x86_64&distro=alpine-3.20.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/curl@8.10.1-r0",
+            "pkg:apk/alpine/libpng@1.6.44-r0",
+            "pkg:apk/alpine/nginx@1.27.2-r1",
+            "pkg:apk/alpine/apk-tools@2.14.4-r0",
+            "pkg:apk/alpine/freetype@2.13.2-r0",
+            "pkg:apk/alpine/libxml2@2.12.7-r0",
+            "pkg:apk/alpine/nginx-module-njs@1.27.2.0.8.6-r1",
+            "pkg:apk/alpine/libcurl@8.10.1-r0",
+            "pkg:apk/alpine/tiff@4.6.0t-r0"
+          ]
+        },
+        "pkg:apk/alpine/zstd-libs@1.5.6-r0": {
+          "package_url": "pkg:apk/alpine/zstd-libs@1.5.6-r0?arch=x86_64&distro=alpine-3.20.3&upstream=zstd",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@8.10.1-r0",
+            "pkg:apk/alpine/tiff@4.6.0t-r0"
+          ]
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:22:42+01:00"
+}

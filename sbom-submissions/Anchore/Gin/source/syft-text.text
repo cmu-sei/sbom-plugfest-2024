@@ -1,0 +1,251 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin]
+[actions/cache]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-go]
+ Version:	 v5
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-go]
+ Version:	 v5
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[codecov/codecov-action]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[github.com/bytedance/sonic]
+ Version:	 v1.11.6
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/bytedance/sonic/loader]
+ Version:	 v0.1.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/cloudwego/base64x]
+ Version:	 v0.1.4
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/cloudwego/iasm]
+ Version:	 v0.2.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/davecgh/go-spew]
+ Version:	 v1.1.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/gabriel-vasile/mimetype]
+ Version:	 v1.4.3
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/gin-contrib/sse]
+ Version:	 v0.1.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/go-playground/locales]
+ Version:	 v0.14.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/go-playground/universal-translator]
+ Version:	 v0.18.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/go-playground/validator/v10]
+ Version:	 v10.20.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/go-task/slim-sprig]
+ Version:	 v0.0.0-20230315185526-52ccab3ef572
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/goccy/go-json]
+ Version:	 v0.10.2
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/google/pprof]
+ Version:	 v0.0.0-20210407192527-94a9f03dee38
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/json-iterator/go]
+ Version:	 v1.1.12
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/klauspost/cpuid/v2]
+ Version:	 v2.0.9
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/kr/pretty]
+ Version:	 v0.3.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/leodido/go-urn]
+ Version:	 v1.4.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/mattn/go-isatty]
+ Version:	 v0.0.20
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/modern-go/concurrent]
+ Version:	 v0.0.0-20180228061459-e0a39a4cb421
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/modern-go/reflect2]
+ Version:	 v1.0.2
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/onsi/ginkgo/v2]
+ Version:	 v2.9.5
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/pelletier/go-toml/v2]
+ Version:	 v2.2.2
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/pmezard/go-difflib]
+ Version:	 v1.0.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/quic-go/qpack]
+ Version:	 v0.4.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/quic-go/quic-go]
+ Version:	 v0.43.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/stretchr/testify]
+ Version:	 v1.9.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/twitchyliquid64/golang-asm]
+ Version:	 v0.15.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github.com/ugorji/go/codec]
+ Version:	 v1.2.12
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[github/codeql-action/analyze]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[github/codeql-action/init]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[go.uber.org/mock]
+ Version:	 v0.4.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/arch]
+ Version:	 v0.0.0-20210923205945-b76863e36670
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/crypto]
+ Version:	 v0.25.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/exp]
+ Version:	 v0.0.0-20221205204356-47842c84f3db
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/mod]
+ Version:	 v0.17.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/net]
+ Version:	 v0.27.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/sys]
+ Version:	 v0.22.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/text]
+ Version:	 v0.16.0
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golang.org/x/tools]
+ Version:	 v0.21.1-0.20240508182429-e35e4ccd0d2d
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[golangci/golangci-lint-action]
+ Version:	 v6
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[google.golang.org/protobuf]
+ Version:	 v1.34.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[gopkg.in/yaml.v3]
+ Version:	 v3.0.1
+ Type:		 go-module
+ Found by:	 go-module-file-cataloger
+
+[goreleaser/goreleaser-action]
+ Version:	 v5
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+

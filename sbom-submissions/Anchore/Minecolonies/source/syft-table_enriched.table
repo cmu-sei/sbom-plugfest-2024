@@ -1,0 +1,7 @@
+NAME                                                                  VERSION  TYPE                     
+actions/checkout                                                      master   github-action           [38;5;102m[0m  
+ad-m/github-push-action                                               master   github-action           [38;5;102m[0m  
+gradle-wrapper                                                        UNKNOWN  java-archive            [38;5;102m[0m  
+ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml       main     github-action-workflow  [38;5;102m[0m  
+ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml  main     github-action-workflow  [38;5;102m[0m  
+ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml     main     github-action-workflow  [38;5;102m[0m  

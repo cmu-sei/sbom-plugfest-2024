@@ -1,0 +1,1745 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"spdxVersion": "SPDX-2.2",
+	"creationInfo": {
+		"created": "2024-11-23T15:35:17Z",
+		"creators": [
+			"Organization:dns:businesscyberguardian.com",
+			"Tool:SAG-PM Version 2.1.1"
+		]
+	},
+	"name": "SAG-PM generated SBOM",
+	"dataLicense": "CC0-1.0",
+	"hasExtractedLicensingInfos": [
+		{
+			"licenseId": "NOASSERTION",
+			"extractedText": "WARNING: TEXT IS REQUIRED",
+			"name": "NOASSERTION"
+		}
+	],
+	"documentNamespace": "dns:softwareassuranceguardian.com",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-3f002c4a-e7f3-4649-a2d2-52fad3fc5e8d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": true,
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "CodeResources",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Jakub Roztocil HTTPie ",
+			"versionInfo": "2024.1.2"
+		}
+	],
+	"files": [
+		{
+			"SPDXID": "SPDXRef-d67ade3b-c397-49a6-b932-c03b8c28aa3e",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Electron Framework"
+		},
+		{
+			"SPDXID": "SPDXRef-460d4a84-7321-490a-9f7a-b79ab30d3409",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Helpers"
+		},
+		{
+			"SPDXID": "SPDXRef-e11404c4-5992-4b82-a4ab-207cfdc720ad",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Libraries"
+		},
+		{
+			"SPDXID": "SPDXRef-7f92fb6b-7de7-4a3c-b968-45d3db00fdb0",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Resources"
+		},
+		{
+			"SPDXID": "SPDXRef-e7939d7b-8676-4dcd-b0c6-f61afd12e0cf",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Electron Framework"
+		},
+		{
+			"SPDXID": "SPDXRef-73b1e920-c984-4330-b2a2-69f638245148",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "chrome_crashpad_handler"
+		},
+		{
+			"SPDXID": "SPDXRef-693a1d86-5030-4f2b-b8a8-dad376f9e656",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libEGL.dylib"
+		},
+		{
+			"SPDXID": "SPDXRef-b78600da-1d6c-4f0e-8884-d1ff383754eb",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libGLESv2.dylib"
+		},
+		{
+			"SPDXID": "SPDXRef-585353d1-02ac-45f2-b3b1-51b51ec5e8a1",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libffmpeg.dylib"
+		},
+		{
+			"SPDXID": "SPDXRef-27e1858f-7c7e-4835-b760-c249530c6ff7",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libvk_swiftshader.dylib"
+		},
+		{
+			"SPDXID": "SPDXRef-21356dce-3d25-4c1a-b006-e5c299b005f4",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "vk_swiftshader_icd.json"
+		},
+		{
+			"SPDXID": "SPDXRef-d0544031-5a47-4411-9250-7a37279c634c",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-34bfb4da-d5d9-4e7e-9051-2b14d1e980ec",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "MainMenu.nib"
+		},
+		{
+			"SPDXID": "SPDXRef-ecff2fa4-8df1-4455-872d-3ca359b2fa07",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-452ca094-41ad-480a-b985-16858307f906",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-802fca33-f39e-481f-80e2-f7df7c95bbf1",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-28444674-468e-47db-a9a5-ccd2628a5fc4",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-e82b7af4-e19a-4537-857c-6d6fe5bc718f",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-856d375e-c70e-4320-874c-dcbf06558167",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-36505124-8c3b-4678-a765-16960ebbfce4",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "chrome_100_percent.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-e55cc532-7e6e-41f8-abd7-f883a21d4940",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "chrome_200_percent.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-78cece1d-2adf-495e-b66f-dd7b0a3bff0a",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-8bc7c5ff-88a4-4639-b31b-e3f038c9ee7e",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-b9304aa8-719c-407c-ba19-89463dbd5df9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-95430c3d-0ebc-4533-bec0-3e5a01e4d1d8",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-889f2c5d-e033-4458-8536-0007d504e11a",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-c79a6939-617b-4008-9d04-50c163e901c4",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-50f12128-842a-43b3-9a3e-101add0fa609",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-4dabc979-e705-433d-8545-a7de9fe5433a",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-b5e92be6-2f96-4387-b11b-fb8377963114",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-4a10f4cf-cf64-47ee-ae6b-3be06c8fff3d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-cc3c9a28-03c7-4440-ae9e-31da8dc6b6fd",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-0d0c2729-7e3f-44da-a91a-12d6ea3aed1f",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-47a70311-73d3-4623-8fb1-1aa2f69d8a84",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-937385e1-7273-4d25-b743-2b4da19b7700",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-f67f7905-28df-4fd0-8eca-4d076ada281e",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-6601e59b-6a20-43bb-ba6e-c4ed7cefe051",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-197b83ce-d80e-4d1b-acba-9c0d7ae49b46",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-7a11385d-5183-4a45-99d2-403907d6ef00",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-b1a5771f-592b-4852-aa2e-59a31b56f005",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icudtl.dat"
+		},
+		{
+			"SPDXID": "SPDXRef-7096f78c-d4ff-41b0-a123-001adcf6b074",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-84fdca89-bdfd-4bea-a8b2-5a377c0efb45",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-901affc0-65f0-4c97-b498-9f1dd81776aa",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-2a05a761-052a-4823-8c66-94ffef8119da",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-f0bb972e-08bd-436a-9a5b-403cf1e0a1f9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-4b1fae78-fa2d-474e-bffc-a2ff958bf1df",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-d5947c78-bf78-4e93-8fe4-4454d354a838",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-62c51dc7-240e-4acc-a573-ea1d5c11c3e0",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-00e57365-1a9a-41f4-b6a3-b2161567bd3f",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-fd46af0c-8897-4072-a92a-02f22b5d314b",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-037a562a-56a7-4916-b57e-866fe785c9ed",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-68213286-cfc9-4ace-9c89-d49bb83e9b78",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-cb7de5ae-f82b-42fe-9054-fea1023190a2",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-91390fba-809f-4922-a36a-c679aa974f8d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-e46542f0-7d32-4e44-b49a-95005dd1c65d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-abcf5e4d-017d-4ab6-9f25-6e9a8ab59b93",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "resources.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-d8a8c184-355b-44cd-9656-ecb86414f473",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-59f06af7-249f-4c84-8cf7-7bd2e719648d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-80645730-40d6-4de2-b6d9-ead06180a839",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-f0c45b9b-e1a7-40f8-8203-6dd3a14066c5",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-5075df0a-170e-4846-9614-cac2f8cf59db",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-3a6b07d4-75c0-4271-8056-65e979bfb9c9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-c7574700-e8e7-4311-901b-7f25a196ad06",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-1ddd29e1-d580-4964-86d4-2f8f7dc012ab",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-e49493b9-800a-4b65-8c12-1f9614d566bc",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-f70fa81e-c8c8-40d6-80ee-48fafc1be555",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-a8fcf4b4-71d5-492c-8439-386210851534",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-6c0636c1-e65d-4eaf-a018-684397498745",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-c100595c-eaad-4a45-afb9-23ba739ab7c8",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-acd8e9df-0642-40e9-a93f-04cd059018ed",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "v8_context_snapshot.arm64.bin"
+		},
+		{
+			"SPDXID": "SPDXRef-fd8e7b0a-5efa-46fc-8829-9f4b33a75ba7",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-bb6ad55d-be5d-4891-a012-c552d2f793f6",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-45ba33fd-0451-4ac4-b37c-e5035926a07c",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locale.pak"
+		},
+		{
+			"SPDXID": "SPDXRef-967f51c8-82f7-4086-a130-30a4131b625f",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-c35baad2-ae17-418e-8420-c1f16a382c01",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Current"
+		},
+		{
+			"SPDXID": "SPDXRef-01c8e1c7-ba4b-4a2e-b840-5e8d704b75c9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-96d3072a-d7ce-4d82-8416-4557f053131d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "HTTPie Helper (GPU)"
+		},
+		{
+			"SPDXID": "SPDXRef-d0c25822-00ae-4090-9bae-43e2c60351b3",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "PkgInfo"
+		},
+		{
+			"SPDXID": "SPDXRef-2c39d7aa-3cb2-4916-ab0b-33422d46a920",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-192068bb-5d4b-415a-9d5a-ccf9aff099c6",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-9ec81061-e8aa-4003-a373-34a05371e533",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "HTTPie Helper (Plugin)"
+		},
+		{
+			"SPDXID": "SPDXRef-2c3b938d-1ed8-42bb-8d4f-db5bdaf293cc",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "PkgInfo"
+		},
+		{
+			"SPDXID": "SPDXRef-a43a33f8-110f-4781-beee-cbffd00e7b5d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-a57af1eb-e7e6-4aaa-84c4-d9e64a898f8a",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-65113b21-f2c1-426c-a5e0-94ba6525532b",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "HTTPie Helper (Renderer)"
+		},
+		{
+			"SPDXID": "SPDXRef-6e05db83-7cb5-40de-9807-c110e3834f80",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "PkgInfo"
+		},
+		{
+			"SPDXID": "SPDXRef-8b740fcf-2ea1-4f42-b528-2a78e767daec",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-52315aed-0938-4fba-9407-39d0ebd0817d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-9bd7a797-6b53-4882-844f-42a5833ed444",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "HTTPie Helper"
+		},
+		{
+			"SPDXID": "SPDXRef-06f5e011-bfa6-43da-884f-37d096ff73a1",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "PkgInfo"
+		},
+		{
+			"SPDXID": "SPDXRef-31b45b5d-436a-4708-baed-ae6b58fb9790",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-0b3242be-acbc-49dd-a632-3c76e4dfd0a4",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Mantle"
+		},
+		{
+			"SPDXID": "SPDXRef-8e3a6059-249f-4092-884d-1b5addd2e086",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Resources"
+		},
+		{
+			"SPDXID": "SPDXRef-09349d7b-2418-453e-84a2-84b257b857e9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Mantle"
+		},
+		{
+			"SPDXID": "SPDXRef-924aa157-3d5d-4a90-950a-7fbf16f57663",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-d17f8461-332c-449b-be9e-74044d354790",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-33af6425-0248-471f-9ab3-986d9a591c7e",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Current"
+		},
+		{
+			"SPDXID": "SPDXRef-db7a1e14-3740-4f2f-9669-8b59e03ba247",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ReactiveObjC"
+		},
+		{
+			"SPDXID": "SPDXRef-930f8f80-3d84-42bd-afed-6882b7522b22",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Resources"
+		},
+		{
+			"SPDXID": "SPDXRef-b4cb9aa5-f08b-4ff2-8690-b0d7be6623a6",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ReactiveObjC"
+		},
+		{
+			"SPDXID": "SPDXRef-5a4a713c-c9a7-4c99-84b4-7594a21828a8",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-72c0f46e-f582-408f-bfbf-7f74c5f3007f",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-11480b11-611c-4986-9d8a-d43d33f7252e",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Current"
+		},
+		{
+			"SPDXID": "SPDXRef-1f2651f7-f120-4ac5-bd3a-0f4bc2a36c2b",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Resources"
+		},
+		{
+			"SPDXID": "SPDXRef-e09d72e9-c30f-4986-a13e-36255993f782",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Squirrel"
+		},
+		{
+			"SPDXID": "SPDXRef-d04730c5-345c-4f04-8073-6d50bd86f120",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-efcfc26d-9013-4706-b1d5-c39a38402fc0",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ShipIt"
+		},
+		{
+			"SPDXID": "SPDXRef-e19ab173-61b1-48c4-9dc8-63707ac955f6",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Squirrel"
+		},
+		{
+			"SPDXID": "SPDXRef-3cc34b03-0130-423b-b3d4-73af0e9f3c97",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		},
+		{
+			"SPDXID": "SPDXRef-a31c253f-1c73-4aa9-af39-5d63c739e363",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Current"
+		},
+		{
+			"SPDXID": "SPDXRef-17c1a7db-aaf4-4a36-9082-269dbdaa25a9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Info.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-913193ef-3a8b-46a3-b31a-ecedbf0762c5",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "HTTPie"
+		},
+		{
+			"SPDXID": "SPDXRef-ea2b86ab-5b50-4487-82fe-a78e1a0c3241",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "PkgInfo"
+		},
+		{
+			"SPDXID": "SPDXRef-9dd88fe0-60cc-4d6b-afcd-a22033e53841",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "app-update.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-c03ae6b6-5359-4a6c-a8c9-678d8c14594a",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "app.asar"
+		},
+		{
+			"SPDXID": "SPDXRef-cfcdfb69-9d1b-4ce1-9302-321dc9d2e6f2",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "entitlements.mac.plist"
+		},
+		{
+			"SPDXID": "SPDXRef-bc6cbfaf-d393-4c73-9927-952c59ae2ffa",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.dev.icns"
+		},
+		{
+			"SPDXID": "SPDXRef-8885193b-80aa-4908-9a07-9bf69b55c6d7",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.dev.ico"
+		},
+		{
+			"SPDXID": "SPDXRef-8b96ce02-f138-4b15-850b-2731154723ee",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.dev.png"
+		},
+		{
+			"SPDXID": "SPDXRef-36df88dd-affc-47cd-936b-97fee4d658b0",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.icns"
+		},
+		{
+			"SPDXID": "SPDXRef-2f8b77fe-ef17-4dba-91cb-6aeb64d286f9",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.ico"
+		},
+		{
+			"SPDXID": "SPDXRef-6a48f72c-976a-40a1-bb07-c156ba5954e4",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.png"
+		},
+		{
+			"SPDXID": "SPDXRef-bbeeeeee-3ff6-4821-ade5-6982dba35f80",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.qa.icns"
+		},
+		{
+			"SPDXID": "SPDXRef-ac6bb5c8-8aa4-42ab-ad62-a181ffbaf512",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.qa.ico"
+		},
+		{
+			"SPDXID": "SPDXRef-9f5f54f4-5ccf-4380-b3c3-0ee7dcb9d2a8",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.qa.png"
+		},
+		{
+			"SPDXID": "SPDXRef-9d542dd7-fb33-4e27-b7b2-b1f44d6d6d84",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.sandbox.icns"
+		},
+		{
+			"SPDXID": "SPDXRef-08eb5411-fa1a-4e5b-abf7-673f7c19230b",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.sandbox.ico"
+		},
+		{
+			"SPDXID": "SPDXRef-bae12619-7d6d-443e-adf1-e46016e524ef",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.sandbox.png"
+		},
+		{
+			"SPDXID": "SPDXRef-84a91de4-ab0c-4b9b-bd18-8abbc6c17212",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.icns"
+		},
+		{
+			"SPDXID": "SPDXRef-7c5e51da-3dec-4058-be89-326a219af98d",
+			"fileContributors": [
+				"Jakub Roztocil HTTPie "
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CodeResources"
+		}
+	],
+	"relationships": [
+		{
+			"spdxElementId": "SPDXRef-DOCUMENT",
+			"relatedSpdxElement": "SPDXRef-3f002c4a-e7f3-4649-a2d2-52fad3fc5e8d",
+			"relationshipType": "DESCRIBES"
+		}
+	]
+}

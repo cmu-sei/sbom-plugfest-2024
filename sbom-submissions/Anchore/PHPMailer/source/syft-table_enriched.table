@@ -1,0 +1,11 @@
+NAME                                  VERSION                                   TYPE                           
+./.github/actions/build-docs          UNKNOWN                                   github-action  [38;5;102m[0m                 
+JamesIves/github-pages-deploy-action  v4                                        github-action  [38;5;102m[0m                 
+actions/checkout                      v4                                        github-action  [38;5;102m(+2 duplicates)[0m  
+actions/upload-artifact               v4                                        github-action  [38;5;102m[0m                 
+codecov/codecov-action                v4                                        github-action  [38;5;102m[0m                 
+github/codeql-action/upload-sarif     v3                                        github-action  [38;5;102m[0m                 
+nick-invision/retry                   v3                                        github-action  [38;5;102m[0m                 
+ossf/scorecard-action                 62b2cac7ed8198b15735ed49ab1e5cf35480ba46  github-action  [38;5;102m[0m                 
+ramsey/composer-install               v3                                        github-action  [38;5;102m[0m                 
+shivammathur/setup-php                v2                                        github-action  [38;5;102m[0m                 

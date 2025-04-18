@@ -1,0 +1,1079 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: /home/alan/Work/Anchore/plugfest/repos/jqlang/jq
+DocumentNamespace: https://anchore.com/syft/dir/home/alan/Work/Anchore/plugfest/repos/jqlang/jq-49e07070-90b0-4b56-83ef-f57507e3c781
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:07:17Z
+
+##### Unpackaged files
+
+FileName: .github/workflows/ci.yml
+SPDXID: SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+FileType: TEXT
+FileChecksum: SHA1: ce32737bd3296af83935d95bc4ad75b3d4890f91
+FileChecksum: SHA256: bb2c59858e6ce63728a3f651eb2f33aa86da60e7f6684adc9ed302ea7bbfda32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/decnum.yml
+SPDXID: SPDXRef-File-.github-workflows-decnum.yml-5adb518a74e8752c
+FileType: TEXT
+FileChecksum: SHA1: 7051f622936c30cce3c444c89425e79a6943116e
+FileChecksum: SHA256: b55d2a05e9801e24dd83a7e81de21bdd0fab878b05091f437a88de4f16aaea46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/manpage.yml
+SPDXID: SPDXRef-File-.github-workflows-manpage.yml-273e65bb5c9fe99f
+FileType: TEXT
+FileChecksum: SHA1: 6c26ebbfaf92f180688a9a24cadff39e88f2432c
+FileChecksum: SHA256: 871e113a50a2ce970936eec13cc08a7eb5ab408abc3cd283b4813992efe54e27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/oniguruma.yml
+SPDXID: SPDXRef-File-.github-workflows-oniguruma.yml-4c8994092b4b3af9
+FileType: TEXT
+FileChecksum: SHA1: 8bc807d8d55132324612c9eb5299c2f431c779b7
+FileChecksum: SHA256: a98c5943f4b36e1b1d8a0fa550e908b2707fe2375116667aefae278324056754
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/scanbuild.yml
+SPDXID: SPDXRef-File-.github-workflows-scanbuild.yml-e90892b377781900
+FileType: TEXT
+FileChecksum: SHA1: 26b1f014b4b0b0798d8bb2cafb09a06b240fb948
+FileChecksum: SHA256: f223bd212e4f8ca1a2166a9eb57edda2ec35405b08775c015785e655e36008cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/valgrind.yml
+SPDXID: SPDXRef-File-.github-workflows-valgrind.yml-189f19d443623204
+FileType: TEXT
+FileChecksum: SHA1: 56eae026c4c350785693541bfca20c1588f668c9
+FileChecksum: SHA256: dbea544a79bfa44c6a577b6ccc0f4dc96c0e3d4572912053c5b71f5d00743662
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/website.yml
+SPDXID: SPDXRef-File-.github-workflows-website.yml-795b257b8c7915e5
+FileType: TEXT
+FileChecksum: SHA1: d2150287bed8c54fc18c53056ed4375692473c40
+FileChecksum: SHA256: dcb11d5ad2a68c1737791735588385ccef83acc5cd990e12612596d77eb3f06d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: docs/Pipfile.lock
+SPDXID: SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+FileType: APPLICATION
+FileChecksum: SHA1: c3a8b764405f289e219919db15909d1c370d5a27
+FileChecksum: SHA256: 4b6eee02d7ad6f58a39f58d3405af2def9a6ca07db7f0626dc5af4f63072e9cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Package: /home/alan/Work/Anchore/plugfest/repos/jqlang/jq
+
+PackageName: /home/alan/Work/Anchore/plugfest/repos/jqlang/jq
+SPDXID: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: FILE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-5db5140d57d64018
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/decnum.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-8dada5c8fb88bc8e
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/scanbuild.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-8ffeb4b35249a5ad
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/oniguruma.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-91695929ae86c434
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/valgrind.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-9ce3aad85a0d5280
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/website.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-ab7546764760b4e0
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/manpage.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-c17d5ce71f795bed
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/download-artifact
+
+PackageName: actions/download-artifact
+SPDXID: SPDXRef-Package-github-action-actions-download-artifact-06b75b32fccf2961
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download-artifact:actions\/download_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download_artifact:actions\/download_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/download:actions\/download_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/download-artifact@v4
+
+##### Package: actions/setup-python
+
+PackageName: actions/setup-python
+SPDXID: SPDXRef-Package-github-action-actions-setup-python-3611c4cc09ccb8a6
+PackageVersion: v5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/website.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-python:actions\/setup-python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-python:actions\/setup_python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_python:actions\/setup-python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_python:actions\/setup_python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_python:v5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-python@v5
+
+##### Package: actions/setup-python
+
+PackageName: actions/setup-python
+SPDXID: SPDXRef-Package-github-action-actions-setup-python-4abc89f5bd98f1e2
+PackageVersion: v5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/manpage.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-python:actions\/setup-python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-python:actions\/setup_python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_python:actions\/setup-python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_python:actions\/setup_python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-python:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_python:v5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-python@v5
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-327106dbc1daf1ff
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/valgrind.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@v4
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-65ec9806a03789ac
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@v4
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-71e15bbb7f523616
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/scanbuild.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@v4
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-e1505b0a34d22f15
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/oniguruma.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@v4
+
+##### Package: crazy-max/ghaction-import-gpg
+
+PackageName: crazy-max/ghaction-import-gpg
+SPDXID: SPDXRef-Package-github-action-crazy-max-ghaction-import-gpg-6592a93f40232acb
+PackageVersion: v6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy-max\/ghaction-import-gpg:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy-max\/ghaction-import-gpg:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy_max\/ghaction_import_gpg:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy_max\/ghaction_import_gpg:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy-max\/ghaction-import:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy-max\/ghaction-import:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy_max\/ghaction_import:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy_max\/ghaction_import:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy-max\/ghaction:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy-max\/ghaction:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy_max\/ghaction:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy_max\/ghaction:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy:crazy-max\/ghaction-import-gpg:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:crazy:crazy_max\/ghaction_import_gpg:v6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/crazy-max/ghaction-import-gpg@v6
+
+##### Package: docker/build-push-action
+
+PackageName: docker/build-push-action
+SPDXID: SPDXRef-Package-github-action-docker-build-push-action-363fe4f95e0d789d
+PackageVersion: v6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push-action:docker\/build-push-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push-action:docker\/build_push_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push_action:docker\/build-push-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push_action:docker\/build_push_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push:docker\/build-push-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build-push:docker\/build_push_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push:docker\/build-push-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build_push:docker\/build_push_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build:docker\/build-push-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/build:docker\/build_push_action:v6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/build-push-action@v6
+
+##### Package: docker/login-action
+
+PackageName: docker/login-action
+SPDXID: SPDXRef-Package-github-action-docker-login-action-2d11f738c5ddf0c3
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login-action:docker\/login-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login-action:docker\/login_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login_action:docker\/login-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login_action:docker\/login_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login:docker\/login-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/login:docker\/login_action:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/login-action@v3
+
+##### Package: docker/metadata-action
+
+PackageName: docker/metadata-action
+SPDXID: SPDXRef-Package-github-action-docker-metadata-action-6ae2d862a32e4dc8
+PackageVersion: v5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/metadata-action:docker\/metadata-action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/metadata-action:docker\/metadata_action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/metadata_action:docker\/metadata-action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/metadata_action:docker\/metadata_action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/metadata:docker\/metadata-action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/metadata:docker\/metadata_action:v5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/metadata-action@v5
+
+##### Package: docker/setup-buildx-action
+
+PackageName: docker/setup-buildx-action
+SPDXID: SPDXRef-Package-github-action-docker-setup-buildx-action-64e3bbe3533fed79
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx-action:docker\/setup-buildx-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx-action:docker\/setup_buildx_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx_action:docker\/setup-buildx-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx_action:docker\/setup_buildx_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx:docker\/setup-buildx-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-buildx:docker\/setup_buildx_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx:docker\/setup-buildx-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_buildx:docker\/setup_buildx_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup-buildx-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup_buildx_action:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/setup-buildx-action@v3
+
+##### Package: docker/setup-qemu-action
+
+PackageName: docker/setup-qemu-action
+SPDXID: SPDXRef-Package-github-action-docker-setup-qemu-action-4725cdc0a785e63f
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu-action:docker\/setup-qemu-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu-action:docker\/setup_qemu_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu_action:docker\/setup-qemu-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu_action:docker\/setup_qemu_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu:docker\/setup-qemu-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup-qemu:docker\/setup_qemu_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu:docker\/setup-qemu-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup_qemu:docker\/setup_qemu_action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup-qemu-action:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:docker\/setup:docker\/setup_qemu_action:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/docker/setup-qemu-action@v3
+
+##### Package: msys2/setup-msys2
+
+PackageName: msys2/setup-msys2
+SPDXID: SPDXRef-Package-github-action-msys2-setup-msys2-c6cb5364da31a8dd
+PackageVersion: v2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/ci.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:msys2\/setup-msys2:msys2\/setup-msys2:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:msys2\/setup-msys2:msys2\/setup_msys2:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:msys2\/setup_msys2:msys2\/setup-msys2:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:msys2\/setup_msys2:msys2\/setup_msys2:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:msys2\/setup:msys2\/setup-msys2:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:msys2\/setup:msys2\/setup_msys2:v2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/msys2/setup-msys2@v2
+
+##### Package: attrs
+
+PackageName: attrs
+SPDXID: SPDXRef-Package-python-attrs-4100e84b03af209c
+PackageVersion: 23.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-attrs:python-attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-attrs:python_attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_attrs:python-attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_attrs:python_attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:attrs:python-attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:attrs:python_attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-attrs:attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_attrs:attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:attrs:attrs:23.1.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/attrs@23.1.0
+
+##### Package: importlib-metadata
+
+PackageName: importlib-metadata
+SPDXID: SPDXRef-Package-python-importlib-metadata-5d9bb76884cde26b
+PackageVersion: 6.8.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-metadata:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-metadata:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_metadata:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_metadata:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-metadata:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-metadata:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_metadata:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_metadata:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-metadata:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-metadata:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_metadata:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_metadata:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-metadata:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-metadata:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_metadata:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_metadata:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:importlib-metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:importlib_metadata:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/importlib-metadata@6.8.0
+
+##### Package: importlib-resources
+
+PackageName: importlib-resources
+SPDXID: SPDXRef-Package-python-importlib-resources-f559ab9d2527719f
+PackageVersion: 6.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-resources:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-resources:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_resources:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_resources:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-resources:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-resources:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_resources:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_resources:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-resources:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib-resources:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_resources:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib_resources:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-resources:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib-resources:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_resources:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib_resources:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-importlib:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_importlib:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:importlib:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:importlib-resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:importlib_resources:6.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/importlib-resources@6.0.0
+
+##### Package: jinja2
+
+PackageName: jinja2
+SPDXID: SPDXRef-Package-python-jinja2-94cbb360819ae4b3
+PackageVersion: 3.1.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jinja2:python-jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jinja2:python_jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jinja2:python-jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jinja2:python_jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jinja2:python-jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jinja2:python_jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jinja2:jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jinja2:jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jinja2:jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:jinja2:3.1.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jinja2@3.1.4
+
+##### Package: jsonschema
+
+PackageName: jsonschema
+SPDXID: SPDXRef-Package-python-jsonschema-8469a6efbf81d0ce
+PackageVersion: 4.18.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:python-jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:python_jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:python-jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:python_jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:python-jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:python_jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:jsonschema:4.18.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jsonschema@4.18.4
+
+##### Package: jsonschema-specifications
+
+PackageName: jsonschema-specifications
+SPDXID: SPDXRef-Package-python-jsonschema-specifications-68f157956a4492e2
+PackageVersion: 2023.7.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema-specifications:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema-specifications:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema_specifications:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema_specifications:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema-specifications:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema-specifications:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema_specifications:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema_specifications:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema-specifications:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema-specifications:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema_specifications:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema_specifications:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema-specifications:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema-specifications:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema_specifications:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema_specifications:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-jsonschema:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_jsonschema:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jsonschema:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:jsonschema-specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:jsonschema_specifications:2023.7.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jsonschema-specifications@2023.7.1
+
+##### Package: lxml
+
+PackageName: lxml
+SPDXID: SPDXRef-Package-python-lxml-cf18a5230cb93e54
+PackageVersion: 4.9.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:lxml:lxml:4.9.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/lxml@4.9.3
+
+##### Package: markdown
+
+PackageName: markdown
+SPDXID: SPDXRef-Package-python-markdown-45a1fe4540c63299
+PackageVersion: 3.4.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-markdown:python-markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-markdown:python_markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_markdown:python-markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_markdown:python_markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:markdown:python-markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:markdown:python_markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-markdown:markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_markdown:markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:markdown:markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:markdown:3.4.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/markdown@3.4.3
+
+##### Package: markupsafe
+
+PackageName: markupsafe
+SPDXID: SPDXRef-Package-python-markupsafe-4021cf7694617b0f
+PackageVersion: 2.1.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-markupsafe:python-markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-markupsafe:python_markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_markupsafe:python-markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_markupsafe:python_markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:markupsafe:python-markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:markupsafe:python_markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-markupsafe:markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_markupsafe:markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:markupsafe:markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:markupsafe:2.1.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/markupsafe@2.1.5
+
+##### Package: pkgutil-resolve-name
+
+PackageName: pkgutil-resolve-name
+SPDXID: SPDXRef-Package-python-pkgutil-resolve-name-01e8230fd21e5050
+PackageVersion: 1.3.10
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve-name:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve-name:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve_name:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve_name:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve-name:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve-name:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve_name:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve_name:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve-name:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve-name:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve_name:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve_name:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil-resolve:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil_resolve:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve-name:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve-name:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve_name:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve_name:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil-resolve:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil_resolve:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pkgutil:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pkgutil:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pkgutil:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:pkgutil-resolve-name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:pkgutil_resolve_name:1.3.10:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pkgutil-resolve-name@1.3.10
+
+##### Package: pyyaml
+
+PackageName: pyyaml
+SPDXID: SPDXRef-Package-python-pyyaml-f4fd7c0fa44efc74
+PackageVersion: 6.0.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pyyaml:python-pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pyyaml:python_pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pyyaml:python-pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pyyaml:python_pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-pyyaml:pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_pyyaml:pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pyyaml:python-pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pyyaml:python_pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pyyaml:pyyaml:6.0.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyyaml@6.0.1
+
+##### Package: referencing
+
+PackageName: referencing
+SPDXID: SPDXRef-Package-python-referencing-e505ea0927d53d09
+PackageVersion: 0.30.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-referencing:python-referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-referencing:python_referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_referencing:python-referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_referencing:python_referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-referencing:referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_referencing:referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:referencing:python-referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:referencing:python_referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:referencing:referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:referencing:0.30.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/referencing@0.30.0
+
+##### Package: rpds-py
+
+PackageName: rpds-py
+SPDXID: SPDXRef-Package-python-rpds-py-1312cbeedbd66eb3
+PackageVersion: 0.9.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds-py:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds-py:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds_py:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds_py:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds-py:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds-py:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds_py:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds_py:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds-py:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds-py:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds_py:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds_py:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-rpds:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_rpds:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds:python-rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds:python_rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds-py:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds-py:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds_py:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds_py:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds:rpds-py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:rpds:rpds_py:0.9.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/rpds-py@0.9.2
+
+##### Package: zipp
+
+PackageName: zipp
+SPDXID: SPDXRef-Package-python-zipp-d079f393fa5cd89d
+PackageVersion: 3.19.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from installed python package manifest file: /docs/Pipfile.lock
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-zipp:python-zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-zipp:python_zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_zipp:python-zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_zipp:python_zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python-zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:python_zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python-zipp:zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_zipp:zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:zipp:python-zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:zipp:python_zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:zipp:zipp:3.19.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/zipp@3.19.1
+
+##### Relationships
+
+Relationship: SPDXRef-Package-python-pkgutil-resolve-name-01e8230fd21e5050 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-download-artifact-06b75b32fccf2961 OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-rpds-py-1312cbeedbd66eb3 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-login-action-2d11f738c5ddf0c3 OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-327106dbc1daf1ff OTHER SPDXRef-File-.github-workflows-valgrind.yml-189f19d443623204
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-python-3611c4cc09ccb8a6 OTHER SPDXRef-File-.github-workflows-website.yml-795b257b8c7915e5
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-build-push-action-363fe4f95e0d789d OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-markupsafe-4021cf7694617b0f OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-attrs-4100e84b03af209c OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-markdown-45a1fe4540c63299 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-setup-qemu-action-4725cdc0a785e63f OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-python-4abc89f5bd98f1e2 OTHER SPDXRef-File-.github-workflows-manpage.yml-273e65bb5c9fe99f
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-importlib-metadata-5d9bb76884cde26b OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-5db5140d57d64018 OTHER SPDXRef-File-.github-workflows-decnum.yml-5adb518a74e8752c
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-setup-buildx-action-64e3bbe3533fed79 OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-crazy-max-ghaction-import-gpg-6592a93f40232acb OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-65ec9806a03789ac OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-jsonschema-specifications-68f157956a4492e2 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-docker-metadata-action-6ae2d862a32e4dc8 OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-71e15bbb7f523616 OTHER SPDXRef-File-.github-workflows-scanbuild.yml-e90892b377781900
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-jsonschema-8469a6efbf81d0ce OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-8dada5c8fb88bc8e OTHER SPDXRef-File-.github-workflows-scanbuild.yml-e90892b377781900
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-8ffeb4b35249a5ad OTHER SPDXRef-File-.github-workflows-oniguruma.yml-4c8994092b4b3af9
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-91695929ae86c434 OTHER SPDXRef-File-.github-workflows-valgrind.yml-189f19d443623204
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-jinja2-94cbb360819ae4b3 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-9ce3aad85a0d5280 OTHER SPDXRef-File-.github-workflows-website.yml-795b257b8c7915e5
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-ab7546764760b4e0 OTHER SPDXRef-File-.github-workflows-manpage.yml-273e65bb5c9fe99f
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-c17d5ce71f795bed OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-msys2-setup-msys2-c6cb5364da31a8dd OTHER SPDXRef-File-.github-workflows-ci.yml-7561d461b00ff11d
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-lxml-cf18a5230cb93e54 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-zipp-d079f393fa5cd89d OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-e1505b0a34d22f15 OTHER SPDXRef-File-.github-workflows-oniguruma.yml-4c8994092b4b3af9
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-referencing-e505ea0927d53d09 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-pyyaml-f4fd7c0fa44efc74 OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-python-importlib-resources-f559ab9d2527719f OTHER SPDXRef-File-docs-Pipfile.lock-9fb75da299fcd535
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-c17d5ce71f795bed
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-5db5140d57d64018
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-ab7546764760b4e0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-8ffeb4b35249a5ad
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-8dada5c8fb88bc8e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-91695929ae86c434
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-checkout-9ce3aad85a0d5280
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-download-artifact-06b75b32fccf2961
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-setup-python-4abc89f5bd98f1e2
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-setup-python-3611c4cc09ccb8a6
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-65ec9806a03789ac
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-e1505b0a34d22f15
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-71e15bbb7f523616
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-327106dbc1daf1ff
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-attrs-4100e84b03af209c
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-crazy-max-ghaction-import-gpg-6592a93f40232acb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-docker-build-push-action-363fe4f95e0d789d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-docker-login-action-2d11f738c5ddf0c3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-docker-metadata-action-6ae2d862a32e4dc8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-docker-setup-buildx-action-64e3bbe3533fed79
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-docker-setup-qemu-action-4725cdc0a785e63f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-importlib-metadata-5d9bb76884cde26b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-importlib-resources-f559ab9d2527719f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-jinja2-94cbb360819ae4b3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-jsonschema-8469a6efbf81d0ce
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-jsonschema-specifications-68f157956a4492e2
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-lxml-cf18a5230cb93e54
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-markdown-45a1fe4540c63299
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-markupsafe-4021cf7694617b0f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-github-action-msys2-setup-msys2-c6cb5364da31a8dd
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-pkgutil-resolve-name-01e8230fd21e5050
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-pyyaml-f4fd7c0fa44efc74
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-referencing-e505ea0927d53d09
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-rpds-py-1312cbeedbd66eb3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq CONTAINS SPDXRef-Package-python-zipp-d079f393fa5cd89d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-jqlang-jq
+

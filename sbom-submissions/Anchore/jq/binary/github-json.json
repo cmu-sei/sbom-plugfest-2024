@@ -1,0 +1,28 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "plug-jq:/jq": {
+      "name": "plug-jq:/jq",
+      "file": {
+        "source_location": "plug-jq:/jq"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377"
+      },
+      "resolved": {
+        "pkg:generic/jq@2.36": {
+          "package_url": "pkg:generic/jq@2.36",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:23:44+01:00"
+}

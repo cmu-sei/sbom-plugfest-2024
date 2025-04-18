@@ -1,0 +1,191 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "ldtteam/minecolonies/.github/workflows/build.yaml": {
+      "name": "ldtteam/minecolonies/.github/workflows/build.yaml",
+      "file": {
+        "source_location": "ldtteam/minecolonies/.github/workflows/build.yaml"
+      },
+      "resolved": {
+        "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml": {
+          "package_url": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml": {
+          "package_url": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/.github/workflows/release.yaml": {
+      "name": "ldtteam/minecolonies/.github/workflows/release.yaml",
+      "file": {
+        "source_location": "ldtteam/minecolonies/.github/workflows/release.yaml"
+      },
+      "resolved": {
+        "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml": {
+          "package_url": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/.github/workflows/translation.yml": {
+      "name": "ldtteam/minecolonies/.github/workflows/translation.yml",
+      "file": {
+        "source_location": "ldtteam/minecolonies/.github/workflows/translation.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@master": {
+          "package_url": "pkg:github/actions/checkout@master",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ad-m/github-push-action@master": {
+          "package_url": "pkg:github/ad-m/github-push-action@master",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-injected.jar": {
+      "name": "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-injected.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-injected.jar"
+      },
+      "resolved": {
+        "pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3-injected": {
+          "package_url": "pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3-injected",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-srg.jar": {
+      "name": "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-srg.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3/forge-1.20.1-47.1.3-srg.jar"
+      },
+      "resolved": {
+        "pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3-srg": {
+          "package_url": "pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3-srg",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3_mapped_official_1.20.1/forge-1.20.1-47.1.3_mapped_official_1.20.1.jar": {
+      "name": "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3_mapped_official_1.20.1/forge-1.20.1-47.1.3_mapped_official_1.20.1.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/fg_cache/net/minecraftforge/forge/1.20.1-47.1.3_mapped_official_1.20.1/forge-1.20.1-47.1.3_mapped_official_1.20.1.jar"
+      },
+      "resolved": {
+        "pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3_mapped_official_1.20.1": {
+          "package_url": "pkg:maven/net.minecraftforge/forge@1.20.1-47.1.3_mapped_official_1.20.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar": {
+      "name": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-javadoc.jar"
+      },
+      "resolved": {
+        "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-javadoc": {
+          "package_url": "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-javadoc",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar": {
+      "name": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-slim.jar"
+      },
+      "resolved": {
+        "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-slim": {
+          "package_url": "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-slim",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar": {
+      "name": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha-sources.jar"
+      },
+      "resolved": {
+        "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-sources": {
+          "package_url": "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha-sources",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar": {
+      "name": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/libs/minecolonies-1.20.1-0.0.1-LOCAL-alpha.jar"
+      },
+      "resolved": {
+        "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha": {
+          "package_url": "pkg:maven/minecolonies/minecolonies@1.20.1-0.0.1-LOCAL-alpha",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/reobfJar/output.jar": {
+      "name": "ldtteam/minecolonies/build/reobfJar/output.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/reobfJar/output.jar"
+      },
+      "resolved": {
+        "pkg:maven/output/output@1.20.1-0.0.1-LOCAL-alpha": {
+          "package_url": "pkg:maven/output/output@1.20.1-0.0.1-LOCAL-alpha",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/build/reobfShadowJar/output.jar": {
+      "name": "ldtteam/minecolonies/build/reobfShadowJar/output.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/build/reobfShadowJar/output.jar"
+      },
+      "resolved": {
+        "pkg:maven/output/output@1.20.1-0.0.1-LOCAL-alpha": {
+          "package_url": "pkg:maven/output/output@1.20.1-0.0.1-LOCAL-alpha",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "ldtteam/minecolonies/gradle/wrapper/gradle-wrapper.jar": {
+      "name": "ldtteam/minecolonies/gradle/wrapper/gradle-wrapper.jar",
+      "file": {
+        "source_location": "ldtteam/minecolonies/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "resolved": {
+        "pkg:maven/gradle-wrapper/gradle-wrapper": {
+          "package_url": "pkg:maven/gradle-wrapper/gradle-wrapper",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:24:49+01:00"
+}

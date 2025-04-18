@@ -1,0 +1,297 @@
+{
+  "artifacts": [
+    {
+      "id": "6c367949d7ff9d06",
+      "name": "jq",
+      "version": "2.36",
+      "type": "binary",
+      "foundBy": "binary-classifier-cataloger",
+      "locations": [
+        {
+          "path": "/jq",
+          "layerID": "sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377",
+          "accessPath": "/jq",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jqlang:jq:2.36:*:*:*:*:*:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:generic/jq@2.36",
+      "metadataType": "binary-signature",
+      "metadata": {
+        "matches": [
+          {
+            "classifier": "jq-binary",
+            "location": {
+              "path": "/jq",
+              "layerID": "sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377",
+              "accessPath": "/jq",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2",
+      "child": "6c367949d7ff9d06",
+      "type": "contains"
+    },
+    {
+      "parent": "6c367949d7ff9d06",
+      "child": "742835066a754282",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "742835066a754282",
+      "location": {
+        "path": "/jq",
+        "layerID": "sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377"
+      },
+      "metadata": {
+        "mode": 755,
+        "type": "RegularFile",
+        "userID": 0,
+        "groupID": 0,
+        "mimeType": "application/x-executable",
+        "size": 2104032
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "76537afb2a0830fe7f7c3bc60961ed4b43b92802"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5814dcc226b7c2993918af240eb2fd4073f449a6e28e71874a29d482c35692e3"
+        }
+      ],
+      "executable": {
+        "format": "elf",
+        "hasExports": false,
+        "hasEntrypoint": true,
+        "importedLibraries": [],
+        "elfSecurityFeatures": {
+          "symbolTableStripped": true,
+          "nx": true,
+          "relRO": "partial",
+          "pie": false,
+          "dso": false
+        }
+      }
+    }
+  ],
+  "source": {
+    "id": "2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2",
+    "name": "plug-jq",
+    "version": "sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2",
+    "type": "image",
+    "metadata": {
+      "userInput": "plug-jq",
+      "imageID": "sha256:bfc71ad0369af3bc04cb18e8b5f833acd4863b9118917da1153d4bbb0f968167",
+      "manifestDigest": "sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2",
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "tags": [
+        "plug-jq:latest"
+      ],
+      "imageSize": 2118400,
+      "layers": [
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377",
+          "size": 2118400
+        },
+        {
+          "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+          "digest": "sha256:65a52373cc257ced0c49680830386799cd665522e6b6080d01147aaa77cfee07",
+          "size": 0
+        }
+      ],
+      "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjo4NDEsImRpZ2VzdCI6InNoYTI1NjpiZmM3MWFkMDM2OWFmM2JjMDRjYjE4ZThiNWY4MzNhY2Q0ODYzYjkxMTg5MTdkYTExNTNkNGJiYjBmOTY4MTY3In0sImxheWVycyI6W3sibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjIxMjE3MjgsImRpZ2VzdCI6InNoYTI1NjoyOGJmM2U1MjFjNmU2ZDBjOTI3NzU1NzE1ZDMwMGIzZjJkNWI3OTBmYWYyZjhlNGZiZGZiNTQ1MmI1OWM5Mzc3In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjU2MCwiZGlnZXN0Ijoic2hhMjU2OjY1YTUyMzczY2MyNTdjZWQwYzQ5NjgwODMwMzg2Nzk5Y2Q2NjU1MjJlNmI2MDgwZDAxMTQ3YWFhNzdjZmVlMDcifV19",
+      "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiRW50cnlwb2ludCI6WyIvanEiXSwiV29ya2luZ0RpciI6Ii8ifSwiY3JlYXRlZCI6IjIwMjQtMTItMDNUMTA6NTE6MzAuNjk0NDIxMjIyKzAxOjAwIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjIwMjQtMTItMDNUMTA6NTE6MzAuMzIwMDcyNTM2KzAxOjAwIiwiY3JlYXRlZF9ieSI6IkNPUFkgL2FwcC9BVVRIT1JTIC9hcHAvQ09QWUlORyAvdXNyL2xvY2FsL2Jpbi9qcSAvICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjQtMTItMDNUMTA6NTE6MzAuNjk0NDIxMjIyKzAxOjAwIiwiY3JlYXRlZF9ieSI6IlJVTiAvanEgLS12ZXJzaW9uICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjQtMTItMDNUMTA6NTE6MzAuNjk0NDIxMjIyKzAxOjAwIiwiY3JlYXRlZF9ieSI6IkVOVFJZUE9JTlQgW1wiL2pxXCJdIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX1dLCJvcyI6ImxpbnV4Iiwicm9vdGZzIjp7InR5cGUiOiJsYXllcnMiLCJkaWZmX2lkcyI6WyJzaGEyNTY6MjhiZjNlNTIxYzZlNmQwYzkyNzc1NTcxNWQzMDBiM2YyZDViNzkwZmFmMmY4ZTRmYmRmYjU0NTJiNTljOTM3NyIsInNoYTI1Njo2NWE1MjM3M2NjMjU3Y2VkMGM0OTY4MDgzMDM4Njc5OWNkNjY1NTIyZTZiNjA4MGQwMTE0N2FhYTc3Y2ZlZTA3Il19fQ==",
+      "repoDigests": [],
+      "architecture": "amd64",
+      "os": "linux"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.18.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "image"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "conan-info-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "go-module-binary-cataloger",
+          "graalvm-native-image-cataloger",
+          "java-archive-cataloger",
+          "java-jvm-cataloger",
+          "javascript-package-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-store-cataloger",
+          "php-composer-installed-cataloger",
+          "php-pecl-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "r-package-cataloger",
+          "rpm-db-cataloger",
+          "ruby-installed-gemspec-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "java-binary-graalvm",
+          "java-binary-jdk",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/home/alan/go/pkg/mod",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": true,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.18",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.18.json"
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "nexb_dejacode_jq_project_source_96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+  "documentNamespace": "https://dejacode.com/spdxdocs/a1940d54-7379-4834-a95e-5d96e1c22252",
+  "creationInfo": {
+    "created": "2024-12-11T01:03:58Z",
+    "creators": [
+      "Person: Dennis Clark (dmclark@nexb.com)",
+      "Organization: nexB ()",
+      "Tool: DejaCode-5.2.1"
+    ],
+    "licenseListVersion": "3.18"
+  },
+  "packages": [
+    {
+      "name": "attrs",
+      "SPDXID": "SPDXRef-dejacode-package-ec9a4dc3-3f1b-4751-aad4-730d4088424b",
+      "downloadLocation": "https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz",
+      "licenseConcluded": "MIT",
+      "copyrightText": "Copyright Hynek Schlawack",
+      "filesAnalyzed": false,
+      "versionInfo": "23.1.0",
+      "licenseDeclared": "MIT",
+      "description": "Classes Without Boilerplate\n<p align=\"center\">\n  <a href=\"https://www.attrs.org/\">\n    <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/docs/_static/attrs_logo.svg\" width=\"35%\" alt=\"attrs\" />\n  </a>\n</p>\n\n\n*attrs* is the Python package that will bring back the **joy** of **writing classes** by relieving you from the drudgery of implementing object protocols (aka [dunder methods](https://www.attrs.org/en/latest/glossary.html#term-dunder-methods)).\n[Trusted by NASA](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#list-of-qualifying-repositories-for-mars-2020-helicopter-contributor-achievement) for Mars missions since 2020!\n\nIts main goal is to help you to write **concise** and **correct** software without slowing down your code.\n\n\n## Sponsors\n\n*attrs* would not be possible without our [amazing sponsors](https://github.com/sponsors/hynek).\nEspecially those generously supporting us at the *The Organization* tier and higher:\n\n<p align=\"center\">\n   <a href=\"https://www.variomedia.de/\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/Variomedia.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n\n   <a href=\"https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=referral&utm_campaign=enterprise&utm_term=repo\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/Tidelift.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n\n   <a href=\"https://sentry.io/\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/Sentry.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n\n   <a href=\"https://filepreviews.io/\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/FilePreviews.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n</p>\n\n<p align=\"center\">\n   <strong>Please consider <a href=\"https://github.com/sponsors/hynek\">joining them</a> to help make <em>attrs</em>\u2019s maintenance more sustainable!</strong>\n</p>\n\n<!-- teaser-end -->\n\n## Example\n\n*attrs* gives you a class decorator and a way to declaratively define the attributes on that class:\n\n<!-- code-begin -->\n\n```pycon\n>>> from attrs import asdict, define, make_class, Factory\n\n>>> @define\n... class SomeClass:\n...     a_number: int = 42\n...     list_of_numbers: list[int] = Factory(list)\n...\n...     def hard_math(self, another_number):\n...         return self.a_number + sum(self.list_of_numbers) * another_number\n\n\n>>> sc = SomeClass(1, [1, 2, 3])\n>>> sc\nSomeClass(a_number=1, list_of_numbers=[1, 2, 3])\n\n>>> sc.hard_math(3)\n19\n>>> sc == SomeClass(1, [1, 2, 3])\nTrue\n>>> sc != SomeClass(2, [3, 2, 1])\nTrue\n\n>>> asdict(sc)\n{'a_number': 1, 'list_of_numbers': [1, 2, 3]}\n\n>>> SomeClass()\nSomeClass(a_number=42, list_of_numbers=[])\n\n>>> C = make_class(\"C\", [\"a\", \"b\"])\n>>> C(\"foo\", \"bar\")\nC(a='foo', b='bar')\n```\n\nAfter *declaring* your attributes, *attrs* gives you:\n\n- a concise and explicit overview of the class's attributes,\n- a nice human-readable `__repr__`,\n- equality-checking methods,\n- an initializer,\n- and much more,\n\n*without* writing dull boilerplate code again and again and *without* runtime performance penalties.\n\n**Hate type annotations**!?\nNo problem!\nTypes are entirely **optional** with *attrs*.\nSimply assign `attrs.field()` to the attributes instead of annotating them with types.\n\n---\n\nThis example uses *attrs*'s modern APIs that have been introduced in version 20.1.0, and the *attrs* package import name that has been added in version 21.3.0.\nThe classic APIs (`@attr.s`, `attr.ib`, plus their serious-business aliases) and the `attr` package import name will remain **indefinitely**.\n\nPlease check out [*On The Core API Names*](https://www.attrs.org/en/latest/names.html) for a more in-depth explanation.\n\n\n## Data Classes\n\nOn the tin, *attrs* might remind you of `dataclasses` (and indeed, `dataclasses` [are a descendant](https://hynek.me/articles/import-attrs/) of *attrs*).\nIn practice it does a lot more and is more flexible.\nFor instance it allows you to define [special handling of NumPy arrays for equality checks](https://www.attrs.org/en/stable/comparison.html#customization), or allows more ways to [plug into the initialization process](https://www.attrs.org/en/stable/init.html#hooking-yourself-into-initialization).\n\nFor more details, please refer to our [comparison page](https://www.attrs.org/en/stable/why.html#data-classes).\n\n\n## Project Information\n\n- [**Changelog**](https://www.attrs.org/en/stable/changelog.html)\n- [**Documentation**](https://www.attrs.org/)\n- [**PyPI**](https://pypi.org/project/attrs/)\n- [**Source Code**](https://github.com/python-attrs/attrs)\n- [**Contributing**](https://github.com/python-attrs/attrs/blob/main/.github/CONTRIBUTING.md)\n- [**Third-party Extensions**](https://github.com/python-attrs/attrs/wiki/Extensions-to-attrs)\n- **License**: [MIT](https://www.attrs.org/en/latest/license.html)\n- **Get Help**: please use the `python-attrs` tag on [StackOverflow](https://stackoverflow.com/questions/tagged/python-attrs)\n- **Supported Python Versions**: 3.7 and later\n\n\n### *attrs* for Enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of *attrs* and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source packages you use to build your applications.\nSave time, reduce risk, and improve code health, while paying the maintainers of the exact packages you use.\n[Learn more.](https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n\n## Release Information\n\n### Backwards-incompatible Changes\n\n- Python 3.6 has been dropped and packaging switched to static package data using [Hatch](https://hatch.pypa.io/latest/).\n  [#993](https://github.com/python-attrs/attrs/issues/993)\n\n\n### Deprecations\n\n- The support for *zope-interface* via the `attrs.validators.provides` validator is now deprecated and will be removed in, or after, April 2024.\n\n  The presence of a C-based package in our developement dependencies has caused headaches and we're not under the impression it's used a lot.\n\n  Let us know if you're using it and we might publish it as a separate package.\n  [#1120](https://github.com/python-attrs/attrs/issues/1120)\n\n\n### Changes\n\n- `attrs.filters.exclude()` and `attrs.filters.include()` now support the passing of attribute names as strings.\n  [#1068](https://github.com/python-attrs/attrs/issues/1068)\n- `attrs.has()` and `attrs.fields()` now handle generic classes correctly.\n  [#1079](https://github.com/python-attrs/attrs/issues/1079)\n- Fix frozen exception classes when raised within e.g. `contextlib.contextmanager`, which mutates their `__traceback__` attributes.\n  [#1081](https://github.com/python-attrs/attrs/issues/1081)\n- `@frozen` now works with type checkers that implement [PEP-681](https://peps.python.org/pep-0681/) (ex. [pyright](https://github.com/microsoft/pyright/)).\n  [#1084](https://github.com/python-attrs/attrs/issues/1084)\n- Restored ability to unpickle instances pickled before 22.2.0.\n  [#1085](https://github.com/python-attrs/attrs/issues/1085)\n- `attrs.asdict()`'s and `attrs.astuple()`'s type stubs now accept the `attrs.AttrsInstance` protocol.\n  [#1090](https://github.com/python-attrs/attrs/issues/1090)\n- Fix slots class cellvar updating closure in CPython 3.8+ even when `__code__` introspection is unavailable.\n  [#1092](https://github.com/python-attrs/attrs/issues/1092)\n- `attrs.resolve_types()` can now pass `include_extras` to `typing.get_type_hints()` on Python 3.9+, and does so by default.\n  [#1099](https://github.com/python-attrs/attrs/issues/1099)\n- Added instructions for pull request workflow to `CONTRIBUTING.md`.\n  [#1105](https://github.com/python-attrs/attrs/issues/1105)\n- Added *type* parameter to `attrs.field()` function for use with `attrs.make_class()`.\n\n  Please note that type checkers ignore type metadata passed into `make_class()`, but it can be useful if you're wrapping _attrs_.\n  [#1107](https://github.com/python-attrs/attrs/issues/1107)\n- It is now possible for `attrs.evolve()` (and `attr.evolve()`) to change fields named `inst` if the instance is passed as a positional argument.\n\n  Passing the instance using the `inst` keyword argument is now deprecated and will be removed in, or after, April 2024.\n  [#1117](https://github.com/python-attrs/attrs/issues/1117)\n- `attrs.validators.optional()` now also accepts a tuple of validators (in addition to lists of validators).\n  [#1122](https://github.com/python-attrs/attrs/issues/1122)\n\n\n\n---\n\n[Full changelog](https://www.attrs.org/en/stable/changelog.html)",
+      "releaseDate": "2023-04-16T00:00:00Z",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6623fed7ffa22261ba25fccaf4d99539"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/attrs@23.1.0"
+        }
+      ]
+    },
+    {
+      "name": "lxml",
+      "SPDXID": "SPDXRef-dejacode-package-3d89db7a-b2e3-4345-8e93-5e9b1864186b",
+      "downloadLocation": "https://files.pythonhosted.org/packages/30/39/7305428d1c4f28282a4f5bdbef24e0f905d351f34cf351ceb131f5cddf78/lxml-4.9.3.tar.gz",
+      "licenseConcluded": "BSD-3-Clause",
+      "copyrightText": "Copyright Rick Jelliffe and Academia Sinica Computing Center",
+      "filesAnalyzed": false,
+      "versionInfo": "4.9.3",
+      "licenseDeclared": "BSD-3-Clause",
+      "homepage": "https://lxml.de/",
+      "description": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.\nlxml is a Pythonic, mature binding for the libxml2 and libxslt libraries.  It\nprovides safe and convenient access to these libraries using the ElementTree\nAPI.\n\nIt extends the ElementTree API significantly to offer support for XPath,\nRelaxNG, XML Schema, XSLT, C14N and much more.\n\nTo contact the project, go to the `project home page\n<https://lxml.de/>`_ or see our bug tracker at\nhttps://launchpad.net/lxml\n\nIn case you want to use the current in-development version of lxml,\nyou can get it from the github repository at\nhttps://github.com/lxml/lxml .  Note that this requires Cython to\nbuild the sources, see the build instructions on the project home\npage.  To the same end, running ``easy_install lxml==dev`` will\ninstall lxml from\nhttps://github.com/lxml/lxml/tarball/master#egg=lxml-dev if you have\nan appropriate version of Cython installed.\n\n\nAfter an official release of a new stable series, bug fixes may become\navailable at\nhttps://github.com/lxml/lxml/tree/lxml-4.9 .\nRunning ``easy_install lxml==4.9bugfix`` will install\nthe unreleased branch state from\nhttps://github.com/lxml/lxml/tarball/lxml-4.9#egg=lxml-4.9bugfix\nas soon as a maintenance branch has been established.  Note that this\nrequires Cython to be installed at an appropriate version for the build.\n\n4.9.3 (2023-07-05)\n==================\n\nBugs fixed\n----------\n\n* ``lxml.objectify`` accepted non-decimal numbers like ``\u00b2\u00b2\u00b2`` as integers.\n\n* A memory leak in ``lxml.html.clean`` was resolved by switching to Cython 0.29.34+.\n\n* GH#348: URL checking in the HTML cleaner was improved.\n  Patch by Tim McCormack.\n\n* GH#371, GH#373: Some regex strings were changed to raw strings to fix Python warnings.\n  Patches by Jakub Wilk and Anthony Sottile.\n\nOther changes\n-------------\n\n* Wheels include zlib 1.2.13, libxml2 2.10.3 and libxslt 1.1.38\n  (zlib 1.2.12, libxml2 2.10.3 and libxslt 1.1.37 on Windows).\n\n* Built with Cython 0.29.36 to adapt to changes in Python 3.12.",
+      "releaseDate": "2023-07-05T00:00:00Z",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7298fdca14b10e7b71547ed02b894b25"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/lxml@4.9.3"
+        }
+      ]
+    },
+    {
+      "name": "rpds-py",
+      "SPDXID": "SPDXRef-dejacode-package-c487210c-eb29-4655-9133-8be117ded943",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "0.9.2",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/rpds-py@0.9.2"
+        }
+      ]
+    },
+    {
+      "name": "zipp",
+      "SPDXID": "SPDXRef-dejacode-package-c4837197-6808-4eff-9712-5faa32d3da72",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "3.19.1",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/zipp@3.19.1"
+        }
+      ]
+    },
+    {
+      "name": "importlib-metadata",
+      "SPDXID": "SPDXRef-dejacode-package-f8cd2d52-8b40-457f-b7c4-5c2d606d80d2",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "6.8.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-metadata@6.8.0"
+        }
+      ]
+    },
+    {
+      "name": "markdown",
+      "SPDXID": "SPDXRef-dejacode-package-3f99c8fc-4754-4461-bef9-5934b0b05fd4",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "3.4.3",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markdown@3.4.3"
+        }
+      ]
+    },
+    {
+      "name": "pyyaml",
+      "SPDXID": "SPDXRef-dejacode-package-cce39d1e-e49e-43b0-8097-30c1f4dbbe47",
+      "downloadLocation": "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz",
+      "licenseConcluded": "MIT",
+      "copyrightText": "Copyright Ingy, Kirill Simonov",
+      "filesAnalyzed": false,
+      "versionInfo": "6.0.1",
+      "licenseDeclared": "MIT",
+      "homepage": "https://pyyaml.org/",
+      "description": "YAML parser and emitter for Python\nYAML is a data serialization format designed for human readability\nand interaction with scripting languages.  PyYAML is a YAML parser\nand emitter for Python.\n\nPyYAML features a complete YAML 1.1 parser, Unicode support, pickle\nsupport, capable extension API, and sensible error messages.  PyYAML\nsupports standard YAML tags and provides Python-specific tags that\nallow to represent an arbitrary Python object.\n\nPyYAML is applicable for a broad range of tasks from complex\nconfiguration files to object serialization and persistence.",
+      "releaseDate": "2023-07-18T00:00:00Z",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c9246277af2d9a13b7018af267a0831a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.1"
+        }
+      ]
+    },
+    {
+      "name": "importlib-resources",
+      "SPDXID": "SPDXRef-dejacode-package-6b953d28-4791-47ec-a1be-3dada71ffd8c",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "6.0.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-resources@6.0.0"
+        }
+      ]
+    },
+    {
+      "name": "jsonschema",
+      "SPDXID": "SPDXRef-dejacode-package-60e6a017-a9af-4632-8c9e-128978555e41",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "4.18.4",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jsonschema@4.18.4"
+        }
+      ]
+    },
+    {
+      "name": "jsonschema-specifications",
+      "SPDXID": "SPDXRef-dejacode-package-2a00324e-1463-497b-a375-8a122d2b4217",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "2023.7.1",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jsonschema-specifications@2023.7.1"
+        }
+      ]
+    },
+    {
+      "name": "markupsafe",
+      "SPDXID": "SPDXRef-dejacode-package-67ef8e20-ff74-4193-a732-11b4636144cf",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "2.1.5",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markupsafe@2.1.5"
+        }
+      ]
+    },
+    {
+      "name": "pkgutil-resolve-name",
+      "SPDXID": "SPDXRef-dejacode-package-ae2aae21-b7c2-44a1-a860-1af9edd6aa90",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "1.3.10",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pkgutil-resolve-name@1.3.10"
+        }
+      ]
+    },
+    {
+      "name": "referencing",
+      "SPDXID": "SPDXRef-dejacode-package-d9b51f8e-3576-4b60-a57d-a3b208e8247f",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "copyrightText": "NOASSERTION",
+      "filesAnalyzed": false,
+      "versionInfo": "0.30.0",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/referencing@0.30.0"
+        }
+      ]
+    },
+    {
+      "name": "jinja2",
+      "SPDXID": "SPDXRef-dejacode-package-8e2bea0b-05a2-4789-a7ee-7181d6bc2db0",
+      "downloadLocation": "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+      "licenseConcluded": "BSD-3-Clause",
+      "copyrightText": "Copyright jinja2 project contributors",
+      "filesAnalyzed": false,
+      "versionInfo": "3.1.4",
+      "licenseDeclared": "BSD-3-Clause",
+      "packageFileName": "jinja2-3.1.4-py3-none-any.whl",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "57760ed83d9ad15fcdf63ad1ffa14941333ef655"
+        },
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a5fadd0603a10249348865e85a6f57bc"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jinja2@3.1.4"
+        }
+      ]
+    },
+    {
+      "name": "jq",
+      "SPDXID": "SPDXRef-dejacode-package-21f6be9d-0d38-4e53-a501-9a5e2c8f0eb1",
+      "downloadLocation": "https://github.com/jqlang/jq/archive/96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip",
+      "licenseConcluded": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa",
+      "copyrightText": "Copyright Lucent Technologies",
+      "filesAnalyzed": false,
+      "versionInfo": "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+      "licenseDeclared": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa",
+      "packageFileName": "jq-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+        },
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1dcab7e8ec563456fda1cf516efacf06"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+        }
+      ]
+    },
+    {
+      "name": "markdown",
+      "SPDXID": "SPDXRef-dejacode-package-40ead509-a3b9-4287-aba9-bcb7715387c1",
+      "downloadLocation": "https://pypi.python.org/packages/source/M/Markdown/Markdown-2.0.3.tar.gz",
+      "licenseConcluded": "BSD-3-Clause",
+      "copyrightText": "Copyright markdown project contributors",
+      "filesAnalyzed": false,
+      "versionInfo": "2.0.3",
+      "licenseDeclared": "BSD-3-Clause",
+      "homepage": "http://www.freewisdom.org/projects/python-markdown",
+      "packageFileName": "Markdown-2.0.3.tar.gz",
+      "description": "Python implementation of Markdown.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ce2848c60434a7c727c162ca5683998eb6d222c3"
+        },
+        {
+          "algorithm": "MD5",
+          "checksumValue": "751e8055be2433dfd1a82e0fb1b12f13"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markdown@2.0.3"
+        }
+      ]
+    },
+    {
+      "name": "oniguruma",
+      "SPDXID": "SPDXRef-dejacode-package-b701b581-862b-4023-b218-2136e3076f02",
+      "downloadLocation": "https://github.com/kkos/oniguruma/archive/d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip",
+      "licenseConcluded": "BSD-3-Clause AND BSD-2-Clause",
+      "copyrightText": "Copyright K.Kosako",
+      "filesAnalyzed": false,
+      "versionInfo": "d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+      "licenseDeclared": "BSD-3-Clause AND BSD-2-Clause",
+      "packageFileName": "oniguruma-d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip",
+      "description": "regular expression library",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3fd890fd45e51d2f6d058c17a9389ecb90ae4716"
+        },
+        {
+          "algorithm": "MD5",
+          "checksumValue": "71993e6c8e527226e1d260d6f91a8de9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+        }
+      ],
+      "attributionTexts": [
+        "Oniguruma LICENSE\n-----------------\n\nCopyright (c) 2002-2021  K.Kosako  <kkosako0@gmail.com>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n\n    Scan Summary\nDeclared license\n\n     bsd-new AND bsd-simplified\n\nDeclared holder\n\n     K.Kosako\n\nPrimary language\n\n     C\n\nOther licenses\n\n     bsd-simplified 65\n\n\n gpl-2.0-plus WITH autoconf-simple-exception-2.0 4\n\n\n bsd-new 3\n\n\n public-domain 3\n\n\n gpl-3.0-plus WITH autoconf-simple-exception 2\n warranty-disclaimer 2\n cc0-1.0 1\n\n\n fsf-ap 1\n\n\n x11-xconsortium AND public-domain 1\n\nOther holders\n\n     Free Software Foundation 9\n     Byte 1\n     K.Kosako, Zui Zhong Geng Xin 1\n     KUBO Takehiro K.Kosako 1\n     Oniguruma -- K.Kosako 1\n     X Consortium 1\n\nOther languages\n\n     Bash 12\n     Python 7\n     verilog 5\n     Batchfile 3\n     HTML 2\n     C++ 1\n     Objective-C 1\n\nStatus\n\n    Scan success\n\nCreated date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nStart date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nEnd date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nScanCode.io version\n\n    34.9.0\n\n    Home Documentation Support About Source Code Releases License \n\nCopyright nexB Inc. DejaCode is a trademark of nexB Inc.\n\nNo content on DejaCode should be considered or used as legal advice. Consult an Attorney for any legal advice.\n"
+      ]
+    }
+  ],
+  "documentDescribes": [
+    "SPDXRef-dejacode-package-ec9a4dc3-3f1b-4751-aad4-730d4088424b",
+    "SPDXRef-dejacode-package-3d89db7a-b2e3-4345-8e93-5e9b1864186b",
+    "SPDXRef-dejacode-package-c487210c-eb29-4655-9133-8be117ded943",
+    "SPDXRef-dejacode-package-c4837197-6808-4eff-9712-5faa32d3da72",
+    "SPDXRef-dejacode-package-f8cd2d52-8b40-457f-b7c4-5c2d606d80d2",
+    "SPDXRef-dejacode-package-3f99c8fc-4754-4461-bef9-5934b0b05fd4",
+    "SPDXRef-dejacode-package-cce39d1e-e49e-43b0-8097-30c1f4dbbe47",
+    "SPDXRef-dejacode-package-6b953d28-4791-47ec-a1be-3dada71ffd8c",
+    "SPDXRef-dejacode-package-60e6a017-a9af-4632-8c9e-128978555e41",
+    "SPDXRef-dejacode-package-2a00324e-1463-497b-a375-8a122d2b4217",
+    "SPDXRef-dejacode-package-67ef8e20-ff74-4193-a732-11b4636144cf",
+    "SPDXRef-dejacode-package-ae2aae21-b7c2-44a1-a860-1af9edd6aa90",
+    "SPDXRef-dejacode-package-d9b51f8e-3576-4b60-a57d-a3b208e8247f",
+    "SPDXRef-dejacode-package-8e2bea0b-05a2-4789-a7ee-7181d6bc2db0",
+    "SPDXRef-dejacode-package-21f6be9d-0d38-4e53-a501-9a5e2c8f0eb1",
+    "SPDXRef-dejacode-package-40ead509-a3b9-4287-aba9-bcb7715387c1",
+    "SPDXRef-dejacode-package-b701b581-862b-4023-b218-2136e3076f02"
+  ]
+}

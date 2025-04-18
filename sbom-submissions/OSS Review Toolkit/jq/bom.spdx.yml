@@ -1,0 +1,3569 @@
+---
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.2"
+creationInfo:
+  created: "2024-12-13T10:29:37Z"
+  creators:
+  - "Tool: ort-43.0.2"
+  licenseListVersion: "3.25.0"
+name: "Unnamed document"
+dataLicense: "CC0-1.0"
+documentNamespace: "spdx://d70affbc-de1e-491c-951d-8f1ac6980f13"
+documentDescribes:
+- "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+- "SPDXRef-Project-Unmanaged-jq-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+packages:
+- SPDXID: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  copyrightText: "Copyright (c) 1991, 1996, 2000-2001 by Lucent Technologies\nCopyright\
+    \ (c) 1995-2005 International Business Machines Corporation and others\nPortions\
+    \ Copyright (c) 2016 Kungliga Tekniska Hogskolan (Royal Institute of Technology,\
+    \ Stockholm, Sweden)\ncopyright (c) 2012 Stephen Dolan"
+  downloadLocation: "NONE"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-2-Clause AND CC-BY-3.0 AND ICU AND MIT AND dtoa"
+  name: "docs-from-pipenv"
+  versionInfo: "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+- SPDXID: "SPDXRef-Project-Unmanaged-jq-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  copyrightText: "(c) (c)\n(c) A-! (c)\n(c) K.Kosako, Zui Zhong Geng Xin\nCopyright\
+    \ (c) 1984, 1989-1990, 2000-2015, 2018-2021 Free Software Foundation, Inc.\nCopyright\
+    \ (c) 1991, 1996, 2000-2001 by Lucent Technologies\nCopyright (c) 1994 X Consortium\n\
+    Copyright (c) 1994-1996, 1999-2002, 2004-2016 Free Software Foundation, Inc.\n\
+    Copyright (c) 1995-2005 International Business Machines Corporation and others\n\
+    Copyright (c) 1996-2020 Free Software Foundation, Inc.\nCopyright (c) 1997-1998,\
+    \ 2005, 2008 The NetBSD Foundation, Inc.\nCopyright (c) 2000-2001, 2007-2008,\
+    \ 2010 IBM Corporation\nCopyright (c) 2000-2002, 2005-2010 IBM Corporation\nCopyright\
+    \ (c) 2002-2021 K.Kosako <kkosako0@gmail.com>\nCopyright (c) 2002-2023 K.Kosako\n\
+    Copyright (c) 2005-2023 KUBO Takehiro K.Kosako\nCopyright (c) 2006-2020 Byte K.Kosako\n\
+    Copyright (c) 2008 Steven G. Johnson <stevenj@alum.mit.edu>\nCopyright (c) 2008\
+    \ Tim Toolan <toolan@ele.uri.edu>\nCopyright (c) 2009 Francesco Salvestrini <salvestrini@users.sourceforge.net>\n\
+    Copyright (c) 2011 Daniel Richard G. <skunk@iSKUNK.ORG>\nCopyright (c) 2019 Marc\
+    \ Stevens <marc.stevens@cwi.nl>\nCopyright 1992-2020 Free Software Foundation,\
+    \ Inc.\nOniguruma -- (c) K.Kosako\nPortions Copyright (c) 2016 Kungliga Tekniska\
+    \ Hogskolan (Royal Institute of Technology, Stockholm, Sweden)\ncopyright (c)\
+    \ 2012 Stephen Dolan"
+  downloadLocation: "NONE"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-2-Clause AND CC-BY-3.0 AND GPL-1.0-or-later AND ICU AND LicenseRef-scancode-public-domain\
+    \ AND MIT AND dtoa"
+  name: "jq"
+  versionInfo: "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+- SPDXID: "SPDXRef-Package-PyPI-attrs-23.1.0"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04"
+  copyrightText: "(c) N Revealed\nCopyright (C) Hynek Schlawack <hs@ox.cx>\nCopyright\
+    \ (c) 2015 Hynek Schlawack"
+  description: "Classes Without Boilerplate"
+  downloadLocation: "https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/attrs@23.1.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "attrs"
+  originator: "Person: Hynek Schlawack <hs@ox.cx>"
+  supplier: "Person: Hynek Schlawack <hs@ox.cx>"
+  versionInfo: "23.1.0"
+- SPDXID: "SPDXRef-Package-PyPI-attrs-23.1.0-vcs"
+  copyrightText: "(c) N Revealed\nCopyright (C) Hynek Schlawack <hs@ox.cx>\nCopyright\
+    \ (c) 2015 Hynek Schlawack"
+  description: "Classes Without Boilerplate"
+  downloadLocation: "git+https://github.com/python-attrs/attrs.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/attrs@23.1.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "attrs"
+  originator: "Person: Hynek Schlawack <hs@ox.cx>"
+  supplier: "Person: Hynek Schlawack <hs@ox.cx>"
+  versionInfo: "23.1.0"
+- SPDXID: "SPDXRef-Package-PyPI-attrs-23.1.0-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
+  copyrightText: "(c) N Revealed\nCopyright (C) Hynek Schlawack <hs@ox.cx>\nCopyright\
+    \ (c) 2015 Hynek Schlawack"
+  description: "Classes Without Boilerplate"
+  downloadLocation: "https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/attrs@23.1.0"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-1"
+  - "SPDXRef-File-2"
+  - "SPDXRef-File-3"
+  - "SPDXRef-File-4"
+  - "SPDXRef-File-5"
+  - "SPDXRef-File-6"
+  - "SPDXRef-File-7"
+  - "SPDXRef-File-8"
+  - "SPDXRef-File-9"
+  - "SPDXRef-File-10"
+  - "SPDXRef-File-11"
+  - "SPDXRef-File-12"
+  - "SPDXRef-File-13"
+  - "SPDXRef-File-14"
+  - "SPDXRef-File-15"
+  - "SPDXRef-File-16"
+  - "SPDXRef-File-17"
+  - "SPDXRef-File-18"
+  - "SPDXRef-File-19"
+  - "SPDXRef-File-20"
+  - "SPDXRef-File-21"
+  - "SPDXRef-File-22"
+  - "SPDXRef-File-23"
+  - "SPDXRef-File-24"
+  - "SPDXRef-File-25"
+  - "SPDXRef-File-26"
+  - "SPDXRef-File-27"
+  - "SPDXRef-File-28"
+  - "SPDXRef-File-29"
+  - "SPDXRef-File-30"
+  - "SPDXRef-File-31"
+  - "SPDXRef-File-32"
+  - "SPDXRef-File-33"
+  - "SPDXRef-File-34"
+  - "SPDXRef-File-35"
+  - "SPDXRef-File-36"
+  - "SPDXRef-File-37"
+  - "SPDXRef-File-38"
+  - "SPDXRef-File-39"
+  - "SPDXRef-File-40"
+  - "SPDXRef-File-41"
+  - "SPDXRef-File-42"
+  - "SPDXRef-File-43"
+  - "SPDXRef-File-44"
+  - "SPDXRef-File-45"
+  - "SPDXRef-File-46"
+  - "SPDXRef-File-47"
+  - "SPDXRef-File-48"
+  - "SPDXRef-File-49"
+  - "SPDXRef-File-50"
+  - "SPDXRef-File-51"
+  - "SPDXRef-File-52"
+  - "SPDXRef-File-53"
+  - "SPDXRef-File-54"
+  - "SPDXRef-File-55"
+  - "SPDXRef-File-56"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  licenseInfoFromFiles:
+  - "LicenseRef-scancode-unknown-license-reference"
+  - "MIT"
+  name: "attrs"
+  originator: "Person: Hynek Schlawack <hs@ox.cx>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "f6b696817b4cd646dda4fe198784579923125a18"
+  supplier: "Person: Hynek Schlawack <hs@ox.cx>"
+  versionInfo: "23.1.0"
+- SPDXID: "SPDXRef-Package-PyPI-importlib-resources-6.0.0"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "d952faee11004c045f785bb5636e8f885bed30dc3c940d5d42798a2a4541c185"
+  copyrightText: "Copyright (C) Barry Warsaw <barry@python.org>"
+  description: "Read resources from Python packages"
+  downloadLocation: "https://files.pythonhosted.org/packages/29/d1/bed03eca30aa05aaf6e0873de091f9385c48705c4a607c2dfe3edbe543e8/importlib_resources-6.0.0-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/importlib-resources@6.0.0"
+  filesAnalyzed: false
+  homepage: "https://github.com/python/importlib_resources"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+  name: "importlib-resources"
+  originator: "Person: Barry Warsaw <barry@python.org>"
+  supplier: "Person: Barry Warsaw <barry@python.org>"
+  versionInfo: "6.0.0"
+- SPDXID: "SPDXRef-Package-PyPI-importlib-resources-6.0.0-vcs"
+  copyrightText: "Copyright (C) Barry Warsaw <barry@python.org>"
+  description: "Read resources from Python packages"
+  downloadLocation: "git+https://github.com/python/importlib_resources.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/importlib-resources@6.0.0"
+  filesAnalyzed: false
+  homepage: "https://github.com/python/importlib_resources"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+  name: "importlib-resources"
+  originator: "Person: Barry Warsaw <barry@python.org>"
+  supplier: "Person: Barry Warsaw <barry@python.org>"
+  versionInfo: "6.0.0"
+- SPDXID: "SPDXRef-Package-PyPI-importlib-resources-6.0.0-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "4cf94875a8368bd89531a756df9a9ebe1f150e0f885030b461237bc7f2d905f2"
+  copyrightText: "Copyright (C) Barry Warsaw <barry@python.org>"
+  description: "Read resources from Python packages"
+  downloadLocation: "https://files.pythonhosted.org/packages/78/1f/65a619c18b0ecd55ac165c7ed119c846051991d01c2cfc0ff7818e4573f0/importlib_resources-6.0.0.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/importlib-resources@6.0.0"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-57"
+  - "SPDXRef-File-58"
+  - "SPDXRef-File-59"
+  - "SPDXRef-File-60"
+  homepage: "https://github.com/python/importlib_resources"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+  licenseInfoFromFiles:
+  - "Apache-2.0"
+  - "LicenseRef-scancode-unknown-license-reference"
+  - "MIT"
+  name: "importlib-resources"
+  originator: "Person: Barry Warsaw <barry@python.org>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "b7b42dc6ded2aa0f8dc202ee33642a7bafde0e40"
+  supplier: "Person: Barry Warsaw <barry@python.org>"
+  versionInfo: "6.0.0"
+- SPDXID: "SPDXRef-Package-PyPI-jinja2-3.1.4"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"
+  copyrightText: "(c) Copyright 2008 by http://domain.invalid/>\nCopyright 2007 Pallets\n\
+    copyright 2007 Pallets"
+  description: "A very fast and expressive template engine."
+  downloadLocation: "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jinja2@3.1.4"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "jinja2"
+  versionInfo: "3.1.4"
+- SPDXID: "SPDXRef-Package-PyPI-jinja2-3.1.4-vcs"
+  copyrightText: "(c) Copyright 2008 by http://domain.invalid/>\nCopyright 2007 Pallets\n\
+    copyright 2007 Pallets"
+  description: "A very fast and expressive template engine."
+  downloadLocation: "git+https://github.com/pallets/jinja.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jinja2@3.1.4"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "jinja2"
+  versionInfo: "3.1.4"
+- SPDXID: "SPDXRef-Package-PyPI-jinja2-3.1.4-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369"
+  copyrightText: "(c) Copyright 2008 by http://domain.invalid/>\nCopyright 2007 Pallets\n\
+    copyright 2007 Pallets"
+  description: "A very fast and expressive template engine."
+  downloadLocation: "https://files.pythonhosted.org/packages/ed/55/39036716d19cab0747a5020fc7e907f362fbf48c984b14e62127f7e68e5d/jinja2-3.1.4.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jinja2@3.1.4"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-61"
+  - "SPDXRef-File-62"
+  - "SPDXRef-File-63"
+  - "SPDXRef-File-64"
+  - "SPDXRef-File-65"
+  - "SPDXRef-File-66"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  licenseInfoFromFiles:
+  - "BSD-3-Clause"
+  - "LicenseRef-scancode-unknown-license-reference"
+  name: "jinja2"
+  packageVerificationCode:
+    packageVerificationCodeValue: "721e9bdb95a4359235e8d20e97a768eda065b509"
+  versionInfo: "3.1.4"
+- SPDXID: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "971be834317c22daaa9132340a51c01b50910724082c2c1a2ac87eeec153a3fe"
+  copyrightText: "Copyright (C) Julian Berman <Julian+jsonschema@GrayVines.com>\n\
+    Copyright (c) 2012-2013 Julian Berman\nJulian Berman copyright 2013"
+  description: "An implementation of JSON Schema validation for Python"
+  downloadLocation: "https://files.pythonhosted.org/packages/a1/ba/28ce987450c6afa8336373761193ddaadc1ba2004fbf23a6407db036f558/jsonschema-4.18.4-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jsonschema@4.18.4"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND (MIT OR MPL-2.0)\
+    \ AND Python-2.0 AND Unlicense"
+  name: "jsonschema"
+  originator: "Person: Julian Berman <Julian+jsonschema@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+jsonschema@GrayVines.com>"
+  versionInfo: "4.18.4"
+- SPDXID: "SPDXRef-Package-PyPI-jsonschema-4.18.4-vcs"
+  copyrightText: "Copyright (C) Julian Berman <Julian+jsonschema@GrayVines.com>\n\
+    Copyright (c) 2012-2013 Julian Berman\nJulian Berman copyright 2013"
+  description: "An implementation of JSON Schema validation for Python"
+  downloadLocation: "git+https://github.com/python-jsonschema/jsonschema.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jsonschema@4.18.4"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND (MIT OR MPL-2.0)\
+    \ AND Python-2.0 AND Unlicense"
+  name: "jsonschema"
+  originator: "Person: Julian Berman <Julian+jsonschema@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+jsonschema@GrayVines.com>"
+  versionInfo: "4.18.4"
+- SPDXID: "SPDXRef-Package-PyPI-jsonschema-4.18.4-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "fb3642735399fa958c0d2aad7057901554596c63349f4f6b283c493cf692a25d"
+  copyrightText: "Copyright (C) Julian Berman <Julian+jsonschema@GrayVines.com>\n\
+    Copyright (c) 2012-2013 Julian Berman\nJulian Berman copyright 2013"
+  description: "An implementation of JSON Schema validation for Python"
+  downloadLocation: "https://files.pythonhosted.org/packages/e5/a2/3e03efdd25f93e1296d0454a7680456fda2925f2ff624bf43855d785b3bd/jsonschema-4.18.4.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jsonschema@4.18.4"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-67"
+  - "SPDXRef-File-68"
+  - "SPDXRef-File-69"
+  - "SPDXRef-File-70"
+  - "SPDXRef-File-71"
+  - "SPDXRef-File-72"
+  - "SPDXRef-File-73"
+  - "SPDXRef-File-74"
+  - "SPDXRef-File-75"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND BSD-3-Clause AND ISC AND MIT AND (MIT OR MPL-2.0)\
+    \ AND Python-2.0 AND Unlicense"
+  licenseInfoFromFiles:
+  - "Apache-2.0"
+  - "BSD-3-Clause"
+  - "ISC"
+  - "MIT"
+  - "MPL-2.0"
+  - "Python-2.0"
+  - "Unlicense"
+  name: "jsonschema"
+  originator: "Person: Julian Berman <Julian+jsonschema@GrayVines.com>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "9e299b6de4700c71f56a98e29677d072a07de431"
+  supplier: "Person: Julian Berman <Julian+jsonschema@GrayVines.com>"
+  versionInfo: "4.18.4"
+- SPDXID: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "05adf340b659828a004220a9613be00fa3f223f2b82002e273dee62fd50524b1"
+  copyrightText: "Copyright (C) Julian Berman <Julian+jsonschema-specifications@GrayVines.com>\n\
+    Copyright (c) 2022 Julian Berman"
+  description: "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
+  downloadLocation: "https://files.pythonhosted.org/packages/1c/24/83349ac2189cc2435e84da3f69ba3c97314d3c0622628e55171c6798ed80/jsonschema_specifications-2023.7.1-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jsonschema-specifications@2023.7.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "jsonschema-specifications"
+  originator: "Person: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>"
+  versionInfo: "2023.7.1"
+- SPDXID: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1-vcs"
+  copyrightText: "Copyright (C) Julian Berman <Julian+jsonschema-specifications@GrayVines.com>\n\
+    Copyright (c) 2022 Julian Berman"
+  description: "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
+  downloadLocation: "git+https://github.com/python-jsonschema/jsonschema-specifications.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jsonschema-specifications@2023.7.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "jsonschema-specifications"
+  originator: "Person: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>"
+  versionInfo: "2023.7.1"
+- SPDXID: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "c91a50404e88a1f6ba40636778e2ee08f6e24c5613fe4c53ac24578a5a7f72bb"
+  copyrightText: "Copyright (C) Julian Berman <Julian+jsonschema-specifications@GrayVines.com>\n\
+    Copyright (c) 2022 Julian Berman"
+  description: "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
+  downloadLocation: "https://files.pythonhosted.org/packages/12/ce/eb5396b34c28cbac19a6a8632f0e03d309135d77285536258b82120198d8/jsonschema_specifications-2023.7.1.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/jsonschema-specifications@2023.7.1"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-76"
+  - "SPDXRef-File-77"
+  - "SPDXRef-File-78"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  licenseInfoFromFiles:
+  - "MIT"
+  name: "jsonschema-specifications"
+  originator: "Person: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "f0532c33d315882460870942e6233fa9a7899abc"
+  supplier: "Person: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>"
+  versionInfo: "2023.7.1"
+- SPDXID: "SPDXRef-Package-PyPI-lxml-4.9.3"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "9767e79108424fb6c3edf8f81e6730666a50feb01a328f4a016464a5893f835a"
+  copyrightText: "(c) Copyright 2020 lxml dev team\n(c) ET. Where\n(c) OpenJS Foundation\
+    \ and other contributors\n(c) self.assertEqual http://ns1\nCopyright (C) lxml\
+    \ dev team <lxml-dev@lxml.de>\nCopyright (c) 1989, 1991 Free Software Foundation,\
+    \ Inc.\nCopyright (c) 1999-2003 by Secret Labs AB\nCopyright (c) 1999-2004 by\
+    \ Fredrik Lundh\nCopyright (c) 1999-2009 by Fredrik Lundh\nCopyright (c) 2000-2008\
+    \ Rick Jelliffe and Academia Sinica Computing Center\nCopyright (c) 2003 Shuttleworth\
+    \ Foundation\nCopyright (c) 2004 Ian Bicking\nCopyright (c) 2004 Infrae\nCopyright\
+    \ (c) 2004-2010 Rick Jellife\nCopyright (c) 2008 Rick Jelliffe\nCopyright (c)\
+    \ 2015 ISO/IEC\nCopyright 2006-2009 by the Pygments team\nCopyright 2007-2023\
+    \ by the Sphinx team\nCopyright Sphinx contributors\ncopyright 2020 lxml dev team\n\
+    copyright Ian Bicking\ncopyright International Organization\ncopyright Rick Jelliffe\
+    \ and Academia Sinica Computing Center\ncopyright Shuttleworth Foundation\ncopyrighted\
+    \ by the Free Software Foundation"
+  description: "Powerful and Pythonic XML processing library combining libxml2/libxslt\
+    \ with the ElementTree API."
+  downloadLocation: "https://files.pythonhosted.org/packages/7b/73/832a113f9362cadb0766950b79c4951d2044524fba242bb6e6990c5f9b48/lxml-4.9.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/lxml@4.9.3"
+  filesAnalyzed: false
+  homepage: "https://lxml.de/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference\
+    \ AND MIT"
+  name: "lxml"
+  originator: "Person: lxml dev team <lxml-dev@lxml.de>"
+  supplier: "Person: lxml dev team <lxml-dev@lxml.de>"
+  versionInfo: "4.9.3"
+- SPDXID: "SPDXRef-Package-PyPI-lxml-4.9.3-vcs"
+  copyrightText: "(c) Copyright 2020 lxml dev team\n(c) ET. Where\n(c) OpenJS Foundation\
+    \ and other contributors\n(c) self.assertEqual http://ns1\nCopyright (C) lxml\
+    \ dev team <lxml-dev@lxml.de>\nCopyright (c) 1989, 1991 Free Software Foundation,\
+    \ Inc.\nCopyright (c) 1999-2003 by Secret Labs AB\nCopyright (c) 1999-2004 by\
+    \ Fredrik Lundh\nCopyright (c) 1999-2009 by Fredrik Lundh\nCopyright (c) 2000-2008\
+    \ Rick Jelliffe and Academia Sinica Computing Center\nCopyright (c) 2003 Shuttleworth\
+    \ Foundation\nCopyright (c) 2004 Ian Bicking\nCopyright (c) 2004 Infrae\nCopyright\
+    \ (c) 2004-2010 Rick Jellife\nCopyright (c) 2008 Rick Jelliffe\nCopyright (c)\
+    \ 2015 ISO/IEC\nCopyright 2006-2009 by the Pygments team\nCopyright 2007-2023\
+    \ by the Sphinx team\nCopyright Sphinx contributors\ncopyright 2020 lxml dev team\n\
+    copyright Ian Bicking\ncopyright International Organization\ncopyright Rick Jelliffe\
+    \ and Academia Sinica Computing Center\ncopyright Shuttleworth Foundation\ncopyrighted\
+    \ by the Free Software Foundation"
+  description: "Powerful and Pythonic XML processing library combining libxml2/libxslt\
+    \ with the ElementTree API."
+  downloadLocation: "git+https://github.com/lxml/lxml.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/lxml@4.9.3"
+  filesAnalyzed: false
+  homepage: "https://lxml.de/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference\
+    \ AND MIT"
+  name: "lxml"
+  originator: "Person: lxml dev team <lxml-dev@lxml.de>"
+  supplier: "Person: lxml dev team <lxml-dev@lxml.de>"
+  versionInfo: "4.9.3"
+- SPDXID: "SPDXRef-Package-PyPI-lxml-4.9.3-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "48628bd53a426c9eb9bc066a923acaa0878d1e86129fd5359aee99285f4eed9c"
+  copyrightText: "(c) Copyright 2020 lxml dev team\n(c) ET. Where\n(c) OpenJS Foundation\
+    \ and other contributors\n(c) self.assertEqual http://ns1\nCopyright (C) lxml\
+    \ dev team <lxml-dev@lxml.de>\nCopyright (c) 1989, 1991 Free Software Foundation,\
+    \ Inc.\nCopyright (c) 1999-2003 by Secret Labs AB\nCopyright (c) 1999-2004 by\
+    \ Fredrik Lundh\nCopyright (c) 1999-2009 by Fredrik Lundh\nCopyright (c) 2000-2008\
+    \ Rick Jelliffe and Academia Sinica Computing Center\nCopyright (c) 2003 Shuttleworth\
+    \ Foundation\nCopyright (c) 2004 Ian Bicking\nCopyright (c) 2004 Infrae\nCopyright\
+    \ (c) 2004-2010 Rick Jellife\nCopyright (c) 2008 Rick Jelliffe\nCopyright (c)\
+    \ 2015 ISO/IEC\nCopyright 2006-2009 by the Pygments team\nCopyright 2007-2023\
+    \ by the Sphinx team\nCopyright Sphinx contributors\ncopyright 2020 lxml dev team\n\
+    copyright Ian Bicking\ncopyright International Organization\ncopyright Rick Jelliffe\
+    \ and Academia Sinica Computing Center\ncopyright Shuttleworth Foundation\ncopyrighted\
+    \ by the Free Software Foundation"
+  description: "Powerful and Pythonic XML processing library combining libxml2/libxslt\
+    \ with the ElementTree API."
+  downloadLocation: "https://files.pythonhosted.org/packages/30/39/7305428d1c4f28282a4f5bdbef24e0f905d351f34cf351ceb131f5cddf78/lxml-4.9.3.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/lxml@4.9.3"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-79"
+  - "SPDXRef-File-80"
+  - "SPDXRef-File-81"
+  - "SPDXRef-File-82"
+  - "SPDXRef-File-83"
+  - "SPDXRef-File-84"
+  - "SPDXRef-File-85"
+  - "SPDXRef-File-86"
+  - "SPDXRef-File-87"
+  - "SPDXRef-File-88"
+  - "SPDXRef-File-89"
+  - "SPDXRef-File-90"
+  - "SPDXRef-File-91"
+  - "SPDXRef-File-92"
+  - "SPDXRef-File-93"
+  - "SPDXRef-File-94"
+  - "SPDXRef-File-95"
+  - "SPDXRef-File-96"
+  - "SPDXRef-File-97"
+  - "SPDXRef-File-98"
+  - "SPDXRef-File-99"
+  - "SPDXRef-File-100"
+  - "SPDXRef-File-101"
+  - "SPDXRef-File-102"
+  - "SPDXRef-File-103"
+  - "SPDXRef-File-104"
+  - "SPDXRef-File-105"
+  - "SPDXRef-File-106"
+  - "SPDXRef-File-107"
+  - "SPDXRef-File-108"
+  - "SPDXRef-File-109"
+  - "SPDXRef-File-110"
+  - "SPDXRef-File-111"
+  - "SPDXRef-File-112"
+  - "SPDXRef-File-113"
+  - "SPDXRef-File-114"
+  - "SPDXRef-File-115"
+  - "SPDXRef-File-116"
+  - "SPDXRef-File-117"
+  - "SPDXRef-File-118"
+  - "SPDXRef-File-119"
+  - "SPDXRef-File-120"
+  - "SPDXRef-File-121"
+  - "SPDXRef-File-122"
+  - "SPDXRef-File-123"
+  - "SPDXRef-File-124"
+  - "SPDXRef-File-125"
+  - "SPDXRef-File-126"
+  - "SPDXRef-File-127"
+  - "SPDXRef-File-128"
+  - "SPDXRef-File-129"
+  - "SPDXRef-File-130"
+  - "SPDXRef-File-131"
+  - "SPDXRef-File-132"
+  - "SPDXRef-File-133"
+  - "SPDXRef-File-134"
+  - "SPDXRef-File-135"
+  - "SPDXRef-File-136"
+  - "SPDXRef-File-137"
+  - "SPDXRef-File-138"
+  - "SPDXRef-File-139"
+  - "SPDXRef-File-140"
+  - "SPDXRef-File-141"
+  - "SPDXRef-File-142"
+  - "SPDXRef-File-143"
+  - "SPDXRef-File-144"
+  - "SPDXRef-File-145"
+  - "SPDXRef-File-146"
+  - "SPDXRef-File-147"
+  - "SPDXRef-File-148"
+  - "SPDXRef-File-149"
+  - "SPDXRef-File-150"
+  - "SPDXRef-File-151"
+  - "SPDXRef-File-152"
+  - "SPDXRef-File-153"
+  - "SPDXRef-File-154"
+  - "SPDXRef-File-155"
+  - "SPDXRef-File-156"
+  homepage: "https://lxml.de/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference\
+    \ AND MIT"
+  licenseInfoFromFiles:
+  - "BSD-3-Clause"
+  - "GPL-1.0-or-later"
+  - "GPL-2.0-only"
+  - "GPL-2.0-or-later"
+  - "LicenseRef-scancode-other-permissive"
+  - "LicenseRef-scancode-proprietary-license"
+  - "LicenseRef-scancode-public-domain"
+  - "LicenseRef-scancode-secret-labs-2011"
+  - "LicenseRef-scancode-unknown-license-reference"
+  - "MIT"
+  - "OFL-1.1"
+  - "Zlib"
+  name: "lxml"
+  originator: "Person: lxml dev team <lxml-dev@lxml.de>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "ffce64e1212a937db1216729adde9bb8fc717b38"
+  supplier: "Person: lxml dev team <lxml-dev@lxml.de>"
+  versionInfo: "4.9.3"
+- SPDXID: "SPDXRef-Package-PyPI-markdown-3.4.3"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "065fd4df22da73a625f14890dd77eb8040edcbd68794bcd35943be14490608b2"
+  copyrightText: "(c) 2004 Foo Corporation\nCopyright (c) 1999-2007 by Fredrik Lundh\n\
+    Copyright (c) 2003 John Gruber <https://daringfireball.net/>\nCopyright (c) 2004,\
+    \ 2007 Chad Miller <http://web.chad.org/>\nCopyright 2004 Manfred Stienstra\n\
+    Copyright 2004-2006 Yuri Takhteyev\nCopyright 2006-2008, 2011 Waylan Limberg (http://achinghead.com/)\n\
+    Copyright 2007-2008 Waylan Limberg (http://achinghead.com/) and Seemant Kulleen\
+    \ (http://www.kulleen.org/)\nCopyright 2007-2009, 2011 Waylan Limberg (http://achinghead.com)\n\
+    Copyright 2007-2022 The Python Markdown Project\nCopyright 2008 Jack Miller (https://codezen.org/)\n\
+    Copyright 2008-2009 Waylan Limberg (http://achinghead.com)\nCopyright 2008-2014\
+    \ The Python Markdown Project\nCopyright 2011 Brian Neal (https://deathofagremmie.com/)\n\
+    Copyright 2011 Waylan Limberg (http://achinghead.com/)\nCopyright Tiago Serafim\
+    \ (https://www.tiagoserafim.com/)\nThe Python-Markdown Project Copyright (c) 2010-2023"
+  description: "Python implementation of John Gruber's Markdown."
+  downloadLocation: "https://files.pythonhosted.org/packages/9a/a1/1352b0e5a3c71a79fa9265726e2217f69df9fd4de0bcb5725cc61f62a5df/Markdown-3.4.3-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/markdown@3.4.3"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "markdown"
+  originator: "Person: Manfred Stienstra, Yuri Takhteyev <Waylan limberg <python.markdown@gmail.com>>"
+  supplier: "Person: Manfred Stienstra, Yuri Takhteyev <Waylan limberg <python.markdown@gmail.com>>"
+  versionInfo: "3.4.3"
+- SPDXID: "SPDXRef-Package-PyPI-markdown-3.4.3-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "8bf101198e004dc93e84a12a7395e31aac6a9c9942848ae1d99b9d72cf9b3520"
+  copyrightText: "(c) 2004 Foo Corporation\nCopyright (c) 1999-2007 by Fredrik Lundh\n\
+    Copyright (c) 2003 John Gruber <https://daringfireball.net/>\nCopyright (c) 2004,\
+    \ 2007 Chad Miller <http://web.chad.org/>\nCopyright 2004 Manfred Stienstra\n\
+    Copyright 2004-2006 Yuri Takhteyev\nCopyright 2006-2008, 2011 Waylan Limberg (http://achinghead.com/)\n\
+    Copyright 2007-2008 Waylan Limberg (http://achinghead.com/) and Seemant Kulleen\
+    \ (http://www.kulleen.org/)\nCopyright 2007-2009, 2011 Waylan Limberg (http://achinghead.com)\n\
+    Copyright 2007-2022 The Python Markdown Project\nCopyright 2008 Jack Miller (https://codezen.org/)\n\
+    Copyright 2008-2009 Waylan Limberg (http://achinghead.com)\nCopyright 2008-2014\
+    \ The Python Markdown Project\nCopyright 2011 Brian Neal (https://deathofagremmie.com/)\n\
+    Copyright 2011 Waylan Limberg (http://achinghead.com/)\nCopyright Tiago Serafim\
+    \ (https://www.tiagoserafim.com/)\nThe Python-Markdown Project Copyright (c) 2010-2023"
+  description: "Python implementation of John Gruber's Markdown."
+  downloadLocation: "https://files.pythonhosted.org/packages/9d/80/cc67bfb7deb973d5ae662ee6454d2dafaa8f7c106feafd0d1572666ebde5/Markdown-3.4.3.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/markdown@3.4.3"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-157"
+  - "SPDXRef-File-158"
+  - "SPDXRef-File-159"
+  - "SPDXRef-File-160"
+  - "SPDXRef-File-161"
+  - "SPDXRef-File-162"
+  - "SPDXRef-File-163"
+  - "SPDXRef-File-164"
+  - "SPDXRef-File-165"
+  - "SPDXRef-File-166"
+  - "SPDXRef-File-167"
+  - "SPDXRef-File-168"
+  - "SPDXRef-File-169"
+  - "SPDXRef-File-170"
+  - "SPDXRef-File-171"
+  - "SPDXRef-File-172"
+  - "SPDXRef-File-173"
+  - "SPDXRef-File-174"
+  - "SPDXRef-File-175"
+  - "SPDXRef-File-176"
+  - "SPDXRef-File-177"
+  - "SPDXRef-File-178"
+  - "SPDXRef-File-179"
+  - "SPDXRef-File-180"
+  - "SPDXRef-File-181"
+  - "SPDXRef-File-182"
+  - "SPDXRef-File-183"
+  - "SPDXRef-File-184"
+  - "SPDXRef-File-185"
+  - "SPDXRef-File-186"
+  - "SPDXRef-File-187"
+  - "SPDXRef-File-188"
+  - "SPDXRef-File-189"
+  - "SPDXRef-File-190"
+  - "SPDXRef-File-191"
+  - "SPDXRef-File-192"
+  - "SPDXRef-File-193"
+  - "SPDXRef-File-194"
+  - "SPDXRef-File-195"
+  - "SPDXRef-File-196"
+  - "SPDXRef-File-197"
+  - "SPDXRef-File-198"
+  - "SPDXRef-File-199"
+  - "SPDXRef-File-200"
+  - "SPDXRef-File-201"
+  - "SPDXRef-File-202"
+  - "SPDXRef-File-203"
+  - "SPDXRef-File-204"
+  - "SPDXRef-File-205"
+  - "SPDXRef-File-206"
+  - "SPDXRef-File-207"
+  - "SPDXRef-File-208"
+  - "SPDXRef-File-209"
+  - "SPDXRef-File-210"
+  - "SPDXRef-File-211"
+  - "SPDXRef-File-212"
+  - "SPDXRef-File-213"
+  - "SPDXRef-File-214"
+  - "SPDXRef-File-215"
+  - "SPDXRef-File-216"
+  - "SPDXRef-File-217"
+  - "SPDXRef-File-218"
+  - "SPDXRef-File-219"
+  - "SPDXRef-File-220"
+  - "SPDXRef-File-221"
+  - "SPDXRef-File-222"
+  - "SPDXRef-File-223"
+  - "SPDXRef-File-224"
+  - "SPDXRef-File-225"
+  - "SPDXRef-File-226"
+  - "SPDXRef-File-227"
+  - "SPDXRef-File-228"
+  - "SPDXRef-File-229"
+  - "SPDXRef-File-230"
+  - "SPDXRef-File-231"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  licenseInfoFromFiles:
+  - "BSD-2-Clause"
+  - "BSD-3-Clause"
+  - "LicenseRef-scancode-secret-labs-2011"
+  - "LicenseRef-scancode-unknown-license-reference"
+  name: "markdown"
+  originator: "Person: Manfred Stienstra, Yuri Takhteyev <Waylan limberg <python.markdown@gmail.com>>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "a7754a3541a348fbfdfb10361b774f441bdcbe8d"
+  supplier: "Person: Manfred Stienstra, Yuri Takhteyev <Waylan limberg <python.markdown@gmail.com>>"
+  versionInfo: "3.4.3"
+- SPDXID: "SPDXRef-Package-PyPI-markupsafe-2.1.5"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "b91c037585eba9095565a3556f611e3cbfaa42ca1e865f7b8015fe5c7336d5a5"
+  copyrightText: "Copyright 2010 Pallets\ncopyright 2010 Pallets"
+  description: "Safely add untrusted strings to HTML/XML markup."
+  downloadLocation: "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/markupsafe@2.1.5"
+  filesAnalyzed: false
+  homepage: "https://palletsprojects.com/p/markupsafe/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+  name: "markupsafe"
+  versionInfo: "2.1.5"
+- SPDXID: "SPDXRef-Package-PyPI-markupsafe-2.1.5-vcs"
+  copyrightText: "Copyright 2010 Pallets\ncopyright 2010 Pallets"
+  description: "Safely add untrusted strings to HTML/XML markup."
+  downloadLocation: "git+https://github.com/pallets/markupsafe.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/markupsafe@2.1.5"
+  filesAnalyzed: false
+  homepage: "https://palletsprojects.com/p/markupsafe/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+  name: "markupsafe"
+  versionInfo: "2.1.5"
+- SPDXID: "SPDXRef-Package-PyPI-markupsafe-2.1.5-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b"
+  copyrightText: "Copyright 2010 Pallets\ncopyright 2010 Pallets"
+  description: "Safely add untrusted strings to HTML/XML markup."
+  downloadLocation: "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/markupsafe@2.1.5"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-232"
+  - "SPDXRef-File-233"
+  - "SPDXRef-File-234"
+  - "SPDXRef-File-235"
+  - "SPDXRef-File-236"
+  - "SPDXRef-File-237"
+  homepage: "https://palletsprojects.com/p/markupsafe/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+  licenseInfoFromFiles:
+  - "BSD-3-Clause"
+  - "LicenseRef-scancode-unknown-license-reference"
+  name: "markupsafe"
+  packageVerificationCode:
+    packageVerificationCodeValue: "c468129fb99d602afe04b11f184c6aafa7d08d45"
+  versionInfo: "2.1.5"
+- SPDXID: "SPDXRef-Package-PyPI-pyyaml-6.0.1"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "d2b04aac4d386b172d5b9692e2d2da8de7bfb6c387fa4f801fbf6fb2e6ba4673"
+  copyrightText: "Copyright (C) Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2006-2016\
+    \ Kirill Simonov\nCopyright (c) 2017-2021 Ingy dot Net"
+  description: "YAML parser and emitter for Python"
+  downloadLocation: "https://files.pythonhosted.org/packages/7b/5e/efd033ab7199a0b2044dab3b9f7a4f6670e6a52c089de572e928d2873b06/PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/pyyaml@6.0.1"
+  filesAnalyzed: false
+  homepage: "https://pyyaml.org/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "pyyaml"
+  originator: "Person: Kirill Simonov <xi@resolvent.net>"
+  supplier: "Person: Kirill Simonov <xi@resolvent.net>"
+  versionInfo: "6.0.1"
+- SPDXID: "SPDXRef-Package-PyPI-pyyaml-6.0.1-vcs"
+  copyrightText: "Copyright (C) Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2006-2016\
+    \ Kirill Simonov\nCopyright (c) 2017-2021 Ingy dot Net"
+  description: "YAML parser and emitter for Python"
+  downloadLocation: "git+https://github.com/yaml/pyyaml.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/pyyaml@6.0.1"
+  filesAnalyzed: false
+  homepage: "https://pyyaml.org/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "pyyaml"
+  originator: "Person: Kirill Simonov <xi@resolvent.net>"
+  supplier: "Person: Kirill Simonov <xi@resolvent.net>"
+  versionInfo: "6.0.1"
+- SPDXID: "SPDXRef-Package-PyPI-pyyaml-6.0.1-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43"
+  copyrightText: "Copyright (C) Kirill Simonov <xi@resolvent.net>\nCopyright (c) 2006-2016\
+    \ Kirill Simonov\nCopyright (c) 2017-2021 Ingy dot Net"
+  description: "YAML parser and emitter for Python"
+  downloadLocation: "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/pyyaml@6.0.1"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-238"
+  - "SPDXRef-File-239"
+  - "SPDXRef-File-240"
+  - "SPDXRef-File-241"
+  - "SPDXRef-File-242"
+  homepage: "https://pyyaml.org/"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  licenseInfoFromFiles:
+  - "LicenseRef-scancode-unknown-license-reference"
+  - "MIT"
+  name: "pyyaml"
+  originator: "Person: Kirill Simonov <xi@resolvent.net>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "7a3e3f21512a22f1c0e746d85786110d9c2002fc"
+  supplier: "Person: Kirill Simonov <xi@resolvent.net>"
+  versionInfo: "6.0.1"
+- SPDXID: "SPDXRef-Package-PyPI-referencing-0.30.0"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "c257b08a399b6c2f5a3510a50d28ab5dbc7bbde049bcaf954d43c446f83ab548"
+  copyrightText: "Copyright (C) Julian Berman <Julian+referencing@GrayVines.com>\n\
+    Copyright (c) 2022 Julian Berman"
+  description: "JSON Referencing + Python"
+  downloadLocation: "https://files.pythonhosted.org/packages/ea/c3/f75f0ce2cdacca3d68a70b1756635092a1add1002e34afb4895b9fb62598/referencing-0.30.0-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/referencing@0.30.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "referencing"
+  originator: "Person: Julian Berman <Julian+referencing@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+referencing@GrayVines.com>"
+  versionInfo: "0.30.0"
+- SPDXID: "SPDXRef-Package-PyPI-referencing-0.30.0-vcs"
+  copyrightText: "Copyright (C) Julian Berman <Julian+referencing@GrayVines.com>\n\
+    Copyright (c) 2022 Julian Berman"
+  description: "JSON Referencing + Python"
+  downloadLocation: "git+https://github.com/python-jsonschema/referencing.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/referencing@0.30.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "referencing"
+  originator: "Person: Julian Berman <Julian+referencing@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+referencing@GrayVines.com>"
+  versionInfo: "0.30.0"
+- SPDXID: "SPDXRef-Package-PyPI-referencing-0.30.0-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "47237742e990457f7512c7d27486394a9aadaf876cbfaa4be65b27b4f4d47c6b"
+  copyrightText: "Copyright (C) Julian Berman <Julian+referencing@GrayVines.com>\n\
+    Copyright (c) 2022 Julian Berman"
+  description: "JSON Referencing + Python"
+  downloadLocation: "https://files.pythonhosted.org/packages/ae/0e/5a4c22e046dc8c94fec2046255ddd7068b7aaff66b3d0d0dd2cfbf8a7b20/referencing-0.30.0.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/referencing@0.30.0"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-243"
+  - "SPDXRef-File-244"
+  - "SPDXRef-File-245"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  licenseInfoFromFiles:
+  - "MIT"
+  name: "referencing"
+  originator: "Person: Julian Berman <Julian+referencing@GrayVines.com>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "4579b97e38c8e72223ff6ef2dce9f38089af3b73"
+  supplier: "Person: Julian Berman <Julian+referencing@GrayVines.com>"
+  versionInfo: "0.30.0"
+- SPDXID: "SPDXRef-Package-PyPI-rpds-py-0.9.2"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "c5934e2833afeaf36bd1eadb57256239785f5af0220ed8d21c2896ec4d3a765f"
+  copyrightText: "Copyright (C) Julian Berman <Julian+rpds@GrayVines.com>\nCopyright\
+    \ (c) 2022 Tobias Gustafsson\nCopyright (c) 2023 Julian Berman"
+  description: "Python bindings to Rust's persistent data structures (rpds)"
+  downloadLocation: "https://files.pythonhosted.org/packages/d3/65/bef74a9023a266ae3582f56eb2e78c4e92903c30a15810f42045c2d68cb9/rpds_py-0.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/rpds-py@0.9.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "rpds-py"
+  originator: "Person: Julian Berman <Julian+rpds@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+rpds@GrayVines.com>"
+  versionInfo: "0.9.2"
+- SPDXID: "SPDXRef-Package-PyPI-rpds-py-0.9.2-vcs"
+  copyrightText: "Copyright (C) Julian Berman <Julian+rpds@GrayVines.com>\nCopyright\
+    \ (c) 2022 Tobias Gustafsson\nCopyright (c) 2023 Julian Berman"
+  description: "Python bindings to Rust's persistent data structures (rpds)"
+  downloadLocation: "git+https://github.com/crate-py/rpds.git"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/rpds-py@0.9.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "rpds-py"
+  originator: "Person: Julian Berman <Julian+rpds@GrayVines.com>"
+  supplier: "Person: Julian Berman <Julian+rpds@GrayVines.com>"
+  versionInfo: "0.9.2"
+- SPDXID: "SPDXRef-Package-PyPI-rpds-py-0.9.2-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "8d70e8f14900f2657c249ea4def963bed86a29b81f81f5b76b5a9215680de945"
+  copyrightText: "Copyright (C) Julian Berman <Julian+rpds@GrayVines.com>\nCopyright\
+    \ (c) 2022 Tobias Gustafsson\nCopyright (c) 2023 Julian Berman"
+  description: "Python bindings to Rust's persistent data structures (rpds)"
+  downloadLocation: "https://files.pythonhosted.org/packages/da/3c/fa2701bfc5d67f4a23f1f0f4347284c51801e9dbc24f916231c2446647df/rpds_py-0.9.2.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/rpds-py@0.9.2"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-246"
+  - "SPDXRef-File-247"
+  - "SPDXRef-File-248"
+  - "SPDXRef-File-249"
+  - "SPDXRef-File-250"
+  - "SPDXRef-File-251"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  licenseInfoFromFiles:
+  - "MIT"
+  name: "rpds-py"
+  originator: "Person: Julian Berman <Julian+rpds@GrayVines.com>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "0abca7871c0dd0877a8297d0bf2d2ab750afef8b"
+  supplier: "Person: Julian Berman <Julian+rpds@GrayVines.com>"
+  versionInfo: "0.9.2"
+- SPDXID: "SPDXRef-Package-PyPI-zipp-3.19.1"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "2828e64edb5386ea6a52e7ba7cdb17bb30a73a858f5eb6eb93d8d36f5ea26091"
+  copyrightText: "Copyright (C) \"Jason R. Coombs\" <jaraco@jaraco.com>"
+  description: "Backport of pathlib-compatible object wrapper for zip files"
+  downloadLocation: "https://files.pythonhosted.org/packages/82/1a/ac67760425f2477b1da593b347db66d474130747e6e5285d08c7f2d5884a/zipp-3.19.1-py3-none-any.whl"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/zipp@3.19.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "zipp"
+  originator: "Person: \"Jason R. Coombs\" <jaraco@jaraco.com>"
+  supplier: "Person: \"Jason R. Coombs\" <jaraco@jaraco.com>"
+  versionInfo: "3.19.1"
+- SPDXID: "SPDXRef-Package-PyPI-zipp-3.19.1-source-artifact"
+  checksums:
+  - algorithm: "SHA256"
+    checksumValue: "35427f6d5594f4acf82d25541438348c26736fa9b3afa2754bcd63cdb99d8e8f"
+  copyrightText: "Copyright (C) \"Jason R. Coombs\" <jaraco@jaraco.com>"
+  description: "Backport of pathlib-compatible object wrapper for zip files"
+  downloadLocation: "https://files.pythonhosted.org/packages/4f/a1/ac66fba5917fb7860f91cb251ac6cf838923a8abe89e059cc1988cb256d1/zipp-3.19.1.tar.gz"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:pypi/zipp@3.19.1"
+  filesAnalyzed: true
+  hasFiles:
+  - "SPDXRef-File-252"
+  - "SPDXRef-File-253"
+  - "SPDXRef-File-254"
+  - "SPDXRef-File-255"
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "LicenseRef-scancode-unknown-license-reference AND MIT"
+  licenseInfoFromFiles:
+  - "LicenseRef-scancode-unknown-license-reference"
+  - "MIT"
+  name: "zipp"
+  originator: "Person: \"Jason R. Coombs\" <jaraco@jaraco.com>"
+  packageVerificationCode:
+    packageVerificationCodeValue: "c99c3e8e0e5f87f6f3c0af93f10674f82b7e0b63"
+  supplier: "Person: \"Jason R. Coombs\" <jaraco@jaraco.com>"
+  versionInfo: "3.19.1"
+files:
+- SPDXID: "SPDXRef-File-1"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "243e9dd038d3d68c67d42c0c4ba80622c2a56246"
+  copyrightText: "Copyright (c) 2015 Hynek Schlawack"
+  fileName: "attrs-23.1.0/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-2"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "406b5c84945b8dc1035bd53eb33f289b9ae699fc"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT AND LicenseRef-scancode-unknown-license-reference AND MIT"
+- SPDXID: "SPDXRef-File-3"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "90b90a44876b4a5d289dcd7c5e6f79f2057ee559"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/README.md"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-4"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "05c5d96c6fb4c873cc9f03bd2ace7cfb9d1b1186"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/conftest.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-5"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "160a9f03407ae1eb80529643a455b0a9743ae97e"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/docs/conf.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-6"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "fa979bd42802842f429afba1845ca191da350e2b"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/docs/license.md"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-7"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bec2cc90393582619378211bd35f75d79bf832f0"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-8"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1b5e6cad7f23f1e33049519613bfc9850444b83a"
+  copyrightText: "Copyright (c) 2015 Hynek Schlawack"
+  fileName: "attrs-23.1.0/src/attr/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-9"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "50f7c640f3d812f41cbe61366f9044d40e57d51d"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_cmp.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-10"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3b04c725725379d140e7d25c7a3a48135c72773c"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_compat.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-11"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1971f817d3b77d0a37493fd535348843ce059752"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_config.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-12"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "eba5e5b7a41563844bc78b2aad721b63a5104274"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_funcs.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-13"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e432cb2761b50204dc8d741333c729038fec34a0"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_make.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-14"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "181170643344ad22ac597a9c1b5790dfaf573702"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_next_gen.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-15"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6795acd58e4ca5e536f4d786489494525fe86e75"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/_version_info.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-16"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "59a49167a58e9316ac0633c819ea6dfa2910de9d"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/converters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-17"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9636c38e690b3a6e18d14be5d2fb8c0c3bed20df"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/exceptions.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-18"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0aff081405263263d48902868274e03365022c22"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/filters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-19"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ca103af0de89b4b92cbb0d0283d5667b286106e2"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/setters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-20"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7a852ba6b300e91393c0ac77a87fc6af46a4fb92"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attr/validators.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-21"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ab645ffd2406690a6d20c04ad1bb7f7bc6251a03"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attrs/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-22"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "cfc5037a2f4a9cf15772d9c1faf390158d492e48"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attrs/converters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-23"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "f1646bb88e4f8883f85941c58530ec26107ff6c1"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attrs/exceptions.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-24"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b84a70cd8d6b227cbebb6c5f8575565a53748411"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attrs/filters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-25"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "392ca156e5d136c0e0f14cc56eb51f1838772e65"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attrs/setters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-26"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9147dd6dd4bdb695dadb5f0115b5d21ae32683e1"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/src/attrs/validators.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-27"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6fcdc4f28cb156573b73ea3a4622298174f79cc2"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-28"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9445bdd94e6a3682b5f9c7e29a98a9c8b60bd533"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/attr_import_star.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-29"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e335d6424f6edd397679b73a04112f1473d6a3ac"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/dataclass_transform_example.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-30"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "42063bb20099188e66630045bd74a02f60fbbe1d"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/strategies.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-31"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "25eeb6feacc825b3451851461e14b85daedc782b"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_3rd_party.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-32"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "cd11f8088378733d095350f3bb9b93facff6d829"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_abc.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-33"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "198f9684afe3a9722b25f1a15bacb9f1a10c0a7e"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_annotations.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-34"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7657617c93fc605e60c42593cf6594809f0138f8"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_cmp.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-35"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2942e7dede33daa9ab9caffa01e0fa5b6ba0fa60"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_compat.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-36"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "66763c5e06aad1a492fe383364e526023fcb697b"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_config.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-37"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "758d562087de4c4c8d00d15d0f10d580a21f2610"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_converters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-38"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3ed9d17b7b9aa030b83960fa718702407392f45a"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_dunders.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-39"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "16b3558ade0b01afcf975531e12030093c9ed43d"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_filters.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-40"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "62f7521a8a4b42e004b280f69269c26247374d17"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_funcs.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-41"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0640f2411cea9a6351888b05e261fb91bd0f510d"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_functional.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-42"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bfec8b68a82136bcec3e0a0107c5f450279d8a9d"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_hooks.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-43"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1011117189eef994191ca00187d5f498abdb6db4"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_import.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-44"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "03fba5033de6072127d69cc9090f596b0621eac0"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_init_subclass.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-45"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "fc683762c2a9866c8865ccd2dff5193dfffd3bbb"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_make.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-46"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2ce17840b00ffb92bec762f695d8eb5b629ce561"
+  copyrightText: "(c) N Revealed"
+  fileName: "attrs-23.1.0/tests/test_mypy.yml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-47"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c7cdb853a426aacfdd5c6ef8dabcbd6a93ebba10"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_next_gen.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-48"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ad9cf57bf2e028508fbbd5277bec14063db119c1"
+  copyrightText: "Copyright (c) 2015 Hynek Schlawack"
+  fileName: "attrs-23.1.0/tests/test_packaging.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-49"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e314d98802de213039262059418543a40296f704"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_pattern_matching.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-50"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a41c47cab8b95b386abf9fac5fe22f068e000f0f"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_pyright.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-51"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "76198629f948555479d090a411af21798ee8ff04"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_setattr.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-52"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "61d73a2f2ce5049ef71546f1072cd6a93c1c55e8"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_slots.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-53"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a22a51c2c41aeda62d92d475dbe57eb2f9bc0867"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_validators.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-54"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "817409fbab4d16a99941ba2fb338abb7d0695118"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/test_version_info.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-55"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9b16be05e163774c621bad233d73fb10fbd53697"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/typing_example.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-56"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1df60b1fbe214d2371e3709e6fd2e6b2750a591b"
+  copyrightText: "NONE"
+  fileName: "attrs-23.1.0/tests/utils.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-57"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0445ed0f69910eeaee036f09a39a13c6e1f37e12"
+  copyrightText: "NONE"
+  fileName: "importlib_resources-6.0.0/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-58"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "226dded7b799c3aaf610621afb462cf88a5d4078"
+  copyrightText: "NONE"
+  fileName: "importlib_resources-6.0.0/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-59"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "80baf197bc1b8eb041f1096bbf4ea0f1c9cc0389"
+  copyrightText: "NONE"
+  fileName: "importlib_resources-6.0.0/importlib_resources.egg-info/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-60"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d7924a659b8fef0ce6820b8d61c5616156a4e609"
+  copyrightText: "NONE"
+  fileName: "importlib_resources-6.0.0/setup.cfg"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Apache-2.0"
+- SPDXID: "SPDXRef-File-61"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c4dbdbc12926d4d52c9156e690640f372615c234"
+  copyrightText: "Copyright 2007 Pallets"
+  fileName: "jinja2-3.1.4/LICENSE.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-62"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "07d83eea94e7b3e6754ae8c18f2f083fd0277c87"
+  copyrightText: "NONE"
+  fileName: "jinja2-3.1.4/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-63"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "31522aea93446c24f7b2bd0b85393e48094739d2"
+  copyrightText: "copyright 2007 Pallets"
+  fileName: "jinja2-3.1.4/docs/conf.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-64"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "82029a4f059e2a2152d407bcd0c210bb9589be01"
+  copyrightText: "NONE"
+  fileName: "jinja2-3.1.4/docs/license.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-65"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "59ff4df91e2bd0d3a61e6b22327803b8874d3670"
+  copyrightText: "(c) Copyright 2008 by http://domain.invalid/>"
+  fileName: "jinja2-3.1.4/docs/templates.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-66"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d46cb3d7f3d6c490edd87b7448a913456f31bacb"
+  copyrightText: "NONE"
+  fileName: "jinja2-3.1.4/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-unknown-license-reference AND BSD-3-Clause"
+- SPDXID: "SPDXRef-File-67"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2de1a0a3674903238a664ace5d3acc66a7d546c7"
+  copyrightText: "Copyright (c) 2013 Julian Berman"
+  fileName: "jsonschema-4.18.4/COPYING"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-68"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "81aceccd02a21a692ef5be7747288add40ca405f"
+  copyrightText: "NONE"
+  fileName: "jsonschema-4.18.4/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-69"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c2c3349600044ea3b95c17218e4bb7d58c10f5dc"
+  copyrightText: "Julian Berman copyright 2013"
+  fileName: "jsonschema-4.18.4/docs/conf.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-70"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6808b97edf6d2c189571af702b95916168ff7db8"
+  copyrightText: "Copyright (c) 2012 Julian Berman"
+  fileName: "jsonschema-4.18.4/json/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-71"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d431a8ce432a97196d379d7c8a7a899639db8e5b"
+  copyrightText: "NONE"
+  fileName: "jsonschema-4.18.4/json/package.json"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-72"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "64054563d3a86cfabfacdb83f041df595225237f"
+  copyrightText: "NONE"
+  fileName: "jsonschema-4.18.4/jsonschema/benchmarks/issue232/issue.json"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Apache-2.0"
+- SPDXID: "SPDXRef-File-73"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a741a4932bed42513caf1e73bda38ec3e4c76e65"
+  copyrightText: "NONE"
+  fileName: "jsonschema-4.18.4/jsonschema/tests/test_cli.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-74"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8a934874b78c5a7300c93bd62a140140a136b2c0"
+  copyrightText: "NONE"
+  fileName: "jsonschema-4.18.4/noxfile.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Apache-2.0 AND BSD-3-Clause AND ISC AND (MPL-2.0 OR MIT) AND Python-2.0 AND Unlicense"
+- SPDXID: "SPDXRef-File-75"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "a6677a3ec73988c8bd6bf4f7d54c02cba6a6b876"
+  copyrightText: "NONE"
+  fileName: "jsonschema-4.18.4/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-76"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "db178d96d13d574857d6cdf975339550f74da25b"
+  copyrightText: "Copyright (c) 2022 Julian Berman"
+  fileName: "jsonschema_specifications-2023.7.1/COPYING"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-77"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ea790388e107314caffe5e9854e5ca31987b4689"
+  copyrightText: "NONE"
+  fileName: "jsonschema_specifications-2023.7.1/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-78"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c575036f8f1fb082f0b1b1d4f8ec801379f2a82d"
+  copyrightText: "NONE"
+  fileName: "jsonschema_specifications-2023.7.1/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-79"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "4757d99d31363db44ea031140d2564cb43b97897"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/CHANGES.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-80"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9952214ce0aca4410ff3c7711d8389893713fe3b"
+  copyrightText: "Copyright (c) 2004 Infrae"
+  fileName: "lxml-4.9.3/LICENSE.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-81"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "495ceccaff92184d795e03cfc863c015dc3dced9"
+  copyrightText: "copyright Ian Bicking\ncopyright International Organization\ncopyright\
+    \ Rick Jelliffe and Academia Sinica Computing Center\ncopyright Shuttleworth Foundation"
+  fileName: "lxml-4.9.3/LICENSES.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-3-Clause AND GPL-1.0-or-later"
+- SPDXID: "SPDXRef-File-82"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6564e7f5f40805cab1d19dd017250592246322ef"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-83"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7e0949ca5119b5c8d7d2fe5d6550fe5e6bebe3f1"
+  copyrightText: "copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/api/conf.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-84"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ee175bfaf8bc096c5b7d6ec5efa9c6dca36c2993"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/index.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-85"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d5b38c1ce12e6d907988b066dd2026b4a12e9ef3"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-86"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3a749e12d668fda68043fd6742822c7263265dee"
+  copyrightText: "(c) Copyright 2020, lxml dev team\nCopyright (c) 1999-2004 by Fredrik\
+    \ Lundh\nCopyright (c) 2003-2004 by Fredrik Lundh"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/ElementInclude.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-secret-labs-2011"
+- SPDXID: "SPDXRef-File-87"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "898c4ecc07d70ff9e112ae975d374953ca23e76f"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/doctestcompare.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-88"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "be06d1fbbd682cc7c424c562215f30f2549b5583"
+  copyrightText: "(c) Copyright 2020, lxml dev team\nCopyright (c) 2004 Ian Bicking"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/html.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-89"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "04301ab32edcc3477e19f8b441bc726c55707b7e"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/html/_diffcommand.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-90"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "735f4a7bb860819b933b8d953230a7a879a169fb"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/html/_setmixin.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-91"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "46e375c52793126e7575e6ef9e65a4e829fdbd3c"
+  copyrightText: "(c) Copyright 2020, lxml dev team\nCopyright (c) 1999-2004 by Fredrik\
+    \ Lundh"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/html/builder.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-92"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "709ee4cd8f947a5aa6ddd8ee4dc24bd683a17c56"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/html/formfill.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-93"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "81bb43356b66e7c2655f6a7848da5adaa2c32bd8"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/lxml/isoschematron.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-94"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ecd622ab96184a4f17a14408f4e99a776c23f34f"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_modules/xml/sax/handler.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-95"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "52589ce74ec226ce163385b1cceecacb7aa7ddb3"
+  copyrightText: "Copyright Sphinx contributors"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/_sphinx_javascript_frameworks_compat.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-96"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "322e6646ff8a612cc913a367dae4c2f431a69343"
+  copyrightText: "Copyright 2007-2023 by the Sphinx team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/basic.css"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-97"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "26f3a13f6fddf22bce9d0557ef2e1529dc23d531"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/css/theme.css"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "OFL-1.1 AND MIT"
+- SPDXID: "SPDXRef-File-98"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c577afa99af5347b1e4f0e350a07e5d400464a99"
+  copyrightText: "Copyright 2007-2023 by the Sphinx team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/doctools.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-99"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b82d238d4e31fdf618bae8ac11a6c812c03dd0d4"
+  copyrightText: "(c) OpenJS Foundation and other contributors"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/jquery.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-100"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "982acf02e304c3ce2c6e980219defe8ad282e54b"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/js/html5shiv-printshiv.min.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT OR GPL-2.0-only"
+- SPDXID: "SPDXRef-File-101"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7fc95a2dc96669fa261a2ad41dda99ed1561d894"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/js/html5shiv.min.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT OR GPL-2.0-only"
+- SPDXID: "SPDXRef-File-102"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "f7f0524459e225376721d5bd190a7f6cebc89490"
+  copyrightText: "Copyright 2007-2023 by the Sphinx team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/language_data.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-103"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "558667b3a2aef98486536ccbdb871fbf39441f32"
+  copyrightText: "Copyright 2007-2023 by the Sphinx team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/_static/searchtools.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-104"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "41080669927d3b5025db9053a61a0f366c6f0893"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/genindex.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-105"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7c37f1d3db138af247cb1e9a1c0bd347c41a09f0"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/index.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-106"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "74978f8e02007d0f59a29ef222f018613ee654b7"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.ElementInclude.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-107"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0ca221c34c7cc2b3b61ec8bac7ceb525aa9ac158"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml._elementpath.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-108"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "01cfbb0587de65ada8569b21b72248bc5f4d3916"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.builder.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-109"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2b96a46f76fc0061892f88ca53c1dc7c547caa38"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.cssselect.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-110"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9b0a4634ca406ef59b7279ccc2690f71c9c97c16"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.doctestcompare.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-111"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dd0d20940f22fbeb9d80fd44dc6f6515897045f1"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.etree.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-112"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dea585297211630573dae172805b4299af6ebc61"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-113"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2d628cd5bd6bcd3f20fcd425dbf6231017be85ac"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.ElementSoup.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-114"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "271c327d187a8bfa34c0682bd840e4688a6b17f5"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html._diffcommand.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-115"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1e707b68ec2310c65834a58f3ff9878e3f6a00d6"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html._setmixin.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-116"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "41d12571bee52342788d9dc3408f52f5659e85c8"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.builder.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-117"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b2ce4cadaf640cad83329b2482b553ae0b140e9f"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.clean.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-118"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0a3874bfa5e0b937af1a1baa482b3182b12ec99e"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.defs.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-119"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8c616f84c9694eb570a94c70a01b75e6b8362b32"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.diff.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-120"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dfda4f5003d154deb857810e05941b8018b68f49"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.formfill.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-121"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "38b5978eb3fd5f81e8d600db566858d49605baa7"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-122"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "18bd925189f822217e9df96b92ddd06d4fbf1082"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.html5parser.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-123"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e83ff4e361476896e19a5d93364c99fee23cbd19"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.html.soupparser.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-124"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b2f5f24e5859bf9f57976910e09c1f386af3017f"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.isoschematron.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-125"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8132f84eacdc19920cbe6c4abfca8d2ed17a5c3c"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.objectify.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-126"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "cfccf87a316f77faabec135f34d92a5f113cccfe"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/lxml.sax.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-127"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "44124afc8e7e9f5d0aebbff339cf46aa491c1e9c"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/py-modindex.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-128"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ff483b80fa298c6a208ee25e6dccd61720adb35e"
+  copyrightText: "(c) Copyright 2020, lxml dev team"
+  fileName: "lxml-4.9.3/doc/html/apidoc/search.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-129"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "44eca7b1687998b9b1be823d8eb72b140cc72123"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/html/changes-4.9.3.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-130"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5161f9f08208584cf024948706d4d232fb192773"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/html/index.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND MIT"
+- SPDXID: "SPDXRef-File-131"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8d798e8517b54050ae2959aa33dcac8e422b28fa"
+  copyrightText: "(c) ET. Where"
+  fileName: "lxml-4.9.3/doc/html/performance.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-132"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9952214ce0aca4410ff3c7711d8389893713fe3b"
+  copyrightText: "Copyright (c) 2004 Infrae"
+  fileName: "lxml-4.9.3/doc/licenses/BSD.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-133"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dfac199a7539a404407098a2541b9482279f690d"
+  copyrightText: "Copyright (c) 1989, 1991 Free Software Foundation, Inc.\ncopyrighted\
+    \ by the Free Software Foundation"
+  fileName: "lxml-4.9.3/doc/licenses/GPL.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "GPL-2.0-only"
+- SPDXID: "SPDXRef-File-134"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8c453ef4b67b1a10f81f3d03959c8acc1a136a53"
+  copyrightText: "Copyright (c) 1999-2003 by Fredrik Lundh\nCopyright (c) 1999-2003\
+    \ by Secret Labs AB"
+  fileName: "lxml-4.9.3/doc/licenses/elementtree.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-secret-labs-2011"
+- SPDXID: "SPDXRef-File-135"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "87bb6d4cd8a7b635ad8e47d1c93266c705a6e7ab"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/main.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND MIT"
+- SPDXID: "SPDXRef-File-136"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d605f58038a81f4deabed635436598e8234ee4b5"
+  copyrightText: "(c) ET. Where"
+  fileName: "lxml-4.9.3/doc/performance.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-137"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "299188b015bdc7aa0f5891bcf0765354a7b2da2e"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/s5/lxml-ep2008.html"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-public-domain"
+- SPDXID: "SPDXRef-File-138"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e188b85644df870eb9a059e7feb98821e7136af0"
+  copyrightText: "Copyright 2006-2009 by the Pygments team"
+  fileName: "lxml-4.9.3/doc/s5/rst2s5.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-139"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2635b0649edb3f2f8b45704caf28300333c6af3a"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/s5/ui/default/iepngfix.htc"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-other-permissive"
+- SPDXID: "SPDXRef-File-140"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "674afc655811b0ab207500ff59b32f3155758b7e"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/doc/s5/ui/default/slides.js"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-public-domain"
+- SPDXID: "SPDXRef-File-141"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "c7f0e8d92f1150924dc07a285d9f8efc0dabe3ea"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/setup.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-142"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6564e7f5f40805cab1d19dd017250592246322ef"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/src/lxml.egg-info/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-143"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "27b181d44094007168b8421b350b7c4d49bffa45"
+  copyrightText: "NONE"
+  fileName: "lxml-4.9.3/src/lxml.egg-info/SOURCES.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND GPL-1.0-or-later"
+- SPDXID: "SPDXRef-File-144"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "afcf35a9a3d927d31440e2dc05122c55b72a5ed6"
+  copyrightText: "Copyright (c) 1999-2004 by Fredrik Lundh\nCopyright (c) 2003-2004\
+    \ by Fredrik Lundh"
+  fileName: "lxml-4.9.3/src/lxml/ElementInclude.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-secret-labs-2011"
+- SPDXID: "SPDXRef-File-145"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "49c7563c92468ed85049f9b0028b3784ac8b9a8e"
+  copyrightText: "Copyright (c) 1999-2009 by Fredrik Lundh\nCopyright (c) 2003-2009\
+    \ by Fredrik Lundh"
+  fileName: "lxml-4.9.3/src/lxml/_elementpath.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-secret-labs-2011"
+- SPDXID: "SPDXRef-File-146"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5315122ce08ca019d3691168367faddd582e2cbd"
+  copyrightText: "Copyright (c) 1999-2004 by Fredrik Lundh"
+  fileName: "lxml-4.9.3/src/lxml/builder.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-secret-labs-2011"
+- SPDXID: "SPDXRef-File-147"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "421fb3a352c3693892a256f049af978f5a20d853"
+  copyrightText: "Copyright (c) 2004 Ian Bicking"
+  fileName: "lxml-4.9.3/src/lxml/html/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-148"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ac7e6c83534afb4e00eb19800dce43d41c23d58d"
+  copyrightText: "Copyright (c) 1999-2004 by Fredrik Lundh"
+  fileName: "lxml-4.9.3/src/lxml/html/builder.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-149"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1a8d68a79a6b335a660463cc99b4e8eee16a07a1"
+  copyrightText: "Copyright (c) ISO/IEC 2015"
+  fileName: "lxml-4.9.3/src/lxml/isoschematron/resources/rng/iso-schematron.rng"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-proprietary-license"
+- SPDXID: "SPDXRef-File-150"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e3bfbad9e4d0a0845b0f01f39f0e3a1de024db70"
+  copyrightText: "Copyright (c) 2004-2010 Rick Jellife"
+  fileName: "lxml-4.9.3/src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT AND Zlib AND MIT"
+- SPDXID: "SPDXRef-File-151"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "386976893e816a436897a718758b3abbf26869e1"
+  copyrightText: "Copyright (c) 2008 Rick Jelliffe"
+  fileName: "lxml-4.9.3/src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Zlib"
+- SPDXID: "SPDXRef-File-152"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "26738a94f8716bef418e396875604fe70e18488d"
+  copyrightText: "Copyright (c) 2000,2001 Rick Jelliffe and Academia Sinica Computing\
+    \ Center"
+  fileName: "lxml-4.9.3/src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Zlib"
+- SPDXID: "SPDXRef-File-153"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "41e903a048c13763ff7faa1f6826ea91329ef66b"
+  copyrightText: "Copyright (c) 2000-2008 Rick Jelliffe and Academia Sinica Computing\
+    \ Center"
+  fileName: "lxml-4.9.3/src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Zlib"
+- SPDXID: "SPDXRef-File-154"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d1bddcaa9b1e55d17c78b597cb5c1c381e568de6"
+  copyrightText: "Copyright (c) 2001, 2006 Rick Jelliffe and Academia Sinica Computing\
+    \ Center"
+  fileName: "lxml-4.9.3/src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "Zlib"
+- SPDXID: "SPDXRef-File-155"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5903678a9ef1c2d718c36195da2cf3e838a2a63a"
+  copyrightText: "(c) self.assertEqual http://ns1"
+  fileName: "lxml-4.9.3/src/lxml/tests/test_etree.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-156"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "4c6c0c6dd906a6b0fa497471fe4da042ae46361c"
+  copyrightText: "Copyright (c) 2003 Shuttleworth Foundation"
+  fileName: "lxml-4.9.3/test.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "GPL-2.0-or-later"
+- SPDXID: "SPDXRef-File-157"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "686030b6b3298c011fe74266f0cde2d2c77f4a13"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007, 2008 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/LICENSE.md"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-158"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "71f2206acdd7f463cab1369dc1cae8f793d0e508"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007, 2008 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/Markdown.egg-info/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-159"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "71f2206acdd7f463cab1369dc1cae8f793d0e508"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007, 2008 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-160"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ff551aed62fecb43b1593ca993a5476e7a2c64dd"
+  copyrightText: "NONE"
+  fileName: "Markdown-3.4.3/README.md"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-161"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ce3435a83b73c563fdc5f850b231ce3ff32be083"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-162"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d998ae79ac98a3ba813ad33e5773f5875e6dc05b"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/__main__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-163"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5843bcfd863cc012b22fdf637085477d8706f443"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/__meta__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-164"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "94258007ce9de8472568988ca874019c099547bb"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/blockparser.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-165"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "50a104d6f495d18156efdaf416c0b6568221c34e"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/blockprocessors.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-166"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "61c6eff59184140696d9f8381e24b3278ae913e7"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/core.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-167"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "036752de6c744ee458cf24cae944319c93ce821a"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-168"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8a05d7891fa942625b16c46009adb942f8d26b32"
+  copyrightText: "Copyright 2007-2008 Waylan Limberg (http://achinghead.com/) and\
+    \ Seemant Kulleen (http://www.kulleen.org/)\nCopyright 2008-2014 The Python Markdown\
+    \ Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/abbr.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-169"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e108125b6e87b19af3509f402c84b42ca410b16b"
+  copyrightText: "Copyright The Python Markdown Project\nCopyright Tiago Serafim (https://www.tiagoserafim.com/)"
+  fileName: "Markdown-3.4.3/markdown/extensions/admonition.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-170"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "460d24621108f0b7cfc0d2d9c7415e6791a35799"
+  copyrightText: "Copyright 2011 Waylan Limberg (http://achinghead.com/)\nCopyright\
+    \ 2011-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/attr_list.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-2-Clause"
+- SPDXID: "SPDXRef-File-171"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ed415ff38e05fc88cb526ec5531ce58fdd2627fc"
+  copyrightText: "Copyright 2006-2008 Waylan Limberg (http://achinghead.com/)\nCopyright\
+    \ 2008-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/codehilite.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-172"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "640123013067e89ca22dff0c3cffa72410d19c72"
+  copyrightText: "Copyright 2008 Waylan Limberg (http://achinghead.com)\nCopyright\
+    \ 2008-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/def_list.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-2-Clause"
+- SPDXID: "SPDXRef-File-173"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6dfec45b5aa16c76f0ce39d8cb7a62e79b84a315"
+  copyrightText: "Copyright The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/extra.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-174"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8d579857dfe9902e239fa50f4e830dc7e4d57795"
+  copyrightText: "Copyright 2007-2008 Waylan Limberg (http://achinghead.com/)\nCopyright\
+    \ 2008-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/fenced_code.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-175"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3219dfec3f1c77522fdedb9b8f0ff2a34881d28f"
+  copyrightText: "Copyright The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/footnotes.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-176"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "4d2a63a14aa7eb2121bce4aa86f80beafad90e39"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/legacy_attrs.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-177"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "13c4500975ebf2607f0bba5516d252b349b46f85"
+  copyrightText: "Copyright 2015-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/legacy_em.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-178"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e12d46e0b008c324433d706ad6cf92d2e25f1692"
+  copyrightText: "Copyright The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/md_in_html.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-179"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7456125adb50af0f144430eaa2001ea9bbbe90d5"
+  copyrightText: "Copyright 2007-2008 Waylan Limberg (http://achinghead.com)\nCopyright\
+    \ 2008-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/meta.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-180"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "78b7d8adbec7c2ec7183a7a467ea6c5e49f31844"
+  copyrightText: "Copyright 2011 Brian Neal (https://deathofagremmie.com/)\nCopyright\
+    \ 2011-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/nl2br.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-2-Clause"
+- SPDXID: "SPDXRef-File-181"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "48af012d8302af784fd10d157d77bbcb239f953e"
+  copyrightText: "Copyright 2011 Waylan Limberg (http://achinghead.com)\nCopyright\
+    \ 2011-2014 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/sane_lists.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-182"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3305ff645a893c41a17311b75e4fd871f30f5c57"
+  copyrightText: "Copyright (c) 2003 John Gruber <https://daringfireball.net/>\nCopyright\
+    \ (c) 2004, 2007 Chad Miller <http://web.chad.org/>\nCopyright 2013-2014 The Python\
+    \ Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/smarty.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-2-Clause"
+- SPDXID: "SPDXRef-File-183"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5b1f755d17bb77217b31d1d367c52ab0db95ef61"
+  copyrightText: "Copyright 2008-2014 The Python Markdown Project\nCopyright 2009\
+    \ Waylan Limberg (http://achinghead.com)"
+  fileName: "Markdown-3.4.3/markdown/extensions/tables.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-2-Clause"
+- SPDXID: "SPDXRef-File-184"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b9cec1bc6bf82452c1d5abe1cd721a87f9af2107"
+  copyrightText: "Copyright 2008 Jack Miller (https://codezen.org/)\nCopyright 2008-2014\
+    \ The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/extensions/toc.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-185"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d0be0a9383cd174dff640dd73226339ae68654e4"
+  copyrightText: "Copyright The Python Markdown Project\nCopyright Waylan Limberg\
+    \ (http://achinghead.com/)"
+  fileName: "Markdown-3.4.3/markdown/extensions/wikilinks.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND BSD-2-Clause"
+- SPDXID: "SPDXRef-File-186"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8df56f6fb9c045f3423971fd5d11bcbb1b3310fc"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2020 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/htmlparser.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-187"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2d60a0e1a62434a839f234a23617270be0c702a6"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/inlinepatterns.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-188"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1af3c31ace8ff01a13e1cb5361a2492fde44d1e6"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/postprocessors.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-189"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "762c704023063a70ad56739791e5885e59967cc2"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/preprocessors.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-190"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "257c88378f4f06629ce8f8e68aa5671cf3b19875"
+  copyrightText: "Copyright (c) 1999-2007 by Fredrik Lundh"
+  fileName: "Markdown-3.4.3/markdown/serializers.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-secret-labs-2011"
+- SPDXID: "SPDXRef-File-191"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "83a173563a0dd3d201b54dd68aa910b936427918"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/test_tools.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-192"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "81c60e5abaf9422468d3e4584e70668ecc5c1bd1"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/treeprocessors.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-193"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d472388f4b8d8f36c001733b01e951eb0eacf6a6"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/markdown/util.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-194"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "f9d5fccd9e15876bd3bbd7768b9703ec272ec1f2"
+  copyrightText: "The Python-Markdown Project Copyright (c) 2010-2023"
+  fileName: "Markdown-3.4.3/mkdocs.yml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-195"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1b1a9388f1ec26e24ae00dfa64da6714cc833c0e"
+  copyrightText: "NONE"
+  fileName: "Markdown-3.4.3/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "LicenseRef-scancode-unknown-license-reference AND BSD-3-Clause"
+- SPDXID: "SPDXRef-File-196"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bf66bb5cc14d70b8a063fbb159d90655a7abe6d8"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-197"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "17918e27d56148262eada539527620fea6f89f9b"
+  copyrightText: "(c) 2004 Foo Corporation"
+  fileName: "Markdown-3.4.3/tests/basic/markdown-syntax.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-198"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "17918e27d56148262eada539527620fea6f89f9b"
+  copyrightText: "(c) 2004 Foo Corporation"
+  fileName: "Markdown-3.4.3/tests/extensions/extra/markdown-syntax.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-199"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "25753b8762a0980049735161a47613bf69ea06cf"
+  copyrightText: "(c) 2004 Foo Corporation"
+  fileName: "Markdown-3.4.3/tests/extensions/toc.txt"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-200"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7faad680a10c948c5d645fb2e513e3f708893af1"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_apis.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-201"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "613398951e25e87c4aac40d790c6422458060e20"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_extensions.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-202"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1a2aff47b13a34298e422e8df5a6a96efcdd2af6"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_legacy.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-203"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bf66bb5cc14d70b8a063fbb159d90655a7abe6d8"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-204"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bf66bb5cc14d70b8a063fbb159d90655a7abe6d8"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-205"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "32586c33a2f509fa25361fb8eda1cc82f57e0901"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2020 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/test_blockquotes.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-206"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b1e1376859f5209b6d862ab46d4fbed796399722"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/test_code_blocks.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-207"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6ee7e1f318995ffda7368751029f063b97f1c931"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/test_headers.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-208"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6db6a048f784456413c6f3d52a5c5465c195930f"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/test_hr.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-209"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e68b87959de00e66efdda8af5529bec6cd265264"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/test_html_blocks.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-210"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "9a18f77a685d73bc1a330ca699fca28624cac436"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/blocks/test_paragraphs.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-211"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bf66bb5cc14d70b8a063fbb159d90655a7abe6d8"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-212"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "cd2e44a1eedeceac95f93fca09321f55eabd6a77"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_abbr.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-213"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5c12c8b13ae79323a14b245ee4f3e7adb4b0b618"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2019 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_admonition.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-214"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3cf072deba5b24aa13a7e1ad6fcd463675cbed89"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2020 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_attr_list.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-215"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ae0c7ecd4ab8408554b88a707b0623d3efbf4029"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2019 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_code_hilite.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-216"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "1ce66d8803b6a10ab905614d3f9791653fec3ed7"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2019 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_def_list.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-217"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "8d77c53fa8a3866e98ca3e403a0d452e98774004"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2019 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_fenced_code.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-218"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2e7b3ff4dc1d972574808f399020df1cdcd412f6"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_footnotes.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-219"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "44c7b7c0c36689e86ac5770b02b3e8ff6a90bd46"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_legacy_attrs.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-220"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "d6dc8f4ef22e78baa93c2b350abb83b0ddbb9dc2"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_legacy_em.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-221"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "56e6699d67c006c626389799be349109134b1a30"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_md_in_html.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-222"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b54c9995257a82d06d382859a5255dbca75f4d61"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2022 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_smarty.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-223"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e2a688909914bc553a2d529232bfa51091269220"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_tables.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-224"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "77917660217f84b420a0e906f2f70aea422e310e"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2019 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/extensions/test_toc.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-225"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bf66bb5cc14d70b8a063fbb159d90655a7abe6d8"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/__init__.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-226"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3f27f9b8ff5eaaab5a514da5bf9138f1ee3c393a"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2021 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/test_autolinks.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-227"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "731fa24a8804b1003b7292c3de1b13e8e3c2c0b7"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2019 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/test_emphasis.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-228"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b564feb5fc880e490cdf881b1c1753e3480c83a4"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/test_entities.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-229"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3a8bc06b8fdec5451a8712e0e7324f9665ede77c"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/test_images.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-230"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5479c3742326077e969f29c32b17ab47bb190c03"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/test_links.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-231"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "36a6c4d58bb2fd11b88832f43b7ab39b36ccd204"
+  copyrightText: "Copyright 2004 Manfred Stienstra\nCopyright 2004, 2005, 2006 Yuri\
+    \ Takhteyev\nCopyright 2007-2018 The Python Markdown Project"
+  fileName: "Markdown-3.4.3/tests/test_syntax/inline/test_raw_html.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-232"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e32a549b135c4b2b268107adc12d13cca2ca1e8c"
+  copyrightText: "Copyright 2010 Pallets"
+  fileName: "MarkupSafe-2.1.5/LICENSE.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-233"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2408cb573cd3d2e91159a064ca18c1e43c61362e"
+  copyrightText: "NONE"
+  fileName: "MarkupSafe-2.1.5/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-234"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b863a4c786eed9ab30731890dfbbd5f22b79d6c5"
+  copyrightText: "copyright 2010 Pallets"
+  fileName: "MarkupSafe-2.1.5/docs/conf.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "NONE"
+- SPDXID: "SPDXRef-File-235"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "dd5be432e10ec7cc82bea56f4c1788da61aeb164"
+  copyrightText: "NONE"
+  fileName: "MarkupSafe-2.1.5/docs/license.rst"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-236"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "7cdb2efa430860c79696a418790b9cc69c79332c"
+  copyrightText: "NONE"
+  fileName: "MarkupSafe-2.1.5/setup.cfg"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause"
+- SPDXID: "SPDXRef-File-237"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "2408cb573cd3d2e91159a064ca18c1e43c61362e"
+  copyrightText: "NONE"
+  fileName: "MarkupSafe-2.1.5/src/MarkupSafe.egg-info/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-238"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "3b8919c7f020e71fc3e97cfd724f9463bbac1177"
+  copyrightText: "Copyright (c) 2006-2016 Kirill Simonov\nCopyright (c) 2017-2021\
+    \ Ingy dot Net"
+  fileName: "PyYAML-6.0.1/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-239"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "51d619d549d4673552c0241c96d1558532663817"
+  copyrightText: "NONE"
+  fileName: "PyYAML-6.0.1/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-240"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "6342bc97864231467a3856c10318af66a42bd218"
+  copyrightText: "NONE"
+  fileName: "PyYAML-6.0.1/README.md"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-241"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "51d619d549d4673552c0241c96d1558532663817"
+  copyrightText: "NONE"
+  fileName: "PyYAML-6.0.1/lib/PyYAML.egg-info/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-242"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0e8fd44fdc864811b02e410af5228070ce155cfa"
+  copyrightText: "NONE"
+  fileName: "PyYAML-6.0.1/setup.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-243"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "db178d96d13d574857d6cdf975339550f74da25b"
+  copyrightText: "Copyright (c) 2022 Julian Berman"
+  fileName: "referencing-0.30.0/COPYING"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-244"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "27d81f010db2ad424ba474cc5079d61e10d0d80c"
+  copyrightText: "NONE"
+  fileName: "referencing-0.30.0/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-245"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "99fe9733a51aa9015c4c5ffd3d93bac0b5d1839b"
+  copyrightText: "NONE"
+  fileName: "referencing-0.30.0/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-246"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "bc513368a1b86cbe2019fa846ae9b49a86631339"
+  copyrightText: "Copyright (c) 2023 Julian Berman"
+  fileName: "rpds_py-0.9.2/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-247"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "b419e768bd4d1b9a3918cdca5c33aafec82c37bf"
+  copyrightText: "NONE"
+  fileName: "rpds_py-0.9.2/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-248"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "25f18dad9374d6f08f72ddf86c08e2fe2ff32853"
+  copyrightText: "NONE"
+  fileName: "rpds_py-0.9.2/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-249"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "f2a906bd6460b4147c3feca71fbb79dc827c1ca3"
+  copyrightText: "Copyright (c) 2022 Tobias Gustafsson"
+  fileName: "rpds_py-0.9.2/tests/test_hash_trie_map.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-250"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "e9e9a0ead9d6ea55a397167bd574c25241ac5272"
+  copyrightText: "Copyright (c) 2022 Tobias Gustafsson"
+  fileName: "rpds_py-0.9.2/tests/test_hash_trie_set.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-251"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "08c91ca137fa4343dcfe385fca9d45f49f191ff5"
+  copyrightText: "Copyright (c) 2022 Tobias Gustafsson"
+  fileName: "rpds_py-0.9.2/tests/test_list.py"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-252"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "0445ed0f69910eeaee036f09a39a13c6e1f37e12"
+  copyrightText: "NONE"
+  fileName: "zipp-3.19.1/LICENSE"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-253"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ef281d1939741429300394c7c26235fa25059301"
+  copyrightText: "NONE"
+  fileName: "zipp-3.19.1/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT AND LicenseRef-scancode-unknown-license-reference"
+- SPDXID: "SPDXRef-File-254"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "5fc25c8fbad38005fe7b88e6bcb8c54a22ed574d"
+  copyrightText: "NONE"
+  fileName: "zipp-3.19.1/pyproject.toml"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT"
+- SPDXID: "SPDXRef-File-255"
+  checksums:
+  - algorithm: "SHA1"
+    checksumValue: "ef281d1939741429300394c7c26235fa25059301"
+  copyrightText: "NONE"
+  fileName: "zipp-3.19.1/zipp.egg-info/PKG-INFO"
+  licenseConcluded: "NOASSERTION"
+  licenseInfoInFiles:
+  - "MIT AND LicenseRef-scancode-unknown-license-reference"
+relationships:
+- spdxElementId: "SPDXRef-Package-PyPI-attrs-23.1.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-attrs-23.1.0-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-attrs-23.1.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-attrs-23.1.0-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-importlib-resources-6.0.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-importlib-resources-6.0.0-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-importlib-resources-6.0.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-importlib-resources-6.0.0-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-jinja2-3.1.4"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jinja2-3.1.4-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-jinja2-3.1.4"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jinja2-3.1.4-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-jinja2-3.1.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-markupsafe-2.1.5"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-attrs-23.1.0"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jsonschema-4.18.4-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jsonschema-4.18.4-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-referencing-0.30.0"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-rpds-py-0.9.2"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-jsonschema-specifications-2023.7.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-referencing-0.30.0"
+- spdxElementId: "SPDXRef-Package-PyPI-lxml-4.9.3"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-lxml-4.9.3-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-lxml-4.9.3"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-lxml-4.9.3-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-markdown-3.4.3"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-markdown-3.4.3-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-markupsafe-2.1.5"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-markupsafe-2.1.5-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-markupsafe-2.1.5"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-markupsafe-2.1.5-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-pyyaml-6.0.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-pyyaml-6.0.1-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-pyyaml-6.0.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-pyyaml-6.0.1-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-referencing-0.30.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-attrs-23.1.0"
+- spdxElementId: "SPDXRef-Package-PyPI-referencing-0.30.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-referencing-0.30.0-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-referencing-0.30.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-referencing-0.30.0-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-referencing-0.30.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-rpds-py-0.9.2"
+- spdxElementId: "SPDXRef-Package-PyPI-rpds-py-0.9.2"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-rpds-py-0.9.2-source-artifact"
+- spdxElementId: "SPDXRef-Package-PyPI-rpds-py-0.9.2"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-rpds-py-0.9.2-vcs"
+- spdxElementId: "SPDXRef-Package-PyPI-zipp-3.19.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-zipp-3.19.1-source-artifact"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-importlib-resources-6.0.0"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jinja2-3.1.4"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-jsonschema-4.18.4"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-lxml-4.9.3"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-markdown-3.4.3"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-pyyaml-6.0.1"
+- spdxElementId: "SPDXRef-Project-Pipenv-docs-from-pipenv-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-PyPI-zipp-3.19.1"

@@ -1,0 +1,873 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "httpie/cli/.github/workflows/benchmark.yml": {
+      "name": "httpie/cli/.github/workflows/benchmark.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/benchmark.yml"
+      },
+      "resolved": {
+        "pkg:github/actions-ecosystem/action-remove-labels@v1": {
+          "package_url": "pkg:github/actions-ecosystem/action-remove-labels@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/peter-evans/create-or-update-comment@v2": {
+          "package_url": "pkg:github/peter-evans/create-or-update-comment@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/peter-evans/find-comment@v2": {
+          "package_url": "pkg:github/peter-evans/find-comment@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/code-style.yml": {
+      "name": "httpie/cli/.github/workflows/code-style.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/code-style.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/content.yml": {
+      "name": "httpie/cli/.github/workflows/content.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/content.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/peter-evans/create-pull-request@v4": {
+          "package_url": "pkg:github/peter-evans/create-pull-request@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/coverage.yml": {
+      "name": "httpie/cli/.github/workflows/coverage.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/coverage.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/docs-check-markdown.yml": {
+      "name": "httpie/cli/.github/workflows/docs-check-markdown.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/docs-check-markdown.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ruby/setup-ruby@v1": {
+          "package_url": "pkg:github/ruby/setup-ruby@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/release-brew.yml": {
+      "name": "httpie/cli/.github/workflows/release-brew.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/release-brew.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/mislav/bump-homebrew-formula-action@v2": {
+          "package_url": "pkg:github/mislav/bump-homebrew-formula-action@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/release-choco.yml": {
+      "name": "httpie/cli/.github/workflows/release-choco.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/release-choco.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/release-linux-standalone.yml": {
+      "name": "httpie/cli/.github/workflows/release-linux-standalone.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/release-linux-standalone.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-artifact@v3": {
+          "package_url": "pkg:github/actions/upload-artifact@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-release-asset@v1.0.2": {
+          "package_url": "pkg:github/actions/upload-release-asset@v1.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/release-pypi.yml": {
+      "name": "httpie/cli/.github/workflows/release-pypi.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/release-pypi.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/pypa/gh-action-pypi-publish@master": {
+          "package_url": "pkg:github/pypa/gh-action-pypi-publish@master",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/release-snap.yml": {
+      "name": "httpie/cli/.github/workflows/release-snap.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/release-snap.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snapcore/action-build@v1": {
+          "package_url": "pkg:github/snapcore/action-build@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snapcore/action-publish@v1": {
+          "package_url": "pkg:github/snapcore/action-publish@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/stale.yml": {
+      "name": "httpie/cli/.github/workflows/stale.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/stale.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/stale@v8": {
+          "package_url": "pkg:github/actions/stale@v8",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/test-package-linux-snap.yml": {
+      "name": "httpie/cli/.github/workflows/test-package-linux-snap.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/test-package-linux-snap.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/snapcore/action-build@v1": {
+          "package_url": "pkg:github/snapcore/action-build@v1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/test-package-mac-brew.yml": {
+      "name": "httpie/cli/.github/workflows/test-package-mac-brew.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/test-package-mac-brew.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.github/workflows/tests.yml": {
+      "name": "httpie/cli/.github/workflows/tests.yml",
+      "file": {
+        "source_location": "httpie/cli/.github/workflows/tests.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v4": {
+          "package_url": "pkg:github/actions/setup-python@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/PySocks-1.7.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/PySocks-1.7.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/PySocks-1.7.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/pysocks@1.7.1": {
+          "package_url": "pkg:pypi/pysocks@1.7.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/certifi-2024.8.30.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/certifi-2024.8.30.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/certifi-2024.8.30.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/certifi@2024.8.30": {
+          "package_url": "pkg:pypi/certifi@2024.8.30",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.31.0"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/charset_normalizer-3.4.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/charset_normalizer-3.4.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/charset_normalizer-3.4.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/charset-normalizer@3.4.0": {
+          "package_url": "pkg:pypi/charset-normalizer@3.4.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.31.0"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/defusedxml-0.7.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/defusedxml-0.7.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/defusedxml-0.7.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/defusedxml@0.7.1": {
+          "package_url": "pkg:pypi/defusedxml@0.7.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/httpie-3.2.3.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/httpie-3.2.3.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/httpie-3.2.3.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/httpie@3.2.3": {
+          "package_url": "pkg:pypi/httpie@3.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/idna-3.10.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/idna-3.10.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/idna-3.10.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/idna@3.10": {
+          "package_url": "pkg:pypi/idna@3.10",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.31.0"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/markdown_it_py-3.0.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/markdown_it_py-3.0.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/markdown_it_py-3.0.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/markdown-it-py@3.0.0": {
+          "package_url": "pkg:pypi/markdown-it-py@3.0.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/rich@13.9.4"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/mdurl-0.1.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/mdurl-0.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/mdurl-0.1.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/mdurl@0.1.2": {
+          "package_url": "pkg:pypi/mdurl@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/multidict-6.1.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/multidict-6.1.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/multidict-6.1.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/multidict@6.1.0": {
+          "package_url": "pkg:pypi/multidict@6.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip-24.3.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip-24.3.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip-24.3.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/pip@24.3.1": {
+          "package_url": "pkg:pypi/pip@24.3.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/httpie@3.2.3"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t32.exe": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t32.exe",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t32.exe"
+      },
+      "resolved": {
+        "pkg:nuget/Simple%20Launcher@1.1.0.14": {
+          "package_url": "pkg:nuget/Simple%20Launcher@1.1.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t64-arm.exe": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t64-arm.exe",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t64-arm.exe"
+      },
+      "resolved": {
+        "pkg:nuget/Simple%20Launcher@1.1.0.14": {
+          "package_url": "pkg:nuget/Simple%20Launcher@1.1.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t64.exe": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t64.exe",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/t64.exe"
+      },
+      "resolved": {
+        "pkg:nuget/Simple%20Launcher@1.1.0.14": {
+          "package_url": "pkg:nuget/Simple%20Launcher@1.1.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w32.exe": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w32.exe",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w32.exe"
+      },
+      "resolved": {
+        "pkg:nuget/Simple%20Launcher@1.1.0.14": {
+          "package_url": "pkg:nuget/Simple%20Launcher@1.1.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w64-arm.exe": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w64-arm.exe",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w64-arm.exe"
+      },
+      "resolved": {
+        "pkg:nuget/Simple%20Launcher@1.1.0.14": {
+          "package_url": "pkg:nuget/Simple%20Launcher@1.1.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w64.exe": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w64.exe",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pip/_vendor/distlib/w64.exe"
+      },
+      "resolved": {
+        "pkg:nuget/Simple%20Launcher@1.1.0.14": {
+          "package_url": "pkg:nuget/Simple%20Launcher@1.1.0.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO"
+      },
+      "resolved": {
+        "pkg:pypi/my-test-package@1.0": {
+          "package_url": "pkg:pypi/my-test-package@1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/pygments-2.18.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/pygments-2.18.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/pygments-2.18.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/pygments@2.18.0": {
+          "package_url": "pkg:pypi/pygments@2.18.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/rich@13.9.4",
+            "pkg:pypi/inflect@7.3.1"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/requests-2.31.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/requests-2.31.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/requests-2.31.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/requests@2.31.0": {
+          "package_url": "pkg:pypi/requests@2.31.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests-toolbelt@1.0.0"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/requests-toolbelt@1.0.0": {
+          "package_url": "pkg:pypi/requests-toolbelt@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/rich-13.9.4.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/rich-13.9.4.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/rich-13.9.4.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/rich@13.9.4": {
+          "package_url": "pkg:pypi/rich@13.9.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools-75.6.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools-75.6.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools-75.6.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/setuptools@75.6.0": {
+          "package_url": "pkg:pypi/setuptools@75.6.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/httpie@3.2.3"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/autocommand@2.2.2": {
+          "package_url": "pkg:pypi/autocommand@2.2.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/jaraco-text@3.12.1"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/backports-tarfile@1.2.0": {
+          "package_url": "pkg:pypi/backports-tarfile@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/importlib-metadata@8.0.0": {
+          "package_url": "pkg:pypi/importlib-metadata@8.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/inflect@7.3.1": {
+          "package_url": "pkg:pypi/inflect@7.3.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/jaraco-text@3.12.1"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/jaraco-collections@5.1.0": {
+          "package_url": "pkg:pypi/jaraco-collections@5.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/jaraco-context@5.3.0": {
+          "package_url": "pkg:pypi/jaraco-context@5.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/jaraco-functools@4.0.1": {
+          "package_url": "pkg:pypi/jaraco-functools@4.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/jaraco-text@3.12.1": {
+          "package_url": "pkg:pypi/jaraco-text@3.12.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/more-itertools@10.3.0": {
+          "package_url": "pkg:pypi/more-itertools@10.3.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/jaraco-text@3.12.1",
+            "pkg:pypi/zipp@3.19.2",
+            "pkg:pypi/jaraco-functools@4.0.1"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/packaging@24.2": {
+          "package_url": "pkg:pypi/packaging@24.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/typeguard@4.3.0",
+            "pkg:pypi/importlib-metadata@8.0.0",
+            "pkg:pypi/setuptools@75.6.0"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/platformdirs@4.2.2": {
+          "package_url": "pkg:pypi/platformdirs@4.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/tomli@2.0.1": {
+          "package_url": "pkg:pypi/tomli@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/typeguard@4.3.0": {
+          "package_url": "pkg:pypi/typeguard@4.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.12.2": {
+          "package_url": "pkg:pypi/typing-extensions@4.12.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/wheel@0.43.0": {
+          "package_url": "pkg:pypi/wheel@0.43.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/httpie@3.2.3"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/zipp@3.19.2": {
+          "package_url": "pkg:pypi/zipp@3.19.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/typing_extensions-4.12.2.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/typing_extensions-4.12.2.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/typing_extensions-4.12.2.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.12.2": {
+          "package_url": "pkg:pypi/typing-extensions@4.12.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/rich@13.9.4",
+            "pkg:pypi/inflect@7.3.1"
+          ]
+        }
+      }
+    },
+    "httpie/cli/.venv/lib/python3.9/site-packages/urllib3-2.2.3.dist-info/METADATA": {
+      "name": "httpie/cli/.venv/lib/python3.9/site-packages/urllib3-2.2.3.dist-info/METADATA",
+      "file": {
+        "source_location": "httpie/cli/.venv/lib/python3.9/site-packages/urllib3-2.2.3.dist-info/METADATA"
+      },
+      "resolved": {
+        "pkg:pypi/urllib3@2.2.3": {
+          "package_url": "pkg:pypi/urllib3@2.2.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.31.0"
+          ]
+        }
+      }
+    },
+    "httpie/cli/httpie.egg-info/PKG-INFO": {
+      "name": "httpie/cli/httpie.egg-info/PKG-INFO",
+      "file": {
+        "source_location": "httpie/cli/httpie.egg-info/PKG-INFO"
+      },
+      "resolved": {
+        "pkg:pypi/httpie@3.2.3": {
+          "package_url": "pkg:pypi/httpie@3.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:23:18+01:00"
+}

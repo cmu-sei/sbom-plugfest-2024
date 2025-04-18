@@ -1,0 +1,395 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "comment": "This document has been automatically generated.",
+    "creators": [
+      "Tool: sbom4python-0.12.0"
+    ],
+    "created": "2024-12-09T20:47:09Z",
+    "licenseListVersion": "3.25"
+  },
+  "name": "Python-setup.cfg",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/Python-setup.cfg-396eb6bd-f1a0-42a4-9136-e62a38505d9b",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-1-pip",
+      "name": "pip",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Organization: Python Packaging Authority (info@pypa.io)",
+      "downloadLocation": "https://pypi.org/project/pip/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://pip.pypa.io/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "The PyPA recommended tool for installing Python packages.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pip"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python_packaging_authority:pip::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2-charset-normalizer",
+      "name": "charset_normalizer",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: TAHRI Ahmed R.",
+      "downloadLocation": "https://pypi.org/project/charset_normalizer/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/Ousret/charset_normalizer",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/charset_normalizer"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:tahri_ahmed_r.:charset_normalizer::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-3-defusedxml",
+      "name": "defusedxml",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: Christian Heimes",
+      "downloadLocation": "https://pypi.org/project/defusedxml/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/tiran/defusedxml",
+      "licenseConcluded": "PSF-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "defusedxml declares PSFL which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "XML bomb protection for Python stdlib modules",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/defusedxml"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:christian_heimes:defusedxml::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-4-requests",
+      "name": "requests",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: Python Software Foundation",
+      "downloadLocation": "https://pypi.org/project/requests/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://requests.readthedocs.io",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0e322af87745eff34caffe4df68456ebc20d9068"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Python HTTP for Humans.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python_software_foundation:requests::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-5-Pygments",
+      "name": "Pygments",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: pygments",
+      "downloadLocation": "https://pypi.org/project/Pygments/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://pygments.org",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d7d11f6e6d3aa97805215c1cc833ea5f0ef1fcbb"
+        }
+      ],
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "copyrightText": "NOASSERTION",
+      "summary": "Pygments is a syntax highlighting package written in Python.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/Pygments"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:pygments:Pygments::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-6-requests-toolbelt",
+      "name": "requests-toolbelt",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: requests",
+      "downloadLocation": "https://pypi.org/project/requests-toolbelt/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://toolbelt.readthedocs.io/",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7d1a1fcdda9ebcd9afe5011690ab860fce780c2"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "requests-toolbelt declares Apache 2.0 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "A utility belt for advanced users of python-requests",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests-toolbelt"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:requests:requests-toolbelt::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-7-multidict",
+      "name": "multidict",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: libs",
+      "downloadLocation": "https://pypi.org/project/multidict/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/aio-libs/multidict",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4140e63780dc6dd600a1837cb9b4c5198c3dcd68"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "multidict declares Apache 2 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "multidict implementation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/multidict"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libs:multidict::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-8-setuptools",
+      "name": "setuptools",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Organization: Python Packaging Authority (info@pypa.io)",
+      "downloadLocation": "https://pypi.org/project/setuptools/#files",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "setuptools declares MIT License which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/setuptools"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python_packaging_authority:setuptools::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-9-importlib-metadata",
+      "name": "importlib-metadata",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: Python",
+      "downloadLocation": "https://pypi.org/project/importlib-metadata/#files",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b34810b1e0665580a91ea19b6317a1890ecd42c1"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "importlib-metadata declares Apache Software License which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Read metadata from Python packages",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-metadata"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python:importlib-metadata::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-10-rich",
+      "name": "rich",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: Textualize (will@textualize.io)",
+      "downloadLocation": "https://pypi.org/project/rich/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/Textualize/rich",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "43d3b04725ab9731727fb1126e35980c62f32377"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/rich"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:textualize:rich::*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-11-colorama",
+      "name": "colorama",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: Jonathan Hartley",
+      "downloadLocation": "https://pypi.org/project/colorama/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/tartley/colorama",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3de9f013df4b470069d03d250224062e8cf15c49"
+        }
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "colorama declares BSD License which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Cross-platform colored terminal text.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/colorama"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:jonathan_hartley:colorama::*:*:*:*:*:*:*"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-1-pip",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-10-rich",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-11-colorama",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-2-charset-normalizer",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-3-defusedxml",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-4-requests",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-5-Pygments",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-6-requests-toolbelt",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-7-multidict",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-8-setuptools",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-9-importlib-metadata",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

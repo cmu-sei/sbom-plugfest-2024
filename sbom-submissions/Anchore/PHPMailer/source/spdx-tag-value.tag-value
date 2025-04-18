@@ -1,0 +1,327 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: /home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer
+DocumentNamespace: https://anchore.com/syft/dir/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer-bd79a060-d132-4766-8e3a-e5f30cfa5679
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:08:49Z
+
+##### Unpackaged files
+
+FileName: .github/workflows/docs.yaml
+SPDXID: SPDXRef-File-.github-workflows-docs.yaml-c5b72776554af8f7
+FileType: TEXT
+FileChecksum: SHA1: 6260ab5b06b0d56327069003b646ea53401b466a
+FileChecksum: SHA256: 7c1ce5f54d0a6b3669e9eada5f8e2b0c8e805506e0d0d42f7f48bfab450e431c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/scorecards.yml
+SPDXID: SPDXRef-File-.github-workflows-scorecards.yml-ae8b423421606a94
+FileType: TEXT
+FileChecksum: SHA1: 273668152906183d38bc097b54e6a74e96e12547
+FileChecksum: SHA256: da9082d0ea13536111abf8c554597347210994a2738d3206818989cf7f22a989
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/tests.yml
+SPDXID: SPDXRef-File-.github-workflows-tests.yml-9b0927f24570d5cb
+FileType: TEXT
+FileChecksum: SHA1: e9f9ece6a96c316f3bca83b9627b1c274c11fbf3
+FileChecksum: SHA256: 57d3fb6c721562b5849c5d2035711c8395617fa6067eb718d8a2a5ade124c4a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Package: /home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer
+
+PackageName: /home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer
+SPDXID: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: FILE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: ./.github/actions/build-docs
+
+PackageName: ./.github/actions/build-docs
+SPDXID: SPDXRef-Package-github-action-.-.github-actions-build-docs-c26054d4b7e854f0
+PackageVersion: UNKNOWN
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/docs.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/actions\/build-docs:.\/.github\/actions\/build-docs:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/actions\/build-docs:.\/.github\/actions\/build_docs:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/actions\/build_docs:.\/.github\/actions\/build-docs:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/actions\/build_docs:.\/.github\/actions\/build_docs:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/actions\/build:.\/.github\/actions\/build-docs:*:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:.\/.github\/actions\/build:.\/.github\/actions\/build_docs:*:*:*:*:*:*:*:*
+
+##### Package: JamesIves/github-pages-deploy-action
+
+PackageName: JamesIves/github-pages-deploy-action
+SPDXID: SPDXRef-Package-github-action-JamesIves-github-pages-deploy-action-45c0077e33141f05
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/docs.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github-pages-deploy-action:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github-pages-deploy-action:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github_pages_deploy_action:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github_pages_deploy_action:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github-pages-deploy:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github-pages-deploy:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github_pages_deploy:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github_pages_deploy:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github-pages:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github-pages:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github_pages:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github_pages:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:JamesIves\/github:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/JamesIves/github-pages-deploy-action@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-4f4485f6d74e6554
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/tests.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-5493bd6efc76cbbe
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/scorecards.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-705ea9b69ead1558
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/docs.yaml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/upload-artifact
+
+PackageName: actions/upload-artifact
+SPDXID: SPDXRef-Package-github-action-actions-upload-artifact-be3b97621113ab85
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/scorecards.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload-artifact:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/upload:actions\/upload_artifact:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/upload-artifact@v4
+
+##### Package: codecov/codecov-action
+
+PackageName: codecov/codecov-action
+SPDXID: SPDXRef-Package-github-action-codecov-codecov-action-5db608ca9a23b462
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/tests.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov-action:codecov\/codecov-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov-action:codecov\/codecov_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov_action:codecov\/codecov-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov_action:codecov\/codecov_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov:codecov\/codecov-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov:codecov\/codecov_action:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/codecov/codecov-action@v4
+
+##### Package: github/codeql-action/upload-sarif
+
+PackageName: github/codeql-action/upload-sarif
+SPDXID: SPDXRef-Package-github-action-github-codeql-action-upload-sarif-a85f0478b29db794
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/scorecards.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/upload:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/upload:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/github/codeql-action@v3#upload-sarif
+
+##### Package: nick-invision/retry
+
+PackageName: nick-invision/retry
+SPDXID: SPDXRef-Package-github-action-nick-invision-retry-a258e6887ed02256
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/tests.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:nick-invision\/retry:nick-invision\/retry:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:nick-invision\/retry:nick_invision\/retry:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:nick_invision\/retry:nick-invision\/retry:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:nick_invision\/retry:nick_invision\/retry:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:nick:nick-invision\/retry:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:nick:nick_invision\/retry:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/nick-invision/retry@v3
+
+##### Package: ossf/scorecard-action
+
+PackageName: ossf/scorecard-action
+SPDXID: SPDXRef-Package-github-action-ossf-scorecard-action-95511f797863387a
+PackageVersion: 62b2cac7ed8198b15735ed49ab1e5cf35480ba46
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/scorecards.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ossf\/scorecard-action:ossf\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ossf\/scorecard-action:ossf\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ossf\/scorecard_action:ossf\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ossf\/scorecard_action:ossf\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ossf\/scorecard:ossf\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ossf\/scorecard:ossf\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46
+
+##### Package: ramsey/composer-install
+
+PackageName: ramsey/composer-install
+SPDXID: SPDXRef-Package-github-action-ramsey-composer-install-f14ca7c10e73cb8a
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/tests.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ramsey\/composer-install:ramsey\/composer-install:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ramsey\/composer-install:ramsey\/composer_install:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ramsey\/composer_install:ramsey\/composer-install:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ramsey\/composer_install:ramsey\/composer_install:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ramsey\/composer:ramsey\/composer-install:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ramsey\/composer:ramsey\/composer_install:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ramsey/composer-install@v3
+
+##### Package: shivammathur/setup-php
+
+PackageName: shivammathur/setup-php
+SPDXID: SPDXRef-Package-github-action-shivammathur-setup-php-da750fa0a7c52d2f
+PackageVersion: v2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/tests.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:shivammathur\/setup-php:shivammathur\/setup-php:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:shivammathur\/setup-php:shivammathur\/setup_php:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:shivammathur\/setup_php:shivammathur\/setup-php:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:shivammathur\/setup_php:shivammathur\/setup_php:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:shivammathur\/setup:shivammathur\/setup-php:v2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:shivammathur\/setup:shivammathur\/setup_php:v2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/shivammathur/setup-php@v2
+
+##### Relationships
+
+Relationship: SPDXRef-Package-github-action-JamesIves-github-pages-deploy-action-45c0077e33141f05 OTHER SPDXRef-File-.github-workflows-docs.yaml-c5b72776554af8f7
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-4f4485f6d74e6554 OTHER SPDXRef-File-.github-workflows-tests.yml-9b0927f24570d5cb
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-5493bd6efc76cbbe OTHER SPDXRef-File-.github-workflows-scorecards.yml-ae8b423421606a94
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-codecov-codecov-action-5db608ca9a23b462 OTHER SPDXRef-File-.github-workflows-tests.yml-9b0927f24570d5cb
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-705ea9b69ead1558 OTHER SPDXRef-File-.github-workflows-docs.yaml-c5b72776554af8f7
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-ossf-scorecard-action-95511f797863387a OTHER SPDXRef-File-.github-workflows-scorecards.yml-ae8b423421606a94
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-nick-invision-retry-a258e6887ed02256 OTHER SPDXRef-File-.github-workflows-tests.yml-9b0927f24570d5cb
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-github-codeql-action-upload-sarif-a85f0478b29db794 OTHER SPDXRef-File-.github-workflows-scorecards.yml-ae8b423421606a94
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-upload-artifact-be3b97621113ab85 OTHER SPDXRef-File-.github-workflows-scorecards.yml-ae8b423421606a94
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-.-.github-actions-build-docs-c26054d4b7e854f0 OTHER SPDXRef-File-.github-workflows-docs.yaml-c5b72776554af8f7
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-shivammathur-setup-php-da750fa0a7c52d2f OTHER SPDXRef-File-.github-workflows-tests.yml-9b0927f24570d5cb
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-ramsey-composer-install-f14ca7c10e73cb8a OTHER SPDXRef-File-.github-workflows-tests.yml-9b0927f24570d5cb
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-.-.github-actions-build-docs-c26054d4b7e854f0
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-JamesIves-github-pages-deploy-action-45c0077e33141f05
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-actions-checkout-705ea9b69ead1558
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-actions-checkout-5493bd6efc76cbbe
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-actions-checkout-4f4485f6d74e6554
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-actions-upload-artifact-be3b97621113ab85
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-codecov-codecov-action-5db608ca9a23b462
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-github-codeql-action-upload-sarif-a85f0478b29db794
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-nick-invision-retry-a258e6887ed02256
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-ossf-scorecard-action-95511f797863387a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-ramsey-composer-install-f14ca7c10e73cb8a
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer CONTAINS SPDXRef-Package-github-action-shivammathur-setup-php-da750fa0a7c52d2f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-PHPMailer-PHPMailer
+

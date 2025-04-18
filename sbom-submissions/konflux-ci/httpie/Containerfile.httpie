@@ -1,0 +1,5 @@
+FROM registry.redhat.io/ubi9/python-312:latest
+
+COPY . .
+RUN . /tmp/cachi2.env && pip install -r requirements.txt
+RUN . /tmp/cachi2.env && pip install .

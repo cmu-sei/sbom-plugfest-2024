@@ -1,0 +1,1626 @@
+[Image]
+ Layer:		 0
+ Digest:	 sha256:652a96b2fa1f099fbc540850f6b2205330caec4ffdfa504daa77d98517e5dc6d
+ Size:		 74769683
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 1
+ Digest:	 sha256:c964611e9ca6f78bfea1ada22837affc0690843e6d26b5669dcad838a6eb2ae4
+ Size:		 824035
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 2
+ Digest:	 sha256:7c0bdcb540dca7bfc6d50311648e31a8d731f2aacbe2016bc5f049e836fc14c0
+ Size:		 164568839
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 3
+ Digest:	 sha256:a5b99a4db61446c298029802df9b4db77363d8042635e349cea4967cf1ac9039
+ Size:		 73628581
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 4
+ Digest:	 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+ Size:		 0
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+[HdrHistogram]
+ Version:	 2.1.12
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[HikariCP]
+ Version:	 5.1.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[LatencyUtils]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[accessors-smart]
+ Version:	 2.5.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[adduser]
+ Version:	 3.134
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[alpine-common]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[alpine-executable-war]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[alpine-infra]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[alpine-model]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[alpine-server]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[angus-activation]
+ Version:	 2.0.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[angus-core]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[angus-mail]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[aopalliance-repackaged]
+ Version:	 3.0.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[apt]
+ Version:	 2.6.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[asm]
+ Version:	 9.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[asm-analysis]
+ Version:	 9.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[asm-commons]
+ Version:	 9.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[asm-tree]
+ Version:	 9.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[asm-util]
+ Version:	 9.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[auto-value-annotations]
+ Version:	 1.10.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[base-files]
+ Version:	 12.4+deb12u7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[base-passwd]
+ Version:	 3.6.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[bash]
+ Version:	 5.2.15-2+b7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[bsdutils]
+ Version:	 1:2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[caffeine]
+ Version:	 3.1.8
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[checker-qual]
+ Version:	 3.42.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[classgraph]
+ Version:	 4.8.176
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[classmate]
+ Version:	 1.5.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[cloud-sql-connector-jdbc-sqlserver]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-codec]
+ Version:	 1.17.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-collections4]
+ Version:	 4.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-compress]
+ Version:	 1.27.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-io]
+ Version:	 2.17.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-lang3]
+ Version:	 3.17.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-logging]
+ Version:	 1.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[commons-text]
+ Version:	 1.12.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[content-type]
+ Version:	 2.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[coreutils]
+ Version:	 9.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[cpe-parser]
+ Version:	 2.1.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[cvss-calculator]
+ Version:	 1.4.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[cyclonedx-core-java]
+ Version:	 9.1.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[dash]
+ Version:	 0.5.12-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[datanucleus-api-jdo]
+ Version:	 6.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[datanucleus-core]
+ Version:	 6.0.8
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[datanucleus-rdbms]
+ Version:	 6.0.8
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[debconf]
+ Version:	 1.5.82
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debian-archive-keyring]
+ Version:	 2023.3+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debianutils]
+ Version:	 5.7-0.5~deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dec]
+ Version:	 0.1.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[dependency-track]
+ Version:	 4.12.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[dependency-track-apiserver]
+ Version:	 UNKNOWN
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[diffutils]
+ Version:	 1:3.8-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dpkg]
+ Version:	 1.21.22
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[e2fsprogs]
+ Version:	 1.47.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[encoder]
+ Version:	 1.3.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[encoder-jsp]
+ Version:	 1.3.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[error_prone_annotations]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[expressly]
+ Version:	 5.0.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[failureaccess]
+ Version:	 1.0.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[findutils]
+ Version:	 4.9.0-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gax]
+ Version:	 2.51.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gcc-12-base]
+ Version:	 12.2.0-14
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[github-api]
+ Version:	 1.323
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[glassfish-corba-omgapi]
+ Version:	 4.2.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-api-client]
+ Version:	 2.6.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-api-services-sqladmin]
+ Version:	 v1beta4-rev20240724-2.0.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-api-services-sqladmin-v1beta4-rev20240724]
+ Version:	 2.0.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-auth-library-credentials]
+ Version:	 1.24.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-auth-library-oauth2-http]
+ Version:	 1.24.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-http-client]
+ Version:	 1.44.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-http-client-apache-v2]
+ Version:	 1.44.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-http-client-gson]
+ Version:	 1.44.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[google-oauth-client]
+ Version:	 1.36.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gpgv]
+ Version:	 2.2.40-1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[grep]
+ Version:	 3.8-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[grpc-api]
+ Version:	 1.60.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[grpc-context]
+ Version:	 1.60.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gson]
+ Version:	 2.11.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gson]
+ Version:	 2.8.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[guava]
+ Version:	 32.0.1-jre
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gzip]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[h2]
+ Version:	 2.3.232
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[hibernate-validator]
+ Version:	 8.0.1.Final
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[hk2-api]
+ Version:	 3.0.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[hk2-locator]
+ Version:	 3.0.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[hk2-utils]
+ Version:	 3.0.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[hostname]
+ Version:	 3.23+nmu1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[httpclient]
+ Version:	 4.5.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[httpclient5]
+ Version:	 5.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[httpcore]
+ Version:	 4.4.16
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[httpcore5]
+ Version:	 5.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[httpcore5-h2]
+ Version:	 5.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[httpmime]
+ Version:	 4.5.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[imap]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[init-system-helpers]
+ Version:	 1.65.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[isorelax]
+ Version:	 20090621
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[istack-commons-runtime]
+ Version:	 4.1.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[itu]
+ Version:	 1.10.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[j2objc-annotations]
+ Version:	 2.8
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-annotations]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-annotations]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-core]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-core]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-databind]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-databind]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-dataformat-xml]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-dataformat-yaml]
+ Version:	 2.17.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-datatype-jdk8]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-datatype-jsr310]
+ Version:	 2.17.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-jakarta-rs-base]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-jakarta-rs-json-provider]
+ Version:	 2.18.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jackson-module-jakarta-xmlbind-annotations]
+ Version:	 2.17.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.activation-api]
+ Version:	 2.1.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.annotation-api]
+ Version:	 2.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.el-api]
+ Version:	 5.0.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.inject-api]
+ Version:	 2.0.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.json]
+ Version:	 1.1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.json-api]
+ Version:	 2.1.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.json-api]
+ Version:	 2.1.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.mail-api]
+ Version:	 2.1.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.servlet-api]
+ Version:	 6.1.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.validation-api]
+ Version:	 3.0.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.ws.rs-api]
+ Version:	 3.1.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jakarta.xml.bind-api]
+ Version:	 4.0.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[javassist]
+ Version:	 3.30.2-GA
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[javax.jdo]
+ Version:	 3.2.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[javax.transaction-api]
+ Version:	 1.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jaxb-core]
+ Version:	 4.0.5
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jaxb-runtime]
+ Version:	 4.0.5
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jbcrypt]
+ Version:	 0.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jboss-logging]
+ Version:	 3.6.0.Final
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jcip-annotations]
+ Version:	 1.0-1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jcip-annotations]
+ Version:	 1.0-1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jcl-over-slf4j]
+ Version:	 2.0.12
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jdbc-socket-factory-core]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-bean-validation]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-client]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-common]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-container-servlet]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-container-servlet-core]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-entity-filtering]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-hk2]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-media-json-jackson]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-media-multipart]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jersey-server]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-deploy]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-ee]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-ee10-servlet]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-ee10-webapp]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-http]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-io]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-security]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-server]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-session]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-util]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jetty-xml]
+ Version:	 12.0.14
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jffi]
+ Version:	 1.3.13
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jjwt]
+ Version:	 0.12.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jjwt-api]
+ Version:	 0.12.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jjwt-impl]
+ Version:	 0.12.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jjwt-jackson]
+ Version:	 0.12.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jmustache]
+ Version:	 1.16
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-a64asm]
+ Version:	 1.0.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-constants]
+ Version:	 0.10.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-enxio]
+ Version:	 0.32.17
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-ffi]
+ Version:	 2.2.16
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-posix]
+ Version:	 3.1.19
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-unixsocket]
+ Version:	 0.38.22
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jnr-x86asm]
+ Version:	 1.0.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jrt-fs]
+ Version:	 21.0.5
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[json]
+ Version:	 20240303
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[json-schema-validator]
+ Version:	 1.5.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[json-smart]
+ Version:	 2.5.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jsr305]
+ Version:	 3.0.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[jul-to-slf4j]
+ Version:	 2.0.12
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[lang-tag]
+ Version:	 1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[libacl1]
+ Version:	 2.3.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libapt-pkg6.0]
+ Version:	 2.6.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libattr1]
+ Version:	 1:2.5.1-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaudit-common]
+ Version:	 1:3.0.9-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaudit1]
+ Version:	 1:3.0.9-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libblkid1]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbz2-1.0]
+ Version:	 1.0.8-5+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc-bin]
+ Version:	 2.36-9+deb12u8
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc6]
+ Version:	 2.36-9+deb12u8
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcap-ng0]
+ Version:	 0.8.3-1+b3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcap2]
+ Version:	 1:2.66-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcom-err2]
+ Version:	 1.47.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcrypt1]
+ Version:	 1:4.4.33-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdb5.3]
+ Version:	 5.3.28+dfsg2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdebconfclient0]
+ Version:	 0.270
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libext2fs2]
+ Version:	 1.47.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libffi8]
+ Version:	 3.4.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcc-s1]
+ Version:	 12.2.0-14
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcrypt20]
+ Version:	 1.10.1-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgmp10]
+ Version:	 2:6.2.1+dfsg1-1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgnutls30]
+ Version:	 3.7.9-2+deb12u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgpg-error0]
+ Version:	 1.46-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libhogweed6]
+ Version:	 3.8.1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libidn2-0]
+ Version:	 2.3.3-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblz4-1]
+ Version:	 1.9.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblzma5]
+ Version:	 5.4.1-0.2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmd0]
+ Version:	 1.0.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmount1]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnettle8]
+ Version:	 3.8.1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libp11-kit0]
+ Version:	 0.24.1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-modules]
+ Version:	 1.5.2-6+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-modules-bin]
+ Version:	 1.5.2-6+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-runtime]
+ Version:	 1.5.2-6+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam0g]
+ Version:	 1.5.2-6+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre2-8-0]
+ Version:	 10.42-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpsl5]
+ Version:	 0.21.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libseccomp2]
+ Version:	 2.5.4-1+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libselinux1]
+ Version:	 3.4-1+b6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsemanage-common]
+ Version:	 3.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsemanage2]
+ Version:	 3.4-1+b5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsepol2]
+ Version:	 3.4-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsmartcols1]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libss2]
+ Version:	 1.47.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libstdc++6]
+ Version:	 12.2.0-14
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsystemd0]
+ Version:	 252.30-1~deb12u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtasn1-6]
+ Version:	 4.19.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtinfo6]
+ Version:	 6.4-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libudev1]
+ Version:	 252.30-1~deb12u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libunistring2]
+ Version:	 1.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libuuid1]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxxhash0]
+ Version:	 0.8.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libzstd1]
+ Version:	 1.5.4+dfsg2-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[listenablefuture]
+ Version:	 9999.0-empty-to-avoid-conflict-with-guava
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[log4j-over-slf4j]
+ Version:	 2.0.12
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[log4j-over-slf4j]
+ Version:	 2.0.16
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[logback-classic]
+ Version:	 1.5.11
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[logback-classic]
+ Version:	 1.5.11
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[logback-core]
+ Version:	 1.5.11
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[logback-core]
+ Version:	 1.5.11
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[logging-mailhandler]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[login]
+ Version:	 1:4.13+dfsg1-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[logsave]
+ Version:	 1.47.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[logstash-logback-encoder]
+ Version:	 8.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[logstash-logback-encoder]
+ Version:	 8.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[lucene-analyzers-common]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[lucene-core]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[lucene-queries]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[lucene-queryparser]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[lucene-sandbox]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[maven-artifact]
+ Version:	 3.9.9
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[mawk]
+ Version:	 1.3.4.20200120-3.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[micrometer-commons]
+ Version:	 1.10.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[micrometer-core]
+ Version:	 1.10.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[micrometer-observation]
+ Version:	 1.10.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[micrometer-registry-prometheus]
+ Version:	 1.11.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[microprofile-health-api]
+ Version:	 4.0.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[mimepull]
+ Version:	 1.9.15
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[mount]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mssql-jdbc]
+ Version:	 12.8.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[mysql-connector-j]
+ Version:	 8.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[mysql-socket-factory-connector-j-8]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[native]
+ Version:	 1.3.13-native
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[ncurses-base]
+ Version:	 6.4-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ncurses-bin]
+ Version:	 6.4-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[nimbus-jose-jwt]
+ Version:	 9.40
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[oauth2-oidc-sdk]
+ Version:	 11.20.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[open-vulnerability-clients]
+ Version:	 7.0.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[opencensus-api]
+ Version:	 0.31.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[opencensus-contrib-http-util]
+ Version:	 0.31.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[openjdk]
+ Version:	 21.0.5+11-LTS
+ Type:		 binary
+ Found by:	 java-jvm-cataloger
+
+[osgi-resource-locator]
+ Version:	 1.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[owasp-risk-rating-calculator]
+ Version:	 1.0.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[packageurl-java]
+ Version:	 1.5.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[parsson]
+ Version:	 1.1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[passwd]
+ Version:	 1:4.13+dfsg1-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[pebble]
+ Version:	 3.2.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[perl-base]
+ Version:	 5.36.0-7+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[plexus-utils]
+ Version:	 3.5.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[pop3]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[postgres-socket-factory]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[postgresql]
+ Version:	 42.7.4
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[protobuf-java]
+ Version:	 4.28.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[protobuf-java-util]
+ Version:	 4.28.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-bulkhead]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-circuitbreaker]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-core]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-micrometer]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-ratelimiter]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-retry]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[resilience4j-timelimiter]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[security-logging-common]
+ Version:	 1.1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[security-logging-common]
+ Version:	 1.1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[security-logging-logback]
+ Version:	 1.1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[security-logging-logback]
+ Version:	 1.1.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[sed]
+ Version:	 4.9-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[signpost-core]
+ Version:	 2.1.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[simpleclient]
+ Version:	 0.16.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[simpleclient_common]
+ Version:	 0.16.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[simpleclient_tracer_common]
+ Version:	 0.16.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[simpleclient_tracer_otel]
+ Version:	 0.16.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[simpleclient_tracer_otel_agent]
+ Version:	 0.16.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[slf4j-api]
+ Version:	 2.0.12
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[slf4j-api]
+ Version:	 2.0.12
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[smtp]
+ Version:	 2.0.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[snakeyaml]
+ Version:	 2.3
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[stax2-api]
+ Version:	 4.2.2
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[swagger-annotations-jakarta]
+ Version:	 2.2.25
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[swagger-core-jakarta]
+ Version:	 2.2.25
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[swagger-integration-jakarta]
+ Version:	 2.2.25
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[swagger-jaxrs2-jakarta]
+ Version:	 2.2.25
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[swagger-models-jakarta]
+ Version:	 2.2.25
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[sysvinit-utils]
+ Version:	 3.06-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[tar]
+ Version:	 1.34+dfsg-1.2+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[txw2]
+ Version:	 4.0.5
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[tzdata]
+ Version:	 2024a-0+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[unbescape]
+ Version:	 1.1.6.RELEASE
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[usr-is-merged]
+ Version:	 37~deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[util-linux]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[util-linux-extra]
+ Version:	 2.38.1-5+deb12u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[wget]
+ Version:	 1.21.3-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[woodstox-core]
+ Version:	 7.0.0
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[xsdlib]
+ Version:	 2022.7
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[zlib1g]
+ Version:	 1:1.2.13.dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+

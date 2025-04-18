@@ -1,0 +1,115 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "dependency-track_4.12.1.zip",
+    "documentNamespace": "https://clarity.insignary.com/spdx/documents/dependency-track_4.12.1.zip-cbea5617-9e94-4b91-87a3-1b6a8ab96f3f",
+    "creationInfo": {
+        "created": "2024-11-29T13:20:32Z",
+        "creators": [
+            "Person: YunSeong Choi (yunseong@korea.ac.kr)",
+            "Organization: Insignary",
+            "Tool: Insignary Clarity-5.0.332b1.331"
+        ],
+        "licenseListVersion": "3.23"
+    },
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-52d17b57-ad95-4102-a2db-1320bf9690d6",
+            "spdxDocument": "https://clarity.insignary.com/spdx/documents/dependency-track_4.12.1.zip-cbea5617-9e94-4b91-87a3-1b6a8ab96f3f",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "4e9a9d9fe62826b747b1379e8c7a381bc573a3fa"
+            }
+        }
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-github-dependency-track-4.12.1",
+            "name": "dependency-track",
+            "versionInfo": "4.12.1",
+            "supplier": "Organization: DependencyTrack",
+            "originator": "NOASSERTION",
+            "downloadLocation": "https://github.com/DependencyTrack/dependency-track/archive/refs/tags/4.12.1.tar.gz",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "1ad5fed6189fddbebd83ac79809ba05c0dea01af"
+            },
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4e9a9d9fe62826b747b1379e8c7a381bc573a3fa"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "25c9182804c29283a3e8232e7080d00dee09323bbab2d5035568dbb0be357966"
+                },
+                {
+                    "algorithm": "MD5",
+                    "checksumValue": "d934fad3b512f0642581e2819835059b"
+                }
+            ],
+            "homepage": "https://dependencytrack.org/",
+            "sourceInfo": "The package was detected in the following paths: dependency-track_4.12.1.zip",
+            "licenseConcluded": "Apache-2.0",
+            "licenseInfoFromFiles": [
+                "Apache-2.0"
+            ],
+            "licenseDeclared": "Apache-2.0",
+            "copyrightText": "Copyright (c) OWASP Foundation. All Rights Reserved.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/dependency-track@4.12.1#https://github.com/DependencyTrack/dependency-track/archive/1.0.0.tar.gz",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "https://github.com/DependencyTrack/dependency-track",
+                    "referenceType": "git"
+                }
+            ],
+            "primaryPackagePurpose": "SOURCE"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-ac462896-dc48-4b87-a906-29ea07f2a598",
+            "fileName": "dependency-track_4.12.1.zip",
+            "fileTypes": [
+                "SOURCE"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4e9a9d9fe62826b747b1379e8c7a381bc573a3fa"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "25c9182804c29283a3e8232e7080d00dee09323bbab2d5035568dbb0be357966"
+                },
+                {
+                    "algorithm": "MD5",
+                    "checksumValue": "d934fad3b512f0642581e2819835059b"
+                }
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseInfoInFiles": [
+                "Apache-2.0"
+            ],
+            "comment": "Zip archive data, at least v1.0 to extract"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relationshipType": "DESCRIBES",
+            "relatedSpdxElement": "SPDXRef-github-dependency-track-4.12.1"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-dependency-track-4.12.1",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-File-ac462896-dc48-4b87-a906-29ea07f2a598"
+        }
+    ]
+}

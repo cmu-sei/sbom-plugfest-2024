@@ -1,0 +1,172 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:97e51890-1cd5-4d74-8baf-003d7028a409",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "Dennis Clark"
+      }
+    ],
+    "component": {
+      "bom-ref": "84c149b5-38ac-4dd7-bcbc-48233e3a6b4e",
+      "copyright": "Copyright Lucent Technologies",
+      "description": "jq inventory as deployed (without the docs)",
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa"
+        }
+      ],
+      "name": "jq-as-deployed",
+      "properties": [
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "https://jqlang.github.io/jq/"
+        },
+        {
+          "name": "aboutcode:notice_text",
+          "value": "Copyright Lucent Technologies\n\njq is copyright (C) 2012 Stephen Dolan\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\njq's documentation (everything found under the docs/ subdirectory in\nthe source tree) is licensed under the Creative Commons CC BY 3.0\nlicense, which can be found at:\n\n         https://creativecommons.org/licenses/by/3.0/\n\nThe documentation website includes a copy of Twitter's Bootstrap and\nrelies on Bonsai, Liquid templates and various other projects, look\nthem up for detailed licensing conditions.\n\n\n\njq incorporates David M. Gay's dtoa.c and g_fmt.c, which bear the\nfollowing notices:\n\ndtoa.c:\nThe author of this software is David M. Gay.\n\nCopyright (c) 1991, 2000, 2001 by Lucent Technologies.\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software and in all copies of the supporting\ndocumentation for such software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY\nREPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\nOF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\ng_fmt.c:\nThe author of this software is David M. Gay.\n\nCopyright (c) 1991, 1996 by Lucent Technologies.\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software and in all copies of the supporting\ndocumentation for such software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY\nREPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\nOF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\n\n\njq uses parts of the open source C library \"decNumber\", which is distributed\nunder the following license:\n\n\nICU License - ICU 1.8.1 and later\n\nCOPYRIGHT AND PERMISSION NOTICE\n\nCopyright (c) 1995-2005 International Business Machines Corporation and others\nAll rights reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, and/or sell copies of the Software, and to permit persons\nto whom the Software is furnished to do so, provided that the above\ncopyright notice(s) and this permission notice appear in all copies of\nthe Software and that both the above copyright notice(s) and this\npermission notice appear in supporting documentation.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nOF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\nHOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL\nINDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING\nFROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\nNEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION\nWITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\nExcept as contained in this notice, the name of a copyright holder\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nof the copyright holder.\n\n--------------------------------------------------------------------------------\nAll trademarks and registered trademarks mentioned herein are the property of their respective owners.\n\n\n\njv_thread.h is copied from Heimdal's lib/base/heimbase.h and some code\nin jv.c is copied from Heimdal's lib/base/dll.c:\n\n\nPortions Copyright (c) 2016 Kungliga Tekniska H\u00f6gskolan\n(Royal Institute of Technology, Stockholm, Sweden).\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS\nFOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE\nCOPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\nINDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\nSTRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\nOF THE POSSIBILITY OF SUCH DAMAGE."
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "C"
+        }
+      ],
+      "supplier": {
+        "name": "Alcatel-Lucent",
+        "url": [
+          "http://www.alcatel-lucent.com/"
+        ]
+      },
+      "type": "application",
+      "version": "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    "timestamp": "2024-12-11T01:03:36.241964+00:00",
+    "tools": [
+      {
+        "name": "DejaCode",
+        "vendor": "nexB",
+        "version": "5.2.1"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "bom-ref": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+      "copyright": "Copyright Lucent Technologies",
+      "cpe": "",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1dcab7e8ec563456fda1cf516efacf06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d6067542408affa63dd76f763f112667c5b09ff6674050bef83a55a1375855b0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c7b7d1a0e752d9cf6e6348c548521d140045a27381c18026b94e13c0bb0bad5e455a84d4085a13d123bb84f1b23b97a9a84adc9a45d9919ed58e2e82744340cf"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa"
+        }
+      ],
+      "name": "jq",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://github.com/jqlang/jq/archive/96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip"
+        },
+        {
+          "name": "aboutcode:filename",
+          "value": "jq-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "C"
+        }
+      ],
+      "purl": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+      "type": "library",
+      "version": "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+      "copyright": "Copyright K.Kosako",
+      "cpe": "",
+      "description": "regular expression library",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "71993e6c8e527226e1d260d6f91a8de9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3fd890fd45e51d2f6d058c17a9389ecb90ae4716"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3957a07b4b2db21af2363d04d84d4cbb8435d549959f9c6e342ea4fd0522cadb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "07de1e295ed1808170026402d2863695b99e281ed1bddf6c86a4c532f4650dee364de9b302c72d84a18f629815b8e7ce17c51f23164dfd320e3af94277774779"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND BSD-2-Clause"
+        }
+      ],
+      "name": "oniguruma",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://github.com/kkos/oniguruma/archive/d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip"
+        },
+        {
+          "name": "aboutcode:filename",
+          "value": "oniguruma-d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip"
+        },
+        {
+          "name": "aboutcode:notice_text",
+          "value": "Oniguruma LICENSE\n-----------------\n\nCopyright (c) 2002-2021  K.Kosako  <kkosako0@gmail.com>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n\n    Scan Summary\nDeclared license\n\n     bsd-new AND bsd-simplified\n\nDeclared holder\n\n     K.Kosako\n\nPrimary language\n\n     C\n\nOther licenses\n\n     bsd-simplified 65\n\n\n gpl-2.0-plus WITH autoconf-simple-exception-2.0 4\n\n\n bsd-new 3\n\n\n public-domain 3\n\n\n gpl-3.0-plus WITH autoconf-simple-exception 2\n warranty-disclaimer 2\n cc0-1.0 1\n\n\n fsf-ap 1\n\n\n x11-xconsortium AND public-domain 1\n\nOther holders\n\n     Free Software Foundation 9\n     Byte 1\n     K.Kosako, Zui Zhong Geng Xin 1\n     KUBO Takehiro K.Kosako 1\n     Oniguruma -- K.Kosako 1\n     X Consortium 1\n\nOther languages\n\n     Bash 12\n     Python 7\n     verilog 5\n     Batchfile 3\n     HTML 2\n     C++ 1\n     Objective-C 1\n\nStatus\n\n    Scan success\n\nCreated date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nStart date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nEnd date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nScanCode.io version\n\n    34.9.0\n\n    Home Documentation Support About Source Code Releases License \n\nCopyright nexB Inc. DejaCode is a trademark of nexB Inc.\n\nNo content on DejaCode should be considered or used as legal advice. Consult an Attorney for any legal advice.\n"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "C"
+        }
+      ],
+      "purl": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+      "type": "library",
+      "version": "d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+        "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+      ],
+      "ref": "84c149b5-38ac-4dd7-bcbc-48233e3a6b4e"
+    },
+    {
+      "ref": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    {
+      "ref": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+NAME                                    VERSION  TYPE                            
+actions-ecosystem/action-remove-labels  v1       github-action  [38;5;102m[0m                  
+actions/checkout                        v3       github-action  [38;5;102m(+11 duplicates)[0m  
+actions/checkout                        v4       github-action  [38;5;102m[0m                  
+actions/setup-python                    v4       github-action  [38;5;102m(+6 duplicates)[0m   
+actions/stale                           v8       github-action  [38;5;102m[0m                  
+actions/upload-artifact                 v3       github-action  [38;5;102m[0m                  
+actions/upload-release-asset            v1.0.2   github-action  [38;5;102m[0m                  
+mislav/bump-homebrew-formula-action     v2       github-action  [38;5;102m[0m                  
+peter-evans/create-or-update-comment    v2       github-action  [38;5;102m[0m                  
+peter-evans/create-pull-request         v4       github-action  [38;5;102m[0m                  
+peter-evans/find-comment                v2       github-action  [38;5;102m[0m                  
+pypa/gh-action-pypi-publish             master   github-action  [38;5;102m[0m                  
+ruby/setup-ruby                         v1       github-action  [38;5;102m[0m                  
+snapcore/action-build                   v1       github-action  [38;5;102m(+1 duplicate)[0m    
+snapcore/action-publish                 v1       github-action  [38;5;102m[0m                  

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:978343f0-7e97-4ece-963f-d2f26b5869df" version="1">
+  <metadata>
+    <timestamp>2024-12-13T14:07:33+01:00</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <author>anchore</author>
+          <name>syft</name>
+          <version>1.18.0</version>
+        </component>
+      </components>
+    </tools>
+    <component bom-ref="68f1e74c61b31760" type="file">
+      <name>/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies</name>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:github/actions/checkout@master?package-id=2784dfd778b28c40" type="library">
+      <name>actions/checkout</name>
+      <version>master</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:master:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@master</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/translation.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/ad-m/github-push-action@master?package-id=ce03eec74fa4bd6a" type="library">
+      <name>ad-m/github-push-action</name>
+      <version>master</version>
+      <cpe>cpe:2.3:a:ad-m\/github-push-action:ad-m\/github-push-action:master:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/ad-m/github-push-action@master</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad-m\/github-push-action:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad_m\/github_push_action:ad-m\/github-push-action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad_m\/github_push_action:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad-m\/github-push:ad-m\/github-push-action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad-m\/github-push:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad_m\/github_push:ad-m\/github-push-action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad_m\/github_push:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad-m\/github:ad-m\/github-push-action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad-m\/github:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad_m\/github:ad-m\/github-push-action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad_m\/github:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad:ad-m\/github-push-action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ad:ad_m\/github_push_action:master:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/translation.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:maven/gradle-wrapper/gradle-wrapper?package-id=e88364ec3fa76d61" type="library">
+      <name>gradle-wrapper</name>
+      <version>UNKNOWN</version>
+      <cpe>cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:maven/gradle-wrapper/gradle-wrapper</purl>
+      <externalReferences>
+        <reference type="build-meta">
+          <url/>
+          <hashes>
+            <hash alg="SHA-1">d99b3fab4e678237951d90da6814fc9eb17b97ca</hash>
+          </hashes>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">java-archive-cataloger</property>
+        <property name="syft:package:language">java</property>
+        <property name="syft:package:type">java-archive</property>
+        <property name="syft:package:metadataType">java-archive</property>
+        <property name="syft:cpe23">cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/gradle/wrapper/gradle-wrapper.jar</property>
+        <property name="syft:metadata:virtualPath">/gradle/wrapper/gradle-wrapper.jar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/ldtteam/operapublicacreator@main?package-id=44c4a7e0f297fb83#.github/workflows/gradle.build.yaml" type="library">
+      <name>ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml</name>
+      <version>main</version>
+      <cpe>cpe:2.3:a:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.build.yaml:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.build.yaml:main:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-action-workflow-usage-cataloger</property>
+        <property name="syft:package:type">github-action-workflow</property>
+        <property name="syft:location:0:path">/.github/workflows/build.yaml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/ldtteam/operapublicacreator@main?package-id=93943d5d84b47a49#.github/workflows/gradle.prerelease.yaml" type="library">
+      <name>ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml</name>
+      <version>main</version>
+      <cpe>cpe:2.3:a:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.prerelease.yaml:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.prerelease.yaml:main:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-action-workflow-usage-cataloger</property>
+        <property name="syft:package:type">github-action-workflow</property>
+        <property name="syft:location:0:path">/.github/workflows/build.yaml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/ldtteam/operapublicacreator@main?package-id=7b731ba6bf89919b#.github/workflows/gradle.publish.yaml" type="library">
+      <name>ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml</name>
+      <version>main</version>
+      <cpe>cpe:2.3:a:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.publish.yaml:ldtteam\/operapublicacreator\/.github\/workflows\/gradle.publish.yaml:main:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-action-workflow-usage-cataloger</property>
+        <property name="syft:package:type">github-action-workflow</property>
+        <property name="syft:location:0:path">/.github/workflows/release.yaml</property>
+      </properties>
+    </component>
+  </components>
+</bom>

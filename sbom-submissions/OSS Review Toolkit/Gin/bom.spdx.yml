@@ -1,0 +1,1701 @@
+---
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.2"
+creationInfo:
+  created: "2024-12-09T17:21:55Z"
+  creators:
+  - "Tool: ort-42.1.0"
+  licenseListVersion: "3.25.0"
+name: "Unnamed document"
+dataLicense: "CC0-1.0"
+documentNamespace: "spdx://aab68843-9871-4cb5-8988-6b75a6f6d352"
+documentDescribes:
+- "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+packages:
+- SPDXID: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  copyrightText: "Copyright (c) 2014 Manuel Martinez-Almeida\nCopyright 2009 The Go\
+    \ Authors\nCopyright 2013 Julien Schmidt\nCopyright 2014, 2017 Manu Martinez-Almeida\n\
+    Copyright 2017 Bo-Yi Wu\nCopyright 2018-2020, 2022-2023 Gin Core Team"
+  downloadLocation: "NONE"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/gin-gonic/gin"
+  summary: "NONE"
+  versionInfo: "f05f966a0824b1d302ee556183e2579c91954266"
+- SPDXID: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright (c) 2013-2018 Evan\
+    \ Nemerson <evan@nemerson.com>\nCopyright (c) 2013-2021 Evan Nemerson <evan@nemerson.com>\n\
+    Copyright (c) 2019 Yaoyuan <ibireme@gmail.com>\nCopyright (c) 2020 YaoYuan <ibireme@gmail.com>\n\
+    Copyright (c) 2021, 2023 Evan Nemerson <evan@nemerson.com> Michael R. Crusoe <crusoe@debian.org>\n\
+    Copyright (c) 2023 Michael R. Crusoe <crusoe@debian.org>\nCopyright (c) Daniel\
+    \ Lemire\nCopyright 2015-2020 Evan Nemerson <evan@nemerson.com> John W. Ratcliff\
+    \ <jratcliffscarab@gmail.com> Brandon Rowlett <browlett@nvidia.com> Ken Fast <kfast@gdeb.com>\n\
+    Copyright 2016, 2020 Evan Nemerson <evan@nemerson.com> Thomas Pornin <pornin@bolet.org>\n\
+    Copyright 2017, 2020 Evan Nemerson <evan@nemerson.com> Hidayat Khan <huk2209@gmail.com>\n\
+    Copyright 2017-2021 Evan Nemerson <evan@nemerson.com>\nCopyright 2017-2021, 2023\
+    \ Evan Nemerson <evan@nemerson.com> Yi-Yen Chung <eric681@andestech.com>\nCopyright\
+    \ 2018-2020 Evan Nemerson <evan@nemerson.com> Michael R. Crusoe <crusoe@debian.org>\
+    \ Himanshi Mathur <himanshi18037@iiitd.ac.in> Hidayat Khan <huk2209@gmail.com>\n\
+    Copyright 2018-2021, 2023 Evan Nemerson <evan@nemerson.com> Michael R. Crusoe\
+    \ <crusoe@debian.org>\nCopyright 2018-2023 The simdjson authors\nCopyright 2020\
+    \ Alexander Bolz\nCopyright 2020 Evan Nemerson <evan@nemerson.com> Ashleigh Newman-Jones\
+    \ <ashnewman-jones@hotmail.co.uk>\nCopyright 2020 Evan Nemerson <evan@nemerson.com>\
+    \ Christopher Moore <moore@free.fr>\nCopyright 2020 Sean Maher <seanptmaher@gmail.com>\n\
+    Copyright 2020 The Go Authors\nCopyright 2020, 2023 Evan Nemerson <evan@nemerson.com>\
+    \ Christopher Moore <moore@free.fr> Yi-Yen Chung <eric681@andestech.com>\nCopyright\
+    \ 2020, 2023 Evan Nemerson <evan@nemerson.com> Sean Maher <seanptmaher@gmail.com>\
+    \ Yi-Yen Chung <eric681@andestech.com>\nCopyright 2020-2021 Christopher Moore\
+    \ <moore@free.fr> Evan Nemerson <evan@nemerson.com>\nCopyright 2020-2021 Evan\
+    \ Nemerson <evan@nemerson.com> Christopher Moore <moore@free.fr> Andrew Rodriguez\
+    \ <anrodriguez@linkedin.com>\nCopyright 2020-2021 Evan Nemerson <evan@nemerson.com>\
+    \ Himanshi Mathur <himanshi18037@iiitd.ac.in>\nCopyright 2020-2021 Evan Nemerson\
+    \ <evan@nemerson.com> Himanshi Mathur <himanshi18037@iiitd.ac.in> Hidayat Khan\
+    \ <huk2209@gmail.com>\nCopyright 2020-2021 Evan Nemerson <evan@nemerson.com> Sean\
+    \ Maher <seanptmaher@gmail.com>\nCopyright 2020-2021 Evan Nemerson <evan@nemerson.com>\
+    \ Zhi An Ng <zhin@google.com>\nCopyright 2020-2021, 2023 Evan Nemerson <evan@nemerson.com>\
+    \ Decio Luiz Gazzoni Filho <decio@decpp.net> Yi-Yen Chung <eric681@andestech.com>\n\
+    Copyright 2020-2021, 2023 Evan Nemerson <evan@nemerson.com> Ju-Hung Li <jhlee@pllab.cs.nthu.edu.tw>\n\
+    Copyright 2020-2021, 2023 Sean Maher <seanptmaher@gmail.com> Evan Nemerson <evan@nemerson.com>\
+    \ Yi-Yen Chung <eric681@andestech.com>\nCopyright 2021 Andrew Rodriguez <anrodriguez@linkedin.com>\n\
+    Copyright 2021 Andrew Rodriguez <anrodriguez@linkedin.com> Evan Nemerson <evan@nemerson.com>\n\
+    Copyright 2021 Atharva Nimbalkar <atharvakn@gmail.com>\nCopyright 2021 ByteDance\
+    \ Inc.\nCopyright 2021 Decio Luiz Gazzoni Filho <decio@decpp.net>\nCopyright 2021\
+    \ Evan Nemerson <evan@nemerson.com> Atharva Nimbalkar <atharvakn@gmail.com>\n\
+    Copyright 2021 Kunwar Maheep Singh <kunwar.maheep@students.iiit.ac.in> Christopher\
+    \ Moore <moore@free.fr>\nCopyright 2021 Zhi An Ng <zhin@google.com>\nCopyright\
+    \ 2021, 2023 Atharva Nimbalkar <atharvakn@gmail.com> Yi-Yen Chung <eric681@andestech.com>\n\
+    Copyright 2021-2024 ByteDance Inc.\nCopyright 2022 ByteDance\nCopyright 2023 Chi-Wei\
+    \ Chu <wewe5215@gapp.nthu.edu.tw>\nCopyright 2023 CloudWeGo Authors\nCopyright\
+    \ 2023 Michael R. Crusoe <crusoe@debian.org>\nCopyright 2023 Michael R. Crusoe\
+    \ <crusoe@debian.org> Yi-Yen Chung <eric681@andestech.com>\nCopyright 2023 Yi-Yen\
+    \ Chung <eric681@andestech.com>"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/bytedance/sonic@1.11.6"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND BSL-1.0 AND MIT"
+  name: "github.com/bytedance/sonic"
+  summary: "NONE"
+  versionInfo: "1.11.6"
+- SPDXID: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6-vcs"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright (c) 2013-2018 Evan\
+    \ Nemerson <evan@nemerson.com>\nCopyright (c) 2013-2021 Evan Nemerson <evan@nemerson.com>\n\
+    Copyright (c) 2019 Yaoyuan <ibireme@gmail.com>\nCopyright (c) 2020 YaoYuan <ibireme@gmail.com>\n\
+    Copyright (c) 2021, 2023 Evan Nemerson <evan@nemerson.com> Michael R. Crusoe <crusoe@debian.org>\n\
+    Copyright (c) 2023 Michael R. Crusoe <crusoe@debian.org>\nCopyright (c) Daniel\
+    \ Lemire\nCopyright 2015-2020 Evan Nemerson <evan@nemerson.com> John W. Ratcliff\
+    \ <jratcliffscarab@gmail.com> Brandon Rowlett <browlett@nvidia.com> Ken Fast <kfast@gdeb.com>\n\
+    Copyright 2016, 2020 Evan Nemerson <evan@nemerson.com> Thomas Pornin <pornin@bolet.org>\n\
+    Copyright 2017, 2020 Evan Nemerson <evan@nemerson.com> Hidayat Khan <huk2209@gmail.com>\n\
+    Copyright 2017-2021 Evan Nemerson <evan@nemerson.com>\nCopyright 2017-2021, 2023\
+    \ Evan Nemerson <evan@nemerson.com> Yi-Yen Chung <eric681@andestech.com>\nCopyright\
+    \ 2018-2020 Evan Nemerson <evan@nemerson.com> Michael R. Crusoe <crusoe@debian.org>\
+    \ Himanshi Mathur <himanshi18037@iiitd.ac.in> Hidayat Khan <huk2209@gmail.com>\n\
+    Copyright 2018-2021, 2023 Evan Nemerson <evan@nemerson.com> Michael R. Crusoe\
+    \ <crusoe@debian.org>\nCopyright 2018-2023 The simdjson authors\nCopyright 2020\
+    \ Alexander Bolz\nCopyright 2020 Evan Nemerson <evan@nemerson.com> Ashleigh Newman-Jones\
+    \ <ashnewman-jones@hotmail.co.uk>\nCopyright 2020 Evan Nemerson <evan@nemerson.com>\
+    \ Christopher Moore <moore@free.fr>\nCopyright 2020 Sean Maher <seanptmaher@gmail.com>\n\
+    Copyright 2020 The Go Authors\nCopyright 2020, 2023 Evan Nemerson <evan@nemerson.com>\
+    \ Christopher Moore <moore@free.fr> Yi-Yen Chung <eric681@andestech.com>\nCopyright\
+    \ 2020, 2023 Evan Nemerson <evan@nemerson.com> Sean Maher <seanptmaher@gmail.com>\
+    \ Yi-Yen Chung <eric681@andestech.com>\nCopyright 2020-2021 Christopher Moore\
+    \ <moore@free.fr> Evan Nemerson <evan@nemerson.com>\nCopyright 2020-2021 Evan\
+    \ Nemerson <evan@nemerson.com> Christopher Moore <moore@free.fr> Andrew Rodriguez\
+    \ <anrodriguez@linkedin.com>\nCopyright 2020-2021 Evan Nemerson <evan@nemerson.com>\
+    \ Himanshi Mathur <himanshi18037@iiitd.ac.in>\nCopyright 2020-2021 Evan Nemerson\
+    \ <evan@nemerson.com> Himanshi Mathur <himanshi18037@iiitd.ac.in> Hidayat Khan\
+    \ <huk2209@gmail.com>\nCopyright 2020-2021 Evan Nemerson <evan@nemerson.com> Sean\
+    \ Maher <seanptmaher@gmail.com>\nCopyright 2020-2021 Evan Nemerson <evan@nemerson.com>\
+    \ Zhi An Ng <zhin@google.com>\nCopyright 2020-2021, 2023 Evan Nemerson <evan@nemerson.com>\
+    \ Decio Luiz Gazzoni Filho <decio@decpp.net> Yi-Yen Chung <eric681@andestech.com>\n\
+    Copyright 2020-2021, 2023 Evan Nemerson <evan@nemerson.com> Ju-Hung Li <jhlee@pllab.cs.nthu.edu.tw>\n\
+    Copyright 2020-2021, 2023 Sean Maher <seanptmaher@gmail.com> Evan Nemerson <evan@nemerson.com>\
+    \ Yi-Yen Chung <eric681@andestech.com>\nCopyright 2021 Andrew Rodriguez <anrodriguez@linkedin.com>\n\
+    Copyright 2021 Andrew Rodriguez <anrodriguez@linkedin.com> Evan Nemerson <evan@nemerson.com>\n\
+    Copyright 2021 Atharva Nimbalkar <atharvakn@gmail.com>\nCopyright 2021 ByteDance\
+    \ Inc.\nCopyright 2021 Decio Luiz Gazzoni Filho <decio@decpp.net>\nCopyright 2021\
+    \ Evan Nemerson <evan@nemerson.com> Atharva Nimbalkar <atharvakn@gmail.com>\n\
+    Copyright 2021 Kunwar Maheep Singh <kunwar.maheep@students.iiit.ac.in> Christopher\
+    \ Moore <moore@free.fr>\nCopyright 2021 Zhi An Ng <zhin@google.com>\nCopyright\
+    \ 2021, 2023 Atharva Nimbalkar <atharvakn@gmail.com> Yi-Yen Chung <eric681@andestech.com>\n\
+    Copyright 2021-2024 ByteDance Inc.\nCopyright 2022 ByteDance\nCopyright 2023 Chi-Wei\
+    \ Chu <wewe5215@gapp.nthu.edu.tw>\nCopyright 2023 CloudWeGo Authors\nCopyright\
+    \ 2023 Michael R. Crusoe <crusoe@debian.org>\nCopyright 2023 Michael R. Crusoe\
+    \ <crusoe@debian.org> Yi-Yen Chung <eric681@andestech.com>\nCopyright 2023 Yi-Yen\
+    \ Chung <eric681@andestech.com>"
+  downloadLocation: "git+https://github.com/bytedance/sonic.git@2b66aefcd60d189cff2669213f682557216b686f"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/bytedance/sonic@1.11.6"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND BSL-1.0 AND MIT"
+  name: "github.com/bytedance/sonic"
+  summary: "NONE"
+  versionInfo: "1.11.6"
+- SPDXID: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1"
+  copyrightText: "Copyright 2021-2023 ByteDance Inc."
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/bytedance/sonic/loader@0.1.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/bytedance/sonic/loader"
+  summary: "NONE"
+  versionInfo: "0.1.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1-vcs"
+  copyrightText: "Copyright 2021-2023 ByteDance Inc."
+  downloadLocation: "git+https://github.com/bytedance/sonic.git@51ea135322cab599c287fe6418df4c2e3c32b65e#loader"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/bytedance/sonic/loader@0.1.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/bytedance/sonic/loader"
+  summary: "NONE"
+  versionInfo: "0.1.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+  copyrightText: "Copyright 2024 CloudWeGo Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/cloudwego/base64x@0.1.4"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/cloudwego/base64x"
+  summary: "NONE"
+  versionInfo: "0.1.4"
+- SPDXID: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4-vcs"
+  copyrightText: "Copyright 2024 CloudWeGo Authors"
+  downloadLocation: "git+https://github.com/cloudwego/base64x.git@aa02bf235e2a286ef3a99bacefb460195fc5a16b"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/cloudwego/base64x@0.1.4"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/cloudwego/base64x"
+  summary: "NONE"
+  versionInfo: "0.1.4"
+- SPDXID: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0"
+  copyrightText: "Copyright 2024 CloudWeGo Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/cloudwego/iasm@0.2.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/cloudwego/iasm"
+  summary: "NONE"
+  versionInfo: "0.2.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0-vcs"
+  copyrightText: "Copyright 2024 CloudWeGo Authors"
+  downloadLocation: "git+https://github.com/cloudwego/iasm.git@db7298c17e362736a9954240db007c2432bf1fa1"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/cloudwego/iasm@0.2.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/cloudwego/iasm"
+  summary: "NONE"
+  versionInfo: "0.2.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+  copyrightText: "Copyright (c) 2012-2016 Dave Collins <dave@davec.name>"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/davecgh/go-spew@1.1.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "ISC"
+  name: "github.com/davecgh/go-spew"
+  summary: "NONE"
+  versionInfo: "1.1.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1-vcs"
+  copyrightText: "Copyright (c) 2012-2016 Dave Collins <dave@davec.name>"
+  downloadLocation: "git+https://github.com/davecgh/go-spew.git@8991bc29aa16c548c550c7ff78260e27b9ab7c73"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/davecgh/go-spew@1.1.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "ISC"
+  name: "github.com/davecgh/go-spew"
+  summary: "NONE"
+  versionInfo: "1.1.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.gabriel-vasile.mimetype-1.4.3"
+  copyrightText: "NONE"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/gabriel-vasile/mimetype@1.4.3"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "github.com/gabriel-vasile/mimetype"
+  summary: "NONE"
+  versionInfo: "1.4.3"
+- SPDXID: "SPDXRef-Package-Go-github.com.gabriel-vasile.mimetype-1.4.3-vcs"
+  copyrightText: "NONE"
+  downloadLocation: "git+https://github.com/gabriel-vasile/mimetype.git@e64d6bdb3607578757d31380818651a9fc95ca8b"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/gabriel-vasile/mimetype@1.4.3"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "github.com/gabriel-vasile/mimetype"
+  summary: "NONE"
+  versionInfo: "1.4.3"
+- SPDXID: "SPDXRef-Package-Go-github.com.gin-contrib.sse-0.1.0"
+  copyrightText: "Copyright (c) 2014 Manuel Martinez-Almeida\nCopyright 2014 Manu\
+    \ Martinez-Almeida"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/gin-contrib/sse@0.1.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/gin-contrib/sse"
+  summary: "NONE"
+  versionInfo: "0.1.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.gin-contrib.sse-0.1.0-vcs"
+  copyrightText: "Copyright (c) 2014 Manuel Martinez-Almeida\nCopyright 2014 Manu\
+    \ Martinez-Almeida"
+  downloadLocation: "git+https://github.com/gin-contrib/sse.git@54d8467d122d380a14768b6b4e5cd7ca4755938f"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/gin-contrib/sse@0.1.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/gin-contrib/sse"
+  summary: "NONE"
+  versionInfo: "0.1.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1"
+  copyrightText: "Copyright (c) 2016 Go Playground"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-playground/locales@0.14.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-playground/locales"
+  summary: "NONE"
+  versionInfo: "0.14.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1-vcs"
+  copyrightText: "Copyright (c) 2016 Go Playground"
+  downloadLocation: "git+https://github.com/go-playground/locales.git@ce315c8672599942003599943a1e64288f55b03f"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-playground/locales@0.14.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-playground/locales"
+  summary: "NONE"
+  versionInfo: "0.14.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-playground.universal-translator-0.18.1"
+  copyrightText: "Copyright (c) 2016 Go Playground"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-playground/universal-translator@0.18.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-playground/universal-translator"
+  summary: "NONE"
+  versionInfo: "0.18.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-playground.universal-translator-0.18.1-vcs"
+  copyrightText: "Copyright (c) 2016 Go Playground"
+  downloadLocation: "git+https://github.com/go-playground/universal-translator.git@f83cd526536e253181a13835b00cd107f627c505"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-playground/universal-translator@0.18.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-playground/universal-translator"
+  summary: "NONE"
+  versionInfo: "0.18.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  copyrightText: "Copyright (c) 2015 Dean Karn"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-playground/validator/v10@10.20.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-playground/validator/v10"
+  summary: "NONE"
+  versionInfo: "10.20.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0-vcs"
+  copyrightText: "Copyright (c) 2015 Dean Karn"
+  downloadLocation: "git+https://github.com/go-playground/validator.git@e20b94842ab102ba94e73eaf66f5c0466e405882"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-playground/validator/v10@10.20.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-playground/validator/v10"
+  summary: "NONE"
+  versionInfo: "10.20.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+  copyrightText: "Copyright (c) 2013-2020 Masterminds"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-task/slim-sprig@0.0.0-20230315185526-52ccab3ef572"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-task/slim-sprig"
+  summary: "NONE"
+  versionInfo: "0.0.0-20230315185526-52ccab3ef572"
+- SPDXID: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572-vcs"
+  copyrightText: "Copyright (c) 2013-2020 Masterminds"
+  downloadLocation: "git+https://github.com/go-task/slim-sprig.git@52ccab3ef572c7e1a2c258be183f9a9296d60152"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/go-task/slim-sprig@0.0.0-20230315185526-52ccab3ef572"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/go-task/slim-sprig"
+  summary: "NONE"
+  versionInfo: "0.0.0-20230315185526-52ccab3ef572"
+- SPDXID: "SPDXRef-Package-Go-github.com.goccy.go-json-0.10.2"
+  copyrightText: "NONE"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/goccy/go-json@0.10.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "github.com/goccy/go-json"
+  summary: "NONE"
+  versionInfo: "0.10.2"
+- SPDXID: "SPDXRef-Package-Go-github.com.goccy.go-json-0.10.2-vcs"
+  copyrightText: "NONE"
+  downloadLocation: "git+https://github.com/goccy/go-json.git@8e8cdeacf2f2faef082f32848138f0f9af7cfb66"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/goccy/go-json@0.10.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NONE"
+  name: "github.com/goccy/go-json"
+  summary: "NONE"
+  versionInfo: "0.10.2"
+- SPDXID: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38"
+  copyrightText: "Copyright (c) 2013 Justin Palmer\nCopyright (c) 2020 Free Software\
+    \ Foundation, Inc\nCopyright 2009-2017 Andrea Leofreddi <a.leofreddi@vleo.net>\n\
+    Copyright 2010-2017 Mike Bostock\nCopyright 2014, 2016-2019 Google Inc.\nCopyright\
+    \ 2018 Google Inc."
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/google/pprof@0.0.0-20210407192527-94a9f03dee38"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference AND\
+    \ curl"
+  name: "github.com/google/pprof"
+  summary: "NONE"
+  versionInfo: "0.0.0-20210407192527-94a9f03dee38"
+- SPDXID: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38-vcs"
+  copyrightText: "Copyright (c) 2013 Justin Palmer\nCopyright (c) 2020 Free Software\
+    \ Foundation, Inc\nCopyright 2009-2017 Andrea Leofreddi <a.leofreddi@vleo.net>\n\
+    Copyright 2010-2017 Mike Bostock\nCopyright 2014, 2016-2019 Google Inc.\nCopyright\
+    \ 2018 Google Inc."
+  downloadLocation: "git+https://github.com/google/pprof.git@94a9f03dee38882adc8bdfc42cdd6a04f8e7056e"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/google/pprof@0.0.0-20210407192527-94a9f03dee38"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference AND\
+    \ curl"
+  name: "github.com/google/pprof"
+  summary: "NONE"
+  versionInfo: "0.0.0-20210407192527-94a9f03dee38"
+- SPDXID: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+  copyrightText: "Copyright (c) 2016 json-iterator"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/json-iterator/go@1.1.12"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND MIT"
+  name: "github.com/json-iterator/go"
+  summary: "NONE"
+  versionInfo: "1.1.12"
+- SPDXID: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12-vcs"
+  copyrightText: "Copyright (c) 2016 json-iterator"
+  downloadLocation: "git+https://github.com/json-iterator/go.git@024077e996b048517130b21ea6bf12aa23055d3d"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/json-iterator/go@1.1.12"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND MIT"
+  name: "github.com/json-iterator/go"
+  summary: "NONE"
+  versionInfo: "1.1.12"
+- SPDXID: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9"
+  copyrightText: "Copyright (c) 2015 Klaus Post & Contributors\nCopyright (c) 2015,\
+    \ 2020-2021 Klaus Post\nCopyright 2018 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/klauspost/cpuid/v2@2.0.9"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/klauspost/cpuid/v2"
+  summary: "NONE"
+  versionInfo: "2.0.9"
+- SPDXID: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9-vcs"
+  copyrightText: "Copyright (c) 2015 Klaus Post & Contributors\nCopyright (c) 2015,\
+    \ 2020-2021 Klaus Post\nCopyright 2018 The Go Authors"
+  downloadLocation: "git+https://github.com/klauspost/cpuid.git@6903d4066801a7d800d4537ee9eebe81ea97000e"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/klauspost/cpuid/v2@2.0.9"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/klauspost/cpuid/v2"
+  summary: "NONE"
+  versionInfo: "2.0.9"
+- SPDXID: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+  copyrightText: "Copyright (c) 2018 Leonardo Di Donato"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/leodido/go-urn@1.4.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/leodido/go-urn"
+  summary: "NONE"
+  versionInfo: "1.4.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0-vcs"
+  copyrightText: "Copyright (c) 2018 Leonardo Di Donato"
+  downloadLocation: "git+https://github.com/leodido/go-urn.git@d725923fe33ce69c89b9e2033d069099b498224f"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/leodido/go-urn@1.4.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/leodido/go-urn"
+  summary: "NONE"
+  versionInfo: "1.4.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.mattn.go-isatty-0.0.20"
+  copyrightText: "Copyright (c) Yasuhiro MATSUMOTO <mattn.jp@gmail.com>"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/mattn/go-isatty@0.0.20"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/mattn/go-isatty"
+  summary: "NONE"
+  versionInfo: "0.0.20"
+- SPDXID: "SPDXRef-Package-Go-github.com.mattn.go-isatty-0.0.20-vcs"
+  copyrightText: "Copyright (c) Yasuhiro MATSUMOTO <mattn.jp@gmail.com>"
+  downloadLocation: "git+https://github.com/mattn/go-isatty.git@a7c02353c47bc4ec6b30dc9628154ae4fe760c11"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/mattn/go-isatty@0.0.20"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/mattn/go-isatty"
+  summary: "NONE"
+  versionInfo: "0.0.20"
+- SPDXID: "SPDXRef-Package-Go-github.com.modern-go.concurrent-0.0.0-20180228061459-e0a39a4cb421"
+  copyrightText: "NONE"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/modern-go/concurrent@0.0.0-20180228061459-e0a39a4cb421"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/modern-go/concurrent"
+  summary: "NONE"
+  versionInfo: "0.0.0-20180228061459-e0a39a4cb421"
+- SPDXID: "SPDXRef-Package-Go-github.com.modern-go.concurrent-0.0.0-20180228061459-e0a39a4cb421-vcs"
+  copyrightText: "NONE"
+  downloadLocation: "git+https://github.com/modern-go/concurrent.git@e0a39a4cb4216ea8db28e22a69f4ec25610d513a"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/modern-go/concurrent@0.0.0-20180228061459-e0a39a4cb421"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/modern-go/concurrent"
+  summary: "NONE"
+  versionInfo: "0.0.0-20180228061459-e0a39a4cb421"
+- SPDXID: "SPDXRef-Package-Go-github.com.modern-go.reflect2-1.0.2"
+  copyrightText: "NONE"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/modern-go/reflect2@1.0.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/modern-go/reflect2"
+  summary: "NONE"
+  versionInfo: "1.0.2"
+- SPDXID: "SPDXRef-Package-Go-github.com.modern-go.reflect2-1.0.2-vcs"
+  copyrightText: "NONE"
+  downloadLocation: "git+https://github.com/modern-go/reflect2.git@2b33151c9bbc5231aea69b8861c540102b087070"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/modern-go/reflect2@1.0.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0"
+  name: "github.com/modern-go/reflect2"
+  summary: "NONE"
+  versionInfo: "1.0.2"
+- SPDXID: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  copyrightText: "Copyright (c) 2013-2014 Onsi Fakhouri\nCopyright (c) 2016 Yasuhiro\
+    \ Matsumoto\nCopyright 2013 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/onsi/ginkgo/v2@2.9.5"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/onsi/ginkgo/v2"
+  summary: "NONE"
+  versionInfo: "2.9.5"
+- SPDXID: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5-vcs"
+  copyrightText: "Copyright (c) 2013-2014 Onsi Fakhouri\nCopyright (c) 2016 Yasuhiro\
+    \ Matsumoto\nCopyright 2013 The Go Authors"
+  downloadLocation: "git+https://github.com/onsi/ginkgo.git@b59e304f53fb217a4d49c025d092c9ac43b2ad89"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/onsi/ginkgo/v2@2.9.5"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/onsi/ginkgo/v2"
+  summary: "NONE"
+  versionInfo: "2.9.5"
+- SPDXID: "SPDXRef-Package-Go-github.com.pelletier.go-toml.v2-2.2.2"
+  copyrightText: "Copyright (c) 2021-2023 Thomas Pelletier"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/pelletier/go-toml/v2@2.2.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/pelletier/go-toml/v2"
+  summary: "NONE"
+  versionInfo: "2.2.2"
+- SPDXID: "SPDXRef-Package-Go-github.com.pelletier.go-toml.v2-2.2.2-vcs"
+  copyrightText: "Copyright (c) 2021-2023 Thomas Pelletier"
+  downloadLocation: "git+https://github.com/pelletier/go-toml.git@a3d5a0bb530b5206c728eed9cb57323061922bcb"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/pelletier/go-toml/v2@2.2.2"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/pelletier/go-toml/v2"
+  summary: "NONE"
+  versionInfo: "2.2.2"
+- SPDXID: "SPDXRef-Package-Go-github.com.pmezard.go-difflib-1.0.0"
+  copyrightText: "Copyright (c) 2013 Patrick Mezard"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/pmezard/go-difflib@1.0.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause"
+  name: "github.com/pmezard/go-difflib"
+  summary: "NONE"
+  versionInfo: "1.0.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.pmezard.go-difflib-1.0.0-vcs"
+  copyrightText: "Copyright (c) 2013 Patrick Mezard"
+  downloadLocation: "git+https://github.com/pmezard/go-difflib.git@792786c7400a136282c1664665ae0a8db921c6c2"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/pmezard/go-difflib@1.0.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause"
+  name: "github.com/pmezard/go-difflib"
+  summary: "NONE"
+  versionInfo: "1.0.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  copyrightText: "Copyright 2019 Marten Seemann"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/quic-go/qpack@0.4.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/quic-go/qpack"
+  summary: "NONE"
+  versionInfo: "0.4.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0-vcs"
+  copyrightText: "Copyright 2019 Marten Seemann"
+  downloadLocation: "git+https://github.com/quic-go/qpack.git@3e7287cc7ce655141583b8511fbe09800d4ba896"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/quic-go/qpack@0.4.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/quic-go/qpack"
+  summary: "NONE"
+  versionInfo: "0.4.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  copyrightText: "Copyright (c) 2016 the quic-go authors & Google, Inc.\nCopyright\
+    \ 2009 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/quic-go/quic-go@0.43.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/quic-go/quic-go"
+  summary: "NONE"
+  versionInfo: "0.43.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1-vcs"
+  copyrightText: "Copyright (c) 2016 the quic-go authors & Google, Inc.\nCopyright\
+    \ 2009 The Go Authors"
+  downloadLocation: "git+https://github.com/quic-go/quic-go.git@e6b5db0c0486a2a2097c3de562bbb5730c657fb4"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/quic-go/quic-go@0.43.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/quic-go/quic-go"
+  summary: "NONE"
+  versionInfo: "0.43.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+  copyrightText: "Copyright (c) 2012-2020 Mat Ryer, Tyler Bunnell and contributors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/stretchr/testify@1.9.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/stretchr/testify"
+  summary: "NONE"
+  versionInfo: "1.9.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0-vcs"
+  copyrightText: "Copyright (c) 2012-2020 Mat Ryer, Tyler Bunnell and contributors"
+  downloadLocation: "git+https://github.com/stretchr/testify.git@bb548d0473d4e1c9b7bbfd6602c7bf12f7a84dd2"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/stretchr/testify@1.9.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/stretchr/testify"
+  summary: "NONE"
+  versionInfo: "1.9.0"
+- SPDXID: "SPDXRef-Package-Go-github.com.twitchyliquid64.golang-asm-0.15.1"
+  copyrightText: "Copyright (c) 1994-1999 Lucent Technologies Inc.\nCopyright (c)\
+    \ 2000-2008 Lucent Technologies Inc. and others\nCopyright (c) 2009 The Go Authors\n\
+    Copyright (c) 2015 The Go Authors\nCopyright (c) 2019 Daniel Marti\nCopyright\
+    \ 2009-2013, 2015-2020 The Go Authors\nPortions Copyright (c) 1995-1997, 2005-2007\
+    \ C H Forsyth (forsyth@terzarima.net)\nPortions Copyright (c) 1997-1999 Vita Nuova\
+    \ Limited\nPortions Copyright (c) 2000-2008 Vita Nuova Holdings Limited (www.vitanuova.com)\n\
+    Portions Copyright (c) 2004, 2006 Bruce Ellis\nPortions Copyright (c) 2009, 2019\
+    \ The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/twitchyliquid64/golang-asm@0.15.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause"
+  name: "github.com/twitchyliquid64/golang-asm"
+  summary: "NONE"
+  versionInfo: "0.15.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.twitchyliquid64.golang-asm-0.15.1-vcs"
+  copyrightText: "Copyright (c) 1994-1999 Lucent Technologies Inc.\nCopyright (c)\
+    \ 2000-2008 Lucent Technologies Inc. and others\nCopyright (c) 2009 The Go Authors\n\
+    Copyright (c) 2015 The Go Authors\nCopyright (c) 2019 Daniel Marti\nCopyright\
+    \ 2009-2013, 2015-2020 The Go Authors\nPortions Copyright (c) 1995-1997, 2005-2007\
+    \ C H Forsyth (forsyth@terzarima.net)\nPortions Copyright (c) 1997-1999 Vita Nuova\
+    \ Limited\nPortions Copyright (c) 2000-2008 Vita Nuova Holdings Limited (www.vitanuova.com)\n\
+    Portions Copyright (c) 2004, 2006 Bruce Ellis\nPortions Copyright (c) 2009, 2019\
+    \ The Go Authors"
+  downloadLocation: "git+https://github.com/twitchyliquid64/golang-asm.git@8d7f1f783b11f9a00f5bcdfcae17f5ac8f22512e"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/twitchyliquid64/golang-asm@0.15.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause"
+  name: "github.com/twitchyliquid64/golang-asm"
+  summary: "NONE"
+  versionInfo: "0.15.1"
+- SPDXID: "SPDXRef-Package-Go-github.com.ugorji.go.codec-1.2.12"
+  copyrightText: "Copyright (c) 2012-2020 Ugorji Nwoke"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/ugorji/go/codec@1.2.12"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/ugorji/go/codec"
+  summary: "NONE"
+  versionInfo: "1.2.12"
+- SPDXID: "SPDXRef-Package-Go-github.com.ugorji.go.codec-1.2.12-vcs"
+  copyrightText: "Copyright (c) 2012-2020 Ugorji Nwoke"
+  downloadLocation: "git+https://github.com/ugorji/go.git@43b79bfcab412eeb73e92181a2190e97a5520566#codec"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/github.com/ugorji/go/codec@1.2.12"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "MIT"
+  name: "github.com/ugorji/go/codec"
+  summary: "NONE"
+  versionInfo: "1.2.12"
+- SPDXID: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0"
+  copyrightText: "Copyright 2010, 2020, 2022 Google LLC\nCopyright 2010-2012, 2020\
+    \ Google Inc.\nCopyright 2022 Google LLC"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/go.uber.org/mock@0.4.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+  name: "go.uber.org/mock"
+  summary: "NONE"
+  versionInfo: "0.4.0"
+- SPDXID: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0-vcs"
+  copyrightText: "Copyright 2010, 2020, 2022 Google LLC\nCopyright 2010-2012, 2020\
+    \ Google Inc.\nCopyright 2022 Google LLC"
+  downloadLocation: "git+https://github.com/uber/mock.git@74a29c6e6c2cbb8ccee94db061c1604ff33fd188"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/go.uber.org/mock@0.4.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference"
+  name: "go.uber.org/mock"
+  summary: "NONE"
+  versionInfo: "0.4.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.arch-0.0.0-20210923205945-b76863e36670"
+  copyrightText: "Copyright (c) 1994-1999 Lucent Technologies Inc. Power PC\nCopyright\
+    \ (c) 1995-2004 C H Forsyth (forsyth@terzarima.net)\nCopyright (c) 2000-2004 Lucent\
+    \ Technologies Inc. and others\nCopyright (c) 2015 The Go Authors\nCopyright (c)\
+    \ 2016-2017 Intel Corporation\nCopyright 2014-2019, 2021 The Go Authors\nPortions\
+    \ Copyright (c) 1997-1999 Vita Nuova Limited\nPortions Copyright (c) 2000-2007\
+    \ Vita Nuova Holdings Limited (www.vitanuova.com)\nPortions Copyright (c) 2009\
+    \ The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/arch@0.0.0-20210923205945-b76863e36670"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/arch"
+  summary: "NONE"
+  versionInfo: "0.0.0-20210923205945-b76863e36670"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.arch-0.0.0-20210923205945-b76863e36670-vcs"
+  copyrightText: "Copyright (c) 1994-1999 Lucent Technologies Inc. Power PC\nCopyright\
+    \ (c) 1995-2004 C H Forsyth (forsyth@terzarima.net)\nCopyright (c) 2000-2004 Lucent\
+    \ Technologies Inc. and others\nCopyright (c) 2015 The Go Authors\nCopyright (c)\
+    \ 2016-2017 Intel Corporation\nCopyright 2014-2019, 2021 The Go Authors\nPortions\
+    \ Copyright (c) 1997-1999 Vita Nuova Limited\nPortions Copyright (c) 2000-2007\
+    \ Vita Nuova Holdings Limited (www.vitanuova.com)\nPortions Copyright (c) 2009\
+    \ The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/arch@b76863e36670e165c85261bc41fabaf345376022"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/arch@0.0.0-20210923205945-b76863e36670"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/arch"
+  summary: "NONE"
+  versionInfo: "0.0.0-20210923205945-b76863e36670"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+  copyrightText: "(c) 1999 Entrust.net Limited,O Entrust.net\n(c) 2006 Entrust, Inc.,O\
+    \ Entrust\n(c) 2009, 2012, 2015 Entrust, Inc. - for\nCopyright (c) 2009 The Go\
+    \ Authors\nCopyright 2009-2024 The Go Authors\nCopyright 2012, 2015 The Go Authors\n\
+    Copyright 2015 The Go Authors\nCopyright 2019 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/crypto@0.25.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND (BSD-3-Clause OR OpenSSL) AND LicenseRef-scancode-google-patent-license-golang\
+    \ AND LicenseRef-scancode-public-domain AND MIT"
+  name: "golang.org/x/crypto"
+  summary: "NONE"
+  versionInfo: "0.25.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0-vcs"
+  copyrightText: "(c) 1999 Entrust.net Limited,O Entrust.net\n(c) 2006 Entrust, Inc.,O\
+    \ Entrust\n(c) 2009, 2012, 2015 Entrust, Inc. - for\nCopyright (c) 2009 The Go\
+    \ Authors\nCopyright 2009-2024 The Go Authors\nCopyright 2012, 2015 The Go Authors\n\
+    Copyright 2015 The Go Authors\nCopyright 2019 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/crypto@9fadb0b165bd3b96d2a21e89d60ad458db3aeee0"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/crypto@0.25.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND (BSD-3-Clause OR OpenSSL) AND LicenseRef-scancode-google-patent-license-golang\
+    \ AND LicenseRef-scancode-public-domain AND MIT"
+  name: "golang.org/x/crypto"
+  summary: "NONE"
+  versionInfo: "0.25.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright 2009-2022 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/exp@0.0.0-20221205204356-47842c84f3db"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/exp"
+  summary: "NONE"
+  versionInfo: "0.0.0-20221205204356-47842c84f3db"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db-vcs"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright 2009-2022 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/exp@47842c84f3db5d20ded7f781feb26f0f8f668354"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/exp@0.0.0-20221205204356-47842c84f3db"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/exp"
+  summary: "NONE"
+  versionInfo: "0.0.0-20221205204356-47842c84f3db"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright 2018-2021 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/mod@0.17.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/mod"
+  summary: "NONE"
+  versionInfo: "0.17.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0-vcs"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright 2018-2021 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/mod@aa51b25a4485b19ca64f578bad6fa40229e75984"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/mod@0.17.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/mod"
+  summary: "NONE"
+  versionInfo: "0.17.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+  copyrightText: "(c) cc.fr\nCopyright (c) 2009 Apple Inc.\nCopyright (c) 2009 The\
+    \ Go Authors\nCopyright 2009-2024 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/net@0.27.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang\
+    \ AND W3C-19980720"
+  name: "golang.org/x/net"
+  summary: "NONE"
+  versionInfo: "0.27.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.net-0.27.0-vcs"
+  copyrightText: "(c) cc.fr\nCopyright (c) 2009 Apple Inc.\nCopyright (c) 2009 The\
+    \ Go Authors\nCopyright 2009-2024 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/net@e2310ae9eb6425ee6736cfc40f982f42e20f5850"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/net@0.27.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang\
+    \ AND W3C-19980720"
+  name: "golang.org/x/net"
+  summary: "NONE"
+  versionInfo: "0.27.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright 2009-2024 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/sys@0.22.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/sys"
+  summary: "NONE"
+  versionInfo: "0.22.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0-vcs"
+  copyrightText: "Copyright (c) 2009 The Go Authors\nCopyright 2009-2024 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/sys@faed7ec2641160cebe7fdf3fa6d401d848d2710f"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/sys@0.22.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/sys"
+  summary: "NONE"
+  versionInfo: "0.22.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+  copyrightText: "(c) (c) A\n(c) (c) AAEE (c)\n(c) 1/4, ?i'U CY A$?A CO\n(c) AeHa\
+    \ (c)\n(c) EAiE (c) A\n(c) EeAoq (c)\n(c) aA\"AE (c) 1AE (c)\n(c) lEEe (c) AE\n\
+    (c) oav!A (c) AY\nCopyright (c) 2009 The Go Authors\nCopyright 2009, 2011-2019,\
+    \ 2021 The Go Authors\nCopyright 2011, 2014-2015 The Go Authors\nCopyright 2011,\
+    \ 2015 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/text@0.16.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND CC-BY-SA-1.0 AND CC-BY-SA-2.0 AND CC-BY-SA-2.5\
+    \ AND CC-BY-SA-3.0 AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/text"
+  summary: "NONE"
+  versionInfo: "0.16.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.text-0.16.0-vcs"
+  copyrightText: "(c) (c) A\n(c) (c) AAEE (c)\n(c) 1/4, ?i'U CY A$?A CO\n(c) AeHa\
+    \ (c)\n(c) EAiE (c) A\n(c) EeAoq (c)\n(c) aA\"AE (c) 1AE (c)\n(c) lEEe (c) AE\n\
+    (c) oav!A (c) AY\nCopyright (c) 2009 The Go Authors\nCopyright 2009, 2011-2019,\
+    \ 2021 The Go Authors\nCopyright 2011, 2014-2015 The Go Authors\nCopyright 2011,\
+    \ 2015 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/text@9c2f3a21352d1ff4e47776534e3f334b39ec0183"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/text@0.16.0"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND CC-BY-SA-1.0 AND CC-BY-SA-2.0 AND CC-BY-SA-2.5\
+    \ AND CC-BY-SA-3.0 AND LicenseRef-scancode-google-patent-license-golang"
+  name: "golang.org/x/text"
+  summary: "NONE"
+  versionInfo: "0.16.0"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+  copyrightText: "Copyright (c) 1994-1999 Lucent Technologies Inc.\nCopyright (c)\
+    \ 2000-2007 Lucent Technologies Inc. and others\nCopyright (c) 2009, 2017 The\
+    \ Go Authors\nCopyright (c) 2013 TOML authors\nCopyright (c) 2015, 2019 Daniel\
+    \ Marti\nCopyright (c) 2016 Dominik Honnef\nCopyright (c) 2017 The Go Authors\n\
+    Copyright (c) Microsoft Corporation\nCopyright 2009-2024 The Go Authors\nCopyright\
+    \ 2013 jQuery Foundation and other contributors\nCopyright 2013, 2019-2020 The\
+    \ Go Authors\nCopyright 2020 The Go Authors\nCopyright Jorn Zaefferer\nPortions\
+    \ Copyright (c) 1995-1997, 2005-2007 C H Forsyth (forsyth@terzarima.net)\nPortions\
+    \ Copyright (c) 1997-1999 Vita Nuova Limited\nPortions Copyright (c) 2000-2007\
+    \ Vita Nuova Holdings Limited (www.vitanuova.com)\nPortions Copyright (c) 2004,\
+    \ 2006 Bruce Ellis\nPortions Copyright (c) 2009 The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/tools@0.21.1-0.20240508182429-e35e4ccd0d2d"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND CC-BY-4.0 AND LicenseRef-scancode-google-patent-license-golang\
+    \ AND LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "golang.org/x/tools"
+  summary: "NONE"
+  versionInfo: "0.21.1-0.20240508182429-e35e4ccd0d2d"
+- SPDXID: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d-vcs"
+  copyrightText: "Copyright (c) 1994-1999 Lucent Technologies Inc.\nCopyright (c)\
+    \ 2000-2007 Lucent Technologies Inc. and others\nCopyright (c) 2009, 2017 The\
+    \ Go Authors\nCopyright (c) 2013 TOML authors\nCopyright (c) 2015, 2019 Daniel\
+    \ Marti\nCopyright (c) 2016 Dominik Honnef\nCopyright (c) 2017 The Go Authors\n\
+    Copyright (c) Microsoft Corporation\nCopyright 2009-2024 The Go Authors\nCopyright\
+    \ 2013 jQuery Foundation and other contributors\nCopyright 2013, 2019-2020 The\
+    \ Go Authors\nCopyright 2020 The Go Authors\nCopyright Jorn Zaefferer\nPortions\
+    \ Copyright (c) 1995-1997, 2005-2007 C H Forsyth (forsyth@terzarima.net)\nPortions\
+    \ Copyright (c) 1997-1999 Vita Nuova Limited\nPortions Copyright (c) 2000-2007\
+    \ Vita Nuova Holdings Limited (www.vitanuova.com)\nPortions Copyright (c) 2004,\
+    \ 2006 Bruce Ellis\nPortions Copyright (c) 2009 The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/tools@e35e4ccd0d2ddd32df7536574a7fec39296395f0"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/golang.org/x/tools@0.21.1-0.20240508182429-e35e4ccd0d2d"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND CC-BY-4.0 AND LicenseRef-scancode-google-patent-license-golang\
+    \ AND LicenseRef-scancode-unknown-license-reference AND MIT"
+  name: "golang.org/x/tools"
+  summary: "NONE"
+  versionInfo: "0.21.1-0.20240508182429-e35e4ccd0d2d"
+- SPDXID: "SPDXRef-Package-Go-google.golang.org.protobuf-1.34.1"
+  copyrightText: "Copyright (c) 2018 The Go Authors\nCopyright 2008, 2023 Google Inc.\n\
+    Copyright 2018-2024 The Go Authors\nCopyright d d d d Google Inc\nCopyright d\
+    \ d d d The Go Authors"
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/google.golang.org/protobuf@1.34.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "google.golang.org/protobuf"
+  summary: "NONE"
+  versionInfo: "1.34.1"
+- SPDXID: "SPDXRef-Package-Go-google.golang.org.protobuf-1.34.1-vcs"
+  copyrightText: "Copyright (c) 2018 The Go Authors\nCopyright 2008, 2023 Google Inc.\n\
+    Copyright 2018-2024 The Go Authors\nCopyright d d d d Google Inc\nCopyright d\
+    \ d d d The Go Authors"
+  downloadLocation: "git+https://go.googlesource.com/protobuf@4a76e11653e368b9331815e1eb98e0cedc28997f"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/google.golang.org/protobuf@1.34.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang"
+  name: "google.golang.org/protobuf"
+  summary: "NONE"
+  versionInfo: "1.34.1"
+- SPDXID: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+  copyrightText: "Copyright (c) 2006-2011 Kirill Simonov\nCopyright (c) 2011-2019\
+    \ Canonical Ltd\nCopyright 2011-2016 Canonical Ltd."
+  downloadLocation: "NONE"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/gopkg.in/yaml.v3@3.0.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND MIT"
+  name: "gopkg.in/yaml.v3"
+  summary: "NONE"
+  versionInfo: "3.0.1"
+- SPDXID: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1-vcs"
+  copyrightText: "Copyright (c) 2006-2011 Kirill Simonov\nCopyright (c) 2011-2019\
+    \ Canonical Ltd\nCopyright 2011-2016 Canonical Ltd."
+  downloadLocation: "git+https://gopkg.in/yaml.v3@f6f7691b1fdeb513f56608cd2c32c51f8194bf51"
+  externalRefs:
+  - referenceCategory: "PACKAGE_MANAGER"
+    referenceType: "purl"
+    referenceLocator: "pkg:golang/gopkg.in/yaml.v3@3.0.1"
+  filesAnalyzed: false
+  homepage: "NONE"
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "Apache-2.0 AND MIT"
+  name: "gopkg.in/yaml.v3"
+  summary: "NONE"
+  versionInfo: "3.0.1"
+relationships:
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.twitchyliquid64.golang-asm-0.15.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.arch-0.0.0-20210923205945-b76863e36670"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.bytedance.sonic.loader-0.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.base64x-0.1.4"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9"
+- spdxElementId: "SPDXRef-Package-Go-github.com.cloudwego.iasm-0.2.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.gabriel-vasile.mimetype-1.4.3"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.gabriel-vasile.mimetype-1.4.3-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.gabriel-vasile.mimetype-1.4.3"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.gin-contrib.sse-0.1.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.gin-contrib.sse-0.1.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.gin-contrib.sse-0.1.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.universal-translator-0.18.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.universal-translator-0.18.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.universal-translator-0.18.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.gabriel-vasile.mimetype-1.4.3"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.locales-0.14.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.universal-translator-0.18.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.goccy.go-json-0.10.2"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.goccy.go-json-0.10.2-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.modern-go.concurrent-0.0.0-20180228061459-e0a39a4cb421"
+- spdxElementId: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.modern-go.reflect2-1.0.2"
+- spdxElementId: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.klauspost.cpuid.v2-2.0.9-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.pmezard.go-difflib-1.0.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.leodido.go-urn-1.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.mattn.go-isatty-0.0.20"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.mattn.go-isatty-0.0.20-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.mattn.go-isatty-0.0.20"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.modern-go.concurrent-0.0.0-20180228061459-e0a39a4cb421"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.modern-go.concurrent-0.0.0-20180228061459-e0a39a4cb421-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.modern-go.reflect2-1.0.2"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.modern-go.reflect2-1.0.2-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-google.golang.org.protobuf-1.34.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.pelletier.go-toml.v2-2.2.2"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.pelletier.go-toml.v2-2.2.2-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.pelletier.go-toml.v2-2.2.2"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.pmezard.go-difflib-1.0.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.pmezard.go-difflib-1.0.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-task.slim-sprig-0.0.0-20230315185526-52ccab3ef572"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.google.pprof-0.0.0-20210407192527-94a9f03dee38"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.onsi.ginkgo.v2-2.9.5"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.quic-go.qpack-0.4.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.davecgh.go-spew-1.1.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.pmezard.go-difflib-1.0.0"
+- spdxElementId: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+- spdxElementId: "SPDXRef-Package-Go-github.com.twitchyliquid64.golang-asm-0.15.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.twitchyliquid64.golang-asm-0.15.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-github.com.ugorji.go.codec-1.2.12"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.ugorji.go.codec-1.2.12-vcs"
+- spdxElementId: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+- spdxElementId: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-go.uber.org.mock-0.4.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.arch-0.0.0-20210923205945-b76863e36670"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.arch-0.0.0-20210923205945-b76863e36670-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.exp-0.0.0-20221205204356-47842c84f3db"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.crypto-0.25.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.text-0.16.0-vcs"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.text-0.16.0"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.mod-0.17.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.sys-0.22.0"
+- spdxElementId: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.tools-0.21.1-0.20240508182429-e35e4ccd0d2d-vcs"
+- spdxElementId: "SPDXRef-Package-Go-google.golang.org.protobuf-1.34.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-google.golang.org.protobuf-1.34.1-vcs"
+- spdxElementId: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"
+  relationshipType: "GENERATED_FROM"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1-vcs"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.bytedance.sonic-1.11.6"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.gin-contrib.sse-0.1.0"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.go-playground.validator.v10-10.20.0"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.goccy.go-json-0.10.2"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.json-iterator.go-1.1.12"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.mattn.go-isatty-0.0.20"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.pelletier.go-toml.v2-2.2.2"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.quic-go.quic-go-0.43.1"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.stretchr.testify-1.9.0"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-github.com.ugorji.go.codec-1.2.12"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-golang.org.x.net-0.27.0"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-google.golang.org.protobuf-1.34.1"
+- spdxElementId: "SPDXRef-Project-GoMod-github.com.gin-gonic.gin-f05f966a0824b1d302ee556183e2579c91954266"
+  relationshipType: "DEPENDS_ON"
+  relatedSpdxElement: "SPDXRef-Package-Go-gopkg.in.yaml.v3-3.0.1"

@@ -1,0 +1,2773 @@
+{
+  "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph": [
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo0",
+      "created": "2024-05-03T23:34:34Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo1",
+      "created": "2024-11-26T21:40:35Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo2",
+      "created": "2024-05-03T23:34:34Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo3",
+      "created": "2024-11-26T21:41:42Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo4",
+      "created": "2024-05-03T23:34:34Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo5",
+      "created": "2024-11-26T21:40:35Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo6",
+      "created": "2024-05-03T23:34:34Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-26T21:40:35Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-26T21:40:35Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo9",
+      "created": "2024-05-03T23:34:34Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/1df6af71c2dc82c596cc9ca9365d72d6",
+      "creationInfo": "_:CreationInfo3",
+      "build_buildStartTime": "2024-11-26T21:41:42Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/2ea690f91d2abec4e64882793bc7a707",
+      "creationInfo": "_:CreationInfo5",
+      "build_buildStartTime": "2024-11-26T21:40:35Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "Person",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt",
+      "creationInfo": "_:CreationInfo3",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "email",
+          "identifier": "JPEWhacker@gmail.com"
+        }
+      ],
+      "name": "Joshua Watt"
+    },
+    {
+      "type": "Organization",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded",
+      "creationInfo": "_:CreationInfo1",
+      "name": "OpenEmbedded"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/34a9b767ca5cc6b1f5686b3f60ea771d",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/1df6af71c2dc82c596cc9ca9365d72d6",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/5669f79f275e1486c65568152d179f3c",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/2ea690f91d2abec4e64882793bc7a707",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Tool",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0",
+      "creationInfo": "_:CreationInfo1",
+      "name": "oe-spdx-creator 1.0"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe",
+      "creationInfo": "_:CreationInfo0",
+      "name": "gin:do_create_spdx:recipe",
+      "build_buildType": "http://openembedded.org/bitbake/do_create_spdx/recipe"
+    },
+    {
+      "type": "simplelicensing_LicenseExpression",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT",
+      "creationInfo": "_:CreationInfo0",
+      "simplelicensing_licenseExpression": "MIT AND Apache-2.0 AND ISC AND MIT",
+      "simplelicensing_licenseListVersion": "3.24.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dbg",
+      "creationInfo": "_:CreationInfo6",
+      "description": "gin version 1.0+git-r0.  This package contains ELF symbols and related sources for debugging purposes.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:gin:1.0:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "gin-dbg",
+      "summary": "gin version 1.0+git-r0 - Debugging files",
+      "builtTime": "2024-11-26T21:41:18Z",
+      "software_primaryPurpose": "install",
+      "software_packageVersion": "1.0+git"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev",
+      "creationInfo": "_:CreationInfo4",
+      "description": "gin version 1.0+git-r0.  This package contains symbolic links, header files, and related items necessary for software development.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:gin:1.0:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "gin-dev",
+      "summary": "gin version 1.0+git-r0 - Development files",
+      "builtTime": "2024-11-26T21:41:18Z",
+      "software_primaryPurpose": "install",
+      "software_packageVersion": "1.0+git"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/1",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/middleware_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1ccedff5a9bd2feb8ffa82bae6cb4b59f22d3af0d9464a668b80a6bbc0841f9f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/10",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/Makefile",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c056f93ead2940dc11527b3521ae135c6213d894227717b266bee419a2da7eca"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/100",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/xml.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ea482527e69d0e626ea9101e6800ac5e98a06cabde3ccaad61e763183071fabb"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/101",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/internal/json/jsoniter.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "41fce51d49d0b6f930705fc323978616a0cb0cd3ce206e34970a4e9e812afa74"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/102",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/internal/json/go_json.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4b7291897dc60beee282db8de9c806aa37534b9eaf91a429c8f7078fcffef260"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/103",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/internal/json/sonic.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "00ba667a2621d1f9af64408a5cdb3ec61b29a4762bacaa5940042bd9ede3e656"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/104",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/internal/json/json.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "15f6998dde4d8f53ad07e2474a719bb3ef84327056b9d0ed76941605ebd6121a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/105",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/internal/bytesconv/bytesconv_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b350137bb79209f8ed532dee0e8e8322ef2b766018557c398d86adfb646a2464"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/106",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/internal/bytesconv/bytesconv.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "efca594b11389030979a5e90083f5d6d3119356b923195d3c31dcb65b162b3e2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/107",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.github/dependabot.yml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "38718ce0a094a628e3ae97f8b40d2cdac16cb412da10c7ee2f75e8c7695c47d5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/108",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.github/ISSUE_TEMPLATE.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "75fbb8a1769b07cbfaaf80d716900d9ea265e53d3461de9e92bb947c899e0939"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/109",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.github/PULL_REQUEST_TEMPLATE.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7e9ba5366800312db4780f3dfb0e8cb33a27ec7e46bdf038f67f1964e87d394d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/11",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/doc.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6b3d94797d0b6c29b3c35d731e0986d39825c99201fa950366a6f2e27717c890"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/110",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.github/workflows/goreleaser.yml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ef3faeaf1d4cf4b627915c1b9201041c2ec8864c8c28d56518dea469ad96b931"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/111",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.github/workflows/codeql.yml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b8e055a77a6d4c55d58c1f5556443f11b1415dbaf4cd00be00bb979029ec7bcc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/112",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.github/workflows/gin.yml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "37750e93ca0f8542031402da3e6e80080b085a37d8bbe81d77221b3249e55318"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/12",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/CONTRIBUTING.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4fd3e4f5f68573a3b8ee8790e721dc682434b9142efc260a02fc9a0f6b680efb"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/13",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/mode.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5fe22db56b622631527a6d5e5e5ab78dade24ec1748637ce463d5366873667d5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/14",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/errors_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b085130e80b6c3f1b7e12c139b0fa7fa473524dec2f12a4b6d6d45eb87af53b6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/15",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/codecov.yml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "df650cae989815f092d27a1c3ae456f653554d924ff07b0613218ae5d5e99904"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/16",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/logger.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e44131eccb7cb3614997065d6ec793f9dde29a47c8fcc42ce6b5778f3756a287"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/17",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/tree_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6bef5704df51febbe18f1897118f62d54b72bb29feddb9978affdd0c76b9d218"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/18",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.golangci.yml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "534826525b69d4b72f0574bfa0f685a025192003079b97f6a31ca5deaf70c2f8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/19",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/response_writer_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3c324383d7255595e36a4959bd49deb1e847ebf8ecb80f1d97a52edb2144218f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/2",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/routergroup_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b437f1e579e3c3adb82ef915711cdbfd148e429d5d30a3c4ab8b78fd2f1c321f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/20",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/recovery_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "79b5d62b22620e787e6ff5007a80c89e523705d635d032e4a72fb0db191bd07d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/21",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/utils_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "24c81d3326df8819aa8aaea477618a62e7ac867116bd830f5095150822aa2302"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/22",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/go.sum",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5cadffd389c72484dd76a42f035e134d6b089e51511f80e93375eec7df10a320"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/23",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/recovery.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "62f8da43bd04aadae3bea00152545ec204ed2bdd81d9817a413153a8d26e9edc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/24",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/.goreleaser.yaml",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3a27aa21a52e29b6ee2cbaf491fd6d1866719410d0f867f526966598b05499e1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/25",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/auth.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "be38ef38614d2b9488d0e73ff2f8b432fc61cc90f4b7e071d0bbf78d898464c1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/26",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/LICENSE",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "03458b6d5828e1be1127ca2adf122572eb574fc47b56190c3b38203b8b2a98d0"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/27",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/debug_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e677562cc78a47a89fc314b3db3f48847ab0e3af8717f47c9ec5abe162159f0f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/28",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/CHANGELOG.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "81cd48019d18b690541af9f59a236cde6727c4842f6c94187602736bdf92a96b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/29",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/routergroup.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a098b3882b591def8fff20cbe2eb3f38fb08d5944d64ad59ee918670d2fc0525"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/3",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/routes_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "caea1c209484186bfe4fb880ff5527117a296981ff4657fdf6b35fd59d4ad201"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/30",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/auth_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3bfeaa2da059690a37c7639ed6427acc1604030bebf4d053a3c3554774ea2ef6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/31",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/deprecated.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "72b6893e15bb053bedaee8292166f1430991f45aa11ae5614439b71c90cf448f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/32",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/fs.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "25ec4a5da318f6311851ec5379c1b082bf3b50fa4f71bb5be064420ec5c9411a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/33",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/path_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5c745e400f3f6a175f9c3b770b26a4f0cefac7c259695e5cace410fb0fc0d6ba"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/34",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/gin.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "82588a8e8be990996207c340b24764eb76a1f23314d38f0156043e87145cb386"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/35",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/benchmarks_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cdb0c506e1c4877f54d18827c0bd866f91abf4103fded1ec10ad5f02f3928007"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/36",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/fs_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c229945469f769e1eb84a8a64b4e0ccb17e6ce13561001361e409da516663c1c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/37",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/version.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "aa24e1fb6cfe3b900d82231e70cbf1c9a110e72fcf8f9c829d4032d6f7559ad1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/38",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/CODE_OF_CONDUCT.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "62af14df8f410938d99c7652c5cd30ab84df6e11a5d37505b407244cdc3490ef"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/39",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/gin_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "eb7f6355f683a030b1e102134f929723a232d9f60f2b5b07ff8f283173869665"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/4",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/deprecated_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d4fe9dfa09135f0bea4819b7e63b19ffd7182ccf0d4501f1ed47e2f926c1e425"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/40",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/debug.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1cf256c414a2cf3f59f5bc92a41430ae5ec7de75cea2d0b6366afcd9abf25dc5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/41",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/logger_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9e6b95ee47b12bb3f8e4b15b84c4d75cf5719402126f381e9dd55083b79a461a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/42",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/context_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ffe8388d0d7480b74746fb7de3fe5b1ec42bedc5ca4650865613fed7c38266bc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/43",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/errors.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0f70d72fe3f2d6f49f5c7d46dd2d0a3c3dbe8f5722b67281436c16d684020db0"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/44",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/path.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "296af9edd35898ca22fcdf484f111c00a08e52fcca43ffc37e0d96ae9f6a1603"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/45",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/README.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e44dd577d862730863ef3a70262deda4005828a3f4ec86c1ff267ad2a399bfc9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/46",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/response_writer.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4054a578f5bf414cb64703bf409ae101610b04fd1db2cb99272b08814b85da9c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/47",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/utils.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "df600499180c8aee71aae5f5334adbda55262143821317d50750728f0773cc93"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/48",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/context_appengine.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1275ac566179e2453a9a4345949e8c4409e52d077ee6de07e198e0092b1194f5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/49",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/test_helpers.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4716b2020687119f74e31d10bd470777b941d987621e202b20e5cda83a64a031"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/5",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/BENCHMARKS.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4bc7a98735e7b8271c8f0c672878cb81d39de29cf8c7e526f5d7794dce533c58"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/50",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/AUTHORS.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "41711f484fa311b9b556397c0c3353197681b2c6599918483cc8f19bc68f26fe"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/51",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/tree.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6fdc5531d5f3b282ef72bdcd987e3f03588f10a5123e6e070066164d6c8af5f2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/52",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/gin_integration_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2a6f13e5060cd78cc2f0ec8614dfa7fd892a860457d6e91edf578482fe7e594b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/53",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/protobuf.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f602a8b82e658c19d075e44a3cdc3ef230905a44ba783afd13f3dd24e9e6491a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/54",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/html.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9c7204b2f3eae90c22782cea36bd4a71a9dd74fda46c45f6f7e38d8b02b051e2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/55",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/text.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "577425b4241128ad49c23799008966c731a1cc81392b2b5104857fbfdc311a1b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/56",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/render_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9e94daa9a1335f00563e611a8853d3da6210f1d1700b759eaf532e32476f4c68"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/57",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/msgpack.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a68718ee772fb9c7ce07e571b78d4da9a43234b316134c1bb957e745c05ad264"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/58",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/reader_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e995280e8ead41f4ec3311bd379d63d22db4051e421bf7bc8ede44b1479c4b89"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/59",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/render_msgpack_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "11b6fddc1f379675c5eea5be6ceacf8e8a4a5ed80c2427068c66aaca31257b23"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/6",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/mode_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1b5ebc84c4cb998ab926895f39acf89619c93fccfdcb73c9abc5a480822222d7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/60",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/yaml.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3c6d2ba116d4a35ed27f6fa73f4e74ffede7b7bb7ed184f6edcd150cb2be8c82"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/61",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/json.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5e78969c94c94951ef954f313d0da570ab5a0065bacd8c79c1b53a514cf9fa73"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/62",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/reader.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2f3379f8e2414b8feb38181c1e8d2d45a6f49b630aef46b73e060bb5222a37fd"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/63",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/redirect.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d00418bf3fc3918824f30dd80254415f15a34096263371dc1d8de841d3147757"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/64",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/render.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "709fe913e78f59dff8aa42f5cc3a582ef7f0af3595cd124183f409beaab9d4e8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/65",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/toml.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "df4b3156408824a543d4542760b40ecb12fc112ad32197744ddff8907d555bf9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/66",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/data.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "92a1a2e257e0912f5d9056832528783d666a6070845025299de6f0257dd91cf9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/67",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/render/xml.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6f39fd2b0fa715c31ab97a943f0e5885b0bbd117ebe45f8f8ee995baf3d62573"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/68",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/ginS/README.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f628f2cc6479966da2aae2302a3aefe830b27183f51f669772d3155d097ab2c6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/69",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/ginS/gins.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d602cbf9edc5b0fc43f6e6a2acd6de3dd8208be2480804138d36c84078aa1d93"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/7",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/context.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "efb55833438cddc187fb53d769c3d429a2caa2f567c72998edbebbd5d2857fc1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/70",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/docs/doc.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0ef387dd37df96478cf059c02b563ecb71019852d03642a2b115e38cb14a8412"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/71",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/examples/README.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2a516906b3a7167c8ab0a1d3e9f0a2a8ef2a6499b5d32b0bc43f8c7d8d0140cd"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/72",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/yaml_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "72a22492848e204676e8ac7db4f922c27b9b2cdf475caca1406356b892f44d1c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/73",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/protobuf.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "62ba0f953ad1db7c3c0f50cc2456a03ed84b23d660a043f86adde9bc9019cc4e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/74",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/multipart_form_mapping_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "26e6ddbc4dea4a625aec21532e0bdff476fd8564a5e48a41ab4422ba40b9a87e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/75",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/default_validator.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "82fc9bc16fd347fd96c68c64254f06d0fd5c1218d869c5c0335b666a68dbaea0"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/76",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/uri.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ef9e498347257b91f2679af03c3b07a09794e2cff7d02e16475b9e6939daf87c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/77",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/msgpack.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6467b18f19ae296551cfee362331b536726f6b1a030fcc61e8b4775a5f9d88b3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/78",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/plain.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5beeea9e3be22b322273a92b26350c388b8521b70d06b4f517dda78178a4e922"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/79",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/xml_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b453ca5804a0a3adbc8f4ca4f97caf981cfbf749fabd7709a92b190b62d02c12"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/8",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/go.mod",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6222d2c4c38f92aa685329371143313937198e8699b202878ab0d581c8986f96"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/80",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/query.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "65e8a3f81069398c364049951aae37e0316598b0601967a4f44efaeced9e26be"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/81",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/form_mapping_benchmark_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "24e87a0066db2242dc0474b041dbe9753f94f52924f6e2f8c9e2191954093055"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/82",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/binding_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9d0d5303e4239f084b7708c897e8b3f40f65f233621249f339433268459b07da"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/83",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/validate_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3e359da6e6a5a49be2fbe78a3bac77f95398182dc42d1da4dcb297493bc61af8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/84",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/default_validator_benchmark_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a9390e6d1235745d2ef8a2cf4b67e815b4c95062b15516922a068bf209888d46"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/85",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/form_mapping_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "54b4e2bf3bf27c1d1e3a115f3494aaab4e4099392777a34c14cc15c285308fa4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/86",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/binding.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fe8bd0ced52a0b8dff9c627bd1c74950253888cae0c3be9ef346ed88bb3aa589"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/87",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/default_validator_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1721c1ad05cc0a58d925cd2a72cf5113af6be348fe06482e74cc422e3f23e13c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/88",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/msgpack_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5209e6198b991f697d1be520bafa04e2eb769a042e1c445f50ac10fca1486150"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/89",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/form_mapping.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f85d5bc16a02095e4b6de250428fc9df389f746f48011314592456be93c0abb9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/9",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/githubapi_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "819c97da16d698787b2c81a85c3ffedc2e44cd9ab57e661733682869b1eb0c2a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/90",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/toml_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f3bd4fbc65f0fc675acab2728ed633260526c60f5f366a8af36d5e4951123fd7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/91",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/binding_nomsgpack.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "039073609319734be6528018bdfa1d82f799de6a7fc22687df5f73f65499361f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/92",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/header.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "05c17e46283c7b90e100912f5d3b651070ba861a8b04e81f0487dafb5e1a80f1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/93",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/binding_msgpack_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c817ea50e665b37e8f5c630200ddf8570c64d91bbea6ff55a7a61dc7147f5661"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/94",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/multipart_form_mapping.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "94e6763b541ff04d66388e0d3b07285da85e02ed154aea0842239c857b6db21a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/95",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/yaml.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f6ae6213b7e10ec4babc4d0acbed23520eee0357171249f368b9d78170821a2d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/96",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/json_test.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0bf99c0cd535f0c3dc69cea12af994506930ee14abb2aaadaa25fa644daded93"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/97",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/json.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7fd7b384f430d7e117fe02d16fb1db56e619067524cb9822b65226eef4b4b491"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/98",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/toml.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3b244d7b9853a794c5310c5449aa13249c58dae2c32b18d77e97dfc8e4bdca14"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/99",
+      "creationInfo": "_:CreationInfo4",
+      "name": "usr/lib/go/src/github.com/gin-gonic/gin/binding/form.go",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7ed808e8ff6804735f66ca9cc0d14ef36fd029bf0a7700fce8f6a553f58cdf5c"
+        }
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-staticdev",
+      "creationInfo": "_:CreationInfo9",
+      "description": "gin version 1.0+git-r0.  This package contains static libraries for software development.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:gin:1.0:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "gin-staticdev",
+      "summary": "gin version 1.0+git-r0 - Development files (Static Libraries)",
+      "builtTime": "2024-11-26T21:41:18Z",
+      "software_primaryPurpose": "install",
+      "software_packageVersion": "1.0+git"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/058d4a95fbb3c9e904d489d99d808733",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe",
+      "relationshipType": "hasInput",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/1",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/10",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/11",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/12",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/13",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/14",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/15",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/16",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/17",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/18",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/19",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/2",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/20",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/21",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/22",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/23",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/24",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/25",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/26",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/27",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/28",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/29",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/3",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/30",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/31",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/32",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/33",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/34",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/35",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/36",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/37",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/38",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/39",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/4",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/40",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/41",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/5",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/6",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/7",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/8",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/9"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/111e923428ae5260b31d24bca43142bb",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/38",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/1400334223c49464d3447853ac769930",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/31",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/1ac78d767984fc3519117f8cb63a2568",
+      "creationInfo": "_:CreationInfo9",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-staticdev",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/1b98e26043d8c65ebaf93c54661cec10",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/4",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/27aa5fa82c399484be9699dde0f0dcb9",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/23",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/2889add9e6c327ba157ffaa3dd194b8e",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/13",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/29784cd82dd5417dc4775d72f39b935e",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/21",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/2f0d06dd53b77ce80d735fa8fe5c2386",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/41",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/2fcfba4df97c13ba18ae54f714b603ce",
+      "creationInfo": "_:CreationInfo4",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/1",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/10",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/100",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/101",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/102",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/103",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/104",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/105",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/106",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/107",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/108",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/109",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/11",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/110",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/111",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/112",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/12",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/13",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/14",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/15",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/16",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/17",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/18",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/19",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/2",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/20",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/21",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/22",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/23",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/24",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/25",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/26",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/27",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/28",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/29",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/3",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/30",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/31",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/32",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/33",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/34",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/35",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/36",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/37",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/38",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/39",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/4",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/40",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/41",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/42",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/43",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/44",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/45",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/46",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/47",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/48",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/49",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/5",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/50",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/51",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/52",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/53",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/54",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/55",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/56",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/57",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/58",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/59",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/6",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/60",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/61",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/62",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/63",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/64",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/65",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/66",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/67",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/68",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/69",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/7",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/70",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/71",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/72",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/73",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/74",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/75",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/76",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/77",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/78",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/79",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/8",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/80",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/81",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/82",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/83",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/84",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/85",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/86",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/87",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/88",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/89",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/9",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/90",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/91",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/92",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/93",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/94",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/95",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/96",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/97",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/98",
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev/file/99"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/33e4043a7b52df9aa0caa11283eeaf87",
+      "creationInfo": "_:CreationInfo4",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/34c32fabde8a6c44938d5d4a2e8f45d6",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/30",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/3701a3dc8a9315c5ccfe039ed6c43ec7",
+      "creationInfo": "_:CreationInfo9",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-staticdev"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/3a3f6724ab47312a6915c3f41622ec06",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/go-cross-core2-64/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/go-runtime/UNIHASH/build/recipe"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/3f3b1d7b07535e70c935e637172068c8",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/1",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/48e92f674fd2e7c377c58ed2eca7f2d2",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/40",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/4a510df3c94f509bf7fbceaaa237ff27",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/33",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/4c7f87ee207c5e871e30db69e7696b8f",
+      "creationInfo": "_:CreationInfo4",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/4f079a9fd3dfc656c4e501c845963ad0",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/2ea690f91d2abec4e64882793bc7a707",
+      "relationshipType": "ancestorOf",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/4f33085489bc7bfde531bd74484fe35d",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/32",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/57256d79336dd06960ef5a582cfe0b37",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/18",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/5a35ee447d2f7bf02ab35322972d8020",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/5",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/64a9127b9d79766634b8dec5e79cd09d",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/37",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/6c5d81a6abda19c85bd86b5603ff3ad4",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dbg",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/6e53ec04c5199d8f9ac10f764019c81f",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/15",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/72e3dfbb28231b8cfd7b80593560fb76",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/16",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/7448180d568339056feb114ebfc9f9ed",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/25",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/7b84687af1bd8f9b8bdb14209d1e13e7",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/11",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/9b2ab0574b6690d28f57fa095c945e39",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/29",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/9bd89103080df25f29141c8629953999",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/36",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/9e6bd79079c23b6968a3a53123376289",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/7",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/a9360b06f0dea9bb5b7cfdb884ea3563",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/39",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/af17cb791faf827820f226acce7dc771",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/19",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/bba726255839c4d43de0adfb1d426300",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/20",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/c5465c33a6b884731f9342c5037db56a",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/8",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/c54900ab265f683d094df9a5c90a2a96",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/27",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/c62fd6a5bd60987a5acb968476c79f1f",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/14",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/cb2ebff49bac32d4642b47c4cb480cfb",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dbg"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/d24ca908e556a0105683c112d5b8e953",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/35",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/d3f3b1e99351054af763a23182ff79fd",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/10",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/d52914ae521277db76e1a58b3f684a8f",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/2",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/d66469e376bd60517c8c29a43919842b",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/34",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/d836aeb436ca7c226e954ea6f78eb8d0",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/22",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/edd6f36583baff3983f54bb7ebcf233c",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/17",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/f46167677d7320d4533012b1cdc7052e",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/12",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/f4a6f69d9c648adb32382aa38414aeb8",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/28",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/f78772846393c245d82b34a3e835d4a8",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/6",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/f79e5e59cb398777ef3e9c4d5285db8c",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/24",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/f7b472c76f2802f64deefb75269aeabd",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/9",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/fbb24014492400f6abc016d9bfe4b3a2",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/3",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/relationship/fde48d246599c75d58edfd5a58820d18",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/26",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/license/3_24_0/MIT_AND_Apache-2_0_AND_ISC_AND_MIT"
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/1",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.gin-gonic.gin",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/gin-gonic/gin@f05f966a0824b1d302ee556183e2579c91954266"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/10",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.quic-go.quic-go",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/quic-go/quic-go@e6b5db0c0486a2a2097c3de562bbb5730c657fb4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/11",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.stretchr.testify",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/stretchr/testify@bb548d0473d4e1c9b7bbfd6602c7bf12f7a84dd2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/12",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.ugorji.go",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/ugorji/go@43b79bfcab412eeb73e92181a2190e97a5520566"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/13",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.net",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/net@e2310ae9eb6425ee6736cfc40f982f42e20f5850"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/14",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.protobuf",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/protobuf@4a76e11653e368b9331815e1eb98e0cedc28997f"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/15",
+      "creationInfo": "_:CreationInfo0",
+      "name": "gopkg.in.yaml.v3",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://gopkg.in/yaml.v3@f6f7691b1fdeb513f56608cd2c32c51f8194bf51"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/16",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.bytedance.sonic",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/bytedance/sonic@51ea135322cab599c287fe6418df4c2e3c32b65e"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/17",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.cloudwego.base64x",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/cloudwego/base64x@aa02bf235e2a286ef3a99bacefb460195fc5a16b"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/18",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.cloudwego.iasm",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/cloudwego/iasm@db7298c17e362736a9954240db007c2432bf1fa1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/19",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.davecgh.go-spew",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/davecgh/go-spew@8991bc29aa16c548c550c7ff78260e27b9ab7c73"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/2",
+      "creationInfo": "_:CreationInfo0",
+      "name": "modules.txt",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b82dc5a29d2fb2ca424070260382934b95eec2d3ccdc068823915323a6678517"
+        }
+      ],
+      "software_primaryPurpose": "source"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/20",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.gabriel-vasile.mimetype",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/gabriel-vasile/mimetype@e64d6bdb3607578757d31380818651a9fc95ca8b"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/21",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.go-playground.locales",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/go-playground/locales@ce315c8672599942003599943a1e64288f55b03f"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/22",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.go-playground.universal-translator",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/go-playground/universal-translator@f83cd526536e253181a13835b00cd107f627c505"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/23",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.go-task.slim-sprig",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/go-task/slim-sprig@52ccab3ef572c7e1a2c258be183f9a9296d60152"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/24",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.google.pprof",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/google/pprof@94a9f03dee38882adc8bdfc42cdd6a04f8e7056e"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/25",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.klauspost.cpuid",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/klauspost/cpuid@6903d4066801a7d800d4537ee9eebe81ea97000e"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/26",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.kr.pretty",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/kr/pretty@3cd153a126da607b78d1762779b1e1054f9889fc"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/27",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.leodido.go-urn",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/leodido/go-urn@d725923fe33ce69c89b9e2033d069099b498224f"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/28",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.modern-go.concurrent",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/modern-go/concurrent@e0a39a4cb4216ea8db28e22a69f4ec25610d513a"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/29",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.modern-go.reflect2",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/modern-go/reflect2@2b33151c9bbc5231aea69b8861c540102b087070"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/3",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.bytedance.sonic",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/bytedance/sonic@2b66aefcd60d189cff2669213f682557216b686f"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/30",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.onsi.ginkgo",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/onsi/ginkgo@b59e304f53fb217a4d49c025d092c9ac43b2ad89"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/31",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.pmezard.go-difflib",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/pmezard/go-difflib@792786c7400a136282c1664665ae0a8db921c6c2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/32",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.quic-go.qpack",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/quic-go/qpack@3e7287cc7ce655141583b8511fbe09800d4ba896"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/33",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.twitchyliquid64.golang-asm",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/twitchyliquid64/golang-asm@8d7f1f783b11f9a00f5bcdfcae17f5ac8f22512e"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/34",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.uber.mock",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/uber/mock@74a29c6e6c2cbb8ccee94db061c1604ff33fd188"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/35",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.arch",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/arch@b76863e36670e165c85261bc41fabaf345376022"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/36",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.crypto",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/crypto@9fadb0b165bd3b96d2a21e89d60ad458db3aeee0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/37",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.exp",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/exp@47842c84f3db5d20ded7f781feb26f0f8f668354"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/38",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.mod",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/mod@aa51b25a4485b19ca64f578bad6fa40229e75984"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/39",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.sys",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/sys@faed7ec2641160cebe7fdf3fa6d401d848d2710f"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/4",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.gin-contrib.sse",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/gin-contrib/sse@54d8467d122d380a14768b6b4e5cd7ca4755938f"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/40",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.text",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/text@9c2f3a21352d1ff4e47776534e3f334b39ec0183"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/41",
+      "creationInfo": "_:CreationInfo0",
+      "name": "go.googlesource.com.tools",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://go.googlesource.com/tools@e35e4ccd0d2ddd32df7536574a7fec39296395f0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/5",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.go-playground.validator",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/go-playground/validator@e20b94842ab102ba94e73eaf66f5c0466e405882"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/6",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.goccy.go-json",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/goccy/go-json@8e8cdeacf2f2faef082f32848138f0f9af7cfb66"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/7",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.json-iterator.go",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/json-iterator/go@024077e996b048517130b21ea6bf12aa23055d3d"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/8",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.mattn.go-isatty",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/mattn/go-isatty@a7c02353c47bc4ec6b30dc9628154ae4fe760c11"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/source/9",
+      "creationInfo": "_:CreationInfo0",
+      "name": "github.com.pelletier.go-toml",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/pelletier/go-toml@a3d5a0bb530b5206c728eed9cb57323061922bcb"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/639f7967d2ceb00cd0065cda8a9579bffa4fddf96e0de991ccb8ebc86f025dce/relationship/7692d2e93cee373a79b7dae1f415e7a8",
+      "creationInfo": "_:CreationInfo9",
+      "from": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-staticdev",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/package/gin-dev"
+      ],
+      "scope": "runtime"
+    },
+    {
+      "type": "SpdxDocument",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/f4abfe5d9ae111a562f98d06f95968a08f81f983db8be48ba9836727ffce21a0/document/gin-build",
+      "creationInfo": "_:CreationInfo2",
+      "name": "gin-build",
+      "profileConformance": [
+        "build",
+        "core",
+        "security",
+        "simpleLicensing",
+        "software"
+      ],
+      "rootElement": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/f4abfe5d9ae111a562f98d06f95968a08f81f983db8be48ba9836727ffce21a0/sbom/gin-build"
+      ],
+      "import": [
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/go-cross-core2-64/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/go-runtime/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe"
+        }
+      ]
+    },
+    {
+      "type": "software_Sbom",
+      "spdxId": "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/f4abfe5d9ae111a562f98d06f95968a08f81f983db8be48ba9836727ffce21a0/sbom/gin-build",
+      "creationInfo": "_:CreationInfo2",
+      "name": "gin-build",
+      "rootElement": [
+        "http://spdx.org/spdxdocs/gin-1600e927-135c-5ade-8db8-074db7c814f9/06626920736a0a5c82f6a366f87cfe0b0f73e83ea853ad7d38301d4b2f372963/build/recipe"
+      ],
+      "software_sbomType": [
+        "build"
+      ]
+    }
+  ]
+}

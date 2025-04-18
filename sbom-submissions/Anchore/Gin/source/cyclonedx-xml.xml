@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:580a2352-b877-463b-9667-f97fe6e1fe0d" version="1">
+  <metadata>
+    <timestamp>2024-12-13T14:06:17+01:00</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <author>anchore</author>
+          <name>syft</name>
+          <version>1.18.0</version>
+        </component>
+      </components>
+    </tools>
+    <component bom-ref="751caddd2c88c2d5" type="file">
+      <name>/home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin</name>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:github/actions/cache@v4?package-id=6aee37cd95a52198" type="library">
+      <name>actions/cache</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/cache:actions\/cache:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/cache@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/gin.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/checkout@v4?package-id=ffece65caa72c162" type="library">
+      <name>actions/checkout</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/codeql.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/checkout@v4?package-id=bc39fc3bb5768de8" type="library">
+      <name>actions/checkout</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/gin.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/checkout@v4?package-id=c67e74d6bacda5f8" type="library">
+      <name>actions/checkout</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/goreleaser.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/setup-go@v5?package-id=7004dc2b96fdb8a5" type="library">
+      <name>actions/setup-go</name>
+      <version>v5</version>
+      <cpe>cpe:2.3:a:actions\/setup-go:actions\/setup-go:v5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/setup-go@v5</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup-go:actions\/setup_go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup_go:actions\/setup-go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup_go:actions\/setup_go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup:actions\/setup-go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup:actions\/setup_go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/gin.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/setup-go@v5?package-id=efff1dbeb61369f4" type="library">
+      <name>actions/setup-go</name>
+      <version>v5</version>
+      <cpe>cpe:2.3:a:actions\/setup-go:actions\/setup-go:v5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/setup-go@v5</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup-go:actions\/setup_go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup_go:actions\/setup-go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup_go:actions\/setup_go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup:actions\/setup-go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/setup:actions\/setup_go:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/goreleaser.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/codecov/codecov-action@v4?package-id=20d1d183b73930c7" type="library">
+      <name>codecov/codecov-action</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:codecov\/codecov-action:codecov\/codecov-action:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/codecov/codecov-action@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov-action:codecov\/codecov_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov_action:codecov\/codecov-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov_action:codecov\/codecov_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov:codecov\/codecov-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov:codecov\/codecov_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/gin.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/bytedance/sonic@v1.11.6?package-id=cb6860ca46e59eee" type="library">
+      <name>github.com/bytedance/sonic</name>
+      <version>v1.11.6</version>
+      <cpe>cpe:2.3:a:bytedance:sonic:v1.11.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/bytedance/sonic@v1.11.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:oUp34TzMlL+OY1OUWxHqsdkgC/Zfc85zGqw9siXjrc0=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/bytedance/sonic@v0.1.1?package-id=683753858d2428f5#loader" type="library">
+      <name>github.com/bytedance/sonic/loader</name>
+      <version>v0.1.1</version>
+      <cpe>cpe:2.3:a:bytedance:sonic\/loader:v0.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/bytedance/sonic@v0.1.1#loader</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:c+e5Pt1k/cy5wMveRDyk2X4B9hF4g7an8N3zCYjJFNM=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cloudwego/base64x@v0.1.4?package-id=a72637e3ab3f2702" type="library">
+      <name>github.com/cloudwego/base64x</name>
+      <version>v0.1.4</version>
+      <cpe>cpe:2.3:a:cloudwego:base64x:v0.1.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cloudwego/base64x@v0.1.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:jwCgWpFanWmN8xoIUHa2rtzmkd5J2plF/dnLS6Xd/0Y=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cloudwego/iasm@v0.2.0?package-id=24c44d2165dbbe6e" type="library">
+      <name>github.com/cloudwego/iasm</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:cloudwego:iasm:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cloudwego/iasm@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:1KNIy1I1H9hNNFEEH3DVnI4UujN+1zjpuk6gwHLTssg=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=4fff1eaa0bc0be66" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.3?package-id=ed271496b40ae290" type="library">
+      <name>github.com/gabriel-vasile/mimetype</name>
+      <version>v1.4.3</version>
+      <cpe>cpe:2.3:a:gabriel-vasile:mimetype:v1.4.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:gabriel_vasile:mimetype:v1.4.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gabriel:mimetype:v1.4.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gin-contrib/sse@v0.1.0?package-id=51df85ab5a46c699" type="library">
+      <name>github.com/gin-contrib/sse</name>
+      <version>v0.1.0</version>
+      <cpe>cpe:2.3:a:gin-contrib:sse:v0.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gin-contrib/sse@v0.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:gin_contrib:sse:v0.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gin:sse:v0.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-playground/locales@v0.14.1?package-id=0ab483711ac82dec" type="library">
+      <name>github.com/go-playground/locales</name>
+      <version>v0.14.1</version>
+      <cpe>cpe:2.3:a:go-playground:locales:v0.14.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-playground/locales@v0.14.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:locales:v0.14.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:locales:v0.14.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:EWaQ/wswjilfKLTECiXz7Rh+3BjFhfDFKv/oXslEjJA=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-playground/universal-translator@v0.18.1?package-id=aa3c8c1e33334216" type="library">
+      <name>github.com/go-playground/universal-translator</name>
+      <version>v0.18.1</version>
+      <cpe>cpe:2.3:a:go-playground:universal-translator:v0.18.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-playground/universal-translator@v0.18.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:go-playground:universal_translator:v0.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:universal-translator:v0.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:universal_translator:v0.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:universal-translator:v0.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:universal_translator:v0.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:Bcnm0ZwsGyWbCzImXv+pAJnYK9S473LQFuzCbDbfSFY=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-playground/validator@v10.20.0?package-id=a9f509c48eb6d333#v10" type="library">
+      <name>github.com/go-playground/validator/v10</name>
+      <version>v10.20.0</version>
+      <cpe>cpe:2.3:a:go-playground:validator\/v10:v10.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-playground/validator@v10.20.0#v10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:validator\/v10:v10.20.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:validator\/v10:v10.20.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:K9ISHbSaI0lyB2eWMPJo+kOS/FBExVwjEviJTixqxL8=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-task/slim-sprig@v0.0.0-20230315185526-52ccab3ef572?package-id=09ce847851ef4807" type="library">
+      <name>github.com/go-task/slim-sprig</name>
+      <version>v0.0.0-20230315185526-52ccab3ef572</version>
+      <cpe>cpe:2.3:a:go-task:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-task/slim-sprig@v0.0.0-20230315185526-52ccab3ef572</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:go-task:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_task:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_task:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:tfuBGBXKqDEevZMzYi5KSi8KkcZtzBcTgAUUtapy0OI=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/goccy/go-json@v0.10.2?package-id=1c69133c75b0ec68" type="library">
+      <name>github.com/goccy/go-json</name>
+      <version>v0.10.2</version>
+      <cpe>cpe:2.3:a:goccy:go-json:v0.10.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/goccy/go-json@v0.10.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:goccy:go_json:v0.10.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:CrxCmQqYDkv1z7lO7Wbh2HN93uovUHgrECaO5ZrCXAU=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/pprof@v0.0.0-20210407192527-94a9f03dee38?package-id=768bdea76795da5e" type="library">
+      <name>github.com/google/pprof</name>
+      <version>v0.0.0-20210407192527-94a9f03dee38</version>
+      <cpe>cpe:2.3:a:google:pprof:v0.0.0-20210407192527-94a9f03dee38:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/pprof@v0.0.0-20210407192527-94a9f03dee38</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:yAJXTCF9TqKcTiHJAE8dj7HMvPfh66eeA2JYW7eFpSE=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=b71b97451ba45321" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.12</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/klauspost/cpuid@v2.0.9?package-id=2fc5d08a9b452d97#v2" type="library">
+      <name>github.com/klauspost/cpuid/v2</name>
+      <version>v2.0.9</version>
+      <cpe>cpe:2.3:a:klauspost:cpuid\/v2:v2.0.9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/klauspost/cpuid@v2.0.9#v2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:lgaqFMSdTdQYdZ04uHyN2d/eKdOMyi2YLSvlQIBFYa4=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kr/pretty@v0.3.1?package-id=b76d4050a948c5b8" type="library">
+      <name>github.com/kr/pretty</name>
+      <version>v0.3.1</version>
+      <cpe>cpe:2.3:a:kr:pretty:v0.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kr/pretty@v0.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/leodido/go-urn@v1.4.0?package-id=dc31b61b5d1d57b8" type="library">
+      <name>github.com/leodido/go-urn</name>
+      <version>v1.4.0</version>
+      <cpe>cpe:2.3:a:leodido:go-urn:v1.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/leodido/go-urn@v1.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:leodido:go_urn:v1.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:WT9HwE9SGECu3lg4d/dIA+jxlljEa1/ffXKmRjqdmIQ=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mattn/go-isatty@v0.0.20?package-id=f4619afab7c4111c" type="library">
+      <name>github.com/mattn/go-isatty</name>
+      <version>v0.0.20</version>
+      <cpe>cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mattn/go-isatty@v0.0.20</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180228061459-e0a39a4cb421?package-id=7cd0a448661081ad" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180228061459-e0a39a4cb421</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180228061459-e0a39a4cb421</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:ZqeYNhU3OHLH3mGKHDcjJRFFRrJa6eAM5H+CtDdOsPc=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=d0740b2e48ecb514" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.2</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/onsi/ginkgo@v2.9.5?package-id=5191ff2910e9b570#v2" type="library">
+      <name>github.com/onsi/ginkgo/v2</name>
+      <version>v2.9.5</version>
+      <cpe>cpe:2.3:a:onsi:ginkgo\/v2:v2.9.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/onsi/ginkgo@v2.9.5#v2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:+6Hr4uxzP4XIUyAkg61dWBw8lb/gc4/X5luuxN/EC+Q=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pelletier/go-toml@v2.2.2?package-id=ede5d0051fc14725#v2" type="library">
+      <name>github.com/pelletier/go-toml/v2</name>
+      <version>v2.2.2</version>
+      <cpe>cpe:2.3:a:pelletier:go-toml\/v2:v2.2.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pelletier/go-toml@v2.2.2#v2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:pelletier:go_toml\/v2:v2.2.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:aYUidT7k73Pcl9nb2gScu7NSrKCSHIDE89b3+6Wq+LM=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=2e9153c8c5a4f906" type="library">
+      <name>github.com/pmezard/go-difflib</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pmezard/go-difflib@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/quic-go/qpack@v0.4.0?package-id=f6e2e295a609d7cf" type="library">
+      <name>github.com/quic-go/qpack</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:quic-go:qpack:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/quic-go/qpack@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic_go:qpack:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic:qpack:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:Cr9BXA1sQS2SmDUWjSofMPNKmvF6IiIfDRmgU0w1ZCo=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/quic-go/quic-go@v0.43.1?package-id=833b2674d8128fb9" type="library">
+      <name>github.com/quic-go/quic-go</name>
+      <version>v0.43.1</version>
+      <cpe>cpe:2.3:a:quic-go:quic-go:v0.43.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/quic-go/quic-go@v0.43.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic-go:quic_go:v0.43.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic_go:quic-go:v0.43.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic_go:quic_go:v0.43.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic:quic-go:v0.43.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:quic:quic_go:v0.43.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:fLiMNfQVe9q2JvSsiXo4fXOEguXHGGl9+6gLp4RPeZQ=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/stretchr/testify@v1.9.0?package-id=1e92eaf826745a46" type="library">
+      <name>github.com/stretchr/testify</name>
+      <version>v1.9.0</version>
+      <cpe>cpe:2.3:a:stretchr:testify:v1.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/stretchr/testify@v1.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1?package-id=1b5e6d463e64103d" type="library">
+      <name>github.com/twitchyliquid64/golang-asm</name>
+      <version>v0.15.1</version>
+      <cpe>cpe:2.3:a:twitchyliquid64:golang-asm:v0.15.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:cpe23">cpe:2.3:a:twitchyliquid64:golang_asm:v0.15.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS4MhqMhdFk5YI=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/ugorji/go@v1.2.12?package-id=64f555546e8d7887#codec" type="library">
+      <name>github.com/ugorji/go/codec</name>
+      <version>v1.2.12</version>
+      <cpe>cpe:2.3:a:ugorji:go\/codec:v1.2.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/ugorji/go@v1.2.12#codec</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:9LC83zGrHhuUA9l16C9AHXAqEV/2wBQ4nkvumAE65EE=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/github/codeql-action@v3?package-id=599f9f86c34f69ef#analyze" type="library">
+      <name>github/codeql-action/analyze</name>
+      <version>v3</version>
+      <cpe>cpe:2.3:a:github\/codeql-action\/analyze:github\/codeql-action\/analyze:v3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/github/codeql-action@v3#analyze</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql-action\/analyze:github\/codeql_action\/analyze:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/analyze:github\/codeql-action\/analyze:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/analyze:github\/codeql_action\/analyze:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql:github\/codeql-action\/analyze:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql:github\/codeql_action\/analyze:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/codeql.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/github/codeql-action@v3?package-id=5e1cfb39ebb5e4fb#init" type="library">
+      <name>github/codeql-action/init</name>
+      <version>v3</version>
+      <cpe>cpe:2.3:a:github\/codeql-action\/init:github\/codeql-action\/init:v3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/github/codeql-action@v3#init</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql-action\/init:github\/codeql_action\/init:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/init:github\/codeql-action\/init:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/init:github\/codeql_action\/init:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql:github\/codeql-action\/init:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql:github\/codeql_action\/init:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/codeql.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/mock@v0.4.0?package-id=b02ac718fe59e25e" type="library">
+      <name>go.uber.org/mock</name>
+      <version>v0.4.0</version>
+      <purl>pkg:golang/go.uber.org/mock@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:VcM4ZOtdbR4f6VXfiOpwpVJDL6lCReaZ6mw31wqh7KU=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/arch@v0.0.0-20210923205945-b76863e36670?package-id=c9a828946ac1dd78" type="library">
+      <name>golang.org/x/arch</name>
+      <version>v0.0.0-20210923205945-b76863e36670</version>
+      <cpe>cpe:2.3:a:golang:x\/arch:v0.0.0-20210923205945-b76863e36670:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/arch@v0.0.0-20210923205945-b76863e36670</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:18EFjUmQOcUvxNYSkA6jO9VAiXCnxFY6NyDX0bHDmkU=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.25.0?package-id=ba5359d8f3adbe08" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.25.0</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.25.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.25.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:ypSNr+bnYL2YhwoMt2zPxHFmbAN1KZs/njMG3hxUp30=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/exp@v0.0.0-20221205204356-47842c84f3db?package-id=54975e4904704d4f" type="library">
+      <name>golang.org/x/exp</name>
+      <version>v0.0.0-20221205204356-47842c84f3db</version>
+      <cpe>cpe:2.3:a:golang:x\/exp:v0.0.0-20221205204356-47842c84f3db:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/exp@v0.0.0-20221205204356-47842c84f3db</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:D/cFflL63o2KSLJIwjlcIt8PR064j/xsmdEJL/YvY/o=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/mod@v0.17.0?package-id=708b38b123a4196b" type="library">
+      <name>golang.org/x/mod</name>
+      <version>v0.17.0</version>
+      <cpe>cpe:2.3:a:golang:x\/mod:v0.17.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/mod@v0.17.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:zY54UmvipHiNd+pm+m0x9KhZ9hl1/7QNMyxXbc6ICqA=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.27.0?package-id=d3b155486e4963f3" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.27.0</version>
+      <cpe>cpe:2.3:a:golang:networking:v0.27.0:*:*:*:*:go:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.27.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:5K3Njcw06/l2y9vpGCSdcxWOYHOUk3dVNGDXN+FvAys=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.22.0?package-id=77c53cb0e32c1fff" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.22.0</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.22.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:RI27ohtqKCnwULzJLqkv897zojh5/DwS/ENaMzUOaWI=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.16.0?package-id=1c0bd605732aade4" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.16.0</version>
+      <cpe>cpe:2.3:a:golang:text:v0.16.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.16.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/tools@v0.21.1-0.20240508182429-e35e4ccd0d2d?package-id=1f6ad0729e2bc692" type="library">
+      <name>golang.org/x/tools</name>
+      <version>v0.21.1-0.20240508182429-e35e4ccd0d2d</version>
+      <cpe>cpe:2.3:a:golang:x\/tools:v0.21.1-0.20240508182429-e35e4ccd0d2d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/tools@v0.21.1-0.20240508182429-e35e4ccd0d2d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:vU5i/LfpvrRCpgM/VPfJLg5KjxD3E+hfT1SH+d9zLwg=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/golangci/golangci-lint-action@v6?package-id=2775bafc67ed35c7" type="library">
+      <name>golangci/golangci-lint-action</name>
+      <version>v6</version>
+      <cpe>cpe:2.3:a:golangci\/golangci-lint-action:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/golangci/golangci-lint-action@v6</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci-lint-action:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci_lint_action:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci_lint_action:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci-lint:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci-lint:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci_lint:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci_lint:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golangci\/golangci:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/gin.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.34.1?package-id=1db891ee5d0b9ff1" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.34.1</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.34.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.34.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:9ddQBjfCyZPOHPUiPxpYESBLc+T8P3E+Vo4IbKZgFWg=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=716c668b92999095" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.1</version>
+      <cpe>cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*</cpe>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-file-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:package:metadataType">go-module-entry</property>
+        <property name="syft:location:0:path">/go.mod</property>
+        <property name="syft:metadata:h1Digest">h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/goreleaser/goreleaser-action@v5?package-id=46e69acf151839d2" type="library">
+      <name>goreleaser/goreleaser-action</name>
+      <version>v5</version>
+      <cpe>cpe:2.3:a:goreleaser\/goreleaser-action:goreleaser\/goreleaser-action:v5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/goreleaser/goreleaser-action@v5</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:goreleaser\/goreleaser-action:goreleaser\/goreleaser_action:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:goreleaser\/goreleaser_action:goreleaser\/goreleaser-action:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:goreleaser\/goreleaser_action:goreleaser\/goreleaser_action:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:goreleaser\/goreleaser:goreleaser\/goreleaser-action:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:goreleaser\/goreleaser:goreleaser\/goreleaser_action:v5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/goreleaser.yml</property>
+      </properties>
+    </component>
+  </components>
+</bom>

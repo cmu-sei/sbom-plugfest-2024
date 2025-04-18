@@ -1,0 +1,26 @@
+NAME                           VERSION   TYPE                           
+actions/checkout               v4        github-action  [38;5;102m(+6 duplicates)[0m  
+actions/download-artifact      v4        github-action  [38;5;102m[0m                 
+actions/setup-python           v5        github-action  [38;5;102m(+1 duplicate)[0m   
+actions/upload-artifact        v4        github-action  [38;5;102m(+3 duplicates)[0m  
+attrs                          23.1.0    python         [38;5;102m[0m                 
+crazy-max/ghaction-import-gpg  v6        github-action  [38;5;102m[0m                 
+docker/build-push-action       v6        github-action  [38;5;102m[0m                 
+docker/login-action            v3        github-action  [38;5;102m[0m                 
+docker/metadata-action         v5        github-action  [38;5;102m[0m                 
+docker/setup-buildx-action     v3        github-action  [38;5;102m[0m                 
+docker/setup-qemu-action       v3        github-action  [38;5;102m[0m                 
+importlib-metadata             6.8.0     python         [38;5;102m[0m                 
+importlib-resources            6.0.0     python         [38;5;102m[0m                 
+jinja2                         3.1.4     python         [38;5;102m[0m                 
+jsonschema                     4.18.4    python         [38;5;102m[0m                 
+jsonschema-specifications      2023.7.1  python         [38;5;102m[0m                 
+lxml                           4.9.3     python         [38;5;102m[0m                 
+markdown                       3.4.3     python         [38;5;102m[0m                 
+markupsafe                     2.1.5     python         [38;5;102m[0m                 
+msys2/setup-msys2              v2        github-action  [38;5;102m[0m                 
+pkgutil-resolve-name           1.3.10    python         [38;5;102m[0m                 
+pyyaml                         6.0.1     python         [38;5;102m[0m                 
+referencing                    0.30.0    python         [38;5;102m[0m                 
+rpds-py                        0.9.2     python         [38;5;102m[0m                 
+zipp                           3.19.1    python         [38;5;102m[0m                 

@@ -1,0 +1,3997 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:6d396c27-2b65-462c-a6d8-cedd4817bc22",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-13T14:26:40+01:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.18.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "a3e1419bd877ae0d",
+      "type": "file",
+      "name": "./opencv/opencv"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v2?package-id=9e06eaa389fad1a4",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/arm64-build-checks.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v2?package-id=56beda40bf27910b",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint_python.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=250321e66bbc5d22",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/build/3rdparty/ade/ade-0.1.2d/.github/workflows/workflow.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v2?package-id=28c6de62992d38f9",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint_python.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0?package-id=1efb7f98dccd58ff",
+      "type": "library",
+      "group": "org.apache.geronimo.specs",
+      "name": "geronimo-atinject_1.0_spec",
+      "version": "1.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "The Apache Software License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:geronimo-atinject-1.0-spec:1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:geronimo-atinject_1.0_spec:1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:geronimo_atinject_1.0_spec:1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:geronimo:1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:genesis:1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:specs:1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "geronimo-atinject_1.0_spec"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.geronimo.specs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper@4.6?package-id=1e33cfdaac0ac72d",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "version": "4.6",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:4.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper@4.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "ddb8ec8cb4da47e80202ec3fed48bd3c686a11e9"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/android/gradle-wrapper/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/platforms/android/gradle-wrapper/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=8e6669363146d656",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "2685e1a923d4c79dd549889406c6ffa9e8661744"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/android/aar-template/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/platforms/android/aar-template/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.11?package-id=55ccc1e87a3f227c",
+      "type": "library",
+      "name": "junit",
+      "version": "4.11",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:junit:junit:4.11:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.11",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "35e8810ec63fd27cc5ea766c51675119a4bd9661"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/modules/java/test/pure_test/lib/junit-4.11.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/modules/java/test/pure_test/lib/junit-4.11.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.8.1?package-id=d963ed344d1edff8",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.8.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:junit:junit:4.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.8.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "junit"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "junit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.opencv/opencv@4.10.0?package-id=d0e3660cd4ea57bd",
+      "type": "library",
+      "name": "opencv",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)",
+            "url": "http://opencv.org/license.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.opencv:opencv:4.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.opencv/opencv@4.10.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv:opencv:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv/pom.xml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.opencv/opencv-it@4.10.0?package-id=e82e9ece54388203",
+      "type": "library",
+      "name": "opencv-it",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)",
+            "url": "http://opencv.org/license.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.opencv:opencv-it:4.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.opencv/opencv-it@4.10.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.opencv:opencv_it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv-it:opencv-it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv-it:opencv_it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv_it:opencv-it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv_it:opencv_it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv:opencv-it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv:opencv_it:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.opencv/opencv-parent@4.10.0?package-id=38fa42e6a39256c2",
+      "type": "library",
+      "name": "opencv-parent",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)",
+            "url": "http://opencv.org/license.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:opencv-parent:opencv-parent:4.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.opencv/opencv-parent@4.10.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv-parent:opencv_parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv_parent:opencv-parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv_parent:opencv_parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.opencv:opencv-parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.opencv:opencv_parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv:opencv-parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv:opencv_parent:4.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/pom.xml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=b912071ccf341e2e#.github/workflows/OCV-4.x-Android-SDK.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-4.x-Android-SDK.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-4.x-Android-SDK.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-4.x-Android-SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_4.x_Android_SDK.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=83829f9b17f9031b#.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64-Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64_Debug.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=2e49e67bfde6da6e#.github/workflows/OCV-PR-4.x-ARM64.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-ARM64.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=7e058c16ec989a02#.github/workflows/OCV-PR-4.x-Android-Test.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-Android-Test.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-Android-Test.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-Android-Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_Android_Test.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=afb6b3020b9e7fe4#.github/workflows/OCV-PR-4.x-RISCV.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-RISCV.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-RISCV.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_RISCV.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=d728c54990de6634#.github/workflows/OCV-PR-4.x-U20-Cuda.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-Cuda.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20-Cuda.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_Cuda.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=a1a5f01e90938dc4#.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20-OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20_OpenVINO.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=7cf52b2ce3813614#.github/workflows/OCV-PR-4.x-U20.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U20.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=fe79360127e2d611#.github/workflows/OCV-PR-4.x-U22.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U22.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U22.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U22.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=1e2880f788224401#.github/workflows/OCV-PR-4.x-U24.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U24.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U24.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_U24.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=f3b4c3443faaf883#.github/workflows/OCV-PR-4.x-W10-ARM64.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10-ARM64.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10-ARM64.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=45673738addcf5f2#.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=c4c33d57998fd1b2#.github/workflows/OCV-PR-4.x-W10.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_W10.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=9f9dd01f403db238#.github/workflows/OCV-PR-4.x-docs.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-docs.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-docs.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_docs.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=1d97c65a7bb5e5cc#.github/workflows/OCV-PR-4.x-iOS.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-iOS.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-iOS.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_iOS.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=d41b293bfb022264#.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64_Vulkan.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=24146b27135500c3#.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_ARM64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=18fc5b69f5eab67e#.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86-64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-PR-4.x-macOS-x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_PR_4.x_macOS_x86_64.yaml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/opencv/ci-gha-workflow@main?package-id=4067d299d6d53734#.github/workflows/OCV-timvx-backend-tests-4.x.yml",
+      "type": "library",
+      "name": "opencv/ci-gha-workflow/.github/workflows/OCV-timvx-backend-tests-4.x.yml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-timvx-backend-tests-4.x.yml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci-gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci_gha:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci-gha-workflow\\/.github\\/workflows\\/OCV-timvx-backend-tests-4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opencv\\/ci:opencv\\/ci_gha_workflow\\/.github\\/workflows\\/OCV_timvx_backend_tests_4.x.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/PR-4.x.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.karaf.log/org.apache.karaf.log.core@4.0.6?package-id=efe15ee4b3e5c0c9",
+      "type": "library",
+      "group": "org.apache.karaf.log",
+      "name": "org.apache.karaf.log.core",
+      "version": "4.0.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:org.apache.karaf.log.core:4.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.karaf.log/org.apache.karaf.log.core@4.0.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:karaf:4.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:core:4.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:log:4.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "org.apache.karaf.log.core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.karaf.log"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.compendium@4.3.0?package-id=620a15315ac646c5",
+      "type": "library",
+      "group": "org.osgi",
+      "name": "org.osgi.compendium",
+      "version": "4.3.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "\n        Apache License, Version 2.0\n      ",
+            "url": "http://opensource.org/licenses/apache2.0.php"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.osgi.compendium:org.osgi.compendium:4.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.osgi/org.osgi.compendium@4.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compendium:org.osgi.compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.osgi.compendium:compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.osgi:org.osgi.compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:osgi:org.osgi.compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compendium:compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.osgi:compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:osgi:compendium:4.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "org.osgi.compendium"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.osgi"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.core@4.3.1?package-id=9c1ee862a268cfa6",
+      "type": "library",
+      "group": "org.osgi",
+      "name": "org.osgi.core",
+      "version": "4.3.1",
+      "licenses": [
+        {
+          "license": {
+            "name": "\n        Apache License, Version 2.0\n      ",
+            "url": "http://opensource.org/licenses/apache2.0.php"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.osgi.core:org.osgi.core:4.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.osgi/org.osgi.core@4.3.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.osgi:org.osgi.core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:org.osgi.core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.osgi.core:core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:osgi:org.osgi.core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.osgi:core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:osgi:core:4.3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "org.osgi.core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.osgi"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-karaf@4.8.0?package-id=efc1e8fcab65d2f6",
+      "type": "library",
+      "group": "org.ops4j.pax.exam",
+      "name": "pax-exam-container-karaf",
+      "version": "4.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:pax-exam-container-karaf:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-karaf@4.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-container-karaf:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_container_karaf:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_container_karaf:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.exam:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.exam:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-container:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-container:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_container:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_container:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:exam:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:exam:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-container-karaf:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax-exam-container-karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax_exam_container_karaf:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_container_karaf:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-container:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_container:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "pax-exam-container-karaf"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.ops4j.pax.exam"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ops4j.pax.exam/pax-exam-junit4@4.8.0?package-id=4c033a1397f48e73",
+      "type": "library",
+      "group": "org.ops4j.pax.exam",
+      "name": "pax-exam-junit4",
+      "version": "4.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.ops4j.pax.exam:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-junit4@4.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.exam:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-junit4:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-junit4:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_junit4:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_junit4:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:exam:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:exam:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam-junit4:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax-exam-junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax_exam_junit4:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam_junit4:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:exam:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax:4.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "pax-exam-junit4"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.ops4j.pax.exam"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ops4j.pax.logging/pax-logging-api@1.8.0?package-id=a0b6ba96a69e467d",
+      "type": "library",
+      "group": "org.ops4j.pax.logging",
+      "name": "pax-logging-api",
+      "version": "1.8.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ALv2",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.ops4j.pax.logging:pax-logging-api:1.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.ops4j.pax.logging/pax-logging-api@1.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.logging:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-logging-api:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-logging-api:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_logging_api:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_logging_api:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-logging:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-logging:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_logging:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_logging:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.logging:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:logging:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:logging:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-logging-api:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax-logging-api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax_logging_api:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_logging_api:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-logging:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_logging:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:logging:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "pax-logging-api"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.ops4j.pax.logging"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.6.0?package-id=58c504016a0b246c",
+      "type": "library",
+      "group": "org.ops4j.pax.url",
+      "name": "pax-url-aether",
+      "version": "1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "ALv2",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.ops4j.pax.url:pax-url-aether:1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.url:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-url-aether:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-url-aether:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_url_aether:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_url_aether:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-url:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-url:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_url:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_url:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax.url:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-url-aether:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_url_aether:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:url:pax-url-aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:url:pax_url_aether:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.ops4j.pax:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax-url:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax_url:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ops4j:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pax:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:url:pax:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "pax-url-aether"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.ops4j.pax.url"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-sbt/sbt-launch@0.12.1?package-id=79ffdb4c16394517",
+      "type": "library",
+      "name": "sbt-launch",
+      "version": "0.12.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.scala-sbt:sbt-launch:0.12.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.scala-sbt/sbt-launch@0.12.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "45c28c7c6328d6ecf8e9dc51003a0f1af71516ad"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.scala-sbt:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sbt-launch:sbt-launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sbt-launch:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sbt_launch:sbt-launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sbt_launch:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-sbt:sbt-launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-sbt:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_sbt:sbt-launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_sbt:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:sbt-launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sbt:sbt-launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sbt:sbt_launch:0.12.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/samples/java/sbt/sbt/sbt-launch.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/samples/java/sbt/sbt/sbt-launch.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.24?package-id=92f52f4e239a2d63",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.24",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:org.slf4j:slf4j-api:1.7.24:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.24",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.slf4j:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-api:slf4j-api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-api:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_api:slf4j-api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_api:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "slf4j-api"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-simple@1.7.24?package-id=b7d1d302ee329322",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-simple",
+      "version": "1.7.24",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:slf4j-simple:slf4j-simple:1.7.24:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.24",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-simple:slf4j_simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_simple:slf4j-simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_simple:slf4j_simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.slf4j:slf4j-simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.slf4j:slf4j_simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_simple:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/platforms/maven/opencv-it/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "slf4j-simple"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.opencv/opencv-it@4.10.0?package-id=e82e9ece54388203",
+      "dependsOn": [
+        "pkg:maven/junit/junit@4.8.1?package-id=d963ed344d1edff8",
+        "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0?package-id=1efb7f98dccd58ff",
+        "pkg:maven/org.apache.karaf.log/org.apache.karaf.log.core@4.0.6?package-id=efe15ee4b3e5c0c9",
+        "pkg:maven/org.opencv/opencv@4.10.0?package-id=d0e3660cd4ea57bd",
+        "pkg:maven/org.ops4j.pax.exam/pax-exam-container-karaf@4.8.0?package-id=efc1e8fcab65d2f6",
+        "pkg:maven/org.ops4j.pax.exam/pax-exam-junit4@4.8.0?package-id=4c033a1397f48e73",
+        "pkg:maven/org.ops4j.pax.logging/pax-logging-api@1.8.0?package-id=a0b6ba96a69e467d",
+        "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.6.0?package-id=58c504016a0b246c",
+        "pkg:maven/org.osgi/org.osgi.compendium@4.3.0?package-id=620a15315ac646c5",
+        "pkg:maven/org.osgi/org.osgi.core@4.3.1?package-id=9c1ee862a268cfa6",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.24?package-id=92f52f4e239a2d63",
+        "pkg:maven/org.slf4j/slf4j-simple@1.7.24?package-id=b7d1d302ee329322"
+      ]
+    }
+  ]
+}

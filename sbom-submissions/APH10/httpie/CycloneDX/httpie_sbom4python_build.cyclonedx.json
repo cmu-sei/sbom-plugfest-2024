@@ -1,0 +1,1232 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:9de3d598-7738-4f89-bd64-39a8eb85bbc4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-10T12:27:12Z",
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "name": "sbom4python",
+          "version": "0.12.0",
+          "type": "application"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "CDXRef-DOCUMENT",
+      "name": "Python-httpie"
+    }
+  },
+  "components": [
+    {
+      "type": "application",
+      "bom-ref": "1-httpie",
+      "name": "httpie",
+      "version": "3.2.3",
+      "supplier": {
+        "name": "Jakub Roztocil",
+        "contact": [
+          {
+            "email": "jakub@roztocil.co"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:jakub_roztocil:httpie:3.2.3:*:*:*:*:*:*:*",
+      "description": "HTTPie: modern, user-friendly command-line HTTP client for the API era.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c7db00b1996704fd603c3eb50f736e76129ff4ac2f0b37897165f639dc2be0a8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://httpie.io/",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/httpie/3.2.3/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/httpie/cli",
+          "type": "vcs"
+        },
+        {
+          "url": "https://twitter.com/httpie",
+          "type": "social"
+        },
+        {
+          "url": "https://httpie.io/discord",
+          "type": "social"
+        },
+        {
+          "url": "https://httpie.io/docs",
+          "type": "documentation"
+        },
+        {
+          "url": "https://httpie.io/run",
+          "type": "other"
+        }
+      ],
+      "purl": "pkg:pypi/httpie@3.2.3",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-07-10T14:16:59Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2-pip",
+      "name": "pip",
+      "version": "24.2",
+      "supplier": {
+        "name": "The pip developers",
+        "contact": [
+          {
+            "email": "distutils-sig@python.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:the_pip_developers:pip:24.2:*:*:*:*:*:*:*",
+      "description": "The PyPA recommended tool for installing Python packages.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2cd581cf58ab7fcfca4ce8efa6dcacd0de5bf8d0a3eb9ec927e07405f4d9e2a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pip.pypa.io/",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/pip/24.2/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://pip.pypa.io",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/pypa/pip",
+          "type": "vcs"
+        },
+        {
+          "url": "https://pip.pypa.io/en/stable/news/",
+          "type": "log"
+        }
+      ],
+      "purl": "pkg:pypi/pip@24.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-07-28T22:40:52Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "3-charset-normalizer",
+      "name": "charset-normalizer",
+      "version": "3.4.0",
+      "supplier": {
+        "name": "Ahmed TAHRI",
+        "contact": [
+          {
+            "email": "tahri.ahmed@proton.me"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:ahmed_tahri:charset-normalizer:3.4.0:*:*:*:*:*:*:*",
+      "description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4f9fc98dad6c2eaa32fc3af1417d95b5e3d08aff968df0cd320066def971f9a6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/Ousret/charset_normalizer",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/charset-normalizer/3.4.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/Ousret/charset_normalizer/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://charset-normalizer.readthedocs.io/en/latest",
+          "type": "documentation"
+        }
+      ],
+      "purl": "pkg:pypi/charset-normalizer@3.4.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-10-09T07:38:02Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "4-defusedxml",
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "supplier": {
+        "name": "Christian Heimes",
+        "contact": [
+          {
+            "email": "christian@python.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:christian_heimes:defusedxml:0.7.1:*:*:*:*:*:*:*",
+      "description": "XML bomb protection for Python stdlib modules",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0",
+            "url": "https://opensource.org/licenses/Python-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/tiran/defusedxml",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.python.org/pypi/defusedxml",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/defusedxml@0.7.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2021-03-08T10:59:24Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "5-requests",
+      "name": "requests",
+      "version": "2.31.0",
+      "supplier": {
+        "name": "Kenneth Reitz",
+        "contact": [
+          {
+            "email": "me@kennethreitz.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:kenneth_reitz:requests:2.31.0:*:*:*:*:*:*:*",
+      "description": "Python HTTP for Humans.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://requests.readthedocs.io",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/requests/2.31.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://requests.readthedocs.io",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/psf/requests",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-22T15:12:42Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "6-idna",
+      "name": "idna",
+      "version": "3.10",
+      "supplier": {
+        "name": "Kim Davies",
+        "contact": [
+          {
+            "email": "kim+pypi@gumleaf.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:kim_davies:idna:3.10:*:*:*:*:*:*:*",
+      "description": "Internationalized Domain Names in Applications (IDNA)",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/idna/3.10/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/kjd/idna/blob/master/HISTORY.rst",
+          "type": "log"
+        },
+        {
+          "url": "https://github.com/kjd/idna/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/kjd/idna",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/idna@3.10",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-09-15T18:07:37Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "7-urllib3",
+      "name": "urllib3",
+      "version": "2.2.3",
+      "supplier": {
+        "name": "Andrey Petrov",
+        "contact": [
+          {
+            "email": "andrey.petrov@shazow.net"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:andrey_petrov:urllib3:2.2.3:*:*:*:*:*:*:*",
+      "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/urllib3/2.2.3/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+          "type": "log"
+        },
+        {
+          "url": "https://urllib3.readthedocs.io",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/urllib3/urllib3",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/urllib3/urllib3/issues",
+          "type": "issue-tracker"
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.2.3",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-09-12T10:52:16Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8-certifi",
+      "name": "certifi",
+      "version": "2024.8.30",
+      "supplier": {
+        "name": "Kenneth Reitz",
+        "contact": [
+          {
+            "email": "me@kennethreitz.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:kenneth_reitz:certifi:2024.8.30:*:*:*:*:*:*:*",
+      "description": "Python package for providing Mozilla's CA Bundle.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0",
+            "url": "https://www.mozilla.org/MPL/2.0/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/certifi/python-certifi",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/certifi/2024.8.30/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/certifi/python-certifi",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/certifi@2024.8.30",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-08-30T01:55:02Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "9-pygments",
+      "name": "pygments",
+      "version": "2.18.0",
+      "supplier": {
+        "name": "Georg Brandl",
+        "contact": [
+          {
+            "email": "georg@python.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:georg_brandl:pygments:2.18.0:*:*:*:*:*:*:*",
+      "description": "Pygments is a syntax highlighting package written in Python.",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "https://opensource.org/licenses/BSD-2-Clause",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pygments.org",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/pygments/2.18.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://pygments.org/docs",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/pygments/pygments",
+          "type": "vcs"
+        },
+        {
+          "url": "https://github.com/pygments/pygments/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/pygments/pygments/blob/master/CHANGES",
+          "type": "log"
+        }
+      ],
+      "purl": "pkg:pypi/pygments@2.18.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-05-04T13:41:57Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "10-requests-toolbelt",
+      "name": "requests-toolbelt",
+      "version": "1.0.0",
+      "supplier": {
+        "name": "Ian Cory Benfield",
+        "contact": [
+          {
+            "email": "graffatcolmingov@gmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:ian_cory_benfield:requests-toolbelt:1.0.0:*:*:*:*:*:*:*",
+      "description": "A utility belt for advanced users of python-requests",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://toolbelt.readthedocs.io/",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/requests-toolbelt/1.0.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/requests/toolbelt/blob/master/HISTORY.rst",
+          "type": "log"
+        },
+        {
+          "url": "https://github.com/requests/toolbelt",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-01T04:11:28Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "11-multidict",
+      "name": "multidict",
+      "version": "6.1.0",
+      "supplier": {
+        "name": "Andrew Svetlov",
+        "contact": [
+          {
+            "email": "andrew.svetlov@gmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:andrew_svetlov:multidict:6.1.0:*:*:*:*:*:*:*",
+      "description": "multidict implementation",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3380252550e372e8511d49481bd836264c009adb826b23fefcc5dd3c69692f60"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/aio-libs/multidict",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/multidict/6.1.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://matrix.to/#/#aio-libs:matrix.org",
+          "type": "other"
+        },
+        {
+          "url": "https://matrix.to/#/#aio-libs-space:matrix.org",
+          "type": "other"
+        },
+        {
+          "url": "https://github.com/aio-libs/multidict/actions",
+          "type": "build-system"
+        },
+        {
+          "url": "https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+          "type": "other"
+        },
+        {
+          "url": "https://codecov.io/github/aio-libs/multidict",
+          "type": "other"
+        },
+        {
+          "url": "https://multidict.aio-libs.org/en/latest/changes/",
+          "type": "log"
+        },
+        {
+          "url": "https://multidict.aio-libs.org",
+          "type": "other"
+        },
+        {
+          "url": "https://github.com/aio-libs/multidict/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/aio-libs/multidict",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/multidict@6.1.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-09-09T23:47:18Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "12-typing-extensions",
+      "name": "typing-extensions",
+      "version": "4.12.2",
+      "supplier": {
+        "name": "Guido van Jukka ukasz Michael",
+        "contact": [
+          {
+            "email": "levkivskyi@gmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:guido_van_jukka_ukasz_michael:typing-extensions:4.12.2:*:*:*:*:*:*:*",
+      "description": "Backported and Experimental Type Hints for Python 3.8+",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/python/typing_extensions",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/typing-extensions/4.12.2/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/python/typing_extensions/issues",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+          "type": "log"
+        },
+        {
+          "url": "https://typing-extensions.readthedocs.io/",
+          "type": "documentation"
+        },
+        {
+          "url": "https://github.com/python/typing/discussions",
+          "type": "other"
+        },
+        {
+          "url": "https://github.com/python/typing_extensions",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.12.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-06-07T18:52:13Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "13-setuptools",
+      "name": "setuptools",
+      "version": "75.2.0",
+      "supplier": {
+        "name": "Python Packaging Authority",
+        "contact": [
+          {
+            "email": "distutils-sig@python.org"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:python_packaging_authority:setuptools:75.2.0:*:*:*:*:*:*:*",
+      "description": "Easily download, build, install, upgrade, and uninstall Python packages",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a7fcb66f68b4d9e8e66b42f9876150a3371558f98fa32222ffaa5bced76406f8"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/setuptools/75.2.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/pypa/setuptools",
+          "type": "vcs"
+        },
+        {
+          "url": "https://setuptools.pypa.io/",
+          "type": "documentation"
+        },
+        {
+          "url": "https://setuptools.pypa.io/en/stable/history.html",
+          "type": "log"
+        }
+      ],
+      "purl": "pkg:pypi/setuptools@75.2.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-10-16T10:21:53Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "14-rich",
+      "name": "rich",
+      "version": "13.9.4",
+      "supplier": {
+        "name": "Will McGugan",
+        "contact": [
+          {
+            "email": "willmcgugan@gmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:will_mcgugan:rich:13.9.4:*:*:*:*:*:*:*",
+      "description": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6049d5e6ec054bf2779ab3358186963bac2ea89175919d699e378b99738c2a90"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/Textualize/rich",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/rich/13.9.4/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://rich.readthedocs.io/en/latest/",
+          "type": "documentation"
+        }
+      ],
+      "purl": "pkg:pypi/rich@13.9.4",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-11-01T16:43:55Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "15-markdown-it-py",
+      "name": "markdown-it-py",
+      "version": "3.0.0",
+      "supplier": {
+        "name": "Chris Sewell",
+        "contact": [
+          {
+            "email": "chrisj_sewell@hotmail.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:chris_sewell:markdown-it-py:3.0.0:*:*:*:*:*:*:*",
+      "description": "Python port of markdown-it. Markdown parsing, done right!",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/executablebooks/markdown-it-py",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/markdown-it-py/3.0.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://markdown-it-py.readthedocs.io",
+          "type": "documentation"
+        }
+      ],
+      "purl": "pkg:pypi/markdown-it-py@3.0.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-06-03T06:41:11Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "16-mdurl",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "supplier": {
+        "name": "Taneli Hukkinen",
+        "contact": [
+          {
+            "email": "hukkin@users.noreply.github.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:taneli_hukkinen:mdurl:0.1.2:*:*:*:*:*:*:*",
+      "description": "Markdown URL utilities",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/executablebooks/mdurl",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/mdurl/0.1.2/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-08-14T12:40:09Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "17-importlib-metadata",
+      "name": "importlib-metadata",
+      "version": "8.0.0",
+      "supplier": {
+        "name": "Jason R .",
+        "contact": [
+          {
+            "email": "jaraco@jaraco.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:jason_r.:importlib-metadata:8.0.0:*:*:*:*:*:*:*",
+      "description": "Read metadata from Python packages",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "15584cf2b1bf449d98ff8a6ff1abef57bf20f3ac6454f431736cd3e660921b2f"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://pypi.org/project/importlib-metadata/8.0.0/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        },
+        {
+          "url": "https://github.com/python/importlib_metadata",
+          "type": "vcs"
+        }
+      ],
+      "purl": "pkg:pypi/importlib-metadata@8.0.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-06-25T18:38:02Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "18-zipp",
+      "name": "zipp",
+      "version": "3.19.2",
+      "supplier": {
+        "name": "Jason R .",
+        "contact": [
+          {
+            "email": "jaraco@jaraco.com"
+          }
+        ]
+      },
+      "cpe": "cpe:2.3:a:jason_r.:zipp:3.19.2:*:*:*:*:*:*:*",
+      "description": "Backport of pathlib-compatible object wrapper for zip files",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/jaraco/zipp",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://pypi.org/project/zipp/3.19.2/#files",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "purl": "pkg:pypi/zipp@3.19.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-06-04T17:21:07Z"
+        },
+        {
+          "name": "language",
+          "value": "Python"
+        },
+        {
+          "name": "python_version",
+          "value": "3.10.8"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CDXRef-DOCUMENT",
+      "dependsOn": [
+        "1-httpie"
+      ]
+    },
+    {
+      "ref": "1-httpie",
+      "dependsOn": [
+        "2-pip",
+        "3-charset-normalizer",
+        "4-defusedxml",
+        "5-requests",
+        "9-pygments",
+        "10-requests-toolbelt",
+        "11-multidict",
+        "13-setuptools",
+        "14-rich",
+        "17-importlib-metadata"
+      ]
+    },
+    {
+      "ref": "5-requests",
+      "dependsOn": [
+        "3-charset-normalizer",
+        "6-idna",
+        "7-urllib3",
+        "8-certifi"
+      ]
+    },
+    {
+      "ref": "10-requests-toolbelt",
+      "dependsOn": [
+        "5-requests"
+      ]
+    },
+    {
+      "ref": "11-multidict",
+      "dependsOn": [
+        "12-typing-extensions"
+      ]
+    },
+    {
+      "ref": "14-rich",
+      "dependsOn": [
+        "15-markdown-it-py",
+        "9-pygments",
+        "12-typing-extensions"
+      ]
+    },
+    {
+      "ref": "15-markdown-it-py",
+      "dependsOn": [
+        "16-mdurl"
+      ]
+    },
+    {
+      "ref": "17-importlib-metadata",
+      "dependsOn": [
+        "18-zipp",
+        "12-typing-extensions"
+      ]
+    }
+  ]
+}

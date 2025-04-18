@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.6" serialNumber="urn:uuid:dc916de7-9888-4470-bf8b-cd8322716adf" version="1">
+  <metadata>
+    <timestamp>2024-12-13T14:08:41+01:00</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <author>anchore</author>
+          <name>syft</name>
+          <version>1.18.0</version>
+        </component>
+      </components>
+    </tools>
+    <component bom-ref="411424c9c507bbea" type="file">
+      <name>/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer</name>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="c26054d4b7e854f0" type="library">
+      <name>./.github/actions/build-docs</name>
+      <version>UNKNOWN</version>
+      <cpe>cpe:2.3:a:.\/.github\/actions\/build-docs:.\/.github\/actions\/build-docs:*:*:*:*:*:*:*:*</cpe>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:.\/.github\/actions\/build-docs:.\/.github\/actions\/build_docs:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.\/.github\/actions\/build_docs:.\/.github\/actions\/build-docs:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.\/.github\/actions\/build_docs:.\/.github\/actions\/build_docs:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.\/.github\/actions\/build:.\/.github\/actions\/build-docs:*:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.\/.github\/actions\/build:.\/.github\/actions\/build_docs:*:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/docs.yaml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/jamesives/github-pages-deploy-action@v4?package-id=45c0077e33141f05" type="library">
+      <name>JamesIves/github-pages-deploy-action</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:JamesIves\/github-pages-deploy-action:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/JamesIves/github-pages-deploy-action@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github-pages-deploy-action:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github_pages_deploy_action:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github_pages_deploy_action:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github-pages-deploy:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github-pages-deploy:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github_pages_deploy:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github_pages_deploy:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github-pages:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github-pages:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github_pages:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github_pages:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github:JamesIves\/github-pages-deploy-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:JamesIves\/github:JamesIves\/github_pages_deploy_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/docs.yaml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/checkout@v4?package-id=705ea9b69ead1558" type="library">
+      <name>actions/checkout</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/docs.yaml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/checkout@v4?package-id=5493bd6efc76cbbe" type="library">
+      <name>actions/checkout</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/scorecards.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/checkout@v4?package-id=4f4485f6d74e6554" type="library">
+      <name>actions/checkout</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/checkout@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:location:0:path">/.github/workflows/tests.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/actions/upload-artifact@v4?package-id=be3b97621113ab85" type="library">
+      <name>actions/upload-artifact</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:actions\/upload-artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/actions/upload-artifact@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/upload-artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/upload_artifact:actions\/upload-artifact:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/upload_artifact:actions\/upload_artifact:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/upload:actions\/upload-artifact:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:actions\/upload:actions\/upload_artifact:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/scorecards.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/codecov/codecov-action@v4?package-id=5db608ca9a23b462" type="library">
+      <name>codecov/codecov-action</name>
+      <version>v4</version>
+      <cpe>cpe:2.3:a:codecov\/codecov-action:codecov\/codecov-action:v4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/codecov/codecov-action@v4</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov-action:codecov\/codecov_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov_action:codecov\/codecov-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov_action:codecov\/codecov_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov:codecov\/codecov-action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:codecov\/codecov:codecov\/codecov_action:v4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/tests.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/github/codeql-action@v3?package-id=a85f0478b29db794#upload-sarif" type="library">
+      <name>github/codeql-action/upload-sarif</name>
+      <version>v3</version>
+      <cpe>cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/github/codeql-action@v3#upload-sarif</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql-action\/upload-sarif:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/upload_sarif:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql-action\/upload:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql-action\/upload:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/upload:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql_action\/upload:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql:github\/codeql-action\/upload-sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:github\/codeql:github\/codeql_action\/upload_sarif:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/scorecards.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/nick-invision/retry@v3?package-id=a258e6887ed02256" type="library">
+      <name>nick-invision/retry</name>
+      <version>v3</version>
+      <cpe>cpe:2.3:a:nick-invision\/retry:nick-invision\/retry:v3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/nick-invision/retry@v3</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:nick-invision\/retry:nick_invision\/retry:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nick_invision\/retry:nick-invision\/retry:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nick_invision\/retry:nick_invision\/retry:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nick:nick-invision\/retry:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nick:nick_invision\/retry:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/tests.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46?package-id=95511f797863387a" type="library">
+      <name>ossf/scorecard-action</name>
+      <version>62b2cac7ed8198b15735ed49ab1e5cf35480ba46</version>
+      <cpe>cpe:2.3:a:ossf\/scorecard-action:ossf\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:ossf\/scorecard-action:ossf\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ossf\/scorecard_action:ossf\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ossf\/scorecard_action:ossf\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ossf\/scorecard:ossf\/scorecard-action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ossf\/scorecard:ossf\/scorecard_action:62b2cac7ed8198b15735ed49ab1e5cf35480ba46:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/scorecards.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/ramsey/composer-install@v3?package-id=f14ca7c10e73cb8a" type="library">
+      <name>ramsey/composer-install</name>
+      <version>v3</version>
+      <cpe>cpe:2.3:a:ramsey\/composer-install:ramsey\/composer-install:v3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/ramsey/composer-install@v3</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:ramsey\/composer-install:ramsey\/composer_install:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ramsey\/composer_install:ramsey\/composer-install:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ramsey\/composer_install:ramsey\/composer_install:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ramsey\/composer:ramsey\/composer-install:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ramsey\/composer:ramsey\/composer_install:v3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/tests.yml</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:github/shivammathur/setup-php@v2?package-id=da750fa0a7c52d2f" type="library">
+      <name>shivammathur/setup-php</name>
+      <version>v2</version>
+      <cpe>cpe:2.3:a:shivammathur\/setup-php:shivammathur\/setup-php:v2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:github/shivammathur/setup-php@v2</purl>
+      <properties>
+        <property name="syft:package:foundBy">github-actions-usage-cataloger</property>
+        <property name="syft:package:type">github-action</property>
+        <property name="syft:cpe23">cpe:2.3:a:shivammathur\/setup-php:shivammathur\/setup_php:v2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:shivammathur\/setup_php:shivammathur\/setup-php:v2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:shivammathur\/setup_php:shivammathur\/setup_php:v2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:shivammathur\/setup:shivammathur\/setup-php:v2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:shivammathur\/setup:shivammathur\/setup_php:v2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">/.github/workflows/tests.yml</property>
+      </properties>
+    </component>
+  </components>
+</bom>

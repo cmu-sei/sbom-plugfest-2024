@@ -1,0 +1,959 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "comment": "This document has been automatically generated.",
+    "creators": [
+      "Tool: sbom4python-0.12.0"
+    ],
+    "created": "2024-12-10T12:27:35Z",
+    "licenseListVersion": "3.25"
+  },
+  "name": "Python-httpie",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/Python-httpie-bba36b20-4f75-4dd9-a8be-de21a4851fe7",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-1-httpie",
+      "name": "httpie",
+      "versionInfo": "3.2.3",
+      "primaryPackagePurpose": "APPLICATION",
+      "supplier": "Person: Jakub Roztocil (jakub@roztocil.co)",
+      "downloadLocation": "https://pypi.org/project/httpie/3.2.3/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://httpie.io/",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7db00b1996704fd603c3eb50f736e76129ff4ac2f0b37897165f639dc2be0a8"
+        }
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "httpie declares BSD which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "HTTPie: modern, user-friendly command-line HTTP client for the API era.",
+      "releaseDate": "2024-07-10T14:16:59Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/httpie/cli"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "social",
+          "referenceLocator": "https://twitter.com/httpie"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "social",
+          "referenceLocator": "https://httpie.io/discord"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://httpie.io/docs"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://httpie.io/run"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/httpie@3.2.3"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:jakub_roztocil:httpie:3.2.3:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2-pip",
+      "name": "pip",
+      "versionInfo": "24.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The pip developers (distutils-sig@python.org)",
+      "downloadLocation": "https://pypi.org/project/pip/24.2/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://pip.pypa.io/",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2cd581cf58ab7fcfca4ce8efa6dcacd0de5bf8d0a3eb9ec927e07405f4d9e2a2"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "The PyPA recommended tool for installing Python packages.",
+      "releaseDate": "2024-07-28T22:40:52Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://pip.pypa.io"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/pypa/pip"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://pip.pypa.io/en/stable/news/"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pip@24.2"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:the_pip_developers:pip:24.2:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-3-charset-normalizer",
+      "name": "charset-normalizer",
+      "versionInfo": "3.4.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Ahmed TAHRI (tahri.ahmed@proton.me)",
+      "downloadLocation": "https://pypi.org/project/charset-normalizer/3.4.0/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/Ousret/charset_normalizer",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f9fc98dad6c2eaa32fc3af1417d95b5e3d08aff968df0cd320066def971f9a6"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+      "releaseDate": "2024-10-09T07:38:02Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "issue-tracker",
+          "referenceLocator": "https://github.com/Ousret/charset_normalizer/issues"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://charset-normalizer.readthedocs.io/en/latest"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.4.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:ahmed_tahri:charset-normalizer:3.4.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-4-defusedxml",
+      "name": "defusedxml",
+      "versionInfo": "0.7.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Christian Heimes (christian@python.org)",
+      "downloadLocation": "https://pypi.python.org/pypi/defusedxml",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/tiran/defusedxml",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"
+        }
+      ],
+      "licenseConcluded": "PSF-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "defusedxml declares PSFL which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "XML bomb protection for Python stdlib modules",
+      "releaseDate": "2021-03-08T10:59:24Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/defusedxml@0.7.1"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:christian_heimes:defusedxml:0.7.1:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-5-requests",
+      "name": "requests",
+      "versionInfo": "2.31.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Kenneth Reitz (me@kennethreitz.org)",
+      "downloadLocation": "https://pypi.org/project/requests/2.31.0/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://requests.readthedocs.io",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "requests declares Apache 2.0 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Python HTTP for Humans.",
+      "releaseDate": "2023-05-22T15:12:42Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://requests.readthedocs.io"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/psf/requests"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests@2.31.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:kenneth_reitz:requests:2.31.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-6-idna",
+      "name": "idna",
+      "versionInfo": "3.10",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Kim Davies (kim+pypi@gumleaf.org)",
+      "downloadLocation": "https://pypi.org/project/idna/3.10/#files",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Internationalized Domain Names in Applications (IDNA)",
+      "releaseDate": "2024-09-15T18:07:37Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://github.com/kjd/idna/blob/master/HISTORY.rst"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "issue-tracker",
+          "referenceLocator": "https://github.com/kjd/idna/issues"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/kjd/idna"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/idna@3.10"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:kim_davies:idna:3.10:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-7-urllib3",
+      "name": "urllib3",
+      "versionInfo": "2.2.3",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Andrey Petrov (andrey.petrov@shazow.net)",
+      "downloadLocation": "https://pypi.org/project/urllib3/2.2.3/#files",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "HTTP library with thread-safe connection pooling, file post, and more.",
+      "releaseDate": "2024-09-12T10:52:16Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://urllib3.readthedocs.io"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/urllib3/urllib3"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "issue-tracker",
+          "referenceLocator": "https://github.com/urllib3/urllib3/issues"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/urllib3@2.2.3"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:andrey_petrov:urllib3:2.2.3:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-8-certifi",
+      "name": "certifi",
+      "versionInfo": "2024.8.30",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Kenneth Reitz (me@kennethreitz.com)",
+      "downloadLocation": "https://pypi.org/project/certifi/2024.8.30/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/certifi/python-certifi",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"
+        }
+      ],
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "MPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Python package for providing Mozilla's CA Bundle.",
+      "releaseDate": "2024-08-30T01:55:02Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/certifi/python-certifi"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/certifi@2024.8.30"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:kenneth_reitz:certifi:2024.8.30:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-9-pygments",
+      "name": "pygments",
+      "versionInfo": "2.18.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Georg Brandl (georg@python.org)",
+      "downloadLocation": "https://pypi.org/project/pygments/2.18.0/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://pygments.org",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a"
+        }
+      ],
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "copyrightText": "NOASSERTION",
+      "summary": "Pygments is a syntax highlighting package written in Python.",
+      "releaseDate": "2024-05-04T13:41:57Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://pygments.org/docs"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/pygments/pygments"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "issue-tracker",
+          "referenceLocator": "https://github.com/pygments/pygments/issues"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://github.com/pygments/pygments/blob/master/CHANGES"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pygments@2.18.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:georg_brandl:pygments:2.18.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-10-requests-toolbelt",
+      "name": "requests-toolbelt",
+      "versionInfo": "1.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: Ian Cory Benfield (graffatcolmingov@gmail.com)",
+      "downloadLocation": "https://pypi.org/project/requests-toolbelt/1.0.0/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://toolbelt.readthedocs.io/",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "requests-toolbelt declares Apache 2.0 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "A utility belt for advanced users of python-requests",
+      "releaseDate": "2023-05-01T04:11:28Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://github.com/requests/toolbelt/blob/master/HISTORY.rst"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/requests/toolbelt"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests-toolbelt@1.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:ian_cory_benfield:requests-toolbelt:1.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-11-multidict",
+      "name": "multidict",
+      "versionInfo": "6.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Andrew Svetlov (andrew.svetlov@gmail.com)",
+      "downloadLocation": "https://pypi.org/project/multidict/6.1.0/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/aio-libs/multidict",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3380252550e372e8511d49481bd836264c009adb826b23fefcc5dd3c69692f60"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "multidict declares Apache 2 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "multidict implementation",
+      "releaseDate": "2024-09-09T23:47:18Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://matrix.to/#/#aio-libs:matrix.org"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://matrix.to/#/#aio-libs-space:matrix.org"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "build-system",
+          "referenceLocator": "https://github.com/aio-libs/multidict/actions"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://codecov.io/github/aio-libs/multidict"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://multidict.aio-libs.org/en/latest/changes/"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://multidict.aio-libs.org"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "issue-tracker",
+          "referenceLocator": "https://github.com/aio-libs/multidict/issues"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/aio-libs/multidict"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/multidict@6.1.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:andrew_svetlov:multidict:6.1.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-12-typing-extensions",
+      "name": "typing-extensions",
+      "versionInfo": "4.12.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: Guido van Jukka ukasz Michael (levkivskyi@gmail.com)",
+      "downloadLocation": "https://pypi.org/project/typing-extensions/4.12.2/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/python/typing_extensions",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Backported and Experimental Type Hints for Python 3.8+",
+      "releaseDate": "2024-06-07T18:52:13Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "issue-tracker",
+          "referenceLocator": "https://github.com/python/typing_extensions/issues"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://github.com/python/typing_extensions/blob/main/CHANGELOG.md"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://typing-extensions.readthedocs.io/"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "other",
+          "referenceLocator": "https://github.com/python/typing/discussions"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/python/typing_extensions"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/typing-extensions@4.12.2"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:guido_van_jukka_ukasz_michael:typing-extensions:4.12.2:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-13-setuptools",
+      "name": "setuptools",
+      "versionInfo": "75.2.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: Python Packaging Authority (distutils-sig@python.org)",
+      "downloadLocation": "https://pypi.org/project/setuptools/75.2.0/#files",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7fcb66f68b4d9e8e66b42f9876150a3371558f98fa32222ffaa5bced76406f8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
+      "releaseDate": "2024-10-16T10:21:53Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/pypa/setuptools"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://setuptools.pypa.io/"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "log",
+          "referenceLocator": "https://setuptools.pypa.io/en/stable/history.html"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/setuptools@75.2.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python_packaging_authority:setuptools:75.2.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-14-rich",
+      "name": "rich",
+      "versionInfo": "13.9.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Will McGugan (willmcgugan@gmail.com)",
+      "downloadLocation": "https://pypi.org/project/rich/13.9.4/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/Textualize/rich",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6049d5e6ec054bf2779ab3358186963bac2ea89175919d699e378b99738c2a90"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+      "releaseDate": "2024-11-01T16:43:55Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://rich.readthedocs.io/en/latest/"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/rich@13.9.4"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:will_mcgugan:rich:13.9.4:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-15-markdown-it-py",
+      "name": "markdown-it-py",
+      "versionInfo": "3.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Chris Sewell (chrisj_sewell@hotmail.com)",
+      "downloadLocation": "https://pypi.org/project/markdown-it-py/3.0.0/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/executablebooks/markdown-it-py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Python port of markdown-it. Markdown parsing, done right!",
+      "releaseDate": "2023-06-03T06:41:11Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "documentation",
+          "referenceLocator": "https://markdown-it-py.readthedocs.io"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markdown-it-py@3.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:chris_sewell:markdown-it-py:3.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-16-mdurl",
+      "name": "mdurl",
+      "versionInfo": "0.1.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Taneli Hukkinen (hukkin@users.noreply.github.com)",
+      "downloadLocation": "https://pypi.org/project/mdurl/0.1.2/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/executablebooks/mdurl",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Markdown URL utilities",
+      "releaseDate": "2022-08-14T12:40:09Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/mdurl@0.1.2"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:taneli_hukkinen:mdurl:0.1.2:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-17-importlib-metadata",
+      "name": "importlib-metadata",
+      "versionInfo": "8.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: Jason R. (jaraco@jaraco.com)",
+      "downloadLocation": "https://pypi.org/project/importlib-metadata/8.0.0/#files",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "15584cf2b1bf449d98ff8a6ff1abef57bf20f3ac6454f431736cd3e660921b2f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Read metadata from Python packages",
+      "releaseDate": "2024-06-25T18:38:02Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "vcs",
+          "referenceLocator": "https://github.com/python/importlib_metadata"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-metadata@8.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:jason_r.:importlib-metadata:8.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-18-zipp",
+      "name": "zipp",
+      "versionInfo": "3.19.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: Jason R. (jaraco@jaraco.com)",
+      "downloadLocation": "https://pypi.org/project/zipp/3.19.2/#files",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/jaraco/zipp",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "summary": "Backport of pathlib-compatible object wrapper for zip files",
+      "releaseDate": "2024-06-04T17:21:07Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/zipp@3.19.2"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:jason_r.:zipp:3.19.2:*:*:*:*:*:*:*"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-10-requests-toolbelt",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-11-multidict",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-13-setuptools",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-14-rich",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-17-importlib-metadata",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-2-pip",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-3-charset-normalizer",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-4-defusedxml",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-5-requests",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-1-httpie",
+      "relatedSpdxElement": "SPDXRef-9-pygments",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-10-requests-toolbelt",
+      "relatedSpdxElement": "SPDXRef-5-requests",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-11-multidict",
+      "relatedSpdxElement": "SPDXRef-12-typing-extensions",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-14-rich",
+      "relatedSpdxElement": "SPDXRef-12-typing-extensions",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-14-rich",
+      "relatedSpdxElement": "SPDXRef-15-markdown-it-py",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-14-rich",
+      "relatedSpdxElement": "SPDXRef-9-pygments",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-15-markdown-it-py",
+      "relatedSpdxElement": "SPDXRef-16-mdurl",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-17-importlib-metadata",
+      "relatedSpdxElement": "SPDXRef-12-typing-extensions",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-17-importlib-metadata",
+      "relatedSpdxElement": "SPDXRef-18-zipp",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-5-requests",
+      "relatedSpdxElement": "SPDXRef-3-charset-normalizer",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-5-requests",
+      "relatedSpdxElement": "SPDXRef-6-idna",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-5-requests",
+      "relatedSpdxElement": "SPDXRef-7-urllib3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-5-requests",
+      "relatedSpdxElement": "SPDXRef-8-certifi",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-1-httpie",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

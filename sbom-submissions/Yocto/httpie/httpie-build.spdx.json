@@ -1,0 +1,2945 @@
+{
+  "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph": [
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo0",
+      "created": "2024-11-22T21:52:44Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo1",
+      "created": "2024-07-10T14:24:03Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-22T21:52:08Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo3",
+      "created": "2024-07-10T14:24:03Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo4",
+      "created": "2024-07-10T14:24:03Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo5",
+      "created": "2024-11-22T21:52:08Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo6",
+      "created": "2024-07-10T14:24:03Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-22T21:52:08Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo8",
+      "created": "2024-07-10T14:24:03Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo9",
+      "created": "2024-11-22T21:52:08Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo10",
+      "created": "2024-07-10T14:24:03Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo11",
+      "created": "2024-11-22T21:52:08Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/419bc1f921f86a5607e621c4063a4dc7",
+      "creationInfo": "_:CreationInfo0",
+      "build_buildStartTime": "2024-11-22T21:52:44Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/6ae8ad2898ee0494c2e824cfd0b6dbc2",
+      "creationInfo": "_:CreationInfo5",
+      "build_buildStartTime": "2024-11-22T21:52:08Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "Person",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt",
+      "creationInfo": "_:CreationInfo9",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "email",
+          "identifier": "JPEWhacker@gmail.com"
+        }
+      ],
+      "name": "Joshua Watt"
+    },
+    {
+      "type": "Organization",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded",
+      "creationInfo": "_:CreationInfo11",
+      "name": "OpenEmbedded"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/2cb1ab29d2b76f32bf363dc3c78dc17c",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/419bc1f921f86a5607e621c4063a4dc7",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/2cf8113a2bd12c43c7911593cb550f5d",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/6ae8ad2898ee0494c2e824cfd0b6dbc2",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Tool",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0",
+      "creationInfo": "_:CreationInfo11",
+      "name": "oe-spdx-creator 1.0"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/49b92a52a61f54894bcd35cdc9efaed327f1627c2111b0d8b9577d43970c09ee/relationship/5d463ea67c78947beb461232276a2ff7",
+      "creationInfo": "_:CreationInfo10",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-rich/UNIHASH/package/python3-rich",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-charset-normalizer/UNIHASH/package/python3-charset-normalizer",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-defusedxml/UNIHASH/package/python3-defusedxml",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-pygments/UNIHASH/package/python3-pygments",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-multidict/UNIHASH/package/python3-multidict",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-requests-toolbelt/UNIHASH/package/python3-requests-toolbelt",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-requests/UNIHASH/package/python3-requests",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3/UNIHASH/package/python3-core",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-importlib-metadata/UNIHASH/package/python3-importlib-metadata"
+      ],
+      "scope": "runtime"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "creationInfo": "_:CreationInfo3",
+      "name": "httpie:do_create_spdx:recipe",
+      "build_buildType": "http://openembedded.org/bitbake/do_create_spdx/recipe"
+    },
+    {
+      "type": "simplelicensing_LicenseExpression",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/license/3_24_0/BSD-3-Clause",
+      "creationInfo": "_:CreationInfo3",
+      "simplelicensing_licenseExpression": "BSD-3-Clause",
+      "simplelicensing_licenseListVersion": "3.24.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie",
+      "creationInfo": "_:CreationInfo10",
+      "description": "HTTPie CLI: human-friendly HTTP client for the API era",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:httpie:3.2.4:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "httpie",
+      "summary": "httpie version 3.2.4-r0",
+      "builtTime": "2024-11-22T21:52:14Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/httpie/cli",
+      "software_packageVersion": "3.2.4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-dbg",
+      "creationInfo": "_:CreationInfo6",
+      "description": "HTTPie CLI: human-friendly HTTP client for the API era  This package contains ELF symbols and related sources for debugging purposes.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:httpie:3.2.4:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "httpie-dbg",
+      "summary": "httpie version 3.2.4-r0 - Debugging files",
+      "builtTime": "2024-11-22T21:52:14Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/httpie/cli",
+      "software_packageVersion": "3.2.4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-dev",
+      "creationInfo": "_:CreationInfo4",
+      "description": "HTTPie CLI: human-friendly HTTP client for the API era  This package contains symbolic links, header files, and related items necessary for software development.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:httpie:3.2.4:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "httpie-dev",
+      "summary": "httpie version 3.2.4-r0 - Development files",
+      "builtTime": "2024-11-22T21:52:14Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/httpie/cli",
+      "software_packageVersion": "3.2.4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc",
+      "creationInfo": "_:CreationInfo8",
+      "description": "HTTPie CLI: human-friendly HTTP client for the API era  This package contains documentation.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:httpie:3.2.4:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "httpie-doc",
+      "summary": "httpie version 3.2.4-r0 - Documentation files",
+      "builtTime": "2024-11-22T21:52:14Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/httpie/cli",
+      "software_packageVersion": "3.2.4"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc/file/1",
+      "creationInfo": "_:CreationInfo8",
+      "name": "usr/share/man/man1/httpie.1",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "da291a6028f9d29f7fe8579ef1fd9b57d81ae7849d434126709ba9cfd8e6daa8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc/file/2",
+      "creationInfo": "_:CreationInfo8",
+      "name": "usr/share/man/man1/http.1",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0250ca177dd763f306c372d98e1a2375f5fe014c6abc32aba47c7bc9ffe476b1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc/file/3",
+      "creationInfo": "_:CreationInfo8",
+      "name": "usr/share/man/man1/https.1",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "208f08d615baeb7ce48963af863c4262780d7ff1812a6490220b05d4f539ea7f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/1",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/bin/https",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8565bcdcdc4cd5f81fc0584cb9f52ad27b0680b0f03de42f002cfaa716a4bd62"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/10",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/status.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2eb94601f0572767d8684894b76f7d14eabc4fd12217cb3a6317831b04dc9b7c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/100",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/utils.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a1daa1deb43bceeb0910cccc854d74ee02196075844eaed1293d5b49939637c7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/101",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/context.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5c5838dea22dc283e065d0891cdab4ec1599f3ab2b3ca439963970a4cb92f27f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/102",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/config.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "808c84bf86770859c9bd626082f923f58e5aac03519bf7036d416e01a51d39a3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/103",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/models.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3d34d1b22f90dda344f06750a516bea9a1932e6ef7164791a80a0de91ca1ba7a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/104",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/client.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "335896c341f8c40ffa1bf91f6e52c933c7c84c4b68ac80cf5c536f1d00c46799"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/105",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/encoding.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d3380534c0f7b3d58b47195ac9750b9130d2219d4f2389497554551255e08caa"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/106",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/compat.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fb2a3cd76e50a5b639536d9bdbe2fe25d1ec58852551045f2eb14a65817b44da"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/107",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/sessions.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3357cfa66b29a1322b50499b634f5c30dafd4a32030438e0eceb84eaf4cdbc9e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/108",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/processing.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0a37a9939fd6c57c5a203cf0e4b1e71e4ebc51a30b23035a2bc51cb98923b633"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/109",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/models.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a6c820e42e2267c78b32d1f2df1bd55b09b03907f836f1ba95e3e23a0690f9f7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/11",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ecc11e94b4244fb901a7f75ab9c68b994d57666191ddebec46a0240449fd413c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/110",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/111",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/writer.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "75840f43178bbc7713080d56d32986a8ca69042b5102fe32dc3662f93197b10a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/112",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/streams.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "11e5101d4b5375083d3c08ce52edf34cddf7d8d0e9b0b1a0c4a2b68ca2ea016d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/113",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/utils.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8fd795b95b0d5f20b871159b9617adeee262d350635d0064c007f1f0ea459582"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/114",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/rich_help.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c8a6ae33b37af9c20eaf375e1206386dd91b27b9045c4137f9b5520aee6899c9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/115",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/rich_progress.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c3300dba8ec48b8b16b8809122987239a4ab685133c0d2fe630c82d2eb51b35b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/116",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/palette.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d5ac0de24cfc4525aeed4337fc269e52f071371025bdc8bfa2ba43e97f455a2f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/117",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/man_pages.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a0bc7bf83c06741e7b0f56f2eae629f59ebfe0c9444461bd8b2ab664aa3f02d5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/118",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/119",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/rich_utils.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7f0426d4794426c121b4b6a35fbc5a2e26d5924f2324e1ae6764f2dbbc7c71ed"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/12",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/uploads.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dc7c2345f466036f04330bd7cebf1e26e837d2142324c528e0709ff2b9bebdb5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/120",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/rich_palette.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fca19d3c7b9c2a35ae5220a471a7c73cddde71955b6d493eb232d2b54c0831b0"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/121",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/rich_help.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f906ac601a79d4521ea265178bf0acb5049c85b1ef9b5f56b2d2e2d7d5428e60"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/122",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dd2c785508372733dd05080d11de8fc430fbc98cea67789b4520b9c71f9bb54f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/123",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/rich_palette.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "08f10ad32d7542ea53ffef9a67a4e5f790d8c780b08ccdbbc8b9f06bc4d76f91"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/124",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/man_pages.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d1cb0cfcd7c5a37ba0d46c83568b5d50031766ac254d5d4eb2fadf6930ac4a57"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/125",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/rich_progress.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3dd0ba7485c793307e3c5233a8f7ea5dbe9b55bc1241b5bc8847ee56009c1561"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/126",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/palette.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b3ce3b518d2c13972fc1f5e9cec7e6bd32c8ca9b0513c2175c3d13e25e1049b8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/127",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/ui/__pycache__/rich_utils.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "907c016cc4739c53bfe5f3d44d2fe4c37d2fcc251891fede6153515ca7f0c1f5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/128",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/metadata.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "50ee6c1d6dce92fba078e5d335d12c74243842a9872baaf8c51007774c7f44ce"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/129",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/http.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6a87a0e36044e4a6b30d880df8c10595ab428fe9d312b2068a74922383325ccf"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/13",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/context.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e4d2d6d7397158b44341570e27f693bb6e4a4ce57e245af4aef289b9d3957723"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/130",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/json.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5013f5d0169cfb6d9983b17b138599d71194689c59c84e90eeed9adf4418e0fe"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/131",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/common.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "44e7516ca9f38a3267f64061de21ff240aba465f1eabda41a2e66d708cf3dbd9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/132",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/133",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/__pycache__/common.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9c7debaec5915c514822c5a9b312682f41b44c79238798c280f237bb1423b019"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/134",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/__pycache__/http.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "25dae6510385bc36b1065dd9d4e0e59783e1c306a67832c81d093b4e91a2966b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/135",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/__pycache__/metadata.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "04e33ddae4f5453580c382e502b3e2fa1ce15ff5eedcbd50aec3eaaa102f1568"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/136",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "317ab0ba1bb2731af0458bf30d4292502f25a02ab56047ec769411036f75c9d7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/137",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/lexers/__pycache__/json.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "40ecd8a8040d5d42855d00e8cc5a1aad38e58ea4309330c0b5bb7f4b4a734db4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/138",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/colors.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "818b82191db085acab172220755c19abecf8135432350407a2b9c18f7d49e13e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/139",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/json.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c3237e34043c69e6294df31d8aa6ff7fd995db151277d345a1d66d2f63b4b4b1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/14",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/core.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "12a78934cd277bdba722574319048213d417c9bc549145ca8bd851c123444d5b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/140",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/xml.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8a592bf6057861239a9bfeff4540f18f4562f69b1c2bca2d0112e7f471cbe2f9"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/141",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/headers.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "81d459ccce2a9c7484dcf677ec841c7e317e1be24236b395d92b54092b377d3e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/142",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/143",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/__pycache__/xml.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "913651c9969b67475b86471f658a14fede1482d4f2df9db7fc19f413f9c62b35"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/144",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/__pycache__/headers.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "744d576be3cc01c7bc379b0d0dbe5c9ad6fcff7787004a75a80fdcf23bffa40d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/145",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "35a206efb279bde86e112899cb377f514e73637effd1237435b217e138d01227"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/146",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/__pycache__/json.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2d825f35ecd43ecd599c557af30a334ceca85e7f0df97ca43cc811be7bf6f8ee"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/147",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/formatters/__pycache__/colors.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e812df87fcec43edda0ca9c8cbf99c5e82df9b5b40cf24bc072f77f27e94c075"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/148",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__pycache__/processing.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2e1ce3e920e22cfd84ca37f203705132c7f22cbd083292cdd17cd71310ed78e6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/149",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__pycache__/streams.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4996a1f4d2e670004064eb02a235a60d1f3b90b662149d2eed6a4a96f183d536"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/15",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cookies.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5fa5db64c1ac41bd6c8b8e1e365887f9e8de4499cc4145bee05b4690987e69ac"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/150",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "813413aa36ffa4377d53b252bee621736b564de0e002f4b15941358d904f6bea"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/151",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__pycache__/utils.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7716f8fc0b033e8a57f2264b7280b71878c56e3119f07b2ecd751a6804a1bb45"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/152",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__pycache__/models.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "731cb9205e4546aa4927293788c47ea578a1ecc3c6146253f6deeed797b494ab"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/153",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/output/__pycache__/writer.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c141eb8249c17aaa164e0f43b21182ca03836e394bb6f3c40879f5f88210af6a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/154",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/legacy/v3_2_0_session_header_format.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ed69c30520fece2918438bccd0f53c001fd5cf4d5c7671da2680103337167641"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/155",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/legacy/v3_1_0_session_cookie_format.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3012da301c10e6f25ccfba6566d82b7b6a8beff35923ba012db86d457cc36e47"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/156",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/legacy/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/157",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/legacy/__pycache__/v3_1_0_session_cookie_format.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "661c841b9e6df4c8f21c6ab14d718f71ef7e684ac43385b8619d639aa3195072"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/158",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/legacy/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "30e13461fb751ccb6acb4f4e28a04becf4c9eb096679a3eb8166e9e0edf2908e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/159",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/legacy/__pycache__/v3_2_0_session_header_format.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d03ff78aeb11f6cd24716051cba32d5ded80224581a79d5b70b99f14506d8f85"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/16",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/sessions.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "962d21af9c4d86f688be3123e21e71d8df5c456b756250790232f5a5e63e29bf"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/160",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/entry_points.txt",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "63a4a25e3b0b334743a3215cc4e25371f2dc945ef24c03d3d338377d9efdcb95"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/161",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/LICENSE",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "89a72f18e678d9db71553f9a30bc0c436c71a61496849af9cd477871b70c31ef"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/162",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/RECORD",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a73102f39393e9ba3f7d42975de61916fade45e108f291fc04d9c13639d229d2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/163",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/METADATA",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8da281f81acd4ab1e3828636202db9df43257e667f98ee8271b98910cf749b3b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/164",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/WHEEL",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/165",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/AUTHORS.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "40075cdeccca856d7ae391adbc6ced2407cd7f2d5e264aba7591d01c08bf64d1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/166",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie-3.2.3.dist-info/top_level.txt",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c8a7b94bcea031334293172ca03cc347e16c338fab9654f33b235bc0d5192d20"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/17",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/client.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2990366514ccac0f42bd0d7ae785e5feab6e50189ef722b10f8ffaeaa4e96c75"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/18",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/ssl_.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3ca2ef8b9cd0d27c42f231e6afb03e1915278790c7e45e138e9f8d861c4290da"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/19",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/downloads.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "eea60912640e337feafa08cae05944d6c8e1a93d1a95eed48e29f2e9921bdcdf"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/2",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/bin/httpie",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a45bc3b9e477d590da756c2c2f128d940936118fd64593be51a74a67d281a735"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/20",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/utils.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3c6b1fed010e8e895324ca03d9966e638e42418a7810b9908d9d5ceab959db86"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/21",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/registry.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "94a9a21c4cf5253a55fd955bceae8bad2805cff779c5fb4ef7b494b7d43d78ed"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/22",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/builtin.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "30ddf9b93beb00701c39aefa3d290a913be80fccea01a7e94dc505e236b62cbc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/23",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/base.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ab62592dad351b45cc95a0952d4fdd69a8d3491f86643fe0d1abaf5de5adea37"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/24",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4e41b19e278e02c9660927eaa307b3a5c367d77beb7d5c40a69e90d44d4575c4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/25",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/manager.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6fbf39e6b5c90977637f38e3769b78b1874e3e45dd05fd704a808f0f65beb67e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/26",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/__pycache__/builtin.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b324c3b9d12452dedff2815fbae0db88b8b3eb107d65d623f7492c1085022983"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/27",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/__pycache__/registry.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dbd984e7bccd7a2a514441ce18bce0e020d283f72e52c80a79d8889dab8184fe"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/28",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/__pycache__/manager.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4f4a2bc7524c37bad00b43f768e68215ec881d57ee7de97d0e4bc35cbfd2d908"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/29",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/__pycache__/base.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "212c70dfe3b1514ffabe2134fcd8d5ca719a77443bef2f861572672b0f626f08"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/3",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/bin/http",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8565bcdcdc4cd5f81fc0584cb9f52ad27b0680b0f03de42f002cfaa716a4bd62"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/30",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/plugins/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2879bd949b201c7786ac040b22352cf55c8d7bca39343615482f21db51029bd5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/31",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/constants.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b68aa0876c338115a3a7571a62d9af257464332e967f62757e927fdbe70066df"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/32",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/requestitems.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7d81370cb4133243aaca9bd9e7cf6c69844e3b2c2e899b56ac60171865323ca3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/33",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/argparser.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6f2408a5e917e3d0fc5ad5c725252d98022990299b1ec5182b2237749d513077"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/34",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/exceptions.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f761398b67ebbf9863f70c4e6c966c66a8f94fa6e096f3f3bddbdca3fbd6d599"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/35",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/36",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/definition.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c5efca2df0b6f4018a50623bfc1bf170826c790d1340e2e9c47fd1e0e66e2fc1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/37",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/argtypes.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "de2f97a67bc7babfacf61098b7344f4c8c5f28e29216d09d1ab9c3cb45e96518"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/38",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/dicts.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cfe08cbeba3afc4d406c6334a2a8509e75e3e30693f3c904933ad7cfa6b5c1ba"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/39",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/options.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4abd2f61bbe6b4b9894f96f5632ec7999ab9576d5247e7c76c2c75415ba9ad9e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/4",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/compat.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e4a5909a6d2c8b7bb1b29493c5a6dcf0243f44bb57550a2163e1d053c6c0b946"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/40",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/utils.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "95dc7b7b4866ac29dfb23818cc0074d7b65ca24d37e11deca93492c8dd5c325b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/41",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/tokens.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "df60534514b93aa176f603da1410704df1ea8ff0bafda952a733d72631e46d87"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/42",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/interpret.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "63147d07fccc20de7fa4e4c5996be2b823b5e35f335f699af126408c12867fe0"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/43",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/errors.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6658052456ac5876f6186ad0071ff9167aa6cdfa71b306a31d77c2537a72311d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/44",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/parse.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d43a909037a6f7c58d8b6e655807384cfb2ca9022cf1a20905e3357c850446e6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/45",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0fcfbeb787ffeb6eac0bf620723aae82c510fcbf52ca340424644a3b6bcdefcb"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/46",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/__pycache__/tokens.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1942822ca21aefd7a3458237892a89e24227de288afb6ca0e8a952af4c911964"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/47",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/__pycache__/interpret.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d70b89e200106e5acc0105c6929e02941836dd87056c19ca8f5091612fc66a15"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/48",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/__pycache__/parse.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "85f3feb2157b5b5937306bbc70af22572a125c5c41c0e35c39f8def6d3044c9c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/49",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e8897352e2cce86bb7033a074a7a9a7e3c782d4a4079b4a927e895db30302f77"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/5",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/encoding.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8e54725b3aeb2b85c9b94c23cc0a63eb68ed6d6dd3e1ff1f5eeaace6c5998cef"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/50",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/nested_json/__pycache__/errors.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e5d85399f7bfad141208ee6daf3f465243a63f937bd100ea82434e16a59a5019"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/51",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/argparser.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "710d8f4d280c251441411bd4ab317d63f49b840ece46c29bab36ccf926720b2a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/52",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/exceptions.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5847d2af491319d02bd36aff89c0503f468e681ced5dea2c12b9b24ee1ca5dd4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/53",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/definition.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "bd5b0b2fae54eb983d67577767de20bb3e9e5fc3daddbdfedf34537ae46e36d1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/54",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "bd801814138855bc828663e93c19a7c91b672ac2682cc946f620d9ee7b79639a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/55",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/options.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "62f6a6afd5ef2bf2f7acdc1934b808538f92ae5cb2b42e67dc2f48e3c054f6b2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/56",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/dicts.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c210bfd6993c748d5befc376391f6331851f0cb1b5cda2d9542f869e524061a3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/57",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/utils.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "50062e118ca440d0a3e6f45b36683a9eb8ea4a956413242e024ee8e50c1b9048"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/58",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/requestitems.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8cf83fa7c13d9b7e41e4dfbe0b9440656cc51438cf2f4a7ab0aef3940f20ec8d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/59",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/argtypes.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "245908247d13d1d7f7785c76c1d5879334939970278f1b60aca34b47148b4c19"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/6",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/config.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e85d8fd00aa6ae3bd5bc8d8ad2adbaabc224d172d41b37dd4aa5d23b29b37960"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/60",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/cli/__pycache__/constants.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a0995cee781f4b2a39cb87d15ce1321ecd4a2152bf3c93cc679d3920d9465a30"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/61",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/update_warnings.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "360c4ab1094ce8ec311cc0a3f9f7447b058d62bb8ee6fdc40272abaf00c00ce2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/62",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__build_channel__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "da1af203e1c656c9040ef6797407a3b62a816b105e5d45995217b7b24d40a065"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/63",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/daemon_runner.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "54dd4c4db1368ef44e2fe5f10103b60ea2d38084d3c2fd0ff944e79ce10bf1ec"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/64",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/65",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/daemons.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0f50971437475bc7d4c0760c180028a298ddcdcb8b2c62a90f9ffd2bed2dd825"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/66",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__pycache__/update_warnings.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fe03cd1504ed3b21693f6ddfad39ab915db1c4271f1a5d3f5c9130ea835b0470"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/67",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__pycache__/__build_channel__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "12786813f336ec06f89fc38818e8722c02cd9f4a9b4239ef07f943c54692ecaa"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/68",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6365576f9ee04b43ebc50dccdc973075148a4813f976df8d5bedece6bde5c218"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/69",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__pycache__/daemons.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "bd571e170f0f895ee979ceaaf421394f49155e01983026c5c2c3e81e4edad5f4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/7",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/adapters.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a7336e153a69731f9798ce69639faf7b925f7d36192892ba3db61058fbee74f6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/70",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/internal/__pycache__/daemon_runner.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "bc0909d2cb66f7394b3101c4ad923a9af49159379d5a3467eb93d654ded1b094"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/71",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/compat.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f3e067f51650fd9ff5263a42c82131128183e225c1390108d7a3136bf3caa386"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/72",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__main__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "51f9ac8086346b87d841b5000eeeb42bfaefd95f77da3f9d19cf182a77bb8d6d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/73",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/74",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/cli.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cd60e688d242ba87f83410b44815ebb20086836e1d945174299e9711ee69368b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/75",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/core.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ae5c078d1c705fd80c89f3965362921812d40a288f3b33c218aa17de43059113"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/76",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/export_args.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1fe3a8dd52b642cc9dbae83d5e9a0e3c1ac5f4f4939bb7f74b07d6ee90ce7ace"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/77",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/check_updates.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "65cf4d42f8b009bab9bc98fba8df4b216e052d36c1f1d3ead66b115ad25d8958"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/78",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/plugins.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8fe3ed0a8ae334c7b961443c50d91ba7925e447cf3031752da52c7c747f04edc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/79",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/__init__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a6c091cdb02f98cb1516706755f2574c9f62ab214875d0b9388374223437b2a4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/8",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/models.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "17e8043ee24adc466893ecf612d5938ae78d2d1c3a9d402a4e6d7d18ef1e57ee"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/80",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/sessions.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3ece31542210c80abe6213aba2db67d4d8a972e71b2f5f1d7f69b8fce56b7d3c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/81",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/__pycache__/export_args.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d4c25d15a0b821ab1e51af4bfbc538f9aa751047d6d954f8a489818c3535d6fe"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/82",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d493fb818ef5b522c813e25078d73432ca6fee6db2dc6fa6965c81a0c4cb190a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/83",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/__pycache__/check_updates.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d2e7c0b68ccbb6a6245f789b771a0577037a0b5bf7bf9b9720f79952549feacc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/84",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/__pycache__/plugins.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c7c93719404bfe2b684ec58df7c9d2451750ebd2e7d9ef5d0a19766528729ddd"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/85",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/tasks/__pycache__/sessions.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a994865c2ab958deb2fd9f83735ae671d4cea34384b48d4d84482b09943e8e59"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/86",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__pycache__/cli.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0505750708dd4e7995c576bff6eb58dea6bf58129194c300368b370a05032994"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/87",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__pycache__/__main__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c1d0251397e246b90aedb5903380b9bfa54e419b072f1af986a867aed41d1a1c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/88",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2724b16934b44a591f87d30f1cc63e8379b91c8e845474d5fd4b959540d35250"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/89",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__pycache__/core.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9cf227901fef7391d8b5d67d8416c37805f21cc5c2eb8c3fdb9ae9531e8360b3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/9",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__main__.py",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1f4ef5eabd7995fd48cf0fdb71d2f61582f49f2daac49d97f0055aa69b005fed"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/90",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/manager/__pycache__/compat.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b2e96a8f3dce5a8a1f2166a0d6c4033f10e067fde011d7e1f087da113c64086a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/91",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/ssl_.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ed6f21ea961a651895b67000a4b8f64b3bb22ad8c6c3cc1e10c6014e50a1ff2c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/92",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/cookies.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2dccb170ba13d604a668858101e75f216833d79c0e9bf90d7bdba2136b3e0b66"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/93",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/adapters.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "006f0af5f0fb016d63201fd0449407f389603ded16ba9e225195a3b1f1c87e84"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/94",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/downloads.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "23d7372f8c014b3d50f5f5e8e2d7f51b3d9d2c682f12eafada935f734ebd0450"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/95",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/uploads.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "116e954d9b9bd79438bf8b3180cf1a42749ba93c11d4ecb753e041c5705fc346"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/96",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/status.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dcc5223ae8bf0ee54db857e2c5ca8e9ca4e1c5b9742c15c3d7f6d03f2bdf54ef"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/97",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/__main__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1606c66fc40948273afe2c9ff824d9595cc85ee5558117d59269ec70cea826ee"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/98",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/__init__.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0363702631b1e0078445c692428fb2fdc176bca814eb6f2e99f1d783a9e35939"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/99",
+      "creationInfo": "_:CreationInfo10",
+      "name": "usr/lib/python3.13/site-packages/httpie/__pycache__/core.cpython-313.pyc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fcd273072356e612e49a143c5a24e8176e5132b4f9468e056dc81cd0edcfb50c"
+        }
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/0ca46577c622fe0e0360852353c76296",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc/file/1",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc/file/2",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc/file/3"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/1067053153b50919b466e92ac31fe846",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-dbg"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/332e06c1fd219624ff6f5a45064ec3ff",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "relationshipType": "hasInput",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/source/1"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/50de2877038f8e5cfcabf0bd04ab5975",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/license/3_24_0/BSD-3-Clause"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/6865b046e29edab8d23bcb31835141a6",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/source/1",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/license/3_24_0/BSD-3-Clause"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/6e63d78a9fedefe7a6be985c32bbac18",
+      "creationInfo": "_:CreationInfo10",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/8377e572641c6925a8fcb52cd51c0aa4",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-doc"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/b4a5d04ad0267a3d97631c0a7e688bbb",
+      "creationInfo": "_:CreationInfo4",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-dev"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/c07deac4fbd858979609e613a4510dcc",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/6ae8ad2898ee0494c2e824cfd0b6dbc2",
+      "relationshipType": "ancestorOf",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/d097549a7c604fc712b19ee136a92bb4",
+      "creationInfo": "_:CreationInfo10",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/license/3_24_0/BSD-3-Clause"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/d141c8f0e6efad7576ddde36cc7d6bc1",
+      "creationInfo": "_:CreationInfo4",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-dev",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/license/3_24_0/BSD-3-Clause"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/d1c392bbd13333383767eb1f9f1fc384",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-build-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-installer-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-setuptools-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-wheel-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3/UNIHASH/build/recipe"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/fce3c7f953dcac8f67cdcf62cc2bf9d6",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie-dbg",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/license/3_24_0/BSD-3-Clause"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/relationship/ff93649fddd02184dbcb1520383dcbff",
+      "creationInfo": "_:CreationInfo10",
+      "from": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/1",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/10",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/100",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/101",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/102",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/103",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/104",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/105",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/106",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/107",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/108",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/109",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/11",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/110",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/111",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/112",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/113",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/114",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/115",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/116",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/117",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/118",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/119",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/12",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/120",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/121",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/122",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/123",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/124",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/125",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/126",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/127",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/128",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/129",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/13",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/130",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/131",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/132",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/133",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/134",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/135",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/136",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/137",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/138",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/139",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/14",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/140",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/141",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/142",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/143",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/144",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/145",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/146",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/147",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/148",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/149",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/15",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/150",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/151",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/152",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/153",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/154",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/155",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/156",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/157",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/158",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/159",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/16",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/160",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/161",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/162",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/163",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/164",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/165",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/166",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/17",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/18",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/19",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/2",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/20",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/21",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/22",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/23",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/24",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/25",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/26",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/27",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/28",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/29",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/3",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/30",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/31",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/32",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/33",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/34",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/35",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/36",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/37",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/38",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/39",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/4",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/40",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/41",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/42",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/43",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/44",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/45",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/46",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/47",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/48",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/49",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/5",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/50",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/51",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/52",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/53",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/54",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/55",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/56",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/57",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/58",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/59",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/6",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/60",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/61",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/62",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/63",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/64",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/65",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/66",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/67",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/68",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/69",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/7",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/70",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/71",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/72",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/73",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/74",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/75",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/76",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/77",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/78",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/79",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/8",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/80",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/81",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/82",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/83",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/84",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/85",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/86",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/87",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/88",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/89",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/9",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/90",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/91",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/92",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/93",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/94",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/95",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/96",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/97",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/98",
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/package/httpie/file/99"
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/source/1",
+      "creationInfo": "_:CreationInfo3",
+      "name": "github.com.httpie.cli.git",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+http://github.com/httpie/cli.git@f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+    },
+    {
+      "type": "SpdxDocument",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/a745b3c74d5b35b42f479e51d23625529dcad094c1773b20c91def67a569e75c/document/httpie-build",
+      "creationInfo": "_:CreationInfo1",
+      "name": "httpie-build",
+      "profileConformance": [
+        "build",
+        "core",
+        "security",
+        "simpleLicensing",
+        "software"
+      ],
+      "rootElement": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/a745b3c74d5b35b42f479e51d23625529dcad094c1773b20c91def67a569e75c/sbom/httpie-build"
+      ],
+      "import": [
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3/UNIHASH/package/python3-core"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-setuptools-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-wheel-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-defusedxml/UNIHASH/package/python3-defusedxml"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-pygments/UNIHASH/package/python3-pygments"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-build-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-installer-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-charset-normalizer/UNIHASH/package/python3-charset-normalizer"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-multidict/UNIHASH/package/python3-multidict"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-requests/UNIHASH/package/python3-requests"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-importlib-metadata/UNIHASH/package/python3-importlib-metadata"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-rich/UNIHASH/package/python3-rich"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-requests-toolbelt/UNIHASH/package/python3-requests-toolbelt"
+        }
+      ]
+    },
+    {
+      "type": "software_Sbom",
+      "spdxId": "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/a745b3c74d5b35b42f479e51d23625529dcad094c1773b20c91def67a569e75c/sbom/httpie-build",
+      "creationInfo": "_:CreationInfo1",
+      "name": "httpie-build",
+      "rootElement": [
+        "http://spdx.org/spdxdocs/httpie-6ce4bb8a-0c87-532a-971e-fdbac757d30c/7d1048b628d692da0eb1069adf70445a3b59e917c6f2173d8e415414fa049ff8/build/recipe"
+      ],
+      "software_sbomType": [
+        "build"
+      ]
+    }
+  ]
+}

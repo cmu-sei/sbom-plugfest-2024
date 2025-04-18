@@ -1,0 +1,411 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/sharkdp/hexyl]
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-artifact]
+ Version:	 main
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[aho-corasick]
+ Version:	 1.0.4
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[anstream]
+ Version:	 0.3.2
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[anstyle]
+ Version:	 1.0.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[anstyle-parse]
+ Version:	 0.2.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[anstyle-query]
+ Version:	 1.0.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[anstyle-wincon]
+ Version:	 1.0.2
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[anyhow]
+ Version:	 1.0.75
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[assert_cmd]
+ Version:	 2.0.12
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[autocfg]
+ Version:	 1.1.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[bitflags]
+ Version:	 1.3.2
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[bitflags]
+ Version:	 2.4.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[bstr]
+ Version:	 1.6.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[cc]
+ Version:	 1.0.83
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[clap]
+ Version:	 4.3.23
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[clap_builder]
+ Version:	 4.3.23
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[clap_derive]
+ Version:	 4.3.12
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[clap_lex]
+ Version:	 0.5.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[colorchoice]
+ Version:	 1.0.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[const_format]
+ Version:	 0.2.31
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[const_format_proc_macros]
+ Version:	 0.2.31
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[diff]
+ Version:	 0.1.13
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[difflib]
+ Version:	 0.4.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[doc-comment]
+ Version:	 0.3.3
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[dtolnay/rust-toolchain]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[dtolnay/rust-toolchain]
+ Version:	 stable
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[either]
+ Version:	 1.9.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[errno]
+ Version:	 0.3.2
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[errno-dragonfly]
+ Version:	 0.1.2
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[float-cmp]
+ Version:	 0.9.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[heck]
+ Version:	 0.4.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[hermit-abi]
+ Version:	 0.3.2
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[hexyl]
+ Version:	 0.14.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[io-lifetimes]
+ Version:	 1.0.11
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[is-terminal]
+ Version:	 0.4.9
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[is_ci]
+ Version:	 1.1.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[itertools]
+ Version:	 0.10.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[libc]
+ Version:	 0.2.155
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[linux-raw-sys]
+ Version:	 0.3.8
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[linux-raw-sys]
+ Version:	 0.4.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[memchr]
+ Version:	 2.5.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[normalize-line-endings]
+ Version:	 0.3.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[num-traits]
+ Version:	 0.2.16
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[once_cell]
+ Version:	 1.18.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[owo-colors]
+ Version:	 3.5.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[predicates]
+ Version:	 3.0.3
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[predicates-core]
+ Version:	 1.0.6
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[predicates-tree]
+ Version:	 1.0.9
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[pretty_assertions]
+ Version:	 1.4.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[proc-macro2]
+ Version:	 1.0.66
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[quote]
+ Version:	 1.0.33
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[r-lib/actions/setup-pandoc]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[regex]
+ Version:	 1.9.3
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[regex-automata]
+ Version:	 0.3.6
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[regex-syntax]
+ Version:	 0.7.4
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[rustix]
+ Version:	 0.37.23
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[rustix]
+ Version:	 0.38.8
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[serde]
+ Version:	 1.0.185
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[softprops/action-gh-release]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[strsim]
+ Version:	 0.10.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[supports-color]
+ Version:	 2.0.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[syn]
+ Version:	 2.0.29
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[taiki-e/install-action]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[terminal_size]
+ Version:	 0.2.6
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[termtree]
+ Version:	 0.4.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[thiserror]
+ Version:	 1.0.47
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[thiserror-impl]
+ Version:	 1.0.47
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[unicode-ident]
+ Version:	 1.0.11
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[unicode-xid]
+ Version:	 0.2.4
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[utf8parse]
+ Version:	 0.2.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[wait-timeout]
+ Version:	 0.2.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows-sys]
+ Version:	 0.48.0
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows-targets]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_aarch64_gnullvm]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_aarch64_msvc]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_i686_gnu]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_i686_msvc]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_x86_64_gnu]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_x86_64_gnullvm]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[windows_x86_64_msvc]
+ Version:	 0.48.5
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+
+[yansi]
+ Version:	 0.5.1
+ Type:		 rust-crate
+ Found by:	 rust-cargo-lock-cataloger
+

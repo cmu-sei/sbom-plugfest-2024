@@ -1,0 +1,371 @@
+[Path: ./httpie/cli]
+[Simple Launcher]
+ Version:	 1.1.0.14
+ Type:		 dotnet
+ Found by:	 dotnet-portable-executable-cataloger
+
+[Simple Launcher]
+ Version:	 1.1.0.14
+ Type:		 dotnet
+ Found by:	 dotnet-portable-executable-cataloger
+
+[Simple Launcher]
+ Version:	 1.1.0.14
+ Type:		 dotnet
+ Found by:	 dotnet-portable-executable-cataloger
+
+[Simple Launcher]
+ Version:	 1.1.0.14
+ Type:		 dotnet
+ Found by:	 dotnet-portable-executable-cataloger
+
+[Simple Launcher]
+ Version:	 1.1.0.14
+ Type:		 dotnet
+ Found by:	 dotnet-portable-executable-cataloger
+
+[Simple Launcher]
+ Version:	 1.1.0.14
+ Type:		 dotnet
+ Found by:	 dotnet-portable-executable-cataloger
+
+[actions-ecosystem/action-remove-labels]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/stale]
+ Version:	 v8
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-artifact]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-release-asset]
+ Version:	 v1.0.2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[autocommand]
+ Version:	 2.2.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[backports-tarfile]
+ Version:	 1.2.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[certifi]
+ Version:	 2024.8.30
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[charset-normalizer]
+ Version:	 3.4.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[defusedxml]
+ Version:	 0.7.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[httpie]
+ Version:	 3.2.3
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[httpie]
+ Version:	 3.2.3
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[idna]
+ Version:	 3.10
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[importlib-metadata]
+ Version:	 8.0.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[inflect]
+ Version:	 7.3.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[jaraco-collections]
+ Version:	 5.1.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[jaraco-context]
+ Version:	 5.3.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[jaraco-functools]
+ Version:	 4.0.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[jaraco-text]
+ Version:	 3.12.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[markdown-it-py]
+ Version:	 3.0.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[mdurl]
+ Version:	 0.1.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[mislav/bump-homebrew-formula-action]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[more-itertools]
+ Version:	 10.3.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[multidict]
+ Version:	 6.1.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[my-test-package]
+ Version:	 1.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[packaging]
+ Version:	 24.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[peter-evans/create-or-update-comment]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[peter-evans/create-pull-request]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[peter-evans/find-comment]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[pip]
+ Version:	 24.3.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[platformdirs]
+ Version:	 4.2.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[pygments]
+ Version:	 2.18.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[pypa/gh-action-pypi-publish]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[pysocks]
+ Version:	 1.7.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[requests]
+ Version:	 2.31.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[requests-toolbelt]
+ Version:	 1.0.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[rich]
+ Version:	 13.9.4
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[ruby/setup-ruby]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[setuptools]
+ Version:	 75.6.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[snapcore/action-build]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[snapcore/action-build]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[snapcore/action-publish]
+ Version:	 v1
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[tomli]
+ Version:	 2.0.1
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[typeguard]
+ Version:	 4.3.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[typing-extensions]
+ Version:	 4.12.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[typing-extensions]
+ Version:	 4.12.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[urllib3]
+ Version:	 2.2.3
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[wheel]
+ Version:	 0.43.0
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+
+[zipp]
+ Version:	 3.19.2
+ Type:		 python
+ Found by:	 python-installed-package-cataloger
+

@@ -1,0 +1,255 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:fc6ed036-7745-41b7-b3e9-c4752521e944",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-13T14:07:29+01:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.18.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "68f1e74c61b31760",
+      "type": "file",
+      "name": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@master?package-id=2784dfd778b28c40",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "master",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@master",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/translation.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ad-m/github-push-action@master?package-id=ce03eec74fa4bd6a",
+      "type": "library",
+      "name": "ad-m/github-push-action",
+      "version": "master",
+      "cpe": "cpe:2.3:a:ad-m\\/github-push-action:ad-m\\/github-push-action:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ad-m/github-push-action@master",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad-m\\/github-push-action:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad_m\\/github_push_action:ad-m\\/github-push-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad_m\\/github_push_action:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad-m\\/github-push:ad-m\\/github-push-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad-m\\/github-push:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad_m\\/github_push:ad-m\\/github-push-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad_m\\/github_push:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad-m\\/github:ad-m\\/github-push-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad-m\\/github:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad_m\\/github:ad-m\\/github-push-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad_m\\/github:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad:ad-m\\/github-push-action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ad:ad_m\\/github_push_action:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/translation.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=e88364ec3fa76d61",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ldtteam/operapublicacreator@main?package-id=44c4a7e0f297fb83#.github/workflows/gradle.build.yaml",
+      "type": "library",
+      "name": "ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.build.yaml:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.build.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ldtteam/operapublicacreator@main?package-id=93943d5d84b47a49#.github/workflows/gradle.prerelease.yaml",
+      "type": "library",
+      "name": "ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.prerelease.yaml:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.prerelease.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ldtteam/operapublicacreator@main?package-id=7b731ba6bf89919b#.github/workflows/gradle.publish.yaml",
+      "type": "library",
+      "name": "ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.publish.yaml:ldtteam\\/operapublicacreator\\/.github\\/workflows\\/gradle.publish.yaml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yaml"
+        }
+      ]
+    }
+  ]
+}

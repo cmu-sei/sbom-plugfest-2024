@@ -1,0 +1,313 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:d6503eb3-bdf1-e777-807f-3e50ef31eac5",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2024-12-03T04:47:39.467975Z",
+        "authors": [
+            {
+                "name": "IoTcube - https://iotcube.net"
+            }
+        ],
+        "component": {
+            "group": "",
+            "name": "jq_c",
+            "version": "",
+            "type": "application",
+            "bom-ref": "pkg:generic/jq_c",
+            "purl": "pkg:generic/jq_c"
+        }
+    },
+    "components": [
+        {
+            "group": "jq",
+            "name": "\\src\\bytecode",
+            "version": "0.0.0-d9b8fc80a77f",
+            "type": "file",
+            "bom-ref": "pkg:generic/jq/\\src\\bytecode@0.0.0-d9b8fc80a77f#\\src\\bytecode.c",
+            "purl": "pkg:generic/jq/\\src\\bytecode@0.0.0-d9b8fc80a77f#\\src\\bytecode.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "d9b8fc80a77f62474d733035c18ada41"
+                }
+            ]
+        },
+        {
+            "group": "jq",
+            "name": "\\src\\jv_file",
+            "version": "0.0.0-5cb299080f68",
+            "type": "file",
+            "bom-ref": "pkg:generic/jq/\\src\\jv_file@0.0.0-5cb299080f68#\\src\\jv_file.c",
+            "purl": "pkg:generic/jq/\\src\\jv_file@0.0.0-5cb299080f68#\\src\\jv_file.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "5cb299080f6838f3ac6848b92caf98b7"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decBasic",
+            "version": "0.0.0-8243dbfdd46f",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decBasic@0.0.0-8243dbfdd46f#\\src\\decNumber\\decBasic.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decBasic@0.0.0-8243dbfdd46f#\\src\\decNumber\\decBasic.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "8243dbfdd46f7cc31b8b8c02be2e0909"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decCommon",
+            "version": "0.0.0-13b4afa2e430",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decCommon@0.0.0-13b4afa2e430#\\src\\decNumber\\decCommon.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decCommon@0.0.0-13b4afa2e430#\\src\\decNumber\\decCommon.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "13b4afa2e43060251589d06a8d12a3e4"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decContext",
+            "version": "0.0.0-99f821515e60",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decContext@0.0.0-99f821515e60#\\src\\decNumber\\decContext.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decContext@0.0.0-99f821515e60#\\src\\decNumber\\decContext.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "99f821515e60950abefc9877d13a7df5"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decDouble",
+            "version": "0.0.0-f9f536626456",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decDouble@0.0.0-f9f536626456#\\src\\decNumber\\decDouble.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decDouble@0.0.0-f9f536626456#\\src\\decNumber\\decDouble.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "f9f536626456dc2cbf81b45c26f53824"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decimal128",
+            "version": "0.0.0-8ce8f19c5870",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decimal128@0.0.0-8ce8f19c5870#\\src\\decNumber\\decimal128.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decimal128@0.0.0-8ce8f19c5870#\\src\\decNumber\\decimal128.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "8ce8f19c58708968d26032fe886327c5"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decimal32",
+            "version": "0.0.0-7f4468631d98",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decimal32@0.0.0-7f4468631d98#\\src\\decNumber\\decimal32.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decimal32@0.0.0-7f4468631d98#\\src\\decNumber\\decimal32.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "7f4468631d9835d01df5b6e867f69754"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decimal64",
+            "version": "0.0.0-84b1284e4587",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decimal64@0.0.0-84b1284e4587#\\src\\decNumber\\decimal64.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decimal64@0.0.0-84b1284e4587#\\src\\decNumber\\decimal64.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "84b1284e458777e3415e2ca56fc04f20"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decPacked",
+            "version": "0.0.0-9235c192cadc",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decPacked@0.0.0-9235c192cadc#\\src\\decNumber\\decPacked.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decPacked@0.0.0-9235c192cadc#\\src\\decNumber\\decPacked.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "9235c192cadcd0d357e7c09d36410f47"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decQuad",
+            "version": "0.0.0-b893b129207e",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decQuad@0.0.0-b893b129207e#\\src\\decNumber\\decQuad.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decQuad@0.0.0-b893b129207e#\\src\\decNumber\\decQuad.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "b893b129207ef6ee4d6c1899ef78c583"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\decSingle",
+            "version": "0.0.0-3fcc538c0dac",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\decSingle@0.0.0-3fcc538c0dac#\\src\\decNumber\\decSingle.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\decSingle@0.0.0-3fcc538c0dac#\\src\\decNumber\\decSingle.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "3fcc538c0dace88c0139d30168ea9100"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example1",
+            "version": "0.0.0-b0dc2ceb7174",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example1@0.0.0-b0dc2ceb7174#\\src\\decNumber\\example1.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example1@0.0.0-b0dc2ceb7174#\\src\\decNumber\\example1.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "b0dc2ceb717443fe3aae12083aa22c23"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example2",
+            "version": "0.0.0-e7ec0c49cf17",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example2@0.0.0-e7ec0c49cf17#\\src\\decNumber\\example2.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example2@0.0.0-e7ec0c49cf17#\\src\\decNumber\\example2.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "e7ec0c49cf17a311527802bc1bae6c34"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example3",
+            "version": "0.0.0-77bfd3e9d063",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example3@0.0.0-77bfd3e9d063#\\src\\decNumber\\example3.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example3@0.0.0-77bfd3e9d063#\\src\\decNumber\\example3.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "77bfd3e9d06355dc447e3ee0ba78a452"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example4",
+            "version": "0.0.0-0cc2eacf01bd",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example4@0.0.0-0cc2eacf01bd#\\src\\decNumber\\example4.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example4@0.0.0-0cc2eacf01bd#\\src\\decNumber\\example4.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "0cc2eacf01bd829066ae3a5c4f782e1d"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example5",
+            "version": "0.0.0-f8db78201a2f",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example5@0.0.0-f8db78201a2f#\\src\\decNumber\\example5.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example5@0.0.0-f8db78201a2f#\\src\\decNumber\\example5.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "f8db78201a2f21743afcc032f3834d5d"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example6",
+            "version": "0.0.0-7eca5a9bf887",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example6@0.0.0-7eca5a9bf887#\\src\\decNumber\\example6.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example6@0.0.0-7eca5a9bf887#\\src\\decNumber\\example6.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "7eca5a9bf8872ad4a5930f065fac04a3"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example7",
+            "version": "0.0.0-8767a5ccd9a5",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example7@0.0.0-8767a5ccd9a5#\\src\\decNumber\\example7.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example7@0.0.0-8767a5ccd9a5#\\src\\decNumber\\example7.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "8767a5ccd9a5c8230f546821c6a2ef38"
+                }
+            ]
+        },
+        {
+            "group": "bde",
+            "name": "\\src\\decNumber\\example8",
+            "version": "0.0.0-c51efc3f1dfe",
+            "type": "file",
+            "bom-ref": "pkg:generic/bde/\\src\\decNumber\\example8@0.0.0-c51efc3f1dfe#\\src\\decNumber\\example8.c",
+            "purl": "pkg:generic/bde/\\src\\decNumber\\example8@0.0.0-c51efc3f1dfe#\\src\\decNumber\\example8.c",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "c51efc3f1dfe07fe6e335c8c997093d3"
+                }
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "jq_c",
+            "dependsOn": [
+                "jq jq-1.6",
+                "bde 2.18.1.001"
+            ]
+        }
+    ]
+}

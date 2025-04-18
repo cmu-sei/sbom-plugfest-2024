@@ -1,0 +1,215 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2024-12-03T04:19:20Z",
+    "creators": [
+      "Organization: LL",
+      "Tool: L-v2.1.1"
+    ]
+  },
+  "name": "https://github.com/httpie/cli",
+  "dataLicense": "CC0-1.0",
+  "comment": "signature_alg:RS512,signature_value:G072ExLamT54DWmQH1Rc86eR5AH9/epKCGxv9tUGduDPd4lhoI9SISuQBvbGm3tXBXtFVN+CzW289ZaULipm4ey8IAUNaXNca8XELprnLien/5jRDdr/wVtlsBsuUP/DuHFJvzmPzLhg0r4j9d86hntUhiXKpUKhvKTS5+hrJfBYs1LyHTvWLBjrxeGaZ070iA0pnOsHrs0WgvuASR1b5HQx92ZU8f0QXvKpWWCarudNw8NqArs0c2pU13J2TGAg/z/OU2SG1MluCUeJUOK/9+vCWfBTnnp3x5Cr/yDrfBl6ELYSMNDzV3naJu/eKzrDsG8MaPaF/3WfsZLW50Cyag==,publickey_kty:RSA,publickey_n:16833617138599873984989908708286670820980019119146898547633954013546732699627564255118507425542343679927812081128347078995630285236309142958787816100697750144801489044903900131385572280852999913066306183212176217691939092714044005193005443198184942832435204414288688957866103771440583665160715425854300040607758492671845551129139379267385814122209466392492566876229459207737083320035115195572808222224304658575412255676088089791221370134566971039253240239286162150513798863754381877108897946766127257055225463423479701656123253616097886402440969007499395557280690535085772481471195057177031863383627024601783774057881,publickey_e:65537",
+  "documentNamespace": "http://devivas.LL.ai/sbom/2024/12/3/47fd353d-6bf5-41f3-93eb-da56c2035c34/sbom-spdx.json",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-4AF557376292D5E09051F577A104F47B",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/aio-libs/async-timeout.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/aio-libs/async-timeout@v4.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "0BSD",
+      "licenseDeclared": "0BSD",
+      "name": "async-timeout@v4.0.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "v4.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-D3C2E7F971E8AEDDD7647F04627E4233",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/suno-ai/bark.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/suno-ai/bark@notag",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "bark@notag",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "notag"
+    },
+    {
+      "SPDXID": "SPDXRef-root",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/httpie/cli",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "cli",
+      "originator": "Person: cli",
+      "supplier": "Person: LL",
+      "versionInfo": "f4cf43e"
+    },
+    {
+      "SPDXID": "SPDXRef-1FA2A83743499DF9920F12D372C199DD",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/approximatelabs/sketch.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/approximatelabs/sketch@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "sketch@0.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "0.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-B82269DFE9A2D94C4CADD7D1A479B1B1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/wbolster/jsonlines.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/wbolster/jsonlines@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-4-Clause",
+      "licenseDeclared": "BSD-4-Clause",
+      "name": "jsonlines@2.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-D86BF1F0B3B3858A73F9F33319485B4B",
+      "attributionTexts": [
+        "CVE-2023-48795 is not patched",
+        "CVE-2024-22051 is not patched",
+        "CVE-2023-44487 is not patched",
+        "CVE-2015-8314 is not patched"
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/madmaze/pytesseract.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/madmaze/pytesseract@v0.3.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "pytesseract@v0.3.8",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "v0.3.8"
+    },
+    {
+      "SPDXID": "SPDXRef-BE74CEB0C562389F9E09325FC8F7B9F6",
+      "attributionTexts": [
+        "CVE-2023-48795 is not patched",
+        "CVE-2023-44487 is not patched",
+        "CVE-2019-10751 is not patched",
+        "CVE-2015-8314 is not patched"
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/httpie/cli.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/httpie/cli@3.2.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "httpie@3.2.3",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.2.3"
+    },
+    {
+      "SPDXID": "SPDXRef-F7E85E7E74765CF0384F4EE4E8C97C5C",
+      "attributionTexts": [
+        "CVE-2023-48795 is not patched",
+        "CVE-2023-44487 is not patched",
+        "CVE-2015-8314 is not patched"
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/Pylons/colander.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/Pylons/colander@1.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause-Clear",
+      "licenseDeclared": "BSD-3-Clause-Clear",
+      "name": "colander@1.8.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.8.0"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-4AF557376292D5E09051F577A104F47B",
+      "comment": "This describes relationship was added as a default relationship by the SPDX Tools Tag parser."
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-D86BF1F0B3B3858A73F9F33319485B4B"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-4AF557376292D5E09051F577A104F47B"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-D3C2E7F971E8AEDDD7647F04627E4233"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-F7E85E7E74765CF0384F4EE4E8C97C5C"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-B82269DFE9A2D94C4CADD7D1A479B1B1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-1FA2A83743499DF9920F12D372C199DD"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-BE74CEB0C562389F9E09325FC8F7B9F6"
+    }
+  ]
+}

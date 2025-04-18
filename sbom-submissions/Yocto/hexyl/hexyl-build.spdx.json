@@ -1,0 +1,2425 @@
+{
+  "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph": [
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo0",
+      "created": "2024-11-22T22:31:04Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-22T22:31:04Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo2",
+      "created": "2024-09-08T11:09:17Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo3",
+      "created": "2024-09-08T11:09:17Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo4",
+      "created": "2024-09-08T11:09:17Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo5",
+      "created": "2024-09-08T11:09:17Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-22T22:31:04Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo7",
+      "created": "2024-11-22T22:31:04Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo8",
+      "created": "2024-09-08T11:09:17Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo9",
+      "created": "2024-11-22T22:31:54Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/8cb1eec8e7078d0148eae0c0bd524779",
+      "creationInfo": "_:CreationInfo9",
+      "build_buildStartTime": "2024-11-22T22:31:54Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "Person",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt",
+      "creationInfo": "_:CreationInfo9",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "email",
+          "identifier": "JPEWhacker@gmail.com"
+        }
+      ],
+      "name": "Joshua Watt"
+    },
+    {
+      "type": "Organization",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded",
+      "creationInfo": "_:CreationInfo7",
+      "name": "OpenEmbedded"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/1ce37deb66e1416ddfbcc4ff56b67638",
+      "creationInfo": "_:CreationInfo0",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/d6ca1f4e41456c4ee36b827deb73f732",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/83a52498f33aa6325a9f9b7b4e75c236",
+      "creationInfo": "_:CreationInfo9",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/8cb1eec8e7078d0148eae0c0bd524779",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Tool",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0",
+      "creationInfo": "_:CreationInfo7",
+      "name": "oe-spdx-creator 1.0"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/d6ca1f4e41456c4ee36b827deb73f732",
+      "creationInfo": "_:CreationInfo0",
+      "build_buildStartTime": "2024-11-22T22:31:04Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "SpdxDocument",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/51c920fd90b6b1e628756a3c9228323a05f95a5274987c8e72b1fb5068e799ab/document/hexyl-build",
+      "creationInfo": "_:CreationInfo4",
+      "name": "hexyl-build",
+      "profileConformance": [
+        "build",
+        "core",
+        "security",
+        "simpleLicensing",
+        "software"
+      ],
+      "rootElement": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/51c920fd90b6b1e628756a3c9228323a05f95a5274987c8e72b1fb5068e799ab/sbom/hexyl-build"
+      ],
+      "import": [
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/libstd-rs/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/rust-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/cargo-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/python3-native/UNIHASH/build/recipe"
+        }
+      ]
+    },
+    {
+      "type": "software_Sbom",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/51c920fd90b6b1e628756a3c9228323a05f95a5274987c8e72b1fb5068e799ab/sbom/hexyl-build",
+      "creationInfo": "_:CreationInfo4",
+      "name": "hexyl-build",
+      "rootElement": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe"
+      ],
+      "software_sbomType": [
+        "build"
+      ]
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe",
+      "creationInfo": "_:CreationInfo8",
+      "name": "hexyl:do_create_spdx:recipe",
+      "build_buildType": "http://openembedded.org/bitbake/do_create_spdx/recipe"
+    },
+    {
+      "type": "simplelicensing_LicenseExpression",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0",
+      "creationInfo": "_:CreationInfo8",
+      "simplelicensing_licenseExpression": "MIT OR Apache-2.0",
+      "simplelicensing_licenseListVersion": "3.24.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl",
+      "creationInfo": "_:CreationInfo5",
+      "description": "A command-line hex viewer.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:hexyl:0.14.0:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "hexyl",
+      "summary": "A command-line hex viewer",
+      "builtTime": "2024-11-22T22:31:31Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/sharkdp/hexyl",
+      "software_packageVersion": "0.14.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dbg",
+      "creationInfo": "_:CreationInfo2",
+      "description": "A command-line hex viewer.  This package contains ELF symbols and related sources for debugging purposes.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:hexyl:0.14.0:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "hexyl-dbg",
+      "summary": "A command-line hex viewer - Debugging files",
+      "builtTime": "2024-11-22T22:31:31Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/sharkdp/hexyl",
+      "software_packageVersion": "0.14.0"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dbg/file/1",
+      "creationInfo": "_:CreationInfo2",
+      "name": "usr/bin/.debug/hexyl",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "87d055ab6fa09d2d9853d778a7c2ca000a0e6695c7c697f16fa1dfb176727b9d"
+        }
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dev",
+      "creationInfo": "_:CreationInfo3",
+      "description": "A command-line hex viewer.  This package contains symbolic links, header files, and related items necessary for software development.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:hexyl:0.14.0:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "hexyl-dev",
+      "summary": "A command-line hex viewer - Development files",
+      "builtTime": "2024-11-22T22:31:31Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://github.com/sharkdp/hexyl",
+      "software_packageVersion": "0.14.0"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dev/file/1",
+      "creationInfo": "_:CreationInfo3",
+      "name": "usr/lib/rustlib/x86_64-poky-linux-gnu/lib/libhexyl.rlib",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6251e161eff4f29e3b51e81c21f177b1779113d277cfd557cf2d8f5d5e07e5c4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl/file/1",
+      "creationInfo": "_:CreationInfo5",
+      "name": "usr/bin/hexyl",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a22ea42222173d9af63f6bd8fe79fdcee11c02c5974d38547ef1f08cd1cc3c8e"
+        }
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/04e9a576a85f7669e9a70d173aef5531",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/27",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/1437e427c15a44b123891d04eda15dc8",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/59",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/1660412476643d0f9e7432fa11df66b5",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/4",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/18b6172deda33be5d3668a411e92c1c8",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/40",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/1b354032bc4b3c6b6cd2ef448f7ef0fd",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/72",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/1e47261afdc77825b6a5009c9d09551a",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/74",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/20b11387ae398619b9fc9497cb194c7c",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/23",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/21daf0f2448a4d6675a43e68226dc17f",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/7",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/22986dd92599fb0baddf71378233cdc4",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/21",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/241bf8a906c74361491ab90e294dfdcb",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/openembedded-alias/cargo-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/libstd-rs/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/python3-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/rust-native/UNIHASH/build/recipe"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/26edceb2b3adb6b981741b752c537a10",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/29729f8f8ac46311552a65b88d659339",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/47",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/2f1010d39f8618f592e20687f4ae74e3",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/50",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/361d47531d028ecb51ee2be34941c673",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/18",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/36c63e9b4a64c8af6a1f7f6e74ba9234",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/56",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/3c9a7896def7beb6482ad1cf43112d6a",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/11",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/3e6e16a99cdf2b7c53b97afa0d0bd781",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/20",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/3e911ed868e148caf920a4c7cdff47ee",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/6",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/3f514a77ea074529677ddfa8f43b481c",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/70",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/40c7fb5bbc908c4ddbeaacab54e3d3f5",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/46",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/440213a071c78b83c8c944ef6f0cde43",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/26",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/443d3e8c72216d332a4791e1ec317922",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/58",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/474d75a90ba543e86b87472b7e763ab8",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/4a47513e2dffb2d84e55bd1269492028",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/37",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/560fa4c7a0425dc1fb231de4e6620e52",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dev"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/569d3a7ba025dfee4abaf060bf4a762b",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/69",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/5888a1ac545984607a46c60f57cda312",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/71",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/5a0a3ffbba55b74147c234f0c7e57a42",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/33",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/5dee1e5afe1398136e7672b1453d692e",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/61",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/5f584ebf16e318694bff29d6786f68d6",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/44",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/60eb1f9415989a01b9dd5c44ade0f0f7",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/66",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/639123f47fe5ca12b458ef00dbb2ce0e",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/34",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/6683ab8020b7ee6ae869d8fd709d73c9",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/31",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/66c2f24c7dc48c11a00b06eff49706c7",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/63",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/66ed53ed9608508f4dacb4a7db31c46f",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/10",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/67f4cafe8d0a4c3a59736fd00a8f698b",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/19",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/69d3955c35c8f3e75f315a39c3a8a94e",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl/file/1"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/6bf606399239c2117d806e28df04c0ec",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/39",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/6c0f1cd128930da5e7e97d3ef515d400",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/9",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/6e3655a8fea734b5fdf79402c3172587",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dbg"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/703dde87ac7e141bdbb4c8af489cd330",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/5",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/707da21e46ebea7b162301047667d6a0",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/12",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/73cf40e88b9c04570414e30c2588f7ba",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/57",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/7498d5123a0a8098c8a28d119377b73d",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/51",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/7569c306dc8c1b6bc6ba1783503d59eb",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/53",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/757a7df3a7047c35d1afe74708d72e2f",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/67",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/7902bb5cd4ead1af7c463e0850cab13f",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/52",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/8d45b37a00d8fa47d1dfd55245a51232",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/1",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/975b52ef430086ea596a5b25fdaba2c0",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/d6ca1f4e41456c4ee36b827deb73f732",
+      "relationshipType": "ancestorOf",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/9e7c5849ef2d95459f388a89be280667",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/62",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/9ffaed74489373da3e87b47c070ce505",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/8",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/a5672b334b0eff002752814da47bb10b",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/48",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/a774faf7396f99e39f000c34834256d3",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/35",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ac5a8acfaa3e23c59f628e910edb6516",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/22",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ad7db3ac330876f7eebf654be12e1d8f",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/25",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ad8b89bdecea04c8ae62188304a63a66",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/17",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/adec621ebb9532742ebdeb423d6b2599",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dev",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dev/file/1"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ae77e611732115dd94d5090e3fbb8e0d",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/43",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/af1b2dbc80466c0360c36e549c11641f",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/75",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/b4c89b284dacff596b02c033870a2365",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/68",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ba1fbd6a728ef358767348c1763f2c88",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dbg",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/bd098171087cdf8d6a4815c13f0a596c",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dev",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/bd5db316e2a15da7dfa7511355e06e55",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/60",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/c04f1c9bc16bfb89f600345007b3ae58",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/build/recipe",
+      "relationshipType": "hasInput",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/1",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/10",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/11",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/12",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/13",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/14",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/15",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/16",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/17",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/18",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/19",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/2",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/20",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/21",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/22",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/23",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/24",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/25",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/26",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/27",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/28",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/29",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/3",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/30",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/31",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/32",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/33",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/34",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/35",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/36",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/37",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/38",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/39",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/4",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/40",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/41",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/42",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/43",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/44",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/45",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/46",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/47",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/48",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/49",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/5",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/50",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/51",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/52",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/53",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/54",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/55",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/56",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/57",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/58",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/59",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/6",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/60",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/61",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/62",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/63",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/64",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/65",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/66",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/67",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/68",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/69",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/7",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/70",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/71",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/72",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/73",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/74",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/75",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/8",
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/9"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/c249b5a1cad9715d1216ebb194d4e0b9",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/13",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/c3e3992e9c2b020c393b7c5f92e256e4",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/14",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/c4649a76c60318dba127423e1d3bc74d",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/15",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/c5c4193519407fa86812ce9bd1e1d2b1",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/54",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/c648078994916162c0571dbd33ccd8bf",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/3",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ca5fb9666222f35b57b46d4e394fdf2c",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/36",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/cb15535730f3ab44910349efc17142db",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/28",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/cb1c440c30a279b6c81442fdfc9ae281",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/42",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/d04ff0a67688f75654e9cead715cbd4c",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/24",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/d66c9775306fa8bc16f2048690dd3d6a",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/41",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/dcd8b726e56b2b5b255766c72b43c26a",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/64",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/e29f7459fef3f6d82588bc44e6280c38",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/55",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/e5c98aeb52b9bbc5a6ba3b245a6f7fb8",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/16",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/e7b244df2ae9964701bbb34f13740c0a",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/29",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/eaba274cb07929f50521fcc0423568ae",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/38",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ebe2b5030bf0b51fcb2de3f4020918ad",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/73",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ec1357e942d8d2fd21f33235545bd6dc",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/32",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/ee334e9920984ae7187068a093c89421",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dbg",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/package/hexyl-dbg/file/1"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/f27fee7946b63f378c0d6a87c7da92ac",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/30",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/f4675667d23a311ac2803f9c16af1144",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/45",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/f7d8b8b56c0f647c03a84933635dd0a8",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/2",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/fc108e52d6a55b7774d2ba9ea51991ba",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/49",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/relationship/fcffbde62bfc9971667d7d686c1facaf",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/65",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/license/3_24_0/MIT_OR_Apache-2_0"
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/1",
+      "creationInfo": "_:CreationInfo8",
+      "name": "github.com.sharkdp.hexyl.git",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/sharkdp/hexyl.git@427a5524e19cf951fe41c2da8b940ade3ec39848"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/10",
+      "creationInfo": "_:CreationInfo8",
+      "name": "autocfg-1.1.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/autocfg/1.1.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/11",
+      "creationInfo": "_:CreationInfo8",
+      "name": "bitflags-1.3.2.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/bitflags/1.3.2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/12",
+      "creationInfo": "_:CreationInfo8",
+      "name": "bitflags-2.4.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b4682ae6287fcf752ecaabbfcc7b6f9b72aa33933dc23a554d853aea8eea8635"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/bitflags/2.4.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/13",
+      "creationInfo": "_:CreationInfo8",
+      "name": "bstr-1.6.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6798148dccfbff0fae41c7574d2fa8f1ef3492fba0face179de5d8d447d67b05"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/bstr/1.6.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/14",
+      "creationInfo": "_:CreationInfo8",
+      "name": "cc-1.0.83.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f1174fb0b6ec23863f8b971027804a42614e347eafb0a95bf0b12cdae21fc4d0"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/cc/1.0.83"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/15",
+      "creationInfo": "_:CreationInfo8",
+      "name": "clap-4.3.23.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "03aef18ddf7d879c15ce20f04826ef8418101c7e528014c3eeea13321047dca3"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/clap/4.3.23"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/16",
+      "creationInfo": "_:CreationInfo8",
+      "name": "clap_builder-4.3.23.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f8ce6fffb678c9b80a70b6b6de0aad31df727623a70fd9a842c30cd573e2fa98"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/clap_builder/4.3.23"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/17",
+      "creationInfo": "_:CreationInfo8",
+      "name": "clap_derive-4.3.12.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "54a9bb5758fc5dfe728d1019941681eccaf0cf8a4189b692a0ee2f2ecf90a050"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/clap_derive/4.3.12"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/18",
+      "creationInfo": "_:CreationInfo8",
+      "name": "clap_lex-0.5.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2da6da31387c7e4ef160ffab6d5e7f00c42626fe39aea70a7b0f1773f7dd6c1b"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/clap_lex/0.5.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/19",
+      "creationInfo": "_:CreationInfo8",
+      "name": "colorchoice-1.0.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/colorchoice/1.0.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/2",
+      "creationInfo": "_:CreationInfo8",
+      "name": "aho-corasick-1.0.4.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6748e8def348ed4d14996fa801f4122cd763fff530258cdc03f64b25f89d3a5a"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/aho-corasick/1.0.4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/20",
+      "creationInfo": "_:CreationInfo8",
+      "name": "const_format-0.2.31.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c990efc7a285731f9a4378d81aff2f0e85a2c8781a05ef0f8baa8dac54d0ff48"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/const_format/0.2.31"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/21",
+      "creationInfo": "_:CreationInfo8",
+      "name": "const_format_proc_macros-0.2.31.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e026b6ce194a874cb9cf32cd5772d1ef9767cc8fcb5765948d74f37a9d8b2bf6"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/const_format_proc_macros/0.2.31"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/22",
+      "creationInfo": "_:CreationInfo8",
+      "name": "diff-0.1.13.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "56254986775e3233ffa9c4d7d3faaf6d36a2c09d30b20687e9f88bc8bafc16c8"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/diff/0.1.13"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/23",
+      "creationInfo": "_:CreationInfo8",
+      "name": "difflib-0.4.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6184e33543162437515c2e2b48714794e37845ec9851711914eec9d308f6ebe8"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/difflib/0.4.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/24",
+      "creationInfo": "_:CreationInfo8",
+      "name": "doc-comment-0.3.3.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/doc-comment/0.3.3"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/25",
+      "creationInfo": "_:CreationInfo8",
+      "name": "either-1.9.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a26ae43d7bcc3b814de94796a5e736d4029efb0ee900c12e2d54c993ad1a1e07"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/either/1.9.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/26",
+      "creationInfo": "_:CreationInfo8",
+      "name": "errno-0.3.2.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6b30f669a7961ef1631673d2766cc92f52d64f7ef354d4fe0ddfd30ed52f0f4f"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/errno/0.3.2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/27",
+      "creationInfo": "_:CreationInfo8",
+      "name": "errno-dragonfly-0.1.2.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "aa68f1b12764fab894d2755d2518754e71b4fd80ecfb822714a1206c2aab39bf"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/errno-dragonfly/0.1.2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/28",
+      "creationInfo": "_:CreationInfo8",
+      "name": "float-cmp-0.9.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "98de4bbd547a563b716d8dfa9aad1cb19bfab00f4fa09a6a4ed21dbcf44ce9c4"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/float-cmp/0.9.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/29",
+      "creationInfo": "_:CreationInfo8",
+      "name": "heck-0.4.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/heck/0.4.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/3",
+      "creationInfo": "_:CreationInfo8",
+      "name": "anstream-0.3.2.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0ca84f3628370c59db74ee214b3263d58f9aadd9b4fe7e711fd87dc452b7f163"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/anstream/0.3.2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/30",
+      "creationInfo": "_:CreationInfo8",
+      "name": "hermit-abi-0.3.2.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/hermit-abi/0.3.2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/31",
+      "creationInfo": "_:CreationInfo8",
+      "name": "io-lifetimes-1.0.11.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "eae7b9aee968036d54dce06cebaefd919e4472e753296daccd6d344e3e2df0c2"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/io-lifetimes/1.0.11"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/32",
+      "creationInfo": "_:CreationInfo8",
+      "name": "is-terminal-0.4.9.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cb0889898416213fab133e1d33a0e5858a48177452750691bde3666d0fdbaf8b"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/is-terminal/0.4.9"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/33",
+      "creationInfo": "_:CreationInfo8",
+      "name": "is_ci-1.1.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "616cde7c720bb2bb5824a224687d8f77bfd38922027f01d825cd7453be5099fb"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/is_ci/1.1.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/34",
+      "creationInfo": "_:CreationInfo8",
+      "name": "itertools-0.10.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/itertools/0.10.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/35",
+      "creationInfo": "_:CreationInfo8",
+      "name": "libc-0.2.155.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/libc/0.2.155"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/36",
+      "creationInfo": "_:CreationInfo8",
+      "name": "linux-raw-sys-0.3.8.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ef53942eb7bf7ff43a617b3e2c1c4a5ecf5944a7c1bc12d7ee39bbb15e5c1519"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/linux-raw-sys/0.3.8"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/37",
+      "creationInfo": "_:CreationInfo8",
+      "name": "linux-raw-sys-0.4.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "57bcfdad1b858c2db7c38303a6d2ad4dfaf5eb53dfeb0910128b2c26d6158503"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/linux-raw-sys/0.4.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/38",
+      "creationInfo": "_:CreationInfo8",
+      "name": "memchr-2.5.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/memchr/2.5.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/39",
+      "creationInfo": "_:CreationInfo8",
+      "name": "normalize-line-endings-0.3.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "61807f77802ff30975e01f4f071c8ba10c022052f98b3294119f3e615d13e5be"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/normalize-line-endings/0.3.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/4",
+      "creationInfo": "_:CreationInfo8",
+      "name": "anstyle-1.0.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3a30da5c5f2d5e72842e00bcb57657162cdabef0931f40e2deb9b4140440cecd"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/anstyle/1.0.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/40",
+      "creationInfo": "_:CreationInfo8",
+      "name": "num-traits-0.2.16.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f30b0abd723be7e2ffca1272140fac1a2f084c77ec3e123c192b66af1ee9e6c2"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/num-traits/0.2.16"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/41",
+      "creationInfo": "_:CreationInfo8",
+      "name": "once_cell-1.18.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dd8b5dd2ae5ed71462c540258bedcb51965123ad7e7ccf4b9a8cafaa4a63576d"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/once_cell/1.18.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/42",
+      "creationInfo": "_:CreationInfo8",
+      "name": "owo-colors-3.5.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c1b04fb49957986fdce4d6ee7a65027d55d4b6d2265e5848bbb507b58ccfdb6f"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/owo-colors/3.5.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/43",
+      "creationInfo": "_:CreationInfo8",
+      "name": "predicates-3.0.3.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "09963355b9f467184c04017ced4a2ba2d75cbcb4e7462690d388233253d4b1a9"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/predicates/3.0.3"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/44",
+      "creationInfo": "_:CreationInfo8",
+      "name": "predicates-core-1.0.6.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b794032607612e7abeb4db69adb4e33590fa6cf1149e95fd7cb00e634b92f174"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/predicates-core/1.0.6"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/45",
+      "creationInfo": "_:CreationInfo8",
+      "name": "predicates-tree-1.0.9.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "368ba315fb8c5052ab692e68a0eefec6ec57b23a36959c14496f0b0df2c0cecf"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/predicates-tree/1.0.9"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/46",
+      "creationInfo": "_:CreationInfo8",
+      "name": "pretty_assertions-1.4.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "af7cee1a6c8a5b9208b3cb1061f10c0cb689087b3d8ce85fb9d2dd7a29b6ba66"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/pretty_assertions/1.4.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/47",
+      "creationInfo": "_:CreationInfo8",
+      "name": "proc-macro2-1.0.66.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "18fb31db3f9bddb2ea821cde30a9f70117e3f119938b5ee630b7403aa6e2ead9"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/proc-macro2/1.0.66"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/48",
+      "creationInfo": "_:CreationInfo8",
+      "name": "quote-1.0.33.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/quote/1.0.33"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/49",
+      "creationInfo": "_:CreationInfo8",
+      "name": "regex-1.9.3.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "81bc1d4caf89fac26a70747fe603c130093b53c773888797a6329091246d651a"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/regex/1.9.3"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/5",
+      "creationInfo": "_:CreationInfo8",
+      "name": "anstyle-parse-0.2.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "938874ff5980b03a87c5524b3ae5b59cf99b1d6bc836848df7bc5ada9643c333"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/anstyle-parse/0.2.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/50",
+      "creationInfo": "_:CreationInfo8",
+      "name": "regex-automata-0.3.6.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fed1ceff11a1dddaee50c9dc8e4938bd106e9d89ae372f192311e7da498e3b69"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/regex-automata/0.3.6"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/51",
+      "creationInfo": "_:CreationInfo8",
+      "name": "regex-syntax-0.7.4.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e5ea92a5b6195c6ef2a0295ea818b312502c6fc94dde986c5553242e18fd4ce2"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/regex-syntax/0.7.4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/52",
+      "creationInfo": "_:CreationInfo8",
+      "name": "rustix-0.37.23.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4d69718bf81c6127a49dc64e44a742e8bb9213c0ff8869a22c308f84c1d4ab06"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/rustix/0.37.23"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/53",
+      "creationInfo": "_:CreationInfo8",
+      "name": "rustix-0.38.8.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "19ed4fa021d81c8392ce04db050a3da9a60299050b7ae1cf482d862b54a7218f"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/rustix/0.38.8"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/54",
+      "creationInfo": "_:CreationInfo8",
+      "name": "serde-1.0.185.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "be9b6f69f1dfd54c3b568ffa45c310d6973a5e5148fd40cf515acaf38cf5bc31"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/serde/1.0.185"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/55",
+      "creationInfo": "_:CreationInfo8",
+      "name": "strsim-0.10.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/strsim/0.10.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/56",
+      "creationInfo": "_:CreationInfo8",
+      "name": "supports-color-2.0.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4950e7174bffabe99455511c39707310e7e9b440364a2fcb1cc21521be57b354"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/supports-color/2.0.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/57",
+      "creationInfo": "_:CreationInfo8",
+      "name": "syn-2.0.29.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c324c494eba9d92503e6f1ef2e6df781e78f6a7705a0202d9801b198807d518a"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/syn/2.0.29"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/58",
+      "creationInfo": "_:CreationInfo8",
+      "name": "terminal_size-0.2.6.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8e6bf6f19e9f8ed8d4048dc22981458ebcf406d67e94cd422e5ecd73d63b3237"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/terminal_size/0.2.6"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/59",
+      "creationInfo": "_:CreationInfo8",
+      "name": "termtree-0.4.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "3369f5ac52d5eb6ab48c6b4ffdc8efbcad6b89c765749064ba298f2c68a16a76"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/termtree/0.4.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/6",
+      "creationInfo": "_:CreationInfo8",
+      "name": "anstyle-query-1.0.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5ca11d4be1bab0c8bc8734a9aa7bf4ee8316d462a08c6ac5052f888fef5b494b"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/anstyle-query/1.0.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/60",
+      "creationInfo": "_:CreationInfo8",
+      "name": "thiserror-1.0.47.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "97a802ec30afc17eee47b2855fc72e0c4cd62be9b4efe6591edde0ec5bd68d8f"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/thiserror/1.0.47"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/61",
+      "creationInfo": "_:CreationInfo8",
+      "name": "thiserror-impl-1.0.47.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6bb623b56e39ab7dcd4b1b98bb6c8f8d907ed255b18de254088016b27a8ee19b"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/thiserror-impl/1.0.47"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/62",
+      "creationInfo": "_:CreationInfo8",
+      "name": "unicode-ident-1.0.11.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "301abaae475aa91687eb82514b328ab47a211a533026cb25fc3e519b86adfc3c"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/unicode-ident/1.0.11"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/63",
+      "creationInfo": "_:CreationInfo8",
+      "name": "unicode-xid-0.2.4.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f962df74c8c05a667b5ee8bcf162993134c104e96440b663c8daa176dc772d8c"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/unicode-xid/0.2.4"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/64",
+      "creationInfo": "_:CreationInfo8",
+      "name": "utf8parse-0.2.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "711b9620af191e0cdc7468a8d14e709c3dcdb115b36f838e601583af800a370a"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/utf8parse/0.2.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/65",
+      "creationInfo": "_:CreationInfo8",
+      "name": "wait-timeout-0.2.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9f200f5b12eb75f8c1ed65abd4b2db8a6e1b138a20de009dacee265a2498f3f6"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/wait-timeout/0.2.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/66",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows-sys-0.48.0.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "677d2418bec65e3338edb076e806bc1ec15693c5d0104683f2efe857f61056a9"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows-sys/0.48.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/67",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows-targets-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9a2fa6e2155d7247be68c096456083145c183cbbbc2764150dda45a87197940c"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows-targets/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/68",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_aarch64_gnullvm-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2b38e32f0abccf9987a4e3079dfb67dcd799fb61361e53e2882c3cbaf0d905d8"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_aarch64_gnullvm/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/69",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_aarch64_msvc-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dc35310971f3b2dbbf3f0690a219f40e2d9afcf64f9ab7cc1be722937c26b4bc"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_aarch64_msvc/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/7",
+      "creationInfo": "_:CreationInfo8",
+      "name": "anstyle-wincon-1.0.2.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c677ab05e09154296dd37acecd46420c17b9713e8366facafa8fc0885167cf4c"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/anstyle-wincon/1.0.2"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/70",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_i686_gnu-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a75915e7def60c94dcef72200b9a8e58e5091744960da64ec734a6c6e9b3743e"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_i686_gnu/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/71",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_i686_msvc-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8f55c233f70c4b27f66c523580f78f1004e8b5a8b659e05a4eb49d4166cca406"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_i686_msvc/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/72",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_x86_64_gnu-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "53d40abd2583d23e4718fddf1ebec84dbff8381c07cae67ff7768bbf19c6718e"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_x86_64_gnu/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/73",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_x86_64_gnullvm-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0b7b52767868a23d5bab768e390dc5f5c55825b6d30b86c844ff2dc7414044cc"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_x86_64_gnullvm/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/74",
+      "creationInfo": "_:CreationInfo8",
+      "name": "windows_x86_64_msvc-0.48.5.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ed94fce61571a4006852b7389a063ab983c02eb1bb37b47f8272ce92d06d9538"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/windows_x86_64_msvc/0.48.5"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/75",
+      "creationInfo": "_:CreationInfo8",
+      "name": "yansi-0.5.1.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "09041cd90cf85f7f8b2df60c646f853b7f535ce68f85244eb6731cf89fa498ec"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/yansi/0.5.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/8",
+      "creationInfo": "_:CreationInfo8",
+      "name": "anyhow-1.0.75.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a4668cab20f66d8d020e1fbc0ebe47217433c1b6c8f2040faf858554e394ace6"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/anyhow/1.0.75"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/hexyl-3fbd628d-b0a4-57db-b11f-f8880d5b0d55/d5b97daebfcf079a1ba432aaf9ac1090a4f20ee53f194a1ca93cdb8588891bd1/source/9",
+      "creationInfo": "_:CreationInfo8",
+      "name": "assert_cmd-2.0.12.crate",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "88903cb14723e4d4003335bb7f8a14f27691649105346a0f0957466c096adfe6"
+        }
+      ],
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "crate://crates.io/assert_cmd/2.0.12"
+    }
+  ]
+}

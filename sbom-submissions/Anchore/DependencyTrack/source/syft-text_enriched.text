@@ -1,0 +1,401 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track]
+[./.github/workflows/_meta-build.yaml]
+ Version:	 UNKNOWN
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[./.github/workflows/_meta-build.yaml]
+ Version:	 UNKNOWN
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[JUnitParams]
+ Version:	 1.1.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[actions/checkout]
+ Version:	 d632683dd7b4114ad314bca15554477dd762a938
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 d632683dd7b4114ad314bca15554477dd762a938
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 d632683dd7b4114ad314bca15554477dd762a938
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 d632683dd7b4114ad314bca15554477dd762a938
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 d632683dd7b4114ad314bca15554477dd762a938
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/dependency-review-action]
+ Version:	 5a2ce3f5b92ee19cbb1541a4984c76d921601d7c
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/download-artifact]
+ Version:	 fa0a91b85d4f404e444e00e005971372dc801d16
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/download-artifact]
+ Version:	 fa0a91b85d4f404e444e00e005971372dc801d16
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/download-artifact]
+ Version:	 fa0a91b85d4f404e444e00e005971372dc801d16
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-java]
+ Version:	 b36c23c0d998641eff861008f374ee103c25ac73
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-java]
+ Version:	 b36c23c0d998641eff861008f374ee103c25ac73
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-java]
+ Version:	 b36c23c0d998641eff861008f374ee103c25ac73
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-artifact]
+ Version:	 50769540e7f4bd5e21e526ee35c689e35e0d6874
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-artifact]
+ Version:	 50769540e7f4bd5e21e526ee35c689e35e0d6874
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[alpine-common]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[alpine-infra]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[alpine-model]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[alpine-server]
+ Version:	 3.1.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[aquasecurity/trivy-action]
+ Version:	 6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[assertj-core]
+ Version:	 3.26.3
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[awaitility]
+ Version:	 4.2.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[cloud-sql-connector-jdbc-sqlserver]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[codacy/codacy-coverage-reporter-action]
+ Version:	 v1.3.0
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[commons-compress]
+ Version:	 1.27.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[commons-text]
+ Version:	 1.12.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[cpe-parser]
+ Version:	 2.1.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[cvss-calculator]
+ Version:	 1.4.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[cyclonedx-core-java]
+ Version:	 9.1.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[dec]
+ Version:	 0.1.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[dependency-track]
+ Version:	 4.12.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[dessant/lock-threads]
+ Version:	 be8aa5be94131386884a6da4189effda9b14aa21
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[docker/build-push-action]
+ Version:	 32945a339266b759abcbdc89316275140b0fc960
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[docker/login-action]
+ Version:	 9780b0c442fbb1117ed29e0efdff1e18412f7567
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[docker/setup-buildx-action]
+ Version:	 988b5a0280414f521da01fcc63a27aeeb4b104db
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[docker/setup-qemu-action]
+ Version:	 49b3bc8e6bdd4a60e6116a5414239cba5943d3cf
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[github-api]
+ Version:	 1.323
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[github/codeql-action/upload-sarif]
+ Version:	 461ef6c76dfe95d5c364de2f431ddbd31a417628
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[greenmail-junit4]
+ Version:	 2.0.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[httpclient]
+ Version:	 4.5.14
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[httpclient5]
+ Version:	 5.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[httpmime]
+ Version:	 4.5.14
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[jakarta.servlet-api]
+ Version:	 6.1.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[jersey-grizzly-connector]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[jersey-test-framework-provider-grizzly2]
+ Version:	 3.1.9
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[json]
+ Version:	 20240303
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[json-unit-assertj]
+ Version:	 3.4.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[junit]
+ Version:	 4.13.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[log4j-over-slf4j]
+ Version:	 2.0.16
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[lucene-analyzers-common]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[lucene-core]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[lucene-queries]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[lucene-queryparser]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[lucene-sandbox]
+ Version:	 8.11.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[maven-artifact]
+ Version:	 3.9.9
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[mockito-core]
+ Version:	 5.14.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[mockserver-netty]
+ Version:	 5.15.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[mssql-jdbc]
+ Version:	 12.8.1.jre11
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[mysql-connector-j]
+ Version:	 8.2.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[mysql-socket-factory-connector-j-8]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[open-vulnerability-clients]
+ Version:	 7.0.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[owasp-risk-rating-calculator]
+ Version:	 1.0.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[packageurl-java]
+ Version:	 1.5.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[pebble]
+ Version:	 3.2.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[postgres-socket-factory]
+ Version:	 1.20.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[postgresql]
+ Version:	 42.7.4
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[protobuf-java]
+ Version:	 4.28.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[protobuf-java-util]
+ Version:	 4.28.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[resilience4j-micrometer]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[resilience4j-ratelimiter]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[resilience4j-retry]
+ Version:	 2.2.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[signpost-core]
+ Version:	 2.1.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[swagger-jaxrs2-jakarta]
+ Version:	 2.2.25
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[swagger-parser]
+ Version:	 2.1.22
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[system-rules]
+ Version:	 1.19.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[testcontainers]
+ Version:	 1.20.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[wiremock-jre8]
+ Version:	 2.35.2
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[woodstox-core]
+ Version:	 7.0.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+

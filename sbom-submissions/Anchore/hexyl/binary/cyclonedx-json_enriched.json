@@ -1,0 +1,4470 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:9b6a0a58-b0a3-48bf-b593-9c4284b8995f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-13T14:27:14+01:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.18.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "cf93973ffc265bbe",
+      "type": "file",
+      "name": "./sharkdp/hexyl"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=aeb03ba31fb61328",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@main?package-id=3f5c0a3426a340e0",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "main",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@main",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/aho-corasick@1.0.4?package-id=11c37e814052a5b7",
+      "type": "library",
+      "name": "aho-corasick",
+      "version": "1.0.4",
+      "cpe": "cpe:2.3:a:aho-corasick:aho-corasick:1.0.4:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/aho-corasick@1.0.4",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho-corasick:aho_corasick:1.0.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho_corasick:aho-corasick:1.0.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho_corasick:aho_corasick:1.0.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho:aho-corasick:1.0.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho:aho_corasick:1.0.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstream@0.3.2?package-id=6e8b4b77168b4fe7",
+      "type": "library",
+      "name": "anstream",
+      "version": "0.3.2",
+      "cpe": "cpe:2.3:a:anstream:anstream:0.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstream@0.3.2",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle@1.0.1?package-id=a69c215dc8190cc4",
+      "type": "library",
+      "name": "anstyle",
+      "version": "1.0.1",
+      "cpe": "cpe:2.3:a:anstyle:anstyle:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle@1.0.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle-parse@0.2.1?package-id=ac820d8c5983e2ca",
+      "type": "library",
+      "name": "anstyle-parse",
+      "version": "0.2.1",
+      "cpe": "cpe:2.3:a:anstyle-parse:anstyle-parse:0.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle-parse@0.2.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle-parse:anstyle_parse:0.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_parse:anstyle-parse:0.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_parse:anstyle_parse:0.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle-parse:0.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle_parse:0.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle-query@1.0.0?package-id=1cefdbd89028d37f",
+      "type": "library",
+      "name": "anstyle-query",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:anstyle-query:anstyle-query:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle-query@1.0.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle-query:anstyle_query:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_query:anstyle-query:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_query:anstyle_query:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle-query:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle_query:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle-wincon@1.0.2?package-id=416ba8d9f11ae522",
+      "type": "library",
+      "name": "anstyle-wincon",
+      "version": "1.0.2",
+      "cpe": "cpe:2.3:a:anstyle-wincon:anstyle-wincon:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle-wincon@1.0.2",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle-wincon:anstyle_wincon:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_wincon:anstyle-wincon:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_wincon:anstyle_wincon:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle-wincon:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle_wincon:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anyhow@1.0.75?package-id=47ff90916f0111d5",
+      "type": "library",
+      "name": "anyhow",
+      "version": "1.0.75",
+      "cpe": "cpe:2.3:a:anyhow:anyhow:1.0.75:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anyhow@1.0.75",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/assert_cmd@2.0.12?package-id=ffeeb818aa38f681",
+      "type": "library",
+      "name": "assert_cmd",
+      "version": "2.0.12",
+      "cpe": "cpe:2.3:a:assert-cmd:assert-cmd:2.0.12:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/assert_cmd@2.0.12",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:assert-cmd:assert_cmd:2.0.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:assert_cmd:assert-cmd:2.0.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:assert_cmd:assert_cmd:2.0.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:assert:assert-cmd:2.0.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:assert:assert_cmd:2.0.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/autocfg@1.1.0?package-id=476c52bf676193e7",
+      "type": "library",
+      "name": "autocfg",
+      "version": "1.1.0",
+      "cpe": "cpe:2.3:a:autocfg:autocfg:1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/autocfg@1.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/bitflags@1.3.2?package-id=4e66679aa7bd7439",
+      "type": "library",
+      "name": "bitflags",
+      "version": "1.3.2",
+      "cpe": "cpe:2.3:a:bitflags:bitflags:1.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/bitflags@1.3.2",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/bitflags@2.4.0?package-id=ee15961e7117e947",
+      "type": "library",
+      "name": "bitflags",
+      "version": "2.4.0",
+      "cpe": "cpe:2.3:a:bitflags:bitflags:2.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/bitflags@2.4.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/bstr@1.6.0?package-id=4c06ddad37ca2b12",
+      "type": "library",
+      "name": "bstr",
+      "version": "1.6.0",
+      "cpe": "cpe:2.3:a:bstr:bstr:1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/bstr@1.6.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/cc@1.0.83?package-id=59c44dfec1f31fbd",
+      "type": "library",
+      "name": "cc",
+      "version": "1.0.83",
+      "cpe": "cpe:2.3:a:cc:cc:1.0.83:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/cc@1.0.83",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/clap@4.3.23?package-id=4728260d0f410499",
+      "type": "library",
+      "name": "clap",
+      "version": "4.3.23",
+      "cpe": "cpe:2.3:a:clap:clap:4.3.23:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/clap@4.3.23",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/clap_builder@4.3.23?package-id=f5fbce68e44b064e",
+      "type": "library",
+      "name": "clap_builder",
+      "version": "4.3.23",
+      "cpe": "cpe:2.3:a:clap-builder:clap-builder:4.3.23:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/clap_builder@4.3.23",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap-builder:clap_builder:4.3.23:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap_builder:clap-builder:4.3.23:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap_builder:clap_builder:4.3.23:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap:clap-builder:4.3.23:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap:clap_builder:4.3.23:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/clap_derive@4.3.12?package-id=5af368fc8f86603d",
+      "type": "library",
+      "name": "clap_derive",
+      "version": "4.3.12",
+      "cpe": "cpe:2.3:a:clap-derive:clap-derive:4.3.12:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/clap_derive@4.3.12",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap-derive:clap_derive:4.3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap_derive:clap-derive:4.3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap_derive:clap_derive:4.3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap:clap-derive:4.3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap:clap_derive:4.3.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/clap_lex@0.5.0?package-id=0e2c8310f42386bc",
+      "type": "library",
+      "name": "clap_lex",
+      "version": "0.5.0",
+      "cpe": "cpe:2.3:a:clap-lex:clap-lex:0.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/clap_lex@0.5.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap-lex:clap_lex:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap_lex:clap-lex:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap_lex:clap_lex:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap:clap-lex:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:clap:clap_lex:0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/colorchoice@1.0.0?package-id=64dde6bf13309760",
+      "type": "library",
+      "name": "colorchoice",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:colorchoice:colorchoice:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/colorchoice@1.0.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/const_format@0.2.31?package-id=b06e5226bd9458cc",
+      "type": "library",
+      "name": "const_format",
+      "version": "0.2.31",
+      "cpe": "cpe:2.3:a:const-format:const-format:0.2.31:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/const_format@0.2.31",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const-format:const_format:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format:const-format:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format:const_format:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const:const-format:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const:const_format:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/const_format_proc_macros@0.2.31?package-id=c8fc6734caa4e2fb",
+      "type": "library",
+      "name": "const_format_proc_macros",
+      "version": "0.2.31",
+      "cpe": "cpe:2.3:a:const-format-proc-macros:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/const_format_proc_macros@0.2.31",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const-format-proc-macros:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format_proc_macros:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format_proc_macros:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const-format-proc:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const-format-proc:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format_proc:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format_proc:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const-format:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const-format:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const_format:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const:const-format-proc-macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:const:const_format_proc_macros:0.2.31:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/diff@0.1.13?package-id=ea77deec138dac31",
+      "type": "library",
+      "name": "diff",
+      "version": "0.1.13",
+      "cpe": "cpe:2.3:a:diff:diff:0.1.13:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/diff@0.1.13",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/difflib@0.4.0?package-id=2212011723d2f13a",
+      "type": "library",
+      "name": "difflib",
+      "version": "0.4.0",
+      "cpe": "cpe:2.3:a:difflib:difflib:0.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/difflib@0.4.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/doc-comment@0.3.3?package-id=e57c6cf7ee599182",
+      "type": "library",
+      "name": "doc-comment",
+      "version": "0.3.3",
+      "cpe": "cpe:2.3:a:doc-comment:doc-comment:0.3.3:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/doc-comment@0.3.3",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:doc-comment:doc_comment:0.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:doc_comment:doc-comment:0.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:doc_comment:doc_comment:0.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:doc:doc-comment:0.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:doc:doc_comment:0.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/dtolnay/rust-toolchain@master?package-id=96aa86d16fd63310",
+      "type": "library",
+      "name": "dtolnay/rust-toolchain",
+      "version": "master",
+      "cpe": "cpe:2.3:a:dtolnay\\/rust-toolchain:dtolnay\\/rust-toolchain:master:*:*:*:*:*:*:*",
+      "purl": "pkg:github/dtolnay/rust-toolchain@master",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust-toolchain:dtolnay\\/rust_toolchain:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust_toolchain:dtolnay\\/rust-toolchain:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust_toolchain:dtolnay\\/rust_toolchain:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust:dtolnay\\/rust-toolchain:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust:dtolnay\\/rust_toolchain:master:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/dtolnay/rust-toolchain@stable?package-id=4eaaccb7803a1f76",
+      "type": "library",
+      "name": "dtolnay/rust-toolchain",
+      "version": "stable",
+      "cpe": "cpe:2.3:a:dtolnay\\/rust-toolchain:dtolnay\\/rust-toolchain:stable:*:*:*:*:*:*:*",
+      "purl": "pkg:github/dtolnay/rust-toolchain@stable",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust-toolchain:dtolnay\\/rust_toolchain:stable:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust_toolchain:dtolnay\\/rust-toolchain:stable:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust_toolchain:dtolnay\\/rust_toolchain:stable:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust:dtolnay\\/rust-toolchain:stable:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dtolnay\\/rust:dtolnay\\/rust_toolchain:stable:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/either@1.9.0?package-id=21781382e7e72be8",
+      "type": "library",
+      "name": "either",
+      "version": "1.9.0",
+      "cpe": "cpe:2.3:a:either:either:1.9.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/either@1.9.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/errno@0.3.2?package-id=505844c960ba4898",
+      "type": "library",
+      "name": "errno",
+      "version": "0.3.2",
+      "cpe": "cpe:2.3:a:errno:errno:0.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/errno@0.3.2",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/errno-dragonfly@0.1.2?package-id=e8f90770e1f0f529",
+      "type": "library",
+      "name": "errno-dragonfly",
+      "version": "0.1.2",
+      "cpe": "cpe:2.3:a:errno-dragonfly:errno-dragonfly:0.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/errno-dragonfly@0.1.2",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:errno-dragonfly:errno_dragonfly:0.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:errno_dragonfly:errno-dragonfly:0.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:errno_dragonfly:errno_dragonfly:0.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:errno:errno-dragonfly:0.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:errno:errno_dragonfly:0.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/float-cmp@0.9.0?package-id=fa9bb76f9f3f7227",
+      "type": "library",
+      "name": "float-cmp",
+      "version": "0.9.0",
+      "cpe": "cpe:2.3:a:float-cmp:float-cmp:0.9.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/float-cmp@0.9.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:float-cmp:float_cmp:0.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:float_cmp:float-cmp:0.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:float_cmp:float_cmp:0.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:float:float-cmp:0.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:float:float_cmp:0.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/heck@0.4.1?package-id=3db5f481a4ee6722",
+      "type": "library",
+      "name": "heck",
+      "version": "0.4.1",
+      "cpe": "cpe:2.3:a:heck:heck:0.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/heck@0.4.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/hermit-abi@0.3.2?package-id=e1dd3d0d0b9fbaa3",
+      "type": "library",
+      "name": "hermit-abi",
+      "version": "0.3.2",
+      "cpe": "cpe:2.3:a:hermit-abi:hermit-abi:0.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/hermit-abi@0.3.2",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hermit-abi:hermit_abi:0.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hermit_abi:hermit-abi:0.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hermit_abi:hermit_abi:0.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hermit:hermit-abi:0.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hermit:hermit_abi:0.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/hexyl@0.14.0?package-id=b23f04478f3fabb0",
+      "type": "library",
+      "name": "hexyl",
+      "version": "0.14.0",
+      "cpe": "cpe:2.3:a:hexyl:hexyl:0.14.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/hexyl@0.14.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/io-lifetimes@1.0.11?package-id=916868540dd69479",
+      "type": "library",
+      "name": "io-lifetimes",
+      "version": "1.0.11",
+      "cpe": "cpe:2.3:a:io-lifetimes:io-lifetimes:1.0.11:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/io-lifetimes@1.0.11",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:io-lifetimes:io_lifetimes:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:io_lifetimes:io-lifetimes:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:io_lifetimes:io_lifetimes:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:io:io-lifetimes:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:io:io_lifetimes:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/is-terminal@0.4.9?package-id=ceadc742542f394f",
+      "type": "library",
+      "name": "is-terminal",
+      "version": "0.4.9",
+      "cpe": "cpe:2.3:a:is-terminal:is-terminal:0.4.9:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/is-terminal@0.4.9",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is-terminal:is_terminal:0.4.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is_terminal:is-terminal:0.4.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is_terminal:is_terminal:0.4.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is:is-terminal:0.4.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is:is_terminal:0.4.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/is_ci@1.1.1?package-id=d88df7c8a71e2873",
+      "type": "library",
+      "name": "is_ci",
+      "version": "1.1.1",
+      "cpe": "cpe:2.3:a:is-ci:is-ci:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/is_ci@1.1.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is-ci:is_ci:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is_ci:is-ci:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is_ci:is_ci:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is:is-ci:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:is:is_ci:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/itertools@0.10.5?package-id=9302b6ecc6ce3fbd",
+      "type": "library",
+      "name": "itertools",
+      "version": "0.10.5",
+      "cpe": "cpe:2.3:a:itertools:itertools:0.10.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/itertools@0.10.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728",
+      "type": "library",
+      "name": "libc",
+      "version": "0.2.155",
+      "cpe": "cpe:2.3:a:libc:libc:0.2.155:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/libc@0.2.155",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/linux-raw-sys@0.3.8?package-id=15bc0eb7bfcbd6c8",
+      "type": "library",
+      "name": "linux-raw-sys",
+      "version": "0.3.8",
+      "cpe": "cpe:2.3:a:linux-raw-sys:linux-raw-sys:0.3.8:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/linux-raw-sys@0.3.8",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-raw-sys:linux_raw_sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw_sys:linux-raw-sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw_sys:linux_raw_sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-raw:linux-raw-sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-raw:linux_raw_sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw:linux-raw-sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw:linux_raw_sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux:linux-raw-sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux:linux_raw_sys:0.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/linux-raw-sys@0.4.5?package-id=6e553329d9df2a4b",
+      "type": "library",
+      "name": "linux-raw-sys",
+      "version": "0.4.5",
+      "cpe": "cpe:2.3:a:linux-raw-sys:linux-raw-sys:0.4.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/linux-raw-sys@0.4.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-raw-sys:linux_raw_sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw_sys:linux-raw-sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw_sys:linux_raw_sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-raw:linux-raw-sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-raw:linux_raw_sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw:linux-raw-sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_raw:linux_raw_sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux:linux-raw-sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux:linux_raw_sys:0.4.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/memchr@2.5.0?package-id=8fc8f7646a2db744",
+      "type": "library",
+      "name": "memchr",
+      "version": "2.5.0",
+      "cpe": "cpe:2.3:a:memchr:memchr:2.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/memchr@2.5.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/normalize-line-endings@0.3.0?package-id=f4d5d8295976ea80",
+      "type": "library",
+      "name": "normalize-line-endings",
+      "version": "0.3.0",
+      "cpe": "cpe:2.3:a:normalize-line-endings:normalize-line-endings:0.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/normalize-line-endings@0.3.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize-line-endings:normalize_line_endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize_line_endings:normalize-line-endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize_line_endings:normalize_line_endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize-line:normalize-line-endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize-line:normalize_line_endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize_line:normalize-line-endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize_line:normalize_line_endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize:normalize-line-endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:normalize:normalize_line_endings:0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/num-traits@0.2.16?package-id=a41134dd5ae5f24f",
+      "type": "library",
+      "name": "num-traits",
+      "version": "0.2.16",
+      "cpe": "cpe:2.3:a:num-traits:num-traits:0.2.16:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/num-traits@0.2.16",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:num-traits:num_traits:0.2.16:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:num_traits:num-traits:0.2.16:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:num_traits:num_traits:0.2.16:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:num:num-traits:0.2.16:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:num:num_traits:0.2.16:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/once_cell@1.18.0?package-id=2ed8fcb1a16611e5",
+      "type": "library",
+      "name": "once_cell",
+      "version": "1.18.0",
+      "cpe": "cpe:2.3:a:once-cell:once-cell:1.18.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/once_cell@1.18.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:once-cell:once_cell:1.18.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:once_cell:once-cell:1.18.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:once_cell:once_cell:1.18.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:once:once-cell:1.18.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:once:once_cell:1.18.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/owo-colors@3.5.0?package-id=d16e6e235bac2e6e",
+      "type": "library",
+      "name": "owo-colors",
+      "version": "3.5.0",
+      "cpe": "cpe:2.3:a:owo-colors:owo-colors:3.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/owo-colors@3.5.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:owo-colors:owo_colors:3.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:owo_colors:owo-colors:3.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:owo_colors:owo_colors:3.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:owo:owo-colors:3.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:owo:owo_colors:3.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/predicates@3.0.3?package-id=6d7058103a689a15",
+      "type": "library",
+      "name": "predicates",
+      "version": "3.0.3",
+      "cpe": "cpe:2.3:a:predicates:predicates:3.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/predicates@3.0.3",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/predicates-core@1.0.6?package-id=fea1899ee9bb8149",
+      "type": "library",
+      "name": "predicates-core",
+      "version": "1.0.6",
+      "cpe": "cpe:2.3:a:predicates-core:predicates-core:1.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/predicates-core@1.0.6",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates-core:predicates_core:1.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates_core:predicates-core:1.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates_core:predicates_core:1.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates:predicates-core:1.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates:predicates_core:1.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/predicates-tree@1.0.9?package-id=928eabf30850c33f",
+      "type": "library",
+      "name": "predicates-tree",
+      "version": "1.0.9",
+      "cpe": "cpe:2.3:a:predicates-tree:predicates-tree:1.0.9:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/predicates-tree@1.0.9",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates-tree:predicates_tree:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates_tree:predicates-tree:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates_tree:predicates_tree:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates:predicates-tree:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:predicates:predicates_tree:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/pretty_assertions@1.4.0?package-id=15064c4403f280ab",
+      "type": "library",
+      "name": "pretty_assertions",
+      "version": "1.4.0",
+      "cpe": "cpe:2.3:a:pretty-assertions:pretty-assertions:1.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/pretty_assertions@1.4.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pretty-assertions:pretty_assertions:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pretty_assertions:pretty-assertions:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pretty_assertions:pretty_assertions:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pretty:pretty-assertions:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pretty:pretty_assertions:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7",
+      "type": "library",
+      "name": "proc-macro2",
+      "version": "1.0.66",
+      "cpe": "cpe:2.3:a:proc-macro2:proc-macro2:1.0.66:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/proc-macro2@1.0.66",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc-macro2:proc_macro2:1.0.66:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc_macro2:proc-macro2:1.0.66:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc_macro2:proc_macro2:1.0.66:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc:proc-macro2:1.0.66:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc:proc_macro2:1.0.66:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/quote@1.0.33?package-id=d19f409afab995be",
+      "type": "library",
+      "name": "quote",
+      "version": "1.0.33",
+      "cpe": "cpe:2.3:a:quote:quote:1.0.33:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/quote@1.0.33",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/r-lib/actions@v2?package-id=0ac4a7f817823f1a#setup-pandoc",
+      "type": "library",
+      "name": "r-lib/actions/setup-pandoc",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:r-lib\\/actions\\/setup-pandoc:r-lib\\/actions\\/setup-pandoc:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/r-lib/actions@v2#setup-pandoc",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r-lib\\/actions\\/setup-pandoc:r_lib\\/actions\\/setup_pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r_lib\\/actions\\/setup_pandoc:r-lib\\/actions\\/setup-pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r_lib\\/actions\\/setup_pandoc:r_lib\\/actions\\/setup_pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r-lib\\/actions\\/setup:r-lib\\/actions\\/setup-pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r-lib\\/actions\\/setup:r_lib\\/actions\\/setup_pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r_lib\\/actions\\/setup:r-lib\\/actions\\/setup-pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r_lib\\/actions\\/setup:r_lib\\/actions\\/setup_pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r:r-lib\\/actions\\/setup-pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:r:r_lib\\/actions\\/setup_pandoc:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex@1.9.3?package-id=c34bd686bead0903",
+      "type": "library",
+      "name": "regex",
+      "version": "1.9.3",
+      "cpe": "cpe:2.3:a:regex:regex:1.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/regex@1.9.3",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex-automata@0.3.6?package-id=3c22dc2b2a0293c6",
+      "type": "library",
+      "name": "regex-automata",
+      "version": "0.3.6",
+      "cpe": "cpe:2.3:a:regex-automata:regex-automata:0.3.6:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/regex-automata@0.3.6",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex-automata:regex_automata:0.3.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex_automata:regex-automata:0.3.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex_automata:regex_automata:0.3.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex:regex-automata:0.3.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex:regex_automata:0.3.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/regex-syntax@0.7.4?package-id=e032aa4f34392a00",
+      "type": "library",
+      "name": "regex-syntax",
+      "version": "0.7.4",
+      "cpe": "cpe:2.3:a:regex-syntax:regex-syntax:0.7.4:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/regex-syntax@0.7.4",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex-syntax:regex_syntax:0.7.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex_syntax:regex-syntax:0.7.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex_syntax:regex_syntax:0.7.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex:regex-syntax:0.7.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:regex:regex_syntax:0.7.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/rustix@0.37.23?package-id=8340c24e921d1456",
+      "type": "library",
+      "name": "rustix",
+      "version": "0.37.23",
+      "cpe": "cpe:2.3:a:rustix:rustix:0.37.23:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/rustix@0.37.23",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/rustix@0.38.8?package-id=b6c9175107ea3a55",
+      "type": "library",
+      "name": "rustix",
+      "version": "0.38.8",
+      "cpe": "cpe:2.3:a:rustix:rustix:0.38.8:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/rustix@0.38.8",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/serde@1.0.185?package-id=a3d00839ce6633ab",
+      "type": "library",
+      "name": "serde",
+      "version": "1.0.185",
+      "cpe": "cpe:2.3:a:serde:serde:1.0.185:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/serde@1.0.185",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/softprops/action-gh-release@v1?package-id=f4b3ca6905ddfa96",
+      "type": "library",
+      "name": "softprops/action-gh-release",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:softprops\\/action-gh-release:softprops\\/action-gh-release:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/softprops/action-gh-release@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action-gh-release:softprops\\/action_gh_release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action_gh_release:softprops\\/action-gh-release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action_gh_release:softprops\\/action_gh_release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action-gh:softprops\\/action-gh-release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action-gh:softprops\\/action_gh_release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action_gh:softprops\\/action-gh-release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action_gh:softprops\\/action_gh_release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action:softprops\\/action-gh-release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:softprops\\/action:softprops\\/action_gh_release:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/strsim@0.10.0?package-id=6bd2bd582fabad26",
+      "type": "library",
+      "name": "strsim",
+      "version": "0.10.0",
+      "cpe": "cpe:2.3:a:strsim:strsim:0.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/strsim@0.10.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/supports-color@2.0.0?package-id=a971f71c20bb421f",
+      "type": "library",
+      "name": "supports-color",
+      "version": "2.0.0",
+      "cpe": "cpe:2.3:a:supports-color:supports-color:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/supports-color@2.0.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:supports-color:supports_color:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:supports_color:supports-color:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:supports_color:supports_color:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:supports:supports-color:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:supports:supports_color:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/syn@2.0.29?package-id=25302eaa4c1c788e",
+      "type": "library",
+      "name": "syn",
+      "version": "2.0.29",
+      "cpe": "cpe:2.3:a:syn:syn:2.0.29:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/syn@2.0.29",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/taiki-e/install-action@v2?package-id=3140122b21a65b4d",
+      "type": "library",
+      "name": "taiki-e/install-action",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:taiki-e\\/install-action:taiki-e\\/install-action:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/taiki-e/install-action@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki-e\\/install-action:taiki_e\\/install_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki_e\\/install_action:taiki-e\\/install-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki_e\\/install_action:taiki_e\\/install_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki-e\\/install:taiki-e\\/install-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki-e\\/install:taiki_e\\/install_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki_e\\/install:taiki-e\\/install-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki_e\\/install:taiki_e\\/install_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki:taiki-e\\/install-action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:taiki:taiki_e\\/install_action:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/CICD.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/terminal_size@0.2.6?package-id=4fc327ff062f2361",
+      "type": "library",
+      "name": "terminal_size",
+      "version": "0.2.6",
+      "cpe": "cpe:2.3:a:terminal-size:terminal-size:0.2.6:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/terminal_size@0.2.6",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:terminal-size:terminal_size:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:terminal_size:terminal-size:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:terminal_size:terminal_size:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:terminal:terminal-size:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:terminal:terminal_size:0.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/termtree@0.4.1?package-id=19439d2d9bcfd148",
+      "type": "library",
+      "name": "termtree",
+      "version": "0.4.1",
+      "cpe": "cpe:2.3:a:termtree:termtree:0.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/termtree@0.4.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/thiserror@1.0.47?package-id=e74861184e918335",
+      "type": "library",
+      "name": "thiserror",
+      "version": "1.0.47",
+      "cpe": "cpe:2.3:a:thiserror:thiserror:1.0.47:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/thiserror@1.0.47",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/thiserror-impl@1.0.47?package-id=6c0d2b1fd0ed2dfa",
+      "type": "library",
+      "name": "thiserror-impl",
+      "version": "1.0.47",
+      "cpe": "cpe:2.3:a:thiserror-impl:thiserror-impl:1.0.47:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/thiserror-impl@1.0.47",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:thiserror-impl:thiserror_impl:1.0.47:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:thiserror_impl:thiserror-impl:1.0.47:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:thiserror_impl:thiserror_impl:1.0.47:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:thiserror:thiserror-impl:1.0.47:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:thiserror:thiserror_impl:1.0.47:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/unicode-ident@1.0.11?package-id=220e042ce6843473",
+      "type": "library",
+      "name": "unicode-ident",
+      "version": "1.0.11",
+      "cpe": "cpe:2.3:a:unicode-ident:unicode-ident:1.0.11:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/unicode-ident@1.0.11",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode-ident:unicode_ident:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_ident:unicode-ident:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_ident:unicode_ident:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode-ident:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode_ident:1.0.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/unicode-xid@0.2.4?package-id=71ee34e587b710fb",
+      "type": "library",
+      "name": "unicode-xid",
+      "version": "0.2.4",
+      "cpe": "cpe:2.3:a:unicode-xid:unicode-xid:0.2.4:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/unicode-xid@0.2.4",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode-xid:unicode_xid:0.2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_xid:unicode-xid:0.2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_xid:unicode_xid:0.2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode-xid:0.2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode_xid:0.2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/utf8parse@0.2.1?package-id=9dedc970fc6c066b",
+      "type": "library",
+      "name": "utf8parse",
+      "version": "0.2.1",
+      "cpe": "cpe:2.3:a:utf8parse:utf8parse:0.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/utf8parse@0.2.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/wait-timeout@0.2.0?package-id=193b8b96d37494f7",
+      "type": "library",
+      "name": "wait-timeout",
+      "version": "0.2.0",
+      "cpe": "cpe:2.3:a:wait-timeout:wait-timeout:0.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/wait-timeout@0.2.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wait-timeout:wait_timeout:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wait_timeout:wait-timeout:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wait_timeout:wait_timeout:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wait:wait-timeout:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wait:wait_timeout:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b",
+      "type": "library",
+      "name": "windows-sys",
+      "version": "0.48.0",
+      "cpe": "cpe:2.3:a:windows-sys:windows-sys:0.48.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows-sys@0.48.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-sys:windows_sys:0.48.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_sys:windows-sys:0.48.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_sys:windows_sys:0.48.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-sys:0.48.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_sys:0.48.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows-targets@0.48.5?package-id=5fd339ae206440f4",
+      "type": "library",
+      "name": "windows-targets",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-targets:windows-targets:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows-targets@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-targets:windows_targets:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_targets:windows-targets:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_targets:windows_targets:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-targets:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_targets:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_aarch64_gnullvm@0.48.5?package-id=de5f462acab97af0",
+      "type": "library",
+      "name": "windows_aarch64_gnullvm",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-aarch64-gnullvm:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_aarch64_gnullvm@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-aarch64-gnullvm:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64_gnullvm:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64_gnullvm:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-aarch64:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-aarch64:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-aarch64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_aarch64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_aarch64_msvc@0.48.5?package-id=4cb412554024ca76",
+      "type": "library",
+      "name": "windows_aarch64_msvc",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-aarch64-msvc:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_aarch64_msvc@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-aarch64-msvc:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64_msvc:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64_msvc:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-aarch64:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-aarch64:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_aarch64:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-aarch64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_aarch64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_i686_gnu@0.48.5?package-id=cb2224e8c9acbadd",
+      "type": "library",
+      "name": "windows_i686_gnu",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-i686-gnu:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_i686_gnu@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-i686-gnu:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686_gnu:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686_gnu:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-i686:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-i686:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-i686-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_i686_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_i686_msvc@0.48.5?package-id=0beb1261b503e6d1",
+      "type": "library",
+      "name": "windows_i686_msvc",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-i686-msvc:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_i686_msvc@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-i686-msvc:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686_msvc:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686_msvc:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-i686:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-i686:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_i686:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-i686-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_i686_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_x86_64_gnu@0.48.5?package-id=851aca70a531a3d2",
+      "type": "library",
+      "name": "windows_x86_64_gnu",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-x86-64-gnu:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_x86_64_gnu@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64-gnu:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64_gnu:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64_gnu:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-x86-64-gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_x86_64_gnu:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_x86_64_gnullvm@0.48.5?package-id=6d0ba4d4ad06bb30",
+      "type": "library",
+      "name": "windows_x86_64_gnullvm",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-x86-64-gnullvm:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_x86_64_gnullvm@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64-gnullvm:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64_gnullvm:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64_gnullvm:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-x86-64-gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_x86_64_gnullvm:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/windows_x86_64_msvc@0.48.5?package-id=fd6119fa316c15e2",
+      "type": "library",
+      "name": "windows_x86_64_msvc",
+      "version": "0.48.5",
+      "cpe": "cpe:2.3:a:windows-x86-64-msvc:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/windows_x86_64_msvc@0.48.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64-msvc:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64_msvc:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64_msvc:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86-64:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86_64:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows-x86:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows_x86:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows-x86-64-msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:windows:windows_x86_64_msvc:0.48.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/yansi@0.5.1?package-id=a23d66407c3aa1c1",
+      "type": "library",
+      "name": "yansi",
+      "version": "0.5.1",
+      "cpe": "cpe:2.3:a:yansi:yansi:0.5.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/yansi@0.5.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:cargo/aho-corasick@1.0.4?package-id=11c37e814052a5b7",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.5.0?package-id=8fc8f7646a2db744"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/anstream@0.3.2?package-id=6e8b4b77168b4fe7",
+      "dependsOn": [
+        "pkg:cargo/anstyle-parse@0.2.1?package-id=ac820d8c5983e2ca",
+        "pkg:cargo/anstyle-query@1.0.0?package-id=1cefdbd89028d37f",
+        "pkg:cargo/anstyle-wincon@1.0.2?package-id=416ba8d9f11ae522",
+        "pkg:cargo/anstyle@1.0.1?package-id=a69c215dc8190cc4",
+        "pkg:cargo/colorchoice@1.0.0?package-id=64dde6bf13309760",
+        "pkg:cargo/is-terminal@0.4.9?package-id=ceadc742542f394f",
+        "pkg:cargo/utf8parse@0.2.1?package-id=9dedc970fc6c066b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/anstyle-parse@0.2.1?package-id=ac820d8c5983e2ca",
+      "dependsOn": [
+        "pkg:cargo/utf8parse@0.2.1?package-id=9dedc970fc6c066b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/anstyle-query@1.0.0?package-id=1cefdbd89028d37f",
+      "dependsOn": [
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/anstyle-wincon@1.0.2?package-id=416ba8d9f11ae522",
+      "dependsOn": [
+        "pkg:cargo/anstyle@1.0.1?package-id=a69c215dc8190cc4",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/assert_cmd@2.0.12?package-id=ffeeb818aa38f681",
+      "dependsOn": [
+        "pkg:cargo/anstyle@1.0.1?package-id=a69c215dc8190cc4",
+        "pkg:cargo/bstr@1.6.0?package-id=4c06ddad37ca2b12",
+        "pkg:cargo/doc-comment@0.3.3?package-id=e57c6cf7ee599182",
+        "pkg:cargo/predicates-core@1.0.6?package-id=fea1899ee9bb8149",
+        "pkg:cargo/predicates-tree@1.0.9?package-id=928eabf30850c33f",
+        "pkg:cargo/predicates@3.0.3?package-id=6d7058103a689a15",
+        "pkg:cargo/wait-timeout@0.2.0?package-id=193b8b96d37494f7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/bstr@1.6.0?package-id=4c06ddad37ca2b12",
+      "dependsOn": [
+        "pkg:cargo/memchr@2.5.0?package-id=8fc8f7646a2db744",
+        "pkg:cargo/regex-automata@0.3.6?package-id=3c22dc2b2a0293c6",
+        "pkg:cargo/serde@1.0.185?package-id=a3d00839ce6633ab"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/cc@1.0.83?package-id=59c44dfec1f31fbd",
+      "dependsOn": [
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/clap@4.3.23?package-id=4728260d0f410499",
+      "dependsOn": [
+        "pkg:cargo/clap_builder@4.3.23?package-id=f5fbce68e44b064e",
+        "pkg:cargo/clap_derive@4.3.12?package-id=5af368fc8f86603d",
+        "pkg:cargo/once_cell@1.18.0?package-id=2ed8fcb1a16611e5"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/clap_builder@4.3.23?package-id=f5fbce68e44b064e",
+      "dependsOn": [
+        "pkg:cargo/anstream@0.3.2?package-id=6e8b4b77168b4fe7",
+        "pkg:cargo/anstyle@1.0.1?package-id=a69c215dc8190cc4",
+        "pkg:cargo/clap_lex@0.5.0?package-id=0e2c8310f42386bc",
+        "pkg:cargo/strsim@0.10.0?package-id=6bd2bd582fabad26",
+        "pkg:cargo/terminal_size@0.2.6?package-id=4fc327ff062f2361"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/clap_derive@4.3.12?package-id=5af368fc8f86603d",
+      "dependsOn": [
+        "pkg:cargo/heck@0.4.1?package-id=3db5f481a4ee6722",
+        "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7",
+        "pkg:cargo/quote@1.0.33?package-id=d19f409afab995be",
+        "pkg:cargo/syn@2.0.29?package-id=25302eaa4c1c788e"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/const_format@0.2.31?package-id=b06e5226bd9458cc",
+      "dependsOn": [
+        "pkg:cargo/const_format_proc_macros@0.2.31?package-id=c8fc6734caa4e2fb"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/const_format_proc_macros@0.2.31?package-id=c8fc6734caa4e2fb",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7",
+        "pkg:cargo/quote@1.0.33?package-id=d19f409afab995be",
+        "pkg:cargo/unicode-xid@0.2.4?package-id=71ee34e587b710fb"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/errno-dragonfly@0.1.2?package-id=e8f90770e1f0f529",
+      "dependsOn": [
+        "pkg:cargo/cc@1.0.83?package-id=59c44dfec1f31fbd",
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/errno@0.3.2?package-id=505844c960ba4898",
+      "dependsOn": [
+        "pkg:cargo/errno-dragonfly@0.1.2?package-id=e8f90770e1f0f529",
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/float-cmp@0.9.0?package-id=fa9bb76f9f3f7227",
+      "dependsOn": [
+        "pkg:cargo/num-traits@0.2.16?package-id=a41134dd5ae5f24f"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/hexyl@0.14.0?package-id=b23f04478f3fabb0",
+      "dependsOn": [
+        "pkg:cargo/anyhow@1.0.75?package-id=47ff90916f0111d5",
+        "pkg:cargo/assert_cmd@2.0.12?package-id=ffeeb818aa38f681",
+        "pkg:cargo/clap@4.3.23?package-id=4728260d0f410499",
+        "pkg:cargo/const_format@0.2.31?package-id=b06e5226bd9458cc",
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728",
+        "pkg:cargo/owo-colors@3.5.0?package-id=d16e6e235bac2e6e",
+        "pkg:cargo/predicates@3.0.3?package-id=6d7058103a689a15",
+        "pkg:cargo/pretty_assertions@1.4.0?package-id=15064c4403f280ab",
+        "pkg:cargo/supports-color@2.0.0?package-id=a971f71c20bb421f",
+        "pkg:cargo/terminal_size@0.2.6?package-id=4fc327ff062f2361",
+        "pkg:cargo/thiserror@1.0.47?package-id=e74861184e918335"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/io-lifetimes@1.0.11?package-id=916868540dd69479",
+      "dependsOn": [
+        "pkg:cargo/hermit-abi@0.3.2?package-id=e1dd3d0d0b9fbaa3",
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/is-terminal@0.4.9?package-id=ceadc742542f394f",
+      "dependsOn": [
+        "pkg:cargo/hermit-abi@0.3.2?package-id=e1dd3d0d0b9fbaa3",
+        "pkg:cargo/rustix@0.38.8?package-id=b6c9175107ea3a55",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/itertools@0.10.5?package-id=9302b6ecc6ce3fbd",
+      "dependsOn": [
+        "pkg:cargo/either@1.9.0?package-id=21781382e7e72be8"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/num-traits@0.2.16?package-id=a41134dd5ae5f24f",
+      "dependsOn": [
+        "pkg:cargo/autocfg@1.1.0?package-id=476c52bf676193e7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/predicates-tree@1.0.9?package-id=928eabf30850c33f",
+      "dependsOn": [
+        "pkg:cargo/predicates-core@1.0.6?package-id=fea1899ee9bb8149",
+        "pkg:cargo/termtree@0.4.1?package-id=19439d2d9bcfd148"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/predicates@3.0.3?package-id=6d7058103a689a15",
+      "dependsOn": [
+        "pkg:cargo/anstyle@1.0.1?package-id=a69c215dc8190cc4",
+        "pkg:cargo/difflib@0.4.0?package-id=2212011723d2f13a",
+        "pkg:cargo/float-cmp@0.9.0?package-id=fa9bb76f9f3f7227",
+        "pkg:cargo/itertools@0.10.5?package-id=9302b6ecc6ce3fbd",
+        "pkg:cargo/normalize-line-endings@0.3.0?package-id=f4d5d8295976ea80",
+        "pkg:cargo/predicates-core@1.0.6?package-id=fea1899ee9bb8149",
+        "pkg:cargo/regex@1.9.3?package-id=c34bd686bead0903"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/pretty_assertions@1.4.0?package-id=15064c4403f280ab",
+      "dependsOn": [
+        "pkg:cargo/diff@0.1.13?package-id=ea77deec138dac31",
+        "pkg:cargo/yansi@0.5.1?package-id=a23d66407c3aa1c1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7",
+      "dependsOn": [
+        "pkg:cargo/unicode-ident@1.0.11?package-id=220e042ce6843473"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/quote@1.0.33?package-id=d19f409afab995be",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/regex-automata@0.3.6?package-id=3c22dc2b2a0293c6",
+      "dependsOn": [
+        "pkg:cargo/aho-corasick@1.0.4?package-id=11c37e814052a5b7",
+        "pkg:cargo/memchr@2.5.0?package-id=8fc8f7646a2db744",
+        "pkg:cargo/regex-syntax@0.7.4?package-id=e032aa4f34392a00"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/regex@1.9.3?package-id=c34bd686bead0903",
+      "dependsOn": [
+        "pkg:cargo/aho-corasick@1.0.4?package-id=11c37e814052a5b7",
+        "pkg:cargo/memchr@2.5.0?package-id=8fc8f7646a2db744",
+        "pkg:cargo/regex-automata@0.3.6?package-id=3c22dc2b2a0293c6",
+        "pkg:cargo/regex-syntax@0.7.4?package-id=e032aa4f34392a00"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rustix@0.37.23?package-id=8340c24e921d1456",
+      "dependsOn": [
+        "pkg:cargo/bitflags@1.3.2?package-id=4e66679aa7bd7439",
+        "pkg:cargo/errno@0.3.2?package-id=505844c960ba4898",
+        "pkg:cargo/io-lifetimes@1.0.11?package-id=916868540dd69479",
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728",
+        "pkg:cargo/linux-raw-sys@0.3.8?package-id=15bc0eb7bfcbd6c8",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/rustix@0.38.8?package-id=b6c9175107ea3a55",
+      "dependsOn": [
+        "pkg:cargo/bitflags@2.4.0?package-id=ee15961e7117e947",
+        "pkg:cargo/errno@0.3.2?package-id=505844c960ba4898",
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728",
+        "pkg:cargo/linux-raw-sys@0.4.5?package-id=6e553329d9df2a4b",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/supports-color@2.0.0?package-id=a971f71c20bb421f",
+      "dependsOn": [
+        "pkg:cargo/is-terminal@0.4.9?package-id=ceadc742542f394f",
+        "pkg:cargo/is_ci@1.1.1?package-id=d88df7c8a71e2873"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/syn@2.0.29?package-id=25302eaa4c1c788e",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7",
+        "pkg:cargo/quote@1.0.33?package-id=d19f409afab995be",
+        "pkg:cargo/unicode-ident@1.0.11?package-id=220e042ce6843473"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/terminal_size@0.2.6?package-id=4fc327ff062f2361",
+      "dependsOn": [
+        "pkg:cargo/rustix@0.37.23?package-id=8340c24e921d1456",
+        "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/thiserror-impl@1.0.47?package-id=6c0d2b1fd0ed2dfa",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.66?package-id=f7e017edbbb306e7",
+        "pkg:cargo/quote@1.0.33?package-id=d19f409afab995be",
+        "pkg:cargo/syn@2.0.29?package-id=25302eaa4c1c788e"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/thiserror@1.0.47?package-id=e74861184e918335",
+      "dependsOn": [
+        "pkg:cargo/thiserror-impl@1.0.47?package-id=6c0d2b1fd0ed2dfa"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/wait-timeout@0.2.0?package-id=193b8b96d37494f7",
+      "dependsOn": [
+        "pkg:cargo/libc@0.2.155?package-id=3501b14e3105a728"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-sys@0.48.0?package-id=d06aa9c8ae18886b",
+      "dependsOn": [
+        "pkg:cargo/windows-targets@0.48.5?package-id=5fd339ae206440f4"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/windows-targets@0.48.5?package-id=5fd339ae206440f4",
+      "dependsOn": [
+        "pkg:cargo/windows_aarch64_gnullvm@0.48.5?package-id=de5f462acab97af0",
+        "pkg:cargo/windows_aarch64_msvc@0.48.5?package-id=4cb412554024ca76",
+        "pkg:cargo/windows_i686_gnu@0.48.5?package-id=cb2224e8c9acbadd",
+        "pkg:cargo/windows_i686_msvc@0.48.5?package-id=0beb1261b503e6d1",
+        "pkg:cargo/windows_x86_64_gnu@0.48.5?package-id=851aca70a531a3d2",
+        "pkg:cargo/windows_x86_64_gnullvm@0.48.5?package-id=6d0ba4d4ad06bb30",
+        "pkg:cargo/windows_x86_64_msvc@0.48.5?package-id=fd6119fa316c15e2"
+      ]
+    }
+  ]
+}

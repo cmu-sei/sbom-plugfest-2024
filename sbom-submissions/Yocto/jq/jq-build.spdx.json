@@ -1,0 +1,2253 @@
+{
+  "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph": [
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo1",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo2",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo3",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo5",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo6",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo8",
+      "created": "2024-11-25T15:14:30Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo9",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo10",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo11",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo12",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "@id": "_:CreationInfo14",
+      "created": "2024-11-20T23:12:18Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "CreationInfo",
+      "created": "2024-11-25T15:10:22Z",
+      "createdBy": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded"
+      ],
+      "createdUsing": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0"
+      ],
+      "specVersion": "3.0.1"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/1c85bb2f44a77a1ed5c966a5c50a344e",
+      "creationInfo": "_:CreationInfo3",
+      "build_buildStartTime": "2024-11-25T15:10:22Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "Person",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt",
+      "creationInfo": "_:CreationInfo3",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "email",
+          "identifier": "JPEWhacker@gmail.com"
+        }
+      ],
+      "name": "Joshua Watt"
+    },
+    {
+      "type": "Organization",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/OpenEmbedded",
+      "creationInfo": "_:CreationInfo10",
+      "name": "OpenEmbedded"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/01bf11ef88a20d432699d51d130b55ed",
+      "creationInfo": "_:CreationInfo3",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/1c85bb2f44a77a1ed5c966a5c50a344e",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/relationship/4ddc6c7ebf93b04dd376d689ee877772",
+      "creationInfo": "_:CreationInfo8",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/d9d8ed3db3cabe8ea5f052a32abeaa61",
+      "relationshipType": "invokedBy",
+      "to": [
+        "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/agent/Joshua_Watt"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Tool",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/bitbake/tool/oe-spdx-creator_1_0",
+      "creationInfo": "_:CreationInfo10",
+      "name": "oe-spdx-creator 1.0"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/d9d8ed3db3cabe8ea5f052a32abeaa61",
+      "creationInfo": "_:CreationInfo8",
+      "build_buildStartTime": "2024-11-25T15:14:30Z",
+      "build_buildType": "http://openembedded.org/bitbake"
+    },
+    {
+      "type": "SpdxDocument",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/b0a6233c8d3ac7261273c1093a8aee400dc306eff8cef2e5f12405ac7656dd1b/document/jq-build",
+      "creationInfo": "_:CreationInfo9",
+      "name": "jq-build",
+      "profileConformance": [
+        "build",
+        "core",
+        "security",
+        "simpleLicensing",
+        "software"
+      ],
+      "rootElement": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/b0a6233c8d3ac7261273c1093a8aee400dc306eff8cef2e5f12405ac7656dd1b/sbom/jq-build"
+      ],
+      "import": [
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/autoconf-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/automake-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/libtool-cross/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/onig/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/libtool-native/UNIHASH/build/recipe"
+        },
+        {
+          "type": "ExternalMap",
+          "externalSpdxId": "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe"
+        }
+      ]
+    },
+    {
+      "type": "software_Sbom",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/b0a6233c8d3ac7261273c1093a8aee400dc306eff8cef2e5f12405ac7656dd1b/sbom/jq-build",
+      "creationInfo": "_:CreationInfo9",
+      "name": "jq-build",
+      "rootElement": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe"
+      ],
+      "software_sbomType": [
+        "build"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/e43ae7c812d24f062f7b348d3b331dc66c329ce35ef267a4ec5aff23d5f5e12a/relationship/1cdf416c93bc025cb0b758a7e59f99c6",
+      "creationInfo": "_:CreationInfo11",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq"
+      ],
+      "scope": "runtime"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/e43ae7c812d24f062f7b348d3b331dc66c329ce35ef267a4ec5aff23d5f5e12a/relationship/8d93fc2cbe23e91bc22a899c08f5e6f6",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq"
+      ],
+      "scope": "runtime"
+    },
+    {
+      "type": "build_Build",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "creationInfo": "_:CreationInfo14",
+      "name": "jq:do_create_spdx:recipe",
+      "build_buildType": "http://openembedded.org/bitbake/do_create_spdx/recipe"
+    },
+    {
+      "type": "simplelicensing_LicenseExpression",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT",
+      "creationInfo": "_:CreationInfo14",
+      "simplelicensing_licenseExpression": "MIT",
+      "simplelicensing_licenseListVersion": "3.24.0"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq",
+      "creationInfo": "_:CreationInfo6",
+      "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:jq:1.7.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "jq",
+      "summary": "Lightweight and flexible command-line JSON processor",
+      "builtTime": "2024-11-25T15:10:59Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://jqlang.github.io/jq/",
+      "software_packageVersion": "1.7.1"
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg",
+      "creationInfo": "_:CreationInfo12",
+      "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.  This package contains ELF symbols and related sources for debugging purposes.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:jq:1.7.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "jq-dbg",
+      "summary": "Lightweight and flexible command-line JSON processor - Debugging files",
+      "builtTime": "2024-11-25T15:10:59Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://jqlang.github.io/jq/",
+      "software_packageVersion": "1.7.1"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg/file/1",
+      "creationInfo": "_:CreationInfo12",
+      "name": "usr/bin/.debug/jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2210e7c4fdc7dadca0f42d5ad328d5c2bdbabf4e3c5a9624c3380dcee265b1fe"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg/file/2",
+      "creationInfo": "_:CreationInfo12",
+      "name": "usr/lib/.debug/libjq.so.1.0.4",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "83149af51692e4fb3a1d35b0ab1f922b4eb89b30710bded0ad7166ad76f9b856"
+        }
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev",
+      "creationInfo": "_:CreationInfo2",
+      "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.  This package contains symbolic links, header files, and related items necessary for software development.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:jq:1.7.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "jq-dev",
+      "summary": "Lightweight and flexible command-line JSON processor - Development files",
+      "builtTime": "2024-11-25T15:10:59Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://jqlang.github.io/jq/",
+      "software_packageVersion": "1.7.1"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev/file/1",
+      "creationInfo": "_:CreationInfo2",
+      "name": "usr/include/jv.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "556ac4e5dc680e68ca3fb0d76c63e7ffc7ff058a14d2c82dd9329656a9b2860f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev/file/2",
+      "creationInfo": "_:CreationInfo2",
+      "name": "usr/include/jq.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "976689e8c3dc0b4b7d7bba50dc560277c638694681a356be61ae93787b335f8d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev/file/3",
+      "creationInfo": "_:CreationInfo2",
+      "name": "usr/lib/pkgconfig/libjq.pc",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c964516be0a38d28e7130f1190fd75b54198148eae01615145ed110459284c98"
+        }
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc",
+      "creationInfo": "_:CreationInfo5",
+      "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.  This package contains documentation.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:jq:1.7.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "jq-doc",
+      "summary": "Lightweight and flexible command-line JSON processor - Documentation files",
+      "builtTime": "2024-11-25T15:10:59Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://jqlang.github.io/jq/",
+      "software_packageVersion": "1.7.1"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/1",
+      "creationInfo": "_:CreationInfo5",
+      "name": "usr/share/doc/jq/AUTHORS",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fbde8771ec29911563e5b0e17adf2c1b48583b7e34bcda63bfcfd1cdc9e74403"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/2",
+      "creationInfo": "_:CreationInfo5",
+      "name": "usr/share/doc/jq/COPYING",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ea9e53f5974239869c51ace8bb6849c9751dee7c9d592180957987a1a133caff"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/3",
+      "creationInfo": "_:CreationInfo5",
+      "name": "usr/share/doc/jq/README.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1c90edd8a3b16d2f251406830476e8ce7efdc36501c404dd23395b7e215293f3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/4",
+      "creationInfo": "_:CreationInfo5",
+      "name": "usr/share/doc/jq/NEWS.md",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f2b96b86f2fd600582f049cb774772e2e6de51f901b63a64aac147ee6033484d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/5",
+      "creationInfo": "_:CreationInfo5",
+      "name": "usr/share/man/man1/jq.1",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7b24c1924b0406d15c02f7bba5fb90ec67757e9eb81b9b5e63a233dade43b3c1"
+        }
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest",
+      "creationInfo": "_:CreationInfo11",
+      "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.  This package contains a test directory /usr/lib/jq/ptest for package test purposes.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:jq:1.7.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "jq-ptest",
+      "summary": "Lightweight and flexible command-line JSON processor - Package test files",
+      "builtTime": "2024-11-25T15:10:59Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://jqlang.github.io/jq/",
+      "software_packageVersion": "1.7.1"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/1",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/run-ptest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c039cc9f085287088de14b27e87266f2e97e19eae9ef0ea6f13809b161e22215"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/10",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/uri.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "50a80984bda47101ffbce532ea8b25b9855638ceb59bd8e130d649e8cc2cedfb"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/11",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/setup",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8d52c83f0c4c814467f3108e45788991bf5d4597b8f688cb8383d16d4913ace8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/12",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/onig.supp",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "52c963e624d9414b334765d990d3894de1731e8c8ce92fe5a801662117ecdf23"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/13",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/optional.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "994c3be50823da63c7908a6e1c000a2f63a521bcb639a6423cfb1359e180e465"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/14",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_execute.cpp",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "38ac0d8bcf21789239df639765d8bc2727d3813a2cd0f82c474ab9f07d819794"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/15",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/manonig.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d68810e7a2877e0ff04b7a2f6fde731ccd7d1348e1973582e6004eb06e6fb9b6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/16",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0fc9af55afeedf9aed4ebb399d11095ea52974ac667a0f3140f1cde8ce35faaf"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/17",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/mantest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4b74f99e88105e606fb52c54c0906c646c1d41537205be9a49df935bfe17551b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/18",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/utf8test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1c10256dd03113f750fb4330408d723d62b90ad70176c26a96589998af092bea"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/19",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/onig.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "af6f33f8903efae6d15d97ca94017cb439a7fdda51506618bd85100b17a72444"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/2",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/optionaltest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "53d32337a91fd589aa3adb16e1ddf4a6a46338396f4e36dec40517ce15efa7a7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/20",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/local.supp",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "802bdbd6fb077dbee075fbb03227f52f5be3d610e4dc53ca2b74811586c73498"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/21",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_load_file.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fd77384c94b162230b937c62238d10cf5d48cce977490ee3b90443435a0d235a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/22",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/base64.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7835b2aa4d0dad61f294eca1656f0707862d3496813d7c21f79deb3bd2aff7e0"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/23",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/no-main-program.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cca36527b63a975b1436651bd226648522e80495daa2def13bd897657e70404f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/24",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/utf8-truncate.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "22c4b24ca0627e78e1cb32d94f5790116479f77d385bb40d0c8f8b9227668c41"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/25",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_parse_stream.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4b779832c5aeb80515b906b93f965a0be3d57516a888336fceee7ffd763de8a2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/26",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/base64test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1beddd88bef60e127619fe7529faab24d8901502455921903b44406ae1e6e7d4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/27",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_parse_extended.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d64134c3057040df69b3b3f47ef3ec7ca0487c8fac1916a0e9343846b8c4deea"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/28",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_parse.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "18e02df14fb38eae59681722389a7213970472278294e5a90fe154a779107f51"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/29",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jqtest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "69d39819afabf813321b8f74b46806d49a80d3893ea2194767daaa51af114028"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/3",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_compile.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "1069e012ae653419433fdf097da7aa125afa79798d3605d2295d3c4f3045033a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/30",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/uritest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "46bccaf65b88c31e2935b6ecd05d382943fa885c5632add13af14646eba168be"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/31",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq_fuzz_fixed.cpp",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "940b46606399e7dc4f1ea6c9e54bb43ff1fd1579dc3d9d6a91c702932fca2b4c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/32",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/torture/input0.json",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6cde61ff437ed25e744ee6dbe9074c3fc083ae695362f88f6588db51888190aa"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/33",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/test_bind_order0.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "48bbb068b4be846c573367ff0e6eb877d14bff744888942dd0466ce193b9c495"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/34",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/test_bind_order1.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9080d347b1e59e17080169d424468c4e86311b3218c9fbad9a16b848797f8aa5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/35",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/test_bind_order2.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6ba3c7b667796643474ac6f4ec2cb2cd4af6221c3152ea03df9497319cc4153f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/36",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/shadow2.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9ca1a1064b6f2905b8e19982ce5c7d9b8faf550421bc404567fb1ea97021e06e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/37",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/a.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7b7313916208fa1da942666fed434b86764e793e2f0bdc958af434bb25c2d9c7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/38",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/data.json",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "2792ffbd2efa54ed2c0d1fc2d49a15c2c78d66fc327de2c62e5d67517600b512"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/39",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/shadow1.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f81cd9dadecb4261b551897b5fe1928fb8801bd2e9edac87253bc3f96a8cfc1f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/4",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/man.test",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4e9b5ff8ee4f994bf429d4922ec0ccbd89ce716bc78ac54e9dda4d799332b3c3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/40",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/test_bind_order.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "27e7416b8f1f50b56b40e062c3dadd143dda941ee3c5da87b2225a9c5bf6f0d1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/41",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/c/d.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f1f1e4e99cb7e90e3ede5c213fdc10240ca382c02fc146fc0298b4b4cb91e54c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/42",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/c/c.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cd046303810732db16a92a41f34d00ff1db7df62a2015fdd4651731e7cb5ba8e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/43",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/b/b.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ab098816baea1d1c80a461f0e1531badefde8ec3c61b9df9186a4860efee2fcd"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/44",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/home1/.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9af4419dd48334fece4fffd6e609fa959050dbcb4d0579e6df9d4b433d2dd435"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/45",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/home2/.jq/g.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "290ac9ccd65fbc3207f858afcb698b4c03214b6fa53584613f731257aeaed3cd"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/46",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/lib/jq/f.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5b17ccce65d6949daca26d51b078106954549830ee346a7d4473ea369218f0e6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/47",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/lib/jq/e/e.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5a8139806897104ba640598676d1ceca16751c20cb2b470806f6ab58a588724a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/48",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/modules/syntaxerror/syntaxerror.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "97a34c7388efcdc06458d4170e68f0d5466c5427be5f193f3dbf78ee8a30fc88"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/49",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/.libs/libjq.lai",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a5a9cfa7ed60b20680ab414ae27f169ec5e84d33bbdc94796a97f0a6b0103f91"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/5",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/onigtest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f7ec99be459cc148d08f8bb1fdd52fefc1d8d80b4c3b95e404e9902a72556a7d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/50",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/.libs/libjq.ver",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "f805f35b33fd48c0e9732115033fcf089a8027e7559a60141069e300d39003d1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/51",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/.libs/libjq.exp",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d06cee6de50393e11fdc3d8b321a0de372374748946f4d40b9ad179355ca8396"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/6",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/yes-main-program.jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "d285778fa35736a0b39236d942af6eade3a0124d32e467554993a48c2114b9d5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/7",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/shtest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "89cf4a2eaaa842a22f9d09b8607aa7c1708b7304036a3d3647ee42840b8d40d8"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/8",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/manonigtest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "51aa04effca68fda52fb5ba4343204cd8ad3c191ade841143431a83754a02dc7"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/9",
+      "creationInfo": "_:CreationInfo11",
+      "name": "usr/lib/jq/ptest/tests/jq-f-test.sh",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "6da01606f606abb43cdbde4a70034d98aaae3d481ba44ab911bcd12da7f8d121"
+        }
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src",
+      "creationInfo": "_:CreationInfo1",
+      "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.  This package contains sources for debugging purposes.",
+      "externalIdentifier": [
+        {
+          "type": "ExternalIdentifier",
+          "externalIdentifierType": "cpe23",
+          "identifier": "cpe:2.3:*:*:jq:1.7.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "name": "jq-src",
+      "summary": "Lightweight and flexible command-line JSON processor - Source files",
+      "builtTime": "2024-11-25T15:10:59Z",
+      "software_primaryPurpose": "install",
+      "software_homePage": "https://jqlang.github.io/jq/",
+      "software_packageVersion": "1.7.1"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/1",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_alloc.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fb592b213a15e1326c60a62430af492eff09650fe03abfd585563d96a0166595"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/10",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/util.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "5c72d9970481a41c93bccc993df2776e368252d5134808569212803578ad9679"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/11",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/util.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fd8adf652fb1c09a3b14354124909384dea01637182cfcfdb3f471a960b9414b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/12",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/bytecode.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "240d60fd0a62588066e13eb7e2961ce341338a33aea14c2e4b91c5be90d2e8bb"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/13",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_parse.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b894d4b76ac1ad341066939179ff1dd9001e318eab74f9f4609bea29c198d87d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/14",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_dtoa_tsd.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "46ac4f955148a4fa1c5224e58cc9e67fe4672ec08777854cb5d4adcf6013a8f4"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/15",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_utf8_tables.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c46c76aada9e0bd7e48f9daa427ae51ee6688e32872aa61ae624e8d2524108d6"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/16",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_unicode.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "bc42a12acedb0468aa3b13a105b994bd8e81c15357f10375dc295866132044de"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/17",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/locfile.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "affbb2c6a7eb1802e315069ee907072decdf52163846ead3fc73bd7bf2d7f95b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/18",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_aux.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "35b44fd005513dc13562915838720c7655d404678b49811ee24bd529e5dad1cc"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/19",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_dtoa.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e78b44bc56f0e9b3c65acd8703b5e0a20dad2b497a15fa2daee08c9472b4d72b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/2",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/locfile.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0cbf98475507e3bb0524c045bb4fe48bb6b2ef5ef9b88840f58ce935c04c0bc2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/20",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_dtoa.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "9d5572e181c3824fa5abd79a191b3104615e07327bd1c614d8574e3c4e63efe5"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/21",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/compile.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "cc7685634925661d1fbb434e764771b2a15c87a132d76b42606a3c6a7ae8f21a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/22",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/libm.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "13aaee9c9537fdd2acf1105f3bc7de86b953ae4a77bd7a04b07d2ad84ea7e95d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/23",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/lexer.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "76cedda8fd1c3a795ea253dbd17508985d3decd23e0c0e3a8074fc35df4ba473"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/24",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/builtin.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "8209acae8137d401e646a509c5c21481547de06b39b8d0597285fe56b2701354"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/25",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_dtoa_tsd.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "78ef84f54aef20e79f3c5e0ab40335ead34e6a76802497000caf6a50f661323a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/26",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/exec_stack.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "dc6a4f0981c1a30e0264bdd3e4dd3c7d9fb190cdb038bd81ea40b95e6c9c2a89"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/27",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jq_parser.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "c1913f6d74642ae91113653acb3defbd46482f708a80c309f98a7cb1e44f0483"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/28",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/linker.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "08f1df5fcf23171036d0f9636697ed03eb2d5b8feebe743a765732f676effa68"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/29",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_file.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b74b71296c933193cd1cc5e31c1567c983044588c224cc37e14c37e56a86166f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/3",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_private.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "b83327d46a5707bda1b301af4a45fde67963046977bc9843dd4a73bdca8a6563"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/30",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/compile.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "54cf123fc6c4842f8b90cde750df8ea689635cd07ede54afb2002f528b0f571b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/31",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/parser.y",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4b0196e114ebded32ec464c5ff874d1fcd859698b0ece987cc4dfd888d8075ed"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/32",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ea5f73183661d5c4ce9aa62aa8430ff5a556058f3a61c808999b4b60266c9db2"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/33",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_alloc.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "db595c10d31094465c6d7a3814cb4778080998e5ff9d43e8937c9e10b308a8e1"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/34",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "556ac4e5dc680e68ca3fb0d76c63e7ffc7ff058a14d2c82dd9329656a9b2860f"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/35",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jq.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "976689e8c3dc0b4b7d7bba50dc560277c638694681a356be61ae93787b335f8d"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/36",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/builtin.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "371feb3b8060026c087c516085698450d87a541cb4efac884cb467d5166a7ffe"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/37",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/linker.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "030104d6e44706bc3ff523627ce843929c1b6e98827127cb97ce4c76b070a48b"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/38",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/execute.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4cc62c69f132079bd049d3303971c16f57036db2258b273699ea48e18a1a8246"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/39",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jq_test.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "407e694b9e546f7402e0fe95f175aebe97f3b54ada09764108b4804ff6fc2bff"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/4",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_print.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "47cd10b0cd4e23da307a09f6157c3bf00f4605dbbd81c3cf48dd41f229b3e51a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/40",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/lexer.l",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "4760e21dd036cf29a3386e852c7f92a3fd19fa5d31f399f06ff44239930c8407"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/41",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/jv_unicode.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "67f29a42aaa62604633007058e5e3d1169b36166cbba32e9bc200e6e9fd16a0a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/42",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/decNumber/decNumber.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "906dbffecf2c7007127557421cf4e1625c6060d6d3b362cef5afcea1f954c493"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/43",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/decNumber/decContext.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "24e56975f89adbe1558042a735387c7ecf8493fb72ca2b24de51afd2e421053a"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/44",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/decNumber/decNumber.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0f7a9b64736350bb7ae581803b2b580ed0bdb42a4daefc2f8e0b82b94cad4d3c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/45",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/decNumber/decContext.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fd3cb9f0fd775949f7c2d018ba6c6a2cc483198c2b9340c8608d2bb2817d3521"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/46",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/decNumber/decNumberLocal.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "fb17acfdd8b07a4023e6eb3a31c053864e3f45a1d0d3a689df75dcec55fd5398"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/5",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/parser.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "e019ce2ad06c105a0565f3b3642eab97f280f290efab849978af2eff9c462695"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/6",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/parser.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "a8a32cd4da1ce205cc8ba03001db1709791634015c51736c6e49d1aa80078b9e"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/7",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/main.c",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "52850e09c87e6ab233b834501f0904e36de8c0fb260d6c3290007c954ba926a3"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/8",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/bytecode.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "efcc9c27815dead465eaadaf9503c329f3e09c360812b144a4228d5e7ebee937"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/9",
+      "creationInfo": "_:CreationInfo1",
+      "name": "usr/src/debug/jq/1.7.1/src/lexer.h",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "ea7c3c87e375eaca817bc7525ce5a6b9f838db69060db89ae09278a6845f0120"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq/file/1",
+      "creationInfo": "_:CreationInfo6",
+      "name": "usr/bin/jq",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "7a8b5b69f656d33dbcfa392c31ac6c3d296e93c114c4dae415a2175ec5e1ca7c"
+        }
+      ]
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq/file/2",
+      "creationInfo": "_:CreationInfo6",
+      "name": "usr/lib/libjq.so.1.0.4",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "0b85ce13f153c49fe04ee7ff1b7bb19427e853c9c432c217076031ee882c6835"
+        }
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/0b13a55805a643a6afdda7d97692cb4c",
+      "creationInfo": "_:CreationInfo12",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/142fe07d439a3968984b887c7accc7be",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev/file/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev/file/2",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev/file/3"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/159c7b70fd9c90c1501e932ad8dfda35",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/2",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/3",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/4",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc/file/5"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/21e5420460593caffab186675c8d515b",
+      "creationInfo": "_:CreationInfo12",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg/file/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg/file/2"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/3469f9e39c8b1c4f27312c45afd5ab9e",
+      "creationInfo": "_:CreationInfo1",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/10",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/11",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/12",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/13",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/14",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/15",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/16",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/17",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/18",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/19",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/2",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/20",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/21",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/22",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/23",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/24",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/25",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/26",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/27",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/28",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/29",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/3",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/30",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/31",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/32",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/33",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/34",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/35",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/36",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/37",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/38",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/39",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/4",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/40",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/41",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/42",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/43",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/44",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/45",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/46",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/5",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/6",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/7",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/8",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src/file/9"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/4d6ad142c1bb18fb11df2da2583d2fef",
+      "creationInfo": "_:CreationInfo11",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/5763902b08fa13ae7e8ffa7b9400c298",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/5f29693cb5530c2c225a36928b2181ba",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/67819592650e5a9c03d44a940c5bc10a",
+      "creationInfo": "_:CreationInfo11",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/10",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/11",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/12",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/13",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/14",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/15",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/16",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/17",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/18",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/19",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/2",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/20",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/21",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/22",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/23",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/24",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/25",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/26",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/27",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/28",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/29",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/3",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/30",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/31",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/32",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/33",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/34",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/35",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/36",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/37",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/38",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/39",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/4",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/40",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/41",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/42",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/43",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/44",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/45",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/46",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/47",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/48",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/49",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/5",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/50",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/51",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/6",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/7",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/8",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest/file/9"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/728d9dde26b3a1eecae4abb7a1f00d08",
+      "creationInfo": "_:CreationInfo1",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/73f51e85e7821f4153d6eb2b0de5f6ff",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/7d02b3d56fdb5056b27ffb35f6ed0a52",
+      "creationInfo": "_:CreationInfo1",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-src"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/8c417f7489a14a036e6df36549aefe13",
+      "creationInfo": "_:CreationInfo2",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dev",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/8f2db621f88de0406f3c85da0f5b75d7",
+      "creationInfo": "_:CreationInfo14",
+      "from": "http://spdx.org/spdxdocs/bitbake-addba517-4804-5ae3-87c2-0c3a1a5812ba/1c85bb2f44a77a1ed5c966a5c50a344e",
+      "relationshipType": "ancestorOf",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/96da3ca5985b1d01b1b501a87129ee98",
+      "creationInfo": "_:CreationInfo12",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-dbg",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/9a3d24606b22c2c2fb221da6a34f4c08",
+      "creationInfo": "_:CreationInfo14",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/source/2",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/a2ea51877a33ffe91a6b805f9238bd87",
+      "creationInfo": "_:CreationInfo14",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasInput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/source/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/source/2"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/affa2d0ad9a846c405a9e97753187a9d",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/b32330ab6d9e8e2b4349a2bf49fa2960",
+      "creationInfo": "_:CreationInfo14",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/source/1",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/c4bb7c7f622bebf7065276c9fdb11643",
+      "creationInfo": "_:CreationInfo6",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq",
+      "relationshipType": "contains",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq/file/1",
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq/file/2"
+      ]
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/cdf80c9a601f9ae22b483cb5b592c7a2",
+      "creationInfo": "_:CreationInfo5",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "hasOutput",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-doc"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "LifecycleScopedRelationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/cfcd06789547bfa9897261e885c1414f",
+      "creationInfo": "_:CreationInfo14",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/build/recipe",
+      "relationshipType": "dependsOn",
+      "to": [
+        "http://spdx.org/spdxdocs/openembedded-alias/autoconf-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/automake-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-cross-x86_64/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/gcc-runtime/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/glibc/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/libtool-cross/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/libtool-native/UNIHASH/build/recipe",
+        "http://spdx.org/spdxdocs/openembedded-alias/onig/UNIHASH/build/recipe"
+      ],
+      "scope": "build"
+    },
+    {
+      "type": "Relationship",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/relationship/e7b70dee5173ee61b3036f3ba21bf5b9",
+      "creationInfo": "_:CreationInfo11",
+      "from": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/package/jq-ptest",
+      "relationshipType": "hasConcludedLicense",
+      "to": [
+        "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/license/3_24_0/MIT"
+      ]
+    },
+    {
+      "type": "software_Package",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/source/1",
+      "creationInfo": "_:CreationInfo14",
+      "name": "github.com.jqlang.jq.git",
+      "software_primaryPurpose": "source",
+      "software_downloadLocation": "git+https://github.com/jqlang/jq.git@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    {
+      "type": "software_File",
+      "spdxId": "http://spdx.org/spdxdocs/jq-085e5c79-d2f0-5393-94ac-f2ad4c201624/f471b12d5f4594b9ed8e5da5536de89cc584c09484c14542c89af0b3be0d36bf/source/2",
+      "creationInfo": "_:CreationInfo14",
+      "name": "run-ptest",
+      "verifiedUsing": [
+        {
+          "type": "Hash",
+          "algorithm": "sha256",
+          "hashValue": "926e7881872028f2623308f52af21bbb59acfe711cf6c1d8a12835eecc004fc8"
+        }
+      ],
+      "software_primaryPurpose": "source"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer]
+[./.github/actions/build-docs]
+ Version:	 UNKNOWN
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[JamesIves/github-pages-deploy-action]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/upload-artifact]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[codecov/codecov-action]
+ Version:	 v4
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[github/codeql-action/upload-sarif]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[nick-invision/retry]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[ossf/scorecard-action]
+ Version:	 62b2cac7ed8198b15735ed49ab1e5cf35480ba46
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[ramsey/composer-install]
+ Version:	 v3
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[shivammathur/setup-php]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+

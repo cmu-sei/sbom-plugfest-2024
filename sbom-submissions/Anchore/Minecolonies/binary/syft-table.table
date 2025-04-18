@@ -1,0 +1,15 @@
+NAME                                                                  VERSION                               TYPE                                   
+actions/checkout                                                      master                                github-action           [38;5;102m[0m                
+ad-m/github-push-action                                               master                                github-action           [38;5;102m[0m                
+forge                                                                 1.20.1-47.1.3-injected                java-archive            [38;5;102m[0m                
+forge                                                                 1.20.1-47.1.3-srg                     java-archive            [38;5;102m[0m                
+forge                                                                 1.20.1-47.1.3_mapped_official_1.20.1  java-archive            [38;5;102m[0m                
+gradle-wrapper                                                        UNKNOWN                               java-archive            [38;5;102m[0m                
+ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml       main                                  github-action-workflow  [38;5;102m[0m                
+ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml  main                                  github-action-workflow  [38;5;102m[0m                
+ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml     main                                  github-action-workflow  [38;5;102m[0m                
+minecolonies                                                          1.20.1-0.0.1-LOCAL-alpha              java-archive            [38;5;102m[0m                
+minecolonies                                                          1.20.1-0.0.1-LOCAL-alpha-javadoc      java-archive            [38;5;102m[0m                
+minecolonies                                                          1.20.1-0.0.1-LOCAL-alpha-slim         java-archive            [38;5;102m[0m                
+minecolonies                                                          1.20.1-0.0.1-LOCAL-alpha-sources      java-archive            [38;5;102m[0m                
+output                                                                1.20.1-0.0.1-LOCAL-alpha              java-archive            [38;5;102m(+1 duplicate)[0m  

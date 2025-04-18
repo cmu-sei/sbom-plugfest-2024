@@ -1,0 +1,608 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3fbc3ea0-d8f7-4892-b839-3e3ae5c70344",
+  "version": 1,
+  "metadata": {
+    "authors": [
+      {
+        "name": "Dennis Clark"
+      }
+    ],
+    "component": {
+      "bom-ref": "a1940d54-7379-4834-a95e-5d96e1c22252",
+      "copyright": "Copyright Lucent Technologies",
+      "description": "jqlang complete source inventory",
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa"
+        }
+      ],
+      "name": "jq-project-source",
+      "properties": [
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "https://jqlang.github.io/jq/"
+        },
+        {
+          "name": "aboutcode:notice_text",
+          "value": "Copyright Lucent Technologies\n\njq is copyright (C) 2012 Stephen Dolan\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\njq's documentation (everything found under the docs/ subdirectory in\nthe source tree) is licensed under the Creative Commons CC BY 3.0\nlicense, which can be found at:\n\n         https://creativecommons.org/licenses/by/3.0/\n\nThe documentation website includes a copy of Twitter's Bootstrap and\nrelies on Bonsai, Liquid templates and various other projects, look\nthem up for detailed licensing conditions.\n\n\n\njq incorporates David M. Gay's dtoa.c and g_fmt.c, which bear the\nfollowing notices:\n\ndtoa.c:\nThe author of this software is David M. Gay.\n\nCopyright (c) 1991, 2000, 2001 by Lucent Technologies.\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software and in all copies of the supporting\ndocumentation for such software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY\nREPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\nOF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\ng_fmt.c:\nThe author of this software is David M. Gay.\n\nCopyright (c) 1991, 1996 by Lucent Technologies.\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software and in all copies of the supporting\ndocumentation for such software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY\nREPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\nOF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\n\n\njq uses parts of the open source C library \"decNumber\", which is distributed\nunder the following license:\n\n\nICU License - ICU 1.8.1 and later\n\nCOPYRIGHT AND PERMISSION NOTICE\n\nCopyright (c) 1995-2005 International Business Machines Corporation and others\nAll rights reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, and/or sell copies of the Software, and to permit persons\nto whom the Software is furnished to do so, provided that the above\ncopyright notice(s) and this permission notice appear in all copies of\nthe Software and that both the above copyright notice(s) and this\npermission notice appear in supporting documentation.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nOF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\nHOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL\nINDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING\nFROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\nNEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION\nWITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\nExcept as contained in this notice, the name of a copyright holder\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nof the copyright holder.\n\n--------------------------------------------------------------------------------\nAll trademarks and registered trademarks mentioned herein are the property of their respective owners.\n\n\n\njv_thread.h is copied from Heimdal's lib/base/heimbase.h and some code\nin jv.c is copied from Heimdal's lib/base/dll.c:\n\n\nPortions Copyright (c) 2016 Kungliga Tekniska H\u00f6gskolan\n(Royal Institute of Technology, Stockholm, Sweden).\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS\nFOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE\nCOPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\nINDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\nSTRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\nOF THE POSSIBILITY OF SUCH DAMAGE."
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "C"
+        }
+      ],
+      "supplier": {
+        "name": "Alcatel-Lucent",
+        "url": [
+          "http://www.alcatel-lucent.com/"
+        ]
+      },
+      "type": "application",
+      "version": "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    "timestamp": "2024-12-11T01:04:16.178523+00:00",
+    "tools": [
+      {
+        "name": "DejaCode",
+        "vendor": "nexB",
+        "version": "5.2.1"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/attrs@23.1.0",
+      "copyright": "Copyright Hynek Schlawack",
+      "cpe": "",
+      "description": "Classes Without Boilerplate\n<p align=\"center\">\n  <a href=\"https://www.attrs.org/\">\n    <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/docs/_static/attrs_logo.svg\" width=\"35%\" alt=\"attrs\" />\n  </a>\n</p>\n\n\n*attrs* is the Python package that will bring back the **joy** of **writing classes** by relieving you from the drudgery of implementing object protocols (aka [dunder methods](https://www.attrs.org/en/latest/glossary.html#term-dunder-methods)).\n[Trusted by NASA](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#list-of-qualifying-repositories-for-mars-2020-helicopter-contributor-achievement) for Mars missions since 2020!\n\nIts main goal is to help you to write **concise** and **correct** software without slowing down your code.\n\n\n## Sponsors\n\n*attrs* would not be possible without our [amazing sponsors](https://github.com/sponsors/hynek).\nEspecially those generously supporting us at the *The Organization* tier and higher:\n\n<p align=\"center\">\n   <a href=\"https://www.variomedia.de/\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/Variomedia.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n\n   <a href=\"https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=referral&utm_campaign=enterprise&utm_term=repo\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/Tidelift.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n\n   <a href=\"https://sentry.io/\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/Sentry.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n\n   <a href=\"https://filepreviews.io/\">\n      <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/.github/sponsors/FilePreviews.svg\" width=\"200\" height=\"60\"></img>\n   </a>\n</p>\n\n<p align=\"center\">\n   <strong>Please consider <a href=\"https://github.com/sponsors/hynek\">joining them</a> to help make <em>attrs</em>\u2019s maintenance more sustainable!</strong>\n</p>\n\n<!-- teaser-end -->\n\n## Example\n\n*attrs* gives you a class decorator and a way to declaratively define the attributes on that class:\n\n<!-- code-begin -->\n\n```pycon\n>>> from attrs import asdict, define, make_class, Factory\n\n>>> @define\n... class SomeClass:\n...     a_number: int = 42\n...     list_of_numbers: list[int] = Factory(list)\n...\n...     def hard_math(self, another_number):\n...         return self.a_number + sum(self.list_of_numbers) * another_number\n\n\n>>> sc = SomeClass(1, [1, 2, 3])\n>>> sc\nSomeClass(a_number=1, list_of_numbers=[1, 2, 3])\n\n>>> sc.hard_math(3)\n19\n>>> sc == SomeClass(1, [1, 2, 3])\nTrue\n>>> sc != SomeClass(2, [3, 2, 1])\nTrue\n\n>>> asdict(sc)\n{'a_number': 1, 'list_of_numbers': [1, 2, 3]}\n\n>>> SomeClass()\nSomeClass(a_number=42, list_of_numbers=[])\n\n>>> C = make_class(\"C\", [\"a\", \"b\"])\n>>> C(\"foo\", \"bar\")\nC(a='foo', b='bar')\n```\n\nAfter *declaring* your attributes, *attrs* gives you:\n\n- a concise and explicit overview of the class's attributes,\n- a nice human-readable `__repr__`,\n- equality-checking methods,\n- an initializer,\n- and much more,\n\n*without* writing dull boilerplate code again and again and *without* runtime performance penalties.\n\n**Hate type annotations**!?\nNo problem!\nTypes are entirely **optional** with *attrs*.\nSimply assign `attrs.field()` to the attributes instead of annotating them with types.\n\n---\n\nThis example uses *attrs*'s modern APIs that have been introduced in version 20.1.0, and the *attrs* package import name that has been added in version 21.3.0.\nThe classic APIs (`@attr.s`, `attr.ib`, plus their serious-business aliases) and the `attr` package import name will remain **indefinitely**.\n\nPlease check out [*On The Core API Names*](https://www.attrs.org/en/latest/names.html) for a more in-depth explanation.\n\n\n## Data Classes\n\nOn the tin, *attrs* might remind you of `dataclasses` (and indeed, `dataclasses` [are a descendant](https://hynek.me/articles/import-attrs/) of *attrs*).\nIn practice it does a lot more and is more flexible.\nFor instance it allows you to define [special handling of NumPy arrays for equality checks](https://www.attrs.org/en/stable/comparison.html#customization), or allows more ways to [plug into the initialization process](https://www.attrs.org/en/stable/init.html#hooking-yourself-into-initialization).\n\nFor more details, please refer to our [comparison page](https://www.attrs.org/en/stable/why.html#data-classes).\n\n\n## Project Information\n\n- [**Changelog**](https://www.attrs.org/en/stable/changelog.html)\n- [**Documentation**](https://www.attrs.org/)\n- [**PyPI**](https://pypi.org/project/attrs/)\n- [**Source Code**](https://github.com/python-attrs/attrs)\n- [**Contributing**](https://github.com/python-attrs/attrs/blob/main/.github/CONTRIBUTING.md)\n- [**Third-party Extensions**](https://github.com/python-attrs/attrs/wiki/Extensions-to-attrs)\n- **License**: [MIT](https://www.attrs.org/en/latest/license.html)\n- **Get Help**: please use the `python-attrs` tag on [StackOverflow](https://stackoverflow.com/questions/tagged/python-attrs)\n- **Supported Python Versions**: 3.7 and later\n\n\n### *attrs* for Enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of *attrs* and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source packages you use to build your applications.\nSave time, reduce risk, and improve code health, while paying the maintainers of the exact packages you use.\n[Learn more.](https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n\n## Release Information\n\n### Backwards-incompatible Changes\n\n- Python 3.6 has been dropped and packaging switched to static package data using [Hatch](https://hatch.pypa.io/latest/).\n  [#993](https://github.com/python-attrs/attrs/issues/993)\n\n\n### Deprecations\n\n- The support for *zope-interface* via the `attrs.validators.provides` validator is now deprecated and will be removed in, or after, April 2024.\n\n  The presence of a C-based package in our developement dependencies has caused headaches and we're not under the impression it's used a lot.\n\n  Let us know if you're using it and we might publish it as a separate package.\n  [#1120](https://github.com/python-attrs/attrs/issues/1120)\n\n\n### Changes\n\n- `attrs.filters.exclude()` and `attrs.filters.include()` now support the passing of attribute names as strings.\n  [#1068](https://github.com/python-attrs/attrs/issues/1068)\n- `attrs.has()` and `attrs.fields()` now handle generic classes correctly.\n  [#1079](https://github.com/python-attrs/attrs/issues/1079)\n- Fix frozen exception classes when raised within e.g. `contextlib.contextmanager`, which mutates their `__traceback__` attributes.\n  [#1081](https://github.com/python-attrs/attrs/issues/1081)\n- `@frozen` now works with type checkers that implement [PEP-681](https://peps.python.org/pep-0681/) (ex. [pyright](https://github.com/microsoft/pyright/)).\n  [#1084](https://github.com/python-attrs/attrs/issues/1084)\n- Restored ability to unpickle instances pickled before 22.2.0.\n  [#1085](https://github.com/python-attrs/attrs/issues/1085)\n- `attrs.asdict()`'s and `attrs.astuple()`'s type stubs now accept the `attrs.AttrsInstance` protocol.\n  [#1090](https://github.com/python-attrs/attrs/issues/1090)\n- Fix slots class cellvar updating closure in CPython 3.8+ even when `__code__` introspection is unavailable.\n  [#1092](https://github.com/python-attrs/attrs/issues/1092)\n- `attrs.resolve_types()` can now pass `include_extras` to `typing.get_type_hints()` on Python 3.9+, and does so by default.\n  [#1099](https://github.com/python-attrs/attrs/issues/1099)\n- Added instructions for pull request workflow to `CONTRIBUTING.md`.\n  [#1105](https://github.com/python-attrs/attrs/issues/1105)\n- Added *type* parameter to `attrs.field()` function for use with `attrs.make_class()`.\n\n  Please note that type checkers ignore type metadata passed into `make_class()`, but it can be useful if you're wrapping _attrs_.\n  [#1107](https://github.com/python-attrs/attrs/issues/1107)\n- It is now possible for `attrs.evolve()` (and `attr.evolve()`) to change fields named `inst` if the instance is passed as a positional argument.\n\n  Passing the instance using the `inst` keyword argument is now deprecated and will be removed in, or after, April 2024.\n  [#1117](https://github.com/python-attrs/attrs/issues/1117)\n- `attrs.validators.optional()` now also accepts a tuple of validators (in addition to lists of validators).\n  [#1122](https://github.com/python-attrs/attrs/issues/1122)\n\n\n\n---\n\n[Full changelog](https://www.attrs.org/en/stable/changelog.html)",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6623fed7ffa22261ba25fccaf4d99539"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "attrs",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Python"
+        }
+      ],
+      "purl": "pkg:pypi/attrs@23.1.0",
+      "type": "library",
+      "version": "23.1.0"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/importlib-metadata@6.8.0",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "importlib-metadata",
+      "purl": "pkg:pypi/importlib-metadata@6.8.0",
+      "type": "library",
+      "version": "6.8.0"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/importlib-resources@6.0.0",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "importlib-resources",
+      "purl": "pkg:pypi/importlib-resources@6.0.0",
+      "type": "library",
+      "version": "6.0.0"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/jinja2@3.1.4",
+      "copyright": "Copyright jinja2 project contributors",
+      "cpe": "",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a5fadd0603a10249348865e85a6f57bc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "57760ed83d9ad15fcdf63ad1ffa14941333ef655"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d1420c8417fad7888766dd26b9706a87c63e8f33dceeb8e26d0056d5127b0b3ed9272e44b4b761132d4b3320327252eab1696520488ca64c25958896b41f547b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "jinja2",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "aboutcode:filename",
+          "value": "jinja2-3.1.4-py3-none-any.whl"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Python"
+        }
+      ],
+      "purl": "pkg:pypi/jinja2@3.1.4",
+      "type": "library",
+      "version": "3.1.4"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+      "copyright": "Copyright Lucent Technologies",
+      "cpe": "",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1dcab7e8ec563456fda1cf516efacf06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "51c7aebff7e415f52d84e6290eaf10c3ab8d286f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d6067542408affa63dd76f763f112667c5b09ff6674050bef83a55a1375855b0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c7b7d1a0e752d9cf6e6348c548521d140045a27381c18026b94e13c0bb0bad5e455a84d4085a13d123bb84f1b23b97a9a84adc9a45d9919ed58e2e82744340cf"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause AND CC-BY-3.0 AND MIT AND ICU AND dtoa"
+        }
+      ],
+      "name": "jq",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://github.com/jqlang/jq/archive/96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip"
+        },
+        {
+          "name": "aboutcode:filename",
+          "value": "jq-96e8d893c10ed2f7656ccb8cfa39a9a291663a7e.zip"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "C"
+        }
+      ],
+      "purl": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+      "type": "library",
+      "version": "96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/jsonschema@4.18.4",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jsonschema",
+      "purl": "pkg:pypi/jsonschema@4.18.4",
+      "type": "library",
+      "version": "4.18.4"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/jsonschema-specifications@2023.7.1",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jsonschema-specifications",
+      "purl": "pkg:pypi/jsonschema-specifications@2023.7.1",
+      "type": "library",
+      "version": "2023.7.1"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/lxml@4.9.3",
+      "copyright": "Copyright Rick Jelliffe and Academia Sinica Computing Center",
+      "cpe": "",
+      "description": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.\nlxml is a Pythonic, mature binding for the libxml2 and libxslt libraries.  It\nprovides safe and convenient access to these libraries using the ElementTree\nAPI.\n\nIt extends the ElementTree API significantly to offer support for XPath,\nRelaxNG, XML Schema, XSLT, C14N and much more.\n\nTo contact the project, go to the `project home page\n<https://lxml.de/>`_ or see our bug tracker at\nhttps://launchpad.net/lxml\n\nIn case you want to use the current in-development version of lxml,\nyou can get it from the github repository at\nhttps://github.com/lxml/lxml .  Note that this requires Cython to\nbuild the sources, see the build instructions on the project home\npage.  To the same end, running ``easy_install lxml==dev`` will\ninstall lxml from\nhttps://github.com/lxml/lxml/tarball/master#egg=lxml-dev if you have\nan appropriate version of Cython installed.\n\n\nAfter an official release of a new stable series, bug fixes may become\navailable at\nhttps://github.com/lxml/lxml/tree/lxml-4.9 .\nRunning ``easy_install lxml==4.9bugfix`` will install\nthe unreleased branch state from\nhttps://github.com/lxml/lxml/tarball/lxml-4.9#egg=lxml-4.9bugfix\nas soon as a maintenance branch has been established.  Note that this\nrequires Cython to be installed at an appropriate version for the build.\n\n4.9.3 (2023-07-05)\n==================\n\nBugs fixed\n----------\n\n* ``lxml.objectify`` accepted non-decimal numbers like ``\u00b2\u00b2\u00b2`` as integers.\n\n* A memory leak in ``lxml.html.clean`` was resolved by switching to Cython 0.29.34+.\n\n* GH#348: URL checking in the HTML cleaner was improved.\n  Patch by Tim McCormack.\n\n* GH#371, GH#373: Some regex strings were changed to raw strings to fix Python warnings.\n  Patches by Jakub Wilk and Anthony Sottile.\n\nOther changes\n-------------\n\n* Wheels include zlib 1.2.13, libxml2 2.10.3 and libxslt 1.1.38\n  (zlib 1.2.12, libxml2 2.10.3 and libxslt 1.1.37 on Windows).\n\n* Built with Cython 0.29.36 to adapt to changes in Python 3.12.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7298fdca14b10e7b71547ed02b894b25"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "48628bd53a426c9eb9bc066a923acaa0878d1e86129fd5359aee99285f4eed9c"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "lxml",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://files.pythonhosted.org/packages/30/39/7305428d1c4f28282a4f5bdbef24e0f905d351f34cf351ceb131f5cddf78/lxml-4.9.3.tar.gz"
+        },
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "https://lxml.de/"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Python"
+        }
+      ],
+      "purl": "pkg:pypi/lxml@4.9.3",
+      "type": "library",
+      "version": "4.9.3"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/markdown@2.0.3",
+      "copyright": "Copyright markdown project contributors",
+      "cpe": "",
+      "description": "Python implementation of Markdown.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "751e8055be2433dfd1a82e0fb1b12f13"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ce2848c60434a7c727c162ca5683998eb6d222c3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fff5d887cbf82dca288e55c8c240c435ca6ca80fb11d0b3c9fc44464fdece740"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c269efe9924221e8e7b1d0ffc62df18f15760cf10149a73f5dae6bbbeaea25a32ae0c4d370f5d03b9e38c8cbd0dd0658a306365711f93733d1e8484bd68a30f0"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "markdown",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://pypi.python.org/packages/source/M/Markdown/Markdown-2.0.3.tar.gz"
+        },
+        {
+          "name": "aboutcode:filename",
+          "value": "Markdown-2.0.3.tar.gz"
+        },
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "http://www.freewisdom.org/projects/python-markdown"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Python"
+        }
+      ],
+      "purl": "pkg:pypi/markdown@2.0.3",
+      "type": "library",
+      "version": "2.0.3"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/markdown@3.4.3",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "markdown",
+      "purl": "pkg:pypi/markdown@3.4.3",
+      "type": "library",
+      "version": "3.4.3"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/markupsafe@2.1.5",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "markupsafe",
+      "purl": "pkg:pypi/markupsafe@2.1.5",
+      "type": "library",
+      "version": "2.1.5"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+      "copyright": "Copyright K.Kosako",
+      "cpe": "",
+      "description": "regular expression library",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "71993e6c8e527226e1d260d6f91a8de9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3fd890fd45e51d2f6d058c17a9389ecb90ae4716"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3957a07b4b2db21af2363d04d84d4cbb8435d549959f9c6e342ea4fd0522cadb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "07de1e295ed1808170026402d2863695b99e281ed1bddf6c86a4c532f4650dee364de9b302c72d84a18f629815b8e7ce17c51f23164dfd320e3af94277774779"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND BSD-2-Clause"
+        }
+      ],
+      "name": "oniguruma",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://github.com/kkos/oniguruma/archive/d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip"
+        },
+        {
+          "name": "aboutcode:filename",
+          "value": "oniguruma-d2f1a14ced5d5d461acac0da0d477ab240a7ab5f.zip"
+        },
+        {
+          "name": "aboutcode:notice_text",
+          "value": "Oniguruma LICENSE\n-----------------\n\nCopyright (c) 2002-2021  K.Kosako  <kkosako0@gmail.com>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n\n    Scan Summary\nDeclared license\n\n     bsd-new AND bsd-simplified\n\nDeclared holder\n\n     K.Kosako\n\nPrimary language\n\n     C\n\nOther licenses\n\n     bsd-simplified 65\n\n\n gpl-2.0-plus WITH autoconf-simple-exception-2.0 4\n\n\n bsd-new 3\n\n\n public-domain 3\n\n\n gpl-3.0-plus WITH autoconf-simple-exception 2\n warranty-disclaimer 2\n cc0-1.0 1\n\n\n fsf-ap 1\n\n\n x11-xconsortium AND public-domain 1\n\nOther holders\n\n     Free Software Foundation 9\n     Byte 1\n     K.Kosako, Zui Zhong Geng Xin 1\n     KUBO Takehiro K.Kosako 1\n     Oniguruma -- K.Kosako 1\n     X Consortium 1\n\nOther languages\n\n     Bash 12\n     Python 7\n     verilog 5\n     Batchfile 3\n     HTML 2\n     C++ 1\n     Objective-C 1\n\nStatus\n\n    Scan success\n\nCreated date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nStart date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nEnd date\n\n    Dec. 11, 2024, 12:50 AM UTC\n\nScanCode.io version\n\n    34.9.0\n\n    Home Documentation Support About Source Code Releases License \n\nCopyright nexB Inc. DejaCode is a trademark of nexB Inc.\n\nNo content on DejaCode should be considered or used as legal advice. Consult an Attorney for any legal advice.\n"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "C"
+        }
+      ],
+      "purl": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+      "type": "library",
+      "version": "d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/pkgutil-resolve-name@1.3.10",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pkgutil-resolve-name",
+      "purl": "pkg:pypi/pkgutil-resolve-name@1.3.10",
+      "type": "library",
+      "version": "1.3.10"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.1",
+      "copyright": "Copyright Ingy, Kirill Simonov",
+      "cpe": "",
+      "description": "YAML parser and emitter for Python\nYAML is a data serialization format designed for human readability\nand interaction with scripting languages.  PyYAML is a YAML parser\nand emitter for Python.\n\nPyYAML features a complete YAML 1.1 parser, Unicode support, pickle\nsupport, capable extension API, and sensible error messages.  PyYAML\nsupports standard YAML tags and provides Python-specific tags that\nallow to represent an arbitrary Python object.\n\nPyYAML is applicable for a broad range of tasks from complex\nconfiguration files to object serialization and persistence.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c9246277af2d9a13b7018af267a0831a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pyyaml",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz"
+        },
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "https://pyyaml.org/"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Python"
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml@6.0.1",
+      "type": "library",
+      "version": "6.0.1"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/referencing@0.30.0",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "referencing",
+      "purl": "pkg:pypi/referencing@0.30.0",
+      "type": "library",
+      "version": "0.30.0"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/rpds-py@0.9.2",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "rpds-py",
+      "purl": "pkg:pypi/rpds-py@0.9.2",
+      "type": "library",
+      "version": "0.9.2"
+    },
+    {
+      "author": "",
+      "bom-ref": "pkg:pypi/zipp@3.19.1",
+      "copyright": "",
+      "cpe": "",
+      "description": "",
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "zipp",
+      "purl": "pkg:pypi/zipp@3.19.1",
+      "type": "library",
+      "version": "3.19.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e",
+        "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f",
+        "pkg:pypi/attrs@23.1.0",
+        "pkg:pypi/importlib-metadata@6.8.0",
+        "pkg:pypi/importlib-resources@6.0.0",
+        "pkg:pypi/jinja2@3.1.4",
+        "pkg:pypi/jsonschema-specifications@2023.7.1",
+        "pkg:pypi/jsonschema@4.18.4",
+        "pkg:pypi/lxml@4.9.3",
+        "pkg:pypi/markdown@2.0.3",
+        "pkg:pypi/markdown@3.4.3",
+        "pkg:pypi/markupsafe@2.1.5",
+        "pkg:pypi/pkgutil-resolve-name@1.3.10",
+        "pkg:pypi/pyyaml@6.0.1",
+        "pkg:pypi/referencing@0.30.0",
+        "pkg:pypi/rpds-py@0.9.2",
+        "pkg:pypi/zipp@3.19.1"
+      ],
+      "ref": "a1940d54-7379-4834-a95e-5d96e1c22252"
+    },
+    {
+      "ref": "pkg:github/jqlang/jq@96e8d893c10ed2f7656ccb8cfa39a9a291663a7e"
+    },
+    {
+      "ref": "pkg:github/kkos/oniguruma@d2f1a14ced5d5d461acac0da0d477ab240a7ab5f"
+    },
+    {
+      "ref": "pkg:pypi/attrs@23.1.0"
+    },
+    {
+      "ref": "pkg:pypi/importlib-metadata@6.8.0"
+    },
+    {
+      "ref": "pkg:pypi/importlib-resources@6.0.0"
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.4"
+    },
+    {
+      "ref": "pkg:pypi/jsonschema-specifications@2023.7.1"
+    },
+    {
+      "ref": "pkg:pypi/jsonschema@4.18.4"
+    },
+    {
+      "ref": "pkg:pypi/lxml@4.9.3"
+    },
+    {
+      "ref": "pkg:pypi/markdown@2.0.3"
+    },
+    {
+      "ref": "pkg:pypi/markdown@3.4.3"
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@2.1.5"
+    },
+    {
+      "ref": "pkg:pypi/pkgutil-resolve-name@1.3.10"
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.1"
+    },
+    {
+      "ref": "pkg:pypi/referencing@0.30.0"
+    },
+    {
+      "ref": "pkg:pypi/rpds-py@0.9.2"
+    },
+    {
+      "ref": "pkg:pypi/zipp@3.19.1"
+    }
+  ]
+}

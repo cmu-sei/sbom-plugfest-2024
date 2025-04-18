@@ -1,0 +1,201 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/opencv/opencv]
+[actions/checkout]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/checkout]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[actions/setup-python]
+ Version:	 v2
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[geronimo-atinject_1.0_spec]
+ Version:	 1.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[gradle-wrapper]
+ Version:	 4.6
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[gradle-wrapper]
+ Version:	 UNKNOWN
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[junit]
+ Version:	 4.11
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[junit]
+ Version:	 4.8.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[opencv]
+ Version:	 4.10.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[opencv-it]
+ Version:	 4.10.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[opencv-parent]
+ Version:	 4.10.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-4.x-Android-SDK.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-Android-Test.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-RISCV.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-Cuda.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U22.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U24.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10-ARM64.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-W10.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-docs.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-iOS.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[opencv/ci-gha-workflow/.github/workflows/OCV-timvx-backend-tests-4.x.yml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[org.apache.karaf.log.core]
+ Version:	 4.0.6
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[org.osgi.compendium]
+ Version:	 4.3.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[org.osgi.core]
+ Version:	 4.3.1
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[pax-exam-container-karaf]
+ Version:	 4.8.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[pax-exam-junit4]
+ Version:	 4.8.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[pax-logging-api]
+ Version:	 1.8.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[pax-url-aether]
+ Version:	 1.6.0
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[sbt-launch]
+ Version:	 0.12.1
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[slf4j-api]
+ Version:	 1.7.24
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+
+[slf4j-simple]
+ Version:	 1.7.24
+ Type:		 java-archive
+ Found by:	 java-pom-cataloger
+

@@ -1,0 +1,60 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: plug-jq
+DocumentNamespace: https://anchore.com/syft/image/plug-jq-7596524d-7fe7-4927-a9cc-f9a813143d4d
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:23:51Z
+
+##### Unpackaged files
+
+FileName: jq
+SPDXID: SPDXRef-File-jq-742835066a754282
+FileType: APPLICATION
+FileType: BINARY
+FileChecksum: SHA1: 76537afb2a0830fe7f7c3bc60961ed4b43b92802
+FileChecksum: SHA256: 5814dcc226b7c2993918af240eb2fd4073f449a6e28e71874a29d482c35692e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+FileComment: layerID: sha256:28bf3e521c6e6d0c927755715d300b3f2d5b790faf2f8e4fbdfb5452b59c9377
+
+##### Package: plug-jq
+
+PackageName: plug-jq
+SPDXID: SPDXRef-DocumentRoot-Image-plug-jq
+PackageVersion: sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: CONTAINER
+FilesAnalyzed: false
+PackageChecksum: SHA256: 2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:oci/plug-jq@sha256:2064d2fac1b11fe08b9e4c9415f52fc890475e1066baf1a70373355e28b298b2?arch=amd64
+
+##### Package: jq
+
+PackageName: jq
+SPDXID: SPDXRef-Package-binary-jq-6c367949d7ff9d06
+PackageVersion: 2.36
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from the following paths: /jq
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jqlang:jq:2.36:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/jq@2.36
+
+##### Relationships
+
+Relationship: SPDXRef-Package-binary-jq-6c367949d7ff9d06 OTHER SPDXRef-File-jq-742835066a754282
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Image-plug-jq CONTAINS SPDXRef-Package-binary-jq-6c367949d7ff9d06
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Image-plug-jq
+

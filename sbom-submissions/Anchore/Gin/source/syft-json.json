@@ -1,0 +1,2653 @@
+{
+  "artifacts": [
+    {
+      "id": "6aee37cd95a52198",
+      "name": "actions/cache",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gin.yml",
+          "accessPath": "/.github/workflows/gin.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/cache@v4"
+    },
+    {
+      "id": "ffece65caa72c162",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/codeql.yml",
+          "accessPath": "/.github/workflows/codeql.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "id": "bc39fc3bb5768de8",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gin.yml",
+          "accessPath": "/.github/workflows/gin.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "id": "c67e74d6bacda5f8",
+      "name": "actions/checkout",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/goreleaser.yml",
+          "accessPath": "/.github/workflows/goreleaser.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "id": "7004dc2b96fdb8a5",
+      "name": "actions/setup-go",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gin.yml",
+          "accessPath": "/.github/workflows/gin.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-go@v5"
+    },
+    {
+      "id": "efff1dbeb61369f4",
+      "name": "actions/setup-go",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/goreleaser.yml",
+          "accessPath": "/.github/workflows/goreleaser.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-go@v5"
+    },
+    {
+      "id": "20d1d183b73930c7",
+      "name": "codecov/codecov-action",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gin.yml",
+          "accessPath": "/.github/workflows/gin.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/codecov/codecov-action@v4"
+    },
+    {
+      "id": "cb6860ca46e59eee",
+      "name": "github.com/bytedance/sonic",
+      "version": "v1.11.6",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:bytedance:sonic:v1.11.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/bytedance/sonic@v1.11.6",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:oUp34TzMlL+OY1OUWxHqsdkgC/Zfc85zGqw9siXjrc0="
+      }
+    },
+    {
+      "id": "683753858d2428f5",
+      "name": "github.com/bytedance/sonic/loader",
+      "version": "v0.1.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:bytedance:sonic\\/loader:v0.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/bytedance/sonic@v0.1.1#loader",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:c+e5Pt1k/cy5wMveRDyk2X4B9hF4g7an8N3zCYjJFNM="
+      }
+    },
+    {
+      "id": "a72637e3ab3f2702",
+      "name": "github.com/cloudwego/base64x",
+      "version": "v0.1.4",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cloudwego:base64x:v0.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/cloudwego/base64x@v0.1.4",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:jwCgWpFanWmN8xoIUHa2rtzmkd5J2plF/dnLS6Xd/0Y="
+      }
+    },
+    {
+      "id": "24c44d2165dbbe6e",
+      "name": "github.com/cloudwego/iasm",
+      "version": "v0.2.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cloudwego:iasm:v0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/cloudwego/iasm@v0.2.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:1KNIy1I1H9hNNFEEH3DVnI4UujN+1zjpuk6gwHLTssg="
+      }
+    },
+    {
+      "id": "4fff1eaa0bc0be66",
+      "name": "github.com/davecgh/go-spew",
+      "version": "v1.1.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
+      }
+    },
+    {
+      "id": "ed271496b40ae290",
+      "name": "github.com/gabriel-vasile/mimetype",
+      "version": "v1.4.3",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gabriel-vasile:mimetype:v1.4.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gabriel_vasile:mimetype:v1.4.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gabriel:mimetype:v1.4.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.3",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0="
+      }
+    },
+    {
+      "id": "51df85ab5a46c699",
+      "name": "github.com/gin-contrib/sse",
+      "version": "v0.1.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gin-contrib:sse:v0.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gin_contrib:sse:v0.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gin:sse:v0.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/gin-contrib/sse@v0.1.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE="
+      }
+    },
+    {
+      "id": "0ab483711ac82dec",
+      "name": "github.com/go-playground/locales",
+      "version": "v0.14.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:go-playground:locales:v0.14.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go_playground:locales:v0.14.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go:locales:v0.14.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-playground/locales@v0.14.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:EWaQ/wswjilfKLTECiXz7Rh+3BjFhfDFKv/oXslEjJA="
+      }
+    },
+    {
+      "id": "aa3c8c1e33334216",
+      "name": "github.com/go-playground/universal-translator",
+      "version": "v0.18.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:go-playground:universal-translator:v0.18.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go-playground:universal_translator:v0.18.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go_playground:universal-translator:v0.18.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go_playground:universal_translator:v0.18.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go:universal-translator:v0.18.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go:universal_translator:v0.18.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-playground/universal-translator@v0.18.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:Bcnm0ZwsGyWbCzImXv+pAJnYK9S473LQFuzCbDbfSFY="
+      }
+    },
+    {
+      "id": "a9f509c48eb6d333",
+      "name": "github.com/go-playground/validator/v10",
+      "version": "v10.20.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:go-playground:validator\\/v10:v10.20.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go_playground:validator\\/v10:v10.20.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go:validator\\/v10:v10.20.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-playground/validator@v10.20.0#v10",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:K9ISHbSaI0lyB2eWMPJo+kOS/FBExVwjEviJTixqxL8="
+      }
+    },
+    {
+      "id": "09ce847851ef4807",
+      "name": "github.com/go-task/slim-sprig",
+      "version": "v0.0.0-20230315185526-52ccab3ef572",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:go-task:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go-task:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go_task:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go_task:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:go:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/go-task/slim-sprig@v0.0.0-20230315185526-52ccab3ef572",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:tfuBGBXKqDEevZMzYi5KSi8KkcZtzBcTgAUUtapy0OI="
+      }
+    },
+    {
+      "id": "1c69133c75b0ec68",
+      "name": "github.com/goccy/go-json",
+      "version": "v0.10.2",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:goccy:go-json:v0.10.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:goccy:go_json:v0.10.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/goccy/go-json@v0.10.2",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:CrxCmQqYDkv1z7lO7Wbh2HN93uovUHgrECaO5ZrCXAU="
+      }
+    },
+    {
+      "id": "768bdea76795da5e",
+      "name": "github.com/google/pprof",
+      "version": "v0.0.0-20210407192527-94a9f03dee38",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google:pprof:v0.0.0-20210407192527-94a9f03dee38:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/google/pprof@v0.0.0-20210407192527-94a9f03dee38",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:yAJXTCF9TqKcTiHJAE8dj7HMvPfh66eeA2JYW7eFpSE="
+      }
+    },
+    {
+      "id": "b71b97451ba45321",
+      "name": "github.com/json-iterator/go",
+      "version": "v1.1.12",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM="
+      }
+    },
+    {
+      "id": "2fc5d08a9b452d97",
+      "name": "github.com/klauspost/cpuid/v2",
+      "version": "v2.0.9",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:klauspost:cpuid\\/v2:v2.0.9:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/klauspost/cpuid@v2.0.9#v2",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:lgaqFMSdTdQYdZ04uHyN2d/eKdOMyi2YLSvlQIBFYa4="
+      }
+    },
+    {
+      "id": "b76d4050a948c5b8",
+      "name": "github.com/kr/pretty",
+      "version": "v0.3.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:kr:pretty:v0.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/kr/pretty@v0.3.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE="
+      }
+    },
+    {
+      "id": "dc31b61b5d1d57b8",
+      "name": "github.com/leodido/go-urn",
+      "version": "v1.4.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:leodido:go-urn:v1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:leodido:go_urn:v1.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/leodido/go-urn@v1.4.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:WT9HwE9SGECu3lg4d/dIA+jxlljEa1/ffXKmRjqdmIQ="
+      }
+    },
+    {
+      "id": "f4619afab7c4111c",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.20",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY="
+      }
+    },
+    {
+      "id": "7cd0a448661081ad",
+      "name": "github.com/modern-go/concurrent",
+      "version": "v0.0.0-20180228061459-e0a39a4cb421",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:modern:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180228061459-e0a39a4cb421",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:ZqeYNhU3OHLH3mGKHDcjJRFFRrJa6eAM5H+CtDdOsPc="
+      }
+    },
+    {
+      "id": "d0740b2e48ecb514",
+      "name": "github.com/modern-go/reflect2",
+      "version": "v1.0.2",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M="
+      }
+    },
+    {
+      "id": "5191ff2910e9b570",
+      "name": "github.com/onsi/ginkgo/v2",
+      "version": "v2.9.5",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:onsi:ginkgo\\/v2:v2.9.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/onsi/ginkgo@v2.9.5#v2",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:+6Hr4uxzP4XIUyAkg61dWBw8lb/gc4/X5luuxN/EC+Q="
+      }
+    },
+    {
+      "id": "ede5d0051fc14725",
+      "name": "github.com/pelletier/go-toml/v2",
+      "version": "v2.2.2",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:pelletier:go-toml\\/v2:v2.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pelletier:go_toml\\/v2:v2.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/pelletier/go-toml@v2.2.2#v2",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:aYUidT7k73Pcl9nb2gScu7NSrKCSHIDE89b3+6Wq+LM="
+      }
+    },
+    {
+      "id": "2e9153c8c5a4f906",
+      "name": "github.com/pmezard/go-difflib",
+      "version": "v1.0.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
+      }
+    },
+    {
+      "id": "f6e2e295a609d7cf",
+      "name": "github.com/quic-go/qpack",
+      "version": "v0.4.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:quic-go:qpack:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic_go:qpack:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic:qpack:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/quic-go/qpack@v0.4.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:Cr9BXA1sQS2SmDUWjSofMPNKmvF6IiIfDRmgU0w1ZCo="
+      }
+    },
+    {
+      "id": "833b2674d8128fb9",
+      "name": "github.com/quic-go/quic-go",
+      "version": "v0.43.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:quic-go:quic-go:v0.43.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic-go:quic_go:v0.43.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic_go:quic-go:v0.43.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic_go:quic_go:v0.43.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic:quic-go:v0.43.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:quic:quic_go:v0.43.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/quic-go/quic-go@v0.43.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:fLiMNfQVe9q2JvSsiXo4fXOEguXHGGl9+6gLp4RPeZQ="
+      }
+    },
+    {
+      "id": "1e92eaf826745a46",
+      "name": "github.com/stretchr/testify",
+      "version": "v1.9.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:stretchr:testify:v1.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.9.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg="
+      }
+    },
+    {
+      "id": "1b5e6d463e64103d",
+      "name": "github.com/twitchyliquid64/golang-asm",
+      "version": "v0.15.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:twitchyliquid64:golang-asm:v0.15.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:twitchyliquid64:golang_asm:v0.15.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS4MhqMhdFk5YI="
+      }
+    },
+    {
+      "id": "64f555546e8d7887",
+      "name": "github.com/ugorji/go/codec",
+      "version": "v1.2.12",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ugorji:go\\/codec:v1.2.12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/github.com/ugorji/go@v1.2.12#codec",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:9LC83zGrHhuUA9l16C9AHXAqEV/2wBQ4nkvumAE65EE="
+      }
+    },
+    {
+      "id": "599f9f86c34f69ef",
+      "name": "github/codeql-action/analyze",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/codeql.yml",
+          "accessPath": "/.github/workflows/codeql.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/github/codeql-action@v3#analyze"
+    },
+    {
+      "id": "5e1cfb39ebb5e4fb",
+      "name": "github/codeql-action/init",
+      "version": "v3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/codeql.yml",
+          "accessPath": "/.github/workflows/codeql.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/github/codeql-action@v3#init"
+    },
+    {
+      "id": "b02ac718fe59e25e",
+      "name": "go.uber.org/mock",
+      "version": "v0.4.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [],
+      "purl": "pkg:golang/go.uber.org/mock@v0.4.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:VcM4ZOtdbR4f6VXfiOpwpVJDL6lCReaZ6mw31wqh7KU="
+      }
+    },
+    {
+      "id": "c9a828946ac1dd78",
+      "name": "golang.org/x/arch",
+      "version": "v0.0.0-20210923205945-b76863e36670",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:x\\/arch:v0.0.0-20210923205945-b76863e36670:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/arch@v0.0.0-20210923205945-b76863e36670",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:18EFjUmQOcUvxNYSkA6jO9VAiXCnxFY6NyDX0bHDmkU="
+      }
+    },
+    {
+      "id": "ba5359d8f3adbe08",
+      "name": "golang.org/x/crypto",
+      "version": "v0.25.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:x\\/crypto:v0.25.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.25.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:ypSNr+bnYL2YhwoMt2zPxHFmbAN1KZs/njMG3hxUp30="
+      }
+    },
+    {
+      "id": "54975e4904704d4f",
+      "name": "golang.org/x/exp",
+      "version": "v0.0.0-20221205204356-47842c84f3db",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:x\\/exp:v0.0.0-20221205204356-47842c84f3db:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20221205204356-47842c84f3db",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:D/cFflL63o2KSLJIwjlcIt8PR064j/xsmdEJL/YvY/o="
+      }
+    },
+    {
+      "id": "708b38b123a4196b",
+      "name": "golang.org/x/mod",
+      "version": "v0.17.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:x\\/mod:v0.17.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/mod@v0.17.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:zY54UmvipHiNd+pm+m0x9KhZ9hl1/7QNMyxXbc6ICqA="
+      }
+    },
+    {
+      "id": "d3b155486e4963f3",
+      "name": "golang.org/x/net",
+      "version": "v0.27.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:networking:v0.27.0:*:*:*:*:go:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/net@v0.27.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:5K3Njcw06/l2y9vpGCSdcxWOYHOUk3dVNGDXN+FvAys="
+      }
+    },
+    {
+      "id": "77c53cb0e32c1fff",
+      "name": "golang.org/x/sys",
+      "version": "v0.22.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:x\\/sys:v0.22.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.22.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:RI27ohtqKCnwULzJLqkv897zojh5/DwS/ENaMzUOaWI="
+      }
+    },
+    {
+      "id": "1c0bd605732aade4",
+      "name": "golang.org/x/text",
+      "version": "v0.16.0",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:text:v0.16.0:*:*:*:*:*:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.16.0",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4="
+      }
+    },
+    {
+      "id": "1f6ad0729e2bc692",
+      "name": "golang.org/x/tools",
+      "version": "v0.21.1-0.20240508182429-e35e4ccd0d2d",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golang:x\\/tools:v0.21.1-0.20240508182429-e35e4ccd0d2d:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/tools@v0.21.1-0.20240508182429-e35e4ccd0d2d",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:vU5i/LfpvrRCpgM/VPfJLg5KjxD3E+hfT1SH+d9zLwg="
+      }
+    },
+    {
+      "id": "2775bafc67ed35c7",
+      "name": "golangci/golangci-lint-action",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gin.yml",
+          "accessPath": "/.github/workflows/gin.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci-lint-action:golangci\\/golangci-lint-action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci-lint-action:golangci\\/golangci_lint_action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci_lint_action:golangci\\/golangci-lint-action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci_lint_action:golangci\\/golangci_lint_action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci-lint:golangci\\/golangci-lint-action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci-lint:golangci\\/golangci_lint_action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci_lint:golangci\\/golangci-lint-action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci_lint:golangci\\/golangci_lint_action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci:golangci\\/golangci-lint-action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:golangci\\/golangci:golangci\\/golangci_lint_action:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/golangci/golangci-lint-action@v6"
+    },
+    {
+      "id": "1db891ee5d0b9ff1",
+      "name": "google.golang.org/protobuf",
+      "version": "v1.34.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:google:protobuf:v1.34.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.34.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:9ddQBjfCyZPOHPUiPxpYESBLc+T8P3E+Vo4IbKZgFWg="
+      }
+    },
+    {
+      "id": "716c668b92999095",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.1",
+      "type": "go-module",
+      "foundBy": "go-module-file-cataloger",
+      "locations": [
+        {
+          "path": "/go.mod",
+          "accessPath": "/go.mod",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "go",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "metadataType": "go-module-entry",
+      "metadata": {
+        "h1Digest": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+      }
+    },
+    {
+      "id": "46e69acf151839d2",
+      "name": "goreleaser/goreleaser-action",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/goreleaser.yml",
+          "accessPath": "/.github/workflows/goreleaser.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:goreleaser\\/goreleaser-action:goreleaser\\/goreleaser-action:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:goreleaser\\/goreleaser-action:goreleaser\\/goreleaser_action:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:goreleaser\\/goreleaser_action:goreleaser\\/goreleaser-action:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:goreleaser\\/goreleaser_action:goreleaser\\/goreleaser_action:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:goreleaser\\/goreleaser:goreleaser\\/goreleaser-action:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:goreleaser\\/goreleaser:goreleaser\\/goreleaser_action:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/goreleaser/goreleaser-action@v5"
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "09ce847851ef4807",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0ab483711ac82dec",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1b5e6d463e64103d",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1c0bd605732aade4",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1c69133c75b0ec68",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1db891ee5d0b9ff1",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1e92eaf826745a46",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1f6ad0729e2bc692",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "20d1d183b73930c7",
+      "child": "7bc2cca2d070cf2b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "24c44d2165dbbe6e",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2775bafc67ed35c7",
+      "child": "7bc2cca2d070cf2b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2e9153c8c5a4f906",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2fc5d08a9b452d97",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "46e69acf151839d2",
+      "child": "a24e9312fabd7fe5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4fff1eaa0bc0be66",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5191ff2910e9b570",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "51df85ab5a46c699",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "54975e4904704d4f",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "599f9f86c34f69ef",
+      "child": "f4fe0eee66e1ba99",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5e1cfb39ebb5e4fb",
+      "child": "f4fe0eee66e1ba99",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "64f555546e8d7887",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "683753858d2428f5",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6aee37cd95a52198",
+      "child": "7bc2cca2d070cf2b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7004dc2b96fdb8a5",
+      "child": "7bc2cca2d070cf2b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "708b38b123a4196b",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "716c668b92999095",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "768bdea76795da5e",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "77c53cb0e32c1fff",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7cd0a448661081ad",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "833b2674d8128fb9",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a72637e3ab3f2702",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a9f509c48eb6d333",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "aa3c8c1e33334216",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b02ac718fe59e25e",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b71b97451ba45321",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b76d4050a948c5b8",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ba5359d8f3adbe08",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "bc39fc3bb5768de8",
+      "child": "7bc2cca2d070cf2b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c67e74d6bacda5f8",
+      "child": "a24e9312fabd7fe5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c9a828946ac1dd78",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cb6860ca46e59eee",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d0740b2e48ecb514",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d3b155486e4963f3",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dc31b61b5d1d57b8",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "09ce847851ef4807",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "0ab483711ac82dec",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "1b5e6d463e64103d",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "1c0bd605732aade4",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "1c69133c75b0ec68",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "1db891ee5d0b9ff1",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "1e92eaf826745a46",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "1f6ad0729e2bc692",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "20d1d183b73930c7",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "24c44d2165dbbe6e",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "2775bafc67ed35c7",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "2e9153c8c5a4f906",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "2fc5d08a9b452d97",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "46e69acf151839d2",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "4fff1eaa0bc0be66",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "5191ff2910e9b570",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "51df85ab5a46c699",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "54975e4904704d4f",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "599f9f86c34f69ef",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "5e1cfb39ebb5e4fb",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "64f555546e8d7887",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "683753858d2428f5",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "6aee37cd95a52198",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "7004dc2b96fdb8a5",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "708b38b123a4196b",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "716c668b92999095",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "768bdea76795da5e",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "77c53cb0e32c1fff",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "7cd0a448661081ad",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "833b2674d8128fb9",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "a72637e3ab3f2702",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "a9f509c48eb6d333",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "aa3c8c1e33334216",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "b02ac718fe59e25e",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "b71b97451ba45321",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "b76d4050a948c5b8",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "ba5359d8f3adbe08",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "bc39fc3bb5768de8",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "c67e74d6bacda5f8",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "c9a828946ac1dd78",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "cb6860ca46e59eee",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "d0740b2e48ecb514",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "d3b155486e4963f3",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "dc31b61b5d1d57b8",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "ed271496b40ae290",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "ede5d0051fc14725",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "efff1dbeb61369f4",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "f4619afab7c4111c",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "f6e2e295a609d7cf",
+      "type": "contains"
+    },
+    {
+      "parent": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+      "child": "ffece65caa72c162",
+      "type": "contains"
+    },
+    {
+      "parent": "ed271496b40ae290",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ede5d0051fc14725",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "efff1dbeb61369f4",
+      "child": "a24e9312fabd7fe5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f4619afab7c4111c",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f6e2e295a609d7cf",
+      "child": "3fc5a8d3d86e9790",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ffece65caa72c162",
+      "child": "f4fe0eee66e1ba99",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "f4fe0eee66e1ba99",
+      "location": {
+        "path": "/.github/workflows/codeql.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1561
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "d5bc6aa1c8b4d9a4d12f536a59621ddbb6634b89"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b8e055a77a6d4c55d58c1f5556443f11b1415dbaf4cd00be00bb979029ec7bcc"
+        }
+      ]
+    },
+    {
+      "id": "7bc2cca2d070cf2b",
+      "location": {
+        "path": "/.github/workflows/gin.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1983
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8a7ef537610bab49dd81816119d0d799250810fb"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "37750e93ca0f8542031402da3e6e80080b085a37d8bbe81d77221b3249e55318"
+        }
+      ]
+    },
+    {
+      "id": "a24e9312fabd7fe5",
+      "location": {
+        "path": "/.github/workflows/goreleaser.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 647
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "a6695dd056831e6d94636ceaf00c17c194858045"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ef3faeaf1d4cf4b627915c1b9201041c2ec8864c8c28d56518dea469ad96b931"
+        }
+      ]
+    },
+    {
+      "id": "3fc5a8d3d86e9790",
+      "location": {
+        "path": "/go.mod"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1914
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "5dfedc13fa9c27a96d7c88aa917d1d38e1466fa2"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6222d2c4c38f92aa685329371143313937198e8699b202878ab0d581c8986f96"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "dfbfbbb6e2ba7b7c82b6ae48f2ced2d08836ec820979fbbc0584dc9ba2c184e1",
+    "name": "/home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.18.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "dotnet-deps-cataloger",
+          "dotnet-portable-executable-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-store-cataloger",
+          "opam-cataloger",
+          "php-composer-lock-cataloger",
+          "php-pecl-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "java-binary-openjdk",
+          "java-binary-ibm",
+          "java-binary-oracle",
+          "java-binary-graalvm",
+          "java-binary-jdk",
+          "nodejs-binary",
+          "go-binary-hint",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-cli-binary",
+          "php-fpm-binary",
+          "php-apache-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary"
+        ],
+        "golang": {
+          "local-mod-cache-dir": "/home/alan/go/pkg/mod",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": true,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-remote-licenses": false
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/alan/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "python": {
+          "guess-unpinned-requirements": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.0.18",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.18.json"
+  }
+}

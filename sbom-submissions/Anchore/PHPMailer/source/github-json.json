@@ -1,0 +1,95 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/docs.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/docs.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/docs.yaml"
+      },
+      "resolved": {
+        "": {
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/jamesives/github-pages-deploy-action@v4": {
+          "package_url": "pkg:github/JamesIves/github-pages-deploy-action@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/scorecards.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/scorecards.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/scorecards.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-artifact@v4": {
+          "package_url": "pkg:github/actions/upload-artifact@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@v3#upload-sarif": {
+          "package_url": "pkg:github/github/codeql-action@v3#upload-sarif",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46": {
+          "package_url": "pkg:github/ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/tests.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/tests.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/PHPMailer/PHPMailer/.github/workflows/tests.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v4": {
+          "package_url": "pkg:github/actions/checkout@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/codecov/codecov-action@v4": {
+          "package_url": "pkg:github/codecov/codecov-action@v4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/nick-invision/retry@v3": {
+          "package_url": "pkg:github/nick-invision/retry@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ramsey/composer-install@v3": {
+          "package_url": "pkg:github/ramsey/composer-install@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/shivammathur/setup-php@v2": {
+          "package_url": "pkg:github/shivammathur/setup-php@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:08:42+01:00"
+}

@@ -1,0 +1,31 @@
+[Path: /home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies]
+[actions/checkout]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[ad-m/github-push-action]
+ Version:	 master
+ Type:		 github-action
+ Found by:	 github-actions-usage-cataloger
+
+[gradle-wrapper]
+ Version:	 UNKNOWN
+ Type:		 java-archive
+ Found by:	 java-archive-cataloger
+
+[ldtteam/operapublicacreator/.github/workflows/gradle.build.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[ldtteam/operapublicacreator/.github/workflows/gradle.prerelease.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+
+[ldtteam/operapublicacreator/.github/workflows/gradle.publish.yaml]
+ Version:	 main
+ Type:		 github-action-workflow
+ Found by:	 github-action-workflow-usage-cataloger
+

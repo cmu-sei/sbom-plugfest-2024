@@ -1,0 +1,1566 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "comment": "Root directory: /Users/my_user/my_test_env/",
+    "creationInfo": {
+        "created": "2024-12-09T18:10:20Z",
+        "creators": [
+            "Person: system",
+            "Organization: Security Pattern",
+            "Tool: ARIANNA Platform"
+        ],
+        "licenseListVersion": "3.25"
+    },
+    "dataLicense": "CC0-1.0",
+    "name": "Plugfest-Python-SBoM-1.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://arianna.securitypattern.com/spdx/f0a1d244-a5cf-46e8-99b9-29857436c2b0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-PROJECT-Plugfest-Python-SBoM",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": true,
+            "name": "Plugfest Python SBoM",
+            "originator": "Organization: Security Pattern",
+            "primaryPackagePurpose": "OTHER",
+            "supplier": "Organization: Security Pattern",
+            "versionInfo": "1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-httpie-edbb3822",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/httpie@3.2.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://httpie.io/",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "httpie",
+            "originator": "Person: Jakub Roztocil (jakub@roztocil.co)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "HTTPie: modern, user-friendly command-line HTTP client for the API era.",
+            "supplier": "Organization: pip",
+            "versionInfo": "3.2.4"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-importlib-metadata-8ceea989",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/importlib_metadata@8.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "name": "importlib-metadata",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/python/importlib_metadata",
+            "summary": "Read metadata from Python packages",
+            "supplier": "Organization: pip",
+            "versionInfo": "8.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-inflect-4c202e1f",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/inflect@7.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "name": "inflect",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/jaraco/inflect",
+            "summary": "Correctly generate plurals, singular nouns, ordinals, indefinite articles",
+            "supplier": "Organization: pip",
+            "versionInfo": "7.3.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-jaraco.collections-10564a8c",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/jaraco.collections@5.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "name": "jaraco.collections",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/jaraco/jaraco.collections",
+            "summary": "Collection objects similar to those in stdlib by jaraco",
+            "supplier": "Organization: pip",
+            "versionInfo": "5.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-jaraco.context-0532ad85",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/jaraco.context@5.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/jaraco/jaraco.context",
+            "licenseConcluded": "MIT",
+            "name": "jaraco.context",
+            "originator": "Person: Jason R. Coombs (jaraco@jaraco.com)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Useful decorators and context managers",
+            "supplier": "Organization: pip",
+            "versionInfo": "5.3.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-jaraco.functools-d4df04bd",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/jaraco.functools@4.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/jaraco/jaraco.functools",
+            "licenseConcluded": "MIT",
+            "name": "jaraco.functools",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Functools like those found in stdlib",
+            "supplier": "Organization: pip",
+            "versionInfo": "4.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-jaraco.text-213485fa",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/jaraco.text@3.12.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/jaraco/jaraco.text",
+            "licenseConcluded": "MIT",
+            "name": "jaraco.text",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Module for text manipulation",
+            "supplier": "Organization: pip",
+            "versionInfo": "3.12.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-markdown-it-py-31e72eb7",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/markdown_it_py@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/executablebooks/markdown-it-py",
+            "licenseConcluded": "MIT",
+            "name": "markdown-it-py",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Python port of markdown-it. Markdown parsing, done right!",
+            "supplier": "Organization: pip",
+            "versionInfo": "3.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-mdurl-55c70823",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/mdurl@0.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/executablebooks/mdurl",
+            "licenseConcluded": "MIT",
+            "name": "mdurl",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Markdown URL utilities",
+            "supplier": "Organization: pip",
+            "versionInfo": "0.1.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-more-itertools-6c1dfb7d",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/more_itertools@10.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/more-itertools/more-itertools",
+            "licenseConcluded": "MIT",
+            "name": "more-itertools",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "More routines for operating on iterables, beyond itertools",
+            "supplier": "Organization: pip",
+            "versionInfo": "10.3.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-multidict-2b4a5840",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/multidict@6.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/aio-libs/multidict",
+            "licenseDeclared": "Apache-2.0",
+            "name": "multidict",
+            "originator": "Person: Andrew Svetlov (andrew.svetlov@gmail.com)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "multidict implementation",
+            "supplier": "Organization: pip",
+            "versionInfo": "6.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-PySocks-ecda7831",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pysocks@1.7.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/Anorov/PySocks",
+            "licenseConcluded": "BSD-3-Clause",
+            "name": "PySocks",
+            "originator": "Person: Anorov (anorov.vorona@gmail.com)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.",
+            "supplier": "Organization: pip",
+            "versionInfo": "1.7.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-packaging-99e3db30",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/packaging@24.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "name": "packaging",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/pypa/packaging",
+            "summary": "Core utilities for Python packages",
+            "supplier": "Organization: pip",
+            "versionInfo": "24.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-pip-710d8352",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pip@24.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pip.pypa.io/",
+            "licenseDeclared": "MIT",
+            "name": "pip",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/pypa/pip",
+            "summary": "The PyPA recommended tool for installing Python packages.",
+            "supplier": "Organization: pip",
+            "versionInfo": "24.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-platformdirs-e7e1a160",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/platformdirs@4.2.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/platformdirs/platformdirs",
+            "licenseDeclared": "MIT",
+            "name": "platformdirs",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/platformdirs/platformdirs",
+            "summary": "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.",
+            "supplier": "Organization: pip",
+            "versionInfo": "4.2.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/requests@2.32.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://requests.readthedocs.io",
+            "licenseDeclared": "Apache-2.0",
+            "name": "requests",
+            "originator": "Person: Kenneth Reitz (me@kennethreitz.org)",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/psf/requests",
+            "summary": "Python HTTP for Humans.",
+            "supplier": "Organization: pip",
+            "versionInfo": "2.32.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-requests-toolbelt-ebaa7d48",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/requests_toolbelt@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://toolbelt.readthedocs.io/",
+            "licenseDeclared": "Apache-2.0",
+            "name": "requests-toolbelt",
+            "originator": "Person: Ian Cordasco",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/requests/toolbelt",
+            "summary": "A utility belt for advanced users of python-requests",
+            "supplier": "Organization: pip",
+            "versionInfo": "1.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-rich-b9c49fc0",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/rich@13.9.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/Textualize/rich",
+            "licenseDeclared": "MIT",
+            "name": "rich",
+            "originator": "Person: Will McGugan (willmcgugan@gmail.com)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+            "supplier": "Organization: pip",
+            "versionInfo": "13.9.4"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-setuptools-f0295879",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/setuptools@75.6.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "name": "setuptools",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/pypa/setuptools",
+            "summary": "Easily download, build, install, upgrade, and uninstall Python packages",
+            "supplier": "Organization: pip",
+            "versionInfo": "75.6.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-tomli-5bfa4079",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/tomli@2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/hukkin/tomli",
+            "licenseConcluded": "MIT",
+            "name": "tomli",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "A lil' TOML parser",
+            "supplier": "Organization: pip",
+            "versionInfo": "2.0.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-typeguard-d74dc755",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/typeguard@4.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseDeclared": "MIT",
+            "name": "typeguard",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Run-time type checker for Python",
+            "supplier": "Organization: pip",
+            "versionInfo": "4.3.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-typing-extensions-c24b66a7",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/typing_extensions@4.12.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "PSF-2.0",
+            "name": "typing_extensions",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Backported and Experimental Type Hints for Python 3.8+",
+            "supplier": "Organization: pip",
+            "versionInfo": "4.12.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-Pygments-8b67656c",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pygments@2.18.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://pygments.org",
+            "licenseDeclared": "BSD-2-Clause",
+            "name": "Pygments",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/pygments/pygments",
+            "summary": "Pygments is a syntax highlighting package written in Python.",
+            "supplier": "Organization: pip",
+            "versionInfo": "2.18.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-urllib3-52d836ff",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/urllib3@2.2.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "name": "urllib3",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "supplier": "Organization: pip",
+            "versionInfo": "2.2.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-wheel-bc605c93",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/wheel@0.43.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "name": "wheel",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/pypa/wheel",
+            "summary": "A built-package format for Python",
+            "supplier": "Organization: pip",
+            "versionInfo": "0.43.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-zipp-ecd89ab3",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/zipp@3.19.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/jaraco/zipp",
+            "licenseConcluded": "MIT",
+            "name": "zipp",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Backport of pathlib-compatible object wrapper for zip files",
+            "supplier": "Organization: pip",
+            "versionInfo": "3.19.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-autocommand-2572a44d",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/autocommand@2.2.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/Lucretiel/autocommand",
+            "licenseDeclared": "LGPL-3.0-only",
+            "name": "autocommand",
+            "originator": "Person: Nathan West",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "A library to create a command-line program from a function",
+            "supplier": "Organization: pip",
+            "versionInfo": "2.2.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-backports.tarfile-34695c1d",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/backports.tarfile@1.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/jaraco/backports.tarfile",
+            "licenseConcluded": "MIT",
+            "name": "backports.tarfile",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Backport of CPython tarfile module",
+            "supplier": "Organization: pip",
+            "versionInfo": "1.2.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-certifi-563b0bab",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/certifi@2024.8.30",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/certifi/python-certifi",
+            "licenseDeclared": "MPL-2.0",
+            "name": "certifi",
+            "originator": "Person: Kenneth Reitz (me@kennethreitz.com)",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/certifi/python-certifi",
+            "summary": "Python package for providing Mozilla's CA Bundle.",
+            "supplier": "Organization: pip",
+            "versionInfo": "2024.8.30"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-charset-normalizer-7c08b333",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/charset_normalizer@3.4.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/Ousret/charset_normalizer",
+            "licenseDeclared": "MIT",
+            "name": "charset-normalizer",
+            "originator": "Person: Ahmed TAHRI (tahri.ahmed@proton.me)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+            "supplier": "Organization: pip",
+            "versionInfo": "3.4.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-defusedxml-3c273017",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/defusedxml@0.7.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/tiran/defusedxml",
+            "licenseDeclared": "PSF-2.0",
+            "name": "defusedxml",
+            "originator": "Person: Christian Heimes (christian@python.org)",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "XML bomb protection for Python stdlib modules",
+            "supplier": "Organization: pip",
+            "versionInfo": "0.7.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-Python-idna-11c7d521",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/idna@3.10",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "name": "idna",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "https://github.com/kjd/idna",
+            "summary": "Internationalized Domain Names in Applications (IDNA)",
+            "supplier": "Organization: pip",
+            "versionInfo": "3.10"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-METADATA-90ceedad-b554-4896-bdc1-c28b3c76fed0",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "024cf9e9da587099c4fc54c7f5b2c4f4441fd4b7"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "efb0dee0c447da4f473e55e01867cfe56ff8e269995d35ed24f4a8a6c4a80206"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/httpie-3.2.4.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-7e19b56f-dae8-4fc7-90b4-577d8efa2b4a",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e8c830d8b0942300c7c87b3b8fd15ea1396e07bd"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-76ba43b8-e88f-4a87-83f9-06098d10fca0",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c37042adc0d1270485f4b8b5b9e085a274dc035b"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "66030d634580651b3e53cc19895d9231f8d22aa06b327817c8332cfc20303308"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-69f272fe-3536-46bc-8f5a-540769e786be",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ac0db25aefd2679b4c3265e713d00f6155a94465"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "20c51a96236c0395f53b1f4c5d458e6a0721e51e16c1bff733b7aba76f5d06d8"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-373625b5-a405-4ce9-9f3b-68583ffe6046",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ac9c92013b2f0fc65d741b32a9fe4b956dd6eb7d"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c43b60b897a3d2d37d8845c252fc44261d9aef171e21154111a9012d2afffed6"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-ce600cd2-11df-43dd-bf46-f5b8ee166a02",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b7a18f079de22d10c4c318e54bd8c48177f91333"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8b86946900d7fa38dd1102b9c1ebe17a0cb1f09c8b7e29f61f2bda4a4dc51eca"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-a719853f-1b15-4021-a481-b1b60c29aaf7",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a7763789fa56cebbaa849368faac7d386f170399"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "03359d9ba56231f0ce3e840c7cb5a7db380141218949ccaa78ddbd4dcb965d52"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-524f0e35-8730-4ae1-83af-2b9f2c82d0f2",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "70c9ecb166629d6553abc6ffac1749a244abd081"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d3e90c1382903520863f37d210581073c32151de5c986f8b3b4d3b045937fdfc"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/markdown_it_py-3.0.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-9adae125-1d77-462d-8013-b4b9804b47bc",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cc9d84bf84be59dd90368ea2f5e3a9fae8f0f1b7"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-708e3f8d-6809-4f06-8327-7f2823748435",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ffccec7fd799cc4ab07530954fef3be2472e2c23"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0453bdd0ef9f2cd89540ca63ee8212e73b73809514419dd3037d8fe471f737e0"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-c03f1c91-d886-4a2e-8ad3-3ed53c49c416",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d79a1c5fceec4840b5de652a3397d57482913603"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3a70b1e434785cf7fae062032b85e6700d9eec72d0ffbf38bcc7c4432dbcee43"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/multidict-6.1.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-be3e4988-04ec-48d6-bcb0-2fba7e2b0129",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e7121f5b856c57e858caf18a23bf0cd497c6b9e2"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "cdb40c8b38cf38e3f80e1122117db85d78cdad8b88c45f54194a4dd2e14307a6"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/PySocks-1.7.1.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-47b4873b-ea61-4b15-8da3-e1b0de57a1ef",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "292b8d19cdc308e072817b6407cac3cb5175a060"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a211fceacea4e6621f4316364d2d0b7127c00de3856b8062082f9bc5957ea4db"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-8c49969e-1fd8-4116-8dee-56d135185df3",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7ef1f6226c2acedce857ed89cec1548dc9bacd9c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3e1cc2c50c4886c9d9f3bd5c3d47b71dec3d3e186981f94b6dfa94dd68b366a3"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/pip-24.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-0ac40d4a-5ebd-4207-b71e-41a647d9781b",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1ac8a3679afcfeec0ba00851f5f8095dd1b060cd"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ce6b227b4d46d4cb57474c2022fe57a557933bb89daf4596bdf9b12ac296b869"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-51ececca-3c5a-4947-8d31-7799694b5a44",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2932497ffb7a7e281a919fc9b881c459e56653e0"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "658ee8454c1e2e76fb8c2127116f61156b3b22941b3559c00389dca70038581a"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/requests-2.32.3.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-ca9121b7-e591-4643-88aa-58f4b19b0925",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "171fbbc84e8b7216e237b702f3fda539ffb1e487"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "fa52f26237cc8d148d25c5746fdca499a56d0e765e69095cc3564a07cce23967"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-f856c1ab-c0f8-460d-b1ad-05045eaa53ce",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d340ca2c4a33cd3afb0f14e7c924555176d474e6"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "760dbd01312b9b05b786a3846c8b26596d98e227a1dfcc3df2bf65f0c7c8ac62"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/rich-13.9.4.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-9aa95cca-11ac-44d5-88bd-dfdbfa760ddc",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "12f1286865b32c1831844e63692b070c43c4c4a4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2fc430773345285fbc17bca8f9ba38e74989cd7c36ad9404cd39dd3dceb3da20"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools-75.6.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-787ad089-5297-4824-a459-debf635e7a04",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d3ea3bda227794ae35fe7ffc5bd6e5fa2a5ef250"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ccf0dc78a98fc0918b5ad67292b1e2c4bed65575a6246cd9d63c914f9942a0f2"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-ce6e4d02-f162-4d2d-a271-e68b37cdcc46",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9a94672ccfea06156a5f8a321cd0626cfd233ae8"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "cf675c1c0a744f08580855390de87cc77d676b312582e8d4cfdb5bb8fd298d21"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-88587786-0acd-4ef4-8b9e-1f05543d4cd3",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b6ada54b9516d20b69a5dd5cded868da22c5e252"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "05e51021af1c9d86eb8d6c7e37c4cece733d5065b91a6d8389c5690ed440f16d"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-81bb2561-d926-4a6c-974f-e6f69fc76a77",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2646707994af8555350bb4b8da93ceac8bc491c0"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5965623038f71a812e625f6c21b92603bcefd26d07e6c253517512798ef76ecf"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/pygments-2.18.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-b2d89c26-fa9f-409a-a96c-449193faeb40",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "150524ee8bba4b41d2e36d789748ec8ec0e65315"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "369c8b318bbe42802640aea99a6828651baad073edfa57ff27dcc8b8218c44d6"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/urllib3-2.2.3.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-e264d101-004f-49bd-b4ab-f7e15c97512a",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7ceb6dbe498b69abf4087637c6f500742ff7e2b4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "59bac22b00a59d3e5608a56b8cf8efc43831a36b72792ee4389c9cd4669c7841"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-70a74ad6-2c53-4994-ae4d-955e6f607e89",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c53b0e6a2e3d94093e2fe4978926a7439b47d43c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "508ae4fe43081c64b0b0a2828588b3a8cc3430c6693d1676662569400b0dfdb1"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-2ec41563-f41c-48fe-9108-ebd62e64fafb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4310db58f98c12b23286e5fa37f0e27abefb6a4a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3800d9b91dceea2065a6ed6279383362e97ac38b8e56b9343f404ee531860099"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-e6558cdd-6139-4901-bee5-bf35e3ccae38",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3dd8d93cf7695d1c9d7574751ab5b0dee5dd7f9a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8215c54ead77d9dc5a108a25c6bdc72b5999aa6f62c9499a440359412afa5a51"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-927fb5e3-c28d-47e6-bb17-cd5ea755750b",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9327ad0bda86c1be61644acf536b271fd19b0929"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1a104745550de9ae19754804fcde709ae9097f2ba813e432225f18de27cd4013"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/certifi-2024.8.30.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-6058160f-a4e5-4f0b-b360-ad661cba17a0",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c10e6e210a50bd5e932c0c69ccc7959264bf2325"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5866c45bd7a1876b29349c68d4ceac1061995a6b10fa88f60ec323576f73a26b"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/charset_normalizer-3.4.0.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-735eb02b-a470-4791-aca2-6fb246b64d95",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bbe8ef8118fece856076610151e3ab2244d2abbf"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "369d3cef64870daf849fba711cb8d05a7efe3c8d9ab0f763adc34079fe378bb1"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/defusedxml-0.7.1.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-File-METADATA-28e8ed03-04ea-4daa-8285-abf128032cb9",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c2b49b407d6a6a30fd069ab3f1ba78107825ef46"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5114796720df4353c2106864628a23a9f8b645ad2d6aedbefa58701b85d27e32"
+                }
+            ],
+            "comment": "Metadata file for an installed Python module",
+            "fileName": "./.venv/lib/python3.13/site-packages/idna-3.10.dist-info/METADATA",
+            "fileTypes": [
+                "TEXT"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-PROJECT-Plugfest-Python-SBoM",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-90ceedad-b554-4896-bdc1-c28b3c76fed0",
+            "relatedSpdxElement": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-7e19b56f-dae8-4fc7-90b4-577d8efa2b4a",
+            "relatedSpdxElement": "SPDXRef-Package-Python-importlib-metadata-8ceea989",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-76ba43b8-e88f-4a87-83f9-06098d10fca0",
+            "relatedSpdxElement": "SPDXRef-Package-Python-inflect-4c202e1f",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-69f272fe-3536-46bc-8f5a-540769e786be",
+            "relatedSpdxElement": "SPDXRef-Package-Python-jaraco.collections-10564a8c",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-373625b5-a405-4ce9-9f3b-68583ffe6046",
+            "relatedSpdxElement": "SPDXRef-Package-Python-jaraco.context-0532ad85",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-ce600cd2-11df-43dd-bf46-f5b8ee166a02",
+            "relatedSpdxElement": "SPDXRef-Package-Python-jaraco.functools-d4df04bd",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-a719853f-1b15-4021-a481-b1b60c29aaf7",
+            "relatedSpdxElement": "SPDXRef-Package-Python-jaraco.text-213485fa",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-524f0e35-8730-4ae1-83af-2b9f2c82d0f2",
+            "relatedSpdxElement": "SPDXRef-Package-Python-markdown-it-py-31e72eb7",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-9adae125-1d77-462d-8013-b4b9804b47bc",
+            "relatedSpdxElement": "SPDXRef-Package-Python-mdurl-55c70823",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-708e3f8d-6809-4f06-8327-7f2823748435",
+            "relatedSpdxElement": "SPDXRef-Package-Python-more-itertools-6c1dfb7d",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-c03f1c91-d886-4a2e-8ad3-3ed53c49c416",
+            "relatedSpdxElement": "SPDXRef-Package-Python-multidict-2b4a5840",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-be3e4988-04ec-48d6-bcb0-2fba7e2b0129",
+            "relatedSpdxElement": "SPDXRef-Package-Python-PySocks-ecda7831",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-47b4873b-ea61-4b15-8da3-e1b0de57a1ef",
+            "relatedSpdxElement": "SPDXRef-Package-Python-packaging-99e3db30",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-8c49969e-1fd8-4116-8dee-56d135185df3",
+            "relatedSpdxElement": "SPDXRef-Package-Python-pip-710d8352",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-0ac40d4a-5ebd-4207-b71e-41a647d9781b",
+            "relatedSpdxElement": "SPDXRef-Package-Python-platformdirs-e7e1a160",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-51ececca-3c5a-4947-8d31-7799694b5a44",
+            "relatedSpdxElement": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-ca9121b7-e591-4643-88aa-58f4b19b0925",
+            "relatedSpdxElement": "SPDXRef-Package-Python-requests-toolbelt-ebaa7d48",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-f856c1ab-c0f8-460d-b1ad-05045eaa53ce",
+            "relatedSpdxElement": "SPDXRef-Package-Python-rich-b9c49fc0",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-9aa95cca-11ac-44d5-88bd-dfdbfa760ddc",
+            "relatedSpdxElement": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-787ad089-5297-4824-a459-debf635e7a04",
+            "relatedSpdxElement": "SPDXRef-Package-Python-tomli-5bfa4079",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-ce6e4d02-f162-4d2d-a271-e68b37cdcc46",
+            "relatedSpdxElement": "SPDXRef-Package-Python-typeguard-d74dc755",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-88587786-0acd-4ef4-8b9e-1f05543d4cd3",
+            "relatedSpdxElement": "SPDXRef-Package-Python-typing-extensions-c24b66a7",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-81bb2561-d926-4a6c-974f-e6f69fc76a77",
+            "relatedSpdxElement": "SPDXRef-Package-Python-Pygments-8b67656c",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-b2d89c26-fa9f-409a-a96c-449193faeb40",
+            "relatedSpdxElement": "SPDXRef-Package-Python-urllib3-52d836ff",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-e264d101-004f-49bd-b4ab-f7e15c97512a",
+            "relatedSpdxElement": "SPDXRef-Package-Python-wheel-bc605c93",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-70a74ad6-2c53-4994-ae4d-955e6f607e89",
+            "relatedSpdxElement": "SPDXRef-Package-Python-zipp-ecd89ab3",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-2ec41563-f41c-48fe-9108-ebd62e64fafb",
+            "relatedSpdxElement": "SPDXRef-Package-Python-autocommand-2572a44d",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-e6558cdd-6139-4901-bee5-bf35e3ccae38",
+            "relatedSpdxElement": "SPDXRef-Package-Python-backports.tarfile-34695c1d",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-927fb5e3-c28d-47e6-bb17-cd5ea755750b",
+            "relatedSpdxElement": "SPDXRef-Package-Python-certifi-563b0bab",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-6058160f-a4e5-4f0b-b360-ad661cba17a0",
+            "relatedSpdxElement": "SPDXRef-Package-Python-charset-normalizer-7c08b333",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-735eb02b-a470-4791-aca2-6fb246b64d95",
+            "relatedSpdxElement": "SPDXRef-Package-Python-defusedxml-3c273017",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-File-METADATA-28e8ed03-04ea-4daa-8285-abf128032cb9",
+            "relatedSpdxElement": "SPDXRef-Package-Python-idna-11c7d521",
+            "relationshipType": "METAFILE_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-Pygments-8b67656c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-defusedxml-3c273017",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-multidict-2b4a5840",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-pip-710d8352",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-requests-toolbelt-ebaa7d48",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-rich-b9c49fc0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-httpie-edbb3822",
+            "relatedSpdxElement": "SPDXRef-Package-Python-wheel-bc605c93",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-importlib-metadata-8ceea989",
+            "relatedSpdxElement": "SPDXRef-Package-Python-packaging-99e3db30",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-importlib-metadata-8ceea989",
+            "relatedSpdxElement": "SPDXRef-Package-Python-zipp-ecd89ab3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-inflect-4c202e1f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-more-itertools-6c1dfb7d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-inflect-4c202e1f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-typeguard-d74dc755",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-jaraco.functools-d4df04bd",
+            "relatedSpdxElement": "SPDXRef-Package-Python-more-itertools-6c1dfb7d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-jaraco.text-213485fa",
+            "relatedSpdxElement": "SPDXRef-Package-Python-autocommand-2572a44d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-jaraco.text-213485fa",
+            "relatedSpdxElement": "SPDXRef-Package-Python-inflect-4c202e1f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-jaraco.text-213485fa",
+            "relatedSpdxElement": "SPDXRef-Package-Python-more-itertools-6c1dfb7d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-markdown-it-py-31e72eb7",
+            "relatedSpdxElement": "SPDXRef-Package-Python-mdurl-55c70823",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-PySocks-ecda7831",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-certifi-563b0bab",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-charset-normalizer-7c08b333",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-idna-11c7d521",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relatedSpdxElement": "SPDXRef-Package-Python-urllib3-52d836ff",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-requests-toolbelt-ebaa7d48",
+            "relatedSpdxElement": "SPDXRef-Package-Python-requests-c55d6b4f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-rich-b9c49fc0",
+            "relatedSpdxElement": "SPDXRef-Package-Python-markdown-it-py-31e72eb7",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relatedSpdxElement": "SPDXRef-Package-Python-importlib-metadata-8ceea989",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relatedSpdxElement": "SPDXRef-Package-Python-packaging-99e3db30",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relatedSpdxElement": "SPDXRef-Package-Python-pip-710d8352",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relatedSpdxElement": "SPDXRef-Package-Python-platformdirs-e7e1a160",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relatedSpdxElement": "SPDXRef-Package-Python-tomli-5bfa4079",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relatedSpdxElement": "SPDXRef-Package-Python-wheel-bc605c93",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-typeguard-d74dc755",
+            "relatedSpdxElement": "SPDXRef-Package-Python-packaging-99e3db30",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-wheel-bc605c93",
+            "relatedSpdxElement": "SPDXRef-Package-Python-setuptools-f0295879",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-Python-zipp-ecd89ab3",
+            "relatedSpdxElement": "SPDXRef-Package-Python-more-itertools-6c1dfb7d",
+            "relationshipType": "DEPENDS_ON"
+        }
+    ]
+}

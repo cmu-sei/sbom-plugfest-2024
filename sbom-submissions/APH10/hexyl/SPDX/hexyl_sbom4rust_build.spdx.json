@@ -1,0 +1,2900 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "comment": "This document has been automatically generated.",
+    "creators": [
+      "Tool: sbom4rust-0.6.0"
+    ],
+    "created": "2024-12-10T09:05:09Z",
+    "licenseListVersion": "3.25"
+  },
+  "name": "Hexyl",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/Hexyl-0fab2eba-32d0-4d42-8d1b-d559248b4eb0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-1-aho-corasick",
+      "name": "aho-corasick",
+      "versionInfo": "1.0.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Andrew Gallant",
+      "downloadLocation": "https://crates.io/crates/aho-corasick/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/BurntSushi/aho-corasick",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "feda22857e1d0dd069b9c8941f0caf47a19ad078"
+        }
+      ],
+      "licenseConcluded": "Unlicense OR MIT",
+      "licenseDeclared": "Unlicense OR MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Fast multiple substring searching.",
+      "releaseDate": "2023-08-14T16:13:11Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/aho-corasick@1.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-2-anstream",
+      "name": "anstream",
+      "versionInfo": "0.3.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/anstream/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-cli/anstyle",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A simple cross platform library for writing colored text to a terminal.",
+      "releaseDate": "2023-05-01T14:58:58Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstream@0.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-3-anstyle",
+      "name": "anstyle",
+      "versionInfo": "1.0.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/anstyle/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-cli/anstyle",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "ANSI text styling",
+      "releaseDate": "2023-06-20T21:32:25Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle@1.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-4-anstyle-parse",
+      "name": "anstyle-parse",
+      "versionInfo": "0.2.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/anstyle-parse/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-cli/anstyle",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Parse ANSI Style Escapes",
+      "releaseDate": "2023-06-20T21:32:30Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle-parse@0.2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-5-anstyle-query",
+      "name": "anstyle-query",
+      "versionInfo": "1.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/anstyle-query/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Look up colored console capabilities",
+      "releaseDate": "2023-04-13T14:40:53Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle-query@1.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-6-anstyle-wincon",
+      "name": "anstyle-wincon",
+      "versionInfo": "1.0.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/anstyle-wincon/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-cli/anstyle",
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Styling legacy Windows terminals",
+      "releaseDate": "2023-08-09T17:41:39Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle-wincon@1.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-7-anyhow",
+      "name": "anyhow",
+      "versionInfo": "1.0.75",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/anyhow/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6485caebde8e5c8bc313cd1a5ff6d70e58670b42"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Flexible concrete Error type built on std::error::Error",
+      "releaseDate": "2023-08-17T01:13:11Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anyhow@1.0.75"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-8-assert-cmd",
+      "name": "assert_cmd",
+      "versionInfo": "2.0.12",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/assert_cmd/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/assert-rs/assert_cmd",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "62478c7ccfa01767a9b5580fb56a86bf8b7ede1f"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Test CLI Applications.",
+      "releaseDate": "2023-07-14T19:14:24Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/assert_cmd@2.0.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-9-autocfg",
+      "name": "autocfg",
+      "versionInfo": "1.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Josh Stone",
+      "downloadLocation": "https://crates.io/crates/autocfg/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2dc4819c4a3d8856a1876dae546d1b082ea550f3"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Automatic cfg for Rust compiler features",
+      "releaseDate": "2022-02-07T23:06:38Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/autocfg@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-10-bitflags",
+      "name": "bitflags",
+      "versionInfo": "1.3.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: bitflags",
+      "downloadLocation": "https://crates.io/crates/bitflags/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bitflags/bitflags",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ed185cfb1c447c1b4bd6ac021c9ec3bb02c9e2f2"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A macro to generate structures which behave like bitflags.",
+      "releaseDate": "2021-08-16T04:16:02Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/bitflags@1.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-11-bitflags",
+      "name": "bitflags",
+      "versionInfo": "2.4.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: bitflags",
+      "downloadLocation": "https://crates.io/crates/bitflags/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/bitflags/bitflags",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "472e392c0d082c0894b18fb31f4e68e0b145e29c"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A macro to generate structures which behave like bitflags.",
+      "releaseDate": "2023-08-11T10:06:36Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/bitflags@2.4.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-12-bstr",
+      "name": "bstr",
+      "versionInfo": "1.6.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Andrew Gallant",
+      "downloadLocation": "https://crates.io/crates/bstr/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/BurntSushi/bstr",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d0afbc48c6763420475c0a6b4c66c525b73d726"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A string type that is not required to be valid UTF-8.",
+      "releaseDate": "2023-07-05T15:06:19Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/bstr@1.6.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-13-cc",
+      "name": "cc",
+      "versionInfo": "1.0.83",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The Rust Programming Language",
+      "downloadLocation": "https://crates.io/crates/cc/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-lang/cc-rs",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bfc3ba414e896f48a70d55d9be1097e2945e17ad"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A build-time dependency for Cargo build scripts to assist in invoking the native C compiler to compile native C code into a static archive to be linked into Rust code.",
+      "releaseDate": "2023-08-20T18:56:16Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/cc@1.0.83"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-14-clap",
+      "name": "clap",
+      "versionInfo": "4.3.23",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/clap/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b9df80c2cefde66ba6bfc2c635fb86282ec78eb7"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+      "releaseDate": "2023-08-18T21:07:46Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap@4.3.23"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-15-clap-builder",
+      "name": "clap_builder",
+      "versionInfo": "4.3.23",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/clap_builder/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b9df80c2cefde66ba6bfc2c635fb86282ec78eb7"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+      "releaseDate": "2023-08-18T21:07:34Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap_builder@4.3.23"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-16-clap-derive",
+      "name": "clap_derive",
+      "versionInfo": "4.3.12",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/clap_derive/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fcda411e5e12324ccdb854d5ac579cff2f3f7af6"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Parse command line argument by defining a struct, derive crate.",
+      "releaseDate": "2023-07-14T17:02:09Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap_derive@4.3.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-17-clap-lex",
+      "name": "clap_lex",
+      "versionInfo": "0.5.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/clap_lex/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5047bb40bd74457215e524db2039211d362cc6e9"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Minimal, flexible command line parser",
+      "releaseDate": "2023-05-19T17:04:18Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap_lex@0.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-18-colorchoice",
+      "name": "colorchoice",
+      "versionInfo": "1.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/colorchoice/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Global override of color control",
+      "releaseDate": "2023-04-13T14:41:28Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/colorchoice@1.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-19-const-format",
+      "name": "const_format",
+      "versionInfo": "0.2.31",
+      "primaryPackagePurpose": "LIBRARY",
+      "downloadLocation": "https://crates.io/crates/const_format/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "Zlib",
+      "copyrightText": "NOASSERTION",
+      "summary": "Compile-time string formatting",
+      "releaseDate": "2023-05-29T20:49:21Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/const_format@0.2.31"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-20-const-format-proc-macros",
+      "name": "const_format_proc_macros",
+      "versionInfo": "0.2.31",
+      "primaryPackagePurpose": "LIBRARY",
+      "downloadLocation": "https://crates.io/crates/const_format_proc_macros/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "Zlib",
+      "copyrightText": "NOASSERTION",
+      "summary": "Implementation detail of the `const_format` crate",
+      "releaseDate": "2023-05-29T20:49:07Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/const_format_proc_macros@0.2.31"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-21-diff",
+      "name": "diff",
+      "versionInfo": "0.1.13",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Utkarsh Kukreti",
+      "downloadLocation": "https://crates.io/crates/diff/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/utkarshkukreti/diff.rs",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d0e68b2d462a7a55902be6b77e370e51b17fa0e"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "An LCS based slice and string diffing implementation.",
+      "releaseDate": "2022-06-29T01:52:10Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/diff@0.1.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-22-difflib",
+      "name": "difflib",
+      "versionInfo": "0.4.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Dima Kudosh",
+      "downloadLocation": "https://crates.io/crates/difflib/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/DimaKudosh/difflib",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Port of Python's difflib library to Rust.",
+      "releaseDate": "2018-07-22T12:47:54Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/difflib@0.4.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-23-doc-comment",
+      "name": "doc-comment",
+      "versionInfo": "0.3.3",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Guillaume Gomez",
+      "downloadLocation": "https://crates.io/crates/doc-comment/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Macro to generate doc comments",
+      "releaseDate": "2020-03-17T14:54:35Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/doc-comment@0.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-24-either",
+      "name": "either",
+      "versionInfo": "1.9.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/either/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7a60ae82de8309d23d9e3fa55668bf713bd916bf"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "The enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases.",
+      "releaseDate": "2023-07-22T00:10:52Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/either@1.9.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-25-errno",
+      "name": "errno",
+      "versionInfo": "0.3.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Chris Wong",
+      "downloadLocation": "https://crates.io/crates/errno/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d68422864c4da6cc3a05bf4adc724799c673da2c"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Cross-platform interface to the `errno` variable.",
+      "releaseDate": "2023-07-30T04:47:41Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/errno@0.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-26-errno-dragonfly",
+      "name": "errno-dragonfly",
+      "versionInfo": "0.1.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Michael Neumann",
+      "downloadLocation": "https://crates.io/crates/errno-dragonfly/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ba02a7d3a96af20dd22f46be26d212545c712564"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Exposes errno functionality to stable Rust on DragonFlyBSD",
+      "releaseDate": "2021-09-27T08:59:29Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/errno-dragonfly@0.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-27-float-cmp",
+      "name": "float-cmp",
+      "versionInfo": "0.9.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Michael Dilger",
+      "downloadLocation": "https://crates.io/crates/float-cmp/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Floating point approximate comparison traits",
+      "releaseDate": "2021-07-21T23:13:20Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/float-cmp@0.9.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-28-heck",
+      "name": "heck",
+      "versionInfo": "0.4.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Saoirse Shipwreckt",
+      "downloadLocation": "https://crates.io/crates/heck/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "heck is a case conversion library.",
+      "releaseDate": "2023-02-01T15:51:50Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/heck@0.4.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-29-hermit-abi",
+      "name": "hermit-abi",
+      "versionInfo": "0.3.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The Hermit Operating System",
+      "downloadLocation": "https://crates.io/crates/hermit-abi/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca10ddea80c418a77e4213d9212d77079e56f094"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Hermit system calls definitions.",
+      "releaseDate": "2023-07-04T13:41:23Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/hermit-abi@0.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-30-hexyl",
+      "name": "hexyl",
+      "versionInfo": "0.14.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Peter",
+      "downloadLocation": "https://crates.io/crates/hexyl/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/sharkdp/hexyl",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7a9234c182b19070f8707468c572b5a0e6e704d4"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "hexyl declares MIT/Apache-2.0 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "A command-line hex viewer",
+      "releaseDate": "2023-12-11T22:32:09Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/hexyl@0.14.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-31-io-lifetimes",
+      "name": "io-lifetimes",
+      "versionInfo": "1.0.11",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Dan Gohman",
+      "downloadLocation": "https://crates.io/crates/io-lifetimes/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "081c5bb25a7110e7d8c2215426f5626589af7660"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "io-lifetimes declares Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "A low-level I/O ownership and borrowing library",
+      "releaseDate": "2023-05-24T14:30:54Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/io-lifetimes@1.0.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-32-is-terminal",
+      "name": "is-terminal",
+      "versionInfo": "0.4.9",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Dan Gohman",
+      "downloadLocation": "https://crates.io/crates/is-terminal/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7876976433813c2e9d7c0ac14ebfe726f947de4c"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Test whether a given stream is a terminal",
+      "releaseDate": "2023-07-06T12:58:36Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/is-terminal@0.4.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-33-is-ci",
+      "name": "is_ci",
+      "versionInfo": "1.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Kat Marchan",
+      "downloadLocation": "https://crates.io/crates/is_ci/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c21402d64e69c275367c3cbd0e6f02c432214f49"
+        }
+      ],
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "copyrightText": "NOASSERTION",
+      "summary": "Super lightweight CI environment checker. Just tells you if you're in CI or not without much fuss.",
+      "releaseDate": "2021-09-22T18:06:50Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/is_ci@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-34-itertools",
+      "name": "itertools",
+      "versionInfo": "0.10.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: itertools",
+      "downloadLocation": "https://crates.io/crates/itertools/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d61d12e808c8691eb0a672d3f9b65560be970a44"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Extra iterator adaptors, iterator methods, free functions, and macros.",
+      "releaseDate": "2022-09-20T14:32:39Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/itertools@0.10.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-35-libc",
+      "name": "libc",
+      "versionInfo": "0.2.155",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The Rust Programming Language",
+      "downloadLocation": "https://crates.io/crates/libc/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-lang/libc",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7df63bd7f61bf3408344673cf0ba08e7ff0df134"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Raw FFI bindings to platform libraries like libc.",
+      "releaseDate": "2024-05-17T22:35:18Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/libc@0.2.155"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-36-linux-raw-sys",
+      "name": "linux-raw-sys",
+      "versionInfo": "0.3.8",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Dan Gohman",
+      "downloadLocation": "https://crates.io/crates/linux-raw-sys/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "632d2adbaad528c02e8951acd9e697a206b3c2c5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "linux-raw-sys declares Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Generated bindings for Linux's userspace API",
+      "releaseDate": "2023-05-19T22:08:29Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/linux-raw-sys@0.3.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-37-linux-raw-sys",
+      "name": "linux-raw-sys",
+      "versionInfo": "0.4.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Dan Gohman",
+      "downloadLocation": "https://crates.io/crates/linux-raw-sys/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "911ef608a9537c55fa0cfaf9f1ec0c9c4339674d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "linux-raw-sys declares Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Generated bindings for Linux's userspace API",
+      "releaseDate": "2023-07-31T23:30:50Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/linux-raw-sys@0.4.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-38-memchr",
+      "name": "memchr",
+      "versionInfo": "2.5.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Andrew Gallant",
+      "downloadLocation": "https://crates.io/crates/memchr/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/BurntSushi/memchr",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c55597192ead1896c5c7cad2632f01d57ab41da0"
+        }
+      ],
+      "licenseConcluded": "Unlicense OR MIT",
+      "licenseDeclared": "Unlicense OR MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Provides extremely fast (uses SIMD on x86_64, aarch64 and wasm32) routines for 1, 2 or 3 byte search and single substring search.",
+      "releaseDate": "2022-04-30T17:29:35Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/memchr@2.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-39-normalize-line-endings",
+      "name": "normalize-line-endings",
+      "versionInfo": "0.3.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "https://crates.io/crates/normalize-line-endings/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Takes an iterator over chars and returns a new iterator with all line endings (\\r, \\n, or \\r\\n) as \\n",
+      "releaseDate": "2018-12-16T15:17:15Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/normalize-line-endings@0.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-40-num-traits",
+      "name": "num-traits",
+      "versionInfo": "0.2.16",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: num",
+      "downloadLocation": "https://crates.io/crates/num-traits/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-num/num-traits",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c2de8be71cb362c67ca650c1778c7a6500946f39"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Numeric traits for generic mathematics",
+      "releaseDate": "2023-07-20T23:00:47Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/num-traits@0.2.16"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-41-once-cell",
+      "name": "once_cell",
+      "versionInfo": "1.18.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Alex Kladov",
+      "downloadLocation": "https://crates.io/crates/once_cell/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "65568632484c5e108688e916a1e04d2806aedb26"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Single assignment cells and lazy values.",
+      "releaseDate": "2023-06-04T12:24:36Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/once_cell@1.18.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-42-owo-colors",
+      "name": "owo-colors",
+      "versionInfo": "3.5.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: garner",
+      "downloadLocation": "https://crates.io/crates/owo-colors/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fc3a92c0bc1db52b3215c383fb8a14854585fc47"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Zero-allocation terminal colors that'll make people go owo",
+      "releaseDate": "2022-08-22T21:14:42Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/owo-colors@3.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-43-predicates",
+      "name": "predicates",
+      "versionInfo": "3.0.3",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/predicates/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/assert-rs/predicates-rs",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "660f658285702e0219d9d76e65881ea5b8536a2c"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "An implementation of boolean-valued predicate functions.",
+      "releaseDate": "2023-04-13T15:17:04Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/predicates@3.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-44-predicates-core",
+      "name": "predicates-core",
+      "versionInfo": "1.0.6",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/predicates-core/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/assert-rs/predicates-rs/tree/master/crates/core",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7b72b706abbf1509fc74ee18e363d2bc7e8520a6"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "An API for boolean-valued predicate functions.",
+      "releaseDate": "2023-03-15T14:48:55Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/predicates-core@1.0.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-45-predicates-tree",
+      "name": "predicates-tree",
+      "versionInfo": "1.0.9",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/predicates-tree/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/assert-rs/predicates-rs/tree/master/crates/tree",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6f32bce11feda2bbaa945770c9d154726cca8e0"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Render boolean-valued predicate functions results as a tree.",
+      "releaseDate": "2023-03-15T16:15:40Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/predicates-tree@1.0.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-46-pretty-assertions",
+      "name": "pretty_assertions",
+      "versionInfo": "1.4.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: assertions",
+      "downloadLocation": "https://crates.io/crates/pretty_assertions/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3f1ebc0cac5f88e875f036bf16636e15fa935c8d"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Overwrite `assert_eq!` and `assert_ne!` with drop-in replacements, adding colorful diffs.",
+      "releaseDate": "2023-07-06T18:01:07Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/pretty_assertions@1.4.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-47-proc-macro2",
+      "name": "proc-macro2",
+      "versionInfo": "1.0.66",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/proc-macro2/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "64b4608278be46fcc8d63ae1138da8cb600e258a"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.",
+      "releaseDate": "2023-07-16T19:40:51Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/proc-macro2@1.0.66"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-48-quote",
+      "name": "quote",
+      "versionInfo": "1.0.33",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/quote/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8beec4c311a196d0adc9fb70188226d9c1f8bf1c"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Quasi-quoting macro quote!(...)",
+      "releaseDate": "2023-08-17T02:52:00Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/quote@1.0.33"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-49-regex",
+      "name": "regex",
+      "versionInfo": "1.9.3",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The Rust Programming Language",
+      "downloadLocation": "https://crates.io/crates/regex/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-lang/regex",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72f889ef3cca59ebac6a026f3646e8d92f056d88"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.",
+      "releaseDate": "2023-08-05T22:20:12Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/regex@1.9.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-50-regex-automata",
+      "name": "regex-automata",
+      "versionInfo": "0.3.6",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The Rust Programming Language",
+      "downloadLocation": "https://crates.io/crates/regex-automata/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c892d08c7c9ccdef4278ebbe30b5a83f0a145780"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Automata construction and matching using regular expressions.",
+      "releaseDate": "2023-08-05T22:19:43Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/regex-automata@0.3.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-51-regex-syntax",
+      "name": "regex-syntax",
+      "versionInfo": "0.7.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Organization: The Rust Programming Language",
+      "downloadLocation": "https://crates.io/crates/regex-syntax/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5e8eaf1f7ab92b68bfabaa004561ccb1269ecb9f"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A regular expression parser.",
+      "releaseDate": "2023-07-11T01:10:59Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/regex-syntax@0.7.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-52-rustix",
+      "name": "rustix",
+      "versionInfo": "0.37.23",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Bytecode Alliance (hello@bytecodealliance.org)",
+      "downloadLocation": "https://crates.io/crates/rustix/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7cdacb1145f6f5986a6cc29c167749f5d64112d0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "rustix declares Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+      "releaseDate": "2023-07-05T13:46:38Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/rustix@0.37.23"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-53-rustix",
+      "name": "rustix",
+      "versionInfo": "0.38.8",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Bytecode Alliance (hello@bytecodealliance.org)",
+      "downloadLocation": "https://crates.io/crates/rustix/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "db143034d80dbe2dc62368b732378c89f16e7569"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "rustix declares Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+      "releaseDate": "2023-08-10T19:34:54Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/rustix@0.38.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-54-serde",
+      "name": "serde",
+      "versionInfo": "1.0.185",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/serde/",
+      "filesAnalyzed": false,
+      "homepage": "https://serde.rs",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3c7dd6fc1e6f83e79e225670aac114656694f198"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A generic serialization/deserialization framework",
+      "releaseDate": "2023-08-21T04:41:57Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/serde@1.0.185"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-55-strsim",
+      "name": "strsim",
+      "versionInfo": "0.10.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: RapidFuzz",
+      "downloadLocation": "https://crates.io/crates/strsim/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rapidfuzz/strsim-rs",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72784f07f22cab2c93512a6eebca272467b1789e"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Implementations of string similarity metrics. Includes Hamming, Levenshtein, OSA, Damerau-Levenshtein, Jaro, Jaro-Winkler, and S\u00f8rensen-Dice.",
+      "releaseDate": "2020-01-31T14:44:04Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/strsim@0.10.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-56-supports-color",
+      "name": "supports-color",
+      "versionInfo": "2.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Kat Marchan",
+      "downloadLocation": "https://crates.io/crates/supports-color/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c3ced07aca96e38af7f2b7f3e262263fa0f54552"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Detects whether a terminal supports color, and gives details about that support.",
+      "releaseDate": "2022-12-16T04:17:13Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/supports-color@2.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-57-syn",
+      "name": "syn",
+      "versionInfo": "2.0.29",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/syn/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b387b13f48e76468a3fc58e55559d2f41fa28a71"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Parser for Rust source code",
+      "releaseDate": "2023-08-17T03:22:41Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/syn@2.0.29"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-58-terminal-size",
+      "name": "terminal_size",
+      "versionInfo": "0.2.6",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Andrew Chin",
+      "downloadLocation": "https://crates.io/crates/terminal_size/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "78bc3d35ff824a7b0c22cc4e5ed37dfce3e6b1d1"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Gets the size of your Linux or Windows terminal",
+      "releaseDate": "2023-04-03T04:09:05Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/terminal_size@0.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-59-termtree",
+      "name": "termtree",
+      "versionInfo": "0.4.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Rust CLI WG",
+      "downloadLocation": "https://crates.io/crates/termtree/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/rust-cli/termtree",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b333eaccb707d862feb45d5202de63ff26b77839"
+        }
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Visualize tree-like data on the command-line",
+      "releaseDate": "2023-03-15T14:29:15Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/termtree@0.4.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-60-thiserror",
+      "name": "thiserror",
+      "versionInfo": "1.0.47",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/thiserror/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0495eaa802c73454ed6969fa1a3520db635bb901"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "derive(Error)",
+      "releaseDate": "2023-08-17T02:57:47Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/thiserror@1.0.47"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-61-thiserror-impl",
+      "name": "thiserror-impl",
+      "versionInfo": "1.0.47",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/thiserror-impl/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0495eaa802c73454ed6969fa1a3520db635bb901"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Implementation detail of the `thiserror` crate",
+      "releaseDate": "2023-08-17T02:57:39Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/thiserror-impl@1.0.47"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-62-unicode-ident",
+      "name": "unicode-ident",
+      "versionInfo": "1.0.11",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: David Tolnay",
+      "downloadLocation": "https://crates.io/crates/unicode-ident/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d062dcb8f947e5e874069f2706856a400c6578bb"
+        }
+      ],
+      "licenseConcluded": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "licenseDeclared": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31",
+      "releaseDate": "2023-07-15T06:47:47Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-ident@1.0.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-63-unicode-xid",
+      "name": "unicode-xid",
+      "versionInfo": "0.2.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: rs",
+      "downloadLocation": "https://crates.io/crates/unicode-xid/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/unicode-rs/unicode-xid",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "781b5b3bd7a1dc6d9ea9288d32f2fb7964607202"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31.",
+      "releaseDate": "2022-09-15T17:14:52Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-xid@0.2.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-64-utf8parse",
+      "name": "utf8parse",
+      "versionInfo": "0.2.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Alacritty",
+      "downloadLocation": "https://crates.io/crates/utf8parse/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aba7d319b621609ab4244d1fe25187a319b04664"
+        }
+      ],
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "copyrightText": "NOASSERTION",
+      "summary": "Table-driven UTF-8 parser",
+      "releaseDate": "2023-03-09T14:48:02Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/utf8parse@0.2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-65-wait-timeout",
+      "name": "wait-timeout",
+      "versionInfo": "0.2.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Alex Crichton",
+      "downloadLocation": "https://crates.io/crates/wait-timeout/",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/alexcrichton/wait-timeout",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7bb31d4901baa5196bd554e9e332bd9534eeb93b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "wait-timeout declares MIT/Apache-2.0 which is not currently a valid SPDX License identifier or expression.",
+      "copyrightText": "NOASSERTION",
+      "summary": "A crate to wait on a child process with a timeout specified across Unix and Windows platforms.",
+      "releaseDate": "2018-11-23T13:55:33Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/wait-timeout@0.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-66-windows-sys",
+      "name": "windows-sys",
+      "versionInfo": "0.48.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft (opensource@microsoft.com)",
+      "downloadLocation": "https://crates.io/crates/windows-sys/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "406944152ef28d3273236edc958c2bfbf825775d"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Rust for Windows",
+      "releaseDate": "2023-03-31T12:59:46Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows-sys@0.48.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-67-windows-targets",
+      "name": "windows-targets",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft (opensource@microsoft.com)",
+      "downloadLocation": "https://crates.io/crates/windows-targets/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import libs for Windows",
+      "releaseDate": "2023-08-18T17:48:34Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows-targets@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-68-windows-aarch64-gnullvm",
+      "name": "windows_aarch64_gnullvm",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft (opensource@microsoft.com)",
+      "downloadLocation": "https://crates.io/crates/windows_aarch64_gnullvm/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:46:06Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_aarch64_gnullvm@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-69-windows-aarch64-msvc",
+      "name": "windows_aarch64_msvc",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft",
+      "downloadLocation": "https://crates.io/crates/windows_aarch64_msvc/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:46:33Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_aarch64_msvc@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-70-windows-i686-gnu",
+      "name": "windows_i686_gnu",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft (opensource@microsoft.com)",
+      "downloadLocation": "https://crates.io/crates/windows_i686_gnu/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:46:48Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_i686_gnu@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-71-windows-i686-msvc",
+      "name": "windows_i686_msvc",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft",
+      "downloadLocation": "https://crates.io/crates/windows_i686_msvc/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:47:01Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_i686_msvc@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-72-windows-x86-64-gnu",
+      "name": "windows_x86_64_gnu",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft (opensource@microsoft.com)",
+      "downloadLocation": "https://crates.io/crates/windows_x86_64_gnu/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:47:19Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_x86_64_gnu@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-73-windows-x86-64-gnullvm",
+      "name": "windows_x86_64_gnullvm",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft",
+      "downloadLocation": "https://crates.io/crates/windows_x86_64_gnullvm/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:47:45Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_x86_64_gnullvm@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-74-windows-x86-64-msvc",
+      "name": "windows_x86_64_msvc",
+      "versionInfo": "0.48.5",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Microsoft (opensource@microsoft.com)",
+      "downloadLocation": "https://crates.io/crates/windows_x86_64_msvc/",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "Import lib for Windows",
+      "releaseDate": "2023-08-18T17:47:56Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_x86_64_msvc@0.48.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-75-yansi",
+      "name": "yansi",
+      "versionInfo": "0.5.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "supplier": "Person: Sergio Benitez",
+      "downloadLocation": "https://crates.io/crates/yansi/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "summary": "A dead simple ANSI terminal color painting library.",
+      "releaseDate": "2022-03-23T00:46:47Z",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/yansi@0.5.1"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-1-aho-corasick",
+      "relatedSpdxElement": "SPDXRef-38-memchr",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-12-bstr",
+      "relatedSpdxElement": "SPDXRef-38-memchr",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-12-bstr",
+      "relatedSpdxElement": "SPDXRef-50-regex-automata",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-12-bstr",
+      "relatedSpdxElement": "SPDXRef-54-serde",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-13-cc",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-14-clap",
+      "relatedSpdxElement": "SPDXRef-15-clap-builder",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-14-clap",
+      "relatedSpdxElement": "SPDXRef-16-clap-derive",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-14-clap",
+      "relatedSpdxElement": "SPDXRef-41-once-cell",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-15-clap-builder",
+      "relatedSpdxElement": "SPDXRef-17-clap-lex",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-15-clap-builder",
+      "relatedSpdxElement": "SPDXRef-2-anstream",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-15-clap-builder",
+      "relatedSpdxElement": "SPDXRef-3-anstyle",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-15-clap-builder",
+      "relatedSpdxElement": "SPDXRef-55-strsim",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-15-clap-builder",
+      "relatedSpdxElement": "SPDXRef-58-terminal-size",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-16-clap-derive",
+      "relatedSpdxElement": "SPDXRef-28-heck",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-16-clap-derive",
+      "relatedSpdxElement": "SPDXRef-47-proc-macro2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-16-clap-derive",
+      "relatedSpdxElement": "SPDXRef-48-quote",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-16-clap-derive",
+      "relatedSpdxElement": "SPDXRef-57-syn",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-19-const-format",
+      "relatedSpdxElement": "SPDXRef-20-const-format-proc-macros",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-18-colorchoice",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-3-anstyle",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-32-is-terminal",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-4-anstyle-parse",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-5-anstyle-query",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-6-anstyle-wincon",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-2-anstream",
+      "relatedSpdxElement": "SPDXRef-64-utf8parse",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-20-const-format-proc-macros",
+      "relatedSpdxElement": "SPDXRef-47-proc-macro2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-20-const-format-proc-macros",
+      "relatedSpdxElement": "SPDXRef-48-quote",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-20-const-format-proc-macros",
+      "relatedSpdxElement": "SPDXRef-63-unicode-xid",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-25-errno",
+      "relatedSpdxElement": "SPDXRef-26-errno-dragonfly",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-25-errno",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-25-errno",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-26-errno-dragonfly",
+      "relatedSpdxElement": "SPDXRef-13-cc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-26-errno-dragonfly",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-27-float-cmp",
+      "relatedSpdxElement": "SPDXRef-40-num-traits",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-14-clap",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-19-const-format",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-42-owo-colors",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-43-predicates",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-46-pretty-assertions",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-56-supports-color",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-58-terminal-size",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-60-thiserror",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-7-anyhow",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-30-hexyl",
+      "relatedSpdxElement": "SPDXRef-8-assert-cmd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-31-io-lifetimes",
+      "relatedSpdxElement": "SPDXRef-29-hermit-abi",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-31-io-lifetimes",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-31-io-lifetimes",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-32-is-terminal",
+      "relatedSpdxElement": "SPDXRef-29-hermit-abi",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-32-is-terminal",
+      "relatedSpdxElement": "SPDXRef-52-rustix",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-32-is-terminal",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-34-itertools",
+      "relatedSpdxElement": "SPDXRef-24-either",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-4-anstyle-parse",
+      "relatedSpdxElement": "SPDXRef-64-utf8parse",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-40-num-traits",
+      "relatedSpdxElement": "SPDXRef-9-autocfg",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-22-difflib",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-27-float-cmp",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-3-anstyle",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-34-itertools",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-39-normalize-line-endings",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-44-predicates-core",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-43-predicates",
+      "relatedSpdxElement": "SPDXRef-49-regex",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-45-predicates-tree",
+      "relatedSpdxElement": "SPDXRef-44-predicates-core",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-45-predicates-tree",
+      "relatedSpdxElement": "SPDXRef-59-termtree",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-46-pretty-assertions",
+      "relatedSpdxElement": "SPDXRef-21-diff",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-46-pretty-assertions",
+      "relatedSpdxElement": "SPDXRef-75-yansi",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-47-proc-macro2",
+      "relatedSpdxElement": "SPDXRef-62-unicode-ident",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-48-quote",
+      "relatedSpdxElement": "SPDXRef-47-proc-macro2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-49-regex",
+      "relatedSpdxElement": "SPDXRef-1-aho-corasick",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-49-regex",
+      "relatedSpdxElement": "SPDXRef-38-memchr",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-49-regex",
+      "relatedSpdxElement": "SPDXRef-50-regex-automata",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-49-regex",
+      "relatedSpdxElement": "SPDXRef-51-regex-syntax",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-5-anstyle-query",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-50-regex-automata",
+      "relatedSpdxElement": "SPDXRef-1-aho-corasick",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-50-regex-automata",
+      "relatedSpdxElement": "SPDXRef-38-memchr",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-50-regex-automata",
+      "relatedSpdxElement": "SPDXRef-51-regex-syntax",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-53-rustix",
+      "relatedSpdxElement": "SPDXRef-10-bitflags",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-53-rustix",
+      "relatedSpdxElement": "SPDXRef-25-errno",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-53-rustix",
+      "relatedSpdxElement": "SPDXRef-31-io-lifetimes",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-53-rustix",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-53-rustix",
+      "relatedSpdxElement": "SPDXRef-36-linux-raw-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-53-rustix",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-56-supports-color",
+      "relatedSpdxElement": "SPDXRef-32-is-terminal",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-56-supports-color",
+      "relatedSpdxElement": "SPDXRef-33-is-ci",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-57-syn",
+      "relatedSpdxElement": "SPDXRef-47-proc-macro2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-57-syn",
+      "relatedSpdxElement": "SPDXRef-48-quote",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-57-syn",
+      "relatedSpdxElement": "SPDXRef-62-unicode-ident",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-58-terminal-size",
+      "relatedSpdxElement": "SPDXRef-52-rustix",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-58-terminal-size",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-6-anstyle-wincon",
+      "relatedSpdxElement": "SPDXRef-3-anstyle",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-6-anstyle-wincon",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-60-thiserror",
+      "relatedSpdxElement": "SPDXRef-61-thiserror-impl",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-61-thiserror-impl",
+      "relatedSpdxElement": "SPDXRef-47-proc-macro2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-61-thiserror-impl",
+      "relatedSpdxElement": "SPDXRef-48-quote",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-61-thiserror-impl",
+      "relatedSpdxElement": "SPDXRef-57-syn",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-65-wait-timeout",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-66-windows-sys",
+      "relatedSpdxElement": "SPDXRef-67-windows-targets",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-68-windows-aarch64-gnullvm",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-69-windows-aarch64-msvc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-70-windows-i686-gnu",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-71-windows-i686-msvc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-72-windows-x86-64-gnu",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-73-windows-x86-64-gnullvm",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-67-windows-targets",
+      "relatedSpdxElement": "SPDXRef-74-windows-x86-64-msvc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-12-bstr",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-23-doc-comment",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-3-anstyle",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-43-predicates",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-44-predicates-core",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-45-predicates-tree",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-8-assert-cmd",
+      "relatedSpdxElement": "SPDXRef-65-wait-timeout",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-1-aho-corasick",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-11-bitflags",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-12-bstr",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-13-cc",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-14-clap",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-15-clap-builder",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-16-clap-derive",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-17-clap-lex",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-18-colorchoice",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-19-const-format",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-2-anstream",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-20-const-format-proc-macros",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-21-diff",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-22-difflib",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-23-doc-comment",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-24-either",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-25-errno",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-26-errno-dragonfly",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-27-float-cmp",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-28-heck",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-29-hermit-abi",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-3-anstyle",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-30-hexyl",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-31-io-lifetimes",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-32-is-terminal",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-33-is-ci",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-34-itertools",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-35-libc",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-37-linux-raw-sys",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-38-memchr",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-39-normalize-line-endings",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-4-anstyle-parse",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-40-num-traits",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-41-once-cell",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-42-owo-colors",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-43-predicates",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-44-predicates-core",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-45-predicates-tree",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-46-pretty-assertions",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-47-proc-macro2",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-48-quote",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-49-regex",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-5-anstyle-query",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-50-regex-automata",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-51-regex-syntax",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-53-rustix",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-54-serde",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-55-strsim",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-56-supports-color",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-57-syn",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-58-terminal-size",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-59-termtree",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-6-anstyle-wincon",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-60-thiserror",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-61-thiserror-impl",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-62-unicode-ident",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-63-unicode-xid",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-64-utf8parse",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-65-wait-timeout",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-66-windows-sys",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-67-windows-targets",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-68-windows-aarch64-gnullvm",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-69-windows-aarch64-msvc",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-7-anyhow",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-70-windows-i686-gnu",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-71-windows-i686-msvc",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-72-windows-x86-64-gnu",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-73-windows-x86-64-gnullvm",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-74-windows-x86-64-msvc",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-75-yansi",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-8-assert-cmd",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-9-autocfg",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

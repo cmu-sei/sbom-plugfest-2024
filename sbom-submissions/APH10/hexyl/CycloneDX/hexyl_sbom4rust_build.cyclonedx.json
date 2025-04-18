@@ -1,0 +1,4026 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:08bc4d3e-ab32-40d8-9447-a39b1b455385",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-09T21:28:17Z",
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "name": "sbom4rust",
+          "version": "0.6.0",
+          "type": "application"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "CDXRef-DOCUMENT",
+      "name": "Hexyl"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "1-aho-corasick",
+      "name": "aho-corasick",
+      "version": "1.0.4",
+      "supplier": {
+        "name": "Andrew Gallant"
+      },
+      "cpe": "cpe:/a:Andrew_Gallant:aho-corasick:1.0.4",
+      "description": "Fast multiple substring searching.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "feda22857e1d0dd069b9c8941f0caf47a19ad078"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Unlicense OR MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/BurntSushi/aho-corasick",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/aho-corasick/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/aho-corasick@1.0.4",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-14T16:13:11.888Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "2-anstream",
+      "name": "anstream",
+      "version": "0.3.2",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:anstream:0.3.2",
+      "description": "A simple cross platform library for writing colored text to a terminal.",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-cli/anstyle",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/anstream/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/anstream@0.3.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-01T14:58:58.632Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "3-anstyle",
+      "name": "anstyle",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:anstyle:1.0.1",
+      "description": "ANSI text styling",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-cli/anstyle",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/anstyle/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/anstyle@1.0.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-06-20T21:32:25.569Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "4-anstyle-parse",
+      "name": "anstyle-parse",
+      "version": "0.2.1",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:anstyle-parse:0.2.1",
+      "description": "Parse ANSI Style Escapes",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-cli/anstyle",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/anstyle-parse/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/anstyle-parse@0.2.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-06-20T21:32:30.973Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "5-anstyle-query",
+      "name": "anstyle-query",
+      "version": "1.0.0",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:anstyle-query:1.0.0",
+      "description": "Look up colored console capabilities",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/anstyle-query/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/anstyle-query@1.0.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-04-13T14:40:53.104Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "6-anstyle-wincon",
+      "name": "anstyle-wincon",
+      "version": "1.0.2",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:anstyle-wincon:1.0.2",
+      "description": "Styling legacy Windows terminals",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-cli/anstyle",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/anstyle-wincon/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/anstyle-wincon@1.0.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-09T17:41:39.855Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "7-anyhow",
+      "name": "anyhow",
+      "version": "1.0.75",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:anyhow:1.0.75",
+      "description": "Flexible concrete Error type built on std::error::Error",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6485caebde8e5c8bc313cd1a5ff6d70e58670b42"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/anyhow/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/anyhow@1.0.75",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-17T01:13:11.916Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "8-assert_cmd",
+      "name": "assert_cmd",
+      "version": "2.0.12",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:assert_cmd:2.0.12",
+      "description": "Test CLI Applications.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "62478c7ccfa01767a9b5580fb56a86bf8b7ede1f"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/assert-rs/assert_cmd",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/assert_cmd/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/assert_cmd@2.0.12",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-14T19:14:24.519Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "9-autocfg",
+      "name": "autocfg",
+      "version": "1.1.0",
+      "supplier": {
+        "name": "Josh Stone"
+      },
+      "cpe": "cpe:/a:Josh_Stone:autocfg:1.1.0",
+      "description": "Automatic cfg for Rust compiler features",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2dc4819c4a3d8856a1876dae546d1b082ea550f3"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/autocfg/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/autocfg@1.1.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-02-07T23:06:38.612Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "10-bitflags",
+      "name": "bitflags",
+      "version": "1.3.2",
+      "supplier": {
+        "name": "bitflags"
+      },
+      "cpe": "cpe:/a:bitflags:bitflags:1.3.2",
+      "description": "A macro to generate structures which behave like bitflags.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ed185cfb1c447c1b4bd6ac021c9ec3bb02c9e2f2"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/bitflags/bitflags",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/bitflags/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/bitflags@1.3.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2021-08-16T04:16:02.683Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "11-bitflags",
+      "name": "bitflags",
+      "version": "2.4.0",
+      "supplier": {
+        "name": "bitflags"
+      },
+      "cpe": "cpe:/a:bitflags:bitflags:2.4.0",
+      "description": "A macro to generate structures which behave like bitflags.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "472e392c0d082c0894b18fb31f4e68e0b145e29c"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/bitflags/bitflags",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/bitflags/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/bitflags@2.4.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-11T10:06:36.427Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "12-bstr",
+      "name": "bstr",
+      "version": "1.6.0",
+      "supplier": {
+        "name": "Andrew Gallant"
+      },
+      "cpe": "cpe:/a:Andrew_Gallant:bstr:1.6.0",
+      "description": "A string type that is not required to be valid UTF-8.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8d0afbc48c6763420475c0a6b4c66c525b73d726"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/BurntSushi/bstr",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/bstr/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/bstr@1.6.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-05T15:06:19.753Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "13-cc",
+      "name": "cc",
+      "version": "1.0.83",
+      "supplier": {
+        "name": "The Rust Programming Language"
+      },
+      "cpe": "cpe:/a:The_Rust_Programming_Language:cc:1.0.83",
+      "description": "A build-time dependency for Cargo build scripts to assist in invoking the native C compiler to compile native C code into a static archive to be linked into Rust code.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bfc3ba414e896f48a70d55d9be1097e2945e17ad"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-lang/cc-rs",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/cc/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/cc@1.0.83",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-20T18:56:16.413Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "14-clap",
+      "name": "clap",
+      "version": "4.3.23",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:clap:4.3.23",
+      "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b9df80c2cefde66ba6bfc2c635fb86282ec78eb7"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/clap/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/clap@4.3.23",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T21:07:46.847Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "15-clap_builder",
+      "name": "clap_builder",
+      "version": "4.3.23",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:clap_builder:4.3.23",
+      "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b9df80c2cefde66ba6bfc2c635fb86282ec78eb7"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/clap_builder/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/clap_builder@4.3.23",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T21:07:34.545Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "16-clap_derive",
+      "name": "clap_derive",
+      "version": "4.3.12",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:clap_derive:4.3.12",
+      "description": "Parse command line argument by defining a struct, derive crate.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fcda411e5e12324ccdb854d5ac579cff2f3f7af6"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/clap_derive/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/clap_derive@4.3.12",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-14T17:02:09.070Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "17-clap_lex",
+      "name": "clap_lex",
+      "version": "0.5.0",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:clap_lex:0.5.0",
+      "description": "Minimal, flexible command line parser",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5047bb40bd74457215e524db2039211d362cc6e9"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/clap_lex/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/clap_lex@0.5.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-19T17:04:18.058Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "18-colorchoice",
+      "name": "colorchoice",
+      "version": "1.0.0",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:colorchoice:1.0.0",
+      "description": "Global override of color control",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/colorchoice/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/colorchoice@1.0.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-04-13T14:41:28.859Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "19-const_format",
+      "name": "const_format",
+      "version": "0.2.31",
+      "description": "Compile-time string formatting",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib",
+            "url": "http://www.zlib.net/zlib_license.html",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/const_format/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/const_format@0.2.31",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-29T20:49:21.798Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "20-const_format_proc_macros",
+      "name": "const_format_proc_macros",
+      "version": "0.2.31",
+      "description": "Implementation detail of the `const_format` crate",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib",
+            "url": "http://www.zlib.net/zlib_license.html",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/const_format_proc_macros/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/const_format_proc_macros@0.2.31",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-29T20:49:07.026Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "21-diff",
+      "name": "diff",
+      "version": "0.1.13",
+      "supplier": {
+        "name": "Utkarsh Kukreti"
+      },
+      "cpe": "cpe:/a:Utkarsh_Kukreti:diff:0.1.13",
+      "description": "An LCS based slice and string diffing implementation.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0d0e68b2d462a7a55902be6b77e370e51b17fa0e"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/utkarshkukreti/diff.rs",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/diff/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/diff@0.1.13",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-06-29T01:52:10.836Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "22-difflib",
+      "name": "difflib",
+      "version": "0.4.0",
+      "supplier": {
+        "name": "Dima Kudosh"
+      },
+      "cpe": "cpe:/a:Dima_Kudosh:difflib:0.4.0",
+      "description": "Port of Python's difflib library to Rust.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/DimaKudosh/difflib",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/difflib/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/difflib@0.4.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2018-07-22T12:47:54.378Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "23-doc-comment",
+      "name": "doc-comment",
+      "version": "0.3.3",
+      "supplier": {
+        "name": "Guillaume Gomez"
+      },
+      "cpe": "cpe:/a:Guillaume_Gomez:doc-comment:0.3.3",
+      "description": "Macro to generate doc comments",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/doc-comment/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/doc-comment@0.3.3",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2020-03-17T14:54:35.537Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "24-either",
+      "name": "either",
+      "version": "1.9.0",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:either:1.9.0",
+      "description": "The enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7a60ae82de8309d23d9e3fa55668bf713bd916bf"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/either/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/either@1.9.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-22T00:10:52.827Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "25-errno",
+      "name": "errno",
+      "version": "0.3.2",
+      "supplier": {
+        "name": "Chris Wong"
+      },
+      "cpe": "cpe:/a:Chris_Wong:errno:0.3.2",
+      "description": "Cross-platform interface to the `errno` variable.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d68422864c4da6cc3a05bf4adc724799c673da2c"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/errno/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/errno@0.3.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-30T04:47:41.845Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "26-errno-dragonfly",
+      "name": "errno-dragonfly",
+      "version": "0.1.2",
+      "supplier": {
+        "name": "Michael Neumann"
+      },
+      "cpe": "cpe:/a:Michael_Neumann:errno-dragonfly:0.1.2",
+      "description": "Exposes errno functionality to stable Rust on DragonFlyBSD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ba02a7d3a96af20dd22f46be26d212545c712564"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/errno-dragonfly/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/errno-dragonfly@0.1.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2021-09-27T08:59:29.274Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "27-float-cmp",
+      "name": "float-cmp",
+      "version": "0.9.0",
+      "supplier": {
+        "name": "Michael Dilger"
+      },
+      "cpe": "cpe:/a:Michael_Dilger:float-cmp:0.9.0",
+      "description": "Floating point approximate comparison traits",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/float-cmp/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/float-cmp@0.9.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2021-07-21T23:13:20.035Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "28-heck",
+      "name": "heck",
+      "version": "0.4.1",
+      "supplier": {
+        "name": "Saoirse Shipwreckt"
+      },
+      "cpe": "cpe:/a:Saoirse_Shipwreckt:heck:0.4.1",
+      "description": "heck is a case conversion library.",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/heck/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/heck@0.4.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-02-01T15:51:50.522Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "29-hermit-abi",
+      "name": "hermit-abi",
+      "version": "0.3.2",
+      "supplier": {
+        "name": "The Hermit Operating System"
+      },
+      "cpe": "cpe:/a:The_Hermit_Operating_System:hermit-abi:0.3.2",
+      "description": "Hermit system calls definitions.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ca10ddea80c418a77e4213d9212d77079e56f094"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/hermit-abi/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/hermit-abi@0.3.2",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-04T13:41:23.166Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "30-hexyl",
+      "name": "hexyl",
+      "version": "0.14.0",
+      "supplier": {
+        "name": "David Peter"
+      },
+      "cpe": "cpe:/a:David_Peter:hexyl:0.14.0",
+      "description": "A command-line hex viewer",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7a9234c182b19070f8707468c572b5a0e6e704d4"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/sharkdp/hexyl",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/hexyl/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/hexyl@0.14.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-12-11T22:32:09.272Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "31-io-lifetimes",
+      "name": "io-lifetimes",
+      "version": "1.0.11",
+      "supplier": {
+        "name": "Dan Gohman"
+      },
+      "cpe": "cpe:/a:Dan_Gohman:io-lifetimes:1.0.11",
+      "description": "A low-level I/O ownership and borrowing library",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "081c5bb25a7110e7d8c2215426f5626589af7660"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/io-lifetimes/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/io-lifetimes@1.0.11",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-24T14:30:54.384Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "32-is-terminal",
+      "name": "is-terminal",
+      "version": "0.4.9",
+      "supplier": {
+        "name": "Dan Gohman"
+      },
+      "cpe": "cpe:/a:Dan_Gohman:is-terminal:0.4.9",
+      "description": "Test whether a given stream is a terminal",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7876976433813c2e9d7c0ac14ebfe726f947de4c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/is-terminal/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/is-terminal@0.4.9",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-06T12:58:36.813Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "33-is_ci",
+      "name": "is_ci",
+      "version": "1.1.1",
+      "supplier": {
+        "name": "Kat Marchan"
+      },
+      "cpe": "cpe:/a:Kat_Marchan:is_ci:1.1.1",
+      "description": "Super lightweight CI environment checker. Just tells you if you're in CI or not without much fuss.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c21402d64e69c275367c3cbd0e6f02c432214f49"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "url": "https://www.isc.org/licenses/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/is_ci/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/is_ci@1.1.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2021-09-22T18:06:50.119Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "34-itertools",
+      "name": "itertools",
+      "version": "0.10.5",
+      "supplier": {
+        "name": "itertools"
+      },
+      "cpe": "cpe:/a:itertools:itertools:0.10.5",
+      "description": "Extra iterator adaptors, iterator methods, free functions, and macros.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d61d12e808c8691eb0a672d3f9b65560be970a44"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/itertools/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/itertools@0.10.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-09-20T14:32:39.012Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "35-libc",
+      "name": "libc",
+      "version": "0.2.155",
+      "supplier": {
+        "name": "The Rust Programming Language"
+      },
+      "cpe": "cpe:/a:The_Rust_Programming_Language:libc:0.2.155",
+      "description": "Raw FFI bindings to platform libraries like libc.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7df63bd7f61bf3408344673cf0ba08e7ff0df134"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-lang/libc",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/libc/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/libc@0.2.155",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2024-05-17T22:35:18.656Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "36-linux-raw-sys",
+      "name": "linux-raw-sys",
+      "version": "0.3.8",
+      "supplier": {
+        "name": "Dan Gohman"
+      },
+      "cpe": "cpe:/a:Dan_Gohman:linux-raw-sys:0.3.8",
+      "description": "Generated bindings for Linux's userspace API",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "632d2adbaad528c02e8951acd9e697a206b3c2c5"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/linux-raw-sys/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/linux-raw-sys@0.3.8",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-05-19T22:08:29.343Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "37-linux-raw-sys",
+      "name": "linux-raw-sys",
+      "version": "0.4.5",
+      "supplier": {
+        "name": "Dan Gohman"
+      },
+      "cpe": "cpe:/a:Dan_Gohman:linux-raw-sys:0.4.5",
+      "description": "Generated bindings for Linux's userspace API",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "911ef608a9537c55fa0cfaf9f1ec0c9c4339674d"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/linux-raw-sys/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/linux-raw-sys@0.4.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-31T23:30:50.375Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "38-memchr",
+      "name": "memchr",
+      "version": "2.5.0",
+      "supplier": {
+        "name": "Andrew Gallant"
+      },
+      "cpe": "cpe:/a:Andrew_Gallant:memchr:2.5.0",
+      "description": "Provides extremely fast (uses SIMD on x86_64, aarch64 and wasm32) routines for 1, 2 or 3 byte search and single substring search.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c55597192ead1896c5c7cad2632f01d57ab41da0"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Unlicense OR MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/BurntSushi/memchr",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/memchr/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/memchr@2.5.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-04-30T17:29:35.225Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "39-normalize-line-endings",
+      "name": "normalize-line-endings",
+      "version": "0.3.0",
+      "description": "Takes an iterator over chars and returns a new iterator with all line endings (\\r, \\n, or \\r\\n) as \\n",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/normalize-line-endings/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/normalize-line-endings@0.3.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2018-12-16T15:17:15.641Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "40-num-traits",
+      "name": "num-traits",
+      "version": "0.2.16",
+      "supplier": {
+        "name": "num"
+      },
+      "cpe": "cpe:/a:num:num-traits:0.2.16",
+      "description": "Numeric traits for generic mathematics",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c2de8be71cb362c67ca650c1778c7a6500946f39"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-num/num-traits",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/num-traits/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/num-traits@0.2.16",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-20T23:00:47.412Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "41-once_cell",
+      "name": "once_cell",
+      "version": "1.18.0",
+      "supplier": {
+        "name": "Alex Kladov"
+      },
+      "cpe": "cpe:/a:Alex_Kladov:once_cell:1.18.0",
+      "description": "Single assignment cells and lazy values.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "65568632484c5e108688e916a1e04d2806aedb26"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/once_cell/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/once_cell@1.18.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-06-04T12:24:36.771Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "42-owo-colors",
+      "name": "owo-colors",
+      "version": "3.5.0",
+      "supplier": {
+        "name": "garner"
+      },
+      "cpe": "cpe:/a:garner:owo-colors:3.5.0",
+      "description": "Zero-allocation terminal colors that'll make people go owo",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fc3a92c0bc1db52b3215c383fb8a14854585fc47"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/owo-colors/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/owo-colors@3.5.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-08-22T21:14:42.934Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "43-predicates",
+      "name": "predicates",
+      "version": "3.0.3",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:predicates:3.0.3",
+      "description": "An implementation of boolean-valued predicate functions.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "660f658285702e0219d9d76e65881ea5b8536a2c"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/assert-rs/predicates-rs",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/predicates/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/predicates@3.0.3",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-04-13T15:17:04.169Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "44-predicates-core",
+      "name": "predicates-core",
+      "version": "1.0.6",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:predicates-core:1.0.6",
+      "description": "An API for boolean-valued predicate functions.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7b72b706abbf1509fc74ee18e363d2bc7e8520a6"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/assert-rs/predicates-rs/tree/master/crates/core",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/predicates-core/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/predicates-core@1.0.6",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-03-15T14:48:55.634Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "45-predicates-tree",
+      "name": "predicates-tree",
+      "version": "1.0.9",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:predicates-tree:1.0.9",
+      "description": "Render boolean-valued predicate functions results as a tree.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f6f32bce11feda2bbaa945770c9d154726cca8e0"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/assert-rs/predicates-rs/tree/master/crates/tree",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/predicates-tree/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/predicates-tree@1.0.9",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-03-15T16:15:40.355Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "46-pretty_assertions",
+      "name": "pretty_assertions",
+      "version": "1.4.0",
+      "supplier": {
+        "name": "assertions"
+      },
+      "cpe": "cpe:/a:assertions:pretty_assertions:1.4.0",
+      "description": "Overwrite `assert_eq!` and `assert_ne!` with drop-in replacements, adding colorful diffs.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3f1ebc0cac5f88e875f036bf16636e15fa935c8d"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/pretty_assertions/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/pretty_assertions@1.4.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-06T18:01:07.022Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "47-proc-macro2",
+      "name": "proc-macro2",
+      "version": "1.0.66",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:proc-macro2:1.0.66",
+      "description": "A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "64b4608278be46fcc8d63ae1138da8cb600e258a"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/proc-macro2/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/proc-macro2@1.0.66",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-16T19:40:51.872Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "48-quote",
+      "name": "quote",
+      "version": "1.0.33",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:quote:1.0.33",
+      "description": "Quasi-quoting macro quote!(...)",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8beec4c311a196d0adc9fb70188226d9c1f8bf1c"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/quote/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/quote@1.0.33",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-17T02:52:00.618Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "49-regex",
+      "name": "regex",
+      "version": "1.9.3",
+      "supplier": {
+        "name": "The Rust Programming Language"
+      },
+      "cpe": "cpe:/a:The_Rust_Programming_Language:regex:1.9.3",
+      "description": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "72f889ef3cca59ebac6a026f3646e8d92f056d88"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-lang/regex",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/regex/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/regex@1.9.3",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-05T22:20:12.975Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "50-regex-automata",
+      "name": "regex-automata",
+      "version": "0.3.6",
+      "supplier": {
+        "name": "The Rust Programming Language"
+      },
+      "cpe": "cpe:/a:The_Rust_Programming_Language:regex-automata:0.3.6",
+      "description": "Automata construction and matching using regular expressions.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c892d08c7c9ccdef4278ebbe30b5a83f0a145780"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/regex-automata/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/regex-automata@0.3.6",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-05T22:19:43.502Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "51-regex-syntax",
+      "name": "regex-syntax",
+      "version": "0.7.4",
+      "supplier": {
+        "name": "The Rust Programming Language"
+      },
+      "cpe": "cpe:/a:The_Rust_Programming_Language:regex-syntax:0.7.4",
+      "description": "A regular expression parser.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5e8eaf1f7ab92b68bfabaa004561ccb1269ecb9f"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/regex-syntax/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/regex-syntax@0.7.4",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-11T01:10:59.702Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "52-rustix",
+      "name": "rustix",
+      "version": "0.37.23",
+      "supplier": {
+        "name": "Bytecode Alliance",
+        "contact": [
+          {
+            "email": "hello@bytecodealliance.org"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Bytecode_Alliance:rustix:0.37.23",
+      "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7cdacb1145f6f5986a6cc29c167749f5d64112d0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/rustix/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/rustix@0.37.23",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-05T13:46:38.549Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "53-rustix",
+      "name": "rustix",
+      "version": "0.38.8",
+      "supplier": {
+        "name": "Bytecode Alliance",
+        "contact": [
+          {
+            "email": "hello@bytecodealliance.org"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Bytecode_Alliance:rustix:0.38.8",
+      "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "db143034d80dbe2dc62368b732378c89f16e7569"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/rustix/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/rustix@0.38.8",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-10T19:34:54.125Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "54-serde",
+      "name": "serde",
+      "version": "1.0.185",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:serde:1.0.185",
+      "description": "A generic serialization/deserialization framework",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3c7dd6fc1e6f83e79e225670aac114656694f198"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://serde.rs",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/serde/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/serde@1.0.185",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-21T04:41:57.905Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "55-strsim",
+      "name": "strsim",
+      "version": "0.10.0",
+      "supplier": {
+        "name": "RapidFuzz"
+      },
+      "cpe": "cpe:/a:RapidFuzz:strsim:0.10.0",
+      "description": "Implementations of string similarity metrics. Includes Hamming, Levenshtein, OSA, Damerau-Levenshtein, Jaro, Jaro-Winkler, and S\u00f8rensen-Dice.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "72784f07f22cab2c93512a6eebca272467b1789e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rapidfuzz/strsim-rs",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/strsim/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/strsim@0.10.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2020-01-31T14:44:04.258Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "56-supports-color",
+      "name": "supports-color",
+      "version": "2.0.0",
+      "supplier": {
+        "name": "Kat Marchan"
+      },
+      "cpe": "cpe:/a:Kat_Marchan:supports-color:2.0.0",
+      "description": "Detects whether a terminal supports color, and gives details about that support.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c3ced07aca96e38af7f2b7f3e262263fa0f54552"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/supports-color/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/supports-color@2.0.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-12-16T04:17:13.801Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "57-syn",
+      "name": "syn",
+      "version": "2.0.29",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:syn:2.0.29",
+      "description": "Parser for Rust source code",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b387b13f48e76468a3fc58e55559d2f41fa28a71"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/syn/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/syn@2.0.29",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-17T03:22:41.072Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "58-terminal_size",
+      "name": "terminal_size",
+      "version": "0.2.6",
+      "supplier": {
+        "name": "Andrew Chin"
+      },
+      "cpe": "cpe:/a:Andrew_Chin:terminal_size:0.2.6",
+      "description": "Gets the size of your Linux or Windows terminal",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "78bc3d35ff824a7b0c22cc4e5ed37dfce3e6b1d1"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/terminal_size/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/terminal_size@0.2.6",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-04-03T04:09:05.925Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "59-termtree",
+      "name": "termtree",
+      "version": "0.4.1",
+      "supplier": {
+        "name": "Rust CLI WG"
+      },
+      "cpe": "cpe:/a:Rust_CLI_WG:termtree:0.4.1",
+      "description": "Visualize tree-like data on the command-line",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b333eaccb707d862feb45d5202de63ff26b77839"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/license/mit/",
+            "acknowledgement": "concluded"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/rust-cli/termtree",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/termtree/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/termtree@0.4.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-03-15T14:29:15.648Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "60-thiserror",
+      "name": "thiserror",
+      "version": "1.0.47",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:thiserror:1.0.47",
+      "description": "derive(Error)",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0495eaa802c73454ed6969fa1a3520db635bb901"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/thiserror/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/thiserror@1.0.47",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-17T02:57:47.529Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "61-thiserror-impl",
+      "name": "thiserror-impl",
+      "version": "1.0.47",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:thiserror-impl:1.0.47",
+      "description": "Implementation detail of the `thiserror` crate",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0495eaa802c73454ed6969fa1a3520db635bb901"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/thiserror-impl/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/thiserror-impl@1.0.47",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-17T02:57:39.076Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "62-unicode-ident",
+      "name": "unicode-ident",
+      "version": "1.0.11",
+      "supplier": {
+        "name": "David Tolnay"
+      },
+      "cpe": "cpe:/a:David_Tolnay:unicode-ident:1.0.11",
+      "description": "Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d062dcb8f947e5e874069f2706856a400c6578bb"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "(MIT OR Apache-2.0) AND Unicode-3.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/unicode-ident/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/unicode-ident@1.0.11",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-07-15T06:47:47.529Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "63-unicode-xid",
+      "name": "unicode-xid",
+      "version": "0.2.4",
+      "supplier": {
+        "name": "rs"
+      },
+      "cpe": "cpe:/a:rs:unicode-xid:0.2.4",
+      "description": "Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "781b5b3bd7a1dc6d9ea9288d32f2fb7964607202"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/unicode-rs/unicode-xid",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/unicode-xid/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/unicode-xid@0.2.4",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-09-15T17:14:52.826Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "64-utf8parse",
+      "name": "utf8parse",
+      "version": "0.2.1",
+      "supplier": {
+        "name": "Alacritty"
+      },
+      "cpe": "cpe:/a:Alacritty:utf8parse:0.2.1",
+      "description": "Table-driven UTF-8 parser",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "aba7d319b621609ab4244d1fe25187a319b04664"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/utf8parse/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/utf8parse@0.2.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-03-09T14:48:02.530Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "65-wait-timeout",
+      "name": "wait-timeout",
+      "version": "0.2.0",
+      "supplier": {
+        "name": "Alex Crichton"
+      },
+      "cpe": "cpe:/a:Alex_Crichton:wait-timeout:0.2.0",
+      "description": "A crate to wait on a child process with a timeout specified across Unix and Windows platforms.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7bb31d4901baa5196bd554e9e332bd9534eeb93b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://github.com/alexcrichton/wait-timeout",
+          "type": "website",
+          "comment": "Home page for project"
+        },
+        {
+          "url": "https://crates.io/crates/wait-timeout/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/wait-timeout@0.2.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2018-11-23T13:55:33.627Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "66-windows-sys",
+      "name": "windows-sys",
+      "version": "0.48.0",
+      "supplier": {
+        "name": "Microsoft",
+        "contact": [
+          {
+            "email": "opensource@microsoft.com"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Microsoft:windows-sys:0.48.0",
+      "description": "Rust for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "406944152ef28d3273236edc958c2bfbf825775d"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows-sys/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows-sys@0.48.0",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-03-31T12:59:46.239Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "67-windows-targets",
+      "name": "windows-targets",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft",
+        "contact": [
+          {
+            "email": "opensource@microsoft.com"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Microsoft:windows-targets:0.48.5",
+      "description": "Import libs for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows-targets/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows-targets@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:48:34.661Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "68-windows_aarch64_gnullvm",
+      "name": "windows_aarch64_gnullvm",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft",
+        "contact": [
+          {
+            "email": "opensource@microsoft.com"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Microsoft:windows_aarch64_gnullvm:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_aarch64_gnullvm/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_aarch64_gnullvm@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:46:06.858Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "69-windows_aarch64_msvc",
+      "name": "windows_aarch64_msvc",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft"
+      },
+      "cpe": "cpe:/a:Microsoft:windows_aarch64_msvc:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_aarch64_msvc/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_aarch64_msvc@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:46:33.751Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "70-windows_i686_gnu",
+      "name": "windows_i686_gnu",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft",
+        "contact": [
+          {
+            "email": "opensource@microsoft.com"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Microsoft:windows_i686_gnu:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_i686_gnu/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_i686_gnu@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:46:48.535Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "71-windows_i686_msvc",
+      "name": "windows_i686_msvc",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft"
+      },
+      "cpe": "cpe:/a:Microsoft:windows_i686_msvc:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_i686_msvc/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_i686_msvc@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:47:01.246Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "72-windows_x86_64_gnu",
+      "name": "windows_x86_64_gnu",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft",
+        "contact": [
+          {
+            "email": "opensource@microsoft.com"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Microsoft:windows_x86_64_gnu:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_x86_64_gnu/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_x86_64_gnu@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:47:19.353Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "73-windows_x86_64_gnullvm",
+      "name": "windows_x86_64_gnullvm",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft"
+      },
+      "cpe": "cpe:/a:Microsoft:windows_x86_64_gnullvm:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_x86_64_gnullvm/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_x86_64_gnullvm@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:47:45.070Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "74-windows_x86_64_msvc",
+      "name": "windows_x86_64_msvc",
+      "version": "0.48.5",
+      "supplier": {
+        "name": "Microsoft",
+        "contact": [
+          {
+            "email": "opensource@microsoft.com"
+          }
+        ]
+      },
+      "cpe": "cpe:/a:Microsoft:windows_x86_64_msvc:0.48.5",
+      "description": "Import lib for Windows",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b769fa7570f8eeaede0ed1995a7dbe1e9591a35b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/windows_x86_64_msvc/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/windows_x86_64_msvc@0.48.5",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2023-08-18T17:47:56.629Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "75-yansi",
+      "name": "yansi",
+      "version": "0.5.1",
+      "supplier": {
+        "name": "Sergio Benitez"
+      },
+      "cpe": "cpe:/a:Sergio_Benitez:yansi:0.5.1",
+      "description": "A dead simple ANSI terminal color painting library.",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://crates.io/crates/yansi/",
+          "type": "distribution",
+          "comment": "Download location for component"
+        }
+      ],
+      "evidence": {
+        "occurrences": [
+          {
+            "location": "./Cargo.lock"
+          }
+        ]
+      },
+      "purl": "pkg:cargo/yansi@0.5.1",
+      "properties": [
+        {
+          "name": "release_date",
+          "value": "2022-03-23T00:46:47.880Z"
+        },
+        {
+          "name": "language",
+          "value": "Rust"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CDXRef-DOCUMENT",
+      "dependsOn": [
+        "1-aho-corasick",
+        "2-anstream",
+        "3-anstyle",
+        "4-anstyle-parse",
+        "5-anstyle-query",
+        "6-anstyle-wincon",
+        "7-anyhow",
+        "8-assert_cmd",
+        "9-autocfg",
+        "11-bitflags",
+        "12-bstr",
+        "13-cc",
+        "14-clap",
+        "15-clap_builder",
+        "16-clap_derive",
+        "17-clap_lex",
+        "18-colorchoice",
+        "19-const_format",
+        "20-const_format_proc_macros",
+        "21-diff",
+        "22-difflib",
+        "23-doc-comment",
+        "24-either",
+        "25-errno",
+        "26-errno-dragonfly",
+        "27-float-cmp",
+        "28-heck",
+        "29-hermit-abi",
+        "30-hexyl",
+        "31-io-lifetimes",
+        "32-is-terminal",
+        "33-is_ci",
+        "34-itertools",
+        "35-libc",
+        "37-linux-raw-sys",
+        "38-memchr",
+        "39-normalize-line-endings",
+        "40-num-traits",
+        "41-once_cell",
+        "42-owo-colors",
+        "43-predicates",
+        "44-predicates-core",
+        "45-predicates-tree",
+        "46-pretty_assertions",
+        "47-proc-macro2",
+        "48-quote",
+        "49-regex",
+        "50-regex-automata",
+        "51-regex-syntax",
+        "53-rustix",
+        "54-serde",
+        "55-strsim",
+        "56-supports-color",
+        "57-syn",
+        "58-terminal_size",
+        "59-termtree",
+        "60-thiserror",
+        "61-thiserror-impl",
+        "62-unicode-ident",
+        "63-unicode-xid",
+        "64-utf8parse",
+        "65-wait-timeout",
+        "66-windows-sys",
+        "67-windows-targets",
+        "68-windows_aarch64_gnullvm",
+        "69-windows_aarch64_msvc",
+        "70-windows_i686_gnu",
+        "71-windows_i686_msvc",
+        "72-windows_x86_64_gnu",
+        "73-windows_x86_64_gnullvm",
+        "74-windows_x86_64_msvc",
+        "75-yansi"
+      ]
+    },
+    {
+      "ref": "1-aho-corasick",
+      "dependsOn": [
+        "38-memchr"
+      ]
+    },
+    {
+      "ref": "2-anstream",
+      "dependsOn": [
+        "3-anstyle",
+        "4-anstyle-parse",
+        "5-anstyle-query",
+        "6-anstyle-wincon",
+        "18-colorchoice",
+        "32-is-terminal",
+        "64-utf8parse"
+      ]
+    },
+    {
+      "ref": "4-anstyle-parse",
+      "dependsOn": [
+        "64-utf8parse"
+      ]
+    },
+    {
+      "ref": "5-anstyle-query",
+      "dependsOn": [
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "6-anstyle-wincon",
+      "dependsOn": [
+        "3-anstyle",
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "8-assert_cmd",
+      "dependsOn": [
+        "3-anstyle",
+        "12-bstr",
+        "23-doc-comment",
+        "43-predicates",
+        "44-predicates-core",
+        "45-predicates-tree",
+        "65-wait-timeout"
+      ]
+    },
+    {
+      "ref": "12-bstr",
+      "dependsOn": [
+        "38-memchr",
+        "50-regex-automata",
+        "54-serde"
+      ]
+    },
+    {
+      "ref": "13-cc",
+      "dependsOn": [
+        "35-libc"
+      ]
+    },
+    {
+      "ref": "14-clap",
+      "dependsOn": [
+        "15-clap_builder",
+        "16-clap_derive",
+        "41-once_cell"
+      ]
+    },
+    {
+      "ref": "15-clap_builder",
+      "dependsOn": [
+        "2-anstream",
+        "3-anstyle",
+        "17-clap_lex",
+        "55-strsim",
+        "58-terminal_size"
+      ]
+    },
+    {
+      "ref": "16-clap_derive",
+      "dependsOn": [
+        "28-heck",
+        "47-proc-macro2",
+        "48-quote",
+        "57-syn"
+      ]
+    },
+    {
+      "ref": "19-const_format",
+      "dependsOn": [
+        "20-const_format_proc_macros"
+      ]
+    },
+    {
+      "ref": "20-const_format_proc_macros",
+      "dependsOn": [
+        "47-proc-macro2",
+        "48-quote",
+        "63-unicode-xid"
+      ]
+    },
+    {
+      "ref": "25-errno",
+      "dependsOn": [
+        "26-errno-dragonfly",
+        "35-libc",
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "26-errno-dragonfly",
+      "dependsOn": [
+        "13-cc",
+        "35-libc"
+      ]
+    },
+    {
+      "ref": "27-float-cmp",
+      "dependsOn": [
+        "40-num-traits"
+      ]
+    },
+    {
+      "ref": "30-hexyl",
+      "dependsOn": [
+        "7-anyhow",
+        "8-assert_cmd",
+        "14-clap",
+        "19-const_format",
+        "35-libc",
+        "42-owo-colors",
+        "43-predicates",
+        "46-pretty_assertions",
+        "56-supports-color",
+        "58-terminal_size",
+        "60-thiserror"
+      ]
+    },
+    {
+      "ref": "31-io-lifetimes",
+      "dependsOn": [
+        "29-hermit-abi",
+        "35-libc",
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "32-is-terminal",
+      "dependsOn": [
+        "29-hermit-abi",
+        "52-rustix",
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "34-itertools",
+      "dependsOn": [
+        "24-either"
+      ]
+    },
+    {
+      "ref": "40-num-traits",
+      "dependsOn": [
+        "9-autocfg"
+      ]
+    },
+    {
+      "ref": "43-predicates",
+      "dependsOn": [
+        "3-anstyle",
+        "22-difflib",
+        "27-float-cmp",
+        "34-itertools",
+        "39-normalize-line-endings",
+        "44-predicates-core",
+        "49-regex"
+      ]
+    },
+    {
+      "ref": "45-predicates-tree",
+      "dependsOn": [
+        "44-predicates-core",
+        "59-termtree"
+      ]
+    },
+    {
+      "ref": "46-pretty_assertions",
+      "dependsOn": [
+        "21-diff",
+        "75-yansi"
+      ]
+    },
+    {
+      "ref": "47-proc-macro2",
+      "dependsOn": [
+        "62-unicode-ident"
+      ]
+    },
+    {
+      "ref": "48-quote",
+      "dependsOn": [
+        "47-proc-macro2"
+      ]
+    },
+    {
+      "ref": "49-regex",
+      "dependsOn": [
+        "1-aho-corasick",
+        "38-memchr",
+        "50-regex-automata",
+        "51-regex-syntax"
+      ]
+    },
+    {
+      "ref": "50-regex-automata",
+      "dependsOn": [
+        "1-aho-corasick",
+        "38-memchr",
+        "51-regex-syntax"
+      ]
+    },
+    {
+      "ref": "53-rustix",
+      "dependsOn": [
+        "10-bitflags",
+        "25-errno",
+        "31-io-lifetimes",
+        "35-libc",
+        "36-linux-raw-sys",
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "56-supports-color",
+      "dependsOn": [
+        "32-is-terminal",
+        "33-is_ci"
+      ]
+    },
+    {
+      "ref": "57-syn",
+      "dependsOn": [
+        "47-proc-macro2",
+        "48-quote",
+        "62-unicode-ident"
+      ]
+    },
+    {
+      "ref": "58-terminal_size",
+      "dependsOn": [
+        "52-rustix",
+        "66-windows-sys"
+      ]
+    },
+    {
+      "ref": "60-thiserror",
+      "dependsOn": [
+        "61-thiserror-impl"
+      ]
+    },
+    {
+      "ref": "61-thiserror-impl",
+      "dependsOn": [
+        "47-proc-macro2",
+        "48-quote",
+        "57-syn"
+      ]
+    },
+    {
+      "ref": "65-wait-timeout",
+      "dependsOn": [
+        "35-libc"
+      ]
+    },
+    {
+      "ref": "66-windows-sys",
+      "dependsOn": [
+        "67-windows-targets"
+      ]
+    },
+    {
+      "ref": "67-windows-targets",
+      "dependsOn": [
+        "68-windows_aarch64_gnullvm",
+        "69-windows_aarch64_msvc",
+        "70-windows_i686_gnu",
+        "71-windows_i686_msvc",
+        "72-windows_x86_64_gnu",
+        "73-windows_x86_64_gnullvm",
+        "74-windows_x86_64_msvc"
+      ]
+    }
+  ]
+}

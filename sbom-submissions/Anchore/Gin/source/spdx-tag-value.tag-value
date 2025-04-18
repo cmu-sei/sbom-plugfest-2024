@@ -1,0 +1,1040 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: /home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin
+DocumentNamespace: https://anchore.com/syft/dir/home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin-ae278a00-0326-4dad-aaa9-ea0392be1403
+LicenseListVersion: 3.25
+Creator: Organization: Anchore, Inc
+Creator: Tool: syft-1.18.0
+Created: 2024-12-13T13:06:26Z
+
+##### Unpackaged files
+
+FileName: .github/workflows/codeql.yml
+SPDXID: SPDXRef-File-.github-workflows-codeql.yml-f4fe0eee66e1ba99
+FileType: TEXT
+FileChecksum: SHA1: d5bc6aa1c8b4d9a4d12f536a59621ddbb6634b89
+FileChecksum: SHA256: b8e055a77a6d4c55d58c1f5556443f11b1415dbaf4cd00be00bb979029ec7bcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/gin.yml
+SPDXID: SPDXRef-File-.github-workflows-gin.yml-7bc2cca2d070cf2b
+FileType: TEXT
+FileChecksum: SHA1: 8a7ef537610bab49dd81816119d0d799250810fb
+FileChecksum: SHA256: 37750e93ca0f8542031402da3e6e80080b085a37d8bbe81d77221b3249e55318
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: .github/workflows/goreleaser.yml
+SPDXID: SPDXRef-File-.github-workflows-goreleaser.yml-a24e9312fabd7fe5
+FileType: TEXT
+FileChecksum: SHA1: a6695dd056831e6d94636ceaf00c17c194858045
+FileChecksum: SHA256: ef3faeaf1d4cf4b627915c1b9201041c2ec8864c8c28d56518dea469ad96b931
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: go.mod
+SPDXID: SPDXRef-File-go.mod-3fc5a8d3d86e9790
+FileType: TEXT
+FileChecksum: SHA1: 5dfedc13fa9c27a96d7c88aa917d1d38e1466fa2
+FileChecksum: SHA256: 6222d2c4c38f92aa685329371143313937198e8699b202878ab0d581c8986f96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Package: /home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin
+
+PackageName: /home/alan/Work/Anchore/plugfest/repos/gin-gonic/gin
+SPDXID: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PrimaryPackagePurpose: FILE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: actions/cache
+
+PackageName: actions/cache
+SPDXID: SPDXRef-Package-github-action-actions-cache-6aee37cd95a52198
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/gin.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/cache:actions\/cache:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/cache@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-bc39fc3bb5768de8
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/gin.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-c67e74d6bacda5f8
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/goreleaser.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/checkout
+
+PackageName: actions/checkout
+SPDXID: SPDXRef-Package-github-action-actions-checkout-ffece65caa72c162
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/codeql.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/checkout:actions\/checkout:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/checkout@v4
+
+##### Package: actions/setup-go
+
+PackageName: actions/setup-go
+SPDXID: SPDXRef-Package-github-action-actions-setup-go-7004dc2b96fdb8a5
+PackageVersion: v5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/gin.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-go:actions\/setup-go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-go:actions\/setup_go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_go:actions\/setup-go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_go:actions\/setup_go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_go:v5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-go@v5
+
+##### Package: actions/setup-go
+
+PackageName: actions/setup-go
+SPDXID: SPDXRef-Package-github-action-actions-setup-go-efff1dbeb61369f4
+PackageVersion: v5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/goreleaser.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-go:actions\/setup-go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup-go:actions\/setup_go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_go:actions\/setup-go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup_go:actions\/setup_go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup-go:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:actions\/setup:actions\/setup_go:v5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/actions/setup-go@v5
+
+##### Package: codecov/codecov-action
+
+PackageName: codecov/codecov-action
+SPDXID: SPDXRef-Package-github-action-codecov-codecov-action-20d1d183b73930c7
+PackageVersion: v4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/gin.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov-action:codecov\/codecov-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov-action:codecov\/codecov_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov_action:codecov\/codecov-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov_action:codecov\/codecov_action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov:codecov\/codecov-action:v4:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:codecov\/codecov:codecov\/codecov_action:v4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/codecov/codecov-action@v4
+
+##### Package: github/codeql-action/analyze
+
+PackageName: github/codeql-action/analyze
+SPDXID: SPDXRef-Package-github-action-github-codeql-action-analyze-599f9f86c34f69ef
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/codeql.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/analyze:github\/codeql-action\/analyze:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/analyze:github\/codeql_action\/analyze:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/analyze:github\/codeql-action\/analyze:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/analyze:github\/codeql_action\/analyze:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql-action\/analyze:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql_action\/analyze:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/github/codeql-action@v3#analyze
+
+##### Package: github/codeql-action/init
+
+PackageName: github/codeql-action/init
+SPDXID: SPDXRef-Package-github-action-github-codeql-action-init-5e1cfb39ebb5e4fb
+PackageVersion: v3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/codeql.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/init:github\/codeql-action\/init:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql-action\/init:github\/codeql_action\/init:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/init:github\/codeql-action\/init:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql_action\/init:github\/codeql_action\/init:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql-action\/init:v3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:github\/codeql:github\/codeql_action\/init:v3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/github/codeql-action@v3#init
+
+##### Package: golangci/golangci-lint-action
+
+PackageName: golangci/golangci-lint-action
+SPDXID: SPDXRef-Package-github-action-golangci-golangci-lint-action-2775bafc67ed35c7
+PackageVersion: v6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/gin.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci-lint-action:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci-lint-action:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci_lint_action:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci_lint_action:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci-lint:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci-lint:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci_lint:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci_lint:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci:golangci\/golangci-lint-action:v6:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golangci\/golangci:golangci\/golangci_lint_action:v6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/golangci/golangci-lint-action@v6
+
+##### Package: goreleaser/goreleaser-action
+
+PackageName: goreleaser/goreleaser-action
+SPDXID: SPDXRef-Package-github-action-goreleaser-goreleaser-action-46e69acf151839d2
+PackageVersion: v5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from GitHub Actions workflow file or composite action file: /.github/workflows/goreleaser.yml
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goreleaser\/goreleaser-action:goreleaser\/goreleaser-action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goreleaser\/goreleaser-action:goreleaser\/goreleaser_action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goreleaser\/goreleaser_action:goreleaser\/goreleaser-action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goreleaser\/goreleaser_action:goreleaser\/goreleaser_action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goreleaser\/goreleaser:goreleaser\/goreleaser-action:v5:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goreleaser\/goreleaser:goreleaser\/goreleaser_action:v5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:github/goreleaser/goreleaser-action@v5
+
+##### Package: github.com/bytedance/sonic
+
+PackageName: github.com/bytedance/sonic
+SPDXID: SPDXRef-Package-go-module-github.com-bytedance-sonic-cb6860ca46e59eee
+PackageVersion: v1.11.6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:bytedance:sonic:v1.11.6:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/bytedance/sonic@v1.11.6
+
+##### Package: github.com/bytedance/sonic/loader
+
+PackageName: github.com/bytedance/sonic/loader
+SPDXID: SPDXRef-Package-go-module-github.com-bytedance-sonic-loader-683753858d2428f5
+PackageVersion: v0.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:bytedance:sonic\/loader:v0.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/bytedance/sonic@v0.1.1#loader
+
+##### Package: github.com/cloudwego/base64x
+
+PackageName: github.com/cloudwego/base64x
+SPDXID: SPDXRef-Package-go-module-github.com-cloudwego-base64x-a72637e3ab3f2702
+PackageVersion: v0.1.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloudwego:base64x:v0.1.4:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/cloudwego/base64x@v0.1.4
+
+##### Package: github.com/cloudwego/iasm
+
+PackageName: github.com/cloudwego/iasm
+SPDXID: SPDXRef-Package-go-module-github.com-cloudwego-iasm-24c44d2165dbbe6e
+PackageVersion: v0.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:cloudwego:iasm:v0.2.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/cloudwego/iasm@v0.2.0
+
+##### Package: github.com/davecgh/go-spew
+
+PackageName: github.com/davecgh/go-spew
+SPDXID: SPDXRef-Package-go-module-github.com-davecgh-go-spew-4fff1eaa0bc0be66
+PackageVersion: v1.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/davecgh/go-spew@v1.1.1
+
+##### Package: github.com/gabriel-vasile/mimetype
+
+PackageName: github.com/gabriel-vasile/mimetype
+SPDXID: SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-ed271496b40ae290
+PackageVersion: v1.4.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gabriel-vasile:mimetype:v1.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gabriel_vasile:mimetype:v1.4.3:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gabriel:mimetype:v1.4.3:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.3
+
+##### Package: github.com/gin-contrib/sse
+
+PackageName: github.com/gin-contrib/sse
+SPDXID: SPDXRef-Package-go-module-github.com-gin-contrib-sse-51df85ab5a46c699
+PackageVersion: v0.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gin-contrib:sse:v0.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gin_contrib:sse:v0.1.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:gin:sse:v0.1.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/gin-contrib/sse@v0.1.0
+
+##### Package: github.com/go-playground/locales
+
+PackageName: github.com/go-playground/locales
+SPDXID: SPDXRef-Package-go-module-github.com-go-playground-locales-0ab483711ac82dec
+PackageVersion: v0.14.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go-playground:locales:v0.14.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go_playground:locales:v0.14.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go:locales:v0.14.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/go-playground/locales@v0.14.1
+
+##### Package: github.com/go-playground/universal-translator
+
+PackageName: github.com/go-playground/universal-translator
+SPDXID: SPDXRef-Package-go-module-github.com-go-playground-universal-translator-aa3c8c1e33334216
+PackageVersion: v0.18.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go-playground:universal-translator:v0.18.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go-playground:universal_translator:v0.18.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go_playground:universal-translator:v0.18.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go_playground:universal_translator:v0.18.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go:universal-translator:v0.18.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go:universal_translator:v0.18.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/go-playground/universal-translator@v0.18.1
+
+##### Package: github.com/go-playground/validator/v10
+
+PackageName: github.com/go-playground/validator/v10
+SPDXID: SPDXRef-Package-go-module-github.com-go-playground-validator-v10-a9f509c48eb6d333
+PackageVersion: v10.20.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go-playground:validator\/v10:v10.20.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go_playground:validator\/v10:v10.20.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go:validator\/v10:v10.20.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/go-playground/validator@v10.20.0#v10
+
+##### Package: github.com/go-task/slim-sprig
+
+PackageName: github.com/go-task/slim-sprig
+SPDXID: SPDXRef-Package-go-module-github.com-go-task-slim-sprig-09ce847851ef4807
+PackageVersion: v0.0.0-20230315185526-52ccab3ef572
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go-task:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go-task:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go_task:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go_task:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go:slim-sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:go:slim_sprig:v0.0.0-20230315185526-52ccab3ef572:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/go-task/slim-sprig@v0.0.0-20230315185526-52ccab3ef572
+
+##### Package: github.com/goccy/go-json
+
+PackageName: github.com/goccy/go-json
+SPDXID: SPDXRef-Package-go-module-github.com-goccy-go-json-1c69133c75b0ec68
+PackageVersion: v0.10.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goccy:go-json:v0.10.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:goccy:go_json:v0.10.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/goccy/go-json@v0.10.2
+
+##### Package: github.com/google/pprof
+
+PackageName: github.com/google/pprof
+SPDXID: SPDXRef-Package-go-module-github.com-google-pprof-768bdea76795da5e
+PackageVersion: v0.0.0-20210407192527-94a9f03dee38
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:pprof:v0.0.0-20210407192527-94a9f03dee38:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/google/pprof@v0.0.0-20210407192527-94a9f03dee38
+
+##### Package: github.com/json-iterator/go
+
+PackageName: github.com/json-iterator/go
+SPDXID: SPDXRef-Package-go-module-github.com-json-iterator-go-b71b97451ba45321
+PackageVersion: v1.1.12
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/json-iterator/go@v1.1.12
+
+##### Package: github.com/klauspost/cpuid/v2
+
+PackageName: github.com/klauspost/cpuid/v2
+SPDXID: SPDXRef-Package-go-module-github.com-klauspost-cpuid-v2-2fc5d08a9b452d97
+PackageVersion: v2.0.9
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:klauspost:cpuid\/v2:v2.0.9:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/klauspost/cpuid@v2.0.9#v2
+
+##### Package: github.com/kr/pretty
+
+PackageName: github.com/kr/pretty
+SPDXID: SPDXRef-Package-go-module-github.com-kr-pretty-b76d4050a948c5b8
+PackageVersion: v0.3.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:kr:pretty:v0.3.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/kr/pretty@v0.3.1
+
+##### Package: github.com/leodido/go-urn
+
+PackageName: github.com/leodido/go-urn
+SPDXID: SPDXRef-Package-go-module-github.com-leodido-go-urn-dc31b61b5d1d57b8
+PackageVersion: v1.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:leodido:go-urn:v1.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:leodido:go_urn:v1.4.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/leodido/go-urn@v1.4.0
+
+##### Package: github.com/mattn/go-isatty
+
+PackageName: github.com/mattn/go-isatty
+SPDXID: SPDXRef-Package-go-module-github.com-mattn-go-isatty-f4619afab7c4111c
+PackageVersion: v0.0.20
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mattn:go-isatty:v0.0.20:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:mattn:go_isatty:v0.0.20:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/mattn/go-isatty@v0.0.20
+
+##### Package: github.com/modern-go/concurrent
+
+PackageName: github.com/modern-go/concurrent
+SPDXID: SPDXRef-Package-go-module-github.com-modern-go-concurrent-7cd0a448661081ad
+PackageVersion: v0.0.0-20180228061459-e0a39a4cb421
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:modern-go:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:modern_go:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:modern:concurrent:v0.0.0-20180228061459-e0a39a4cb421:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180228061459-e0a39a4cb421
+
+##### Package: github.com/modern-go/reflect2
+
+PackageName: github.com/modern-go/reflect2
+SPDXID: SPDXRef-Package-go-module-github.com-modern-go-reflect2-d0740b2e48ecb514
+PackageVersion: v1.0.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/modern-go/reflect2@v1.0.2
+
+##### Package: github.com/onsi/ginkgo/v2
+
+PackageName: github.com/onsi/ginkgo/v2
+SPDXID: SPDXRef-Package-go-module-github.com-onsi-ginkgo-v2-5191ff2910e9b570
+PackageVersion: v2.9.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:onsi:ginkgo\/v2:v2.9.5:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/onsi/ginkgo@v2.9.5#v2
+
+##### Package: github.com/pelletier/go-toml/v2
+
+PackageName: github.com/pelletier/go-toml/v2
+SPDXID: SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-ede5d0051fc14725
+PackageVersion: v2.2.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pelletier:go-toml\/v2:v2.2.2:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pelletier:go_toml\/v2:v2.2.2:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/pelletier/go-toml@v2.2.2#v2
+
+##### Package: github.com/pmezard/go-difflib
+
+PackageName: github.com/pmezard/go-difflib
+SPDXID: SPDXRef-Package-go-module-github.com-pmezard-go-difflib-2e9153c8c5a4f906
+PackageVersion: v1.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/pmezard/go-difflib@v1.0.0
+
+##### Package: github.com/quic-go/qpack
+
+PackageName: github.com/quic-go/qpack
+SPDXID: SPDXRef-Package-go-module-github.com-quic-go-qpack-f6e2e295a609d7cf
+PackageVersion: v0.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic-go:qpack:v0.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic_go:qpack:v0.4.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic:qpack:v0.4.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/quic-go/qpack@v0.4.0
+
+##### Package: github.com/quic-go/quic-go
+
+PackageName: github.com/quic-go/quic-go
+SPDXID: SPDXRef-Package-go-module-github.com-quic-go-quic-go-833b2674d8128fb9
+PackageVersion: v0.43.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic-go:quic-go:v0.43.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic-go:quic_go:v0.43.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic_go:quic-go:v0.43.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic_go:quic_go:v0.43.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic:quic-go:v0.43.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:quic:quic_go:v0.43.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/quic-go/quic-go@v0.43.1
+
+##### Package: github.com/stretchr/testify
+
+PackageName: github.com/stretchr/testify
+SPDXID: SPDXRef-Package-go-module-github.com-stretchr-testify-1e92eaf826745a46
+PackageVersion: v1.9.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:stretchr:testify:v1.9.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/stretchr/testify@v1.9.0
+
+##### Package: github.com/twitchyliquid64/golang-asm
+
+PackageName: github.com/twitchyliquid64/golang-asm
+SPDXID: SPDXRef-Package-go-module-github.com-twitchyliquid64-golang-asm-1b5e6d463e64103d
+PackageVersion: v0.15.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:twitchyliquid64:golang-asm:v0.15.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:twitchyliquid64:golang_asm:v0.15.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/twitchyliquid64/golang-asm@v0.15.1
+
+##### Package: github.com/ugorji/go/codec
+
+PackageName: github.com/ugorji/go/codec
+SPDXID: SPDXRef-Package-go-module-github.com-ugorji-go-codec-64f555546e8d7887
+PackageVersion: v1.2.12
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:ugorji:go\/codec:v1.2.12:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/ugorji/go@v1.2.12#codec
+
+##### Package: go.uber.org/mock
+
+PackageName: go.uber.org/mock
+SPDXID: SPDXRef-Package-go-module-go.uber.org-mock-b02ac718fe59e25e
+PackageVersion: v0.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/go.uber.org/mock@v0.4.0
+
+##### Package: golang.org/x/arch
+
+PackageName: golang.org/x/arch
+SPDXID: SPDXRef-Package-go-module-golang.org-x-arch-c9a828946ac1dd78
+PackageVersion: v0.0.0-20210923205945-b76863e36670
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:x\/arch:v0.0.0-20210923205945-b76863e36670:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/arch@v0.0.0-20210923205945-b76863e36670
+
+##### Package: golang.org/x/crypto
+
+PackageName: golang.org/x/crypto
+SPDXID: SPDXRef-Package-go-module-golang.org-x-crypto-ba5359d8f3adbe08
+PackageVersion: v0.25.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:x\/crypto:v0.25.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/crypto@v0.25.0
+
+##### Package: golang.org/x/exp
+
+PackageName: golang.org/x/exp
+SPDXID: SPDXRef-Package-go-module-golang.org-x-exp-54975e4904704d4f
+PackageVersion: v0.0.0-20221205204356-47842c84f3db
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:x\/exp:v0.0.0-20221205204356-47842c84f3db:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/exp@v0.0.0-20221205204356-47842c84f3db
+
+##### Package: golang.org/x/mod
+
+PackageName: golang.org/x/mod
+SPDXID: SPDXRef-Package-go-module-golang.org-x-mod-708b38b123a4196b
+PackageVersion: v0.17.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:x\/mod:v0.17.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/mod@v0.17.0
+
+##### Package: golang.org/x/net
+
+PackageName: golang.org/x/net
+SPDXID: SPDXRef-Package-go-module-golang.org-x-net-d3b155486e4963f3
+PackageVersion: v0.27.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:networking:v0.27.0:*:*:*:*:go:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/net@v0.27.0
+
+##### Package: golang.org/x/sys
+
+PackageName: golang.org/x/sys
+SPDXID: SPDXRef-Package-go-module-golang.org-x-sys-77c53cb0e32c1fff
+PackageVersion: v0.22.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:x\/sys:v0.22.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/sys@v0.22.0
+
+##### Package: golang.org/x/text
+
+PackageName: golang.org/x/text
+SPDXID: SPDXRef-Package-go-module-golang.org-x-text-1c0bd605732aade4
+PackageVersion: v0.16.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:text:v0.16.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/text@v0.16.0
+
+##### Package: golang.org/x/tools
+
+PackageName: golang.org/x/tools
+SPDXID: SPDXRef-Package-go-module-golang.org-x-tools-1f6ad0729e2bc692
+PackageVersion: v0.21.1-0.20240508182429-e35e4ccd0d2d
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:golang:x\/tools:v0.21.1-0.20240508182429-e35e4ccd0d2d:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/golang.org/x/tools@v0.21.1-0.20240508182429-e35e4ccd0d2d
+
+##### Package: google.golang.org/protobuf
+
+PackageName: google.golang.org/protobuf
+SPDXID: SPDXRef-Package-go-module-google.golang.org-protobuf-1db891ee5d0b9ff1
+PackageVersion: v1.34.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:google:protobuf:v1.34.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/google.golang.org/protobuf@v1.34.1
+
+##### Package: gopkg.in/yaml.v3
+
+PackageName: gopkg.in/yaml.v3
+SPDXID: SPDXRef-Package-go-module-gopkg.in-yaml.v3-716c668b92999095
+PackageVersion: v3.0.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from go module information: /go.mod
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:yaml_project:yaml:v3.0.1:*:*:*:*:go:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/gopkg.in/yaml.v3@v3.0.1
+
+##### Relationships
+
+Relationship: SPDXRef-Package-go-module-github.com-go-task-slim-sprig-09ce847851ef4807 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-go-playground-locales-0ab483711ac82dec OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-twitchyliquid64-golang-asm-1b5e6d463e64103d OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-text-1c0bd605732aade4 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-goccy-go-json-1c69133c75b0ec68 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-google.golang.org-protobuf-1db891ee5d0b9ff1 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-stretchr-testify-1e92eaf826745a46 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-tools-1f6ad0729e2bc692 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-codecov-codecov-action-20d1d183b73930c7 OTHER SPDXRef-File-.github-workflows-gin.yml-7bc2cca2d070cf2b
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-cloudwego-iasm-24c44d2165dbbe6e OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-golangci-golangci-lint-action-2775bafc67ed35c7 OTHER SPDXRef-File-.github-workflows-gin.yml-7bc2cca2d070cf2b
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-pmezard-go-difflib-2e9153c8c5a4f906 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-klauspost-cpuid-v2-2fc5d08a9b452d97 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-goreleaser-goreleaser-action-46e69acf151839d2 OTHER SPDXRef-File-.github-workflows-goreleaser.yml-a24e9312fabd7fe5
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-davecgh-go-spew-4fff1eaa0bc0be66 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-onsi-ginkgo-v2-5191ff2910e9b570 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-gin-contrib-sse-51df85ab5a46c699 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-exp-54975e4904704d4f OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-github-codeql-action-analyze-599f9f86c34f69ef OTHER SPDXRef-File-.github-workflows-codeql.yml-f4fe0eee66e1ba99
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-github-codeql-action-init-5e1cfb39ebb5e4fb OTHER SPDXRef-File-.github-workflows-codeql.yml-f4fe0eee66e1ba99
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-ugorji-go-codec-64f555546e8d7887 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-bytedance-sonic-loader-683753858d2428f5 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-cache-6aee37cd95a52198 OTHER SPDXRef-File-.github-workflows-gin.yml-7bc2cca2d070cf2b
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-go-7004dc2b96fdb8a5 OTHER SPDXRef-File-.github-workflows-gin.yml-7bc2cca2d070cf2b
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-mod-708b38b123a4196b OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-gopkg.in-yaml.v3-716c668b92999095 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-google-pprof-768bdea76795da5e OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-sys-77c53cb0e32c1fff OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-modern-go-concurrent-7cd0a448661081ad OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-quic-go-quic-go-833b2674d8128fb9 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-cloudwego-base64x-a72637e3ab3f2702 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-go-playground-validator-v10-a9f509c48eb6d333 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-go-playground-universal-translator-aa3c8c1e33334216 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-go.uber.org-mock-b02ac718fe59e25e OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-json-iterator-go-b71b97451ba45321 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-kr-pretty-b76d4050a948c5b8 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-crypto-ba5359d8f3adbe08 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-bc39fc3bb5768de8 OTHER SPDXRef-File-.github-workflows-gin.yml-7bc2cca2d070cf2b
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-c67e74d6bacda5f8 OTHER SPDXRef-File-.github-workflows-goreleaser.yml-a24e9312fabd7fe5
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-arch-c9a828946ac1dd78 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-bytedance-sonic-cb6860ca46e59eee OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-modern-go-reflect2-d0740b2e48ecb514 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-golang.org-x-net-d3b155486e4963f3 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-leodido-go-urn-dc31b61b5d1d57b8 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-ed271496b40ae290 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-ede5d0051fc14725 OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-setup-go-efff1dbeb61369f4 OTHER SPDXRef-File-.github-workflows-goreleaser.yml-a24e9312fabd7fe5
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-mattn-go-isatty-f4619afab7c4111c OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-go-module-github.com-quic-go-qpack-f6e2e295a609d7cf OTHER SPDXRef-File-go.mod-3fc5a8d3d86e9790
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-Package-github-action-actions-checkout-ffece65caa72c162 OTHER SPDXRef-File-.github-workflows-codeql.yml-f4fe0eee66e1ba99
+RelationshipComment: evident-by: indicates the package's existence is evident by the given file
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-actions-cache-6aee37cd95a52198
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-actions-checkout-ffece65caa72c162
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-actions-checkout-bc39fc3bb5768de8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-actions-checkout-c67e74d6bacda5f8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-actions-setup-go-7004dc2b96fdb8a5
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-actions-setup-go-efff1dbeb61369f4
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-codecov-codecov-action-20d1d183b73930c7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-bytedance-sonic-cb6860ca46e59eee
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-bytedance-sonic-loader-683753858d2428f5
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-cloudwego-base64x-a72637e3ab3f2702
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-cloudwego-iasm-24c44d2165dbbe6e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-davecgh-go-spew-4fff1eaa0bc0be66
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-gabriel-vasile-mimetype-ed271496b40ae290
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-gin-contrib-sse-51df85ab5a46c699
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-go-playground-locales-0ab483711ac82dec
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-go-playground-universal-translator-aa3c8c1e33334216
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-go-playground-validator-v10-a9f509c48eb6d333
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-go-task-slim-sprig-09ce847851ef4807
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-goccy-go-json-1c69133c75b0ec68
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-google-pprof-768bdea76795da5e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-json-iterator-go-b71b97451ba45321
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-klauspost-cpuid-v2-2fc5d08a9b452d97
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-kr-pretty-b76d4050a948c5b8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-leodido-go-urn-dc31b61b5d1d57b8
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-mattn-go-isatty-f4619afab7c4111c
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-modern-go-concurrent-7cd0a448661081ad
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-modern-go-reflect2-d0740b2e48ecb514
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-onsi-ginkgo-v2-5191ff2910e9b570
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-pelletier-go-toml-v2-ede5d0051fc14725
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-pmezard-go-difflib-2e9153c8c5a4f906
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-quic-go-qpack-f6e2e295a609d7cf
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-quic-go-quic-go-833b2674d8128fb9
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-stretchr-testify-1e92eaf826745a46
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-twitchyliquid64-golang-asm-1b5e6d463e64103d
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-github.com-ugorji-go-codec-64f555546e8d7887
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-github-codeql-action-analyze-599f9f86c34f69ef
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-github-codeql-action-init-5e1cfb39ebb5e4fb
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-go.uber.org-mock-b02ac718fe59e25e
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-arch-c9a828946ac1dd78
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-crypto-ba5359d8f3adbe08
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-exp-54975e4904704d4f
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-mod-708b38b123a4196b
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-net-d3b155486e4963f3
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-sys-77c53cb0e32c1fff
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-text-1c0bd605732aade4
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-golang.org-x-tools-1f6ad0729e2bc692
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-golangci-golangci-lint-action-2775bafc67ed35c7
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-google.golang.org-protobuf-1db891ee5d0b9ff1
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-go-module-gopkg.in-yaml.v3-716c668b92999095
+Relationship: SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin CONTAINS SPDXRef-Package-github-action-goreleaser-goreleaser-action-46e69acf151839d2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DocumentRoot-Directory--home-alan-Work-Anchore-plugfest-repos-gin-gonic-gin
+

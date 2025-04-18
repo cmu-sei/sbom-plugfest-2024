@@ -1,0 +1,74 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/build.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/build.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/build.yaml"
+      },
+      "resolved": {
+        "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml": {
+          "package_url": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.build.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml": {
+          "package_url": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.prerelease.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/release.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/release.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/release.yaml"
+      },
+      "resolved": {
+        "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml": {
+          "package_url": "pkg:github/ldtteam/operapublicacreator@main#.github/workflows/gradle.publish.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/translation.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/translation.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/.github/workflows/translation.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@master": {
+          "package_url": "pkg:github/actions/checkout@master",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/ad-m/github-push-action@master": {
+          "package_url": "pkg:github/ad-m/github-push-action@master",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/gradle/wrapper/gradle-wrapper.jar": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/gradle/wrapper/gradle-wrapper.jar",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/ldtteam/minecolonies/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "resolved": {
+        "pkg:maven/gradle-wrapper/gradle-wrapper": {
+          "package_url": "pkg:maven/gradle-wrapper/gradle-wrapper",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:07:40+01:00"
+}

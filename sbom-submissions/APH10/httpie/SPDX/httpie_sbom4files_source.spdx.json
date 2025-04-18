@@ -1,0 +1,2686 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "comment": "This document has been automatically generated.",
+    "creators": [
+      "Tool: sbom4files-0.4.5"
+    ],
+    "created": "2024-12-09T20:51:16Z",
+    "licenseListVersion": "3.25"
+  },
+  "name": "httpie",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/httpie-91493406-da36-426c-989b-4ada385e1ee7",
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-1-uploads",
+      "fileName": "./httpie/uploads.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8fc3ba578f6fbce690fc5d20e261141315f7a9eb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc7c2345f466036f04330bd7cebf1e26e837d2142324c528e0709ff2b9bebdb5"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "fa7c19e8da52688bed2405f99fb6b9601f575fd7c412c9d6d405adc7ee9ccc54fda31802e7dcb5aa97031b4d65a746af89a19f286b4d87fc350560c33a86ec44"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-2-config",
+      "fileName": "./httpie/config.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b06289c02479ad214e1ef00a0fd8ee5cd55697ad"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e85d8fd00aa6ae3bd5bc8d8ad2adbaabc224d172d41b37dd4aa5d23b29b37960"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "26dc7eec456a9111ab52412e93ebfa7fb183c3515330492b281ac4816b8471ecfe76d2e1aaf5f2a7775fda7c605852f2878d68c619fcb48f9af7fa8c478fa937"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-3-models",
+      "fileName": "./httpie/models.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "78b9b347780eb1a69fe1ac974346ee09f5324558"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "17e8043ee24adc466893ecf612d5938ae78d2d1c3a9d402a4e6d7d18ef1e57ee"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e008df365628442131c1cdf86eb25f9679c91d98b67fd8119247453143378fb6bdfe042ee782e48d7b2b39bcbbebbdb8c8936896a5bdaaa06f8a879890cfec7c"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-4-cookies",
+      "fileName": "./httpie/cookies.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "44d82fda1b3aa3adbe8083698a7ac5213f98b594"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5fa5db64c1ac41bd6c8b8e1e365887f9e8de4499cc4145bee05b4690987e69ac"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c58265a545edb648c2c28edcc9d66f284db54af9e9ebba42202b1921dda4d56dc51005aae624a73b448c724d87a4cee0503669ca592558abd5a21f1f19845d17"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-5-sessions",
+      "fileName": "./httpie/sessions.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0a5a814bca1d6263db67903981edebe6ee0dbce3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "962d21af9c4d86f688be3123e21e71d8df5c456b756250790232f5a5e63e29bf"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "3494a6f700c886c4bdada2705f5b470694f68e177aabe1874088e3985a1e856703d2e301f9245a38136e8f0db7158f1773e71d6d3afd6aa6c6caf444604cfbd4"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-6-client",
+      "fileName": "./httpie/client.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8353da4133d93119b07e6c3ee92403ce67bce0ce"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2990366514ccac0f42bd0d7ae785e5feab6e50189ef722b10f8ffaeaa4e96c75"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "3e3008de0d760838bcba60016b75d75fa15e094d91559f6771326f49906fd084dfd9faab01a462e35c72d82b56c192eb2489fbdb013461e149aa9456d3e4108f"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-7-core",
+      "fileName": "./httpie/core.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c919c2c1b0b546df523f3ac3c7842949f695cdea"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12a78934cd277bdba722574319048213d417c9bc549145ca8bd851c123444d5b"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "25b58e85c24133b43df964bc8156eaaf1497f3995e90fc4a06661ce9cd43d9d07e989122d8938aa4e1391cc487647e2d600e1a6fb6446e583a54b86d86684845"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-8-context",
+      "fileName": "./httpie/context.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e5bc74ab989e5731b76ff1b2e85d4e48faa11f98"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4d2d6d7397158b44341570e27f693bb6e4a4ce57e245af4aef289b9d3957723"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "a43eac8b0449979d8ddf4ca484fcbf483a229e4225f91b890ec9b44d5006929dbbed99f04c8a5a650ba22334d31ad27dddc1bb671b56b601d4be59ff0f40f554"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-9-downloads",
+      "fileName": "./httpie/downloads.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "79d930fc87d2bacf347ebea5a5b6e20f68bc09cb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eea60912640e337feafa08cae05944d6c8e1a93d1a95eed48e29f2e9921bdcdf"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d4931f5129c0ed742660045f83aad14ec2c2c57c9c7abdd93d02d60d2b9076cb72a315d61f532c8f17ecf4b1c4c0a06c1ead615ecf71a6f258c199d459883aa5"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-10-httpie---init--.py",
+      "fileName": "./httpie/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "109428c15a166e46919d0a932dc30fa5261ca5ce"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ecc11e94b4244fb901a7f75ab9c68b994d57666191ddebec46a0240449fd413c"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "df4076edd7e512509a99dc0d1e253dcdbb68f80c8cfaf11c8c64fb3cd276346cbe6a62b104dbc31bcbdc0bf3b7314835e303b0bff0cd9e8c1550cba7c3b1e2c1"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-11-httpie---main--.py",
+      "fileName": "./httpie/__main__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3b65079bc4ed7cb5673a2919ef7d211eb9b11ee6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f4ef5eabd7995fd48cf0fdb71d2f61582f49f2daac49d97f0055aa69b005fed"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b5e24ae2e424cf8d53eb6df1ae58a5115ccc3fb2968847e6af133d83ceba962c71b2c6bd7c998ac5fa632617bd7dd6f8c011074dd9ba336dbf68d86e93ab17b7"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-12-httpie-ssl-.py",
+      "fileName": "./httpie/ssl_.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "483cd09ea245981d113b01847db491904b642314"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ca2ef8b9cd0d27c42f231e6afb03e1915278790c7e45e138e9f8d861c4290da"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "a2cde5050dce69a4d15edd5749982e84b5131c9eb38eee29ecce0ee387072c59cbef6447598f00a65193f67ec7f5d52ca4fc51fac677737851f9f0decb147f42"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-13-status",
+      "fileName": "./httpie/status.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "614e05f17f815d20528a4154e790376d956e5e7a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2eb94601f0572767d8684894b76f7d14eabc4fd12217cb3a6317831b04dc9b7c"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ddfe939c64ad1fa3b2fe005ea3c01de91648ca8bb94c8cfd791f4b0b5d4ad08000e20f2940043ce6619f590e55c716a8c5892de2fe1c3f32397138645b44906d"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-14-encoding",
+      "fileName": "./httpie/encoding.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8f1d49933c4ad64565c4a4d215d252cf3aa7a7dd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e54725b3aeb2b85c9b94c23cc0a63eb68ed6d6dd3e1ff1f5eeaace6c5998cef"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "975d8c259b3c9b2a642ba2f5a354e19b7f51da82db0947d540416235f855b1611ae2fa96d0077eb547a38e7fa870b40a6ed684b6bd7fbc3538ad99e21e3d44a7"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-15-compat",
+      "fileName": "./httpie/compat.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dfcc4c6fc9d2c9477f24046eaf65c6da9d16ad0c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4a5909a6d2c8b7bb1b29493c5a6dcf0243f44bb57550a2163e1d053c6c0b946"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "71201e1797a2b7df4d223179f8d83400a38d1086335f0396b92e8605b59d7a07792e94c64aef115222b1f82fad8b47ccc71e98c44ecf0a5f6c5bd7194e5b345c"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-16-utils",
+      "fileName": "./httpie/utils.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "96b5c781595f4060a7e778dc961fd05fcb41438d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c6b1fed010e8e895324ca03d9966e638e42418a7810b9908d9d5ceab959db86"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "a29fbf62005ebdbb54f65ff0caca21d5f5c9dd472a13545a88b56b2ef585da96cd63a1c1099277efd59862a879059101b1b2068c0c3218c2b748190c12d73af6"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-17-adapters",
+      "fileName": "./httpie/adapters.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a194e6b742131ae1a16293eb9d521a245f8e9a8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a7336e153a69731f9798ce69639faf7b925f7d36192892ba3db61058fbee74f6"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "7e4c11e2042137b0379aa271c2d72a02e9fd96488321c3c05d196e128eca0e748624fb0a16ac7a7f78c1a6fbd039116f00a5feca423f47d198deee2f7e43dad7"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-18-core",
+      "fileName": "./httpie/manager/core.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6df8ddd752b778e7e7bc182a088c2d81ea0fa7e2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae5c078d1c705fd80c89f3965362921812d40a288f3b33c218aa17de43059113"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2e83724f19c2c0a109670608f07810fa27509315cab8fd0bb103fc9d5b9711c4b1e41f0a2de068f7cad5daa0afa22f961f871144b344a4df47bb36f8536a7954"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-19-httpie-manager---init--.py",
+      "fileName": "./httpie/manager/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-20-httpie-manager---main--.py",
+      "fileName": "./httpie/manager/__main__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9851673b1c7013cc5fd99e7199c58fca14dfd14"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51f9ac8086346b87d841b5000eeeb42bfaefd95f77da3f9d19cf182a77bb8d6d"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "87e79b86a0890bacff11472212ad2c0961de12f9551c0f88a7cf4faa303bbcfbe9cb2581a343176aa35ca1e2b887385a8a629361a7419bb052b68b74af17c495"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-21-cli",
+      "fileName": "./httpie/manager/cli.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7ea67432c385b5c901cd7ba4cabb9e4677913c65"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd60e688d242ba87f83410b44815ebb20086836e1d945174299e9711ee69368b"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "dfa9fd10d664f25aba02d2c118aeeb5143814e56913c5166187da3f79205cbfda1aaa638641b4afa60da06edc29d106a25e2c650a2b7af56ef1d52e5b760afbb"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-22-compat",
+      "fileName": "./httpie/manager/compat.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5c0deb6d5a51a2454d39cbc2d8394afbd9d9181e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f3e067f51650fd9ff5263a42c82131128183e225c1390108d7a3136bf3caa386"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0b34a220a9b8a9fdd77a5d4033112a039803d045492fa29b00099621388bfda88670363909c1c8a9500589fc3f60aa24964172075c0385b15804f683e00f4949"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-23-httpie-manager-tasks-export-args.py",
+      "fileName": "./httpie/manager/tasks/export_args.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b70f4c11ea7663ea9fe1208bced74d07aa4d1b1e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1fe3a8dd52b642cc9dbae83d5e9a0e3c1ac5f4f4939bb7f74b07d6ee90ce7ace"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e835ab7ebd180b3171f2c4f893a4c3ffdf649809cc899d57fb72960b2aaca791397d02d2f1ee786e994ca5c06293c30a113675181310f6f818f06138c2611e8b"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-24-sessions",
+      "fileName": "./httpie/manager/tasks/sessions.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f3b8fd70415d1bf20a2ca4d8cd55f8ecb3ae5bee"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ece31542210c80abe6213aba2db67d4d8a972e71b2f5f1d7f69b8fce56b7d3c"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "be8af094a1601edf2ecc8f1ead4de54783e87778c41923a1e7d604b705d6d4df93aff8b85ccc1656b5aab9aaa3285de0fc1a071bfb7248d60f76adf6e3f04e11"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-25-plugins",
+      "fileName": "./httpie/manager/tasks/plugins.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b2602ee530079547acf4e7ba8db5bb5adda4a173"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8fe3ed0a8ae334c7b961443c50d91ba7925e447cf3031752da52c7c747f04edc"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "13f72ffe7d012fcd48a785f762b1ddcc38bacb81239aaf6cad6a9fa953bfaef3ab9e9a438f3db9a855db11ddeae2e40a66ef1ffbc8d4fffdb6102f696429061f"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-26-httpie-manager-tasks---init--.py",
+      "fileName": "./httpie/manager/tasks/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c3783802e12ca15fe018afe483c18bb0e02dfaec"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a6c091cdb02f98cb1516706755f2574c9f62ab214875d0b9388374223437b2a4"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "78c3e0441d88573fac72537fa177fc929668794a8e40c905e995fe1b57b2c0edcf014489ef1fdf9f5b903fbead022e75dfb502670de69f26d432c90bc763f029"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-27-httpie-manager-tasks-check-updates.py",
+      "fileName": "./httpie/manager/tasks/check_updates.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "77c5b9dafbc030b98c30486560fb3840a5b8194f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "65cf4d42f8b009bab9bc98fba8df4b216e052d36c1f1d3ead66b115ad25d8958"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "3ca008e7a3828066397e60c5d69b8baa58a4d269e83cd7618a35c0d6175a16c798b2cb6d1f7f632ea66704e1a58409b87d0a48653897c42abd4fa2eef302d791"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-28-models",
+      "fileName": "./httpie/output/models.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "af326c737d08c8bfec3b3adc6ce131783ff2c99f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a6c820e42e2267c78b32d1f2df1bd55b09b03907f836f1ba95e3e23a0690f9f7"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "25f4e05a18a07e53685a4c121a285c3e8ffdd8e2bd330aed2420521832b28dcc4c616315442c9e21e3002e3403b545a8c757540c54ae9338a7987e36a60a28e1"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-29-writer",
+      "fileName": "./httpie/output/writer.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f7ada32ec2ff2ff82bee9dc6aa784b9a063c6ac"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "75840f43178bbc7713080d56d32986a8ca69042b5102fe32dc3662f93197b10a"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "19669eb485b91562d111e1fb2c5160ce9b963c3ddf87d07b0a4507e36bd5ae0bf8e008f6e77d79370c313ac7d6b2076ac52c4ea21384064a152c284cc1ef88c0"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-30-streams",
+      "fileName": "./httpie/output/streams.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "91692acc1ed56e4b7a5ecc7b1a226ec1fec976a6"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "11e5101d4b5375083d3c08ce52edf34cddf7d8d0e9b0b1a0c4a2b68ca2ea016d"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e91b075212d2fb3ce7188c3fc94dd0c159a16e5a91c13fd0c0218d5b5aeec48e36358736417218a0d33ad83d461feb1ea9c7a4e625354f99066f82439df4d58f"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-31-httpie-output---init--.py",
+      "fileName": "./httpie/output/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-32-processing",
+      "fileName": "./httpie/output/processing.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ae7b352044ec1a88d24e11bbf722ab8849f1700"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0a37a9939fd6c57c5a203cf0e4b1e71e4ebc51a30b23035a2bc51cb98923b633"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "7df889069837416534a640566e51bdeb38b54fbabe9a52685d088368f7051c66a65bf10f016194f5c1ab176f83b722526f9fa5ae9d48089066e5000db004d7b9"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-33-utils",
+      "fileName": "./httpie/output/utils.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "824b58461c27b2487d81296af3a8b8e95887ea19"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8fd795b95b0d5f20b871159b9617adeee262d350635d0064c007f1f0ea459582"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "14b5beba00435295a79c515ae9285845420489f31fbf2e3ef352e9db2e94fad12c55479bca3e8895cd281ab7b1888b4f995b4fea33c634749d492b93aedbf507"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-34-json",
+      "fileName": "./httpie/output/lexers/json.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2ad0f6a79f7e2b935666347c0c1dc03dc0e1f0dd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5013f5d0169cfb6d9983b17b138599d71194689c59c84e90eeed9adf4418e0fe"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "43214dee102abd8958a4e6d3b737ab6e73e45fca5e16d4a5fa57aa6cf137de3ea620d257ab70c0acba20c568ff15cbdd1f0d29434ff10d430f4a284a39fdc5d8"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-35-http",
+      "fileName": "./httpie/output/lexers/http.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c81071d41628ee1b6d14469b2b63e42a390edd4c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a87a0e36044e4a6b30d880df8c10595ab428fe9d312b2068a74922383325ccf"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "f48d4dcae67eeb356bd6d2c73c56d1c152dc504cd759a54bdf1b09bf3e359d707efeb95cb28f5f9fa91ff2ba87c8d53bf55f0607bbd215b527687d9a60278dbb"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-36-metadata",
+      "fileName": "./httpie/output/lexers/metadata.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d5d28efbdf832aeeb7d3f0f60fd273fc025e043"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "50ee6c1d6dce92fba078e5d335d12c74243842a9872baaf8c51007774c7f44ce"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d5bd1f89503b1948c2c1289c0e4ef18a7d111b335274c0b15b0c4343671794c4284037937b017d4b67255a48f37510b61251b180965fc33455d7b7b1642bc861"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-37-common",
+      "fileName": "./httpie/output/lexers/common.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "76c230df23416b41481527f0c2568ed28c6622c8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "44e7516ca9f38a3267f64061de21ff240aba465f1eabda41a2e66d708cf3dbd9"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c2baa1a194ff2d43f6661f9c9a2af582401970fb367e368d5154df5618d1bc31be2f03eb529d1263888085b75977cd321841d444c1847b416156c07277a968ea"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-38-httpie-output-lexers---init--.py",
+      "fileName": "./httpie/output/lexers/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-39-headers",
+      "fileName": "./httpie/output/formatters/headers.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "704c259f258a0ecb6a51e789d90dcae42071ec58"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81d459ccce2a9c7484dcf677ec841c7e317e1be24236b395d92b54092b377d3e"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e15fb901db6f19e482cd1f649257cf23fdcabf535db0b27bab3b8c03e4141f312973d530c510bed77554b674568c776b9556cc57b0b530b9504548cda339e49f"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-40-json",
+      "fileName": "./httpie/output/formatters/json.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "38bf28f1de09002402370721943bfe2e81fde1da"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3237e34043c69e6294df31d8aa6ff7fd995db151277d345a1d66d2f63b4b4b1"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "205c0e9b6cba424ec9ad20a38b93014155ed24ce4ea3c25f2d7d6c9283048eb37df45adca12274e2cdea4d5d15dc2a6048de60f9a08637aaa8f0b57b41cfada7"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-41-colors",
+      "fileName": "./httpie/output/formatters/colors.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a35c04d3b4bd4e6a1155f995c02b0f25508b7ab"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "818b82191db085acab172220755c19abecf8135432350407a2b9c18f7d49e13e"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0097495be26c13e09c1ddbf0a784bd60ad8157996acb334a813550ed045a327843e51f4b41e1bc0295fd1351a772c384ae58566fb4d1be4439ae5c341c94b3e9"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-42-httpie-output-formatters---init--.py",
+      "fileName": "./httpie/output/formatters/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-43-xml",
+      "fileName": "./httpie/output/formatters/xml.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6cd3763b9e4af70283f6a930ea7030b281e6356e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8a592bf6057861239a9bfeff4540f18f4562f69b1c2bca2d0112e7f471cbe2f9"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "613eb0e3b3ab00011899cd9c9a3263525caa219e95e737f6aff113c1aec9741eb37597387dc824981b596ad141f15a1cc69625c5b08b224218ecc1be17ec419b"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-44-palette",
+      "fileName": "./httpie/output/ui/palette.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7d166b21fb714d6b821fda1128313dc66d6109ce"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d5ac0de24cfc4525aeed4337fc269e52f071371025bdc8bfa2ba43e97f455a2f"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "46a0e3efbb6433da1dc290983ab4cbb1e41718cd0a67016938e8578af289d167cc0fe14eddf44c67aab4df51ab8e88201a6bf691a5ff7f5ba27973f2e1706724"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-45-httpie-output-ui-man-pages.py",
+      "fileName": "./httpie/output/ui/man_pages.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ade41cd25998ac5d643e4b3d06a6cbb5213a9c9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a0bc7bf83c06741e7b0f56f2eae629f59ebfe0c9444461bd8b2ab664aa3f02d5"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "5eca8310ccbfa87b9a107d6ebb8017f63483e32eca89f25f4f7c738666b9dbd3840cb70b9243f39fbadb19e873aadb36c7e63d1b03771e18d504fb184d8c79de"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-46-httpie-output-ui---init--.py",
+      "fileName": "./httpie/output/ui/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-47-httpie-output-ui-rich-progress.py",
+      "fileName": "./httpie/output/ui/rich_progress.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "44198f5122e6f3b31b1ed4086cdcaca094114fc8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3300dba8ec48b8b16b8809122987239a4ab685133c0d2fe630c82d2eb51b35b"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1db6c8734d62af6c036bdcf18cb138adad2511e0a135859b0dc062c79bd1d0cf6612a5b3bce6b94d3c01004681afef3b6dd1ff535261513d6c1e6a2506aa551e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-48-httpie-output-ui-rich-help.py",
+      "fileName": "./httpie/output/ui/rich_help.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "874adff3832f492c6ee6e7df88cf3d5f649f9ebd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c8a6ae33b37af9c20eaf375e1206386dd91b27b9045c4137f9b5520aee6899c9"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "f1af5dad6209c8d4500db01734fe4916968ad85786517a11868827e75f92401251144e0a9a80378fddb1695b2ce9546782964b9ca87e00c7575ffda3e9b6e98e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-49-httpie-output-ui-rich-palette.py",
+      "fileName": "./httpie/output/ui/rich_palette.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa56ee9c4a71a9bdd9dd32f06ea12bbf20742f52"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fca19d3c7b9c2a35ae5220a471a7c73cddde71955b6d493eb232d2b54c0831b0"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "eccc4e93ee972288e1c4c1cd304ef2cb0afac2568ee04382b2f054cda5574409e8856b1ac10a18dffb0bc621e22d6621af505e43c9f875817d0988dc54d1a533"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-50-httpie-output-ui-rich-utils.py",
+      "fileName": "./httpie/output/ui/rich_utils.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "037384bccc472b75bb1c08a4f9ad8bf435b36a33"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f0426d4794426c121b4b6a35fbc5a2e26d5924f2324e1ae6764f2dbbc7c71ed"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0fc79ecb28cfd39a2e46de58c5e02a6836df36cf6ae0d29a790b8ca0c1a31ba86062ba95ecb6cb46043efa158b19a2d57d30893362ecba535ffb63543e29d067"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-51-httpie-internal-update-warnings.py",
+      "fileName": "./httpie/internal/update_warnings.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1be2983f242a6749f49d0bfc16abf5789a362764"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "360c4ab1094ce8ec311cc0a3f9f7447b058d62bb8ee6fdc40272abaf00c00ce2"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "22a2e40701188ff8fa730251fc8439badb0b6f4a758c8668e4d26737480803158a8b46a340e1820f1ecd74acbf2757d582628de2496a8dc61f72790a001b2586"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-52-daemons",
+      "fileName": "./httpie/internal/daemons.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "303e8278b477c935865898faf33fffc45d73d1f5"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f50971437475bc7d4c0760c180028a298ddcdcb8b2c62a90f9ffd2bed2dd825"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "6f52c1766eed4fefe743a9734fee7986772f0bfacfc1b2d63b2869913b840b8f026ea5090065c71d79d7f51dff743a494328d44a8211e3234e377d7271e7db12"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-53-httpie-internal-daemon-runner.py",
+      "fileName": "./httpie/internal/daemon_runner.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae9125c38facd5d0053b5461ad42dc0fb0480493"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "54dd4c4db1368ef44e2fe5f10103b60ea2d38084d3c2fd0ff944e79ce10bf1ec"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "acffaf9afe2c3d9489dff6092af87c5a8f5e6a0b8b358f802597f500a4c17f5578658e49e27b04ebd63426c2ac98b712efa67c0804337a3bf4e00f1a81669cc1"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-54-httpie-internal---init--.py",
+      "fileName": "./httpie/internal/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-55-httpie-internal---build-channel--.py",
+      "fileName": "./httpie/internal/__build_channel__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "062b7cf65fb4e24753338ec780eefc762df1c1d8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da1af203e1c656c9040ef6797407a3b62a816b105e5d45995217b7b24d40a065"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "456d0604c9e66da8f92dd1780873ddb86c130268ce7c9673f52c73ed0e00708b72bfdd993298aed70602ff900a67f3780aa2538f628dbef971284380e58e00a2"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-56-argtypes",
+      "fileName": "./httpie/cli/argtypes.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c61b4512639c51b138475285000d3e1813e83b63"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "de2f97a67bc7babfacf61098b7344f4c8c5f28e29216d09d1ab9c3cb45e96518"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4f1611e1b702ba6d20c6a1c562e8014cbc7013286e1644766ee1f44a67bcc56b0eef219a44be23d0171d050b2044eacebc73f2316dcaf956b8f329e94e67fd5e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-57-options",
+      "fileName": "./httpie/cli/options.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad78d8f714159e01a189169dca7fdea74279b24a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4abd2f61bbe6b4b9894f96f5632ec7999ab9576d5247e7c76c2c75415ba9ad9e"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d1a5b6751f40330d3b5b20b407fe766dabcb57002e6d0d27d8f83f480912542831b031870a43a5e28371666c8bcc34ebcf6ea29f9f6b1fb748b535706d9bfeaa"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-58-exceptions",
+      "fileName": "./httpie/cli/exceptions.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2c4658dbf544f62c8ca2fbd65c4672d00e292e1d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f761398b67ebbf9863f70c4e6c966c66a8f94fa6e096f3f3bddbdca3fbd6d599"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "da2e4fc7ece9e564a7936f9a3ac71c31378c13bcc87270cae3b24d3acbea953e36c37191c05101c9abe6efad1aff4013f6e34a8880699f81816191b5e936336f"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-59-definition",
+      "fileName": "./httpie/cli/definition.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4fcc8e7546c33ff2540951183070e3d0cf9ca6b8"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c5efca2df0b6f4018a50623bfc1bf170826c790d1340e2e9c47fd1e0e66e2fc1"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0c4b67e2b3d1f4b8f1629908e0e477474031d67752501b67801c5a4878484801dd0930579fa7bad967b6d1b986a2a5c21d7199844ba6a91404bd4a4e5fb63069"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-60-dicts",
+      "fileName": "./httpie/cli/dicts.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b6f9ba63388dce703cf2761664479c4a4df9e22"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfe08cbeba3afc4d406c6334a2a8509e75e3e30693f3c904933ad7cfa6b5c1ba"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2c34fbcc62dde0bc45b798a9609cc82098a96abffb14fca478012d4590b0d2277a2d785675d28fe915b5a3dfbee58d52afb0041d0223c9c11a0a3085c75d1b79"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-61-httpie-cli---init--.py",
+      "fileName": "./httpie/cli/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-62-argparser",
+      "fileName": "./httpie/cli/argparser.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "85e3ec12f2ffcb6e80b41425b5f433f80c3e788e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6f2408a5e917e3d0fc5ad5c725252d98022990299b1ec5182b2237749d513077"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "34e76a8512aea646640e9ffe9b3333f81976032ace91c01c11b8708b7fcf6b437aed22ba1658b50a007dae07882c84ed12d6becccfd9cf7a068265c69f8242f5"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-63-constants",
+      "fileName": "./httpie/cli/constants.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "56802eb0a4917e81a274bd06dda8533afc26f921"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b68aa0876c338115a3a7571a62d9af257464332e967f62757e927fdbe70066df"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "091fe487d529a400bffdb273b8e971acd0a3839838d352adad1a07ac0b185a5718a0a324a8e8149a142575b5405e60ca9d99341be4c6284b03bc69639ca4d25a"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-64-requestitems",
+      "fileName": "./httpie/cli/requestitems.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a469d51afab7731f9a2d85d3fb630456666f08d1"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d81370cb4133243aaca9bd9e7cf6c69844e3b2c2e899b56ac60171865323ca3"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c57006ef109fe71e3e0274ff9c0c1cb563a62f603e18ea741d80a2d89ccdf37957d441012ed606c9f5bbffc4052f8b9f27a01eb0d8e418b8115b1d14e03b8de2"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-65-utils",
+      "fileName": "./httpie/cli/utils.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a45c6fc8fdf0845faf1dec502fbabde8c3b3c952"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "95dc7b7b4866ac29dfb23818cc0074d7b65ca24d37e11deca93492c8dd5c325b"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "902a9c5c5aac3ed65c3be534e2fbaa00bdb8ac4425495b0ee36b26b551d8aa4bc450f945b5b5fb6e998af2a044304771d775d471e578438a02819ff64bef95f2"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-66-tokens",
+      "fileName": "./httpie/cli/nested_json/tokens.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "541d48a8cc7a7c1b1fd896e43de3706a17484d20"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df60534514b93aa176f603da1410704df1ea8ff0bafda952a733d72631e46d87"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "9eae3cb28f31dd5b0ef48755de9b7bcfe0ad378230f0a68df86bf9d95e5c0603007030162ddabdd216f4cf24b0bf4d1691b5490f23fefee03601dc79e64ee651"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-67-errors",
+      "fileName": "./httpie/cli/nested_json/errors.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "eb14e7e19c753ec7684bd016197cb6a6b7475ef2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6658052456ac5876f6186ad0071ff9167aa6cdfa71b306a31d77c2537a72311d"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "01bc42598beec3d1d45ce00c937cca0e97e2341e86bc202f0cc57af73f8c231f0e40bfc8ea15a868bdac1b2684fe5d349123726283d47933bb5ffa8d5de8a131"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-68-httpie-cli-nested-json---init--.py",
+      "fileName": "./httpie/cli/nested_json/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1556f1207bd6700fa9f8f77239e76780c9458e53"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0fcfbeb787ffeb6eac0bf620723aae82c510fcbf52ca340424644a3b6bcdefcb"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "68025a0080ce8f07671dce77ae36b25805d70bf8ce68e356d674d48a9673e044141e38518606bfd365cd0f47ac6c16fe48f4d18cfa1103edc2fb857c1332e02c"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-69-interpret",
+      "fileName": "./httpie/cli/nested_json/interpret.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e6cbf03cb7d40e7223caab15aa881672dcd8c7c0"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63147d07fccc20de7fa4e4c5996be2b823b5e35f335f699af126408c12867fe0"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "74b1eb49c0def3563bacf56ff39d8298a134fcb3c940fbb87ed62274600f46114ef9bb745456d90bf4a7a9312ae0b61df61c2d33d48ee0bc57f7046859317a73"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-70-parse",
+      "fileName": "./httpie/cli/nested_json/parse.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3e0c20eb1dc28276fb441220dfa7eb3c6f4741d7"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d43a909037a6f7c58d8b6e655807384cfb2ca9022cf1a20905e3357c850446e6"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "546e335bb04bd7ba796a808ac8bf2ec837adb289d83f3f8702bef9e39f4cb061db2e0a4415c5f3dbddfc17f9472e4a7d105a79c8eeeea70a47ae9f919d3344f7"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-71-httpie-legacy---init--.py",
+      "fileName": "./httpie/legacy/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "OTHER"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-72-httpie-legacy-v3-2-0-session-header-format.py",
+      "fileName": "./httpie/legacy/v3_2_0_session_header_format.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7dd97882393ff9ca3f95109812b3232c61e6923a"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ed69c30520fece2918438bccd0f53c001fd5cf4d5c7671da2680103337167641"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "250c0a10b48555d83084c559186c2ba382658715e780d3f8b6434a44ea27917c117bed5bc6dd6a258d2600f8f11c9b8c31314d27ca13f61fa46c4625a2799869"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-73-httpie-legacy-v3-1-0-session-cookie-format.py",
+      "fileName": "./httpie/legacy/v3_1_0_session_cookie_format.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "817efe0d3d1dd30f62e957dfb8a3f9715e8030e9"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3012da301c10e6f25ccfba6566d82b7b6a8beff35923ba012db86d457cc36e47"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "796b5ccd875a8355c26d925c35a33ccd1224f04ae4fe21cac5babed741c394dc9e550013eb5071a26759936475d203328d149e05e47a8c8959ce5a489a7929d9"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-74-manager",
+      "fileName": "./httpie/plugins/manager.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "40263d06dbafd9db5c5970a09ad9311d839f984d"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6fbf39e6b5c90977637f38e3769b78b1874e3e45dd05fd704a808f0f65beb67e"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cc714883ffc1bbd5b0881e0385a24f0b91c60b5b4cc2c42e0001aa7d30046991fade287e0a5ca6183f9c29f2a2fe6da6500c9dab43272f689c1bf10e9002afbc"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-75-base",
+      "fileName": "./httpie/plugins/base.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7944ba4a57aab6921c6cd145a1412c91a878e229"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ab62592dad351b45cc95a0952d4fdd69a8d3491f86643fe0d1abaf5de5adea37"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "78b0cdaa6202dcac7179f8f0ddb15efd5d51c16596654c897c7d019ed684c46380f145454dc425b5a9ad3d06c5fb299a5c54ecd21114abb43158b9eb8cd84ae5"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-76-builtin",
+      "fileName": "./httpie/plugins/builtin.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5e90f0c75720c9555e2c37dffc1ced24819c4deb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "30ddf9b93beb00701c39aefa3d290a913be80fccea01a7e94dc505e236b62cbc"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8bd66d2b25bee5dd0bfa7218956abed6b7d761984b388277a50e958a557100244c271e996649a227ae76d1d8e007cd08fedb7dd43abf1fe116c9e3af539ef05d"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-77-httpie-plugins---init--.py",
+      "fileName": "./httpie/plugins/__init__.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a726ad1b608141824315c67b36b3ba99d72cd067"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4e41b19e278e02c9660927eaa307b3a5c367d77beb7d5c40a69e90d44d4575c4"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "668e132f416a85fcd59dcd634ef1021dbd6e763c12012fd24e04da6262a76c9c619f6e5b273d96c798bff2c4d6238f2c199a30d987ea64629f374af8c0bcb388"
+        }
+      ],
+      "comment": "Source is Python"
+    },
+    {
+      "SPDXID": "SPDXRef-File-78-registry",
+      "fileName": "./httpie/plugins/registry.py",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SOURCE",
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NONE"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cd19f67b2ab1712a3285c42353c116b16b816239"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "94a9a21c4cf5253a55fd955bceae8bad2805cff779c5fb4ef7b494b7d43d78ed"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "81779ff8b04ca3942d78daa89dd36a15b7d82457a286e19dd5d6f1ab869dbbd87abb7b2e636f0df905f4e5af1acc38cb910a07e6c42589fce1810b37efe93d99"
+        }
+      ],
+      "comment": "Source is Python"
+    }
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-httpie-files",
+      "name": "httpie-files",
+      "primaryPackagePurpose": "LIBRARY",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-httpie-files",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-1-uploads",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-10-httpie---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-11-httpie---main--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-12-httpie-ssl-.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-13-status",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-14-encoding",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-15-compat",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-16-utils",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-17-adapters",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-18-core",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-19-httpie-manager---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-2-config",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-20-httpie-manager---main--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-21-cli",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-22-compat",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-23-httpie-manager-tasks-export-args.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-24-sessions",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-25-plugins",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-26-httpie-manager-tasks---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-27-httpie-manager-tasks-check-updates.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-28-models",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-29-writer",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-3-models",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-30-streams",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-31-httpie-output---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-32-processing",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-33-utils",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-34-json",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-35-http",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-36-metadata",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-37-common",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-38-httpie-output-lexers---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-39-headers",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-4-cookies",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-40-json",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-41-colors",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-42-httpie-output-formatters---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-43-xml",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-44-palette",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-45-httpie-output-ui-man-pages.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-46-httpie-output-ui---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-47-httpie-output-ui-rich-progress.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-48-httpie-output-ui-rich-help.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-49-httpie-output-ui-rich-palette.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-5-sessions",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-50-httpie-output-ui-rich-utils.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-51-httpie-internal-update-warnings.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-52-daemons",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-53-httpie-internal-daemon-runner.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-54-httpie-internal---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-55-httpie-internal---build-channel--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-56-argtypes",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-57-options",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-58-exceptions",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-59-definition",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-6-client",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-60-dicts",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-61-httpie-cli---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-62-argparser",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-63-constants",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-64-requestitems",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-65-utils",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-66-tokens",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-67-errors",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-68-httpie-cli-nested-json---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-69-interpret",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-7-core",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-70-parse",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-71-httpie-legacy---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-72-httpie-legacy-v3-2-0-session-header-format.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-73-httpie-legacy-v3-1-0-session-cookie-format.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-74-manager",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-75-base",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-76-builtin",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-77-httpie-plugins---init--.py",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-78-registry",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-8-context",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpie-files",
+      "relatedSpdxElement": "SPDXRef-File-9-downloads",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

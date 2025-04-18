@@ -1,0 +1,1487 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2024-12-03T03:50:50Z",
+    "creators": [
+      "Organization: LL",
+      "Tool: L-v2.1.1"
+    ]
+  },
+  "name": "https://github.com/DependencyTrack/dependency-track",
+  "dataLicense": "CC0-1.0",
+  "comment": "signature_alg:RS512,signature_value:IkUZap1zMphNuZ7mBTKNUFlZnvjLE1WsMtsV3Cdb2uftTASr9zagxroJEjHgEjE+Xba+IjBjum+mfH2jqHa0/yXVShfJpu1PXIHOBuew02B2LK7Q7Z5dAdsAdV+tE/shfapOJEREuo+b3SDGliKE4fstI7u/5B7BI55tT5H6wRbV6ZncLxscZkvqs1ZmAmTsr+05Gkgee66LN57ulNHMOe3zj/RYAIzRBR3X5EZvhQ2Hv1FXpyqP42drAr4AnMDiHR39kVcOA+uyivx6QQS1BheP237h1EvVvoHxDMucoiwWeaFu1q+0KoYURTKrjX4Bmco1DGiNbpCGf2eVyY/v9w==,publickey_kty:RSA,publickey_n:16833617138599873984989908708286670820980019119146898547633954013546732699627564255118507425542343679927812081128347078995630285236309142958787816100697750144801489044903900131385572280852999913066306183212176217691939092714044005193005443198184942832435204414288688957866103771440583665160715425854300040607758492671845551129139379267385814122209466392492566876229459207737083320035115195572808222224304658575412255676088089791221370134566971039253240239286162150513798863754381877108897946766127257055225463423479701656123253616097886402440969007499395557280690535085772481471195057177031863383627024601783774057881,publickey_e:65537",
+  "documentNamespace": "http://devivas.LL.ai/sbom/2024/12/3/d646b003-e9cc-4eb8-924b-5274c3977561/sbom-spdx.json",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-7B7108EC6DBDD450D46C5A1A61E7C591",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.fasterxml.woodstox/woodstox-core@7.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "com.fasterxml.woodstox:woodstox-core@7.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "7.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-7C5547C47AF334A6A2C3DAE80AACD5BE",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.github.package-url/packageurl-java@1.5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.github.package-url:packageurl-java@1.5.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.5.0"
+    },
+    {
+      "SPDXID": "SPDXRef-D4BDBF6C9906DDF275470D80C40E63AC",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.github.stefanbirkner/system-rules@1.19.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.github.stefanbirkner:system-rules@1.19.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.19.0"
+    },
+    {
+      "SPDXID": "SPDXRef-03DA9281F9CF4E2A5F2A05DD2D1C2D1E",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.github.tomakehurst/wiremock-jre8@2.35.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "com.github.tomakehurst:wiremock-jre8@2.35.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.35.2"
+    },
+    {
+      "SPDXID": "SPDXRef-969CE4D1E24476A045C9D3D80B3CE79C",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/cloud-sql-connector-jdbc-sqlserver@1.20.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.google.cloud.sql:cloud-sql-connector-jdbc-sqlserver@1.20.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.20.1"
+    },
+    {
+      "SPDXID": "SPDXRef-F088742891745EA1E257B011EB44588C",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/mysql-socket-factory-connector-j-8@1.20.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.google.cloud.sql:mysql-socket-factory-connector-j-8@1.20.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.20.1"
+    },
+    {
+      "SPDXID": "SPDXRef-38FB1DB77A59495C52B4ACFC30214D67",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/postgres-socket-factory@1.20.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.google.cloud.sql:postgres-socket-factory@1.20.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.20.1"
+    },
+    {
+      "SPDXID": "SPDXRef-2A8E5DE4284EFB7E754442AB6A6521E5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util@4.28.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.google.protobuf:protobuf-java-util@4.28.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.28.2"
+    },
+    {
+      "SPDXID": "SPDXRef-AB57E2D9D4CB93A18186FDF1106D51AE",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@4.28.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "com.google.protobuf:protobuf-java@4.28.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.28.2"
+    },
+    {
+      "SPDXID": "SPDXRef-FCD9EFACBD0FA307513E8B0E84A0551E",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.icegreen/greenmail-junit4@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "com.icegreen:greenmail-junit4@2.0.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-ABBB1E90D7CC8BBA7601CBB59DFF2BAF",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@12.8.1.jre11",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "com.microsoft.sqlserver:mssql-jdbc@12.8.1.jre11",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "12.8.1.jre11"
+    },
+    {
+      "SPDXID": "SPDXRef-141205A36A58C76862B2B786CF0087B7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.mysql/mysql-connector-j@8.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0",
+      "licenseDeclared": "GPL-2.0",
+      "name": "com.mysql:mysql-connector-j@8.2.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "8.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-root",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/DependencyTrack/dependency-track",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "name": "dependency-track",
+      "originator": "Organization: dependency-track",
+      "supplier": "Organization: LL",
+      "versionInfo": "4.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-FEA508DA2CB30ECBFA0095098CEAC8E1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.16",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.slf4j:log4j-over-slf4j@2.0.16",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.0.16"
+    },
+    {
+      "SPDXID": "SPDXRef-DF118F5A18B0C8F42FCC29007D535A5D",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "name": "junit:junit@4.13.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.13.2"
+    },
+    {
+      "SPDXID": "SPDXRef-2FD46D0FFF7BBDC3C585FE2C9FD80E56",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.glassfish.jersey.connectors/jersey-grizzly-connector@4.0.0-m1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "org.glassfish.jersey.connectors:jersey-grizzly-connector@4.0.0-m1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.0.0-m1"
+    },
+    {
+      "SPDXID": "SPDXRef-4049461E0C181AAAC75E49A970C35BEC",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/owasp-risk-rating-calculator@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:owasp-risk-rating-calculator@1.0.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-0FCAB5B087DE3B3FA5F4D040DD4E594D",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/oauth.signpost/signpost-core@2.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "oauth.signpost:signpost-core@2.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-BA8995F7FC02ED914DCEF8B20CFFB211",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.json/json@20240303",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "org.json:json@20240303",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "20240303"
+    },
+    {
+      "SPDXID": "SPDXRef-1642BA8C78D31186C0A504B80BF4D21F",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-retry@2.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "io.github.resilience4j:resilience4j-retry@2.2.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-A3BD14E347052C7D90730D797177789C",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-compress@1.27.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.commons:commons-compress@1.27.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.27.1"
+    },
+    {
+      "SPDXID": "SPDXRef-09048EBFF552126350A60B71CC929B8B",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.postgresql/postgresql@42.7.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "name": "org.postgresql:postgresql@42.7.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "42.7.4"
+    },
+    {
+      "SPDXID": "SPDXRef-06731BD94E96808E17D4126B58A6002D",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.11.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.lucene:lucene-analyzers-common@8.11.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "8.11.4"
+    },
+    {
+      "SPDXID": "SPDXRef-A2AA727FA3BA6028B7725E4F98376490",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-core@5.14.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "org.mockito:mockito-core@5.14.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "5.14.2"
+    },
+    {
+      "SPDXID": "SPDXRef-62281F27C19061D2B4A6F333656D4445",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.pebbletemplates/pebble@3.2.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "io.pebbletemplates:pebble@3.2.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.2.2"
+    },
+    {
+      "SPDXID": "SPDXRef-2D987FEF83CAC485775066B3932C8309",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.swagger.parser.v3/swagger-parser@2.1.22",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "io.swagger.parser.v3:swagger-parser@2.1.22",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.1.22"
+    },
+    {
+      "SPDXID": "SPDXRef-1782D006357CEDE68FE9B8EE9D0034A4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "(GPL-2.0-with-classpath-exception OR EPL-2.0)",
+      "licenseDeclared": "(GPL-2.0-with-classpath-exception OR EPL-2.0)",
+      "name": "jakarta.servlet:jakarta.servlet-api@6.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "6.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-B57822FE0C6B1A9BDA818ECC162AD944",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.mock-server/mockserver-netty@5.15.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "org.mock-server:mockserver-netty@5.15.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "5.15.0"
+    },
+    {
+      "SPDXID": "SPDXRef-412ACBE0E81F8AAB1DAC84EF5CC18FF2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/jekyll-feed@0.17.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jekyll-feed@0.17.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "0.17.0"
+    },
+    {
+      "SPDXID": "SPDXRef-84903B3834FA8E5985B16C5F518EA1A5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-jaxrs2-jakarta@2.2.26",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "io.swagger.core.v3:swagger-jaxrs2-jakarta@2.2.26",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.2.26"
+    },
+    {
+      "SPDXID": "SPDXRef-CAB0D74F9418160C4836312731C93E5E",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.awaitility/awaitility@4.2.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.awaitility:awaitility@4.2.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.2.2"
+    },
+    {
+      "SPDXID": "SPDXRef-B6C660BBEFFF9500F49E089268C3DEC1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.kohsuke/github-api@1.323",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "org.kohsuke:github-api@1.323",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.323"
+    },
+    {
+      "SPDXID": "SPDXRef-5AACFE1C619094549B600FE8C1ECABDD",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/alpine-server@3.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:alpine-server@3.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-3420B2FE5C1D08B47763E0AEA4AA796B",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@8.11.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.lucene:lucene-core@8.11.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "validUntilDate": "2024-10-14T00:00:00Z",
+      "versionInfo": "8.11.4"
+    },
+    {
+      "SPDXID": "SPDXRef-8F69E2E382633F1679676C1DA1380FEF",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-ratelimiter@2.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "io.github.resilience4j:resilience4j-ratelimiter@2.2.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-61E6B2904A33C3E37A2C9E72648FA532",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/cvss-calculator@1.4.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:cvss-calculator@1.4.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.4.2"
+    },
+    {
+      "SPDXID": "SPDXRef-1B6625D6E84545D8D21D53F1934D20B8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-text@1.12.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.commons:commons-text@1.12.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.12.0"
+    },
+    {
+      "SPDXID": "SPDXRef-D53CE7DD8D085BF548E8F38CCA6040B3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.github.jeremylong/open-vulnerability-clients@7.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "io.github.jeremylong:open-vulnerability-clients@7.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "7.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-587CEC0509F09AB44CFADAAD4CAF7383",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/alpine-infra@3.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:alpine-infra@3.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-A98F425C83A087AF891C28C493F213C1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://github.com/DependencyTrack/dependency-track.git",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/DependencyTrack/dependency-track@4.12.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "dependency-track@4.12.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-EE80D6B81E2F535CEEBF18FA73649F75",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.httpcomponents:httpclient@4.5.14",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.5.14"
+    },
+    {
+      "SPDXID": "SPDXRef-C7CA451B5157E7346CB435A133E3134D",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "org.apache.httpcomponents.client5:httpclient5@5.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "5.4"
+    },
+    {
+      "SPDXID": "SPDXRef-213EE6C6F24E2D8033DC0BE2EADBAFF1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/alpine-common@3.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:alpine-common@3.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-F91A098AE9A8682407FD4D4800D2BABE",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-artifact@3.9.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.maven:maven-artifact@3.9.9",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.9.9"
+    },
+    {
+      "SPDXID": "SPDXRef-CE98AF1CC20F2B17052445FC1F55DFF2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-micrometer@2.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "io.github.resilience4j:resilience4j-micrometer@2.2.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-003885D4C5E2D6135B7AB5645D09FEF4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/jekyll@4.3.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jekyll@4.3.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.3.4"
+    },
+    {
+      "SPDXID": "SPDXRef-074B5DBA91ABC84F4BD420CA62AE6B3A",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/pl.pragmatists/junitparams@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pl.pragmatists:junitparams@1.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-9129E21F33A28FF536D3CF730D577785",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/alpine-model@3.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:alpine-model@3.1.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-F03B83034B01FEA2FEA53E261729C102",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/kramdown-parser-gfm@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "kramdown-parser-gfm@1.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-0D9FFB8FB2A478BF4D3F1FE8B6D66D6E",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.brotli/dec@0.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "org.brotli:dec@0.1.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "0.1.2"
+    },
+    {
+      "SPDXID": "SPDXRef-6174FBB26565F290D38C1E8ABE860D6E",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2@4.0.0-m1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2@4.0.0-m1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.0.0-m1"
+    },
+    {
+      "SPDXID": "SPDXRef-917C627D5E2A8BAFCE8F4893D59D24A1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.14",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.httpcomponents:httpmime@4.5.14",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "4.5.14"
+    },
+    {
+      "SPDXID": "SPDXRef-FDD7A21D572C5272D229B843C563C083",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queries@8.11.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.lucene:lucene-queries@8.11.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "8.11.4"
+    },
+    {
+      "SPDXID": "SPDXRef-CAE55365BDD14120283EBF64807CFEA9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/us.springett/cpe-parser@2.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "us.springett:cpe-parser@2.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-6D3B28F11F293DB0F57500C168118405",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/jekyll-redirect-from@0.16.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jekyll-redirect-from@0.16.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "0.16.0"
+    },
+    {
+      "SPDXID": "SPDXRef-144BE2A03AAB719E0FDED09587F8127F",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/jekyll-mermaid@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jekyll-mermaid@1.0.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-F6D054B217C9C2A59268B4DE8F618DEE",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.assertj/assertj-core@3.26.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.assertj:assertj-core@3.26.3",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.26.3"
+    },
+    {
+      "SPDXID": "SPDXRef-F21A41D4D6C28C271336F244A39DEEB0",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/jekyll-seo-tag@2.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jekyll-seo-tag@2.8.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "2.8.0"
+    },
+    {
+      "SPDXID": "SPDXRef-CB0506D5F27C81EDE989FEA830290268",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queryparser@8.11.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.lucene:lucene-queryparser@8.11.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "8.11.4"
+    },
+    {
+      "SPDXID": "SPDXRef-A85458C2C7313DE7136946AD7C638476",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:gem/jekyll-sitemap@1.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jekyll-sitemap@1.4.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.4.0"
+    },
+    {
+      "SPDXID": "SPDXRef-C6687A240C0838AFD0F455A9DE99AD1B",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-sandbox@8.11.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.apache.lucene:lucene-sandbox@8.11.4",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "8.11.4"
+    },
+    {
+      "SPDXID": "SPDXRef-24532F997576C8FA3D8C0E6BED629271",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.testcontainers/testcontainers@1.20.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "org.testcontainers:testcontainers@1.20.2",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "1.20.2"
+    },
+    {
+      "SPDXID": "SPDXRef-0FBB128876A14E2FC9B26BDAE1C9E78B",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/net.javacrumbs.json-unit/json-unit-assertj@3.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "net.javacrumbs.json-unit:json-unit-assertj@3.4.1",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "3.4.1"
+    },
+    {
+      "SPDXID": "SPDXRef-305A214C102F55380EFE866EF4B0738D",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.cyclonedx/cyclonedx-core-java@9.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.cyclonedx:cyclonedx-core-java@9.1.0",
+      "primaryPackagePurpose": "LIBRARY",
+      "versionInfo": "9.1.0"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-7B7108EC6DBDD450D46C5A1A61E7C591",
+      "comment": "This describes relationship was added as a default relationship by the SPDX Tools Tag parser."
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-A3BD14E347052C7D90730D797177789C"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-D4BDBF6C9906DDF275470D80C40E63AC"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-BA8995F7FC02ED914DCEF8B20CFFB211"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-8F69E2E382633F1679676C1DA1380FEF"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-1642BA8C78D31186C0A504B80BF4D21F"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-305A214C102F55380EFE866EF4B0738D"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-24532F997576C8FA3D8C0E6BED629271"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-0FBB128876A14E2FC9B26BDAE1C9E78B"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-C6687A240C0838AFD0F455A9DE99AD1B"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-7C5547C47AF334A6A2C3DAE80AACD5BE"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-3420B2FE5C1D08B47763E0AEA4AA796B"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-38FB1DB77A59495C52B4ACFC30214D67"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-4049461E0C181AAAC75E49A970C35BEC"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-141205A36A58C76862B2B786CF0087B7"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-0FCAB5B087DE3B3FA5F4D040DD4E594D"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-5AACFE1C619094549B600FE8C1ECABDD"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-AB57E2D9D4CB93A18186FDF1106D51AE"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-F088742891745EA1E257B011EB44588C"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-2FD46D0FFF7BBDC3C585FE2C9FD80E56"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-DF118F5A18B0C8F42FCC29007D535A5D"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-969CE4D1E24476A045C9D3D80B3CE79C"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-CAB0D74F9418160C4836312731C93E5E"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-B6C660BBEFFF9500F49E089268C3DEC1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-A85458C2C7313DE7136946AD7C638476"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-F6D054B217C9C2A59268B4DE8F618DEE"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-F21A41D4D6C28C271336F244A39DEEB0"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-6D3B28F11F293DB0F57500C168118405"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-144BE2A03AAB719E0FDED09587F8127F"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-84903B3834FA8E5985B16C5F518EA1A5"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-2A8E5DE4284EFB7E754442AB6A6521E5"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-03DA9281F9CF4E2A5F2A05DD2D1C2D1E"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-ABBB1E90D7CC8BBA7601CBB59DFF2BAF"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-FEA508DA2CB30ECBFA0095098CEAC8E1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-CB0506D5F27C81EDE989FEA830290268"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-412ACBE0E81F8AAB1DAC84EF5CC18FF2"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-B57822FE0C6B1A9BDA818ECC162AD944"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-917C627D5E2A8BAFCE8F4893D59D24A1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-EE80D6B81E2F535CEEBF18FA73649F75"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-FDD7A21D572C5272D229B843C563C083"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-6174FBB26565F290D38C1E8ABE860D6E"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-1782D006357CEDE68FE9B8EE9D0034A4"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-F91A098AE9A8682407FD4D4800D2BABE"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-CE98AF1CC20F2B17052445FC1F55DFF2"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-CAE55365BDD14120283EBF64807CFEA9"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-C7CA451B5157E7346CB435A133E3134D"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-FCD9EFACBD0FA307513E8B0E84A0551E"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-2D987FEF83CAC485775066B3932C8309"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-213EE6C6F24E2D8033DC0BE2EADBAFF1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-A2AA727FA3BA6028B7725E4F98376490"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-62281F27C19061D2B4A6F333656D4445"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-074B5DBA91ABC84F4BD420CA62AE6B3A"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-61E6B2904A33C3E37A2C9E72648FA532"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-9129E21F33A28FF536D3CF730D577785"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-003885D4C5E2D6135B7AB5645D09FEF4"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-587CEC0509F09AB44CFADAAD4CAF7383"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-09048EBFF552126350A60B71CC929B8B"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-06731BD94E96808E17D4126B58A6002D"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-A98F425C83A087AF891C28C493F213C1"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-1B6625D6E84545D8D21D53F1934D20B8"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-F03B83034B01FEA2FEA53E261729C102"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-7B7108EC6DBDD450D46C5A1A61E7C591"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-D53CE7DD8D085BF548E8F38CCA6040B3"
+    },
+    {
+      "spdxElementId": "SPDXRef-root",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-0D9FFB8FB2A478BF4D3F1FE8B6D66D6E"
+    }
+  ]
+}

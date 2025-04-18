@@ -1,0 +1,647 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/_meta-build.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/_meta-build.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/_meta-build.yaml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938": {
+          "package_url": "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16": {
+          "package_url": "pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73": {
+          "package_url": "pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874": {
+          "package_url": "pkg:github/actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/aquasecurity/trivy-action@6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8": {
+          "package_url": "pkg:github/aquasecurity/trivy-action@6e7b7d1fd3e4fef0c5fa8cce1229c54b2c9bd0d8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/docker/build-push-action@32945a339266b759abcbdc89316275140b0fc960": {
+          "package_url": "pkg:github/docker/build-push-action@32945a339266b759abcbdc89316275140b0fc960",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567": {
+          "package_url": "pkg:github/docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/docker/setup-buildx-action@988b5a0280414f521da01fcc63a27aeeb4b104db": {
+          "package_url": "pkg:github/docker/setup-buildx-action@988b5a0280414f521da01fcc63a27aeeb4b104db",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/docker/setup-qemu-action@49b3bc8e6bdd4a60e6116a5414239cba5943d3cf": {
+          "package_url": "pkg:github/docker/setup-qemu-action@49b3bc8e6bdd4a60e6116a5414239cba5943d3cf",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/github/codeql-action@461ef6c76dfe95d5c364de2f431ddbd31a417628#upload-sarif": {
+          "package_url": "pkg:github/github/codeql-action@461ef6c76dfe95d5c364de2f431ddbd31a417628#upload-sarif",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-build.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-build.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-build.yaml"
+      },
+      "resolved": {
+        "": {
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-publish.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-publish.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-publish.yaml"
+      },
+      "resolved": {
+        "": {
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938": {
+          "package_url": "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16": {
+          "package_url": "pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-release.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-release.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-release.yaml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938": {
+          "package_url": "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73": {
+          "package_url": "pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-test-pr-coverage.yml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-test-pr-coverage.yml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-test-pr-coverage.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16": {
+          "package_url": "pkg:github/actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-test.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-test.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/ci-test.yaml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938": {
+          "package_url": "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73": {
+          "package_url": "pkg:github/actions/setup-java@b36c23c0d998641eff861008f374ee103c25ac73",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874": {
+          "package_url": "pkg:github/actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/codacy/codacy-coverage-reporter-action@v1.3.0": {
+          "package_url": "pkg:github/codacy/codacy-coverage-reporter-action@v1.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/dependency-review.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/dependency-review.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/dependency-review.yaml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938": {
+          "package_url": "pkg:github/actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c": {
+          "package_url": "pkg:github/actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/lock.yaml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/lock.yaml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/.github/workflows/lock.yaml"
+      },
+      "resolved": {
+        "pkg:github/dessant/lock-threads@be8aa5be94131386884a6da4189effda9b14aa21": {
+          "package_url": "pkg:github/dessant/lock-threads@be8aa5be94131386884a6da4189effda9b14aa21",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/pom.xml": {
+      "name": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/pom.xml",
+      "file": {
+        "source_location": "/home/alan/Work/Anchore/plugfest/repos/DependencyTrack/dependency-track/pom.xml"
+      },
+      "resolved": {
+        "pkg:maven/com.fasterxml.woodstox/woodstox-core@7.0.0": {
+          "package_url": "pkg:maven/com.fasterxml.woodstox/woodstox-core@7.0.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.github.package-url/packageurl-java@1.5.0": {
+          "package_url": "pkg:maven/com.github.package-url/packageurl-java@1.5.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.github.stefanbirkner/system-rules@1.19.0": {
+          "package_url": "pkg:maven/com.github.stefanbirkner/system-rules@1.19.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.github.tomakehurst/wiremock-jre8@2.35.2": {
+          "package_url": "pkg:maven/com.github.tomakehurst/wiremock-jre8@2.35.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.google.cloud.sql/cloud-sql-connector-jdbc-sqlserver@1.20.1": {
+          "package_url": "pkg:maven/com.google.cloud.sql/cloud-sql-connector-jdbc-sqlserver@1.20.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.google.cloud.sql/mysql-socket-factory-connector-j-8@1.20.1": {
+          "package_url": "pkg:maven/com.google.cloud.sql/mysql-socket-factory-connector-j-8@1.20.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.google.cloud.sql/postgres-socket-factory@1.20.1": {
+          "package_url": "pkg:maven/com.google.cloud.sql/postgres-socket-factory@1.20.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.google.protobuf/protobuf-java-util@4.28.2": {
+          "package_url": "pkg:maven/com.google.protobuf/protobuf-java-util@4.28.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.google.protobuf/protobuf-java@4.28.2": {
+          "package_url": "pkg:maven/com.google.protobuf/protobuf-java@4.28.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.icegreen/greenmail-junit4@2.0.1": {
+          "package_url": "pkg:maven/com.icegreen/greenmail-junit4@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@12.8.1.jre11": {
+          "package_url": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@12.8.1.jre11",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/com.mysql/mysql-connector-j@8.2.0": {
+          "package_url": "pkg:maven/com.mysql/mysql-connector-j@8.2.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.github.jeremylong/open-vulnerability-clients@7.0.0": {
+          "package_url": "pkg:maven/io.github.jeremylong/open-vulnerability-clients@7.0.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.github.resilience4j/resilience4j-micrometer@2.2.0": {
+          "package_url": "pkg:maven/io.github.resilience4j/resilience4j-micrometer@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.github.resilience4j/resilience4j-ratelimiter@2.2.0": {
+          "package_url": "pkg:maven/io.github.resilience4j/resilience4j-ratelimiter@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.github.resilience4j/resilience4j-retry@2.2.0": {
+          "package_url": "pkg:maven/io.github.resilience4j/resilience4j-retry@2.2.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.pebbletemplates/pebble@3.2.2": {
+          "package_url": "pkg:maven/io.pebbletemplates/pebble@3.2.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.swagger.core.v3/swagger-jaxrs2-jakarta@2.2.25": {
+          "package_url": "pkg:maven/io.swagger.core.v3/swagger-jaxrs2-jakarta@2.2.25",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/io.swagger.parser.v3/swagger-parser@2.1.22": {
+          "package_url": "pkg:maven/io.swagger.parser.v3/swagger-parser@2.1.22",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.1.0": {
+          "package_url": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.1.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/junit/junit@4.13.2": {
+          "package_url": "pkg:maven/junit/junit@4.13.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/net.javacrumbs.json-unit/json-unit-assertj@3.4.1": {
+          "package_url": "pkg:maven/net.javacrumbs.json-unit/json-unit-assertj@3.4.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/oauth.signpost/signpost-core@2.1.1": {
+          "package_url": "pkg:maven/oauth.signpost/signpost-core@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.commons/commons-compress@1.27.1": {
+          "package_url": "pkg:maven/org.apache.commons/commons-compress@1.27.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.commons/commons-text@1.12.0": {
+          "package_url": "pkg:maven/org.apache.commons/commons-text@1.12.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4": {
+          "package_url": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14": {
+          "package_url": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.httpcomponents/httpmime@4.5.14": {
+          "package_url": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.14",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.11.4": {
+          "package_url": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.11.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.lucene/lucene-core@8.11.4": {
+          "package_url": "pkg:maven/org.apache.lucene/lucene-core@8.11.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.lucene/lucene-queries@8.11.4": {
+          "package_url": "pkg:maven/org.apache.lucene/lucene-queries@8.11.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.lucene/lucene-queryparser@8.11.4": {
+          "package_url": "pkg:maven/org.apache.lucene/lucene-queryparser@8.11.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.lucene/lucene-sandbox@8.11.4": {
+          "package_url": "pkg:maven/org.apache.lucene/lucene-sandbox@8.11.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.apache.maven/maven-artifact@3.9.9": {
+          "package_url": "pkg:maven/org.apache.maven/maven-artifact@3.9.9",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.assertj/assertj-core@3.26.3": {
+          "package_url": "pkg:maven/org.assertj/assertj-core@3.26.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.awaitility/awaitility@4.2.2": {
+          "package_url": "pkg:maven/org.awaitility/awaitility@4.2.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.brotli/dec@0.1.2": {
+          "package_url": "pkg:maven/org.brotli/dec@0.1.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.cyclonedx/cyclonedx-core-java@9.1.0": {
+          "package_url": "pkg:maven/org.cyclonedx/cyclonedx-core-java@9.1.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.dependencytrack/dependency-track@4.12.1": {
+          "package_url": "pkg:maven/org.dependencytrack/dependency-track@4.12.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:maven/org.glassfish.jersey.connectors/jersey-grizzly-connector@3.1.9": {
+          "package_url": "pkg:maven/org.glassfish.jersey.connectors/jersey-grizzly-connector@3.1.9",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2@3.1.9": {
+          "package_url": "pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2@3.1.9",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.json/json@20240303": {
+          "package_url": "pkg:maven/org.json/json@20240303",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.kohsuke/github-api@1.323": {
+          "package_url": "pkg:maven/org.kohsuke/github-api@1.323",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.mock-server/mockserver-netty@5.15.0": {
+          "package_url": "pkg:maven/org.mock-server/mockserver-netty@5.15.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.mockito/mockito-core@5.14.2": {
+          "package_url": "pkg:maven/org.mockito/mockito-core@5.14.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.postgresql/postgresql@42.7.4": {
+          "package_url": "pkg:maven/org.postgresql/postgresql@42.7.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.16": {
+          "package_url": "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.16",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/org.testcontainers/testcontainers@1.20.2": {
+          "package_url": "pkg:maven/org.testcontainers/testcontainers@1.20.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/pl.pragmatists/JUnitParams@1.1.1": {
+          "package_url": "pkg:maven/pl.pragmatists/JUnitParams@1.1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/alpine-common@3.1.1": {
+          "package_url": "pkg:maven/us.springett/alpine-common@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/alpine-infra@3.1.1": {
+          "package_url": "pkg:maven/us.springett/alpine-infra@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/alpine-model@3.1.1": {
+          "package_url": "pkg:maven/us.springett/alpine-model@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/alpine-server@3.1.1": {
+          "package_url": "pkg:maven/us.springett/alpine-server@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/cpe-parser@2.1.0": {
+          "package_url": "pkg:maven/us.springett/cpe-parser@2.1.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/cvss-calculator@1.4.2": {
+          "package_url": "pkg:maven/us.springett/cvss-calculator@1.4.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        },
+        "pkg:maven/us.springett/owasp-risk-rating-calculator@1.0.1": {
+          "package_url": "pkg:maven/us.springett/owasp-risk-rating-calculator@1.0.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+          ]
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:05:55+01:00"
+}

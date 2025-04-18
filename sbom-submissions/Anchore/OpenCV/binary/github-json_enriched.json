@@ -1,0 +1,341 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.18.0"
+  },
+  "manifests": {
+    "opencv/opencv/.github/workflows/PR-4.x.yaml": {
+      "name": "opencv/opencv/.github/workflows/PR-4.x.yaml",
+      "file": {
+        "source_location": "opencv/opencv/.github/workflows/PR-4.x.yaml"
+      },
+      "resolved": {
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-4.x-Android-SDK.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-4.x-Android-SDK.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-ARM64.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-ARM64.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-Android-Test.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-Android-Test.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-RISCV.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-RISCV.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20-Cuda.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20-Cuda.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U20.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U22.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U22.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U24.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-U24.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10-ARM64.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10-ARM64.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10-Vulkan.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-W10.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-docs.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-docs.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-iOS.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-iOS.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-timvx-backend-tests-4.x.yml": {
+          "package_url": "pkg:github/opencv/ci-gha-workflow@main#.github/workflows/OCV-timvx-backend-tests-4.x.yml",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/.github/workflows/arm64-build-checks.yml": {
+      "name": "opencv/opencv/.github/workflows/arm64-build-checks.yml",
+      "file": {
+        "source_location": "opencv/opencv/.github/workflows/arm64-build-checks.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v2": {
+          "package_url": "pkg:github/actions/checkout@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/.github/workflows/lint_python.yml": {
+      "name": "opencv/opencv/.github/workflows/lint_python.yml",
+      "file": {
+        "source_location": "opencv/opencv/.github/workflows/lint_python.yml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v2": {
+          "package_url": "pkg:github/actions/checkout@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:github/actions/setup-python@v2": {
+          "package_url": "pkg:github/actions/setup-python@v2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/build/3rdparty/ade/ade-0.1.2d/.github/workflows/workflow.yaml": {
+      "name": "opencv/opencv/build/3rdparty/ade/ade-0.1.2d/.github/workflows/workflow.yaml",
+      "file": {
+        "source_location": "opencv/opencv/build/3rdparty/ade/ade-0.1.2d/.github/workflows/workflow.yaml"
+      },
+      "resolved": {
+        "pkg:github/actions/checkout@v3": {
+          "package_url": "pkg:github/actions/checkout@v3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/modules/java/test/pure_test/lib/junit-4.11.jar": {
+      "name": "opencv/opencv/modules/java/test/pure_test/lib/junit-4.11.jar",
+      "file": {
+        "source_location": "opencv/opencv/modules/java/test/pure_test/lib/junit-4.11.jar"
+      },
+      "resolved": {
+        "pkg:maven/junit/junit@4.11": {
+          "package_url": "pkg:maven/junit/junit@4.11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/platforms/android/aar-template/gradle/wrapper/gradle-wrapper.jar": {
+      "name": "opencv/opencv/platforms/android/aar-template/gradle/wrapper/gradle-wrapper.jar",
+      "file": {
+        "source_location": "opencv/opencv/platforms/android/aar-template/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "resolved": {
+        "pkg:maven/gradle-wrapper/gradle-wrapper": {
+          "package_url": "pkg:maven/gradle-wrapper/gradle-wrapper",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/platforms/android/gradle-wrapper/gradle/wrapper/gradle-wrapper.jar": {
+      "name": "opencv/opencv/platforms/android/gradle-wrapper/gradle/wrapper/gradle-wrapper.jar",
+      "file": {
+        "source_location": "opencv/opencv/platforms/android/gradle-wrapper/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "resolved": {
+        "pkg:maven/gradle-wrapper/gradle-wrapper@4.6": {
+          "package_url": "pkg:maven/gradle-wrapper/gradle-wrapper@4.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/platforms/maven/opencv-it/pom.xml": {
+      "name": "opencv/opencv/platforms/maven/opencv-it/pom.xml",
+      "file": {
+        "source_location": "opencv/opencv/platforms/maven/opencv-it/pom.xml"
+      },
+      "resolved": {
+        "pkg:maven/junit/junit@4.8.1": {
+          "package_url": "pkg:maven/junit/junit@4.8.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0": {
+          "package_url": "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.apache.karaf.log/org.apache.karaf.log.core@4.0.6": {
+          "package_url": "pkg:maven/org.apache.karaf.log/org.apache.karaf.log.core@4.0.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.opencv/opencv-it@4.10.0": {
+          "package_url": "pkg:maven/org.opencv/opencv-it@4.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:maven/org.ops4j.pax.exam/pax-exam-container-karaf@4.8.0": {
+          "package_url": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-karaf@4.8.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.ops4j.pax.exam/pax-exam-junit4@4.8.0": {
+          "package_url": "pkg:maven/org.ops4j.pax.exam/pax-exam-junit4@4.8.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.ops4j.pax.logging/pax-logging-api@1.8.0": {
+          "package_url": "pkg:maven/org.ops4j.pax.logging/pax-logging-api@1.8.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.6.0": {
+          "package_url": "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.6.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.osgi/org.osgi.compendium@4.3.0": {
+          "package_url": "pkg:maven/org.osgi/org.osgi.compendium@4.3.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.osgi/org.osgi.core@4.3.1": {
+          "package_url": "pkg:maven/org.osgi/org.osgi.core@4.3.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.slf4j/slf4j-api@1.7.24": {
+          "package_url": "pkg:maven/org.slf4j/slf4j-api@1.7.24",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        },
+        "pkg:maven/org.slf4j/slf4j-simple@1.7.24": {
+          "package_url": "pkg:maven/org.slf4j/slf4j-simple@1.7.24",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        }
+      }
+    },
+    "opencv/opencv/platforms/maven/opencv/pom.xml": {
+      "name": "opencv/opencv/platforms/maven/opencv/pom.xml",
+      "file": {
+        "source_location": "opencv/opencv/platforms/maven/opencv/pom.xml"
+      },
+      "resolved": {
+        "pkg:maven/org.opencv/opencv@4.10.0": {
+          "package_url": "pkg:maven/org.opencv/opencv@4.10.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:maven/org.opencv/opencv-it@4.10.0"
+          ]
+        }
+      }
+    },
+    "opencv/opencv/platforms/maven/pom.xml": {
+      "name": "opencv/opencv/platforms/maven/pom.xml",
+      "file": {
+        "source_location": "opencv/opencv/platforms/maven/pom.xml"
+      },
+      "resolved": {
+        "pkg:maven/org.opencv/opencv-parent@4.10.0": {
+          "package_url": "pkg:maven/org.opencv/opencv-parent@4.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "opencv/opencv/samples/java/sbt/sbt/sbt-launch.jar": {
+      "name": "opencv/opencv/samples/java/sbt/sbt/sbt-launch.jar",
+      "file": {
+        "source_location": "opencv/opencv/samples/java/sbt/sbt/sbt-launch.jar"
+      },
+      "resolved": {
+        "pkg:maven/org.scala-sbt/sbt-launch@0.12.1": {
+          "package_url": "pkg:maven/org.scala-sbt/sbt-launch@0.12.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2024-12-13T14:26:49+01:00"
+}
