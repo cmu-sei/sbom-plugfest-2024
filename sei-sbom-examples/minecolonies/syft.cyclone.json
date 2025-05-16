@@ -1,0 +1,127 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Minecolonies",
+  "documentNamespace": "https://anchore.com/syft/dir/Minecolonies-2057aa87-5ac5-4ea3-99b9-4f0c82f1c857",
+  "creationInfo": {
+    "licenseListVersion": "3.25",
+    "creators": [
+      "Organization: Anchore, Inc",
+      "Tool: syft-1.18.0"
+    ],
+    "created": "2025-01-24T17:55:56Z"
+  },
+  "packages": [
+    {
+      "name": "gradle-wrapper",
+      "SPDXID": "SPDXRef-Package-java-archive-gradle-wrapper-e88364ec3fa76d61",
+      "versionInfo": "UNKNOWN",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+        }
+      ],
+      "sourceInfo": "acquired package info from installed java archive: /gradle/wrapper/gradle-wrapper.jar",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/gradle-wrapper/gradle-wrapper"
+        }
+      ]
+    },
+    {
+      "name": "Minecolonies",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-Minecolonies",
+      "versionInfo": "7c184da",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "files": [
+    {
+      "fileName": "gradle/wrapper/gradle-wrapper.jar",
+      "SPDXID": "SPDXRef-File-gradle-wrapper-gradle-wrapper.jar-803860b7b0aaa5b6",
+      "fileTypes": [
+        "APPLICATION",
+        "ARCHIVE"
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-java-archive-gradle-wrapper-e88364ec3fa76d61",
+      "relatedSpdxElement": "SPDXRef-File-gradle-wrapper-gradle-wrapper.jar-803860b7b0aaa5b6",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-Minecolonies",
+      "relatedSpdxElement": "SPDXRef-Package-java-archive-gradle-wrapper-e88364ec3fa76d61",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-Minecolonies",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

@@ -1,0 +1,3983 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "repos/dependencytrack",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/repos/dependencytrack-1737f816-5f1f-4715-be95-08d96f454c04",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.58.0"
+    ],
+    "created": "2025-01-24T17:55:12Z"
+  },
+  "packages": [
+    {
+      "name": "pom.xml",
+      "SPDXID": "SPDXRef-Application-f8f4c07e63afadde",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.ethlo.time:itu",
+      "SPDXID": "SPDXRef-Package-4a2f0edac4f05bd4",
+      "versionInfo": "1.10.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.ethlo.time/itu@1.10.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.ethlo.time:itu:1.10.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "SPDXID": "SPDXRef-Package-101496588f12bb04",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-annotations:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "SPDXID": "SPDXRef-Package-2d97fe18aebfc56f",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-core:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "SPDXID": "SPDXRef-Package-2066cefab071978",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.core:jackson-databind:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml",
+      "SPDXID": "SPDXRef-Package-764127132c7525dd",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+      "SPDXID": "SPDXRef-Package-967230dedb832895",
+      "versionInfo": "2.17.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.17.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "SPDXID": "SPDXRef-Package-c8468c1594bd70b4",
+      "versionInfo": "2.17.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.17.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base",
+      "SPDXID": "SPDXRef-Package-a2a1d46aa796d440",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-base@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider",
+      "SPDXID": "SPDXRef-Package-53159f18dbbb4ec7",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-json-provider@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations",
+      "SPDXID": "SPDXRef-Package-b40bcb01710302a",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.woodstox:woodstox-core",
+      "SPDXID": "SPDXRef-Package-397a56a9953a097f",
+      "versionInfo": "7.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.woodstox/woodstox-core@7.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.fasterxml.woodstox:woodstox-core:7.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.github.package-url:packageurl-java",
+      "SPDXID": "SPDXRef-Package-9cd741a6758f02e3",
+      "versionInfo": "1.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.package-url/packageurl-java@1.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.github.package-url:packageurl-java:1.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.cloud.sql:cloud-sql-connector-jdbc-sqlserver",
+      "SPDXID": "SPDXRef-Package-306473fe3e1378ed",
+      "versionInfo": "1.20.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/cloud-sql-connector-jdbc-sqlserver@1.20.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.cloud.sql:cloud-sql-connector-jdbc-sqlserver:1.20.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.cloud.sql:jdbc-socket-factory-core",
+      "SPDXID": "SPDXRef-Package-950ae47dd4e1203e",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/jdbc-socket-factory-core"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.cloud.sql:jdbc-socket-factory-core"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.cloud.sql:mysql-socket-factory-connector-j-8",
+      "SPDXID": "SPDXRef-Package-f7204b55465f9ed1",
+      "versionInfo": "1.20.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/mysql-socket-factory-connector-j-8@1.20.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.cloud.sql:mysql-socket-factory-connector-j-8:1.20.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.cloud.sql:postgres-socket-factory",
+      "SPDXID": "SPDXRef-Package-3a1a3a653f6b198e",
+      "versionInfo": "1.20.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.cloud.sql/postgres-socket-factory@1.20.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.cloud.sql:postgres-socket-factory:1.20.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.findbugs:jsr305",
+      "SPDXID": "SPDXRef-Package-cdb2241e904ca343",
+      "versionInfo": "3.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.code.findbugs:jsr305:3.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.code.gson:gson",
+      "SPDXID": "SPDXRef-Package-dfbe7f5308c2bae9",
+      "versionInfo": "2.8.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.8.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.code.gson:gson:2.8.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.errorprone:error_prone_annotations",
+      "SPDXID": "SPDXRef-Package-2413b4e4a364aa6f",
+      "versionInfo": "2.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.errorprone:error_prone_annotations:2.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:failureaccess",
+      "SPDXID": "SPDXRef-Package-f292b23b70576996",
+      "versionInfo": "1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.guava:failureaccess:1.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:guava",
+      "SPDXID": "SPDXRef-Package-e9fe35acc62346dc",
+      "versionInfo": "32.0.1-jre",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@32.0.1-jre"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.guava:guava:32.0.1-jre"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.guava:listenablefuture",
+      "SPDXID": "SPDXRef-Package-629b92121deedefc",
+      "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.j2objc:j2objc-annotations",
+      "SPDXID": "SPDXRef-Package-b1f8c864d8b94788",
+      "versionInfo": "2.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.j2objc:j2objc-annotations:2.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.protobuf:protobuf-java",
+      "SPDXID": "SPDXRef-Package-dd4a67a3a1144bd3",
+      "versionInfo": "4.28.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@4.28.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.protobuf:protobuf-java:4.28.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.google.protobuf:protobuf-java-util",
+      "SPDXID": "SPDXRef-Package-7bea5b7565ea26f8",
+      "versionInfo": "4.28.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util@4.28.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.google.protobuf:protobuf-java-util:4.28.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.microsoft.sqlserver:mssql-jdbc",
+      "SPDXID": "SPDXRef-Package-ff6a3e7767e3722c",
+      "versionInfo": "12.8.1.jre11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@12.8.1.jre11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.microsoft.sqlserver:mssql-jdbc:12.8.1.jre11"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.mysql:mysql-connector-j",
+      "SPDXID": "SPDXRef-Package-78e67fb758519095",
+      "versionInfo": "8.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "GPL-2.0-only WITH Universal-FOSS-Exception--v1.0",
+      "licenseDeclared": "GPL-2.0-only WITH Universal-FOSS-Exception--v1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.mysql/mysql-connector-j@8.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.mysql:mysql-connector-j:8.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.networknt:json-schema-validator",
+      "SPDXID": "SPDXRef-Package-3fb366ab06040ebb",
+      "versionInfo": "1.5.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.networknt/json-schema-validator@1.5.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.networknt:json-schema-validator:1.5.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "com.samskivert:jmustache",
+      "SPDXID": "SPDXRef-Package-7f85c568823b8658",
+      "versionInfo": "1.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.samskivert/jmustache@1.16"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: com.samskivert:jmustache:1.16"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-codec:commons-codec",
+      "SPDXID": "SPDXRef-Package-7cbc4a410de2071c",
+      "versionInfo": "1.17.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.17.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-codec:commons-codec:1.17.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-io:commons-io",
+      "SPDXID": "SPDXRef-Package-9476bc3367f1590",
+      "versionInfo": "2.17.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.17.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-io:commons-io:2.17.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "commons-logging:commons-logging",
+      "SPDXID": "SPDXRef-Package-fa74ea2af6f3da5",
+      "versionInfo": "1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: commons-logging:commons-logging:1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.classgraph:classgraph",
+      "SPDXID": "SPDXRef-Package-a735b3349c4c1a0d",
+      "versionInfo": "4.8.176",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.classgraph/classgraph@4.8.176"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.classgraph:classgraph:4.8.176"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.jeremylong:open-vulnerability-clients",
+      "SPDXID": "SPDXRef-Package-6acd157d89732ff1",
+      "versionInfo": "7.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.jeremylong/open-vulnerability-clients@7.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.jeremylong:open-vulnerability-clients:7.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-bulkhead",
+      "SPDXID": "SPDXRef-Package-2cf035d2e620969a",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-bulkhead@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-bulkhead:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-circuitbreaker",
+      "SPDXID": "SPDXRef-Package-92733e37ddbd0afb",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-circuitbreaker@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-circuitbreaker:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-core",
+      "SPDXID": "SPDXRef-Package-888069de6ecb9ef7",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-core@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-core:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-micrometer",
+      "SPDXID": "SPDXRef-Package-a25228ca55031837",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-micrometer@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-micrometer:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-ratelimiter",
+      "SPDXID": "SPDXRef-Package-c744a6e043359790",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-ratelimiter@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-ratelimiter:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-retry",
+      "SPDXID": "SPDXRef-Package-36dc43c52d4fdf46",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-retry@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-retry:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.github.resilience4j:resilience4j-timelimiter",
+      "SPDXID": "SPDXRef-Package-f20c3c64812a77f3",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-timelimiter@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.github.resilience4j:resilience4j-timelimiter:2.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer:micrometer-commons",
+      "SPDXID": "SPDXRef-Package-f2e60f914d223e9d",
+      "versionInfo": "1.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-commons@1.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.micrometer:micrometer-commons:1.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer:micrometer-core",
+      "SPDXID": "SPDXRef-Package-4f72d77c098ecf9e",
+      "versionInfo": "1.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-core@1.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.micrometer:micrometer-core:1.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer:micrometer-observation",
+      "SPDXID": "SPDXRef-Package-3cdaf657aa4a2f7d",
+      "versionInfo": "1.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-observation@1.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.micrometer:micrometer-observation:1.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.pebbletemplates:pebble",
+      "SPDXID": "SPDXRef-Package-4c6cdf81f8ff7888",
+      "versionInfo": "3.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.pebbletemplates/pebble@3.2.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.pebbletemplates:pebble:3.2.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+      "SPDXID": "SPDXRef-Package-f951a48df2159925",
+      "versionInfo": "2.2.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-annotations-jakarta@2.2.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.swagger.core.v3:swagger-annotations-jakarta:2.2.25"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger.core.v3:swagger-core-jakarta",
+      "SPDXID": "SPDXRef-Package-3b67e72eecb64ad2",
+      "versionInfo": "2.2.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-core-jakarta@2.2.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.swagger.core.v3:swagger-core-jakarta:2.2.25"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger.core.v3:swagger-integration-jakarta",
+      "SPDXID": "SPDXRef-Package-105f410ae8ac6eb2",
+      "versionInfo": "2.2.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-integration-jakarta@2.2.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.swagger.core.v3:swagger-integration-jakarta:2.2.25"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger.core.v3:swagger-jaxrs2-jakarta",
+      "SPDXID": "SPDXRef-Package-c5ce0265b352ac12",
+      "versionInfo": "2.2.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-jaxrs2-jakarta@2.2.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.swagger.core.v3:swagger-jaxrs2-jakarta:2.2.25"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "io.swagger.core.v3:swagger-models-jakarta",
+      "SPDXID": "SPDXRef-Package-a194bf9f5999cab9",
+      "versionInfo": "2.2.25",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-models-jakarta@2.2.25"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io.swagger.core.v3:swagger-models-jakarta:2.2.25"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.activation:jakarta.activation-api",
+      "SPDXID": "SPDXRef-Package-f5a72ae57510a33a",
+      "versionInfo": "2.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jakarta.activation:jakarta.activation-api:2.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.validation:jakarta.validation-api",
+      "SPDXID": "SPDXRef-Package-8c00821e0b35b79f",
+      "versionInfo": "3.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.validation/jakarta.validation-api@3.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jakarta.validation:jakarta.validation-api:3.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+      "SPDXID": "SPDXRef-Package-6a8b6c734f910863",
+      "versionInfo": "4.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "oauth.signpost:signpost-core",
+      "SPDXID": "SPDXRef-Package-92b286416892c6ac",
+      "versionInfo": "2.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/oauth.signpost/signpost-core@2.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: oauth.signpost:signpost-core:2.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-collections4",
+      "SPDXID": "SPDXRef-Package-82562d361e6067d8",
+      "versionInfo": "4.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-collections4@4.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-collections4:4.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-compress",
+      "SPDXID": "SPDXRef-Package-6965eaf971a0d07c",
+      "versionInfo": "1.27.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-compress@1.27.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-compress:1.27.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-lang3",
+      "SPDXID": "SPDXRef-Package-69aa1c645295cc92",
+      "versionInfo": "3.17.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.17.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-lang3:3.17.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons:commons-text",
+      "SPDXID": "SPDXRef-Package-977748505c17aedb",
+      "versionInfo": "1.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-text@1.12.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.commons:commons-text:1.12.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents.client5:httpclient5",
+      "SPDXID": "SPDXRef-Package-17a6b7b25ff96fe2",
+      "versionInfo": "5.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents.client5:httpclient5:5.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents.core5:httpcore5",
+      "SPDXID": "SPDXRef-Package-956c15aba7c05b0b",
+      "versionInfo": "5.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents.core5:httpcore5:5.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents.core5:httpcore5-h2",
+      "SPDXID": "SPDXRef-Package-a9b955bdd1946048",
+      "versionInfo": "5.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents.core5:httpcore5-h2:5.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient",
+      "SPDXID": "SPDXRef-Package-93869ae1c7a90ee2",
+      "versionInfo": "4.5.14",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents:httpclient:4.5.14"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore",
+      "SPDXID": "SPDXRef-Package-4f8ab2b780f4846c",
+      "versionInfo": "4.4.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents:httpcore:4.4.16"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.httpcomponents:httpmime",
+      "SPDXID": "SPDXRef-Package-6c6faf1cfb6a801a",
+      "versionInfo": "4.5.14",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.14"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.httpcomponents:httpmime:4.5.14"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-analyzers-common",
+      "SPDXID": "SPDXRef-Package-be601cb9ba324d6e",
+      "versionInfo": "8.11.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.11.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-analyzers-common:8.11.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-core",
+      "SPDXID": "SPDXRef-Package-5bd19ceea71de558",
+      "versionInfo": "8.11.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@8.11.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-core:8.11.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-queries",
+      "SPDXID": "SPDXRef-Package-7bb5ca16a577e01c",
+      "versionInfo": "8.11.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queries@8.11.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-queries:8.11.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-queryparser",
+      "SPDXID": "SPDXRef-Package-71191571331abce9",
+      "versionInfo": "8.11.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queryparser@8.11.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-queryparser:8.11.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.lucene:lucene-sandbox",
+      "SPDXID": "SPDXRef-Package-5cf5d896682c03fe",
+      "versionInfo": "8.11.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-sandbox@8.11.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.lucene:lucene-sandbox:8.11.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.maven:maven-artifact",
+      "SPDXID": "SPDXRef-Package-af0988a15c979da0",
+      "versionInfo": "3.9.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-artifact@3.9.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.apache.maven:maven-artifact:3.9.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.brotli:dec",
+      "SPDXID": "SPDXRef-Package-2504536df36d96de",
+      "versionInfo": "0.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.brotli/dec@0.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.brotli:dec:0.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.checkerframework:checker-qual",
+      "SPDXID": "SPDXRef-Package-2b83b9b086f9a8f4",
+      "versionInfo": "3.42.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.checkerframework/checker-qual@3.42.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.checkerframework:checker-qual:3.42.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.codehaus.plexus:plexus-utils",
+      "SPDXID": "SPDXRef-Package-fe7c847c73234da",
+      "versionInfo": "3.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.plexus/plexus-utils@3.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.codehaus.plexus:plexus-utils:3.5.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.codehaus.woodstox:stax2-api",
+      "SPDXID": "SPDXRef-Package-1eea2493554d14e3",
+      "versionInfo": "4.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.codehaus.woodstox:stax2-api:4.2.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.cyclonedx:cyclonedx-core-java",
+      "SPDXID": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "versionInfo": "9.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.cyclonedx/cyclonedx-core-java@9.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.cyclonedx:cyclonedx-core-java:9.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.dependencytrack:dependency-track",
+      "SPDXID": "SPDXRef-Package-bbada719428a0cd5",
+      "versionInfo": "4.12.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.dependencytrack/dependency-track@4.12.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.dependencytrack:dependency-track:4.12.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.hdrhistogram:HdrHistogram",
+      "SPDXID": "SPDXRef-Package-f33fefff38ec61b1",
+      "versionInfo": "2.1.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "CC0-1.0 AND BSD-2-Clause",
+      "licenseDeclared": "CC0-1.0 AND BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.hdrhistogram:HdrHistogram:2.1.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.javassist:javassist",
+      "SPDXID": "SPDXRef-Package-d1cec7884a99f39",
+      "versionInfo": "3.30.2-GA",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MPL-1.1 AND LGPL-2.1-only AND Apache-2.0",
+      "licenseDeclared": "MPL-1.1 AND LGPL-2.1-only AND Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.javassist/javassist@3.30.2-GA"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.javassist:javassist:3.30.2-GA"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.json:json",
+      "SPDXID": "SPDXRef-Package-33fdda17f175a992",
+      "versionInfo": "20240303",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Public-Domain",
+      "licenseDeclared": "Public-Domain",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.json/json@20240303"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.json:json:20240303"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.kohsuke:github-api",
+      "SPDXID": "SPDXRef-Package-ce3ed967c117cb2f",
+      "versionInfo": "1.323",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.kohsuke/github-api@1.323"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.kohsuke:github-api:1.323"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.latencyutils:LatencyUtils",
+      "SPDXID": "SPDXRef-Package-bd4d4ec4d9e69840",
+      "versionInfo": "2.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "CC0-1.0",
+      "licenseDeclared": "CC0-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.latencyutils:LatencyUtils:2.0.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.postgresql:postgresql",
+      "SPDXID": "SPDXRef-Package-6711596a8bd1179",
+      "versionInfo": "42.7.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.postgresql/postgresql@42.7.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.postgresql:postgresql:42.7.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:log4j-over-slf4j",
+      "SPDXID": "SPDXRef-Package-274f402a0cfe928c",
+      "versionInfo": "2.0.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.16"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:log4j-over-slf4j:2.0.16"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-91fa4ca31abdea1a",
+      "versionInfo": "2.0.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.slf4j:slf4j-api:2.0.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.unbescape:unbescape",
+      "SPDXID": "SPDXRef-Package-f31b7a7a979f9f2d",
+      "versionInfo": "1.1.6.RELEASE",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.unbescape:unbescape:1.1.6.RELEASE"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml:snakeyaml",
+      "SPDXID": "SPDXRef-Package-65ca452c62d966ad",
+      "versionInfo": "2.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.yaml:snakeyaml:2.3"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:alpine-common",
+      "SPDXID": "SPDXRef-Package-23503743820b2694",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/alpine-common"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:alpine-common"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:alpine-infra",
+      "SPDXID": "SPDXRef-Package-71a7abf9ae5d0c81",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/alpine-infra"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:alpine-infra"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:alpine-model",
+      "SPDXID": "SPDXRef-Package-390bb01fb3fcdf63",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/alpine-model"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:alpine-model"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:alpine-server",
+      "SPDXID": "SPDXRef-Package-be265e77f5f0368",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/alpine-server"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:alpine-server"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:cpe-parser",
+      "SPDXID": "SPDXRef-Package-f951d01b8e0bf4c",
+      "versionInfo": "2.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/cpe-parser@2.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:cpe-parser:2.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:cvss-calculator",
+      "SPDXID": "SPDXRef-Package-361345ad221a5f5",
+      "versionInfo": "1.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/cvss-calculator@1.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:cvss-calculator:1.4.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "us.springett:owasp-risk-rating-calculator",
+      "SPDXID": "SPDXRef-Package-d5b308da842225c4",
+      "versionInfo": "1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: pom.xml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/us.springett/owasp-risk-rating-calculator@1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: us.springett:owasp-risk-rating-calculator:1.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "repos/dependencytrack",
+      "SPDXID": "SPDXRef-Filesystem-1758b056e8b1ac23",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:12Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-23503743820b2694",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-390bb01fb3fcdf63",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-71a7abf9ae5d0c81",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-950ae47dd4e1203e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-bbada719428a0cd5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-f8f4c07e63afadde",
+      "relatedSpdxElement": "SPDXRef-Package-be265e77f5f0368",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-1758b056e8b1ac23",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1758b056e8b1ac23",
+      "relatedSpdxElement": "SPDXRef-Application-f8f4c07e63afadde",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-105f410ae8ac6eb2",
+      "relatedSpdxElement": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-105f410ae8ac6eb2",
+      "relatedSpdxElement": "SPDXRef-Package-a194bf9f5999cab9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-105f410ae8ac6eb2",
+      "relatedSpdxElement": "SPDXRef-Package-a735b3349c4c1a0d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-17a6b7b25ff96fe2",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-17a6b7b25ff96fe2",
+      "relatedSpdxElement": "SPDXRef-Package-956c15aba7c05b0b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-17a6b7b25ff96fe2",
+      "relatedSpdxElement": "SPDXRef-Package-a9b955bdd1946048",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2066cefab071978",
+      "relatedSpdxElement": "SPDXRef-Package-101496588f12bb04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2066cefab071978",
+      "relatedSpdxElement": "SPDXRef-Package-2d97fe18aebfc56f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-274f402a0cfe928c",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2cf035d2e620969a",
+      "relatedSpdxElement": "SPDXRef-Package-888069de6ecb9ef7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2cf035d2e620969a",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-306473fe3e1378ed",
+      "relatedSpdxElement": "SPDXRef-Package-e9fe35acc62346dc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-36dc43c52d4fdf46",
+      "relatedSpdxElement": "SPDXRef-Package-888069de6ecb9ef7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-36dc43c52d4fdf46",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-397a56a9953a097f",
+      "relatedSpdxElement": "SPDXRef-Package-1eea2493554d14e3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3a1a3a653f6b198e",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-101496588f12bb04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-65ca452c62d966ad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-69aa1c645295cc92",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-6a8b6c734f910863",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-8c00821e0b35b79f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-9476bc3367f1590",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-967230dedb832895",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-a194bf9f5999cab9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-c8468c1594bd70b4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b67e72eecb64ad2",
+      "relatedSpdxElement": "SPDXRef-Package-f951a48df2159925",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3cdaf657aa4a2f7d",
+      "relatedSpdxElement": "SPDXRef-Package-f2e60f914d223e9d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3fb366ab06040ebb",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3fb366ab06040ebb",
+      "relatedSpdxElement": "SPDXRef-Package-4a2f0edac4f05bd4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3fb366ab06040ebb",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3fb366ab06040ebb",
+      "relatedSpdxElement": "SPDXRef-Package-967230dedb832895",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4c6cdf81f8ff7888",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4c6cdf81f8ff7888",
+      "relatedSpdxElement": "SPDXRef-Package-f31b7a7a979f9f2d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4f72d77c098ecf9e",
+      "relatedSpdxElement": "SPDXRef-Package-3cdaf657aa4a2f7d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4f72d77c098ecf9e",
+      "relatedSpdxElement": "SPDXRef-Package-bd4d4ec4d9e69840",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4f72d77c098ecf9e",
+      "relatedSpdxElement": "SPDXRef-Package-f2e60f914d223e9d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4f72d77c098ecf9e",
+      "relatedSpdxElement": "SPDXRef-Package-f33fefff38ec61b1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-53159f18dbbb4ec7",
+      "relatedSpdxElement": "SPDXRef-Package-a2a1d46aa796d440",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-53159f18dbbb4ec7",
+      "relatedSpdxElement": "SPDXRef-Package-b40bcb01710302a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5cf5d896682c03fe",
+      "relatedSpdxElement": "SPDXRef-Package-5bd19ceea71de558",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6711596a8bd1179",
+      "relatedSpdxElement": "SPDXRef-Package-2b83b9b086f9a8f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6965eaf971a0d07c",
+      "relatedSpdxElement": "SPDXRef-Package-69aa1c645295cc92",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6965eaf971a0d07c",
+      "relatedSpdxElement": "SPDXRef-Package-7cbc4a410de2071c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6965eaf971a0d07c",
+      "relatedSpdxElement": "SPDXRef-Package-9476bc3367f1590",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6a8b6c734f910863",
+      "relatedSpdxElement": "SPDXRef-Package-f5a72ae57510a33a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6acd157d89732ff1",
+      "relatedSpdxElement": "SPDXRef-Package-17a6b7b25ff96fe2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6acd157d89732ff1",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6acd157d89732ff1",
+      "relatedSpdxElement": "SPDXRef-Package-7f85c568823b8658",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6acd157d89732ff1",
+      "relatedSpdxElement": "SPDXRef-Package-c8468c1594bd70b4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6c6faf1cfb6a801a",
+      "relatedSpdxElement": "SPDXRef-Package-93869ae1c7a90ee2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-71191571331abce9",
+      "relatedSpdxElement": "SPDXRef-Package-5bd19ceea71de558",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-71191571331abce9",
+      "relatedSpdxElement": "SPDXRef-Package-5cf5d896682c03fe",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-71191571331abce9",
+      "relatedSpdxElement": "SPDXRef-Package-7bb5ca16a577e01c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-764127132c7525dd",
+      "relatedSpdxElement": "SPDXRef-Package-101496588f12bb04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-764127132c7525dd",
+      "relatedSpdxElement": "SPDXRef-Package-1eea2493554d14e3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-764127132c7525dd",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-764127132c7525dd",
+      "relatedSpdxElement": "SPDXRef-Package-2d97fe18aebfc56f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-764127132c7525dd",
+      "relatedSpdxElement": "SPDXRef-Package-397a56a9953a097f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bb5ca16a577e01c",
+      "relatedSpdxElement": "SPDXRef-Package-5bd19ceea71de558",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relatedSpdxElement": "SPDXRef-Package-2413b4e4a364aa6f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relatedSpdxElement": "SPDXRef-Package-b1f8c864d8b94788",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relatedSpdxElement": "SPDXRef-Package-cdb2241e904ca343",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relatedSpdxElement": "SPDXRef-Package-dd4a67a3a1144bd3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relatedSpdxElement": "SPDXRef-Package-dfbe7f5308c2bae9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relatedSpdxElement": "SPDXRef-Package-e9fe35acc62346dc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-888069de6ecb9ef7",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-92733e37ddbd0afb",
+      "relatedSpdxElement": "SPDXRef-Package-888069de6ecb9ef7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-92733e37ddbd0afb",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-93869ae1c7a90ee2",
+      "relatedSpdxElement": "SPDXRef-Package-4f8ab2b780f4846c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-93869ae1c7a90ee2",
+      "relatedSpdxElement": "SPDXRef-Package-7cbc4a410de2071c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-93869ae1c7a90ee2",
+      "relatedSpdxElement": "SPDXRef-Package-fa74ea2af6f3da5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-967230dedb832895",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-967230dedb832895",
+      "relatedSpdxElement": "SPDXRef-Package-2d97fe18aebfc56f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-967230dedb832895",
+      "relatedSpdxElement": "SPDXRef-Package-65ca452c62d966ad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-977748505c17aedb",
+      "relatedSpdxElement": "SPDXRef-Package-69aa1c645295cc92",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a194bf9f5999cab9",
+      "relatedSpdxElement": "SPDXRef-Package-101496588f12bb04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-2cf035d2e620969a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-36dc43c52d4fdf46",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-3cdaf657aa4a2f7d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-4f72d77c098ecf9e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-92733e37ddbd0afb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-c744a6e043359790",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a25228ca55031837",
+      "relatedSpdxElement": "SPDXRef-Package-f20c3c64812a77f3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a2a1d46aa796d440",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a2a1d46aa796d440",
+      "relatedSpdxElement": "SPDXRef-Package-2d97fe18aebfc56f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a9b955bdd1946048",
+      "relatedSpdxElement": "SPDXRef-Package-956c15aba7c05b0b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-af0988a15c979da0",
+      "relatedSpdxElement": "SPDXRef-Package-fe7c847c73234da",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b40bcb01710302a",
+      "relatedSpdxElement": "SPDXRef-Package-101496588f12bb04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b40bcb01710302a",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b40bcb01710302a",
+      "relatedSpdxElement": "SPDXRef-Package-2d97fe18aebfc56f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b40bcb01710302a",
+      "relatedSpdxElement": "SPDXRef-Package-6a8b6c734f910863",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b40bcb01710302a",
+      "relatedSpdxElement": "SPDXRef-Package-f5a72ae57510a33a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-3fb366ab06040ebb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-69aa1c645295cc92",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-764127132c7525dd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-7cbc4a410de2071c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-82562d361e6067d8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-9476bc3367f1590",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relatedSpdxElement": "SPDXRef-Package-9cd741a6758f02e3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-17a6b7b25ff96fe2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-2504536df36d96de",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-274f402a0cfe928c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-306473fe3e1378ed",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-33fdda17f175a992",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-361345ad221a5f5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-36dc43c52d4fdf46",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-397a56a9953a097f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-3a1a3a653f6b198e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-4c6cdf81f8ff7888",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-5bd19ceea71de558",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-5cf5d896682c03fe",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-6711596a8bd1179",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-6965eaf971a0d07c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-6acd157d89732ff1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-6c6faf1cfb6a801a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-71191571331abce9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-78e67fb758519095",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-7bb5ca16a577e01c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-7bea5b7565ea26f8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-92b286416892c6ac",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-93869ae1c7a90ee2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-977748505c17aedb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-9cd741a6758f02e3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-a25228ca55031837",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-af0988a15c979da0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-b4ea9aaaccd187a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-be601cb9ba324d6e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-c5ce0265b352ac12",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-c744a6e043359790",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-ce3ed967c117cb2f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-d5b308da842225c4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-dd4a67a3a1144bd3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-f7204b55465f9ed1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-f951d01b8e0bf4c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bbada719428a0cd5",
+      "relatedSpdxElement": "SPDXRef-Package-ff6a3e7767e3722c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-be601cb9ba324d6e",
+      "relatedSpdxElement": "SPDXRef-Package-5bd19ceea71de558",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-105f410ae8ac6eb2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-53159f18dbbb4ec7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-65ca452c62d966ad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-9476bc3367f1590",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-a194bf9f5999cab9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-a735b3349c4c1a0d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-d1cec7884a99f39",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c5ce0265b352ac12",
+      "relatedSpdxElement": "SPDXRef-Package-f951a48df2159925",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c744a6e043359790",
+      "relatedSpdxElement": "SPDXRef-Package-888069de6ecb9ef7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c744a6e043359790",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c8468c1594bd70b4",
+      "relatedSpdxElement": "SPDXRef-Package-101496588f12bb04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c8468c1594bd70b4",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c8468c1594bd70b4",
+      "relatedSpdxElement": "SPDXRef-Package-2d97fe18aebfc56f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ce3ed967c117cb2f",
+      "relatedSpdxElement": "SPDXRef-Package-2066cefab071978",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ce3ed967c117cb2f",
+      "relatedSpdxElement": "SPDXRef-Package-69aa1c645295cc92",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ce3ed967c117cb2f",
+      "relatedSpdxElement": "SPDXRef-Package-9476bc3367f1590",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e9fe35acc62346dc",
+      "relatedSpdxElement": "SPDXRef-Package-2413b4e4a364aa6f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e9fe35acc62346dc",
+      "relatedSpdxElement": "SPDXRef-Package-2b83b9b086f9a8f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e9fe35acc62346dc",
+      "relatedSpdxElement": "SPDXRef-Package-629b92121deedefc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e9fe35acc62346dc",
+      "relatedSpdxElement": "SPDXRef-Package-b1f8c864d8b94788",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e9fe35acc62346dc",
+      "relatedSpdxElement": "SPDXRef-Package-cdb2241e904ca343",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e9fe35acc62346dc",
+      "relatedSpdxElement": "SPDXRef-Package-f292b23b70576996",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f20c3c64812a77f3",
+      "relatedSpdxElement": "SPDXRef-Package-888069de6ecb9ef7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f20c3c64812a77f3",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f951d01b8e0bf4c",
+      "relatedSpdxElement": "SPDXRef-Package-91fa4ca31abdea1a",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

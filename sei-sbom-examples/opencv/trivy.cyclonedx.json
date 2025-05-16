@@ -1,0 +1,260 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "repos/opencv",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/repos/opencv-dfe34118-1dba-4518-a0f7-7fde2620424e",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.58.0"
+    ],
+    "created": "2025-01-24T17:55:37Z"
+  },
+  "packages": [
+    {
+      "name": "platforms/maven/opencv-it/pom.xml",
+      "SPDXID": "SPDXRef-Application-37673ceffa75276a",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "platforms/maven/opencv/pom.xml",
+      "SPDXID": "SPDXRef-Application-34481a52b25bce3c",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "platforms/maven/pom.xml",
+      "SPDXID": "SPDXRef-Application-8429ede039d34d68",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.opencv:opencv",
+      "SPDXID": "SPDXRef-Package-a7b00107c71cc1b1",
+      "versionInfo": "4.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platforms/maven/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opencv/opencv@4.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.opencv:opencv:4.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.opencv:opencv",
+      "SPDXID": "SPDXRef-Package-f55675a33c79b278",
+      "versionInfo": "4.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platforms/maven/opencv/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opencv/opencv@4.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.opencv:opencv:4.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.opencv:opencv-it",
+      "SPDXID": "SPDXRef-Package-ee617da98ec3835",
+      "versionInfo": "4.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platforms/maven/opencv-it/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opencv/opencv-it@4.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.opencv:opencv-it:4.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "org.opencv:opencv-parent",
+      "SPDXID": "SPDXRef-Package-5eb933048e1e00ee",
+      "versionInfo": "4.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: platforms/maven/pom.xml",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opencv/opencv-parent@4.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: org.opencv:opencv-parent:4.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pom"
+        }
+      ]
+    },
+    {
+      "name": "repos/opencv",
+      "SPDXID": "SPDXRef-Filesystem-3646688fa35cff1c",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.58.0",
+          "annotationDate": "2025-01-24T17:55:37Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-34481a52b25bce3c",
+      "relatedSpdxElement": "SPDXRef-Package-f55675a33c79b278",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-37673ceffa75276a",
+      "relatedSpdxElement": "SPDXRef-Package-ee617da98ec3835",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-8429ede039d34d68",
+      "relatedSpdxElement": "SPDXRef-Package-5eb933048e1e00ee",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-3646688fa35cff1c",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-3646688fa35cff1c",
+      "relatedSpdxElement": "SPDXRef-Application-34481a52b25bce3c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-3646688fa35cff1c",
+      "relatedSpdxElement": "SPDXRef-Application-37673ceffa75276a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-3646688fa35cff1c",
+      "relatedSpdxElement": "SPDXRef-Application-8429ede039d34d68",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5eb933048e1e00ee",
+      "relatedSpdxElement": "SPDXRef-Package-a7b00107c71cc1b1",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

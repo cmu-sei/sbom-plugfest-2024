@@ -1,0 +1,24 @@
+# Syft configuration file
+output:
+  - "spdx-json"
+
+quiet: false
+
+check-for-app-update: false
+
+parallelism: 1
+
+exclude:
+  - "./.idea/*"
+  - "./_manifest/*"
+  - "./.github/*"
+  - "./.git/*"
+  - "./pom.xml"
+
+format:
+  pretty:
+  spdx-json:
+    pretty: true
+
+log:
+  structured: true
