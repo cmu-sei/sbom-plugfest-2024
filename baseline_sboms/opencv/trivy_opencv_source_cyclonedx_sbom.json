@@ -1,0 +1,225 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3a10b072-2f8e-45d2-9096-51fb366104f7",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-03-01T20:36:03+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.59.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "25eb3cdc-8300-4b34-b905-434fdec9f924",
+      "type": "application",
+      "name": "repos/opencv",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "0089c265-12a2-451d-861e-c9c5624dc274",
+      "type": "application",
+      "name": "platforms/maven/opencv/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4b4d28d2-313b-4357-b03d-db07ceba0d60",
+      "type": "application",
+      "name": "platforms/maven/opencv-it/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6f0f9143-89e5-4865-9240-6c48611e6d76",
+      "type": "application",
+      "name": "platforms/maven/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "81076fe5-4ab8-4de6-851c-b9d9afb56deb",
+      "type": "library",
+      "group": "org.opencv",
+      "name": "opencv",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.opencv/opencv@4.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.opencv:opencv:4.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a50a3cd5-51f1-4d6f-aec9-4262fb06cde5",
+      "type": "library",
+      "group": "org.opencv",
+      "name": "opencv",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.opencv/opencv@4.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.opencv:opencv:4.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.opencv/opencv-it@4.10.0",
+      "type": "library",
+      "group": "org.opencv",
+      "name": "opencv-it",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.opencv/opencv-it@4.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.opencv:opencv-it:4.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.opencv/opencv-parent@4.10.0",
+      "type": "library",
+      "group": "org.opencv",
+      "name": "opencv-parent",
+      "version": "4.10.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "License Agreement For Open Source Computer Vision Library (Apache 2.0 License)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.opencv/opencv-parent@4.10.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.opencv:opencv-parent:4.10.0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "0089c265-12a2-451d-861e-c9c5624dc274",
+      "dependsOn": [
+        "a50a3cd5-51f1-4d6f-aec9-4262fb06cde5"
+      ]
+    },
+    {
+      "ref": "25eb3cdc-8300-4b34-b905-434fdec9f924",
+      "dependsOn": [
+        "0089c265-12a2-451d-861e-c9c5624dc274",
+        "4b4d28d2-313b-4357-b03d-db07ceba0d60",
+        "6f0f9143-89e5-4865-9240-6c48611e6d76"
+      ]
+    },
+    {
+      "ref": "4b4d28d2-313b-4357-b03d-db07ceba0d60",
+      "dependsOn": [
+        "pkg:maven/org.opencv/opencv-it@4.10.0"
+      ]
+    },
+    {
+      "ref": "6f0f9143-89e5-4865-9240-6c48611e6d76",
+      "dependsOn": [
+        "pkg:maven/org.opencv/opencv-parent@4.10.0"
+      ]
+    },
+    {
+      "ref": "81076fe5-4ab8-4de6-851c-b9d9afb56deb",
+      "dependsOn": []
+    },
+    {
+      "ref": "a50a3cd5-51f1-4d6f-aec9-4262fb06cde5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.opencv/opencv-it@4.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.opencv/opencv-parent@4.10.0",
+      "dependsOn": [
+        "81076fe5-4ab8-4de6-851c-b9d9afb56deb"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

@@ -1,0 +1,38 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "repos/phpmailer",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/repos/phpmailer-8fe62f60-5aca-41c7-85d8-5d7df85792ae",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.59.1"
+    ],
+    "created": "2025-03-01T20:35:39Z"
+  },
+  "packages": [
+    {
+      "name": "repos/phpmailer",
+      "SPDXID": "SPDXRef-Filesystem-a0e21595a9c735a7",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:39Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-a0e21595a9c735a7",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}

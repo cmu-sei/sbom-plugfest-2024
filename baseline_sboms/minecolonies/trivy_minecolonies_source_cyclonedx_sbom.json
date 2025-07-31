@@ -1,0 +1,39 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:8d100c26-7f9d-4e1f-a454-b57dbf6eb2c2",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-03-01T20:36:25+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.59.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "8a07720d-1d97-48f6-a2d3-43ff1127ea83",
+      "type": "application",
+      "name": "repos/minecolonies",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "8a07720d-1d97-48f6-a2d3-43ff1127ea83",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

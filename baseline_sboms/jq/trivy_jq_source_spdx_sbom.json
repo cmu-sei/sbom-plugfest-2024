@@ -1,0 +1,512 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "repos/jq",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/repos/jq-62949a19-6076-449b-b2f1-cdb297f1fe37",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.59.1"
+    ],
+    "created": "2025-03-01T20:36:29Z"
+  },
+  "packages": [
+    {
+      "name": "docs/Pipfile.lock",
+      "SPDXID": "SPDXRef-Application-88bc2912ade7a3cf",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "Type: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "attrs",
+      "SPDXID": "SPDXRef-Package-cf00b89f81e9ac18",
+      "versionInfo": "23.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/attrs@23.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "importlib-metadata",
+      "SPDXID": "SPDXRef-Package-dec53311dbeea51b",
+      "versionInfo": "6.8.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-metadata@6.8.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "importlib-resources",
+      "SPDXID": "SPDXRef-Package-11462c88d69ec0b8",
+      "versionInfo": "6.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/importlib-resources@6.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "jinja2",
+      "SPDXID": "SPDXRef-Package-f9c2e0b1b699e4fd",
+      "versionInfo": "3.1.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jinja2@3.1.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "jsonschema",
+      "SPDXID": "SPDXRef-Package-3e2ed364d534a011",
+      "versionInfo": "4.18.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jsonschema@4.18.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "jsonschema-specifications",
+      "SPDXID": "SPDXRef-Package-d915fd8a147c649f",
+      "versionInfo": "2023.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jsonschema-specifications@2023.7.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "lxml",
+      "SPDXID": "SPDXRef-Package-ab29b5591500b0b9",
+      "versionInfo": "4.9.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/lxml@4.9.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "markdown",
+      "SPDXID": "SPDXRef-Package-a015d797a240e79a",
+      "versionInfo": "3.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markdown@3.4.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "markupsafe",
+      "SPDXID": "SPDXRef-Package-14251e063fbf53b8",
+      "versionInfo": "2.1.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markupsafe@2.1.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "pkgutil-resolve-name",
+      "SPDXID": "SPDXRef-Package-7649c04d2efadf8a",
+      "versionInfo": "1.3.10",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pkgutil-resolve-name@1.3.10"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "pyyaml",
+      "SPDXID": "SPDXRef-Package-715f15ca521ceddf",
+      "versionInfo": "6.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "referencing",
+      "SPDXID": "SPDXRef-Package-fcfdbf4253701614",
+      "versionInfo": "0.30.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/referencing@0.30.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "rpds-py",
+      "SPDXID": "SPDXRef-Package-47e1d95798cb2f9",
+      "versionInfo": "0.9.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/rpds-py@0.9.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "zipp",
+      "SPDXID": "SPDXRef-Package-99929b7e69828472",
+      "versionInfo": "3.19.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: docs/Pipfile.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/zipp@3.19.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: pipenv"
+        }
+      ]
+    },
+    {
+      "name": "repos/jq",
+      "SPDXID": "SPDXRef-Filesystem-f2e6b0db7d51740",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:36:29Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-11462c88d69ec0b8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-14251e063fbf53b8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-3e2ed364d534a011",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-47e1d95798cb2f9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-715f15ca521ceddf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-7649c04d2efadf8a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-99929b7e69828472",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-a015d797a240e79a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-ab29b5591500b0b9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-cf00b89f81e9ac18",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-d915fd8a147c649f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-dec53311dbeea51b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-f9c2e0b1b699e4fd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relatedSpdxElement": "SPDXRef-Package-fcfdbf4253701614",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-f2e6b0db7d51740",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-f2e6b0db7d51740",
+      "relatedSpdxElement": "SPDXRef-Application-88bc2912ade7a3cf",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

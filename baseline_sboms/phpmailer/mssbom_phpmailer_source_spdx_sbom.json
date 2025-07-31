@@ -1,0 +1,4335 @@
+{
+  "files": [
+    {
+      "fileName": "./.editorconfig",
+      "SPDXID": "SPDXRef-File--.editorconfig-01E2D3650088D3172965380DBE6239E23C800719",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "643c5ea2aa889cb27757e714fe6cbf5f2a74f6b4eced691885997e7f68cfb1f4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "01e2d3650088d3172965380dbe6239e23c800719"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./UPGRADING.md",
+      "SPDXID": "SPDXRef-File--UPGRADING.md-F4F0DAEA74D13547921307D7DDA7CA8A604AF2D8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3a6a5537bd602d79ead4663923412d03fba411bc848cf311cac28f2e476f326"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f4f0daea74d13547921307d7dda7ca8a604af2d8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.gitignore",
+      "SPDXID": "SPDXRef-File--.gitignore-15B8F9F84BBA0E1485B7BE15E42A797B68023D44",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f644cf754f40e8052170ab507fddeabba898726469c5b1fd50feec82f4ed249f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15b8f9f84bba0e1485b7be15e42a797b68023d44"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/testbootstrap-dist.php",
+      "SPDXID": "SPDXRef-File--test-testbootstrap-dist.php-544E0B3469F3FDC4C5DC25506EF470B67B7D5770",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "edd010491878d49fc164e1b439381a156fad4fd0acd51aeaf354214234c4c059"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "544e0b3469f3fdc4c5dc25506ef470b67b7d5770"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/AddStringEmbeddedImageTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-AddStringEmbeddedImageTest.php-323740A9B272F681993F10F6CC236F709B25CFFA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cb8a9d36c8d21e46e8141c6dded100ce4645e08eb01fa1f7b29542c5253a7c50"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "323740a9b272f681993f10f6cc236f709b25cffa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./get_oauth_token.php",
+      "SPDXID": "SPDXRef-File--get-oauth-token.php-952FDDF4AB5656B27F61E7FAF92E18A7F66DDE2A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9564843fbfc9f153e464849e736d08cb41f124f1acb2fcd6c129d50be14d52b8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "952fddf4ab5656b27f61e7faf92e18a7f66dde2a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/validators.php",
+      "SPDXID": "SPDXRef-File--test-validators.php-61C34B844E6137D8A65B2905D39EA99E1EC5A5AD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "be5540ac203b90dc28f01f5b99b0484ff0a18b45e6bd7a9bee31f5c59ba043ff"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "61c34b844e6137d8a65b2905d39ea99e1ec5a5ad"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./README.md",
+      "SPDXID": "SPDXRef-File--README.md-779B587C4C17B968FAB2006C40F1A3E024CC4219",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4361a093620b440a5ecaecb0dd29fb1990328acad3be91f217aa8a2b13a771e7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "779b587c4c17b968fab2006c40f1a3e024cc4219"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./composer.json",
+      "SPDXID": "SPDXRef-File--composer.json-2745A8D725FB4615683E1112420C5A7E08DF4B9C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "988c74b659c07ecc32f6473ee151eb808a7f74cb1e3c3e2f14562caaf9c5785a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2745a8d725fb4615683e1112420c5a7e08df4b9c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PreSendTestCase.php",
+      "SPDXID": "SPDXRef-File--test-PreSendTestCase.php-54B04381C344FE6FCB676B22059BECC1998856FB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4d84bd565a348c3d1c8bea8f47ddb0a27cc88d2edf2f982e52516ec7b7bc1560"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "54b04381c344fe6fcb676b22059becc1998856fb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./phpdoc.dist.xml",
+      "SPDXID": "SPDXRef-File--phpdoc.dist.xml-3DDEE36F229834C32FE13D26BB19B05F4A8532D4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "762dca8aeb35e8cfea5fa614d1ca607bf93042e3622a3842ac1c814b472013e8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3ddee36f229834c32fe13d26bb19b05f4a8532d4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./phpunit.xml.dist",
+      "SPDXID": "SPDXRef-File--phpunit.xml.dist-3A9C4754678CCB61480AE1AF0DE91893E01AA9AC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf1b0e876e3e436715483585f1067ba01c71325435094b87bfec18afd593b761"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3a9c4754678ccb61480ae1af0de91893e01aa9ac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/fakesendmail.sh",
+      "SPDXID": "SPDXRef-File--test-fakesendmail.sh-7BE4C0FE8374D60DF92F78D72BE16A68CABEAAAE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "14a4c517dce87ef75a03c8d2923c84eb4a8bcfd7783a764a5f676eb64264ef3f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7be4c0fe8374d60df92f78d72be16a68cabeaaae"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/ICalTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-ICalTest.php-CF9811521F2210410BD8F011AA7117C9E0AA90E0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d2ad52a184e809365fc038a4045ef6679b386d937945cf04680aced648be138"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cf9811521f2210410bd8f011aa7117c9e0aa90e0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/HasLineLongerThanMaxTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-HasLineLongerThanMaxTest.php-ACCDD1E9FBEFB5A5EF2FF1AA6D1469EF0AE8076D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1e5e242e0b017501ba55e2fdc7bcfeb5f185933cc06b95b25b37af8bccffe206"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "accdd1e9fbefb5a5ef2ff1aa6d1469ef0ae8076d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/WrapTextTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-WrapTextTest.php-D22439AD5E64FB2B1F6BB9595A28737DAC44C02A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "735a478924475bf732c2c635f5d61b424d52e818fafa3753a7c803d3aeed33e0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d22439ad5e64fb2b1f6bb9595a28737dac44c02a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/LocalizationTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-LocalizationTest.php-11C727CC5597F86A94E3E907E9AB5927D5AC6FE4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e2e57406162aa233251cb9c0a43962a716053adb3dfc37a47ad96d29bd99cc82"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "11c727cc5597f86a94e3e907e9ab5927d5ac6fe4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/EncodeQTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-EncodeQTest.php-B651D0333532516053F9E7229D749012D805D1B2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bc60ad89d395c7b5296922c0d172e5242f5f5c033243287bd4ef03e5fdb29c23"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b651d0333532516053f9e7229d749012d805d1b2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./LICENSE",
+      "SPDXID": "SPDXRef-File--LICENSE-7C7D178D9CE31B21A4869940A881B043B086F007",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a1a33180d02960ab1c5de36cf20b1a2f0fe9888d83826ad263da5db52f1b183b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c7d178d9ce31b21a4869940a881b043b086f007"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.gitattributes",
+      "SPDXID": "SPDXRef-File--.gitattributes-5E5F7A26267462483FC612DDCF5B16F95C3C4453",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a46a936b611b5a692b71e6eaba781b268077011715f7189d9a1712a0c72ccee1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5e5f7a26267462483fc612ddcf5b16f95c3c4453"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/runfakepopserver.sh",
+      "SPDXID": "SPDXRef-File--test-runfakepopserver.sh-92E86F3BF58242CBD6EE2B06C3B6143B54E81FE6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ed1c2361e5154d5caf362f284d66b3cdeb5c14504e1cf3f6beae165ec707bd0b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "92e86f3bf58242cbd6ee2b06c3b6143b54e81fe6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/TestCase.php",
+      "SPDXID": "SPDXRef-File--test-TestCase.php-DB69D4FB2A5FB1B03251301A65464294F3B529D3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "247765ce75eb425b844c14850af19414df6b2cd93f7f923f2413d0647be8d16c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "db69d4fb2a5fb1b03251301a65464294f3b529d3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/CustomHeaderTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-CustomHeaderTest.php-70D84AF450497D12387C927D47655B16E76E43B3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5ce89bf8beab101b1e5ca6310950bd114c1e3055dadf93acec9a4b9ef115585e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "70d84af450497d12387c927d47655b16e76e43b3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/PunyencodeAddressTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-PunyencodeAddressTest.php-B7C50E08AEE76AB46A399C8CD6DF12888B32D6D8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "36cdd23ae47a4167b1da4b539e28df86b4c399b040252d01f69e22b308b8e288"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b7c50e08aee76ab46a399c8cd6df12888b32d6d8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/ReplyToGetSetClearTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-ReplyToGetSetClearTest.php-E1A4975CACA02F540E19105F65A0CE2EB26754C7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfc9f827d98f9e7d6b7272497b2167832f0bee5be7abc2a8db4bdf42ee03af7c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e1a4975caca02f540e19105f65a0ce2eb26754c7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./changelog.md",
+      "SPDXID": "SPDXRef-File--changelog.md-54C30BF13DF6A423F03D10C22A1EF8E624040844",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "074bd399fa9c1a16bdff94d2467a570870cc6a8bd8a5bcec681e2f61b8677c62"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "54c30bf13df6a423f03d10c22a1ef8e624040844"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./phpcs.xml.dist",
+      "SPDXID": "SPDXRef-File--phpcs.xml.dist-C8F28B290456BD09D21DD315CFE558902BE54A16",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "32727af0b12b87106eb4128c2afc9261df1ed4e17395d6ea98efce66204d0121"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c8f28b290456bd09d21dd315cfe558902be54a16"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/SendTestCase.php",
+      "SPDXID": "SPDXRef-File--test-SendTestCase.php-27C364D49D663EF82842F57BF5AB5CFC868C344B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "227cb8b5e696b9e20d690f31c5bb7d5dec4869396cac7cbe4b86162215fdb178"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "27c364d49d663ef82842f57bf5ab5cfc868c344b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/XMailerTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-XMailerTest.php-AA398A47DD6F1FC45A5A2552885F1DA146211C48",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f50a11e8b8802474bacad8ce811d6d400446a09fd9484f7705380f196385699"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aa398a47dd6f1fc45a5a2552885f1da146211c48"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/DSNConfiguratorTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-DSNConfiguratorTest.php-F119F8EC6E88FE05248422EC2286EC3BE081350E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a3ed1db6108bc57b7ba69120f14d4d63c7a9b9ecd31807ba73142837ec4ef836"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f119f8ec6e88fe05248422ec2286ec3be081350e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/MimeTypesTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-MimeTypesTest.php-A1C482AFB4C13CB3C69453E4EED0147759B9B4FC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f4f9a256c4d438f53ba9a7892fd447bfa44bd5b8c0c48afd86e7b43101bf683"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a1c482afb4c13cb3c69453e4eed0147759b9b4fc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/MbPathinfoTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-MbPathinfoTest.php-45995ADD1034E1B6C42834DC9ACCF0E41D7E9673",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5956c95b652e96f37b0ee1098adb67ad3d2d7eab376f51a5e9f42843f91d51a6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "45995add1034e1b6c42834dc9accf0e41d7e9673"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/IsValidHostTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-IsValidHostTest.php-E41FA9953FC24EB1E356B8DE32DC0ECBBEC234EA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf93479f2d2740dfec7fd164644270865d60aa3286a95efa6b216bd0f13911d5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e41fa9953fc24eb1e356b8de32dc0ecbbec234ea"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Security/DenialOfServiceVectorsTest.php",
+      "SPDXID": "SPDXRef-File--test-Security-DenialOfServiceVectorsTest.php-6B1EC44FD6B9C652836D25D89B5EEFBE0FD8E8B8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4bc3cf02c9ac4fa8e55afaf3bc1c9d716b4487881402ff1ac5b7d0dbf14bc25d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6b1ec44fd6b9c652836d25d89b5eefbe0fd8e8b8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/QuotedStringTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-QuotedStringTest.php-84B179B4B9BF8F2FFB913E0864B69BA18F2C1678",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d170fffc5de0e56ee696f4a07204f30fb2609c9c1735e77155f106c43977871d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "84b179b4b9bf8f2ffb913e0864b69ba18f2c1678"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xb_scri.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xb-scri.php-9E9C248F658F35C72AECC43E5B6C0246F7F29D74",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ebf21cd3665c9ebc45ebb3dd63f2c64dd2b9e9bf229e5a16dfbc54a4c3d095a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9e9c248f658f35c72aecc43e5b6c0246f7f29d74"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/OAuth/OAuthTest.php",
+      "SPDXID": "SPDXRef-File--test-OAuth-OAuthTest.php-981C2099AEE0D05468ACBD8D4B536909A26B3B23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dc0b9d2b5bf90bb112a0a1c80c21df3aaa4c31785bf0abe3effa6debaa893e29"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "981c2099aee0d05468acbd8d4b536909a26b3b23"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ba.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ba.php-4C59C6A7EEABCF1F39DD442DE95109B66746069C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df573ba9a9431bff2c602b7b297040e0f9cf9b319562f17c686f01f1ed4ebfad"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4c59c6a7eeabcf1f39dd442de95109b66746069c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xx.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xx.php-5F66791ECC33CA51F44D4E0DE3A159BC8317D5B9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1ed028f4896faa47cac621d703d468278c9f26f20b60c6a7bec9ec74e74f5d9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f66791ecc33ca51f44d4e0de3a159bc8317d5b9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-hr.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-hr.php-8718B677F66D74A8BAF0D8136E184734E355A6F7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b337f280f2e5f087daaa44bd1f359bbc41e01062cbd07a5c67345a45a01ccbaf"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8718b677f66d74a8baf0d8136e184734e355a6f7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xe.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xe.php-9471803625DFC8F53EDA1B0AA124C7DB31408C1D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "434a74df8206dd0437ca4b6f8c0d07fb7a7813a8d6cf010e575cefba81aa6f2b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9471803625dfc8f53eda1b0aa124c7db31408c1d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-si.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-si.php-B21CFAB8B4ADD647B7C8E528C0EE605590F01CDC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "502364f4ccb0c546093c13b4fc2a9ef15e0d47b4e4b789729d72b6cb33c6871e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b21cfab8b4add647b7c8e528c0ee605590f01cdc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-az.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-az.php-9260F248D4F9B0701E1876351B2F8D5CD647BFF3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8b116561af83e2bd1ef3319ff8103f169883e89efab592115d98c9ae7c09d6df"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9260f248d4f9b0701e1876351b2f8d5cd647bff3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-hy.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-hy.php-7E3E11F736E425ED01886C9B7B4A476C2702B881",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "52fc3f40d24d55ef95702a59ec006c4c5996a22e54a6b00e54a25707db341629"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7e3e11f736e425ed01886c9b7b4a476c2702b881"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-sr_latn.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-sr-latn.php-26F7FFD04DB12B2F01AC62702185D5CB5312ECC8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0f67cf31fa3b5f2db2a2c74911096a73892377096c966923c0dc1fbbbc612a32"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "26f7ffd04db12b2f01ac62702185d5cb5312ecc8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-eo.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-eo.php-D22CB7FF325CF62AB133F22B996E68BFF02D1E84",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d7dc252b77f7a098e4b3c3e7beca875be08b6f01bf68129bc658fce26b06bb31"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d22cb7ff325cf62ab133f22b996e68bff02d1e84"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ro.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ro.php-9DDC3F61F32FD26A168D9D5FE9D023ACCDEDC32F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f0cf6c8032723215293095e7a9b2f2a9c1159bb51221511efb6163f4096b9232"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9ddc3f61f32fd26a168d9d5fe9d023accdedc32f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ur.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ur.php-72ED85BE6DDCA60EE1D55E215B1F7CA07F9D6621",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4404c38f4f64a1098678e0d30a62c63cd1dd56949fcc7f6ea89557fbf0693e06"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72ed85be6ddca60ee1d55e215b1f7ca07f9d6621"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-sr.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-sr.php-C88A2ED22921A69C84D61EDBBB82EFD98F2E6ECE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9982802bafa971f1d2e376fca86f8da86c7e43158ef6d3cb6f7c3ff51cc1c7e9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c88a2ed22921a69c84d61edbbb82efd98f2e6ece"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-lv.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-lv.php-117707FB05F4021C4EBAA8CAECABBE9E8DECFF64",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a986f934cb4a2b9cf5bad1c150f0af9d8a0c7745d36b9904882d68b1bb07fb5d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "117707fb05f4021c4ebaa8caecabbe9e8decff64"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-hi.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-hi.php-CA6BE2E7C5063265001A1CB05A34E989950A8A4B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a260e1b5f0d7efbfccc436ea040aa172ecd5ac8ea394482c0dd9a2e7c9d3206"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca6be2e7c5063265001a1cb05a34e989950a8a4b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/gmail_xoauth.phps",
+      "SPDXID": "SPDXRef-File--examples-gmail-xoauth.phps-DB9F8F9F5FFA88F46F26586AA639ABC2E5C1472F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8b087c3691ae0dd65797f2dd5b6bd621ce166e7d04508be22bfddba1b7f99cc5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "db9f8f9f5ffa88f46f26586aa639abc2e5c1472f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-zh.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-zh.php-C11E8589E7DAC7AAB45215405F7B6D33DC03DF89",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ad235ae24994a85b63ff1bd2dadab9de1f2806a9764c162cf047459fa037814c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c11e8589e7dac7aab45215405f7b6d33dc03df89"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/smtp.phps",
+      "SPDXID": "SPDXRef-File--examples-smtp.phps-B8BCD040A12B554006121ADD53E3FA5AA035FA62",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d660ec963f94eb265af7de15fb840523d8893d0872e7f8ee83beac704cb073c8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b8bcd040a12b554006121add53e3fa5aa035fa62"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-af.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-af.php-EE77563640351CB29A7AA7F143AF34494CE141DD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d4c5272712f1b1cd6b3d08f83a89fbdae257de308a58e6eee1f4e7f519c86062"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee77563640351cb29a7aa7f143af34494ce141dd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/simple_contact_form.phps",
+      "SPDXID": "SPDXRef-File--examples-simple-contact-form.phps-28925E15D213DEDD22422D66E96042949A34F6A5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c7fc4961e5ead26a5806fe4c396c71338d5e16c3fd01f938613cff8403cf815b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28925e15d213dedd22422d66e96042949a34f6a5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/sendoauth2.phps",
+      "SPDXID": "SPDXRef-File--examples-sendoauth2.phps-DACC63EE5C473FDB49042A10B5F293C9BD43FC74",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "434ecb76d098977b4b5c222a36e83152728d811e6bdcde6a3839ec698f4a2710"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dacc63ee5c473fdb49042a10b5f293c9bd43fc74"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/images/PHPMailer card logo.png",
+      "SPDXID": "SPDXRef-File--examples-images-PHPMailer-card-logo.png-0772D2BD4B61BC05ADDDE622A0A4A38F8FEDE6FA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4889d55fee6e90edf07a77e852a17d9b4cfb44becaf57c15d2cc5ac87dd3fbf3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0772d2bd4b61bc05addde622a0a4a38f8fede6fa"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/gmail.phps",
+      "SPDXID": "SPDXRef-File--examples-gmail.phps-02E52C1018E35981803ABFFFB3058B76B1E0BB8B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c6390d803723a924d796a0a934072f08f9854a9150113a8c58f4a395ed04a14c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "02e52c1018e35981803abfffb3058b76b1e0bb8b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/actions/build-docs/Dockerfile",
+      "SPDXID": "SPDXRef-File--.github-actions-build-docs-Dockerfile-252E1EC6B1255B0B34FF8DD386E35DD7E19C2E68",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd3d564a920922c4b1e55ac43060c5268ad702ca68c36910ff47488a8ea93f02"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "252e1ec6b1255b0b34ff8dd386e35dd7e19c2e68"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/contactform-ajax.phps",
+      "SPDXID": "SPDXRef-File--examples-contactform-ajax.phps-AB544C0C3CFE752416684D96278882BD7BBE3BCC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ac208174ceb7476858180743d636fe1f391045e7b81fb90427a9379580c7fa3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ab544c0c3cfe752416684d96278882bd7bbe3bcc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/packed-refs",
+      "SPDXID": "SPDXRef-File--.git-packed-refs-6F5503383B48475C0BA8BC0C54C710B7881A1014",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f872b599b347aa47cfc4434cc1245c0f3882e1f77039bffc233cf7a8f3bdf0f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f5503383b48475c0ba8bc0c54c710b7881a1014"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/images/phpmailer.png",
+      "SPDXID": "SPDXRef-File--examples-images-phpmailer.png-C6FC5DA6ECF04C21FB6FFE9341648E6F70A49FCB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6dce87c35df4ae42d5857671663676391f33e1b61dcfecc7851fd91b23ff629a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c6fc5da6ecf04c21fb6ffe9341648e6f70a49fcb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.codecov.yml",
+      "SPDXID": "SPDXRef-File--.codecov.yml-350AE7BACE62897EB310052A332C57833AB8F53A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8cdea1df9dca82369e8fcff415482028df632e301c961b65f0ec8888f7e979d4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "350ae7bace62897eb310052a332c57833ab8f53a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-rebase.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-rebase.sample-288EFDC0027DB4CFD8B7C47C4AEDDBA09B6DED12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "288efdc0027db4cfd8b7c47c4aeddba09b6ded12"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/NormalizeBreaksTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-NormalizeBreaksTest.php-ACE1E215788CBB9241992B7E4414D3A8C2A69921",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0b24aeaae8a0259d1be950778b8e9e389dac2dc82ea22ac4a46e746906a09b2a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ace1e215788cbb9241992b7e4414d3a8c2a69921"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/SetFromTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-SetFromTest.php-7006FECAF1B61D2CEAF1BE61C92D2277B8270A2D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "78404c37f6253aaf51a2694415f381f0dfe7df2ce922fff1635e7c9caa2ea86c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7006fecaf1b61d2ceaf1be61c92d2277b8270a2d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/AddEmbeddedImageTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-AddEmbeddedImageTest.php-F3C0B9C88D3C2ED01F6600BD7F208DF650575592",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6bfd07f83fe95529900915983e7ede694d7879cb64703c211399da66e1971048"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f3c0b9c88d3c2ed01f6600bd7f208df650575592"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./VERSION",
+      "SPDXID": "SPDXRef-File--VERSION-CAE88F63A115031287C44AC8F495FEB9CF244C58",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "12d9fe8a161e2212f3f15048b7832c32745d06812fadcfc00a1f976b8b80f23a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cae88f63a115031287c44ac8f495feb9cf244c58"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/EncodeStringTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-EncodeStringTest.php-AE7E6092F37E91C660B59B1DC8CA112518E1C88D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24cbc3227b655f5568fa32634b6fc732822c78cb05d0de7343b0bc92f63ee234"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ae7e6092f37e91c660b59b1dc8ca112518e1c88d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.phan/config.php",
+      "SPDXID": "SPDXRef-File--.phan-config.php-16C37EB68E655A7C12C960948CC7A3156B422248",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d2eaa3fdfa7ca0936fe89e7ecce1d839a60c7d0389d456f0313eeca7f63a9a1d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "16c37eb68e655a7c12c960948cc7a3156b422248"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/POP3/PopBeforeSmtpTest.php",
+      "SPDXID": "SPDXRef-File--test-POP3-PopBeforeSmtpTest.php-06D05C369D0FE5A3D11B5F6AA442D735A102FCAF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5cf5f5bef5b8fc8bda4a52543914db6281df566a3756840c9ed8fe6fc0397c4f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06d05c369d0fe5a3d11b5f6aa442d735a102fcaf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-fr.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-fr.php-BF4A73C2D98F53275ED648B75DD3AA91B4B3350E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b40c4613fa40bb355f18b6efcfe05e43017ca3c325c95f298cf18fc781a7fb42"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bf4a73c2d98f53275ed648b75dd3aa91b4b3350e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/fakepopserver.sh",
+      "SPDXID": "SPDXRef-File--test-fakepopserver.sh-0A54EA9DCCE0973C0391358F6147E5678E466096",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "56fb71c52cb5a13be2866586458e205f36d7c86d78733fe4792465a1a24e5b78"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0a54ea9dcce0973c0391358f6147e5678e466096"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ca.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ca.php-D83ED2C1F34828FB108D4194692DFFCA72640015",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2b62db0921d2d321c80869bc9544b744747fd7cf398cc17358c0ae0b2533548c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d83ed2c1f34828fb108d4194692dffca72640015"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/AddStringAttachmentTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-AddStringAttachmentTest.php-6D9FDF97EE8C9843A4A7BE79E82F2124E21F07CE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e10ed73667c7f28ac9cafadacb7037e2594308274d2b10a96153e0858ccb5b1c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6d9fdf97ee8c9843a4a7be79e82f2124e21f07ce"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-uk.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-uk.php-A5567E75E00EA2B65FDCC66C7415FBC3BC7906B6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "767609225673b2983c2cf7b208ae954d49d7728287da2c2cb859ca8c9273efd3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a5567e75e00ea2b65fdcc66c7415fbc3bc7906b6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-applypatch.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-applypatch.sample-F208287C1A92525DE9F5462E905A9D31DE1E2D75",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f208287c1a92525de9f5462e905a9d31de1e2d75"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-zh_cn.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-zh-cn.php-DAF4D7ACE95BC145AE5EB2B54D4522594EE2B36B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cd53b733c64eeac233b140e33a6d58d337cd1ac28d6a5cd3231d87169f548c07"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "daf4d7ace95bc145ae5eb2b54d4522594ee2b36b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/DKIMWithoutExceptionsTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-DKIMWithoutExceptionsTest.php-EFE98DFE1F592325AB99B4A62CE8B1F887B6D242",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "56d81b6dae664ee96a0565b34097bd0524dc7bd9d06d741b66f9312234a8988d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "efe98dfe1f592325ab99b4a62ce8b1f887b6d242"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-es.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-es.php-9E8AE9B36B77773F4A3975179FF4387C5217D0D4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6f84a5e4b7fe9fb5867941bb23e21189caaf52b97948a87589132f6bd9ae34f7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9e8ae9b36b77773f4a3975179ff4387c5217d0d4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/DKIMTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-DKIMTest.php-10C2AC6FF28B0603A58D4D1CE6C05B31A3242642",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "89ffbe4727582fdc34da297fc4904bf2463cfd0dedba534d3051d48f9b9e4be3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "10c2ac6ff28b0603a58d4d1ce6c05b31a3242642"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/PHPMailer.php",
+      "SPDXID": "SPDXRef-File--src-PHPMailer.php-5172B162804CEAA50FF3237C36C4C6EC480009F7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b3dfdf07918b8ef5f45fb4f6323fbadebbe610fc1d03a32fc5b7817fa677b3ff"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5172b162804ceaa50ff3237c36c4c6ec480009f7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/SetErrorTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-SetErrorTest.php-188AA302A4B0E8C3B6910463F625E94D1E5F82BF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9e05fcb5eb81d07bbc685d49775678410ade54c234e2eee559965c7ada990f62"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "188aa302a4b0e8c3b6910463f625e94d1e5f82bf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-fr.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-fr.php-1973E4EC45BBE48C7D5F056C393E1A93F4E3C22F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1d816ccae7fa8eea24907686ffeeeeb5861ffdf794690e6a91c142d49d05efd7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1973e4ec45bbe48c7d5f056c393e1a93f4e3c22f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/FilenameToTypeTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-FilenameToTypeTest.php-D343B830944B8D73D84F81F1F4372F5E3A4220F3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1bffffa87911c71771bb99fd7b8ca6182164251ac135d45abcab704ee7c14efa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d343b830944b8d73d84f81f1f4372f5e3a4220f3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-yy.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-yy.php-6E48224C56C2CF263C0B5E15572EDB3BDA109F08",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d5982b412a96b54ba21eea057516a99a74e9fae1f087aeb77baef5bbe1699aa9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6e48224c56c2cf263c0b5e15572edb3bda109f08"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-zz.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-zz.php-45F2E90ECA8F069CE4D54E0E3F8E2E2E22507A0C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2de3a2cb1e0929fefbfb59c7b59ac1a3d11a7a5bf2ebca136b23f9808f2fa5ad"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "45f2e90eca8f069ce4d54e0e3f8e2e2e22507a0c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-nb.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-nb.php-804EB27D2328DC883A6877F189479750CA62F3EE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f7070f004b6f6b3e3c64a6ce63ebe32c861bfbd5bd7c6ddd40c4e19a37fadb8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "804eb27d2328dc883a6877f189479750ca62f3ee"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-pt.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-pt.php-4C6EDEA4C8DC1CFE72A38135FDF610E843F520E2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4362e9dcbf3866e262e7728cc58e886c187b6094bf0e90a09daa39947abac823"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4c6edea4c8dc1cfe72a38135fdf610e843f520e2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-sk.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-sk.php-253E17E8F138C64E33F1C71D7751BE923A7F7B12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b3327b7d377f16e0aeabca54ca2c8906e23c5a77cdb19d2d4fb85f0bbd39d3cd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "253e17e8f138c64e33f1c71d7751be923a7f7b12"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-da.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-da.php-B1E3C5B10CBF3381E5DCDC3FD5EA94A4CEEC26F9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "32a35e1df4a39d8d4bd7c4daad3a19eae2c139cdb1b58dead36a2b5dc91e83db"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b1e3c5b10cbf3381e5dcdc3fd5ea94a4ceec26f9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ja.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ja.php-300CFB5F41AEB5BFE6EAF802059B978D08F7B41A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c1cb38a994fb2f1b523dc622174dd4f7b9e9ba20e8cd864ae44744bd2b8050fc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "300cfb5f41aeb5bfe6eaf802059b978d08f7b41a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-bn.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-bn.php-B66555507031BD545A133E2E3D6B788EA965FE3E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ff7842ce6fdc7cbb846b16f292e126fbc578e0c27da48092e4a5f44d928aebe6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b66555507031bd545a133e2e3d6b788ea965fe3e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-tr.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-tr.php-219D3895387E9FEABF9182993051FAF4A12B3F58",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9f19069be7c25d8a0563ee535bbc57ebe3c65698b2af99320349a4002db99091"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "219d3895387e9feabf9182993051faf4a12b3f58"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/smtp_low_memory.phps",
+      "SPDXID": "SPDXRef-File--examples-smtp-low-memory.phps-7F6313B79B82397F89E6912DD867AA766A88F39A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "80388a0f7ee51af3347c088213ecb282f23ac11cf22e8d5fafeb3a0848b5f373"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7f6313b79b82397f89e6912dd867aa766a88f39a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/sendmail.phps",
+      "SPDXID": "SPDXRef-File--examples-sendmail.phps-9D57ECB97005D018D3A5DB1EC67ABD58DADEAD3E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a70f17717b43ec1032e8fae77d2ebc5d27e27e509c839753963a4eef7c470177"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9d57ecb97005d018d3a5db1ec67abd58dadead3e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/smtp_no_auth.phps",
+      "SPDXID": "SPDXRef-File--examples-smtp-no-auth.phps-948F4D0DBD8C880A3F7B99F18D6D7DA6F70D9F75",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63ac85a535cd13726ee945d6afbe0c1a71e3701323ab0fee838d07b3f1e7c159"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "948f4d0dbd8c880a3f7b99f18d6d7da6f70d9f75"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/images/PHPMailer card logo.svg",
+      "SPDXID": "SPDXRef-File--examples-images-PHPMailer-card-logo.svg-0B777C7A856BD419C9BF69AD1FBC4895CD132DA0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d85ab2a1f76f5a91b35ad415bba949c70e6d0d047bc98f314b4ea1de275cecda"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0b777c7a856bd419c9bf69ad1fbc4895cd132da0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/workflows/scorecards.yml",
+      "SPDXID": "SPDXRef-File--.github-workflows-scorecards.yml-273668152906183D38BC097B54E6A74E96E12547",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da9082d0ea13536111abf8c554597347210994a2738d3206818989cf7f22a989"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "273668152906183d38bc097b54e6a74e96e12547"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/description",
+      "SPDXID": "SPDXRef-File--.git-description-9635F1B7E12C045212819DD934D809EF07EFA2F4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9635f1b7e12c045212819dd934d809ef07efa2f4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/workflows/tests.yml",
+      "SPDXID": "SPDXRef-File--.github-workflows-tests.yml-E9F9ECE6A96C316F3BCA83B9627B1C274C11FBF3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "57d3fb6c721562b5849c5d2035711c8395617fa6067eb718d8a2a5ade124c4a2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9f9ece6a96c316f3bca83b9627b1c274c11fbf3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/index",
+      "SPDXID": "SPDXRef-File--.git-index-6660B789B5492278C651C4D5B97638E6A76E5D08",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d20b7fd84ee0b6584c1dfa271ce9884a341e3ce37a28caebe544e3c7b02aa0d2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6660b789b5492278c651c4d5b97638e6a76e5d08"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-fa.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-fa.php-66068CB97056029850C3C0A745CC7C928DE1B140",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e38e2e75326d9d7bbb87fc4f6dc5c40ce79c9ce43016a707e84af9d7e332102"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "66068cb97056029850c3c0a745cc7c928de1b140"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/logs/refs/remotes/origin/HEAD",
+      "SPDXID": "SPDXRef-File--.git-logs-refs-remotes-origin-HEAD-9A732F862DB4DF8423CCDD5D0663BB338A20A09A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9869d7666ebecc01244ddb18d6cc3e37fb9baea3227ea23b66d00976ec6bb56d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9a732f862db4df8423ccdd5d0663bb338a20a09a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/commit-msg.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-commit-msg.sample-EE1ED5AAD98A435F2020B6DE35C173B75D9AFFAC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee1ed5aad98a435f2020b6de35c173b75d9affac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./COMMITMENT",
+      "SPDXID": "SPDXRef-File--COMMITMENT-0F88D100291F27F894D916CEE7BEB8A984D93DE0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "340ae872d625b128586b8751f3d599f63893417d8867cdb488702c48ea58fbc1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0f88d100291f27f894d916cee7beb8a984d93de0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ar.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ar.php-9E0FC92F6DBE35EDC6C0DA13BD0AC8D69B0A3825",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ad11ffbf21f84fe6e812a0cf4f82df4412dd232ab6f6b6fe47e2c760845ec04f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9e0fc92f6dbe35edc6c0da13bd0ac8d69b0a3825"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./SECURITY.md",
+      "SPDXID": "SPDXRef-File--SECURITY.md-8A9281DDA6C94E04EDC4D64B4FC2DC5A2ECD5876",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "748329021e3d7307694d5c0e108dd8a31850e58ac96bc6de6cf1099568906eca"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8a9281dda6c94e04edc4d64b4fc2dc5a2ecd5876"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/DebugLogTestListener.php",
+      "SPDXID": "SPDXRef-File--test-DebugLogTestListener.php-399DF0A4092D4DA54E63257F17866BFF0A22EACD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "af7a28c3eb2893facbf049777bded3ecd0d48ecc94567726a0b65c825b5a4258"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "399df0a4092d4da54e63257f17866bff0a22eacd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/GetLastMessageIDTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-GetLastMessageIDTest.php-9B1DF5625388A234F95DBD15A5057618FF36845C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "06852a08972a9561e3cb58bf8a4e6960f3a9afce264999bddb019807e9e74f40"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b1df5625388a234f95dbd15a5057618ff36845c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/MailTransportTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-MailTransportTest.php-10283CE342372FCD6AA5FFA8010C880740B9CC99",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73618b97334eec454b83c3a537029fd7188f1cbfb145fa15a4c172fed3b2b7bc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "10283ce342372fcd6aa5ffa8010c880740b9cc99"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/SetWordWrapTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-SetWordWrapTest.php-B6E308772DD40E22B223B8D83CFCC4921AD66DA0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e27d48d8d1213451d5ff9024532f780fe6e62240e57d781ccd572e790e42154"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b6e308772dd40e22b223b8d83cfcc4921ad66da0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/PHPMailerTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-PHPMailerTest.php-12FAE9220C1180165BCE0E74574E87132BBD27B1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "271cba6b99cda96ec2a3919e96d3da43c9540b0a26cb3b88c870b8d7a48e9624"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "12fae9220c1180165bce0e74574e87132bbd27b1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/Utf8CharBoundaryTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-Utf8CharBoundaryTest.php-67123E5D6004ACA69C1EC3930A22AA529C9A7787",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "967effbffe14c46972d59107146684d1317e6f72da94d4d8916a7c7b6497e42e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "67123e5d6004aca69c1ec3930a22aa529c9a7787"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/ParseAddressesTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-ParseAddressesTest.php-0B34625E071EE42D7B6F1E58A8DDD294BC70E295",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2d6cbbb1ef981ab19bb387bc33d121b15d05de35ae22bac165fa0b0fa3ac26f0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0b34625e071ee42d7b6f1e58a8ddd294bc70e295"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/IsPermittedPathTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-IsPermittedPathTest.php-9F67546EE4BB9A22385A6B07D2253EF461D6197E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2fc68a674f38f286dc48d331fd5e1a3d54c1bdb2b9b4dbf006f071fc0818a0e0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9f67546ee4bb9a22385a6b07d2253ef461d6197e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/FileIsAccessibleTest/accessible.txt",
+      "SPDXID": "SPDXRef-File--test-Fixtures-FileIsAccessibleTest-accessible.txt-E445B557C1206075443C9A3B235BFE40C24C1A34",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "850c9947f3863ff54812e309eee8504b00b4146d25225d832e5b33652e9e5a38"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e445b557c1206075443c9a3b235bfe40c24c1a34"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xd_cc.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xd-cc.php-9978CC6C57C25F5376AE3F96A5AD02EDB37C8FE5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0fc16daea07192e5d0d3c3f40f049e64ba522a4d97e2022de1cd330a6ccbfc6b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9978cc6c57c25f5376ae3f96a5ad02edb37c8fe5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-cs.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-cs.php-14B2691D3F1E43561DFCB5C7A9E95B246C45A997",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4bdb6445032c31fa1c41d65b8840f4fed0c30b96a6e68418ea6968e6de49f664"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "14b2691d3f1e43561dfcb5c7a9e95b246c45a997"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-de.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-de.php-73C4E7559C20E26FA88327381F7CAF94CACC9AF8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "41e9bee22a8b00d42b28ebadae85ba531134a2482108489c0e5ced6ddc25b062"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "73c4e7559c20e26fa88327381f7caf94cacc9af8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/ValidateAddressTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-ValidateAddressTest.php-C25372A50191B08B85A5A76D0E5F79BAF4612DD7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d504bca3337e350d00039a166186f062557bcc8ad36751eb422810d371b22f18"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c25372a50191b08b85a5a76d0e5f79baf4612dd7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-fo.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-fo.php-8EB20A2F163BE5B3C07B59400117DAAC1B920A4D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2b778d73170ff1864126bd65839d39098a9dde290e31fe6ea6719b68a030daa2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8eb20a2f163be5b3c07b59400117daac1b920a4d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/AddrFormatTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-AddrFormatTest.php-1C7245401B0E2D082D8BE7C6349754930F5F0361",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ffb5e584f5fc0aad31593a617155b8199cc752462e24831dbe57965deb1685f5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1c7245401b0e2d082d8be7c6349754930f5f0361"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-hu.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-hu.php-D3739F7087350248CC90D88A7D44F84836C6AC33",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "94045618ef5a86dc4f8176f3ebae3fbb1e29b7ef7cb1ce99ba57ee4724aef3be"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d3739f7087350248cc90d88a7d44f84836c6ac33"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/AuthCRAMMD5Test.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-AuthCRAMMD5Test.php-294D550D8528FD655C815DCB84796C8ECC9C2C6F",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "22ecf8fc75b18159b2c1ca3a9a0676ef3c4f1804eb2537edc322ea69d9b0ea20"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "294d550d8528fd655c815dcb84796c8ecc9c2c6f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-pt_br.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-pt-br.php-8B12662A9C94B585F313CDA806C9DEB8B1593145",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8965d817b5667787efd6ffe58b15af236e51ff085594562fafccaf85d9f1bcd8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8b12662a9c94b585f313cda806c9deb8b1593145"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/post-update.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-post-update.sample-B614C2F63DA7DCA9F1DB2E7ADE61EF30448FC96C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b614c2f63da7dca9f1db2e7ade61ef30448fc96c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/FileIsAccessibleTest/inaccessible.txt",
+      "SPDXID": "SPDXRef-File--test-Fixtures-FileIsAccessibleTest-inaccessible.txt-E445B557C1206075443C9A3B235BFE40C24C1A34",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "850c9947f3863ff54812e309eee8504b00b4146d25225d832e5b33652e9e5a38"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e445b557c1206075443c9a3b235bfe40c24c1a34"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-sv.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-sv.php-6C4A5234DAAA354AC2AF31C3B4356D1633D991B5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c1cb0390311cdff2f93ab37fff165b389fa74dca7f6341ce08240eca886b5ac3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6c4a5234daaa354ac2af31c3b4356d1633d991b5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-nl.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-nl.php-A4A2172A91B1E1669776082B27E035B04310757D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2245cef1e699769814c765d409b907bfe66869e5ce5644b6f3713d120076f624"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a4a2172a91b1e1669776082b27e035b04310757d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Language/TranslationCompletenessTest.php",
+      "SPDXID": "SPDXRef-File--test-Language-TranslationCompletenessTest.php-1615CD51C89D6F74BCAD918C005119AF5540E30D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd95410aff45ba436a2a1d48556fe48918a383526bcac2dfd9d6e00bbfdd0956"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1615cd51c89d6f74bcad918c005119af5540e30d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-mg.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-mg.php-AAD95E980C37C35F95A40A7FB8D8DC2B185069A2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eebd4b1c9caa2b0ad5637b623cad66a0b67363a2e752cbd86eacb2139636fd85"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "aad95e980c37c35f95a40a7fb8d8dc2b185069a2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-merge-commit.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-merge-commit.sample-04C64E58BC25C149482ED45DBD79E40EFFB89EB7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04c64e58bc25c149482ed45dbd79e40effb89eb7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./docs/README.md",
+      "SPDXID": "SPDXRef-File--docs-README.md-CA35E33EF406939508402ADC039631AC5E9204EC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a50514921d052ec85845c87b9fac1095f77f7f1ba2055132381660c740577210"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ca35e33ef406939508402adc039631ac5e9204ec"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xd_scri.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xd-scri.php-B0DC3DB4CCBBC90A462969DEDDAF26E3B985827E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c63e12fd5bd92ee653906ff0f2a74717a833800638c5ceac0ab3212824aa81c3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b0dc3db4ccbbc90a462969deddaf26e3b985827e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/mailing_list.phps",
+      "SPDXID": "SPDXRef-File--examples-mailing-list.phps-2C98112F7B611017F502F616B133C0AF02B6F763",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7e4debd3b697cfbf184534a9e4add6e4cd7cfef0044f0b68f4a2563ddc59538c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2c98112f7b611017f502f616b133c0af02b6f763"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-be.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-be.php-ADC6B62C59C968A78A70E44F4E526D05E89F4CF5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "47c51cef7371142b993b58764c0abd4e82fe7213f9bd85b6dcfb24d0acd223ec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "adc6b62c59c968a78a70e44f4e526d05e89f4cf5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/send_file_upload.phps",
+      "SPDXID": "SPDXRef-File--examples-send-file-upload.phps-4D6C0E8798EE9E18CDB1C764501D748E99FAB8D3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7fc69127f94b9198cb64f66068af9d9fbe60b5744681ab49b9b2b49744a1404c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4d6c0e8798ee9e18cdb1c764501d748e99fab8d3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-sl.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-sl.php-71707415E4FA0D3D8C4654EF248C2629ABE90FEB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "642ab71b9a02ee00abc39516e6d005957beff6dde91948155d0f25ce4f98630d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "71707415e4fa0d3d8c4654ef248c2629abe90feb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/extending.phps",
+      "SPDXID": "SPDXRef-File--examples-extending.phps-30A6B7FFC067C6BFBDB1D2429EF1198CDAF81923",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf377abdc64ff96614ed80e4c08c59daf247e1a811bbc229b26cf967cf66364a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "30a6b7ffc067c6bfbdb1d2429ef1198cdaf81923"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-et.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-et.php-61AFE30AF65D62379FFF9C83E322F88A1BC95A9C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7a854b796bc5058913ab5f5ad489b02ed246ad49220e844a1c3fbb0ffa908fa6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "61afe30af65d62379fff9c83e322f88a1bc95a9c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/OAuthTokenProvider.php",
+      "SPDXID": "SPDXRef-File--src-OAuthTokenProvider.php-BD32823F12CB7ADE44E0C8939F9316F2A40033AC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f2318ea1b2841b2481b636e205c281a733f9de944a71ae403e0b59fa71219572"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bd32823f12cb7ade44e0c8939f9316f2a40033ac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-bg.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-bg.php-0DA8076373121E4671A3CE4B178B2E6A10B73FB9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a556b5ad45ead80d7331f5ed713799e7fb810c52f8d7913725585fbeff084c2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0da8076373121e4671a3ce4b178b2e6a10b73fb9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/contactform.phps",
+      "SPDXID": "SPDXRef-File--examples-contactform.phps-A18B6566F194595595BC2790F90F651E7BA578EF",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9eb477674c53fbc2ab1f4b7360f6cca110fc9184923da8787c3e06cf06d21e4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a18b6566f194595595bc2790f90f651e7ba578ef"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-tl.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-tl.php-86A9C7EAFB8E4F90623D538F65BE73C15AC054C7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "48fa60bb2a88fdeb53960878fd0cdf88f7a59736a9efa487787b61de1c5d9db9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "86a9c7eafb8e4f90623d538f65be73c15ac054c7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/dependabot.yml",
+      "SPDXID": "SPDXRef-File--.github-dependabot.yml-8408AFDFAA3AC2F3F59EF00ACEAAA1A7113920E1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca9bb176270c7dc2f3a52d477e7fdd9127210320ba8a1dd4b60e07a0b3561a33"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8408afdfaa3ac2f3f59ef00aceaaa1a7113920e1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-he.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-he.php-9622E975632E7AFEB2393464370D7265AFEA6613",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7d944fe5e073d0dfb8a53cf9f8e9c409d40f5f0149ce6d47c1f4088cb28d69fe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9622e975632e7afeb2393464370d7265afea6613"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/DSNConfigurator.php",
+      "SPDXID": "SPDXRef-File--src-DSNConfigurator.php-6F73A534306896D4D1A63A5611DC920843C9FD16",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "429f5f0a962864ec7b67efd572c0f85cc0f33fd4585413d8dc80d41c8562399e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f73a534306896d4d1a63a5611dc920843c9fd16"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ko.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ko.php-1DF4921D7CFEEF4F505E185B4ADFEC19F6B49329",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "674f7f333694475a3a6164c1c5cb84e25f94a5b0d3118cb49ff2e5a318260c64"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1df4921d7cfeef4f505e185b4adfec19f6b49329"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/config",
+      "SPDXID": "SPDXRef-File--.git-config-8ED9C982423804324DA8D42661EDC74BB5EFF314",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5d8b55528877fd8a860043d167f56229ec8c405ef214f8ebf1e6c9d32ec0a69d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ed9c982423804324da8d42661edc74bb5eff314"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ru.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ru.php-64531D2EAF405A4306A0DC630B0501DE04A2A9A7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "981aa0630326df0b5dd48da086c19c4a329571a7426c36f6e08ff6470f24687d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "64531d2eaf405a4306a0dc630b0501de04a2a9a7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/contentsutf8.html",
+      "SPDXID": "SPDXRef-File--examples-contentsutf8.html-1A1981858521F4899538A2EB441215195C0DCA52",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a24d45c05c83b07809f670331477d0be09ca9a8c6682498b1f9bb0b10e558b82"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1a1981858521f4899538a2eb441215195c0dca52"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-el.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-el.php-EC70EE453D27E01DA7C0CFF36AF89F7C3623FFC3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3760e138e5c0fdc17a896718d2d86239b6d2d936abc0cf016fc5350ee034a8dd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ec70ee453d27e01da7c0cff36af89f7c3623ffc3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-gl.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-gl.php-1075F2A11A9659D494B78A6D07ECFB1BE9437443",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fe2fd5068446a04e73ca767ca05eba81f6648fcb93988a307a4dbd619054780a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1075f2a11a9659d494b78a6d07ecfb1be9437443"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-lt.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-lt.php-485A0D262370B9D9C41D18D2A00B4EDBFA13A124",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ee21a138a136caf9b213b3fe9f070afb9c20f4cdd51178045798bb60ccc82865"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "485a0d262370b9d9c41d18d2a00b4edbfa13a124"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/logs/HEAD",
+      "SPDXID": "SPDXRef-File--.git-logs-HEAD-77B2B5272581D9A1605F0771448643E0650A94FE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5fb6a26db8a8c6dd75cac0c991d21a1d9c4f2c29a9ae9f1ff3e8f3839ccf65eb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "77b2b5272581d9a1605f0771448643e0650a94fe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/pop_before_smtp.phps",
+      "SPDXID": "SPDXRef-File--examples-pop-before-smtp.phps-E933F388E02A58D071BDB47BB481963D1DD3F964",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9eec6853995a3aa4daa2ce0a72aaa328c520421b26000ffcb489fbfd9569227f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e933f388e02a58d071bdb47bb481963d1dd3f964"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ku.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ku.php-BB2815DCB1E30801397503B758A6B7B68470048D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4cc2ad8c0516ce01090997c802c7cdc3362e974e55ea26823140e60d50328f71"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bb2815dcb1e30801397503b758a6b7b68470048d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/mail.phps",
+      "SPDXID": "SPDXRef-File--examples-mail.phps-553F16C0668EE230FDB17FC91450DEE0F2775242",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a0e70de60f5414c1a31dd2c30b207b4d641344946ed226d89c53a9a3c32bed8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "553f16c0668ee230fdb17fc91450dee0f2775242"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-pl.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-pl.php-29CF30C08BFD2EFD8C1695C2A01314B101186666",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "130beb1aedccab6f9aff7eb76db0e477c40a15485d1eb129555e7d28ec2ee6f9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "29cf30c08bfd2efd8c1695c2a01314b101186666"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-receive.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-receive.sample-705A17D259E7896F0082FE2E9F2C0C3B127BE5AC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "705a17d259e7896f0082fe2e9f2c0c3b127be5ac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/smtp_check.phps",
+      "SPDXID": "SPDXRef-File--examples-smtp-check.phps-94D12E7333310D8E083AD22D62AB11A9AE9789B9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8923ad1e6b04ef45bdef84e7223a44602172977ac0d523c152f5b1b3e92077e6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "94d12e7333310d8e083ad22d62ab11a9ae9789b9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-vi.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-vi.php-E0BD70CD3BF9AB52623D9CDD93690EE655765F45",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b5acbfceceb34f90dc7f905f044a51e48cce7f79cbf998b579b8bf00fa1fabc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e0bd70cd3bf9ab52623d9cdd93690ee655765f45"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/refs/heads/master",
+      "SPDXID": "SPDXRef-File--.git-refs-heads-master-CAA1E838A9D7DEAAADD8942F9A2E693FC62BC8ED",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4de310af4882a48f2f1425e87e5e8712fa26795c1c565b6faffb107acaef5c0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "caa1e838a9d7deaaadd8942f9a2e693fc62bc8ed"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/exceptions.phps",
+      "SPDXID": "SPDXRef-File--examples-exceptions.phps-7AACFAE8CDF3B06F123911FA83AE2B7B0CDFA66A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f4018a7561687a0ea8947f32f7e19fb590e1236ff0d6b178b61127d859f87c60"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7aacfae8cdf3b06f123911fa83ae2b7b0cdfa66a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ms.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ms.php-B8DD10B9276A641E1DB42C264A7E8AF8F7BF9639",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f6b8ec01f2734624eadb3e9135e408a5a6da20a5a684b5577d7ba29bddd4b5aa"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b8dd10b9276a641e1db42c264a7e8af8f7bf9639"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/azure_xoauth2.phps",
+      "SPDXID": "SPDXRef-File--examples-azure-xoauth2.phps-9130BB8BEF8A51EFDDD55533FA1286952E2012DB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ed02911cc6357d7ab18bdb21d0b80eae9a1fe48c11bce62457e456dd2dac09c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9130bb8bef8a51efddd55533fa1286952e2012db"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/POP3.php",
+      "SPDXID": "SPDXRef-File--src-POP3.php-2D718984F29CE35CA39D481C88D965537C36E755",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35450a8a8894bcf192ab8011907da366871b92cc98eb8567f9af51f11f642d7f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2d718984f29ce35ca39d481c88d965537c36e755"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/FUNDING.yml",
+      "SPDXID": "SPDXRef-File--.github-FUNDING.yml-CBD42738C73D24AEC2DF064E189007ECF95A58C0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9bb6aa506207eb837b621c671adf6f56b14b65868f0ec38ed258810e35d98220"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cbd42738c73d24aec2df064e189007ecf95a58c0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/contents.html",
+      "SPDXID": "SPDXRef-File--examples-contents.html-C80474B7EAC0EBE4D44015B62EDEDAF4C1436226",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0475c69864421ef33d9e013a19d59b7e1fa57bb84a96ce03ba2f67a7ff1dd2cc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c80474b7eac0ebe4d44015b62ededaf4c1436226"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/FileIsAccessibleTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-FileIsAccessibleTest.php-15D71CE109F3A060DACE1781E3A792A0255055B7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8eb14aceb0b9335be299f73a96341f500d1b494bc35916ea2f1f55ea00049b8b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "15d71ce109f3a060dace1781e3a792a0255055b7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/ORIG_HEAD",
+      "SPDXID": "SPDXRef-File--.git-ORIG-HEAD-83A8373E4919A072D487D8D861A5E28FB1B48B12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8b1c3289bf299e907a913a33faf37eac177ac660d01d57b7b6f6696ca14287fe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83a8373e4919a072d487d8d861a5e28fb1b48b12"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/GenerateIdTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-GenerateIdTest.php-071E690D85A623443AD047E6DE5E82D5F7AF3C1B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b331ab854de562351e19096b92a182645dec762230e7bd3c5ec8b3d5a42ccc31"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "071e690d85a623443ad047e6de5e82d5f7af3c1b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/info/exclude",
+      "SPDXID": "SPDXRef-File--.git-info-exclude-C879DF015D97615050AFA7B9641E3352A1E701AC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c879df015d97615050afa7b9641e3352a1e701ac"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/Html2TextTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-Html2TextTest.php-EC7A70A6F203E6803E95AB3FEE7B313938AB802D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d7b2589defd00cc162116f36062429bda4810c6d6e3f27e251cf43bfab2617c2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ec7a70a6f203e6803e95ab3fee7b313938ab802d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/fsmonitor-watchman.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-fsmonitor-watchman.sample-0EC0EC9AC11111433D17EA79E0AE8CEC650DCFA4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ec0ec9ac11111433d17ea79e0ae8cec650dcfa4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/SetTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-SetTest.php-6E274E2F513DED842D13A3291A83E800FF52FFFC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "71686a9885a60750dc5ee88c496af6c5fa4067d341950163ffa203898e7e447e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6e274e2f513ded842d13a3291a83e800ff52fffc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/push-to-checkout.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-push-to-checkout.sample-508240328C8B55F8157C93C43BF5E291E5D2FBCB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "508240328c8b55f8157c93c43bf5e291e5d2fbcb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/PHPMailer/ValidateAddressCustomValidatorTest.php",
+      "SPDXID": "SPDXRef-File--test-PHPMailer-ValidateAddressCustomValidatorTest.php-7B5492D0F37A3F14BD5AAC5152A911263325424C",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8e4c5cd3aca4bfd75bb71762072d1fd16c5c0344743bede7fd19d14f41f8c2e8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7b5492d0f37a3f14bd5aac5152a911263325424c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/README.md",
+      "SPDXID": "SPDXRef-File--examples-README.md-0374DE54146E9A6F9BD07F39E13A5B661CAA0618",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "83b124bd1d17ec01ab89a9b6ee13242c14945102fb44a764290620bc0da55bab"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0374de54146e9a6f9bd07f39e13a5b661caa0618"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/Exception.php",
+      "SPDXID": "SPDXRef-File--src-Exception.php-CBDF2544C5A1D8DAD5AC32E927EDF74B440926CC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "22ab858ae438d98f58f41f38ad2191d1b0d59570aebea0463a7948cfae1021b7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cbdf2544c5a1d8dad5ac32e927edf74b440926cc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xc_cc.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xc-cc.php-718D0A09A66017198020145E946C881B81C55577",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "663b717008cfd2390b288f33eb176c0280e34fdf7c3302ec84ce402ff3385b30"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "718d0a09a66017198020145e946c881b81c55577"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/smime_signed_mail.phps",
+      "SPDXID": "SPDXRef-File--examples-smime-signed-mail.phps-59AC6D879C1129D2C944416F0DA7E202FCCB05E5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "46c82be44067709008726e820447171ddafcb0d983df2a543e27fb121ffa9235"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "59ac6d879c1129d2c944416f0da7e202fccb05e5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./test/Fixtures/LocalizationTest/phpmailer.lang-xa_scri_cc.php",
+      "SPDXID": "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xa-scri-cc.php-77A4F8280BAC3FA06760A42E1E29DB0214F78564",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "47743ac4059a4b4155a82b39dc0858a96f4581e1de31493bd5bbf0eac3cbb83a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "77a4f8280bac3fa06760a42e1e29db0214f78564"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/images/phpmailer_mini.png",
+      "SPDXID": "SPDXRef-File--examples-images-phpmailer-mini.png-1F8823FCF2C8EDD78B62E2574598CFA4A8C43FBB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08b000251387bde7187ce99ab3fac5ace33ea51443e51333833ebbafedd292ac"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1f8823fcf2c8edd78b62e2574598cfa4a8c43fbb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-mn.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-mn.php-14CAE556939AF9611CF146643CB503866804ADF5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e1b246c27568a92fef27a44e9601ce3ff41ca0dac0f564782dc46bfd03f42724"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "14cae556939af9611cf146643cb503866804adf5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/ssl_options.phps",
+      "SPDXID": "SPDXRef-File--examples-ssl-options.phps-4F95418134B83E1D21217C83D00D679C251351A3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "252bf894420446c3bca4592be89782fbd2021e61e412d3fcb76ee09a52bc4170"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4f95418134b83e1d21217c83d00d679c251351a3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/actions/build-docs/entrypoint.sh",
+      "SPDXID": "SPDXRef-File--.github-actions-build-docs-entrypoint.sh-942C7C063DB587429D66B469833D70CAF73260F8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "35a30ce6edccf55f90a7a7cea87bebab4bb93cefb60a923b9e6179d3874eee85"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "942c7c063db587429d66b469833d70caf73260f8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-it.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-it.php-7BC67952CCA3CDCE2D3B0EE48306A7FF25215321",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "06e7faf9dc2dabebe8ea8c684eb9b798ffd241ce039945a8e5583993705b1c3e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7bc67952cca3cdce2d3b0ee48306a7ff25215321"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/objects/pack/pack-56d2721971a50107e9c7e3aa208de627aae45a4a.idx",
+      "SPDXID": "SPDXRef-File--.git-objects-pack-pack-56d2721971a50107e9c7e3aa208de627aae45a4a.idx-258A4EC6B486DB0CBC542FC197AD28BA0A1473F0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "576583f88d910c993f9b2676ee2e8564ec3fb64ca6b65dd1bebf12a3f95e7ca3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "258a4ec6b486db0cbc542fc197ad28ba0a1473f0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-id.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-id.php-81077ECDA206BD11F485D041C665F331B5674E7D",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9c606b5da1470c02140c96c1ef3fc5ba1175ad0ce119b6f2d93e02c112d2ae1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "81077ecda206bd11f485d041c665f331b5674e7d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-commit.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-commit.sample-A79D057388EE2C2FE6561D7697F1F5EFCFF96F23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a79d057388ee2c2fe6561d7697f1f5efcff96f23"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-fi.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-fi.php-CFB37A48C7E04194CCD66D6E9D160C12FD64DD42",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3efb47c9e164860b45ee3a9f707975210d7f87bbc356a7dada075528fc37052c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cfb37a48c7e04194ccd66d6e9d160c12fd64dd42"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/pre-push.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-pre-push.sample-A599B773B930CA83DBC3A5C7C13059AC4A6EAEDC",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a599b773b930ca83dbc3a5c7c13059ac4a6eaedc"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-ka.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-ka.php-FE43A984FD6F663A5703E3FD5D2A8D5892486562",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0bf765b1e28e33947df929657c325cd957c506ec42d44d2a32b3d30794f09b31"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fe43a984fd6f663a5703e3fd5d2a8d5892486562"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-nl.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-nl.php-5AC054FEC41018B83E876381FD9E82A5D71D2705",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9d43b5bcdd2446f3bc6eea5aec01b7084a9a83ec0c50a73ac968b6c1260dcbe3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5ac054fec41018b83e876381fd9e82a5d71d2705"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/OAuth.php",
+      "SPDXID": "SPDXRef-File--src-OAuth.php-913023DE0FDF87633BA3806DA43A1A84D670D0D1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "44b2c9a3b6e538a65b90261251f197d700e2eb90d51d4944fb80577263210fb4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "913023de0fdf87633ba3806da43a1a84d670d0d1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./language/phpmailer.lang-as.php",
+      "SPDXID": "SPDXRef-File--language-phpmailer.lang-as.php-C14064BB902B8B3B2FDE6D44DC8B3909D482DEDB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8aaaa3925b2e79a475ffd7b65e29406b1e86c8ea48a666ec32243668f5e28494"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c14064bb902b8b3b2fde6d44dc8b3909d482dedb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/send_multiple_file_upload.phps",
+      "SPDXID": "SPDXRef-File--examples-send-multiple-file-upload.phps-568F67D117656FE1036D8372AFD5682AAD871FAE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1327634eb56074c398ede37b900a0be957b62cc768ae5c706561c680fdc7ad5a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "568f67d117656fe1036d8372afd5682aad871fae"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/DKIM_sign.phps",
+      "SPDXID": "SPDXRef-File--examples-DKIM-sign.phps-69482FD119DC3690C8DF4A7D31710CC1E6FF6BD8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "89380b93b21716a16533ba09ea29bb5487f780a07c3e3c5bdb764a43b925bf3b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "69482fd119dc3690c8df4a7d31710cc1e6ff6bd8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/callback.phps",
+      "SPDXID": "SPDXRef-File--examples-callback.phps-216C0F32D2AE3DFBAA7C3320F03B13881DC781C7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "654576ff2ea5a4f8ca968fda5825df107cc67f058f7bdc824bfa4fc5f124a6e3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "216c0f32d2ae3dfbaa7c3320f03b13881dc781c7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/images/PHPMailer card logo.afdesign",
+      "SPDXID": "SPDXRef-File--examples-images-PHPMailer-card-logo.afdesign-BE37DE4373D6EC02E630E2F27AC10BC844316EB4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0475a3f39b0dfe2048707fd65de3607816489f1367ca88060bb6c1066b0b0306"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "be37de4373d6ec02e630e2f27ac10bc844316eb4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./examples/DKIM_gen_keys.phps",
+      "SPDXID": "SPDXRef-File--examples-DKIM-gen-keys.phps-DCDE30C9116AE57BB2D23A16043137F0CA6BE3A1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3357cb25505fb3118be83b504c3974eebfe4f48379758b85722b347ea2b187ce"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dcde30c9116ae57bb2d23a16043137f0ca6be3a1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/ISSUE_TEMPLATE/bug_report.md",
+      "SPDXID": "SPDXRef-File--.github-ISSUE-TEMPLATE-bug-report.md-322665764AD8C6399DCC6E8995746AD29542D6CA",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ed0beeb4bd45c12c3b0843a864996ebec8a550be9fd74533c1683039cedb760f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "322665764ad8c6399dcc6e8995746ad29542d6ca"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.github/workflows/docs.yaml",
+      "SPDXID": "SPDXRef-File--.github-workflows-docs.yaml-6260AB5B06B0D56327069003B646EA53401B466A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7c1ce5f54d0a6b3669e9eada5f8e2b0c8e805506e0d0d42f7f48bfab450e431c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6260ab5b06b0d56327069003b646ea53401b466a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/objects/pack/pack-56d2721971a50107e9c7e3aa208de627aae45a4a.pack",
+      "SPDXID": "SPDXRef-File--.git-objects-pack-pack-56d2721971a50107e9c7e3aa208de627aae45a4a.pack-6253DCD300591824C487605D28978C6CE190130B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d4147c5cdbb650ec10d96bddb95eaaf7af44f7240bf6d4c145028c3c5834db48"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6253dcd300591824c487605d28978c6ce190130b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/HEAD",
+      "SPDXID": "SPDXRef-File--.git-HEAD-ACBAEF275E46A7F14C1EF456FFF2C8BBE8C84724",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "acbaef275e46a7f14c1ef456fff2c8bbe8c84724"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/applypatch-msg.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-applypatch-msg.sample-4DE88EB95A5E93FD27E78B5FB3B5231A8D8917DD",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/logs/refs/heads/master",
+      "SPDXID": "SPDXRef-File--.git-logs-refs-heads-master-77B2B5272581D9A1605F0771448643E0650A94FE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5fb6a26db8a8c6dd75cac0c991d21a1d9c4f2c29a9ae9f1ff3e8f3839ccf65eb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "77b2b5272581d9a1605f0771448643e0650a94fe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/update.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-update.sample-730E6BD5225478BAB6147B7A62A6E2AE21D40507",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "730e6bd5225478bab6147b7a62a6e2ae21d40507"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/hooks/prepare-commit-msg.sample",
+      "SPDXID": "SPDXRef-File--.git-hooks-prepare-commit-msg.sample-2584806BA147152AE005CB675AA4F01D5D068456",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2584806ba147152ae005cb675aa4f01d5d068456"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./src/SMTP.php",
+      "SPDXID": "SPDXRef-File--src-SMTP.php-D2D59E3BA2EE562F0A648814694638834D3B0916",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e72783d9863950aae4e4bed826322f124dcbb8f8a21bfde73d8d073db4f46a6e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d2d59e3ba2ee562f0a648814694638834d3b0916"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./.git/refs/remotes/origin/HEAD",
+      "SPDXID": "SPDXRef-File--.git-refs-remotes-origin-HEAD-D9427CDA09ABA1CDDE5C69C2B13C905BDDB0BC51",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cdc65e67690c4c6475174e5ec662b70655246a2f3924354778835ab3be70aa76"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d9427cda09aba1cdde5c69c2b13c905bddb0bc51"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "phpmailer",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3ea31e87a3c0de31aacae907d4ee27023af1fd5d"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "182f7b9",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Carnegie%20Mellon%20University%20Software%20Engineering%20Institute/spdx.org/phpmailer@182f7b9?tag_id=4f8a47b8-6c1d-46d7-acda-4457160d330e"
+        }
+      ],
+      "supplier": "Organization: Carnegie Mellon University Software Engineering Institute",
+      "hasFiles": [
+        "SPDXRef-File--src-POP3.php-2D718984F29CE35CA39D481C88D965537C36E755",
+        "SPDXRef-File--.git-refs-heads-master-CAA1E838A9D7DEAAADD8942F9A2E693FC62BC8ED",
+        "SPDXRef-File--.git-hooks-pre-receive.sample-705A17D259E7896F0082FE2E9F2C0C3B127BE5AC",
+        "SPDXRef-File--.git-logs-HEAD-77B2B5272581D9A1605F0771448643E0650A94FE",
+        "SPDXRef-File--.git-config-8ED9C982423804324DA8D42661EDC74BB5EFF314",
+        "SPDXRef-File--.github-dependabot.yml-8408AFDFAA3AC2F3F59EF00ACEAAA1A7113920E1",
+        "SPDXRef-File--examples-contactform.phps-A18B6566F194595595BC2790F90F651E7BA578EF",
+        "SPDXRef-File--examples-extending.phps-30A6B7FFC067C6BFBDB1D2429EF1198CDAF81923",
+        "SPDXRef-File--examples-send-file-upload.phps-4D6C0E8798EE9E18CDB1C764501D748E99FAB8D3",
+        "SPDXRef-File--examples-mailing-list.phps-2C98112F7B611017F502F616B133C0AF02B6F763",
+        "SPDXRef-File--language-phpmailer.lang-mg.php-AAD95E980C37C35F95A40A7FB8D8DC2B185069A2",
+        "SPDXRef-File--language-phpmailer.lang-sv.php-6C4A5234DAAA354AC2AF31C3B4356D1633D991B5",
+        "SPDXRef-File--language-phpmailer.lang-pt-br.php-8B12662A9C94B585F313CDA806C9DEB8B1593145",
+        "SPDXRef-File--language-phpmailer.lang-hu.php-D3739F7087350248CC90D88A7D44F84836C6AC33",
+        "SPDXRef-File--language-phpmailer.lang-fo.php-8EB20A2F163BE5B3C07B59400117DAAC1B920A4D",
+        "SPDXRef-File--language-phpmailer.lang-de.php-73C4E7559C20E26FA88327381F7CAF94CACC9AF8",
+        "SPDXRef-File--language-phpmailer.lang-cs.php-14B2691D3F1E43561DFCB5C7A9E95B246C45A997",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xd-cc.php-9978CC6C57C25F5376AE3F96A5AD02EDB37C8FE5",
+        "SPDXRef-File--test-Fixtures-FileIsAccessibleTest-accessible.txt-E445B557C1206075443C9A3B235BFE40C24C1A34",
+        "SPDXRef-File--test-PHPMailer-IsPermittedPathTest.php-9F67546EE4BB9A22385A6B07D2253EF461D6197E",
+        "SPDXRef-File--test-PHPMailer-ParseAddressesTest.php-0B34625E071EE42D7B6F1E58A8DDD294BC70E295",
+        "SPDXRef-File--test-PHPMailer-PHPMailerTest.php-12FAE9220C1180165BCE0E74574E87132BBD27B1",
+        "SPDXRef-File--test-PHPMailer-MailTransportTest.php-10283CE342372FCD6AA5FFA8010C880740B9CC99",
+        "SPDXRef-File--test-PHPMailer-GetLastMessageIDTest.php-9B1DF5625388A234F95DBD15A5057618FF36845C",
+        "SPDXRef-File--test-DebugLogTestListener.php-399DF0A4092D4DA54E63257F17866BFF0A22EACD",
+        "SPDXRef-File--SECURITY.md-8A9281DDA6C94E04EDC4D64B4FC2DC5A2ECD5876",
+        "SPDXRef-File--COMMITMENT-0F88D100291F27F894D916CEE7BEB8A984D93DE0",
+        "SPDXRef-File--src-DSNConfigurator.php-6F73A534306896D4D1A63A5611DC920843C9FD16",
+        "SPDXRef-File--.git-hooks-pre-merge-commit.sample-04C64E58BC25C149482ED45DBD79E40EFFB89EB7",
+        "SPDXRef-File--.git-hooks-commit-msg.sample-EE1ED5AAD98A435F2020B6DE35C173B75D9AFFAC",
+        "SPDXRef-File--.git-index-6660B789B5492278C651C4D5B97638E6A76E5D08",
+        "SPDXRef-File--.github-workflows-tests.yml-E9F9ECE6A96C316F3BCA83B9627B1C274C11FBF3",
+        "SPDXRef-File--examples-images-phpmailer.png-C6FC5DA6ECF04C21FB6FFE9341648E6F70A49FCB",
+        "SPDXRef-File--examples-contactform-ajax.phps-AB544C0C3CFE752416684D96278882BD7BBE3BCC",
+        "SPDXRef-File--examples-gmail.phps-02E52C1018E35981803ABFFFB3058B76B1E0BB8B",
+        "SPDXRef-File--examples-sendoauth2.phps-DACC63EE5C473FDB49042A10B5F293C9BD43FC74",
+        "SPDXRef-File--language-phpmailer.lang-af.php-EE77563640351CB29A7AA7F143AF34494CE141DD",
+        "SPDXRef-File--language-phpmailer.lang-zh.php-C11E8589E7DAC7AAB45215405F7B6D33DC03DF89",
+        "SPDXRef-File--language-phpmailer.lang-hi.php-CA6BE2E7C5063265001A1CB05A34E989950A8A4B",
+        "SPDXRef-File--language-phpmailer.lang-sr.php-C88A2ED22921A69C84D61EDBBB82EFD98F2E6ECE",
+        "SPDXRef-File--language-phpmailer.lang-ro.php-9DDC3F61F32FD26A168D9D5FE9D023ACCDEDC32F",
+        "SPDXRef-File--language-phpmailer.lang-sr-latn.php-26F7FFD04DB12B2F01AC62702185D5CB5312ECC8",
+        "SPDXRef-File--language-phpmailer.lang-az.php-9260F248D4F9B0701E1876351B2F8D5CD647BFF3",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xe.php-9471803625DFC8F53EDA1B0AA124C7DB31408C1D",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xx.php-5F66791ECC33CA51F44D4E0DE3A159BC8317D5B9",
+        "SPDXRef-File--test-OAuth-OAuthTest.php-981C2099AEE0D05468ACBD8D4B536909A26B3B23",
+        "SPDXRef-File--test-PHPMailer-QuotedStringTest.php-84B179B4B9BF8F2FFB913E0864B69BA18F2C1678",
+        "SPDXRef-File--test-PHPMailer-ReplyToGetSetClearTest.php-E1A4975CACA02F540E19105F65A0CE2EB26754C7",
+        "SPDXRef-File--test-PHPMailer-PunyencodeAddressTest.php-B7C50E08AEE76AB46A399C8CD6DF12888B32D6D8",
+        "SPDXRef-File--test-PHPMailer-CustomHeaderTest.php-70D84AF450497D12387C927D47655B16E76E43B3",
+        "SPDXRef-File--test-TestCase.php-DB69D4FB2A5FB1B03251301A65464294F3B529D3",
+        "SPDXRef-File--test-runfakepopserver.sh-92E86F3BF58242CBD6EE2B06C3B6143B54E81FE6",
+        "SPDXRef-File--.gitattributes-5E5F7A26267462483FC612DDCF5B16F95C3C4453",
+        "SPDXRef-File--LICENSE-7C7D178D9CE31B21A4869940A881B043B086F007",
+        "SPDXRef-File--src-Exception.php-CBDF2544C5A1D8DAD5AC32E927EDF74B440926CC",
+        "SPDXRef-File--.git-hooks-push-to-checkout.sample-508240328C8B55F8157C93C43BF5E291E5D2FBCB",
+        "SPDXRef-File--.git-hooks-fsmonitor-watchman.sample-0EC0EC9AC11111433D17EA79E0AE8CEC650DCFA4",
+        "SPDXRef-File--.git-info-exclude-C879DF015D97615050AFA7B9641E3352A1E701AC",
+        "SPDXRef-File--.git-ORIG-HEAD-83A8373E4919A072D487D8D861A5E28FB1B48B12",
+        "SPDXRef-File--.github-FUNDING.yml-CBD42738C73D24AEC2DF064E189007ECF95A58C0",
+        "SPDXRef-File--examples-azure-xoauth2.phps-9130BB8BEF8A51EFDDD55533FA1286952E2012DB",
+        "SPDXRef-File--examples-smtp-check.phps-94D12E7333310D8E083AD22D62AB11A9AE9789B9",
+        "SPDXRef-File--examples-mail.phps-553F16C0668EE230FDB17FC91450DEE0F2775242",
+        "SPDXRef-File--examples-pop-before-smtp.phps-E933F388E02A58D071BDB47BB481963D1DD3F964",
+        "SPDXRef-File--language-phpmailer.lang-lt.php-485A0D262370B9D9C41D18D2A00B4EDBFA13A124",
+        "SPDXRef-File--language-phpmailer.lang-el.php-EC70EE453D27E01DA7C0CFF36AF89F7C3623FFC3",
+        "SPDXRef-File--language-phpmailer.lang-ru.php-64531D2EAF405A4306A0DC630B0501DE04A2A9A7",
+        "SPDXRef-File--language-phpmailer.lang-ko.php-1DF4921D7CFEEF4F505E185B4ADFEC19F6B49329",
+        "SPDXRef-File--language-phpmailer.lang-et.php-61AFE30AF65D62379FFF9C83E322F88A1BC95A9C",
+        "SPDXRef-File--language-phpmailer.lang-sl.php-71707415E4FA0D3D8C4654EF248C2629ABE90FEB",
+        "SPDXRef-File--language-phpmailer.lang-be.php-ADC6B62C59C968A78A70E44F4E526D05E89F4CF5",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-nl.php-A4A2172A91B1E1669776082B27E035B04310757D",
+        "SPDXRef-File--test-Fixtures-FileIsAccessibleTest-inaccessible.txt-E445B557C1206075443C9A3B235BFE40C24C1A34",
+        "SPDXRef-File--test-PHPMailer-AuthCRAMMD5Test.php-294D550D8528FD655C815DCB84796C8ECC9C2C6F",
+        "SPDXRef-File--test-PHPMailer-AddrFormatTest.php-1C7245401B0E2D082D8BE7C6349754930F5F0361",
+        "SPDXRef-File--test-PHPMailer-ValidateAddressTest.php-C25372A50191B08B85A5A76D0E5F79BAF4612DD7",
+        "SPDXRef-File--test-PHPMailer-Utf8CharBoundaryTest.php-67123E5D6004ACA69C1EC3930A22AA529C9A7787",
+        "SPDXRef-File--test-PHPMailer-SetWordWrapTest.php-B6E308772DD40E22B223B8D83CFCC4921AD66DA0",
+        "SPDXRef-File--test-PreSendTestCase.php-54B04381C344FE6FCB676B22059BECC1998856FB",
+        "SPDXRef-File--composer.json-2745A8D725FB4615683E1112420C5A7E08DF4B9C",
+        "SPDXRef-File--README.md-779B587C4C17B968FAB2006C40F1A3E024CC4219",
+        "SPDXRef-File--src-PHPMailer.php-5172B162804CEAA50FF3237C36C4C6EC480009F7",
+        "SPDXRef-File--.git-hooks-pre-applypatch.sample-F208287C1A92525DE9F5462E905A9D31DE1E2D75",
+        "SPDXRef-File--.git-hooks-pre-rebase.sample-288EFDC0027DB4CFD8B7C47C4AEDDBA09B6DED12",
+        "SPDXRef-File--.git-packed-refs-6F5503383B48475C0BA8BC0C54C710B7881A1014",
+        "SPDXRef-File--.github-actions-build-docs-Dockerfile-252E1EC6B1255B0B34FF8DD386E35DD7E19C2E68",
+        "SPDXRef-File--examples-images-PHPMailer-card-logo.png-0772D2BD4B61BC05ADDDE622A0A4A38F8FEDE6FA",
+        "SPDXRef-File--examples-simple-contact-form.phps-28925E15D213DEDD22422D66E96042949A34F6A5",
+        "SPDXRef-File--examples-smtp.phps-B8BCD040A12B554006121ADD53E3FA5AA035FA62",
+        "SPDXRef-File--examples-gmail-xoauth.phps-DB9F8F9F5FFA88F46F26586AA639ABC2E5C1472F",
+        "SPDXRef-File--language-phpmailer.lang-lv.php-117707FB05F4021C4EBAA8CAECABBE9E8DECFF64",
+        "SPDXRef-File--language-phpmailer.lang-ur.php-72ED85BE6DDCA60EE1D55E215B1F7CA07F9D6621",
+        "SPDXRef-File--language-phpmailer.lang-eo.php-D22CB7FF325CF62AB133F22B996E68BFF02D1E84",
+        "SPDXRef-File--language-phpmailer.lang-hy.php-7E3E11F736E425ED01886C9B7B4A476C2702B881",
+        "SPDXRef-File--language-phpmailer.lang-si.php-B21CFAB8B4ADD647B7C8E528C0EE605590F01CDC",
+        "SPDXRef-File--language-phpmailer.lang-hr.php-8718B677F66D74A8BAF0D8136E184734E355A6F7",
+        "SPDXRef-File--language-phpmailer.lang-ba.php-4C59C6A7EEABCF1F39DD442DE95109B66746069C",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xb-scri.php-9E9C248F658F35C72AECC43E5B6C0246F7F29D74",
+        "SPDXRef-File--test-Security-DenialOfServiceVectorsTest.php-6B1EC44FD6B9C652836D25D89B5EEFBE0FD8E8B8",
+        "SPDXRef-File--test-PHPMailer-IsValidHostTest.php-E41FA9953FC24EB1E356B8DE32DC0ECBBEC234EA",
+        "SPDXRef-File--test-PHPMailer-MbPathinfoTest.php-45995ADD1034E1B6C42834DC9ACCF0E41D7E9673",
+        "SPDXRef-File--test-PHPMailer-MimeTypesTest.php-A1C482AFB4C13CB3C69453E4EED0147759B9B4FC",
+        "SPDXRef-File--test-PHPMailer-DSNConfiguratorTest.php-F119F8EC6E88FE05248422EC2286EC3BE081350E",
+        "SPDXRef-File--test-PHPMailer-XMailerTest.php-AA398A47DD6F1FC45A5A2552885F1DA146211C48",
+        "SPDXRef-File--test-SendTestCase.php-27C364D49D663EF82842F57BF5AB5CFC868C344B",
+        "SPDXRef-File--phpcs.xml.dist-C8F28B290456BD09D21DD315CFE558902BE54A16",
+        "SPDXRef-File--changelog.md-54C30BF13DF6A423F03D10C22A1EF8E624040844",
+        "SPDXRef-File--src-SMTP.php-D2D59E3BA2EE562F0A648814694638834D3B0916",
+        "SPDXRef-File--.git-hooks-update.sample-730E6BD5225478BAB6147B7A62A6E2AE21D40507",
+        "SPDXRef-File--.git-hooks-applypatch-msg.sample-4DE88EB95A5E93FD27E78B5FB3B5231A8D8917DD",
+        "SPDXRef-File--.git-objects-pack-pack-56d2721971a50107e9c7e3aa208de627aae45a4a.pack-6253DCD300591824C487605D28978C6CE190130B",
+        "SPDXRef-File--.github-ISSUE-TEMPLATE-bug-report.md-322665764AD8C6399DCC6E8995746AD29542D6CA",
+        "SPDXRef-File--examples-images-PHPMailer-card-logo.afdesign-BE37DE4373D6EC02E630E2F27AC10BC844316EB4",
+        "SPDXRef-File--examples-ssl-options.phps-4F95418134B83E1D21217C83D00D679C251351A3",
+        "SPDXRef-File--examples-exceptions.phps-7AACFAE8CDF3B06F123911FA83AE2B7B0CDFA66A",
+        "SPDXRef-File--examples-contentsutf8.html-1A1981858521F4899538A2EB441215195C0DCA52",
+        "SPDXRef-File--docs-README.md-CA35E33EF406939508402ADC039631AC5E9204EC",
+        "SPDXRef-File--language-phpmailer.lang-ar.php-9E0FC92F6DBE35EDC6C0DA13BD0AC8D69B0A3825",
+        "SPDXRef-File--language-phpmailer.lang-fa.php-66068CB97056029850C3C0A745CC7C928DE1B140",
+        "SPDXRef-File--language-phpmailer.lang-fr.php-1973E4EC45BBE48C7D5F056C393E1A93F4E3C22F",
+        "SPDXRef-File--language-phpmailer.lang-es.php-9E8AE9B36B77773F4A3975179FF4387C5217D0D4",
+        "SPDXRef-File--language-phpmailer.lang-zh-cn.php-DAF4D7ACE95BC145AE5EB2B54D4522594EE2B36B",
+        "SPDXRef-File--language-phpmailer.lang-uk.php-A5567E75E00EA2B65FDCC66C7415FBC3BC7906B6",
+        "SPDXRef-File--language-phpmailer.lang-ca.php-D83ED2C1F34828FB108D4194692DFFCA72640015",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-fr.php-BF4A73C2D98F53275ED648B75DD3AA91B4B3350E",
+        "SPDXRef-File--test-POP3-PopBeforeSmtpTest.php-06D05C369D0FE5A3D11B5F6AA442D735A102FCAF",
+        "SPDXRef-File--test-PHPMailer-EncodeStringTest.php-AE7E6092F37E91C660B59B1DC8CA112518E1C88D",
+        "SPDXRef-File--test-PHPMailer-AddEmbeddedImageTest.php-F3C0B9C88D3C2ED01F6600BD7F208DF650575592",
+        "SPDXRef-File--test-PHPMailer-SetFromTest.php-7006FECAF1B61D2CEAF1BE61C92D2277B8270A2D",
+        "SPDXRef-File--test-PHPMailer-NormalizeBreaksTest.php-ACE1E215788CBB9241992B7E4414D3A8C2A69921",
+        "SPDXRef-File--test-PHPMailer-AddStringEmbeddedImageTest.php-323740A9B272F681993F10F6CC236F709B25CFFA",
+        "SPDXRef-File--test-testbootstrap-dist.php-544E0B3469F3FDC4C5DC25506EF470B67B7D5770",
+        "SPDXRef-File--UPGRADING.md-F4F0DAEA74D13547921307D7DDA7CA8A604AF2D8",
+        "SPDXRef-File--.editorconfig-01E2D3650088D3172965380DBE6239E23C800719",
+        "SPDXRef-File--src-OAuth.php-913023DE0FDF87633BA3806DA43A1A84D670D0D1",
+        "SPDXRef-File--.git-hooks-pre-push.sample-A599B773B930CA83DBC3A5C7C13059AC4A6EAEDC",
+        "SPDXRef-File--.git-hooks-pre-commit.sample-A79D057388EE2C2FE6561D7697F1F5EFCFF96F23",
+        "SPDXRef-File--.git-objects-pack-pack-56d2721971a50107e9c7e3aa208de627aae45a4a.idx-258A4EC6B486DB0CBC542FC197AD28BA0A1473F0",
+        "SPDXRef-File--.github-actions-build-docs-entrypoint.sh-942C7C063DB587429D66B469833D70CAF73260F8",
+        "SPDXRef-File--examples-images-phpmailer-mini.png-1F8823FCF2C8EDD78B62E2574598CFA4A8C43FBB",
+        "SPDXRef-File--examples-smime-signed-mail.phps-59AC6D879C1129D2C944416F0DA7E202FCCB05E5",
+        "SPDXRef-File--examples-README.md-0374DE54146E9A6F9BD07F39E13A5B661CAA0618",
+        "SPDXRef-File--examples-contents.html-C80474B7EAC0EBE4D44015B62EDEDAF4C1436226",
+        "SPDXRef-File--language-phpmailer.lang-ms.php-B8DD10B9276A641E1DB42C264A7E8AF8F7BF9639",
+        "SPDXRef-File--language-phpmailer.lang-vi.php-E0BD70CD3BF9AB52623D9CDD93690EE655765F45",
+        "SPDXRef-File--language-phpmailer.lang-pl.php-29CF30C08BFD2EFD8C1695C2A01314B101186666",
+        "SPDXRef-File--language-phpmailer.lang-ku.php-BB2815DCB1E30801397503B758A6B7B68470048D",
+        "SPDXRef-File--language-phpmailer.lang-gl.php-1075F2A11A9659D494B78A6D07ECFB1BE9437443",
+        "SPDXRef-File--language-phpmailer.lang-he.php-9622E975632E7AFEB2393464370D7265AFEA6613",
+        "SPDXRef-File--language-phpmailer.lang-tl.php-86A9C7EAFB8E4F90623D538F65BE73C15AC054C7",
+        "SPDXRef-File--language-phpmailer.lang-bg.php-0DA8076373121E4671A3CE4B178B2E6A10B73FB9",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xd-scri.php-B0DC3DB4CCBBC90A462969DEDDAF26E3B985827E",
+        "SPDXRef-File--test-Language-TranslationCompletenessTest.php-1615CD51C89D6F74BCAD918C005119AF5540E30D",
+        "SPDXRef-File--test-PHPMailer-EncodeQTest.php-B651D0333532516053F9E7229D749012D805D1B2",
+        "SPDXRef-File--test-PHPMailer-LocalizationTest.php-11C727CC5597F86A94E3E907E9AB5927D5AC6FE4",
+        "SPDXRef-File--test-PHPMailer-WrapTextTest.php-D22439AD5E64FB2B1F6BB9595A28737DAC44C02A",
+        "SPDXRef-File--test-PHPMailer-HasLineLongerThanMaxTest.php-ACCDD1E9FBEFB5A5EF2FF1AA6D1469EF0AE8076D",
+        "SPDXRef-File--test-PHPMailer-ICalTest.php-CF9811521F2210410BD8F011AA7117C9E0AA90E0",
+        "SPDXRef-File--test-fakesendmail.sh-7BE4C0FE8374D60DF92F78D72BE16A68CABEAAAE",
+        "SPDXRef-File--phpunit.xml.dist-3A9C4754678CCB61480AE1AF0DE91893E01AA9AC",
+        "SPDXRef-File--phpdoc.dist.xml-3DDEE36F229834C32FE13D26BB19B05F4A8532D4",
+        "SPDXRef-File--.git-refs-remotes-origin-HEAD-D9427CDA09ABA1CDDE5C69C2B13C905BDDB0BC51",
+        "SPDXRef-File--.git-hooks-prepare-commit-msg.sample-2584806BA147152AE005CB675AA4F01D5D068456",
+        "SPDXRef-File--.git-logs-refs-heads-master-77B2B5272581D9A1605F0771448643E0650A94FE",
+        "SPDXRef-File--.git-HEAD-ACBAEF275E46A7F14C1EF456FFF2C8BBE8C84724",
+        "SPDXRef-File--.github-workflows-docs.yaml-6260AB5B06B0D56327069003B646EA53401B466A",
+        "SPDXRef-File--examples-DKIM-gen-keys.phps-DCDE30C9116AE57BB2D23A16043137F0CA6BE3A1",
+        "SPDXRef-File--examples-callback.phps-216C0F32D2AE3DFBAA7C3320F03B13881DC781C7",
+        "SPDXRef-File--examples-DKIM-sign.phps-69482FD119DC3690C8DF4A7D31710CC1E6FF6BD8",
+        "SPDXRef-File--examples-send-multiple-file-upload.phps-568F67D117656FE1036D8372AFD5682AAD871FAE",
+        "SPDXRef-File--language-phpmailer.lang-as.php-C14064BB902B8B3B2FDE6D44DC8B3909D482DEDB",
+        "SPDXRef-File--language-phpmailer.lang-nl.php-5AC054FEC41018B83E876381FD9E82A5D71D2705",
+        "SPDXRef-File--language-phpmailer.lang-ka.php-FE43A984FD6F663A5703E3FD5D2A8D5892486562",
+        "SPDXRef-File--language-phpmailer.lang-fi.php-CFB37A48C7E04194CCD66D6E9D160C12FD64DD42",
+        "SPDXRef-File--language-phpmailer.lang-id.php-81077ECDA206BD11F485D041C665F331B5674E7D",
+        "SPDXRef-File--language-phpmailer.lang-it.php-7BC67952CCA3CDCE2D3B0EE48306A7FF25215321",
+        "SPDXRef-File--language-phpmailer.lang-mn.php-14CAE556939AF9611CF146643CB503866804ADF5",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xa-scri-cc.php-77A4F8280BAC3FA06760A42E1E29DB0214F78564",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-xc-cc.php-718D0A09A66017198020145E946C881B81C55577",
+        "SPDXRef-File--test-PHPMailer-ValidateAddressCustomValidatorTest.php-7B5492D0F37A3F14BD5AAC5152A911263325424C",
+        "SPDXRef-File--test-PHPMailer-SetTest.php-6E274E2F513DED842D13A3291A83E800FF52FFFC",
+        "SPDXRef-File--test-PHPMailer-Html2TextTest.php-EC7A70A6F203E6803E95AB3FEE7B313938AB802D",
+        "SPDXRef-File--test-PHPMailer-GenerateIdTest.php-071E690D85A623443AD047E6DE5E82D5F7AF3C1B",
+        "SPDXRef-File--test-PHPMailer-FileIsAccessibleTest.php-15D71CE109F3A060DACE1781E3A792A0255055B7",
+        "SPDXRef-File--test-validators.php-61C34B844E6137D8A65B2905D39EA99E1EC5A5AD",
+        "SPDXRef-File--get-oauth-token.php-952FDDF4AB5656B27F61E7FAF92E18A7F66DDE2A",
+        "SPDXRef-File--.gitignore-15B8F9F84BBA0E1485B7BE15E42A797B68023D44",
+        "SPDXRef-File--src-OAuthTokenProvider.php-BD32823F12CB7ADE44E0C8939F9316F2A40033AC",
+        "SPDXRef-File--.git-hooks-post-update.sample-B614C2F63DA7DCA9F1DB2E7ADE61EF30448FC96C",
+        "SPDXRef-File--.git-logs-refs-remotes-origin-HEAD-9A732F862DB4DF8423CCDD5D0663BB338A20A09A",
+        "SPDXRef-File--.git-description-9635F1B7E12C045212819DD934D809EF07EFA2F4",
+        "SPDXRef-File--.github-workflows-scorecards.yml-273668152906183D38BC097B54E6A74E96E12547",
+        "SPDXRef-File--examples-images-PHPMailer-card-logo.svg-0B777C7A856BD419C9BF69AD1FBC4895CD132DA0",
+        "SPDXRef-File--examples-smtp-no-auth.phps-948F4D0DBD8C880A3F7B99F18D6D7DA6F70D9F75",
+        "SPDXRef-File--examples-sendmail.phps-9D57ECB97005D018D3A5DB1EC67ABD58DADEAD3E",
+        "SPDXRef-File--examples-smtp-low-memory.phps-7F6313B79B82397F89E6912DD867AA766A88F39A",
+        "SPDXRef-File--language-phpmailer.lang-tr.php-219D3895387E9FEABF9182993051FAF4A12B3F58",
+        "SPDXRef-File--language-phpmailer.lang-bn.php-B66555507031BD545A133E2E3D6B788EA965FE3E",
+        "SPDXRef-File--language-phpmailer.lang-ja.php-300CFB5F41AEB5BFE6EAF802059B978D08F7B41A",
+        "SPDXRef-File--language-phpmailer.lang-da.php-B1E3C5B10CBF3381E5DCDC3FD5EA94A4CEEC26F9",
+        "SPDXRef-File--language-phpmailer.lang-sk.php-253E17E8F138C64E33F1C71D7751BE923A7F7B12",
+        "SPDXRef-File--language-phpmailer.lang-pt.php-4C6EDEA4C8DC1CFE72A38135FDF610E843F520E2",
+        "SPDXRef-File--language-phpmailer.lang-nb.php-804EB27D2328DC883A6877F189479750CA62F3EE",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-zz.php-45F2E90ECA8F069CE4D54E0E3F8E2E2E22507A0C",
+        "SPDXRef-File--test-Fixtures-LocalizationTest-phpmailer.lang-yy.php-6E48224C56C2CF263C0B5E15572EDB3BDA109F08",
+        "SPDXRef-File--test-PHPMailer-FilenameToTypeTest.php-D343B830944B8D73D84F81F1F4372F5E3A4220F3",
+        "SPDXRef-File--test-PHPMailer-SetErrorTest.php-188AA302A4B0E8C3B6910463F625E94D1E5F82BF",
+        "SPDXRef-File--test-PHPMailer-DKIMTest.php-10C2AC6FF28B0603A58D4D1CE6C05B31A3242642",
+        "SPDXRef-File--test-PHPMailer-DKIMWithoutExceptionsTest.php-EFE98DFE1F592325AB99B4A62CE8B1F887B6D242",
+        "SPDXRef-File--test-PHPMailer-AddStringAttachmentTest.php-6D9FDF97EE8C9843A4A7BE79E82F2124E21F07CE",
+        "SPDXRef-File--test-fakepopserver.sh-0A54EA9DCCE0973C0391358F6147E5678E466096",
+        "SPDXRef-File--.phan-config.php-16C37EB68E655A7C12C960948CC7A3156B422248",
+        "SPDXRef-File--VERSION-CAE88F63A115031287C44AC8F495FEB9CF244C58",
+        "SPDXRef-File--.codecov.yml-350AE7BACE62897EB310052A332C57833AB8F53A"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "phpmailer 182f7b9",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-3.1.0-dbe9086f-944c-4b10-ac69-d5b38febf618/phpmailer/182f7b9/f4ze6xBchkaugQy5dyZb5g",
+  "creationInfo": {
+    "created": "2025-03-01T20:35:40Z",
+    "creators": [
+      "Organization: Carnegie Mellon University Software Engineering Institute",
+      "Tool: Microsoft.SBOMTool-3.1.0"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

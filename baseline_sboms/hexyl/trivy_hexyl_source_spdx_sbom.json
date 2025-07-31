@@ -1,0 +1,2099 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "repos/hexyl",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/repos/hexyl-622db542-3c4c-471c-8d8b-ea15e0191aa4",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.59.1"
+    ],
+    "created": "2025-03-01T20:35:55Z"
+  },
+  "packages": [
+    {
+      "name": "Cargo.lock",
+      "SPDXID": "SPDXRef-Application-5a17e1cb90badde9",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "Type: cargo"
+        }
+      ]
+    },
+    {
+      "name": "anstream",
+      "SPDXID": "SPDXRef-Package-3260bacc3c7e130e",
+      "versionInfo": "0.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstream@0.3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: anstream@0.3.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "anstyle",
+      "SPDXID": "SPDXRef-Package-2f0320b6060d0a2f",
+      "versionInfo": "1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle@1.0.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: anstyle@1.0.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "anstyle-parse",
+      "SPDXID": "SPDXRef-Package-82cbece9c6db4b21",
+      "versionInfo": "0.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle-parse@0.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: anstyle-parse@0.2.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "anstyle-query",
+      "SPDXID": "SPDXRef-Package-d589a4e6917495a9",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle-query@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: anstyle-query@1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "anstyle-wincon",
+      "SPDXID": "SPDXRef-Package-8ebd232dde415a6d",
+      "versionInfo": "1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anstyle-wincon@1.0.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: anstyle-wincon@1.0.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "anyhow",
+      "SPDXID": "SPDXRef-Package-ad2e5a2dd97cafb3",
+      "versionInfo": "1.0.75",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/anyhow@1.0.75"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: anyhow@1.0.75"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "bitflags",
+      "SPDXID": "SPDXRef-Package-7531eb2b1bc03925",
+      "versionInfo": "2.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/bitflags@2.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: bitflags@2.4.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "bitflags",
+      "SPDXID": "SPDXRef-Package-d424bb845405faeb",
+      "versionInfo": "1.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/bitflags@1.3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: bitflags@1.3.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "cc",
+      "SPDXID": "SPDXRef-Package-3d402ec553263c86",
+      "versionInfo": "1.0.83",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/cc@1.0.83"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: cc@1.0.83"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "clap",
+      "SPDXID": "SPDXRef-Package-f38dd37159328e7",
+      "versionInfo": "4.3.23",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap@4.3.23"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: clap@4.3.23"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "clap_builder",
+      "SPDXID": "SPDXRef-Package-8fc8278713832bb0",
+      "versionInfo": "4.3.23",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap_builder@4.3.23"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: clap_builder@4.3.23"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "clap_derive",
+      "SPDXID": "SPDXRef-Package-4fe61bb349bd440b",
+      "versionInfo": "4.3.12",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap_derive@4.3.12"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: clap_derive@4.3.12"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "clap_lex",
+      "SPDXID": "SPDXRef-Package-4b054daaa6e6ddae",
+      "versionInfo": "0.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/clap_lex@0.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: clap_lex@0.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "colorchoice",
+      "SPDXID": "SPDXRef-Package-2d409cfd9c2e0c08",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/colorchoice@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: colorchoice@1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "const_format",
+      "SPDXID": "SPDXRef-Package-8b6f46a4b811fff8",
+      "versionInfo": "0.2.31",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/const_format@0.2.31"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: const_format@0.2.31"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "const_format_proc_macros",
+      "SPDXID": "SPDXRef-Package-8548bd88c34fa7d0",
+      "versionInfo": "0.2.31",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/const_format_proc_macros@0.2.31"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: const_format_proc_macros@0.2.31"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "errno",
+      "SPDXID": "SPDXRef-Package-49f5e9d99d00f5c8",
+      "versionInfo": "0.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/errno@0.3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: errno@0.3.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "errno-dragonfly",
+      "SPDXID": "SPDXRef-Package-5f282dea55d6ac5f",
+      "versionInfo": "0.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/errno-dragonfly@0.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: errno-dragonfly@0.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "heck",
+      "SPDXID": "SPDXRef-Package-cdafdf19765fd681",
+      "versionInfo": "0.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/heck@0.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: heck@0.4.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "hermit-abi",
+      "SPDXID": "SPDXRef-Package-86ade036173c27d6",
+      "versionInfo": "0.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/hermit-abi@0.3.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: hermit-abi@0.3.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "io-lifetimes",
+      "SPDXID": "SPDXRef-Package-6fbf013671c45490",
+      "versionInfo": "1.0.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/io-lifetimes@1.0.11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: io-lifetimes@1.0.11"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "is-terminal",
+      "SPDXID": "SPDXRef-Package-df9630bc9c1f3725",
+      "versionInfo": "0.4.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/is-terminal@0.4.9"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: is-terminal@0.4.9"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "is_ci",
+      "SPDXID": "SPDXRef-Package-36e360165e935425",
+      "versionInfo": "1.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/is_ci@1.1.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: is_ci@1.1.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "libc",
+      "SPDXID": "SPDXRef-Package-99c308d9bc193c17",
+      "versionInfo": "0.2.155",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/libc@0.2.155"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libc@0.2.155"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "linux-raw-sys",
+      "SPDXID": "SPDXRef-Package-5f8825aab11d649",
+      "versionInfo": "0.3.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/linux-raw-sys@0.3.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: linux-raw-sys@0.3.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "linux-raw-sys",
+      "SPDXID": "SPDXRef-Package-60fd8d354f152479",
+      "versionInfo": "0.4.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/linux-raw-sys@0.4.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: linux-raw-sys@0.4.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "once_cell",
+      "SPDXID": "SPDXRef-Package-3e969682f5896ccf",
+      "versionInfo": "1.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/once_cell@1.18.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: once_cell@1.18.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "owo-colors",
+      "SPDXID": "SPDXRef-Package-3960f4564e7f6a47",
+      "versionInfo": "3.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/owo-colors@3.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: owo-colors@3.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "proc-macro2",
+      "SPDXID": "SPDXRef-Package-82440c9ea65efe40",
+      "versionInfo": "1.0.66",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/proc-macro2@1.0.66"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: proc-macro2@1.0.66"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "quote",
+      "SPDXID": "SPDXRef-Package-f47917929f6300c4",
+      "versionInfo": "1.0.33",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/quote@1.0.33"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: quote@1.0.33"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "rustix",
+      "SPDXID": "SPDXRef-Package-41b0d5201561ae46",
+      "versionInfo": "0.38.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/rustix@0.38.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: rustix@0.38.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "rustix",
+      "SPDXID": "SPDXRef-Package-58608e92218aaf37",
+      "versionInfo": "0.37.23",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/rustix@0.37.23"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: rustix@0.37.23"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "strsim",
+      "SPDXID": "SPDXRef-Package-6481a861afcf019e",
+      "versionInfo": "0.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/strsim@0.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: strsim@0.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "supports-color",
+      "SPDXID": "SPDXRef-Package-3b1f654d15e733a2",
+      "versionInfo": "2.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/supports-color@2.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: supports-color@2.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "syn",
+      "SPDXID": "SPDXRef-Package-b1a89cb8f739e0e6",
+      "versionInfo": "2.0.29",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/syn@2.0.29"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: syn@2.0.29"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "terminal_size",
+      "SPDXID": "SPDXRef-Package-ae763379e884301d",
+      "versionInfo": "0.2.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/terminal_size@0.2.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: terminal_size@0.2.6"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "thiserror",
+      "SPDXID": "SPDXRef-Package-ba34691a3cef985a",
+      "versionInfo": "1.0.47",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/thiserror@1.0.47"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: thiserror@1.0.47"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "thiserror-impl",
+      "SPDXID": "SPDXRef-Package-9cd34f27e7772238",
+      "versionInfo": "1.0.47",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/thiserror-impl@1.0.47"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: thiserror-impl@1.0.47"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "unicode-ident",
+      "SPDXID": "SPDXRef-Package-e02be3508dbd26ee",
+      "versionInfo": "1.0.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-ident@1.0.11"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: unicode-ident@1.0.11"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "unicode-xid",
+      "SPDXID": "SPDXRef-Package-9f92e87b2d887755",
+      "versionInfo": "0.2.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/unicode-xid@0.2.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: unicode-xid@0.2.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "utf8parse",
+      "SPDXID": "SPDXRef-Package-2e32a8b42db2df83",
+      "versionInfo": "0.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/utf8parse@0.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: utf8parse@0.2.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows-sys",
+      "SPDXID": "SPDXRef-Package-e8e3dd95238699f1",
+      "versionInfo": "0.48.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows-sys@0.48.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows-sys@0.48.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows-targets",
+      "SPDXID": "SPDXRef-Package-8c3b143f02b4afad",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows-targets@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows-targets@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_aarch64_gnullvm",
+      "SPDXID": "SPDXRef-Package-ee03f2c78923101a",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_aarch64_gnullvm@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_aarch64_gnullvm@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_aarch64_msvc",
+      "SPDXID": "SPDXRef-Package-fb7e78e0a91cf571",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_aarch64_msvc@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_aarch64_msvc@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_i686_gnu",
+      "SPDXID": "SPDXRef-Package-1ab198c82c1f9127",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_i686_gnu@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_i686_gnu@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_i686_msvc",
+      "SPDXID": "SPDXRef-Package-cf41551711a452fc",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_i686_msvc@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_i686_msvc@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_x86_64_gnu",
+      "SPDXID": "SPDXRef-Package-999cea6c84aa8003",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_x86_64_gnu@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_x86_64_gnu@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_x86_64_gnullvm",
+      "SPDXID": "SPDXRef-Package-9fc1c16f2957ee48",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_x86_64_gnullvm@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_x86_64_gnullvm@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "windows_x86_64_msvc",
+      "SPDXID": "SPDXRef-Package-360ba11838683f53",
+      "versionInfo": "0.48.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: Cargo.lock",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:cargo/windows_x86_64_msvc@0.48.5"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: windows_x86_64_msvc@0.48.5"
+        },
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: cargo"
+        }
+      ]
+    },
+    {
+      "name": "repos/hexyl",
+      "SPDXID": "SPDXRef-Filesystem-ea4b25e4973cd70f",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.59.1",
+          "annotationDate": "2025-03-01T20:35:55Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-5a17e1cb90badde9",
+      "relatedSpdxElement": "SPDXRef-Package-3960f4564e7f6a47",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5a17e1cb90badde9",
+      "relatedSpdxElement": "SPDXRef-Package-3b1f654d15e733a2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5a17e1cb90badde9",
+      "relatedSpdxElement": "SPDXRef-Package-8b6f46a4b811fff8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5a17e1cb90badde9",
+      "relatedSpdxElement": "SPDXRef-Package-ad2e5a2dd97cafb3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5a17e1cb90badde9",
+      "relatedSpdxElement": "SPDXRef-Package-ba34691a3cef985a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-5a17e1cb90badde9",
+      "relatedSpdxElement": "SPDXRef-Package-f38dd37159328e7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-ea4b25e4973cd70f",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-ea4b25e4973cd70f",
+      "relatedSpdxElement": "SPDXRef-Application-5a17e1cb90badde9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-2d409cfd9c2e0c08",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-2e32a8b42db2df83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-2f0320b6060d0a2f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-82cbece9c6db4b21",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-8ebd232dde415a6d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-d589a4e6917495a9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3260bacc3c7e130e",
+      "relatedSpdxElement": "SPDXRef-Package-df9630bc9c1f3725",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b1f654d15e733a2",
+      "relatedSpdxElement": "SPDXRef-Package-36e360165e935425",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b1f654d15e733a2",
+      "relatedSpdxElement": "SPDXRef-Package-df9630bc9c1f3725",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3d402ec553263c86",
+      "relatedSpdxElement": "SPDXRef-Package-99c308d9bc193c17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-41b0d5201561ae46",
+      "relatedSpdxElement": "SPDXRef-Package-49f5e9d99d00f5c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-41b0d5201561ae46",
+      "relatedSpdxElement": "SPDXRef-Package-60fd8d354f152479",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-41b0d5201561ae46",
+      "relatedSpdxElement": "SPDXRef-Package-7531eb2b1bc03925",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-41b0d5201561ae46",
+      "relatedSpdxElement": "SPDXRef-Package-99c308d9bc193c17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-41b0d5201561ae46",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-49f5e9d99d00f5c8",
+      "relatedSpdxElement": "SPDXRef-Package-5f282dea55d6ac5f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-49f5e9d99d00f5c8",
+      "relatedSpdxElement": "SPDXRef-Package-99c308d9bc193c17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-49f5e9d99d00f5c8",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4fe61bb349bd440b",
+      "relatedSpdxElement": "SPDXRef-Package-82440c9ea65efe40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4fe61bb349bd440b",
+      "relatedSpdxElement": "SPDXRef-Package-b1a89cb8f739e0e6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4fe61bb349bd440b",
+      "relatedSpdxElement": "SPDXRef-Package-cdafdf19765fd681",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4fe61bb349bd440b",
+      "relatedSpdxElement": "SPDXRef-Package-f47917929f6300c4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58608e92218aaf37",
+      "relatedSpdxElement": "SPDXRef-Package-49f5e9d99d00f5c8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58608e92218aaf37",
+      "relatedSpdxElement": "SPDXRef-Package-5f8825aab11d649",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58608e92218aaf37",
+      "relatedSpdxElement": "SPDXRef-Package-6fbf013671c45490",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58608e92218aaf37",
+      "relatedSpdxElement": "SPDXRef-Package-99c308d9bc193c17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58608e92218aaf37",
+      "relatedSpdxElement": "SPDXRef-Package-d424bb845405faeb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-58608e92218aaf37",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5f282dea55d6ac5f",
+      "relatedSpdxElement": "SPDXRef-Package-3d402ec553263c86",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-5f282dea55d6ac5f",
+      "relatedSpdxElement": "SPDXRef-Package-99c308d9bc193c17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6fbf013671c45490",
+      "relatedSpdxElement": "SPDXRef-Package-86ade036173c27d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6fbf013671c45490",
+      "relatedSpdxElement": "SPDXRef-Package-99c308d9bc193c17",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6fbf013671c45490",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-82440c9ea65efe40",
+      "relatedSpdxElement": "SPDXRef-Package-e02be3508dbd26ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-82cbece9c6db4b21",
+      "relatedSpdxElement": "SPDXRef-Package-2e32a8b42db2df83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8548bd88c34fa7d0",
+      "relatedSpdxElement": "SPDXRef-Package-82440c9ea65efe40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8548bd88c34fa7d0",
+      "relatedSpdxElement": "SPDXRef-Package-9f92e87b2d887755",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8548bd88c34fa7d0",
+      "relatedSpdxElement": "SPDXRef-Package-f47917929f6300c4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8b6f46a4b811fff8",
+      "relatedSpdxElement": "SPDXRef-Package-8548bd88c34fa7d0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-1ab198c82c1f9127",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-360ba11838683f53",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-999cea6c84aa8003",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-9fc1c16f2957ee48",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-cf41551711a452fc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-ee03f2c78923101a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8c3b143f02b4afad",
+      "relatedSpdxElement": "SPDXRef-Package-fb7e78e0a91cf571",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8ebd232dde415a6d",
+      "relatedSpdxElement": "SPDXRef-Package-2f0320b6060d0a2f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8ebd232dde415a6d",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8fc8278713832bb0",
+      "relatedSpdxElement": "SPDXRef-Package-2f0320b6060d0a2f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8fc8278713832bb0",
+      "relatedSpdxElement": "SPDXRef-Package-3260bacc3c7e130e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8fc8278713832bb0",
+      "relatedSpdxElement": "SPDXRef-Package-4b054daaa6e6ddae",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8fc8278713832bb0",
+      "relatedSpdxElement": "SPDXRef-Package-6481a861afcf019e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-8fc8278713832bb0",
+      "relatedSpdxElement": "SPDXRef-Package-ae763379e884301d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9cd34f27e7772238",
+      "relatedSpdxElement": "SPDXRef-Package-82440c9ea65efe40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9cd34f27e7772238",
+      "relatedSpdxElement": "SPDXRef-Package-b1a89cb8f739e0e6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9cd34f27e7772238",
+      "relatedSpdxElement": "SPDXRef-Package-f47917929f6300c4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae763379e884301d",
+      "relatedSpdxElement": "SPDXRef-Package-58608e92218aaf37",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae763379e884301d",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b1a89cb8f739e0e6",
+      "relatedSpdxElement": "SPDXRef-Package-82440c9ea65efe40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b1a89cb8f739e0e6",
+      "relatedSpdxElement": "SPDXRef-Package-e02be3508dbd26ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-b1a89cb8f739e0e6",
+      "relatedSpdxElement": "SPDXRef-Package-f47917929f6300c4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ba34691a3cef985a",
+      "relatedSpdxElement": "SPDXRef-Package-9cd34f27e7772238",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-d589a4e6917495a9",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-df9630bc9c1f3725",
+      "relatedSpdxElement": "SPDXRef-Package-41b0d5201561ae46",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-df9630bc9c1f3725",
+      "relatedSpdxElement": "SPDXRef-Package-86ade036173c27d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-df9630bc9c1f3725",
+      "relatedSpdxElement": "SPDXRef-Package-e8e3dd95238699f1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e8e3dd95238699f1",
+      "relatedSpdxElement": "SPDXRef-Package-8c3b143f02b4afad",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f38dd37159328e7",
+      "relatedSpdxElement": "SPDXRef-Package-3e969682f5896ccf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f38dd37159328e7",
+      "relatedSpdxElement": "SPDXRef-Package-4fe61bb349bd440b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f38dd37159328e7",
+      "relatedSpdxElement": "SPDXRef-Package-8fc8278713832bb0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f47917929f6300c4",
+      "relatedSpdxElement": "SPDXRef-Package-82440c9ea65efe40",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

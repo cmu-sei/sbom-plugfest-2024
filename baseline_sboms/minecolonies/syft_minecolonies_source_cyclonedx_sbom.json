@@ -1,0 +1,109 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:771595f1-eb02-4847-89ce-a9e0455b025a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-03-01T15:36:23-05:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.20.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "bb225687cfc16d54",
+      "type": "file",
+      "name": "minecolonies",
+      "version": "7c184da"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=e88364ec3fa76d61",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "803860b7b0aaa5b6",
+      "type": "file",
+      "name": "/Users/mpriest/sbom/sei-sbom-examples/repos/minecolonies/gradle/wrapper/gradle-wrapper.jar",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d99b3fab4e678237951d90da6814fc9eb17b97ca"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c5a643cf80162e665cc228f7b16f343fef868e47d3a4836f62e18b7e17ac018a"
+        }
+      ]
+    }
+  ]
+}
