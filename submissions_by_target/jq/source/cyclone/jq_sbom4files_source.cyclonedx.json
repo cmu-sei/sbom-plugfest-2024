@@ -1,0 +1,2405 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:e69db2df-1bf1-4758-9c21-048cdb30161a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-09T21:13:06Z",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "name": "sbom4files",
+          "version": "0.4.5",
+          "type": "application"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "CDXRef-DOCUMENT",
+      "name": "jq"
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "1-jv_file",
+      "name": "src/jv_file.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "60b71f7a1b3ecb6a438c574bb7d702af2728fb34"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b74b71296c933193cd1cc5e31c1567c983044588c224cc37e14c37e56a86166f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5c49e81f039416987b477eb72f10c18b1e1a2afa549b622b943dc23b52ea07607db2acf50b46fb0ca07f2a1afef196f8cfe23ff0151f19dbe34ef820075dfcb9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "2-inject_errors",
+      "name": "src/inject_errors.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f180d99cb4e6e6f8732cbf0e5a7b732654fe181a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0f20ba17336fc934dc2c81f99d35c5077b197fd77ab068f2cd389cefe20f8c0d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "672a02162854dbced42295fe51bcdfa0cb50d28007c1634fb7d3b2c5192a6df2e445318eb4a1452e226d6fc454589d1dec832f87b166fd2485e704e79965240b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "3-util",
+      "name": "src/util.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "eb5af99ee40bd6264224231bff7ebd1431a696c6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fd8adf652fb1c09a3b14354124909384dea01637182cfcfdb3f471a960b9414b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9cefa8d25d1042d726b298136eaada61a69acb3b2e798b5a3739157b0a19c7014f8cc592770e23b07b5a5820d9b92e649100f025482acf098d2f360ae3fd65c1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "4-jv_print",
+      "name": "src/jv_print.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b5d2d1ef5432bbc56c67d913204a9901fcade5f3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "47cd10b0cd4e23da307a09f6157c3bf00f4605dbbd81c3cf48dd41f229b3e51a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb0f6f2f4fe056f5a52ee746f065b775189361693c42e214d8af6030c5ef110927dab38d7d2be57305a4d18f235e8fec25cb1017e962153de5df10352c3cbbb3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "5-builtin",
+      "name": "src/builtin.jq",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d67ad3b9a7c82a9c4a9f83c2fd69e50fcef143c0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2ced3630dd29c373255bd7cb746f9f05fa81362a2ee305c8635fabb88b1c5387"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d32e0c68be7d1f6c24dde06e428e5890b9dd16e696c146c887435c167b508862471fbb5669da18e1d7f93a3e40810e831362a9f743d644edde90f9b692526fa3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "6-lexer",
+      "name": "src/lexer.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b941b39ce25699900591eae8bd4b47a365405fdf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "76cedda8fd1c3a795ea253dbd17508985d3decd23e0c0e3a8074fc35df4ba473"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "934c8919f50dd76594f93b8849ff04f88e813411e4a018a983f5a46fa574e97c3e6238911b80192e2368d86ef57ea78f20e4b374f7328e56a94cbc35da24d539"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "7-jv",
+      "name": "src/jv.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a9e7562c48a2c87984b2ce0fcb375ac30e6a2add"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "556ac4e5dc680e68ca3fb0d76c63e7ffc7ff058a14d2c82dd9329656a9b2860f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "21159779c0ae5085584878122a9b582bf50964a501a37814bff4e0311794515fa65266bd7e3aad5f1d7e315ae8abc32727d3d562cc651378671efebc8043b93d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "8-builtin",
+      "name": "src/builtin.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "540690dc75a2a8795f9129a0e7a8da87253bf791"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8209acae8137d401e646a509c5c21481547de06b39b8d0597285fe56b2701354"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "97f21c1327598231a44fa9af39c16c018f2a126eb728de85d591e3acb4d7a0558e9b5bd0f4417f3aa90194a921c26b44f9fa364e3114e7ad083c05d4b78b4a18"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "9-jv_dtoa_tsd",
+      "name": "src/jv_dtoa_tsd.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8c90aa761b783826a5324e8775c87a16506d68cd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "46ac4f955148a4fa1c5224e58cc9e67fe4672ec08777854cb5d4adcf6013a8f4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ccff4481d208adb07dc3e336fe7d88e27605ab9782c731b7669ea2157634ff701e66d035fcac560185cc181d35c62c774fc27f49d52214f04fbb91a5ae952ba2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "10-jv_unicode",
+      "name": "src/jv_unicode.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "efd8c6f85ad97d397b0b05d82998a19fb8717fb6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67f29a42aaa62604633007058e5e3d1169b36166cbba32e9bc200e6e9fd16a0a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8f0038c5ebb1e9b988970dbf5b216837aa147b34912544f3dc51faa2de1e6d26c362db41de8094450890d9ba26763859030e551cc2172acf6d6e5033849e2830"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "11-lexer",
+      "name": "src/lexer.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8e3eba2806d6faa30e27eba17d450f3f787c831e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ea7c3c87e375eaca817bc7525ce5a6b9f838db69060db89ae09278a6845f0120"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "df2b4ea3a8414e033af5066c240228bfd13af4f6533e1d2218d51b2d10179b700f9f127e64b15d076a6d44614b3070615d84bf416a54814f779f323beaf4aeae"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "12-main",
+      "name": "src/main.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b2ffd8023b51be45cc2a58c0e83aba9311cb1626"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "52850e09c87e6ab233b834501f0904e36de8c0fb260d6c3290007c954ba926a3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "67cc886ff57ba859e25e37238fd76350d3164922b7ba657f545c8acfef5bbc55418168fc87ccb51a4ffb07a6af4bdb15f8a909f6f3f7430e3e13144a548781b9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "13-locfile",
+      "name": "src/locfile.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a4f0b9c7c53f97b9bf46bfd9dfc096b6a9cb8010"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "affbb2c6a7eb1802e315069ee907072decdf52163846ead3fc73bd7bf2d7f95b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ead11ad33665d22ad8dee213d13348a3cdd145faa45b81f40b75e8780e8d98ec4a6918a7335872ff30f1420671537a906090a7172dc89d9a0d5b4a2b1756cb9e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "14-jq_test",
+      "name": "src/jq_test.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9d537aa9cde0db388ce82f2a625c15e50b704204"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "407e694b9e546f7402e0fe95f175aebe97f3b54ada09764108b4804ff6fc2bff"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ec7e8889685ec1a0444aceccaebca1d2fcbedbe82663f6d7fbd2876d6b660a9314a07e6600d49ad8a832e6f0da5c5a369fea58b221cc7b2fb52084f4c5b301f0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "15-jv",
+      "name": "src/jv.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5cf2b93d8860003e30fc063f60bbca254ff3efb8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ea5f73183661d5c4ce9aa62aa8430ff5a556058f3a61c808999b4b60266c9db2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aa535f16e4b1d33ff2c89bc32b9271a95ca60c6139dfde78052b45b241e018e8b34b1e1f2fabba9d98e168e2ee9fb789b7aeaaadcdae1c211028da791f0cee88"
+        }
+      ],
+      "copyright": "(c) 2016 Kungliga Tekniska H\u00f6gskolan",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "16-exec_stack",
+      "name": "src/exec_stack.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ae3f2dad1ae3ee6579e49d2eaf5dc4b5b9533fe5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc6a4f0981c1a30e0264bdd3e4dd3c7d9fb190cdb038bd81ea40b95e6c9c2a89"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7e13bd24515d8e1e54b3db0a0e135ab01d98304b56314cd84bf6d2dbeb290414f867ff6b7cfb31c2126edfb3ca3756ba6a3c638c1dc75bfdd96fffecfada5afb"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "17-jv_alloc",
+      "name": "src/jv_alloc.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1cdeb69045f6967adaebbb226293687ce5cbb05b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fb592b213a15e1326c60a62430af492eff09650fe03abfd585563d96a0166595"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a89f6c72fbad5e67f108f406a7e3c8e5d4fb64ceeebc27a683c35043113e70b77d3bb7d47123b1a477d6b8b4645fa32c78930d613f18907aef93ee284d42b9a3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "18-parser",
+      "name": "src/parser.y",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a3c645dde1982c5239892e36695dee590e700a5a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4b0196e114ebded32ec464c5ff874d1fcd859698b0ece987cc4dfd888d8075ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "992057aa4aad5e3ff533f46c2298cc1a1f42a602b3deb6cffd29e2026dead036665dbdda85b55197cefdc866fdc5abb05073b6e8462d7f9ae92a19ea77817a09"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "19-lexer",
+      "name": "src/lexer.l",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d6c3ae7c9b898ff448b4f4e04640f4286592fe97"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4760e21dd036cf29a3386e852c7f92a3fd19fa5d31f399f06ff44239930c8407"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c14dac39ee5542992c434068a22da1081db43f631056ab478e636aaead3611d5dec68056930e11dbe07cda30e1c9e5928839b337f01d55e50025b11bab09d434"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "20-parser",
+      "name": "src/parser.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7c184787ef4fc79693d14ae17dfb14f17a04e52f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a8a32cd4da1ce205cc8ba03001db1709791634015c51736c6e49d1aa80078b9e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "41cefaddd51be2e03593414935251fea3604b9b63805072d5f5b0118908cf35f16b5e3cbd0641e30f0ca2b9755e18ca569d7c3848f6357d9beb1cf2a30bc6019"
+        }
+      ],
+      "copyright": "(C) 1984, 1989-1990, 2000-2015, 2018-2021 Free Software Foundation,",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "21-jq",
+      "name": "src/jq.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3ee87693c7af5e08d8ce43841357ba626a5424f0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "976689e8c3dc0b4b7d7bba50dc560277c638694681a356be61ae93787b335f8d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "45dfbd86e79ab26a6fa28a26e008cab55cb394d5f1eaa2c7563a7d4fe361523aeb656f39ec3a24c1fd8720de3969cfa7acb9827f9cd897730ad3db8892a436f5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "22-bytecode",
+      "name": "src/bytecode.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ea16c951622698fb34825e9bf0cf1327cae938e3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "240d60fd0a62588066e13eb7e2961ce341338a33aea14c2e4b91c5be90d2e8bb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b5757891c07b35dc56af8ae04bd813fece3e604601a98089305ac3f9a5f53a9742810de2ad9f8974d20233f118dca841fa018a61707d4e1ac8bc27d20e60d329"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "23-parser",
+      "name": "src/parser.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "115544f3357c4998cb32cab3eebf69d68b2b8fb0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e019ce2ad06c105a0565f3b3642eab97f280f290efab849978af2eff9c462695"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a20d9f2ef3b4feb55dbdb482d489ab564232a6fbabc64a2ab199d8044e8929d10c3677a52c06b187b5468b9ffa4f49c14f7dbf42401588d6d5b70cfda15bdd66"
+        }
+      ],
+      "copyright": "(C) 1984, 1989-1990, 2000-2015, 2018-2021 Free Software Foundation,",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "24-locfile",
+      "name": "src/locfile.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "17ca4d1699f8571e59e59d2ca5c1c80e01782799"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0cbf98475507e3bb0524c045bb4fe48bb6b2ef5ef9b88840f58ce935c04c0bc2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fb3da9ad136c0bc164c2b56a8fa551781d2aa381c4fa39936df8a699787226405ac353060ba5f96ac530382e713325c206d0130a8a7207fb60a73de095059078"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "25-jv_parse",
+      "name": "src/jv_parse.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f12de4ce8173b1af26b5f7ffd2c36ed3ca6e3045"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b894d4b76ac1ad341066939179ff1dd9001e318eab74f9f4609bea29c198d87d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "32f412c939d899397968b7da304e7c1e03e28e86c97a0ccca82e3ef79e1d1abbd2cb29bc09dc4d0af494cfc96f58be0aafc2384f34a95d410df34ed70bb1d65a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "26-jv_dtoa",
+      "name": "src/jv_dtoa.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d61f689ea2c4bd908f2e61466af4421ddc60fcfb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e78b44bc56f0e9b3c65acd8703b5e0a20dad2b497a15fa2daee08c9472b4d72b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c464aa144ab7d32d5a81e11e48af4cf44c24ce2682af6a108d0cc676c3b43251ca1240f9ad9371239837e075262896105aeb6fda4c7384002c315736b3ba3d4b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "27-jv_dtoa_tsd",
+      "name": "src/jv_dtoa_tsd.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4338fd142efe6aca39e7f4ecab02b3cc0afb3a4d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "78ef84f54aef20e79f3c5e0ab40335ead34e6a76802497000caf6a50f661323a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2a75eb3269542b8bf1a7ccc09ce19e507bfe3797c91441841c0043980ab0fed59ce37a36ebc4abc9ea16203f3065ba80b8845026c6ded64d2df7e35b89b268a8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "28-jv_alloc",
+      "name": "src/jv_alloc.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4d5ca55bea7174ec48ceae719ef80173619fc751"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "db595c10d31094465c6d7a3814cb4778080998e5ff9d43e8937c9e10b308a8e1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6808b8c2f23320f937d8213a6d165b71168bbdcff1ef72c553adad2aa84a8cb1f770745a1cf195a981116e3959cb687ff9049a8f7ca122c21aea2bc5faa706d3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "29-jv_utf8_tables",
+      "name": "src/jv_utf8_tables.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7527ca10e5ccdff87875315253589ff49086f726"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c46c76aada9e0bd7e48f9daa427ae51ee6688e32872aa61ae624e8d2524108d6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d165426a44ecf4e689f5de31e44a5e82323fdde3836bf34713018aedc63cd2b8e0becb196a7f8da4ba2f8ef69a8a8ccc8698a58003e6cc555b6f34c996aa08a6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "30-bytecode",
+      "name": "src/bytecode.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "842a41db7d80efdf4264ec5f85604dce6a231b07"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "efcc9c27815dead465eaadaf9503c329f3e09c360812b144a4228d5e7ebee937"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "271fad5052d2e2c70e4428135c9a554066779f875c21c09342ac756d0016471e0d10555c85526140f3be932d35fb863d9fe9d41abd7775cb6c49e02060d44f1a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "31-util",
+      "name": "src/util.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "227a2a82ef2f2c89560ebb15d248ddf40a61cb9b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5c72d9970481a41c93bccc993df2776e368252d5134808569212803578ad9679"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "265e4a564390b20c276c23bc5753af06799e9984bd2585a59dc19505bb004974dbdca735862859c492083d70f50d3db69954be40382d144d9263ae91dffd3067"
+        }
+      ],
+      "copyright": "(c) 1997, 1998, 2005, 2008 The NetBSD Foundation, Inc.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "32-jq_parser",
+      "name": "src/jq_parser.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "571caa7fc0b1a0c71b9008c6338f6abb90b35946"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c1913f6d74642ae91113653acb3defbd46482f708a80c309f98a7cb1e44f0483"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cb8b992c89a66eae55e707dc09c567bfd41ed1ed4d7b65d9edf970bbdc0d737403ea6987f9b018c1b2c03c94c4a8a3ab37efdaa84510c88bd9630dc253d6732d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "33-compile",
+      "name": "src/compile.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b99eb392de9118693cbdd3267b76ec6f5f213de7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cc7685634925661d1fbb434e764771b2a15c87a132d76b42606a3c6a7ae8f21a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1bad68306ad47cba8bab23848386f018c6e9157a98a81a193cec3120904860927d3d38adaf5ea6fca0743b5e79f7f735db1eb98233627c4b20f56c08804b8e41"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "34-jv_dtoa",
+      "name": "src/jv_dtoa.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ca4eef69151a5abc1915dbe45a231726b523dd52"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9d5572e181c3824fa5abd79a191b3104615e07327bd1c614d8574e3c4e63efe5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8dd4e6bd19ca48ca30db97698254d0b4c4deaad4b9242465a65d821403ef69f3919614ef0c2656b5434859891d283554fc12b5b6d82202cd7ab311a4ad2dc379"
+        }
+      ],
+      "copyright": "(c) 1991, 2000, 2001 by Lucent Technologies.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "35-libm",
+      "name": "src/libm.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "52bd38da77bd73a4394b9b52386850b3304ae52b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "13aaee9c9537fdd2acf1105f3bc7de86b953ae4a77bd7a04b07d2ad84ea7e95d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e503d7f72d6ed3267338bc94cca1ada8ac50ddb64f91665feb41b9347f2575dabf9aeb17c04fdbc87508d78f7caaaa6832b38710a82e230868d4922c38cf971d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "36-linker",
+      "name": "src/linker.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "804bed300f707af4ce99c6f99e414e9a6c370958"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "08f1df5fcf23171036d0f9636697ed03eb2d5b8feebe743a765732f676effa68"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ab150b67e0092eeb57ff1b1c2393f8b9e6dd489839ad8509628ded93ec7cf02ee71638e78818507da66e57ba6e13207e18fb6e708f5024f0804e405920184f69"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "37-jv_unicode",
+      "name": "src/jv_unicode.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9af84b2d5c7aeb6409936df1cc677c7ae0ac0107"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc42a12acedb0468aa3b13a105b994bd8e81c15357f10375dc295866132044de"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "633de6281bd83e34df7a9edb111bd9fcea5a83f14edd78d484e8ef2291ad942ab261e880668e8f58ae810dbe56d05c004df7320276307214d63bbb813c1c07f6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "38-jv_thread",
+      "name": "src/jv_thread.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2cfac2c0b2afeb8657572ca53f574d81c1be3fa8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a9f8457779813b8766fe72a34d6e2a3e8f11052eaf08bdfe8f3efafff36eb525"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "edcf3689cc77953f21c492c2a743adf2234922435089bf77eb0c495d669c1cbe5065504cc2d35e79a50deb5fbc48b1db3c49f79e7f4938bb2dde1a29301d38a4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "39-jv_aux",
+      "name": "src/jv_aux.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c4f14dc4b69e60f734783ad420883261ee74f927"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "35b44fd005513dc13562915838720c7655d404678b49811ee24bd529e5dad1cc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13401d640a9b69e747537eb32697955d2531a82eeb6bd3e994d148b2ed7c92eddaa9a260d01109a475db811860162af9071db7f5d87cc934bda6626433d2c248"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "40-opcode_list",
+      "name": "src/opcode_list.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "41b813d49416e77b19ec3a29786354606ac02812"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "07fe179fcf4d177a94f08f5fb4e56b077eb98833d0c98aff15970c4ab69542bc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9607d0015ede6da4c50aeefc5a8841ae765df48221232e6cce4721d09bd54f021db08cceff8626cd34879e23ec9aa71ccfc0e48b51c2df88d599df2ab508ff52"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "41-builtin",
+      "name": "src/builtin.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a34d5b30874d2bc7febf9a63533c345d73385139"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "371feb3b8060026c087c516085698450d87a541cb4efac884cb467d5166a7ffe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a2c25e7b06bf7fbe971a7be904ccaeff8a1d32e8dc2e48af85141419d2b44d0493df6fa0abde6da15897c58bffcaa2866cb01c32d2647ecd8a3041948375bf3b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "42-execute",
+      "name": "src/execute.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "555580bd5fb55b2209512f88b9f9b2114b8c5614"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4cc62c69f132079bd049d3303971c16f57036db2258b273699ea48e18a1a8246"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "01a133341a60fc6dede3f2bf93623512edb810a20e0bd48b700cbea2b7f38477a674f099da5817e2b8aab01b4f39e91fa268b0f3246a1fc1f25482dfaeb6b071"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "43-compile",
+      "name": "src/compile.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "49285e72f3cca37565fee8d05a2cc0b53debac99"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54cf123fc6c4842f8b90cde750df8ea689635cd07ede54afb2002f528b0f571b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d6f2d13f18787c8ef95e3f3bf6f7d875878a7e5472b7f6aaae4bd46f6f1aefde9345623d494f9b4e93a17863c4d61ef8eb2ee9ed78f5df3b237a7d40777c22f6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "44-jv_private",
+      "name": "src/jv_private.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "713a11618682c5ac996ce452131799d3b27f0c59"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b83327d46a5707bda1b301af4a45fde67963046977bc9843dd4a73bdca8a6563"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "70c81a0076e496282341a597faddc8c4ed8a0a4ca3b5a6f31c3e0f5052b4a04d90105b4d53d60e1512e8c18719b50f437b2eff762c7e655ce05f777faca400a3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "45-linker",
+      "name": "src/linker.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4245bedc25bf94886471b0df90ff8e26e2b762ed"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "030104d6e44706bc3ff523627ce843929c1b6e98827127cb97ce4c76b070a48b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "db912b656dc096925df76bd382d5605049fb57d81d7e400d7ac6a8092afbe584fc155e5914bc17e3d3e2c4e0d81f2c7f51144afa95e75b36a693bcf14b89fbdf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "46-decDouble",
+      "name": "src/decNumber/decDouble.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ca40d5ac563f5f9cc8c203fe90cf1fcaf4880c1f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d9d7d9a3f8825a5929c0d008a9d1058011450bba45fe483f4d467f7dfaeb3146"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "69f5a7d3d0f62ae1a9b043dcb96d7c474b43348b2ae8d6f851a88fbeb93b491d7e52cf0981b853fabcee5ffb4ccf9103d4a1c0c6616f7385f5c71f7a50d0fff4"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "47-decimal32",
+      "name": "src/decNumber/decimal32.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7bad9209a0b365d84f4805ca6923bbbada275c11"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3aac17ad0db4ef79e8da49ad463d3e20c7a5e2e0c6044be3e69a0154324031d9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "acdd7ea27d6808fa6b92f97afc8ae90140dbba658aa679023cd28a73e134b14d01c661b5df304e815882c257d982fed50c7469c5be986457f6e89e5ce882952a"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2008.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "48-decBasic",
+      "name": "src/decNumber/decBasic.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "38cb0d7121798e693971f98ea09455e8cb4e6db6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f5e1c52046a75a43ea469fa4554a57aab6ad37e0b3b22da986de6fd2445b008f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0d2ca9c52e0f31dd40f83a036672060a7522a7632e0709f56f0278d4934494910683770bce3ad46e19a070f5a182f3d6067fe9a1a9c2777cfce6c3c0b89c891e"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "49-decQuad",
+      "name": "src/decNumber/decQuad.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0b8afbe045785f7437e13004579f6afcdb95d908"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "792cfa9a442a4447164b71496e7dd5cba8d4adb6e7f5dfeb3401c9525b0a1c20"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b2dba5c75f9182254458abd62029eb7974ecf16f6208ae12723a6eee1964684bbd6a2ce1e344bc42fcebd0b12160bff62eb38ffc82e14be045538149f864665f"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "50-decQuad",
+      "name": "src/decNumber/decQuad.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6fc32bb269e123d01c4ca9e05ff5f53bef4dac43"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6ef42ea60be7a94d965f3968897b86abdb876f12526034b8e15c4b6a2e3e8335"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "610a3ea64daab82cf17d8125f1b869919fc610c1b96f2624e9904b3fbe98eb5dc4cd0bc25d1320589c3c2a4e70905e5bf1d1e58799813ca45944532fa30ce197"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "51-example5",
+      "name": "src/decNumber/example5.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d499fb3635ba8ea28486ce7106744771d7f7ce2e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2506b4c52b559bd0a9aedc5a9d9094996f84eb3ac95818deb5492af3212a1e2d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "28b366dbc4e7e73c25ac6c532239e84f050a5105f6e41ed5cd3076853bdc4bc1a43986b35751e99c78724be486abbca3789a7df5a41893ec7a88047f93dd8383"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001, 2007.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "52-ICU-license",
+      "name": "src/decNumber/ICU-license.html",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a10ac6471a0dca2e1cb05f2dc74d0cb200e74d89"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6173f8134932a9a7d0253d49116733e4035ed119f90b2318e76ade4f000a2c94"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ff87975a8d490e700c5821d786b6fb9422b0df6aaaf533bfb609410e96fafd24e7fae6eb6d743c6378057bfa34d9ba024d52dc06b866c561e578c24b8ffb047a"
+        }
+      ],
+      "copyright": "(c) 1995-2005 International Business Machines Corporation and others",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is HTML"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "53-decNumber",
+      "name": "src/decNumber/decNumber.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c407c74846b519f5d893c5a854eabc6714d51141"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "906dbffecf2c7007127557421cf4e1625c6060d6d3b362cef5afcea1f954c493"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4178353e8808ef2d6ad36eceabe5fb64b3ccef3ce6a949eb8c61080d7a566b4939d2480dc5ac82eca8bc97ca0f5c861d7af3d48904bfb2fc3492d3f4c3aeb8b0"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2009.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "54-decSingle",
+      "name": "src/decNumber/decSingle.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "37fcc8db668ed079fc099f7a6da0f4039193e155"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "21720caaa656cfdedf1427155c7b6e2d9d6b8ad25cf95e9a4c4489b82f7dcb62"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "654566740e36b2153cbdc32a5c42c160b616b3cde8e32607a9865ff9d6c05a6e49a7fa6cc656b4aec07431e8664e675db47796974eeb04a55d6f716fbffb0961"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2008.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "55-decSingle",
+      "name": "src/decNumber/decSingle.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "289a87ff77a644ad2d44c0cfbf8526c3384e0476"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2be25dc719f5c22cc0b843bd2e31bd546e743c69e0988979fa59a795b998b9bd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0390236351d16e3a71fbdbfa02f29c8d1cf880031eefd055601ccfee90658decaa5d2b371747c1614f507c3588a7faa4fb898a72db3c424d83144a1141e5859b"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2008.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "56-example6",
+      "name": "src/decNumber/example6.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "59b06d349eb3f47e5491705032b369fc6a745c65"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "40827b43301d0e5e06efd7340fa5f73646944790382d8d63b8cc4ba7e956a2ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "796f381042ed817878332a6a0ef630c4b1410f61c0cc135e96ff83eb3315c62ff312c8ce219ae5348cddb405c8a408db8d5437680502b64e2f1305e52833d8fe"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001.  All rights reserved.         */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "57-decimal128",
+      "name": "src/decNumber/decimal128.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c02cb4c3abdcc8744e9dd42ae2d2d8d991a65ada"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3d3c31d368fe449d95cfd1c2a9f052fa985e9620e7f7672a6677a9c011d9456c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8b993e842372357272c3cd7e090835200e5333575d91cee6c8ce0af7110a182522b91b7224436085715ab29da60d68fde4d96aff07b5b6b2fd32b124b2a8da0d"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2008.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "58-example8",
+      "name": "src/decNumber/example8.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6b78c39df78d38863f2f7c5df0c7e2f3fc6ab262"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "338e65b01adbdce87cb38baed5b2d5fa1db7ba205a62ff1e3457341ef782af1d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "44e1d4b51b9593461ad93712ddb0411d7a6e099f75c3c68524db434573e75fea050701c0602b7da4166fd48b08c587a2822a723fbf3edbab2d97e0489f2a9461"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001, 2007.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "59-decnumber",
+      "name": "src/decNumber/decnumber.pdf",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "053f8c2a75ba6768c8e1c5aed298c75b4c9c3f10"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "86f29e69c2025b602c0ae34714543cef5150e5b63342af53e8d79083c4c6a006"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b0bfa0a5c1f7a2b2223491c63474ff80091a64fb4159a8f214d2e50501f6ca8a99723567a81c05afc725561102de5e9e49b5e4cb09b693b0316b163f57a3740a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "60-decContext",
+      "name": "src/decNumber/decContext.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "986511e0db8fc323056dc786160001c61e0fa718"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fd3cb9f0fd775949f7c2d018ba6c6a2cc483198c2b9340c8608d2bb2817d3521"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "33322b0ea9b4a7bef71454c92f7eb7daf14aacccbabc794b6bb5e249041c7ff87385fa3a04e2af67059ca143120b2e488c5e1c21019d866633f6c81ad1624aa8"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2009.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "61-example2",
+      "name": "src/decNumber/example2.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e36f6370866480e136fb1faebed34b877108d40c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cc8ae3eb247ed0db1e82e297f2e52d95d7f6a140b7135f451f0f79e1fe487518"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ecac2f7ca6ee7449199ad29fbf1fc8d6babeae14e0c784f1fd7a262490b994566bb1e2902dfc014bffff533cf03908f235761ec0bf4c88b4097243ca9f235a73"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001.  All rights reserved.         */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "62-decimal64",
+      "name": "src/decNumber/decimal64.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "94184e6641ed4159e22ebe8715fb6604b40b1891"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6475f1839d79668040a8a75e97d98ca9a9e083745540fa36822f2b73c52bd877"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b3ce730ab2956dd4bf88aa77ad89ab5f89f9698ece36568dfb8545bb9e522449bde5193a36dc8b5831a76f656fdbc3e80881b9776c4f44898d8000a090218857"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2005.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "63-example1",
+      "name": "src/decNumber/example1.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cf4f92240456a2d7bfc6bea82932168038c88c22"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f8b69448a655017e199e3d8ae2310dc221e36765bc6f42f3844d9cbf717f9adf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4c6cdae83e66071391393f7d4238258d83020a90c2ebaf8baddf5b96593912a41866b3f5a31f90bca158d7f6b92e7b90aa91b1ef611e9bbfa227ef91ae585249"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001, 2007.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "64-decContext",
+      "name": "src/decNumber/decContext.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ac6b566da99457574c28bd58efc93b2d87310e76"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "24e56975f89adbe1558042a735387c7ecf8493fb72ca2b24de51afd2e421053a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fce5b306f51b951a84420da96e0cf85606059713ea1777d9771b6329de2b0503c93bfdb6ce94d55375a1847ad8448dc69f543d5210e21c5affdc5522f9c0cfe1"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "65-example7",
+      "name": "src/decNumber/example7.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "64d79d48a795e10bbdee0e16e1efad0c6643473c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "34c0c377b39f021b22cec036ffc719a7873897a9c34531b43ba303eefe64ae59"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e57fd1ce071f07bcc6ceeb9e92d195ad7bbf7870d059f60e915d5ebffbd436093a09d21daa0a6beb9effa2f843c29204b4db7abe6e5793cb84048add003800fc"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001, 2008.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "66-decNumber",
+      "name": "src/decNumber/decNumber.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4fe164b590a43fe926a710acc6135a6bc5ec7956"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0f7a9b64736350bb7ae581803b2b580ed0bdb42a4daefc2f8e0b82b94cad4d3c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3066dcc880b983b2dc9e23fed6b54f362c3bfdc59a6f40be133f2efe7b015721a314be3723b0cbd0afe58b522e97e71c83c98006fd0345e5afeb801100134213"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "67-decPacked",
+      "name": "src/decNumber/decPacked.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6d26c5f2760c68e8467beb25328360de929012e8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "92c2a98018fb6c3cd99373fb90cd6518c6c26ee1898603bccc7c0a98d8f922ce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a904c1476eb9691ce052f2da7e612124e816531cbcddf742aeb61eda52e1c3caf71541fd3519b22da9de224dd9e91e5514f5eca7f2ffcd2ec6613dd5ad4f3e09"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2002.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "68-decCommon",
+      "name": "src/decNumber/decCommon.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6bbbe53eb2946301065aecd21994fb8136a11616"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d02a1174907d2510bbb1acc960cbafc6573bf97e342c73f0da4db4ced9a3260d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ee91d47f7e97c7643109923ecaf779bea7b8006ae0ba04ec5509d2658a601cfff664887030dec5c3017026751d2def147adfd88cb0babc7bfdb6f71ae9df25e7"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "69-decNumberLocal",
+      "name": "src/decNumber/decNumberLocal.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "aca4f971043f99e6a83adfc2ccc38bd435b85f71"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fb17acfdd8b07a4023e6eb3a31c053864e3f45a1d0d3a689df75dcec55fd5398"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f00275bf7421056e0247ce23c6de70ef1fb092326e1a38d976f0393ba13846fb6356b2560b957c11bea0a854ec1038cd296a70601588bac5f41e7e9164e6d220"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "70-decimal128",
+      "name": "src/decNumber/decimal128.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2807281b8554ca3c535c77e74b3f72c69be4f899"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "678f466182d9d6bb2c2cb4c075bc7cec748e44c16ae286ad7af95c11426b05b9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5681547dbcc31c1991caf3da8e23eb74503a20829f17ab4f6ce461c6f4e64191ea947acb6a3704a79d033c509d89db8bca4b4604da22430c1db6cf4399138d95"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2005.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "71-decimal32",
+      "name": "src/decNumber/decimal32.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c705a82d10adf0a6572a0f0049998306e9453240"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "db7b823d5c6d137219592dc9a57e60c3789ed772769aabf9fd7b323722e0b004"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d9602f4a90d0a66bfd1e40ecc2d2b94ce726eff3f35c14b53fb0dc29520c753167f58d712a536ff418289bb9d10a9a1823c5c9fea03c9b59355cf5307f1bfa56"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2006.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "72-decPacked",
+      "name": "src/decNumber/decPacked.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5530d1b249461fccd7eb9c18f4b5aedb073037bc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bac6457a8aec13a5c78d1a29afe92fde775ee17ec30ec3264e2834b09c90dd37"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3c73b0bff09c7717f4d289d1245ee6509dd6c4c27fb68193245638b1bbd7ae8aa484976e8db996e22a431302e222edd1cf826e931b6c1bec71872186fa9a3b59"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2005.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "73-example4",
+      "name": "src/decNumber/example4.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c5d14616c00b8196a19caed14ecd638d3066b060"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "23cef619d7fef35d1b33f36be7c8dcf3ec22d4f541c446a6b918d86b6c33ae0d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "94e738a3ab3654efaef39056a7b0c39e7008c3f8b889f5ca32bb7392e20ceed45581cf3cf26350b98fc0837e37088c173399e167c0fa7d089baf5463661a1bfc"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001.  All rights reserved.         */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "74-decDouble",
+      "name": "src/decNumber/decDouble.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ccec03ccd5fede7f2db96c2a32cd2139b5d6a46f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d6f2bb601e7f9280f640e67b7aefc48ad001da82d5685c89675bb0d09b6f590e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cc7c2b77581f330277f1c7c0aac5579777f4fb1cccd53df0dcf766307becd6937232bd845eead034273ac6c63f85fdfd5b5fbebbe033249c65e0449a89b85d70"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2010.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "75-readme",
+      "name": "src/decNumber/readme.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6007b4c397b72cfbd03fe46639c5b3324cecef41"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67e6c7036abc5ef35b912caa5c96dccdb16349676e233a6bc15097b5bbdfb020"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "603056cbf579874d5e7ffb71bac8d8b44d620c345f46c8f8469ee53c2b8c614eaa9513c5f1669b41de3229d1739561f5a7da6ccb9e5ba4e792f51415625ad417"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "76-example3",
+      "name": "src/decNumber/example3.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "37601f5c2a482a3d8d5afcee6cb42769b645c1fd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "46785d2e53f50b76066e819e9d186e4173832a671e780192e1472d9016dc3cc0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58cc71a2d410fdab5d782370e1ac8c42e10a7bd4f02a24098710a64f4beb1529c8f1486378d42ec0f439ee776e89cf4e1d17946db7a61bd70a8a1c8b520927c0"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2001.  All rights reserved.         */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "77-decimal64",
+      "name": "src/decNumber/decimal64.c",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d4084f487e7532ccf235becdf2ea99c3427e5316"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b03bc633b3a87e9603ce36c62bd1e6f4f17246c6dbfa43eedf47c41221f36097"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "781e361e96eebdcee2939d89ca68929e2f08f33e14f0268397124e315b0aea5d880e2d22fa32da756e588dbc857509451bf5b1b40408c94ebdf0381b1662c76c"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2009.  All rights reserved.   */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "78-decDPD",
+      "name": "src/decNumber/decDPD.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4366ae36e3eeee85f0d76a9d91bb77ba32b62f87"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e908230fb6721b15030af6355a835ad31b55abc2b4211e3785d3daa1f7d59c98"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "db17ef5ea5ab78684cac5216181d02cfddb71ba2f9f306dbe36272a311a82f462c7c98d39e5075ae1c0bf17e6663795a3c6e5478c2c0b577f0a87e911b73edb3"
+        }
+      ],
+      "copyright": "(c) IBM Corporation, 2000, 2008. All rights reserved.          */",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "jq-files",
+      "name": "jq-files"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CDXRef-DOCUMENT",
+      "dependsOn": [
+        "1-jq-files"
+      ]
+    },
+    {
+      "ref": "jq-files",
+      "dependsOn": [
+        "1-jv_file",
+        "2-inject_errors",
+        "3-util",
+        "4-jv_print",
+        "5-builtin",
+        "6-lexer",
+        "7-jv",
+        "8-builtin",
+        "9-jv_dtoa_tsd",
+        "10-jv_unicode",
+        "11-lexer",
+        "12-main",
+        "13-locfile",
+        "14-jq_test",
+        "15-jv",
+        "16-exec_stack",
+        "17-jv_alloc",
+        "18-parser",
+        "19-lexer",
+        "20-parser",
+        "21-jq",
+        "22-bytecode",
+        "23-parser",
+        "24-locfile",
+        "25-jv_parse",
+        "26-jv_dtoa",
+        "27-jv_dtoa_tsd",
+        "28-jv_alloc",
+        "29-jv_utf8_tables",
+        "30-bytecode",
+        "31-util",
+        "32-jq_parser",
+        "33-compile",
+        "34-jv_dtoa",
+        "35-libm",
+        "36-linker",
+        "37-jv_unicode",
+        "38-jv_thread",
+        "39-jv_aux",
+        "40-opcode_list",
+        "41-builtin",
+        "42-execute",
+        "43-compile",
+        "44-jv_private",
+        "45-linker",
+        "46-decDouble",
+        "47-decimal32",
+        "48-decBasic",
+        "49-decQuad",
+        "50-decQuad",
+        "51-example5",
+        "52-ICU-license",
+        "53-decNumber",
+        "54-decSingle",
+        "55-decSingle",
+        "56-example6",
+        "57-decimal128",
+        "58-example8",
+        "59-decnumber",
+        "60-decContext",
+        "61-example2",
+        "62-decimal64",
+        "63-example1",
+        "64-decContext",
+        "65-example7",
+        "66-decNumber",
+        "67-decPacked",
+        "68-decCommon",
+        "69-decNumberLocal",
+        "70-decimal128",
+        "71-decimal32",
+        "72-decPacked",
+        "73-example4",
+        "74-decDouble",
+        "75-readme",
+        "76-example3",
+        "77-decimal64",
+        "78-decDPD"
+      ]
+    }
+  ]
+}

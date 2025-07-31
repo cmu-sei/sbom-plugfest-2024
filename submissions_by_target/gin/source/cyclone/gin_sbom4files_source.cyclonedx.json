@@ -1,0 +1,4272 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:d8e180f3-3ebc-4692-afa2-e5333e0de802",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-09T21:22:10Z",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "name": "sbom4files",
+          "version": "0.4.5",
+          "type": "application"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "CDXRef-DOCUMENT",
+      "name": "Gin"
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "1-routes_test",
+      "name": "routes_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dd7a43de1aaf37496fb94a0fe30090c5e14b91de"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "caea1c209484186bfe4fb880ff5527117a296981ff4657fdf6b35fd59d4ad201"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "19b79c28a0bc39fb256c288c5b7d44c5131366c5db2797ee2217769a8a2701a6997615b1a00f0c25cda1f676ea600ab31ebbb431fda38f59d188adca5caa3bfe"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "2-response_writer",
+      "name": "response_writer.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8502cd10842cff71f10237810509e04f6682744a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4054a578f5bf414cb64703bf409ae101610b04fd1db2cb99272b08814b85da9c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "82a81e9dbff01ede8d6ceffec7f09bd3fb64cc421518ebffb25a42963527ae6304c38ac04f977f233d87581c89aa51b801d424bde5775bb10599cd56d92c2a57"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "3-path",
+      "name": "path.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "af6a960b4a93082cd35e40ee0093172e90934191"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "296af9edd35898ca22fcdf484f111c00a08e52fcca43ffc37e0d96ae9f6a1603"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dd8fa7b9ba5e5cb84e602fe57755ef333d684a95e59a9336e095bdfe4e92a1467b7ba61a0b6b8064fc6eb776f2b203f629591363655625c591533be160c5412b"
+        }
+      ],
+      "copyright": "2013 Julien Schmidt. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "4-utils",
+      "name": "utils.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8d974951f310dfe9b839df838f1ddb228f80b5fc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "df600499180c8aee71aae5f5334adbda55262143821317d50750728f0773cc93"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7a1b672f72aae6c002c9e395f3496df6d040fcc4837ba7fba4ee02c502d6cc6b97718d79425320a0b51bae802d07d43b7fad2977f0b0a4ace829996305d57287"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "5-.goreleaser",
+      "name": ".goreleaser.yaml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7a9f63d0f18e12d19f1221c65ed2d1e6a006d6a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3a27aa21a52e29b6ee2cbaf491fd6d1866719410d0f867f526966598b05499e1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "55e3b6cf654ec2647ded488b4b13f2003aafc895a86b1b265eea22f82933921d62771def7c483d0a528f59381f59829140cfe2fb67c23ffced6ea06b650f469c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "6-recovery",
+      "name": "recovery.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fc65772aa2e5253904f814072fd9d66ae77199d5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "62f8da43bd04aadae3bea00152545ec204ed2bdd81d9817a413153a8d26e9edc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6b7d0acbb218bbf07498f0ebac59a853cbcb6e4d7992b9127ceec40c3e32d972f7b9877c8b06c874041aa6e11def2e822c0ce5e2668b1dcdc039d7f424529092"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "7-logger_test",
+      "name": "logger_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "49357db5d9cd2be50e544d1ff4a50c1cb862051d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9e6b95ee47b12bb3f8e4b15b84c4d75cf5719402126f381e9dd55083b79a461a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "12480820d73af25d8dc37ea6a371da8704c385fed09cb8357c5691ec2c0f0540e96809e04a85919be42cbff3b67bc6435bc979145258c7341913b111ac3d4a9d"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "8-AUTHORS",
+      "name": "AUTHORS.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "af312950f6f04e7834faaf12e3a628f92d2e8b28"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "41711f484fa311b9b556397c0c3353197681b2c6599918483cc8f19bc68f26fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a0a4d26706ca1bf89e7039b6720957bed55df6f96a7d2945487c2fa29086f834bedc1e452822da7a73b2132774073100fd43e0b6f11d318ed470ef206244a2a6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "9-utils_test",
+      "name": "utils_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "586e1ca3ecb0b34fd2d2e529e8f00d5649b8b96a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "24c81d3326df8819aa8aaea477618a62e7ac867116bd830f5095150822aa2302"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0c415be9244ba75e42406b176732ae83da58b8df9870495ca4f1ed786ea23dda0e79ecca0ecfd43ee8d7af7750a8be7e6e034a61f25250922dc18c60f5029b88"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "10-githubapi_test",
+      "name": "githubapi_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "728a5ceb96b29d7b6479c00638c854a270ba0e94"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "819c97da16d698787b2c81a85c3ffedc2e44cd9ab57e661733682869b1eb0c2a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b083e64d91ccf3d22585a57b55c6987f4b0ed7ca41d81cff6b7784362009dbb51f15417588f9ddb8ae321d687e80d9d5e778a247563eeebf3f3eb1f6f6e59087"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "11-context_test",
+      "name": "context_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dc69000ff4cda59b2c41181b7c70478878c192c9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ffe8388d0d7480b74746fb7de3fe5b1ec42bedc5ca4650865613fed7c38266bc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c06375448bfa4f4741045cd5f3e6b2b89a7825ea62e1bac0a1f13adfe4bbca0b1ac7ae553abf292c2e22be7e30757236f9d181cb03d43438bc1570ae55a0f974"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "12-middleware_test",
+      "name": "middleware_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1c3da128fb30eacc313a804b9826108576ecd83e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1ccedff5a9bd2feb8ffa82bae6cb4b59f22d3af0d9464a668b80a6bbc0841f9f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "db715b305a84915043932acbbc1b4f603bba7bfdb692445ebf0c2771d7223a966f4da9c2149f26087de0bdf6efdb43a01bc0c90ea7584bbbb81693340110ab4d"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "13-tree",
+      "name": "tree.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9c0ee18365d612477d15692e5cc777748a61439b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6fdc5531d5f3b282ef72bdcd987e3f03588f10a5123e6e070066164d6c8af5f2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bcfbb56b644a416ac933883863cbdf8b3ac2de230e32eff913e47d79233ba134fe14507b62b22455e3236aedf5c1248f9bd9c98a01cfc0a7a7f9f55cfc04be2a"
+        }
+      ],
+      "copyright": "2013 Julien Schmidt. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "14-test_helpers",
+      "name": "test_helpers.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c358ca8aaa9100f8edb3e66819138851c3cee001"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4716b2020687119f74e31d10bd470777b941d987621e202b20e5cda83a64a031"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7cb4918d28e61a3b406d47fad9675c44a19d6af39f650fc64c0837057e1b2489064a1a29919aa788edba443ad82fa1a3c29fb17cd7a2eebb173b1d2de8266ff9"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "15-mode",
+      "name": "mode.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c8fdf635fac70225120c7aa87abafc0416cf932d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5fe22db56b622631527a6d5e5e5ab78dade24ec1748637ce463d5366873667d5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "172eaa713d7d94926154d44bea29074e9af55c5f4619201677414b7fc4bfb17c2998c6f6f8bfbe8f781c658148907613a6fc1cfb55600cb22d9fb8b0903c1fc4"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "16-debug_test",
+      "name": "debug_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d7c1d088f192a628532ff0e8d84d12bbabd7e8ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e677562cc78a47a89fc314b3db3f48847ab0e3af8717f47c9ec5abe162159f0f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "be24738c2b5c941e7d7189f42da4cdbdbfe21d481a842e6f3ead1db6f257661fc54b81694b59aadfc6f1d7c83eb9f2466d7a621b2377cca28a38412f69938040"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "17-routergroup_test",
+      "name": "routergroup_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "479dc4e2d79d76ba3dcbfe85985d59a5e915c935"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b437f1e579e3c3adb82ef915711cdbfd148e429d5d30a3c4ab8b78fd2f1c321f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "15fe6961e3a75b16446850fcdacf19983ee58219e24b5872761d7179d7bec9847ce3cb7434d36532807b408be2c7ad4ae32d1083583eeb78264ac2b922b24817"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "18-Makefile",
+      "name": "Makefile",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "57e9b4cff85cc1cb5e288765e996496eb4431801"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c056f93ead2940dc11527b3521ae135c6213d894227717b266bee419a2da7eca"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ddc5b59a5257bde641dcdf0acaa215edfda34ceb3648f600bcc1e22c4091b3d83087c849bb8099e80efd44ca903167a15f0b4b17cf247266c08dcc58691a6ddf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "19-deprecated_test",
+      "name": "deprecated_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "95cc42379d8a044ba6d0febf85f90ee7a7f359c7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d4fe9dfa09135f0bea4819b7e63b19ffd7182ccf0d4501f1ed47e2f926c1e425"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aaff987af2e97c353a0e15badbd1b6230db55ed4e2d08b3cd4147e63b07629322050e6fe2c310bfcc4c6c36b068af994be8efba3d1ff2dccc3f1301e7477a776"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "20-context_appengine",
+      "name": "context_appengine.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5329f499f1f1553b49eaff7fff8f00f0d3679d3f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1275ac566179e2453a9a4345949e8c4409e52d077ee6de07e198e0092b1194f5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "250f3c8b1d7f243a5df62f8071b6502df10121a594e1f05263dee362e9922d39cf8f6bddd6bea05d88636d7ff3a7a2433bb49c194073f40ef9ea00f5bdf46e71"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "21-version",
+      "name": "version.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7e3cb998b8a016ccefd27fb36d44531cadb41536"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa24e1fb6cfe3b900d82231e70cbf1c9a110e72fcf8f9c829d4032d6f7559ad1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "de77cb6c9743426b6584fd98dc7d0b3ed3eefab9722862a5277108ecf7f4196b8d870af256dfba4af1ef016132da8c63285c836827180009d3c8b86d6bb64d22"
+        }
+      ],
+      "copyright": "2018 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "22-LICENSE",
+      "name": "LICENSE",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e261f48217640a519af0e8a2f457de62a95a35c6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "03458b6d5828e1be1127ca2adf122572eb574fc47b56190c3b38203b8b2a98d0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f96249ed195c65b0568b7fd8aa13c8fe7420c5dd57613dfa354a7b842d3554b40601e9cf49b7f37fe81e46318f3bbb42ee6e234d6ec3d2ef0db5e7ce63e11e5f"
+        }
+      ],
+      "copyright": "(c) 2014 Manuel Mart\u00ednez-Almeida",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "23-context",
+      "name": "context.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7f7d8c9727de34f4aac52a887c51d7296221f44e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "efb55833438cddc187fb53d769c3d429a2caa2f567c72998edbebbd5d2857fc1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8ea70054f61408442c9ae75126024f02087fae091c87aa637f0d06a216fe5a2a9d4a3d02cc9cf8ef2f5ca2270a9988e730681219afa99c612b3df363b858bea9"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "24-benchmarks_test",
+      "name": "benchmarks_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "36831edd6d549f8a70a6788b0a9a01d89ab8cb7e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cdb0c506e1c4877f54d18827c0bd866f91abf4103fded1ec10ad5f02f3928007"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d78236f68294cd93ac01b0a0c2e67f1d3536e2cb47d5d6f98a5f116fd0633d513f8fac5ffa8a2f129ff09c9d742dbf25d354632bd2373c5c0ef194bf595b7183"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "25-logger",
+      "name": "logger.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2bc21b1ea024f8a2a7fb728d7d7acf159f41c85a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e44131eccb7cb3614997065d6ec793f9dde29a47c8fcc42ce6b5778f3756a287"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "54c472ecebb2788a965227d3e1ddaba5f020fed5048c9d2ca137be45c0397236a9d6f5db52c1e7512b188e9e4ce908cbc89947466dd24147971eb1f01954d954"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "26-auth_test",
+      "name": "auth_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "63356e34bb92ddad59b28428fe7f7b043776c55e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3bfeaa2da059690a37c7639ed6427acc1604030bebf4d053a3c3554774ea2ef6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a1b1c59fcd0bba8948c0028ace88a58d37411e9f8d14a5f6d54488e6868c5d6d5ac8718d4e171fc9953cb93c5bdff28fd87fcd954e89827e3907879ed54a609d"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "27-recovery_test",
+      "name": "recovery_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c27ce77bdae7a922c6b94411414ad376d65cfb63"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "79b5d62b22620e787e6ff5007a80c89e523705d635d032e4a72fb0db191bd07d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8239adcf7c8dad840968ac7d8fe91fa3a3cebfc500f40f9b6c7387bfac911e26812da1f6eaf46a9ff0ad82af562a5c95e162bb6875c296dd969274d8fc748b38"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "28-mode_test",
+      "name": "mode_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3a2c0d44dfbae0c54dfd051b36d315f52d566372"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1b5ebc84c4cb998ab926895f39acf89619c93fccfdcb73c9abc5a480822222d7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "55dc2c559b8b54cf5cf1ca5f755c680f209c3b4f33e6940140ab09e3424068c03d52f83fae9200e79569d820da4aac9570ae5146d74452354022bd5289de46ce"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "29-routergroup",
+      "name": "routergroup.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cb5b272aa972e8e8afa4aa8a0acee7f7c3628af2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a098b3882b591def8fff20cbe2eb3f38fb08d5944d64ad59ee918670d2fc0525"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "82ff08499caf0ec420118c7a125698d8957c44fd9dc409895109db0165be69f973095d73a3d6837c40ba8b96fd87035f89f7b8dd5e601c2e5c241ad2723bac5e"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "30-response_writer_test",
+      "name": "response_writer_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9bbbbbebc8870aa782e39e63994e950b2e899d4c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3c324383d7255595e36a4959bd49deb1e847ebf8ecb80f1d97a52edb2144218f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "71d6a2cb204f05de8ee05996a4948a2a3670fd5aea04b694b4040f02a08e0f8c19f7d19b0608d5f7b36a781862d65dc27d58467be090d7b09ffc66e61b0ab22b"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "31-go",
+      "name": "go.mod",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5dfedc13fa9c27a96d7c88aa917d1d38e1466fa2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6222d2c4c38f92aa685329371143313937198e8699b202878ab0d581c8986f96"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "895ac2e5217e3429edcf67f92a46ce0d3730f1f035ca9f5c9caf58412bf2852c0bce1a32d6511fdb123c331c2f4aa8c8f9e132d0dbba661460334280cd475350"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "32-BENCHMARKS",
+      "name": "BENCHMARKS.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ac8f479ece89875742ace7072c50be08ef11c9fe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4bc7a98735e7b8271c8f0c672878cb81d39de29cf8c7e526f5d7794dce533c58"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7ca7ff4467c569946f01e5193d85666a2479c346aa12f99ad3603dbbfd99272b35805b103e5a95923e8c64964e4b3fb87332d0e2b30b06a3cd0c63064ab74fe4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "33-codecov",
+      "name": "codecov.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "93efe98b4a6bcfbfe6e50dd306bcd86648cd83ba"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "df650cae989815f092d27a1c3ae456f653554d924ff07b0613218ae5d5e99904"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3e359aa0e104a94de0d818c548ec2259e5d699d6d6c26cfbe5a9befaca101567d14e3965f1add38ecb5a09af299fd8dc6dfaaf1bd9bdba664cd0677714e7d15f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "34-errors",
+      "name": "errors.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "21fbad95060ac3b703a780556b4cc58ef73e627e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0f70d72fe3f2d6f49f5c7d46dd2d0a3c3dbe8f5722b67281436c16d684020db0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7ff57139ad7f2a6fe1bc7411c062b93f4cfdad80c3c0c919bd0163e85d3e0bd443c67562aba85455eeecd04491f1261a0fe5476e06acf537a50fa00acb5e2226"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "35-CODE_OF_CONDUCT",
+      "name": "CODE_OF_CONDUCT.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6052f1512be23c1b5951ab67122e3cd0f3a34bad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "62af14df8f410938d99c7652c5cd30ab84df6e11a5d37505b407244cdc3490ef"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "686a93d3d0b37e71fc67b8d055cc0af4c4e96052ac97b97e4fbcd95be22b1d473fe3b881bfa7adcf793c1a1bc1bbef2e77ad2fd716ab695b2ffa82dec903cc6c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "36-README",
+      "name": "README.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d6ce61284ead62aa417b99792859f053ea118dd7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e44dd577d862730863ef3a70262deda4005828a3f4ec86c1ff267ad2a399bfc9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "484c39bdab086b3fa9ecfc2cc0d0a7253091ef01f04d321c3226ddec223cffa1bcc6641f76fc7be5b166525d26b942fd83a0195d82c1908fc64e821140d943fa"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "37-CHANGELOG",
+      "name": "CHANGELOG.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5a3b124c54266aacd1b5587458e156e739af28ec"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "81cd48019d18b690541af9f59a236cde6727c4842f6c94187602736bdf92a96b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7645ee838513bd532b6c6ead8e2e4a1ed7a6e28311a0089bb7fc262703180b9041e7b35fd9e24b6d50ae66467a1309298a32d55cdf64b87a47ca0432d414776b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "38-tree_test",
+      "name": "tree_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f62fd3c6584d3dc1d55fa992917f30e982f32363"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6bef5704df51febbe18f1897118f62d54b72bb29feddb9978affdd0c76b9d218"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e26ae670c6c7ab3637261d22f7cf25dc640b3367060e6ff0376edbf14902beda0270af5774c3c96e432e0946ccbc040a2878352e0f74b011fb6eaa803f0c601f"
+        }
+      ],
+      "copyright": "2013 Julien Schmidt. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "39-fs_test",
+      "name": "fs_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "93716718d8b666c0eace09690e2369155bc73ba1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c229945469f769e1eb84a8a64b4e0ccb17e6ce13561001361e409da516663c1c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bcf9ea01451785559599ae3b14d19e06abde8ae9036e11f831b0a5ee28b561463a83b29dffb4e85ffceddad3537824961cc01cd54bd67772691b8f43c8ebac20"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "40-errors_test",
+      "name": "errors_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3f112cdd51746497285b084a459ad315cd4b8051"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b085130e80b6c3f1b7e12c139b0fa7fa473524dec2f12a4b6d6d45eb87af53b6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2dc7bf689db1574f33ab8df9f82807b99ca442ed13f40bec6fdb4dfeb4b8324e1315c8c65db8acfd18ecc48d99b36b1b013853238d1c74ce68e5899d8351a8e0"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "41-go",
+      "name": "go.sum",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6c002cb31f6dc995265882646a3c4a5df878b00b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5cadffd389c72484dd76a42f035e134d6b089e51511f80e93375eec7df10a320"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ac96bcc1a5c4830f962c6f37cbba11e94cfb847f8cc8c3d77af596ceca4388dc38e34a663db84321097c6bc67e441301cafe9398c5b8950220057f881280eb7d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "42-gin_test",
+      "name": "gin_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "512f139c862c679f150ac6d2cf8c76fd792d6bca"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "eb7f6355f683a030b1e102134f929723a232d9f60f2b5b07ff8f283173869665"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "db5880ad182cfb35d8546158ade4f7e06a4ab68cd94612e81ac6cf6249ce1efcded87399ab38fe14dc46b5abf883028c6f27db225041bd792e4a7b1b25b20fdf"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "43-auth",
+      "name": "auth.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d0edf9c9569a158a493ee766d1f765da61c08071"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be38ef38614d2b9488d0e73ff2f8b432fc61cc90f4b7e071d0bbf78d898464c1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "014290e840ba99c0a92de78b380e528a9a7ceb2bbd16413da073fcbf32a96584492bff14c463a05ea0d7492790cac734c926fb0f6339a3174995605485e8908a"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "44-CONTRIBUTING",
+      "name": "CONTRIBUTING.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f54f6ce4bd24ed4f544a66cceb302925aea98b71"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4fd3e4f5f68573a3b8ee8790e721dc682434b9142efc260a02fc9a0f6b680efb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "280b060662563f8d5bff87addca5b819139122bdc8d6923fab3fe082cebd5ce9eaad2d1cc2037a55fcf943a7bb2b37da765f3c9adf1b46e48823924f90cba699"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "45-path_test",
+      "name": "path_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8bea83eb298a755d5f0a37bdf92d67909a3aaa8c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5c745e400f3f6a175f9c3b770b26a4f0cefac7c259695e5cace410fb0fc0d6ba"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "65b95bda01c7d234cb8fe09d9c7cd9e178a31ccaa4ef75ee1b9687577c50ad8beea3dfc539f0599bc59948eda4f9db452429d68b23697bb0d4fd12f30a8bca96"
+        }
+      ],
+      "copyright": "2013 Julien Schmidt. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "46-fs",
+      "name": "fs.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d9f236f4a3f8320862e9498813423aae1866de36"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "25ec4a5da318f6311851ec5379c1b082bf3b50fa4f71bb5be064420ec5c9411a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "14e06055e0b156a480ae6f8f940df9221017b9bbc86e40afc9e1ae226bf2e09d0b3a0d748076c9cec53e390981e2359ed06c6765499734339a4f847a6a431fdc"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "47-deprecated",
+      "name": "deprecated.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dcbbccad7681a219269a393e5b9346ddf580663d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "72b6893e15bb053bedaee8292166f1430991f45aa11ae5614439b71c90cf448f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "916fe1cc3f7afcedfacda35267b4401b996dd993ea76ce5553050c52d54e269fdd88841f38b2470425dd1546767b450d608aba685052bd6c5c4c0bc2582824d1"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "48-gin",
+      "name": "gin.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "60d727ef6111ab0e49d6d4ec4c6bcfd176d70e42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "82588a8e8be990996207c340b24764eb76a1f23314d38f0156043e87145cb386"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5bd9a300f28f29c1be4b61a10f95e7db85c810ed59353e064d2409851c59c2221b684469181ba25039490323fb4f23a2605e937d917145239aebe1206dfaa6e8"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "49-doc",
+      "name": "doc.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4c0c206aebb55c9afd892c6390c496b801b6ae8f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6b3d94797d0b6c29b3c35d731e0986d39825c99201fa950366a6f2e27717c890"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6e07e21253572feedd0fcb74b691f27030642460ce5e8e3ecaf9d1b1896549d7017e7a991f3c1a4793ebc0297ee8abf6788e65bbdbb271fbe7c4e15ae8c62dcc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "50-gin_integration_test",
+      "name": "gin_integration_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f48dedc28ca64cb4792ad14fad43df39623b693f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2a6f13e5060cd78cc2f0ec8614dfa7fd892a860457d6e91edf578482fe7e594b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e2b127eff8b6d125d1785cf738aaf2f2ceac764f87d39d7eb032a8f3cdf18fcc26ea78ec93d5eb5a898842c4890cc8c3f38049de682beef8657e074098a13ea6"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "51-debug",
+      "name": "debug.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4f7ee090907c7b169932357b6312153f8eb4e310"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1cf256c414a2cf3f59f5bc92a41430ae5ec7de75cea2d0b6366afcd9abf25dc5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c01f962918661b76afd38e064f06ccbc7dd40e7f72683f382baffcc651282aa4b90572d3bb20eecc43a40f5c7544172e83b5f8a5de5d322622e166a53fe67a39"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "52-.golangci",
+      "name": ".golangci.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ea7dcaad9460bd59b75beca317ba512709de66d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "534826525b69d4b72f0574bfa0f685a025192003079b97f6a31ca5deaf70c2f8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2247e4f2bd4070019464569736cf1192bcf1ea1d1fecf48e195e730c168906d93bff4845dab2664c7cd18522f8522bee500a851c43482fffaef1932cd4392104"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "53-.gitignore",
+      "name": ".gitignore",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "134cadb8d26d3022671ea94f8d34f060e38de773"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e9b5f5f067c58bc9a89c177a72103179614c9eb83380b8d6eab65f58d7462b2b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7bc3ef8034e4f3e7352ffbb8d4400c5c442887110763d9a51260657ae7f03e98a0b7570b5e35c8d6041fb3308f5addcb4f7bc2cd3ff844c97c9d337ac323d0ed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "54-raw",
+      "name": "testdata/template/raw.tmpl",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "13b20165ea00ce452fcb101b10276ffaa57f4917"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "86175facc643839ef29171e0a4cf3895bdbaca409eb2a03d280b2d4b5b66b749"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a99fbb7d213f46760f80c7388d2fe2fc4c312570f178b12e28fe1f86e02c12ac29320887b68090af668f8f715477ac092736436ac47af72ae66de767ae20aaf4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "55-hello",
+      "name": "testdata/template/hello.tmpl",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0c19621b509ec3f3bd9d5accbed07af757651a0c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "57e8901e05d58ca4d9568535d19d67c456829ee76a19d1f47f53bd3ee5911db8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dcbe82e68c5e8f0f4fb35ec72c8d4d5920425c002d9f082983a53bfa472768612a84a82cbb54ffe2fc03750be527de91adcf4b27370550b15a687cce14315c26"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "56-test",
+      "name": "testdata/protoexample/test.proto",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "474f413c61fe1e4aef3f056af9a40c9720b53499"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c346c451a891ff01605f152bc9478352056c7115f12e6ccbb6ba746e56e36120"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f7a47d7e81d10284de4984b507a227f7fd1522d55a1a03ccdbbc2b53feb01bda6ae4e8e5ac29d50020f3b23fe29413cd5b333990ec136be24a541f56afcad0d4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "57-test.pb",
+      "name": "testdata/protoexample/test.pb.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cec32b1e5a3eda177930a21ccd80467664a249a5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2bbdc09231bd05659423cd3dc41c608aacdb17219d9c91031a69fe7a72ec3f0e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9874759a79e8fe336a50e632bc7cd251c90a853f8b8820186657cede6cc78f25955ebe7cca7fcb5628bd300a86a5b299dde4a446547170dc2ecaae9e594271f7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "58-key",
+      "name": "testdata/certificate/key.pem",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c09e89a054baa69f144831ebd013f0ed83349cca"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e151d5dc924a344cb76c34e7c43cb1982894149a31a375eac08a53ec8bc7eb7b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ecb293c5a9575ab3596fe4b2cac8093d0e91c34c06872afcd94e52b3b15cfff976f65016047bef56be9e0b532f61d489c6779fbb445bdbf1e450c7c145e8bdae"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "59-cert",
+      "name": "testdata/certificate/cert.pem",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0118cea2d430b7115ff4467c8d63ebc810908c55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7b876d6b541013955412e358ebcb5b008e9aee1b2446e8a20f1085b69e101cb6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7dbc2fdf7cfa6f83dd1ad81ae1aa709816ae5da9552be640438596734aa12769e6a2534a77970f2f5ce4146cb7572ab9825b33748498103acfd43a38850abab2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "60-reader",
+      "name": "render/reader.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3020dea9ebe6664ec6f03b249457a2ba9a780386"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2f3379f8e2414b8feb38181c1e8d2d45a6f49b630aef46b73e060bb5222a37fd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6ff5d9b28e774774d4cff2b21f2d5d27f23d64da5f152327fbb29a810c20279a191ca3f01104e257ca432d1e12121e8a1c0e6e58868350ccfc24a3441c535b8b"
+        }
+      ],
+      "copyright": "2018 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "61-html",
+      "name": "render/html.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e08574422246f82ce7fd3012e8174fa82a17da1e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9c7204b2f3eae90c22782cea36bd4a71a9dd74fda46c45f6f7e38d8b02b051e2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fc5cdcea25e3c076571b3c21a4b8bdfab06cbff9bb196585e362bd215bc743ad9b8b436f73ecc228c068a1826246f02d2eba5285dadd40485730346e514aae37"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "62-yaml",
+      "name": "render/yaml.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f173675809e39a83548b6987359593e83febc245"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3c6d2ba116d4a35ed27f6fa73f4e74ffede7b7bb7ed184f6edcd150cb2be8c82"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3ca5c591b2263bbb1e5fc679b3c22437aae292f1316081f42889600d8e23f62d117c35d63f5f548bd5a08cdaa3df084811b1f4fa3d89efdbce41f5f719af934b"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "63-toml",
+      "name": "render/toml.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "47085e3d79bd6c641ddc7daa547cecd6e5295db2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "df4b3156408824a543d4542760b40ecb12fc112ad32197744ddff8907d555bf9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e547eeb37ce40b56bf7718045d8aa6890abde24970e3065b6b6433812cf78a0f156297c322c1023f258938f14753468e29464283074a23d3071f43c5ad7d6779"
+        }
+      ],
+      "copyright": "2022 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "64-reader_test",
+      "name": "render/reader_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e822d0a62c7032fcc0e18c01164971ad2345d355"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e995280e8ead41f4ec3311bd379d63d22db4051e421bf7bc8ede44b1479c4b89"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3bfa68292bf6c1753f26c1cb6ec0f9160ad522098146ddf4efd1800218f8a9303f070f0f6abd20fecc45c0fac0c949786ae7c4f4e9deb8b80660ecded8d0a761"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "65-json",
+      "name": "render/json.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8942e49d879241430711a2b30793f796818916d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5e78969c94c94951ef954f313d0da570ab5a0065bacd8c79c1b53a514cf9fa73"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "08ae06a3b597d0f7995d1c48316a53ca512abfce8a6c989e2fd0cf0d1b277b992837109fabdf0695226589b67e636c49dfaab1af9234c4ec81609d8185be3f2d"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "66-redirect",
+      "name": "render/redirect.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5adc903fb0b5275aa1fab38b01dfb6ddbb15e14e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d00418bf3fc3918824f30dd80254415f15a34096263371dc1d8de841d3147757"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "65cd4c0c8894e7ff23687c1bf8d032a5b96da2268fadbddb31d654c26625663d9aeb2668c0c67ef8c36cb6c5580d507f3f24dafe277226c43aab6f8c8a0a509a"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "67-render",
+      "name": "render/render.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a66d2ecfe9eb6634bf0daa41f27d39fe6edf518f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "709fe913e78f59dff8aa42f5cc3a582ef7f0af3595cd124183f409beaab9d4e8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "28e42e5a9c6b231a34502ec9c60ca16eb4eb83136149b4ba966a19a912d4cc3942f11666981bfa5bb266c419cd45032462792ee39592dec22a65f14115829493"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "68-protobuf",
+      "name": "render/protobuf.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d9c84bf408f9aaa0fdcf7cb06f48c47664f97b79"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f602a8b82e658c19d075e44a3cdc3ef230905a44ba783afd13f3dd24e9e6491a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb7f7337af74206459ed5dd9c3f4e9eadea31b18bd2cf3bf754fa2b75db3c427ccf81138911ec0b00da9167008571bf3f4e1b9162dfa1f29de31e6653839419f"
+        }
+      ],
+      "copyright": "2018 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "69-render_msgpack_test",
+      "name": "render/render_msgpack_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f5249db70f1932ea5ec7fb02956de55e2f61416d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "11b6fddc1f379675c5eea5be6ceacf8e8a4a5ed80c2427068c66aaca31257b23"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "71bb89d364560e79d2f93b26bb04f7fbc6769a3755a37676036b90f2cbf3364282f5a02258c70c8970ac127d0c771767ed1544998dc8c363fb72f279601f9a49"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "70-xml",
+      "name": "render/xml.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e06f12df4417d951e74ae00671e6059e6cd99711"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6f39fd2b0fa715c31ab97a943f0e5885b0bbd117ebe45f8f8ee995baf3d62573"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aa8dbe57c8694bed261769963b24ddc35420ffd5b20d46ac2bf25736d0b05119e56ad1ed6a58badfe6bc3afba9dda6178037135fac8bac80fcc1baffc60b37db"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "71-data",
+      "name": "render/data.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2de703d8c8721496e668fe5d0814ce5ae15817e7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "92a1a2e257e0912f5d9056832528783d666a6070845025299de6f0257dd91cf9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f4ee1be396a68af6f8bb6ba35c16563d7d3a092b40d364c005e5e72bb0fb1563c7f1094785f48a4e2135844a30cece7bd1815a27d4ce34218c97dadf61ac9b91"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "72-render_test",
+      "name": "render/render_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b778a54cc208311690ccd38982ce866f0011e240"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9e94daa9a1335f00563e611a8853d3da6210f1d1700b759eaf532e32476f4c68"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aa4f6e422f3c1ecb642bfce33659d4430ac20f64858e58bded7ac34ed7148b892c146001f164d4ec67087c5583bb7a7d7ef1315521eb5ce70d1d76c6c1ea3e1f"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "73-msgpack",
+      "name": "render/msgpack.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "da393de894eecea1b3775f50e91800ea74e18456"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a68718ee772fb9c7ce07e571b78d4da9a43234b316134c1bb957e745c05ad264"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "62adad55895768a152dc3d81e90fe94e3f4483dc000f8d9b60bf5d09f52914cc6c0c80ebe51c7c2cb70570b051fd4f56629d596132c9a4f8f2c99beb9f5441b8"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "74-text",
+      "name": "render/text.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9623a81c0da3b74695578f516c6e15100d9a3a99"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "577425b4241128ad49c23799008966c731a1cc81392b2b5104857fbfdc311a1b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9d6440c20b7bb29c5f7f5a6f9b93557fba6cc0fda4fdace84e323dbebc2eda4bdc1c1254208d62fd9ee8453f207fd5fbe4fb8045621ecbaa341ea6b30702e6d1"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "75-README",
+      "name": "examples/README.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7add81cdf96ffdec8d1adc75201903d8dfd61167"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2a516906b3a7167c8ab0a1d3e9f0a2a8ef2a6499b5d32b0bc43f8c7d8d0140cd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "94b6b0b57445cea56d91b49c3e27804a2e3cfd04a727797e69c69892ec4de26146dc7ab8ff40bf2fd2638a29d76b8a5156f36499ecbe975b8497de5702935116"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "76-doc",
+      "name": "docs/doc.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "81ac836d39d057da7cfa0aee83ffc0297f97f7d5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0ef387dd37df96478cf059c02b563ecb71019852d03642a2b115e38cb14a8412"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5a3b5a64a5bc76e2d2151de9f8f722040aa5564399483c3598990f70ca9ab1697e755ccec73d08bc133dbfa05516e4e7b9af6a47b7c995ce0464c8f3c53dd321"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "77-gins",
+      "name": "ginS/gins.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f70b0262385879e4c70960c2acbb02760e65d8cd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d602cbf9edc5b0fc43f6e6a2acd6de3dd8208be2480804138d36c84078aa1d93"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e3161cfa712cece81753f44136bcaed68ad2780163c7beab0f3f96e63795f6715b54c35a4c9a45dd1138d4c9efbe757df990e49c9c15f1ea1e25f04f19f3c9af"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "78-README",
+      "name": "ginS/README.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "39e34ba5a6170b6f703581a4b004cade30eb322d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f628f2cc6479966da2aae2302a3aefe830b27183f51f669772d3155d097ab2c6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "378f94ca84f83c45918e1e99f2e36e683410eac4f8934e96c44d0e8a079ec427d8d6f7ad9bfb507205478458d6f0d63eab10c7bf1f91a7985ee3c905476cbd1e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "79-json",
+      "name": "internal/json/json.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "76a7399fe0ffe69dcfea363fdbc949a8bc7857c1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "15f6998dde4d8f53ad07e2474a719bb3ef84327056b9d0ed76941605ebd6121a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8accf6be39efdfb19ff5b9f87d5378a205b82daa1fda3b0bb812428c344d63f55a169d5129330a6902658269ee8902ede92f8489a6e68cca5606cd8fad3fda31"
+        }
+      ],
+      "copyright": "2017 Bo-Yi Wu. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "80-go_json",
+      "name": "internal/json/go_json.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f665cb53c415ec04d8a374e563eceb036ce87c9e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4b7291897dc60beee282db8de9c806aa37534b9eaf91a429c8f7078fcffef260"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eec477f6cd4754f4c19c06cacadbdbcb13884e8cd067709684b65202710ce7a06428989ae9ededac3ab6cb34d6a232d6e73025713430a0f751a49c8bf9c42804"
+        }
+      ],
+      "copyright": "2017 Bo-Yi Wu. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "81-sonic",
+      "name": "internal/json/sonic.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ebb4ecf721aa39431e42a95e01bbc4d4f110490c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "00ba667a2621d1f9af64408a5cdb3ec61b29a4762bacaa5940042bd9ede3e656"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a679d2b22a7818d56a266ccb4ca8b3eb6ed23c55e3629b98ed54a1f66cd912865fd822664ed05f8a0ba285160c67165a5f960d05b1c1daaffdb11016c95023a7"
+        }
+      ],
+      "copyright": "2022 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "82-jsoniter",
+      "name": "internal/json/jsoniter.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cc818e116f47f8deb498746a1d9f3a91bc877066"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "41fce51d49d0b6f930705fc323978616a0cb0cd3ce206e34970a4e9e812afa74"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "06fbbbc94f3c80e2d1f4872bff353c38a2add5ff3834d47eab5e61f273f073258ddba6fab107bc61322f9646bf4f73fb6e0ba9e48ac98077b6bb41cea99347e1"
+        }
+      ],
+      "copyright": "2017 Bo-Yi Wu. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "83-bytesconv_test",
+      "name": "internal/bytesconv/bytesconv_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a5c01d23c95d6e2c9418ba073db1428b411ed35c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b350137bb79209f8ed532dee0e8e8322ef2b766018557c398d86adfb646a2464"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c2c5e6bc8d6b3357395b839fba0159b549dced8e47d2595bcee15abc5ac44d99b9532bccafc286dcaebd546f97478176e205506d01050a4538898f938e9863c"
+        }
+      ],
+      "copyright": "2020 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "84-bytesconv",
+      "name": "internal/bytesconv/bytesconv.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "078de688c9a7f4d68011417407909ac6453f1f08"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "efca594b11389030979a5e90083f5d6d3119356b923195d3c31dcb65b162b3e2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e3bdcf5128a80040ed626306dfedf201c0a44644f7cc7f3256c272d233737f497a3f8e4d19469d6d6885fb2f01a9708f34a364e5ca8e5ee5cc557bdcb6c064a"
+        }
+      ],
+      "copyright": "2023 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "85-form",
+      "name": "binding/form.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3512da4adb92f9fc7086d12d090f7e0d0c0287dd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7ed808e8ff6804735f66ca9cc0d14ef36fd029bf0a7700fce8f6a553f58cdf5c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "35fc64a84a74cca6b00b997f45e87c191cab979e726be89e6fab7368e48d686542ac305fe1353390f87b58ca071c5e5d407792047cf18ccd019bc796d4b9d114"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "86-json_test",
+      "name": "binding/json_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b2609ff46df137ec4cb516cbe69695f19e3b2c77"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0bf99c0cd535f0c3dc69cea12af994506930ee14abb2aaadaa25fa644daded93"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3ebc7e72e5d8a8fba045768ed5118b00a17c6857109e0b6ed6032fc715ae0b813d04b9155bf9ed760667b4193dd184b5f74442558e3d53c8c3ce064f0515ed98"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "87-multipart_form_mapping",
+      "name": "binding/multipart_form_mapping.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4735d33925c0a8ed90515cfa52b2283a7552bebb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "94e6763b541ff04d66388e0d3b07285da85e02ed154aea0842239c857b6db21a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8814a592d6a4eb0ff2750fb93d4375a034a41a5efc14640b5b8803ab7001730401dafdce9e10cc13e2a9c4680ecfa9ab68eedf8c22bd31350e6668a92df00918"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "88-plain",
+      "name": "binding/plain.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f4267740a331bef8ccceea74d5c66bb555c148ce"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5beeea9e3be22b322273a92b26350c388b8521b70d06b4f517dda78178a4e922"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a2538cb33577b07033c1250fbf3f22bb50ed11c2f8cee193c0aac7f1160dd333e102b83e75f47f3fd3dd27a472b694cdd98355a66b9b2014ec17dc9b1f931bd9"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "89-binding_nomsgpack",
+      "name": "binding/binding_nomsgpack.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "11178df2b8a0a660f635a6ae641ba7c52051a175"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "039073609319734be6528018bdfa1d82f799de6a7fc22687df5f73f65499361f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4ca658dbbc9bcb445d1eb14c2ffe60c033767006f9a3d8f8ab1d2fa02fc365c054f558ac73a87196026907e09e67718fce6fab2a889c043c95372f3f4335bfc0"
+        }
+      ],
+      "copyright": "2020 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "90-query",
+      "name": "binding/query.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5418936c10375dfa9b0fa171f57a8db47e456110"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "65e8a3f81069398c364049951aae37e0316598b0601967a4f44efaeced9e26be"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2e48576b7684048dc0702a66f083ff7c61a29e549f942b7400153358185f5c124a4115ab036e50a876b9339fca6ced667821f8b0bf1245b899c6c95c617b279e"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "91-yaml",
+      "name": "binding/yaml.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9f8050c14d6be4b01dbadd2d24c07d59e88bb1d8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f6ae6213b7e10ec4babc4d0acbed23520eee0357171249f368b9d78170821a2d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "99b133f7362e1a0ac5ddc51793129f6b66466880acd5fdd79ef9a33aa5d6b68850ed98378d7031d7d35a26eecb66baf63e710d1913d95b44f9469279cb08df58"
+        }
+      ],
+      "copyright": "2018 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "92-toml",
+      "name": "binding/toml.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9d26c6bbfde3e3195c359f56aca8cc3ddc12582d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3b244d7b9853a794c5310c5449aa13249c58dae2c32b18d77e97dfc8e4bdca14"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c5c720f100cc65cb45788fbbb9cf506e31970090c171d8c86d991d6379fb59e81b1f2eb42ed86ca0f6d6846ddedc0833b59c343585379d71afd9c4b0b039556"
+        }
+      ],
+      "copyright": "2022 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "93-form_mapping_benchmark_test",
+      "name": "binding/form_mapping_benchmark_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5c884865e205fece164b5de351db3e7898e4e0cb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "24e87a0066db2242dc0474b041dbe9753f94f52924f6e2f8c9e2191954093055"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "97b853bc518b80827161108e9bd72fa11ba749ccbdd5402ff38f20d7b260c4f7fdf457951d3024cbccb763f31a58268899f9b47096884edfd7f02da511feac09"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "94-json",
+      "name": "binding/json.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "79a43a31a6f3a54246d25e8171682d41bea31b3f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7fd7b384f430d7e117fe02d16fb1db56e619067524cb9822b65226eef4b4b491"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bf0e70fea083e624e08b1c9520ebd1b317f27446d4d144cd49d1ec8f48eb22e740798afe8780cad1f51fc617569652976e4a1f62193d7359f4674314a353b07e"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "95-header",
+      "name": "binding/header.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "351b2a925547a9968c22a654d7972f1a2b585022"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "05c17e46283c7b90e100912f5d3b651070ba861a8b04e81f0487dafb5e1a80f1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "638d39e36194b43e5ba84dcb88f534dab5b7428c08b7ea3b3e9961214c22c556f050acb7a0c121197489d891ed3993426113d0b3e4cebfeaae0f3f1a82fd1afb"
+        }
+      ],
+      "copyright": "2022 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "96-toml_test",
+      "name": "binding/toml_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "09e9ad22d0c40e3fd23bfa4d19152e4e878e94f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f3bd4fbc65f0fc675acab2728ed633260526c60f5f366a8af36d5e4951123fd7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6b06fc53097d99e6e6663a4597a3651f4afb4779eb2d87bf1eb0fafddff42a4b73c2e0de0dbb47498ed7fa8086e2c31d98f5b46e2adc6192a8852fe69b1ae9e3"
+        }
+      ],
+      "copyright": "2022 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "97-form_mapping_test",
+      "name": "binding/form_mapping_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fe3db8d671c0ec65c58db8847fa834f00100e51a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54b4e2bf3bf27c1d1e3a115f3494aaab4e4099392777a34c14cc15c285308fa4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "598bb64ad6e046dee736d77414979cc119235739c03a8f6ab8e33036db6cdc79931eaff9288581343efde544f0757d98a88df74ffb994ce2f2bb751a7b457140"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "98-protobuf",
+      "name": "binding/protobuf.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8c9a4961e7c24b77c1cfb3c16fe08982fb6c25eb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "62ba0f953ad1db7c3c0f50cc2456a03ed84b23d660a043f86adde9bc9019cc4e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "acca207393c01af411892969185680bc45d1288d5f87333aca09c34855647d9964c9a3d1d689105d89128e92d09d3a02a5edd0cb6b045511938e5bd6a8b04180"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "99-xml",
+      "name": "binding/xml.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6e1b4759fcf806d82f1ea0ddaa339269bfc5c638"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ea482527e69d0e626ea9101e6800ac5e98a06cabde3ccaad61e763183071fabb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2178fd6afa9cd59a49b05154ed7a9826c0824e11916772b958afa7683e1f887287396be0bf033898d65008ce4126abd0342cdeee5aefc28e03428f27ceacd032"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "100-default_validator_benchmark_test",
+      "name": "binding/default_validator_benchmark_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "528e8187af4f3804f96b30c779f024d45dc12415"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a9390e6d1235745d2ef8a2cf4b67e815b4c95062b15516922a068bf209888d46"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3dfe9eb6872df29588517c5ecdb43265798a759dd2ef45d88d9593fcea6e3bad8c7564ca77e54a7cad1d952fb1ac72d552fe327a6be260e9484ff04943ebeb88"
+        }
+      ],
+      "copyright": "2022 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "101-multipart_form_mapping_test",
+      "name": "binding/multipart_form_mapping_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f54367c9d8b64403b5df0f644d4bcbedc53ec770"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "26e6ddbc4dea4a625aec21532e0bdff476fd8564a5e48a41ab4422ba40b9a87e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13bc24115cfec0e6e11eaf4e84a094351ce0421371166a75045f385710c139874e378e36254fe56c32fc82713d3ff2ee66db38d9bfcbf91f89d0997b826d0029"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "102-validate_test",
+      "name": "binding/validate_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5d4c783ad20d538e91b154d15e877153b60bc000"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3e359da6e6a5a49be2fbe78a3bac77f95398182dc42d1da4dcb297493bc61af8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "052449a5b1792f606aa0ceba4a1b93a3205b112ab2ada9d17026afa97aa8ce227b115e461025c3d87e915d95c79ab63c3d78dd40429248952cba9593257dda05"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "103-binding",
+      "name": "binding/binding.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9fa63fc40f4b84faf24db4b9118bdf65f3cc4b4c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fe8bd0ced52a0b8dff9c627bd1c74950253888cae0c3be9ef346ed88bb3aa589"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "99efd6e3d6f1d5e2d99f7fe5c66af0d426665230b7f4c911e7dc4a39c55ccc8b5daeceea83c4a4496409b4582ac4df88982d841614a6dec12c7457aabef01bb1"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "104-binding_msgpack_test",
+      "name": "binding/binding_msgpack_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3fc6ccb8e3ad36eff9aab05d39a80133981cab00"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c817ea50e665b37e8f5c630200ddf8570c64d91bbea6ff55a7a61dc7147f5661"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3bc6988346c73c852eba1052091bb60f3d9fff2eb6909b55ed060d0a110278735f5633257fbd5ebe6ac4ff9364b36e7f68dbee95366a7ae963dc6854436c1d34"
+        }
+      ],
+      "copyright": "2020 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "105-msgpack",
+      "name": "binding/msgpack.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9722cebe274c600aeddae7de65927c1bf2a4dd42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6467b18f19ae296551cfee362331b536726f6b1a030fcc61e8b4775a5f9d88b3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "44a427bd83e2d3a53c2924349c4edfbe7986836ee8087dd1f54652b2b17655df393faab260669ea0ef890bf5a308c62a140397ca40e20a98ae01138c480158f5"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "106-default_validator",
+      "name": "binding/default_validator.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3acb78be8c9858aacbb936ad0b7e839d9242b390"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "82fc9bc16fd347fd96c68c64254f06d0fd5c1218d869c5c0335b666a68dbaea0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "00400f6d8248c487bcb88f69296c149692ac8b9bb62890f8daed27ab194f029375e4ae68fd27ba77a8952b345a3289b69ab5d95e667c7a46fadbd04a3ca521c9"
+        }
+      ],
+      "copyright": "2017 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "107-default_validator_test",
+      "name": "binding/default_validator_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "28c3b42a3d49ce709034928526222f87f5718cb8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1721c1ad05cc0a58d925cd2a72cf5113af6be348fe06482e74cc422e3f23e13c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "308d692df649a0a9685b800fa15fe6323aaaa096829292f44a934c38bb096bd5424d02ac9803a216ec576295c73d1a53aed4192bbf21002745b120e6b3df721c"
+        }
+      ],
+      "copyright": "2020 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "108-msgpack_test",
+      "name": "binding/msgpack_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "36d195f7550376e4068d5adec8241ea7966f27ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5209e6198b991f697d1be520bafa04e2eb769a042e1c445f50ac10fca1486150"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "08615c696c76c1f9baa1dcfab318b9d2a7172425bb68e9e67e35b1661b947babfe51c54b53c2e3ec0de34cd05635c25c6c01ac775abd487936e1c684d00b90ec"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "109-form_mapping",
+      "name": "binding/form_mapping.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "836253c59c9c2541a113631e49d5cd0f101db431"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f85d5bc16a02095e4b6de250428fc9df389f746f48011314592456be93c0abb9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1f6092e61b0966f3ed16ae1d0984f095ea92f4a1169e8cc4dc4f0eb5963e8ad1828dc811b6a2290159bc7d1722849925fad2c08053f0000bab307273ad08e783"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "110-binding_test",
+      "name": "binding/binding_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "84395ef24648025a945565b301b51fa0a0775b07"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9d0d5303e4239f084b7708c897e8b3f40f65f233621249f339433268459b07da"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "04ac1958bae4ef0b4eb62c7c7d272102359daa792b54ec665a709a13d4410a2e78c59afb52e5f7296aaf097bfe5ef90e5892ac67916cb6e88bc4d96ce1f2237e"
+        }
+      ],
+      "copyright": "2014 Manu Martinez-Almeida. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "111-uri",
+      "name": "binding/uri.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b5c0537b8685cfd21ecfb67d06a97898715f7eee"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef9e498347257b91f2679af03c3b07a09794e2cff7d02e16475b9e6939daf87c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "061e2f5194f66a01eb799c11a6ae93e46751eec9cf36b84e73fbdb4c0840a0bb147b0eb64d934fd4473bbf8238b913df75245331f9d800922b354d1a0eb31e7b"
+        }
+      ],
+      "copyright": "2018 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "112-yaml_test",
+      "name": "binding/yaml_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7faf2528bf2b5251a398230d8a1f901a68d6f5c4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "72a22492848e204676e8ac7db4f922c27b9b2cdf475caca1406356b892f44d1c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b78805d672ae974b783ab7953220f585188b53c2f080b57377b09752facddcd998d16514dc2565f70a6346aeea91f8ea5071239961fff4c3aab846636dbfa0a2"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "113-xml_test",
+      "name": "binding/xml_test.go",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6eef4bc16355fc300f0f952a7bb395da857703c8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b453ca5804a0a3adbc8f4ca4f97caf981cfbf749fabd7709a92b190b62d02c12"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6e8dc1c40bd9db807282330402c0a72a340ec3392b7f6ee396e07718a4634b8aa1c726a2c23689dd6188b3eb67decb65883ac2a7b6902f2c2462ba516e4722d7"
+        }
+      ],
+      "copyright": "2019 Gin Core Team. All rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Go"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "114-dependabot",
+      "name": ".github/dependabot.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d9828f8314c0b0ab622035f6899a30475389935b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "38718ce0a094a628e3ae97f8b40d2cdac16cb412da10c7ee2f75e8c7695c47d5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6891fce70b64efb61f250fffc31f9d216b7f8bc3fb54925533a8e7246ad669a3144dd1dcf023a83622f411447922b0d2a4d5d2a12ead6bd04b6f66fe1accf68b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "115-PULL_REQUEST_TEMPLATE",
+      "name": ".github/PULL_REQUEST_TEMPLATE.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "570fa6638fd678839f403bebc4322c54b91ce5f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7e9ba5366800312db4780f3dfb0e8cb33a27ec7e46bdf038f67f1964e87d394d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "05386b228c8a73d0ee98c54bf604c43c4a5c809cb75e5eb1160fbe60ba9446db00acd75c61c34d6e03b866a225ed703715ce1f0259450af17a8503a84bb170c8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "116-ISSUE_TEMPLATE",
+      "name": ".github/ISSUE_TEMPLATE.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1e6c0b4e00d3d81d25c07d888aa995326a4bcac8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "75fbb8a1769b07cbfaaf80d716900d9ea265e53d3461de9e92bb947c899e0939"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "07f82fd1fdebe19a63531e8ced41e2f1a0a5265c26da8a7312b45d8f28e854ccdc2b36c063713fef222a917fc281bee9c9523032d1357b440386de302555b5c4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "117-gin",
+      "name": ".github/workflows/gin.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8a7ef537610bab49dd81816119d0d799250810fb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "37750e93ca0f8542031402da3e6e80080b085a37d8bbe81d77221b3249e55318"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "db52dca3528f632cfbcb0e532c7748fae569fe0812388a8a859cad5b7140ad36ae2fb2910303e7d33daa01fa64199113e7823f92e0c74853346a1f6b5084061c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "118-goreleaser",
+      "name": ".github/workflows/goreleaser.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a6695dd056831e6d94636ceaf00c17c194858045"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ef3faeaf1d4cf4b627915c1b9201041c2ec8864c8c28d56518dea469ad96b931"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "977848c127fe6dda80dc2b50e9093aa3cb2af927c6b8ac51e80975b43ca5f60c650d153c6b017639f2d9096f64f4e815132f184899978f965ef4354d51259d2b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "119-codeql",
+      "name": ".github/workflows/codeql.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d5bc6aa1c8b4d9a4d12f536a59621ddbb6634b89"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b8e055a77a6d4c55d58c1f5556443f11b1415dbaf4cd00be00bb979029ec7bcc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c5573007d29fee85275e90dbec7188e133485b9b1fe794de682d4ca1cc2c48e31a41bb2a1fea077a727253a69622aba2787e84e4650a331610b3f3a6b079a384"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "120-packed-refs",
+      "name": ".git/packed-refs",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d7eb2e03adcbd584cc46aaf088db2d52ea251af2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dd356231aee74e59378e27eb236cd5cb37e02440f1204b9a92722dcd4e1e789c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "135a9d1993c0a81d0a3d4e8e405157c59d41fd8eb069bc09ec7902bcf99696c794e228d4d0d60b4c218cd2086bf207e11410ff39326b33bbf3a6eea56e0ec0d5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "121-description",
+      "name": ".git/description",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9635f1b7e12c045212819dd934d809ef07efa2f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f7e152f75b124c3e1c5d12f00427729d9eec4e2c1bf70d7606440a6600d003367eb178331e75ab976a61496e79c2c822020849d28ffd170946397b934611b471"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "122-index",
+      "name": ".git/index",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f17bfd5dad45638da3fe247a4fac9f5774e0d80c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "acfe2a5f51f98843c973d0f4c439096bc03fe7e71e6b5f4eda3d9c9eab9e9748"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "10b43ff98468042086f4e943c1992251cbc09c75e8a7d25efcfe5c8a3a19926197eedcb74662d16594f246958dbc6dc8b39a0d85911887e3e0805f6774e42841"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "123-HEAD",
+      "name": ".git/HEAD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a25a968e9380a8ddb4968837e8486d3a2f7f507f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4d0f3bdf96806f0309566974c0279e06e6920d3c423bb3cc5a259eb676817501"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d770792679089ff9d3fe268407b5f291c2247d7e7474d25cb5053ab7ee7edde6faa96e64ff6c87fed82a19be5af719fffd78050ed950143c5bf6b54856ec5fa3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "124-config",
+      "name": ".git/config",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "525229837ce9f7be7d6a3dd6a5ec0e525648ad5e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ae490468096ac2d579050f4074907033e9ad6f896f4f7db204a52e24cd281fc5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "36c84488d6b576f57760e267a066c7c2b1385a19d3084aac1650fc078f2c4513091a48d19b71dd803702e89954eff92d99c1e6b876469e6005ceec49b884075a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "125-master",
+      "name": ".git/refs/heads/master",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "71a47345274248d7c3149f8d888cdac0ead6d7d8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9c6864bdd40498969b0d24460dbb55df706e7e97c064e436044f40bcf6433979"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "739111624207dc50739c28f8698be344bb1368d9d479290496d9570723d4acdf36a0f2cdcd987ed8141892feff6b059b2879827a6163360eaf3ee76298d269fa"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "126-HEAD",
+      "name": ".git/refs/remotes/origin/HEAD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d9427cda09aba1cdde5c69c2b13c905bddb0bc51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cdc65e67690c4c6475174e5ec662b70655246a2f3924354778835ab3be70aa76"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0d686b330d5704fdbb9588d62bbddda273f86b24db52ddbdb73c0c304aabb8e6f8a1df806b360113de6783bdc138f8731c03c22db1537cc4ad14975eb28d031f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "127-HEAD",
+      "name": ".git/logs/HEAD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9c2277ffc76d60dd15d401dd7d92d0d96f0545ee"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4054736e4df98fcd05f0583eb47a65f0b7d4abc6bd0e425c871f0cd2ac010350"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e1dc3a0c21b7084e4412a48e67f259499d10ccd4058710ca453bf0604e86b8eb864f2ff467d558dd11f8ef69e3713b565bcf9f984c6a94fabc6ea5abbd2ec00d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "128-master",
+      "name": ".git/logs/refs/heads/master",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d4feec774819463e4fb9ad518754438da5895e42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc3485428dec59c6786c1f47b51e0ffe2774d2043e58abd8a648a7b336cf2a3c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ff95b7206331f55d1e758cf0bb4c45b783de3abf8b49b57c6b9ab1121d4fb2cf84fd653ae32084cb44b1c19061e89992a8ba16db535e253f8c2c1a487b17feb1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "129-HEAD",
+      "name": ".git/logs/refs/remotes/origin/HEAD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d4feec774819463e4fb9ad518754438da5895e42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc3485428dec59c6786c1f47b51e0ffe2774d2043e58abd8a648a7b336cf2a3c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ff95b7206331f55d1e758cf0bb4c45b783de3abf8b49b57c6b9ab1121d4fb2cf84fd653ae32084cb44b1c19061e89992a8ba16db535e253f8c2c1a487b17feb1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "130-pack-c9f2327e1796795cfc035195358a9bf501f58fef",
+      "name": ".git/objects/pack/pack-c9f2327e1796795cfc035195358a9bf501f58fef.pack",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9f5a6747439057ba1ad49b286a7caa657ddc9942"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7b9bfc1debe47dadf13d32533a53015ef42303137ab8c086f413dcc46afbc701"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a31342cc144b35a127bafc62981240bd9401abcc3bbd172ee0bc322bc3cbfbd5c25e1c046f82e8101dac75973ee1c5ad41c9fff0a32eb1a9c443102395d771a5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "131-pack-c9f2327e1796795cfc035195358a9bf501f58fef",
+      "name": ".git/objects/pack/pack-c9f2327e1796795cfc035195358a9bf501f58fef.idx",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ecd87786612fed7ee7a59300bd86913797add4c4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "11e150208d031491e7bb1f9fb17d6ce356915b46395109b828974fdb17ad6469"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c1ee8adcb383bb0b6e08641dab9241995f8da05ab689db64a3f7bbcf7ec4e1832ceadeba758bf131d05302526ddeda5e5d13cf9fcdbd5b915b401b292209b100"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "132-exclude",
+      "name": ".git/info/exclude",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c879df015d97615050afa7b9641e3352a1e701ac"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9828c6ecdf91bf117416e17f4ee9caee2e1e37b6fb00b9ff04035ace17a3089b9d0a25c6baa1046c0e1c62d3da88838e8fca74ea82973d6b975905fde58f3072"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "133-update",
+      "name": ".git/hooks/update.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "730e6bd5225478bab6147b7a62a6e2ae21d40507"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "be3780974589d06eddba6fa0aa15a3e3dfe390e2827a1a6ae5cb83d6ac47e79ef9b1bbb53f067372f8dc70db0350d3770e78537fd3cfe734200ff824eca4cada"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "134-pre-applypatch",
+      "name": ".git/hooks/pre-applypatch.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f208287c1a92525de9f5462e905a9d31de1e2d75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cb78aa7e9b9c146e5db65d86dd83f04e2b6942a06fab50c704a0fd900683f3b6ad1164e74afe2f267f6da91cdff0b9ab07713e12cefc6f8d741b5df194f4fda6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "135-fsmonitor-watchman",
+      "name": ".git/hooks/fsmonitor-watchman.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0ec0ec9ac11111433d17ea79e0ae8cec650dcfa4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5168643c1768ec83554a9066754507a781b6d14251a46a469222d462efc6ca87a72c90679154e8a723349c91e7772b32ac9b08dfe313cded0ee0a6f17885079e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "136-applypatch-msg",
+      "name": ".git/hooks/applypatch-msg.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "536cce804d84e25813993efdd240537b52d00ce9cdcecf1982f85096d56a521290104c825c00b370b2752201952a9616a3f4e28c5d27a5b4e4842101a2ff9bee"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "137-commit-msg",
+      "name": ".git/hooks/commit-msg.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ee1ed5aad98a435f2020b6de35c173b75d9affac"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d6bb7fa747f4625adf1877f546565cbe812ca7dd4168f7e9068e6732555d8737eba549546cf5946649e3f38de82d173aaf9c160a4c9f9445655258b4c5f955eb"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "138-post-update",
+      "name": ".git/hooks/post-update.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b614c2f63da7dca9f1db2e7ade61ef30448fc96c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "473ad124642571656276bf83b9ff63ab1804d3c23a5bdae52391c6f70a894849ac60c10c9d31deff3938922ce83b68b1e60c11592bbf7ea503f4acd39968cefa"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "139-pre-commit",
+      "name": ".git/hooks/pre-commit.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a79d057388ee2c2fe6561d7697f1f5efcff96f23"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7cfb0a58abed1915ee1b261a1c661c7e2deea4e9227f77f5875af1a25c82e19245ba12dcb2f5052d994d0e81a3465daf37f9d8c670e17f9c96742f60fdfaaa56"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "140-push-to-checkout",
+      "name": ".git/hooks/push-to-checkout.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "508240328c8b55f8157c93c43bf5e291e5d2fbcb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "586efb6a206f73d8a94561266153a624e2753830bc431a283bed998c46ac00a9df4995ddfd0aa852b1a22b4672c80f2c33cee3fe2e3321e392ff4cef26dbf75e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "141-prepare-commit-msg",
+      "name": ".git/hooks/prepare-commit-msg.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2584806ba147152ae005cb675aa4f01d5d068456"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "50ec8a0dd98427e80a82a8d8ce44462a845876e1594c9d0e89483ce9a8aaad616edea0e5c45c1bb69d8fe7f520c6f2260d6fa350d77b400899c3ae375e965bfb"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "142-pre-merge-commit",
+      "name": ".git/hooks/pre-merge-commit.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "04c64e58bc25c149482ed45dbd79e40effb89eb7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e4dc204494f5062efa3032b00c64707a4f38978040482501b3e085f071e3ee5a9737d537e6a52002ceb4ebe2bfe09e555c5d969581e80b3eba2a922015c67960"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "143-pre-rebase",
+      "name": ".git/hooks/pre-rebase.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "288efdc0027db4cfd8b7c47c4aeddba09b6ded12"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "00d21d5d72386c3d9b5a1c36ba85201f730556a8295d4353af54af7892ab81010d42aff209ec1fda61c54e4dda3737cea5fda64f09d40ce5004ae28239565025"
+        }
+      ],
+      "copyright": "(c) 2006, 2008 Junio C Hamano",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "144-pre-push",
+      "name": ".git/hooks/pre-push.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a599b773b930ca83dbc3a5c7c13059ac4a6eaedc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cc98bbe0e3865e2023af04416e10689e3aecd3f3928cf90c2acc0d3d7306388886779025c8967c8ea198af1f4fe29d16c65d4e1d546c7a8fa513f5ba7df16850"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "145-pre-receive",
+      "name": ".git/hooks/pre-receive.sample",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "705a17d259e7896f0082fe2e9f2c0c3b127be5ac"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ee08c11fab7e896b2e09c241954ba7640338b12c75cd8040daf053c31b2f22236d7a0deac736f89d305236312fdb4f560a38d4d8debdcc9dcdd23b2d975907d5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "Gin-files",
+      "name": "Gin-files"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CDXRef-DOCUMENT",
+      "dependsOn": [
+        "1-Gin-files"
+      ]
+    },
+    {
+      "ref": "Gin-files",
+      "dependsOn": [
+        "1-routes_test",
+        "2-response_writer",
+        "3-path",
+        "4-utils",
+        "5-.goreleaser",
+        "6-recovery",
+        "7-logger_test",
+        "8-AUTHORS",
+        "9-utils_test",
+        "10-githubapi_test",
+        "11-context_test",
+        "12-middleware_test",
+        "13-tree",
+        "14-test_helpers",
+        "15-mode",
+        "16-debug_test",
+        "17-routergroup_test",
+        "18-Makefile",
+        "19-deprecated_test",
+        "20-context_appengine",
+        "21-version",
+        "22-LICENSE",
+        "23-context",
+        "24-benchmarks_test",
+        "25-logger",
+        "26-auth_test",
+        "27-recovery_test",
+        "28-mode_test",
+        "29-routergroup",
+        "30-response_writer_test",
+        "31-go",
+        "32-BENCHMARKS",
+        "33-codecov",
+        "34-errors",
+        "35-CODE_OF_CONDUCT",
+        "36-README",
+        "37-CHANGELOG",
+        "38-tree_test",
+        "39-fs_test",
+        "40-errors_test",
+        "41-go",
+        "42-gin_test",
+        "43-auth",
+        "44-CONTRIBUTING",
+        "45-path_test",
+        "46-fs",
+        "47-deprecated",
+        "48-gin",
+        "49-doc",
+        "50-gin_integration_test",
+        "51-debug",
+        "52-.golangci",
+        "53-.gitignore",
+        "54-raw",
+        "55-hello",
+        "56-test",
+        "57-test.pb",
+        "58-key",
+        "59-cert",
+        "60-reader",
+        "61-html",
+        "62-yaml",
+        "63-toml",
+        "64-reader_test",
+        "65-json",
+        "66-redirect",
+        "67-render",
+        "68-protobuf",
+        "69-render_msgpack_test",
+        "70-xml",
+        "71-data",
+        "72-render_test",
+        "73-msgpack",
+        "74-text",
+        "75-README",
+        "76-doc",
+        "77-gins",
+        "78-README",
+        "79-json",
+        "80-go_json",
+        "81-sonic",
+        "82-jsoniter",
+        "83-bytesconv_test",
+        "84-bytesconv",
+        "85-form",
+        "86-json_test",
+        "87-multipart_form_mapping",
+        "88-plain",
+        "89-binding_nomsgpack",
+        "90-query",
+        "91-yaml",
+        "92-toml",
+        "93-form_mapping_benchmark_test",
+        "94-json",
+        "95-header",
+        "96-toml_test",
+        "97-form_mapping_test",
+        "98-protobuf",
+        "99-xml",
+        "100-default_validator_benchmark_test",
+        "101-multipart_form_mapping_test",
+        "102-validate_test",
+        "103-binding",
+        "104-binding_msgpack_test",
+        "105-msgpack",
+        "106-default_validator",
+        "107-default_validator_test",
+        "108-msgpack_test",
+        "109-form_mapping",
+        "110-binding_test",
+        "111-uri",
+        "112-yaml_test",
+        "113-xml_test",
+        "114-dependabot",
+        "115-PULL_REQUEST_TEMPLATE",
+        "116-ISSUE_TEMPLATE",
+        "117-gin",
+        "118-goreleaser",
+        "119-codeql",
+        "120-packed-refs",
+        "121-description",
+        "122-index",
+        "123-HEAD",
+        "124-config",
+        "125-master",
+        "126-HEAD",
+        "127-HEAD",
+        "128-master",
+        "129-HEAD",
+        "130-pack-c9f2327e1796795cfc035195358a9bf501f58fef",
+        "131-pack-c9f2327e1796795cfc035195358a9bf501f58fef",
+        "132-exclude",
+        "133-update",
+        "134-pre-applypatch",
+        "135-fsmonitor-watchman",
+        "136-applypatch-msg",
+        "137-commit-msg",
+        "138-post-update",
+        "139-pre-commit",
+        "140-push-to-checkout",
+        "141-prepare-commit-msg",
+        "142-pre-merge-commit",
+        "143-pre-rebase",
+        "144-pre-push",
+        "145-pre-receive"
+      ]
+    }
+  ]
+}

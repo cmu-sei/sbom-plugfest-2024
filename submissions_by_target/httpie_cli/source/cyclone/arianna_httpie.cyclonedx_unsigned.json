@@ -1,0 +1,1063 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+    "bomFormat": "CycloneDX",
+    "signature": {
+        "algorithm": "RS256",
+        "value": ""
+    },
+    "components": [
+        {
+            "author": "Jakub Roztocil (jakub@roztocil.co)",
+            "bom-ref": "pkg:pypi/httpie@3.2.4-edbb3822",
+            "description": "HTTPie: modern, user-friendly command-line HTTP client for the API era.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://httpie.io/"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "name": "httpie",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/httpie-3.2.4.dist-info/METADATA",
+                    "value": "SHA1: 024cf9e9da587099c4fc54c7f5b2c4f4441fd4b7"
+                }
+            ],
+            "purl": "pkg:pypi/httpie@3.2.4",
+            "type": "library",
+            "version": "3.2.4"
+        },
+        {
+            "bom-ref": "pkg:pypi/importlib_metadata@8.0.0-8ceea989",
+            "description": "Read metadata from Python packages",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/python/importlib_metadata"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache-2.0"
+                    }
+                }
+            ],
+            "name": "importlib-metadata",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA",
+                    "value": "SHA1: e8c830d8b0942300c7c87b3b8fd15ea1396e07bd"
+                }
+            ],
+            "purl": "pkg:pypi/importlib_metadata@8.0.0",
+            "type": "library",
+            "version": "8.0.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/inflect@7.3.1-4c202e1f",
+            "description": "Correctly generate plurals, singular nouns, ordinals, indefinite articles",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/jaraco/inflect"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "inflect",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA",
+                    "value": "SHA1: c37042adc0d1270485f4b8b5b9e085a274dc035b"
+                }
+            ],
+            "purl": "pkg:pypi/inflect@7.3.1",
+            "type": "library",
+            "version": "7.3.1"
+        },
+        {
+            "bom-ref": "pkg:pypi/jaraco.collections@5.1.0-10564a8c",
+            "description": "Collection objects similar to those in stdlib by jaraco",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/jaraco/jaraco.collections"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "jaraco.collections",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA",
+                    "value": "SHA1: ac0db25aefd2679b4c3265e713d00f6155a94465"
+                }
+            ],
+            "purl": "pkg:pypi/jaraco.collections@5.1.0",
+            "type": "library",
+            "version": "5.1.0"
+        },
+        {
+            "author": "Jason R. Coombs (jaraco@jaraco.com)",
+            "bom-ref": "pkg:pypi/jaraco.context@5.3.0-0532ad85",
+            "description": "Useful decorators and context managers",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/jaraco/jaraco.context"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "jaraco.context",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA",
+                    "value": "SHA1: ac9c92013b2f0fc65d741b32a9fe4b956dd6eb7d"
+                }
+            ],
+            "purl": "pkg:pypi/jaraco.context@5.3.0",
+            "type": "library",
+            "version": "5.3.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/jaraco.functools@4.0.1-d4df04bd",
+            "description": "Functools like those found in stdlib",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/jaraco/jaraco.functools"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "jaraco.functools",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA",
+                    "value": "SHA1: b7a18f079de22d10c4c318e54bd8c48177f91333"
+                }
+            ],
+            "purl": "pkg:pypi/jaraco.functools@4.0.1",
+            "type": "library",
+            "version": "4.0.1"
+        },
+        {
+            "bom-ref": "pkg:pypi/jaraco.text@3.12.1-213485fa",
+            "description": "Module for text manipulation",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/jaraco/jaraco.text"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "jaraco.text",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA",
+                    "value": "SHA1: a7763789fa56cebbaa849368faac7d386f170399"
+                }
+            ],
+            "purl": "pkg:pypi/jaraco.text@3.12.1",
+            "type": "library",
+            "version": "3.12.1"
+        },
+        {
+            "bom-ref": "pkg:pypi/markdown_it_py@3.0.0-31e72eb7",
+            "description": "Python port of markdown-it. Markdown parsing, done right!",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/executablebooks/markdown-it-py"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "markdown-it-py",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/markdown_it_py-3.0.0.dist-info/METADATA",
+                    "value": "SHA1: 70c9ecb166629d6553abc6ffac1749a244abd081"
+                }
+            ],
+            "purl": "pkg:pypi/markdown_it_py@3.0.0",
+            "type": "library",
+            "version": "3.0.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/mdurl@0.1.2-55c70823",
+            "description": "Markdown URL utilities",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/executablebooks/mdurl"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "mdurl",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/mdurl-0.1.2.dist-info/METADATA",
+                    "value": "SHA1: cc9d84bf84be59dd90368ea2f5e3a9fae8f0f1b7"
+                }
+            ],
+            "purl": "pkg:pypi/mdurl@0.1.2",
+            "type": "library",
+            "version": "0.1.2"
+        },
+        {
+            "bom-ref": "pkg:pypi/more_itertools@10.3.0-6c1dfb7d",
+            "description": "More routines for operating on iterables, beyond itertools",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/more-itertools/more-itertools"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "more-itertools",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA",
+                    "value": "SHA1: ffccec7fd799cc4ab07530954fef3be2472e2c23"
+                }
+            ],
+            "purl": "pkg:pypi/more_itertools@10.3.0",
+            "type": "library",
+            "version": "10.3.0"
+        },
+        {
+            "author": "Andrew Svetlov (andrew.svetlov@gmail.com)",
+            "bom-ref": "pkg:pypi/multidict@6.1.0-2b4a5840",
+            "description": "multidict implementation",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/aio-libs/multidict"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache-2.0"
+                    }
+                }
+            ],
+            "name": "multidict",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/multidict-6.1.0.dist-info/METADATA",
+                    "value": "SHA1: d79a1c5fceec4840b5de652a3397d57482913603"
+                }
+            ],
+            "purl": "pkg:pypi/multidict@6.1.0",
+            "type": "library",
+            "version": "6.1.0"
+        },
+        {
+            "author": "Anorov (anorov.vorona@gmail.com)",
+            "bom-ref": "pkg:pypi/pysocks@1.7.1-ecda7831",
+            "description": "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/Anorov/PySocks"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "name": "PySocks",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/PySocks-1.7.1.dist-info/METADATA",
+                    "value": "SHA1: e7121f5b856c57e858caf18a23bf0cd497c6b9e2"
+                }
+            ],
+            "purl": "pkg:pypi/pysocks@1.7.1",
+            "type": "library",
+            "version": "1.7.1"
+        },
+        {
+            "bom-ref": "pkg:pypi/packaging@24.2-99e3db30",
+            "description": "Core utilities for Python packages",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/pypa/packaging"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache-2.0"
+                    }
+                }
+            ],
+            "name": "packaging",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA",
+                    "value": "SHA1: 292b8d19cdc308e072817b6407cac3cb5175a060"
+                }
+            ],
+            "purl": "pkg:pypi/packaging@24.2",
+            "type": "library",
+            "version": "24.2"
+        },
+        {
+            "bom-ref": "pkg:pypi/pip@24.2-710d8352",
+            "description": "The PyPA recommended tool for installing Python packages.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://pip.pypa.io/"
+                },
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/pypa/pip"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "pip",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/pip-24.2.dist-info/METADATA",
+                    "value": "SHA1: 7ef1f6226c2acedce857ed89cec1548dc9bacd9c"
+                }
+            ],
+            "purl": "pkg:pypi/pip@24.2",
+            "type": "library",
+            "version": "24.2"
+        },
+        {
+            "bom-ref": "pkg:pypi/platformdirs@4.2.2-e7e1a160",
+            "description": "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/platformdirs/platformdirs"
+                },
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/platformdirs/platformdirs"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "platformdirs",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA",
+                    "value": "SHA1: 1ac8a3679afcfeec0ba00851f5f8095dd1b060cd"
+                }
+            ],
+            "purl": "pkg:pypi/platformdirs@4.2.2",
+            "type": "library",
+            "version": "4.2.2"
+        },
+        {
+            "author": "Kenneth Reitz (me@kennethreitz.org)",
+            "bom-ref": "pkg:pypi/requests@2.32.3-c55d6b4f",
+            "description": "Python HTTP for Humans.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://requests.readthedocs.io"
+                },
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/psf/requests"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache-2.0"
+                    }
+                }
+            ],
+            "name": "requests",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/requests-2.32.3.dist-info/METADATA",
+                    "value": "SHA1: 2932497ffb7a7e281a919fc9b881c459e56653e0"
+                }
+            ],
+            "purl": "pkg:pypi/requests@2.32.3",
+            "type": "library",
+            "version": "2.32.3"
+        },
+        {
+            "author": "Ian Cordasco",
+            "bom-ref": "pkg:pypi/requests_toolbelt@1.0.0-ebaa7d48",
+            "description": "A utility belt for advanced users of python-requests",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://toolbelt.readthedocs.io/"
+                },
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/requests/toolbelt"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache-2.0"
+                    }
+                }
+            ],
+            "name": "requests-toolbelt",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+                    "value": "SHA1: 171fbbc84e8b7216e237b702f3fda539ffb1e487"
+                }
+            ],
+            "purl": "pkg:pypi/requests_toolbelt@1.0.0",
+            "type": "library",
+            "version": "1.0.0"
+        },
+        {
+            "author": "Will McGugan (willmcgugan@gmail.com)",
+            "bom-ref": "pkg:pypi/rich@13.9.4-b9c49fc0",
+            "description": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/Textualize/rich"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "rich",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/rich-13.9.4.dist-info/METADATA",
+                    "value": "SHA1: d340ca2c4a33cd3afb0f14e7c924555176d474e6"
+                }
+            ],
+            "purl": "pkg:pypi/rich@13.9.4",
+            "type": "library",
+            "version": "13.9.4"
+        },
+        {
+            "bom-ref": "pkg:pypi/setuptools@75.6.0-f0295879",
+            "description": "Easily download, build, install, upgrade, and uninstall Python packages",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/pypa/setuptools"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "setuptools",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools-75.6.0.dist-info/METADATA",
+                    "value": "SHA1: 12f1286865b32c1831844e63692b070c43c4c4a4"
+                }
+            ],
+            "purl": "pkg:pypi/setuptools@75.6.0",
+            "type": "library",
+            "version": "75.6.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/tomli@2.0.1-5bfa4079",
+            "description": "A lil' TOML parser",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/hukkin/tomli"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "tomli",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+                    "value": "SHA1: d3ea3bda227794ae35fe7ffc5bd6e5fa2a5ef250"
+                }
+            ],
+            "purl": "pkg:pypi/tomli@2.0.1",
+            "type": "library",
+            "version": "2.0.1"
+        },
+        {
+            "bom-ref": "pkg:pypi/typeguard@4.3.0-d74dc755",
+            "description": "Run-time type checker for Python",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "typeguard",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA",
+                    "value": "SHA1: 9a94672ccfea06156a5f8a321cd0626cfd233ae8"
+                }
+            ],
+            "purl": "pkg:pypi/typeguard@4.3.0",
+            "type": "library",
+            "version": "4.3.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/typing_extensions@4.12.2-c24b66a7",
+            "description": "Backported and Experimental Type Hints for Python 3.8+",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "PSF-2.0"
+                    }
+                }
+            ],
+            "name": "typing_extensions",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA",
+                    "value": "SHA1: b6ada54b9516d20b69a5dd5cded868da22c5e252"
+                }
+            ],
+            "purl": "pkg:pypi/typing_extensions@4.12.2",
+            "type": "library",
+            "version": "4.12.2"
+        },
+        {
+            "bom-ref": "pkg:pypi/pygments@2.18.0-8b67656c",
+            "description": "Pygments is a syntax highlighting package written in Python.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://pygments.org"
+                },
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/pygments/pygments"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-2-Clause"
+                    }
+                }
+            ],
+            "name": "Pygments",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/pygments-2.18.0.dist-info/METADATA",
+                    "value": "SHA1: 2646707994af8555350bb4b8da93ceac8bc491c0"
+                }
+            ],
+            "purl": "pkg:pypi/pygments@2.18.0",
+            "type": "library",
+            "version": "2.18.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/urllib3@2.2.3-52d836ff",
+            "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "urllib3",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/urllib3-2.2.3.dist-info/METADATA",
+                    "value": "SHA1: 150524ee8bba4b41d2e36d789748ec8ec0e65315"
+                }
+            ],
+            "purl": "pkg:pypi/urllib3@2.2.3",
+            "type": "library",
+            "version": "2.2.3"
+        },
+        {
+            "bom-ref": "pkg:pypi/wheel@0.43.0-bc605c93",
+            "description": "A built-package format for Python",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/pypa/wheel"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "wheel",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA",
+                    "value": "SHA1: 7ceb6dbe498b69abf4087637c6f500742ff7e2b4"
+                }
+            ],
+            "purl": "pkg:pypi/wheel@0.43.0",
+            "type": "library",
+            "version": "0.43.0"
+        },
+        {
+            "bom-ref": "pkg:pypi/zipp@3.19.2-ecd89ab3",
+            "description": "Backport of pathlib-compatible object wrapper for zip files",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/jaraco/zipp"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "zipp",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA",
+                    "value": "SHA1: c53b0e6a2e3d94093e2fe4978926a7439b47d43c"
+                }
+            ],
+            "purl": "pkg:pypi/zipp@3.19.2",
+            "type": "library",
+            "version": "3.19.2"
+        },
+        {
+            "author": "Nathan West",
+            "bom-ref": "pkg:pypi/autocommand@2.2.2-2572a44d",
+            "description": "A library to create a command-line program from a function",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/Lucretiel/autocommand"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "LGPL-3.0-only"
+                    }
+                }
+            ],
+            "name": "autocommand",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA",
+                    "value": "SHA1: 4310db58f98c12b23286e5fa37f0e27abefb6a4a"
+                }
+            ],
+            "purl": "pkg:pypi/autocommand@2.2.2",
+            "type": "library",
+            "version": "2.2.2"
+        },
+        {
+            "bom-ref": "pkg:pypi/backports.tarfile@1.2.0-34695c1d",
+            "description": "Backport of CPython tarfile module",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/jaraco/backports.tarfile"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "backports.tarfile",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA",
+                    "value": "SHA1: 3dd8d93cf7695d1c9d7574751ab5b0dee5dd7f9a"
+                }
+            ],
+            "purl": "pkg:pypi/backports.tarfile@1.2.0",
+            "type": "library",
+            "version": "1.2.0"
+        },
+        {
+            "author": "Kenneth Reitz (me@kennethreitz.com)",
+            "bom-ref": "pkg:pypi/certifi@2024.8.30-563b0bab",
+            "description": "Python package for providing Mozilla's CA Bundle.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/certifi/python-certifi"
+                },
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/certifi/python-certifi"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MPL-2.0"
+                    }
+                }
+            ],
+            "name": "certifi",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/certifi-2024.8.30.dist-info/METADATA",
+                    "value": "SHA1: 9327ad0bda86c1be61644acf536b271fd19b0929"
+                }
+            ],
+            "purl": "pkg:pypi/certifi@2024.8.30",
+            "type": "library",
+            "version": "2024.8.30"
+        },
+        {
+            "author": "Ahmed TAHRI (tahri.ahmed@proton.me)",
+            "bom-ref": "pkg:pypi/charset_normalizer@3.4.0-7c08b333",
+            "description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/Ousret/charset_normalizer"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "name": "charset-normalizer",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/charset_normalizer-3.4.0.dist-info/METADATA",
+                    "value": "SHA1: c10e6e210a50bd5e932c0c69ccc7959264bf2325"
+                }
+            ],
+            "purl": "pkg:pypi/charset_normalizer@3.4.0",
+            "type": "library",
+            "version": "3.4.0"
+        },
+        {
+            "author": "Christian Heimes (christian@python.org)",
+            "bom-ref": "pkg:pypi/defusedxml@0.7.1-3c273017",
+            "description": "XML bomb protection for Python stdlib modules",
+            "externalReferences": [
+                {
+                    "comment": "homepage",
+                    "type": "website",
+                    "url": "https://github.com/tiran/defusedxml"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "PSF-2.0"
+                    }
+                }
+            ],
+            "name": "defusedxml",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/defusedxml-0.7.1.dist-info/METADATA",
+                    "value": "SHA1: bbe8ef8118fece856076610151e3ab2244d2abbf"
+                }
+            ],
+            "purl": "pkg:pypi/defusedxml@0.7.1",
+            "type": "library",
+            "version": "0.7.1"
+        },
+        {
+            "bom-ref": "pkg:pypi/idna@3.10-11c7d521",
+            "description": "Internationalized Domain Names in Applications (IDNA)",
+            "externalReferences": [
+                {
+                    "comment": "source_url",
+                    "type": "distribution",
+                    "url": "https://github.com/kjd/idna"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "name": "idna",
+            "properties": [
+                {
+                    "name": "PATH: /Users/my_user/my_test_env/.venv/lib/python3.13/site-packages/idna-3.10.dist-info/METADATA",
+                    "value": "SHA1: c2b49b407d6a6a30fd069ab3f1ba78107825ef46"
+                }
+            ],
+            "purl": "pkg:pypi/idna@3.10",
+            "type": "library",
+            "version": "3.10"
+        }
+    ],
+    "dependencies": [
+        {
+            "dependsOn": [
+                "pkg:pypi/pygments@2.18.0-8b67656c",
+                "pkg:pypi/defusedxml@0.7.1-3c273017",
+                "pkg:pypi/multidict@6.1.0-2b4a5840",
+                "pkg:pypi/pip@24.2-710d8352",
+                "pkg:pypi/requests@2.32.3-c55d6b4f",
+                "pkg:pypi/requests_toolbelt@1.0.0-ebaa7d48",
+                "pkg:pypi/rich@13.9.4-b9c49fc0",
+                "pkg:pypi/setuptools@75.6.0-f0295879",
+                "pkg:pypi/wheel@0.43.0-bc605c93"
+            ],
+            "ref": "pkg:pypi/httpie@3.2.4-edbb3822"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/packaging@24.2-99e3db30",
+                "pkg:pypi/zipp@3.19.2-ecd89ab3"
+            ],
+            "ref": "pkg:pypi/importlib_metadata@8.0.0-8ceea989"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/more_itertools@10.3.0-6c1dfb7d",
+                "pkg:pypi/typeguard@4.3.0-d74dc755"
+            ],
+            "ref": "pkg:pypi/inflect@7.3.1-4c202e1f"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/more_itertools@10.3.0-6c1dfb7d"
+            ],
+            "ref": "pkg:pypi/jaraco.functools@4.0.1-d4df04bd"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/autocommand@2.2.2-2572a44d",
+                "pkg:pypi/inflect@7.3.1-4c202e1f",
+                "pkg:pypi/more_itertools@10.3.0-6c1dfb7d"
+            ],
+            "ref": "pkg:pypi/jaraco.text@3.12.1-213485fa"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/mdurl@0.1.2-55c70823"
+            ],
+            "ref": "pkg:pypi/markdown_it_py@3.0.0-31e72eb7"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/pysocks@1.7.1-ecda7831",
+                "pkg:pypi/certifi@2024.8.30-563b0bab",
+                "pkg:pypi/charset_normalizer@3.4.0-7c08b333",
+                "pkg:pypi/idna@3.10-11c7d521",
+                "pkg:pypi/urllib3@2.2.3-52d836ff"
+            ],
+            "ref": "pkg:pypi/requests@2.32.3-c55d6b4f"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/requests@2.32.3-c55d6b4f"
+            ],
+            "ref": "pkg:pypi/requests_toolbelt@1.0.0-ebaa7d48"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/markdown_it_py@3.0.0-31e72eb7"
+            ],
+            "ref": "pkg:pypi/rich@13.9.4-b9c49fc0"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/importlib_metadata@8.0.0-8ceea989",
+                "pkg:pypi/packaging@24.2-99e3db30",
+                "pkg:pypi/pip@24.2-710d8352",
+                "pkg:pypi/platformdirs@4.2.2-e7e1a160",
+                "pkg:pypi/tomli@2.0.1-5bfa4079",
+                "pkg:pypi/wheel@0.43.0-bc605c93"
+            ],
+            "ref": "pkg:pypi/setuptools@75.6.0-f0295879"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/packaging@24.2-99e3db30"
+            ],
+            "ref": "pkg:pypi/typeguard@4.3.0-d74dc755"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/setuptools@75.6.0-f0295879"
+            ],
+            "ref": "pkg:pypi/wheel@0.43.0-bc605c93"
+        },
+        {
+            "dependsOn": [
+                "pkg:pypi/more_itertools@10.3.0-6c1dfb7d"
+            ],
+            "ref": "pkg:pypi/zipp@3.19.2-ecd89ab3"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "name": "Security Pattern"
+            }
+        ],
+        "component": {
+            "bom-ref": "3259a4a6-a403-4ec9-a3bf-821fb992b0b7",
+            "name": "Plugfest Python SBoM",
+            "type": "library",
+            "version": "1.0"
+        },
+        "manufacture": {
+            "name": "Security Pattern"
+        },
+        "timestamp": "2024-12-09T18:10:52.740731Z",
+        "tools": {
+            "components": [
+                {
+                    "author": "Security Pattern",
+                    "name": "ARIANNA Platform",
+                    "type": "application",
+                    "version": "1.0"
+                }
+            ]
+        }
+    },
+    "properties": [
+        {
+            "name": "creation_date",
+            "value": "2024-10-23"
+        }
+    ],
+    "serialNumber": "urn:uuid:bd75dc9b-92c9-4fc5-b7e8-194be8997029",
+    "specVersion": "1.5",
+    "version": 1
+}

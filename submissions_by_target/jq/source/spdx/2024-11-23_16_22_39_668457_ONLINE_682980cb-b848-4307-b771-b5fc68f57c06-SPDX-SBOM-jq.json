@@ -1,0 +1,4059 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"spdxVersion": "SPDX-2.2",
+	"creationInfo": {
+		"created": "2024-11-23T16:25:31Z",
+		"creators": [
+			"Organization:dns:businesscyberguardian.com",
+			"Tool:SAG-PM Version 2.1.1"
+		]
+	},
+	"name": "SAG-PM generated SBOM",
+	"dataLicense": "CC0-1.0",
+	"hasExtractedLicensingInfos": [
+		{
+			"licenseId": "NOASSERTION",
+			"extractedText": "WARNING: TEXT IS REQUIRED",
+			"name": "NOASSERTION"
+		}
+	],
+	"documentNamespace": "dns:softwareassuranceguardian.com",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-c943e2de-33b2-4c6a-a708-6289422798ae",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"copyrightText": "NOASSERTION",
+			"downloadLocation": "NOASSERTION",
+			"filesAnalyzed": true,
+			"licenseConcluded": "NOASSERTION",
+			"licenseDeclared": "NOASSERTION",
+			"licenseInfoFromFiles": [
+				"NOASSERTION"
+			],
+			"name": "jq",
+			"packageVerificationCode": {
+				"packageVerificationCodeValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+			},
+			"supplier": "Organization:Stephen Dolan        <mu@netsoc.tcd.ie>",
+			"versionInfo": "1.7.1"
+		}
+	],
+	"files": [
+		{
+			"SPDXID": "SPDXRef-13b5bb11-46b8-415a-b9cc-8ffe6f932c2d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.am"
+		},
+		{
+			"SPDXID": "SPDXRef-292cfe96-abf0-433d-a4ca-078576ee21a2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "COPYING"
+		},
+		{
+			"SPDXID": "SPDXRef-42a09d03-4021-48ee-8e06-878a9d787aa6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_unicode.h"
+		},
+		{
+			"SPDXID": "SPDXRef-519199c8-d60d-4862-b9b3-975b2ffe13a9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_dtoa_tsd.h"
+		},
+		{
+			"SPDXID": "SPDXRef-d8e8d188-eb55-4baf-a433-fa81e84a5cf2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_print.c"
+		},
+		{
+			"SPDXID": "SPDXRef-711dbb17-3a01-4308-9060-d34428ed9ba4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_alloc.c"
+		},
+		{
+			"SPDXID": "SPDXRef-1cdaec17-1dcc-41f2-ab25-129e9f1628b2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "parser.h"
+		},
+		{
+			"SPDXID": "SPDXRef-3db2b894-acd6-4aae-a599-a5d557566a80",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "util.c"
+		},
+		{
+			"SPDXID": "SPDXRef-5f26b936-882e-4233-8d7c-f39d5d75bb4d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv.h"
+		},
+		{
+			"SPDXID": "SPDXRef-3f231cc2-2385-4889-a259-317bf609ce0d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locfile.h"
+		},
+		{
+			"SPDXID": "SPDXRef-09c12830-e2a8-48a0-ac5c-39ed84aafdb5",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_utf8_tables.h"
+		},
+		{
+			"SPDXID": "SPDXRef-3d7bf5b5-e344-4164-be74-1124a262979f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_private.h"
+		},
+		{
+			"SPDXID": "SPDXRef-dcc3d642-9e77-425e-884a-2075d9f017ef",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_aux.c"
+		},
+		{
+			"SPDXID": "SPDXRef-71c51ee4-bec4-4f0d-8d84-c2d6567f0980",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_thread.h"
+		},
+		{
+			"SPDXID": "SPDXRef-09ff214a-dc59-48f9-825b-9212949feb59",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "bytecode.c"
+		},
+		{
+			"SPDXID": "SPDXRef-ca4e9af8-983a-4682-8830-d401ccbc27c2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "compile.h"
+		},
+		{
+			"SPDXID": "SPDXRef-9dc66cea-be15-4a36-9597-80d0db03bf55",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "lexer.h"
+		},
+		{
+			"SPDXID": "SPDXRef-17a81eeb-d0fd-491e-970d-413a784da2cb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "exec_stack.h"
+		},
+		{
+			"SPDXID": "SPDXRef-e5d935c2-e7e6-442e-a509-311b9adf1c23",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "compile.c"
+		},
+		{
+			"SPDXID": "SPDXRef-f88df2bf-afb2-4b85-b6be-1b5e71391a6f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "decContext.h"
+		},
+		{
+			"SPDXID": "SPDXRef-2b8ea445-8f6a-42e9-adc9-38f6577930ee",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "decNumber.h"
+		},
+		{
+			"SPDXID": "SPDXRef-136b74a5-8368-42a6-b8c0-447a571647b1",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "decNumberLocal.h"
+		},
+		{
+			"SPDXID": "SPDXRef-c3b3cb61-5ace-4de1-a938-fb4b6d31e459",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "decNumber.c"
+		},
+		{
+			"SPDXID": "SPDXRef-6e161276-e782-478f-a41b-0e62da13a4ee",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "decContext.c"
+		},
+		{
+			"SPDXID": "SPDXRef-1bd7d3fe-a76d-41ea-a57a-7bc4199edf0a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq_parser.h"
+		},
+		{
+			"SPDXID": "SPDXRef-1212272b-2c24-4047-9616-a7dec826fedb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "util.h"
+		},
+		{
+			"SPDXID": "SPDXRef-b871991b-6b98-4e48-91eb-b3ce49d3f36f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "opcode_list.h"
+		},
+		{
+			"SPDXID": "SPDXRef-51cfe204-59b5-4526-91b1-e4d70ccc4f42",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_file.c"
+		},
+		{
+			"SPDXID": "SPDXRef-13542837-bd4f-4bf2-9907-6579850b554e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "lexer.l"
+		},
+		{
+			"SPDXID": "SPDXRef-6d18ac36-9146-491e-8c17-35ddc7c5cd86",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "builtin.c"
+		},
+		{
+			"SPDXID": "SPDXRef-352f7a0d-e18e-4774-beb6-d0ed5d76fd7b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "parser.c"
+		},
+		{
+			"SPDXID": "SPDXRef-984f90bd-df85-4e39-8501-bcc99a276306",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "lexer.c"
+		},
+		{
+			"SPDXID": "SPDXRef-f1ce5497-2b6a-47f3-94c3-8123ae6bd40f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq_test.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e94a1be8-3ea9-445d-87e3-abf095b4c0dd",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv.c"
+		},
+		{
+			"SPDXID": "SPDXRef-75211e72-f185-46f7-9542-cb7c24bf2eff",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "version.h"
+		},
+		{
+			"SPDXID": "SPDXRef-7ef1bc0e-32cd-4e54-a1bc-3a20ce6dc556",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "linker.h"
+		},
+		{
+			"SPDXID": "SPDXRef-5cce3f91-9c4b-4069-bf74-edb9e3c21394",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq.h"
+		},
+		{
+			"SPDXID": "SPDXRef-33d1b83e-35e7-4a34-90be-97c2559b54d6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "parser.y"
+		},
+		{
+			"SPDXID": "SPDXRef-0ce12558-a409-4587-9b37-174c33d3df94",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "inject_errors.c"
+		},
+		{
+			"SPDXID": "SPDXRef-88328eea-f9ae-4341-89a6-f435d0d6e89d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_unicode.c"
+		},
+		{
+			"SPDXID": "SPDXRef-cd10c7b4-986c-443c-a512-539949878988",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "main.c"
+		},
+		{
+			"SPDXID": "SPDXRef-7b22c664-c5c8-4c65-b722-1968999e3aa7",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "execute.c"
+		},
+		{
+			"SPDXID": "SPDXRef-61edebc1-8711-4dfb-bed0-1ec0bc4fae4b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "builtin.h"
+		},
+		{
+			"SPDXID": "SPDXRef-f24f1b3b-8adc-4a89-8613-b341cd60f39f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_parse.c"
+		},
+		{
+			"SPDXID": "SPDXRef-a2fce43b-4728-400b-b15e-cb814bd81cd9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "locfile.c"
+		},
+		{
+			"SPDXID": "SPDXRef-969a079a-2e4e-4ab3-b7cb-db699e7c742b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "builtin.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-2aac1fe8-bf79-4c6a-b29e-4eb5f0fb92c8",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_dtoa.c"
+		},
+		{
+			"SPDXID": "SPDXRef-fd445bca-397f-45c1-b259-d440ce29d60d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "linker.c"
+		},
+		{
+			"SPDXID": "SPDXRef-fb24306c-1756-4dd2-bffc-48c08f748d8c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_alloc.h"
+		},
+		{
+			"SPDXID": "SPDXRef-741ce6d1-a60d-4d42-a56d-adad3c1b0792",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_dtoa.h"
+		},
+		{
+			"SPDXID": "SPDXRef-b0c4ab0b-02bf-4b1c-872c-ea641287cb33",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libm.h"
+		},
+		{
+			"SPDXID": "SPDXRef-eb561523-67dd-449e-9c4f-01b20044d3d7",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "bytecode.h"
+		},
+		{
+			"SPDXID": "SPDXRef-0970b1a9-ddde-4087-bdf4-5a00ad5ee4d3",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jv_dtoa_tsd.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e7f95b2a-eb42-49c1-9109-0ae93107f09e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ax_compare_version.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-5daeb09e-ad79-41fa-8b91-bc425cde7265",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ax_pthread.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-fc29109d-1068-4993-899b-0468936a94bf",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ax_prog_bison_version.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-04e27191-a459-4939-80cb-ee87b0998e9f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "AUTHORS"
+		},
+		{
+			"SPDXID": "SPDXRef-42de120a-0a72-488b-9dce-00b5b0a5a4dd",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ylwrap"
+		},
+		{
+			"SPDXID": "SPDXRef-5bd0b01f-5852-41d1-a5a8-b79ca21ede29",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltoptions.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-962c9f3e-05c1-40ae-8197-14946b9f240d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "find-func-no-libs2.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-1b18cd07-572f-4851-a0d2-e3e34b548903",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "misc.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-a6c12b14-cc10-44d3-99c7-bcc30ed68809",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "find-func.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-8d71e969-8277-446f-81d8-858e2fac39f6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libtool.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-dea28a94-c735-4537-a43d-9b103e1b4c6b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "lt~obsolete.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-639e7400-fb4d-4331-b948-2f5e1a151611",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "check-math-func.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-d9b29e56-6237-4886-a9ff-a4152d28ff3e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltsugar.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-b2c7a730-0778-47fa-a856-38024c51766e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "find-func-no-libs.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-e8f14c68-0c3a-438c-a362-7656f9376fb8",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltversion.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-8fb78c67-b6be-4c83-96e5-197d197df488",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test-driver"
+		},
+		{
+			"SPDXID": "SPDXRef-8c9c5a06-25c0-44eb-bddb-339d6f1c2a9c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "missing"
+		},
+		{
+			"SPDXID": "SPDXRef-4aa53ef3-0665-44d6-adeb-2bff008c15ef",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltmain.sh"
+		},
+		{
+			"SPDXID": "SPDXRef-75789265-8a6b-47aa-bb49-ae5d1672410a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ar-lib"
+		},
+		{
+			"SPDXID": "SPDXRef-dabf8d58-927a-4821-bad2-bf54231ebd6d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "depcomp"
+		},
+		{
+			"SPDXID": "SPDXRef-76246b73-281f-4c0b-b0db-63e88e54c5ff",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "compile"
+		},
+		{
+			"SPDXID": "SPDXRef-96a4a60e-7ebc-426c-b6ec-a1e4b24ffb9c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.sub"
+		},
+		{
+			"SPDXID": "SPDXRef-863440e6-7e3b-4c03-a86d-75884c37c2a9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "install-sh"
+		},
+		{
+			"SPDXID": "SPDXRef-d041a1ac-7ba7-4dc1-bb31-03c36bba512a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.guess"
+		},
+		{
+			"SPDXID": "SPDXRef-e78febbb-020f-4e3a-be12-5f99563ccb48",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CMakeLists.txt"
+		},
+		{
+			"SPDXID": "SPDXRef-4444a1b8-100b-43c5-8e2f-60211d7b816a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "UNICODE_PROPERTIES"
+		},
+		{
+			"SPDXID": "SPDXRef-ab5b697c-c038-4810-a9fa-d0513c6ac393",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "FAQ"
+		},
+		{
+			"SPDXID": "SPDXRef-9cec2f7c-5ddb-4a8f-8dc5-f26333a00466",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CALLOUTS.BUILTIN"
+		},
+		{
+			"SPDXID": "SPDXRef-b8c2a84a-fc72-4741-a52b-544ca22b5f32",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "API"
+		},
+		{
+			"SPDXID": "SPDXRef-0f68b56b-c8fe-4036-9074-8acb0d027bf2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "SYNTAX.md"
+		},
+		{
+			"SPDXID": "SPDXRef-a7be12cb-bd98-4db3-b8d3-2e91f70841c0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CALLOUTS.API.ja"
+		},
+		{
+			"SPDXID": "SPDXRef-df193cfe-a2a3-4853-96b5-c8424855ce6a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "RE"
+		},
+		{
+			"SPDXID": "SPDXRef-d634b018-0151-41f7-86df-4af4651b650c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CALLOUTS.API"
+		},
+		{
+			"SPDXID": "SPDXRef-eb1b3e41-9c04-4a4a-86ac-ce32be10ba08",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "API.ja"
+		},
+		{
+			"SPDXID": "SPDXRef-b1370e4b-014a-47d2-a178-7db762e86ae6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CALLOUTS.BUILTIN.ja"
+		},
+		{
+			"SPDXID": "SPDXRef-01f9b442-e503-440f-ba39-7c701d645de3",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "FAQ.ja"
+		},
+		{
+			"SPDXID": "SPDXRef-d21488f6-69ac-451a-961a-151b472c8a9f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "RE.ja"
+		},
+		{
+			"SPDXID": "SPDXRef-ba9eeb78-4f76-4105-836a-703b646d6dba",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.am"
+		},
+		{
+			"SPDXID": "SPDXRef-976f1f25-1523-4e25-b683-ec3ebcf54304",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "COPYING"
+		},
+		{
+			"SPDXID": "SPDXRef-47db0fb5-3dd8-41cf-abb3-1c74a5874f31",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onig-config.cmake.in"
+		},
+		{
+			"SPDXID": "SPDXRef-3b02a8e3-1576-4fcb-adb1-956cfbd01fa2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regposix.c"
+		},
+		{
+			"SPDXID": "SPDXRef-1fddcf3d-a7f5-40dc-bd9c-d65be8e3daa4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "mktable.c"
+		},
+		{
+			"SPDXID": "SPDXRef-2273b448-b9c3-43f6-bbe9-9c84923d5c0f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onig_init.c"
+		},
+		{
+			"SPDXID": "SPDXRef-ecc0221d-7695-48d6-9e49-9ae22554b9bb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "oniguruma.h"
+		},
+		{
+			"SPDXID": "SPDXRef-ac8a1795-b129-45c8-a377-e9406644efd9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf32_le.c"
+		},
+		{
+			"SPDXID": "SPDXRef-af2965fe-1b2e-4d0f-8562-52231471147c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "euc_kr.c"
+		},
+		{
+			"SPDXID": "SPDXRef-141918a0-e017-4942-9a3c-3bb80df1b066",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.h.windows.in"
+		},
+		{
+			"SPDXID": "SPDXRef-b27e98f2-8e5a-4eb1-8d86-d6a5d8c9c764",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.am"
+		},
+		{
+			"SPDXID": "SPDXRef-ad9f46b8-7b09-4e50-a0bd-f91a24108f42",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_1.c"
+		},
+		{
+			"SPDXID": "SPDXRef-130afbe1-33fc-4fbb-b29f-3cf156c90543",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regint.h"
+		},
+		{
+			"SPDXID": "SPDXRef-dbd977fc-d16c-4f61-9eca-94b9e38b5d69",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_8.c"
+		},
+		{
+			"SPDXID": "SPDXRef-5dec14ef-da04-4b49-92cf-759182e136cf",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.h.win64"
+		},
+		{
+			"SPDXID": "SPDXRef-289ea70e-1ac1-40b2-91e3-656c0d58b75c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regparse.c"
+		},
+		{
+			"SPDXID": "SPDXRef-b4c444c6-97ca-4ae0-b011-7c9fccbdc9c2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_6.c"
+		},
+		{
+			"SPDXID": "SPDXRef-96e87fb2-44a3-4088-b6a6-f5f514acd325",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_fold3_key.c"
+		},
+		{
+			"SPDXID": "SPDXRef-b81fc998-7071-4658-8232-c274074b3698",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regerror.c"
+		},
+		{
+			"SPDXID": "SPDXRef-772627d3-c4ac-4987-aa0d-2ed4f8a266bf",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regext.c"
+		},
+		{
+			"SPDXID": "SPDXRef-9ee59720-b941-406d-8ae2-1106e5f64bef",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regversion.c"
+		},
+		{
+			"SPDXID": "SPDXRef-280dd4d3-f455-4bfe-8c3a-a0ed5373ec47",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_2.c"
+		},
+		{
+			"SPDXID": "SPDXRef-afa22002-e46b-4d4f-9dae-80a566370d3a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "koi8_r.c"
+		},
+		{
+			"SPDXID": "SPDXRef-7d1d2e2d-5cca-4172-b5d5-19b7f81a6636",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_5.c"
+		},
+		{
+			"SPDXID": "SPDXRef-69bc6a69-68f1-430b-84d5-1135320df353",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regcomp.c"
+		},
+		{
+			"SPDXID": "SPDXRef-9d0fc0b0-ac89-4b5b-b5e1-d6a096111527",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "koi8.c"
+		},
+		{
+			"SPDXID": "SPDXRef-39ddf099-9e1a-4069-bb03-e0e8d10001cd",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf8.c"
+		},
+		{
+			"SPDXID": "SPDXRef-41394186-6c75-4834-a187-156e24b4a978",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regposerr.c"
+		},
+		{
+			"SPDXID": "SPDXRef-a4762cad-4ac4-403d-bd64-9217998afd28",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_10.c"
+		},
+		{
+			"SPDXID": "SPDXRef-c0bbd499-9bfa-4275-a138-c14318ec130b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_3.c"
+		},
+		{
+			"SPDXID": "SPDXRef-2746a70b-b94d-4afc-a6a3-f2195ba038df",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.h.win32"
+		},
+		{
+			"SPDXID": "SPDXRef-de6771bd-34c9-4c38-94a5-1b4ec723ecb5",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_fold1_key.c"
+		},
+		{
+			"SPDXID": "SPDXRef-b735bc56-03f1-439b-a25c-6094cfbb1075",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_fold_data.c"
+		},
+		{
+			"SPDXID": "SPDXRef-ce24fc88-a818-4761-a86a-40446a6d4e1b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_16.c"
+		},
+		{
+			"SPDXID": "SPDXRef-033ac2ac-a805-4a23-a58b-24e650b699db",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ascii.c"
+		},
+		{
+			"SPDXID": "SPDXRef-f9849ae3-2cc5-4148-bbc6-f21b893424a4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_unfold_key.c"
+		},
+		{
+			"SPDXID": "SPDXRef-22b83cd3-2585-4f86-bbeb-0e529981b337",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regparse.h"
+		},
+		{
+			"SPDXID": "SPDXRef-ff143876-2dff-4e3e-9bd0-e88c9a81091f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_egcb_data.c"
+		},
+		{
+			"SPDXID": "SPDXRef-6be980c4-7297-44f6-8ddc-1570d046f77b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf16_le.c"
+		},
+		{
+			"SPDXID": "SPDXRef-268542eb-61dc-4db9-b33d-68d9e3c13f3e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_7.c"
+		},
+		{
+			"SPDXID": "SPDXRef-009e77e8-5be4-4334-b696-e9e2b2927c8d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_14.c"
+		},
+		{
+			"SPDXID": "SPDXRef-64951af6-a7b3-48a5-8d94-e0b5aa8df55e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.windows"
+		},
+		{
+			"SPDXID": "SPDXRef-e2eaf9a1-0b88-40cd-a65e-1f03c77007d2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.h.in"
+		},
+		{
+			"SPDXID": "SPDXRef-c64970b1-c9b2-46ae-9c1c-93db6a84e059",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "oniggnu.h"
+		},
+		{
+			"SPDXID": "SPDXRef-d0e57315-0322-485a-88a4-89ea0f34fa46",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regenc.c"
+		},
+		{
+			"SPDXID": "SPDXRef-53abe96b-ce44-4247-91d6-5597803f626b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf16_be.c"
+		},
+		{
+			"SPDXID": "SPDXRef-1dc84501-3636-4fa8-aa6e-2ea4c7186361",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_13.c"
+		},
+		{
+			"SPDXID": "SPDXRef-eb43c00e-6571-4f7b-af3a-fbaf0cd2aba0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_9.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e11cd92b-c166-4eb9-a268-343e66fd3df0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "sjis_prop.c"
+		},
+		{
+			"SPDXID": "SPDXRef-3a724ac0-bb25-4f65-8f3c-e41c525acc61",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regenc.h"
+		},
+		{
+			"SPDXID": "SPDXRef-d0879e31-aaf0-4b53-a4e5-ca1ba1392f7d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "big5.c"
+		},
+		{
+			"SPDXID": "SPDXRef-3b3dd43a-69ee-4464-b911-b046f8e4e3f4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onigposix.h"
+		},
+		{
+			"SPDXID": "SPDXRef-bbf55703-4a32-4f23-b84b-7d964dd95045",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_wb_data.c"
+		},
+		{
+			"SPDXID": "SPDXRef-11551d36-0bdb-4ce6-bb46-2904b1b935c7",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_11.c"
+		},
+		{
+			"SPDXID": "SPDXRef-a2312a78-24b8-4018-8cb8-86d1209b9485",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "gb18030.c"
+		},
+		{
+			"SPDXID": "SPDXRef-127803f4-12fa-4e83-a1a7-2f8c53d9da5c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_4.c"
+		},
+		{
+			"SPDXID": "SPDXRef-6178cae1-f0cc-41e4-b5bd-88f393a013d9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.in"
+		},
+		{
+			"SPDXID": "SPDXRef-b266be19-2fdd-4c24-abf1-256ab4a32caa",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_property_data_posix.c"
+		},
+		{
+			"SPDXID": "SPDXRef-56d337ff-9572-451e-9c66-d0427e8584ae",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "sjis.c"
+		},
+		{
+			"SPDXID": "SPDXRef-b96266be-c92b-4182-8493-f08b097ac5db",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_fold2_key.c"
+		},
+		{
+			"SPDXID": "SPDXRef-78bc7097-1730-4a0e-b420-44e71f72646f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.h.cmake.in"
+		},
+		{
+			"SPDXID": "SPDXRef-77a9bb3d-b32d-4b6d-847b-9cb52c73869f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf32_be.c"
+		},
+		{
+			"SPDXID": "SPDXRef-c61eb72a-3af3-4c8c-924b-89af27900b26",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "st.h"
+		},
+		{
+			"SPDXID": "SPDXRef-413e0d6b-0c0d-4f90-a61c-b289766a840b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regsyntax.c"
+		},
+		{
+			"SPDXID": "SPDXRef-066ac6a0-4af7-4784-992d-fa0bcb2ce895",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regexec.c"
+		},
+		{
+			"SPDXID": "SPDXRef-f9006ca6-5297-41f3-9f8c-911353ba013c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "reggnu.c"
+		},
+		{
+			"SPDXID": "SPDXRef-2cbefff2-3cdd-4ca6-a84e-acc0dfcc30e4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "cp1251.c"
+		},
+		{
+			"SPDXID": "SPDXRef-6476bb5d-7299-48d3-8d4e-758b885d013c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "euc_jp_prop.c"
+		},
+		{
+			"SPDXID": "SPDXRef-200e1522-34c5-49c4-acea-8e51f18363f2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "euc_jp.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e32ddf28-8fc0-4940-bd26-565c0f884282",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "iso8859_15.c"
+		},
+		{
+			"SPDXID": "SPDXRef-8b94775b-c2b3-426d-9e9d-023bf4d649ff",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "st.c"
+		},
+		{
+			"SPDXID": "SPDXRef-959fe5ee-036b-42c9-9ecd-c97a229e1006",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "euc_tw.c"
+		},
+		{
+			"SPDXID": "SPDXRef-2d685fb8-f5c2-4721-8bd0-f2917270e58e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regtrav.c"
+		},
+		{
+			"SPDXID": "SPDXRef-a89f9451-3dcd-4f86-8d7e-4e04e18a8f02",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode.c"
+		},
+		{
+			"SPDXID": "SPDXRef-dcd3ff4f-963a-4d01-917e-8eeea6e95b25",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "unicode_property_data.c"
+		},
+		{
+			"SPDXID": "SPDXRef-70d7912f-9f1f-418c-9c69-ece5bf4018d2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "NEWS"
+		},
+		{
+			"SPDXID": "SPDXRef-b14444e9-0557-458c-a051-2d60addc0383",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltoptions.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-a23e1e1b-789e-4bd2-98db-da9aba47efbe",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libtool.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-0e80f92c-7555-405b-a8bf-ca11747097a9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "lt~obsolete.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-1cab0401-a5f3-4b37-887e-4af99dd128cf",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltsugar.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-b76760ef-0a49-4b51-8423-3ddfebb50af0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltversion.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-44813583-76fe-4c22-9644-8ceaefda4b5b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "index.html"
+		},
+		{
+			"SPDXID": "SPDXRef-3159b249-e704-4546-9d19-2472ad856ea0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "AUTHORS"
+		},
+		{
+			"SPDXID": "SPDXRef-be7e538d-b4d7-4ff5-a0a7-507245334226",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "README"
+		},
+		{
+			"SPDXID": "SPDXRef-985ef3ee-5271-42a4-a937-0e571515d149",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CMakeLists.txt"
+		},
+		{
+			"SPDXID": "SPDXRef-ece80378-59e0-45c5-88ba-d3f8ad7e95c1",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_regset.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e0b75163-b6b5-45f3-a7d6-51f0f2e65d91",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.am"
+		},
+		{
+			"SPDXID": "SPDXRef-cec506e6-850f-4489-9184-428678f24ca0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_options.c"
+		},
+		{
+			"SPDXID": "SPDXRef-cccc0a11-d98e-4f32-8290-ddfc5948d268",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "testp.c"
+		},
+		{
+			"SPDXID": "SPDXRef-9251aa27-5e01-4e40-b49e-24f123d63f47",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test.sh"
+		},
+		{
+			"SPDXID": "SPDXRef-373f4933-1cae-4ec0-a80a-689b7c3a6ada",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "testu.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e66db0b5-eccd-4730-b6fc-f8a15cc3575d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_back.c"
+		},
+		{
+			"SPDXID": "SPDXRef-c8a0d20a-b43a-4a5c-9cce-dcdf829ceacd",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.in"
+		},
+		{
+			"SPDXID": "SPDXRef-d9657b92-d166-4a55-a16b-72424418c22b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_syntax.c"
+		},
+		{
+			"SPDXID": "SPDXRef-ad5649cb-e53f-4d72-b434-a3737847afee",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_utf8.c"
+		},
+		{
+			"SPDXID": "SPDXRef-636c7e2a-01f0-476a-968d-8bfac90aec5e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "testc.c"
+		},
+		{
+			"SPDXID": "SPDXRef-5db8a890-c4bf-410d-a9e6-26ad6674d9ab",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "CMakeLists.txt"
+		},
+		{
+			"SPDXID": "SPDXRef-bc902478-848e-46bc-bc06-00dd78074103",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "testc.c"
+		},
+		{
+			"SPDXID": "SPDXRef-a029acf3-d6c5-43dc-942a-eb7aadba4685",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test-driver"
+		},
+		{
+			"SPDXID": "SPDXRef-c6c8a916-4569-4c7b-843a-e18ec5cacfb6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "make_win.bat"
+		},
+		{
+			"SPDXID": "SPDXRef-c676ea8d-65fb-4f47-a4db-bfdac40c71b5",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Config.cmake.in"
+		},
+		{
+			"SPDXID": "SPDXRef-d84134f9-661c-4011-99d3-d3b19e62a520",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "missing"
+		},
+		{
+			"SPDXID": "SPDXRef-e87a86e0-0fc2-4de5-a379-89ab9ace1461",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "aclocal.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-7f446f8b-adbd-4b80-ad34-206790249d46",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "HISTORY"
+		},
+		{
+			"SPDXID": "SPDXRef-72d0e1be-5c3c-4125-a5c8-82e1094d02b5",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "INSTALL"
+		},
+		{
+			"SPDXID": "SPDXRef-0032658c-205b-4917-ab29-473f2269a3a2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ltmain.sh"
+		},
+		{
+			"SPDXID": "SPDXRef-14968070-d1f0-4516-8f5a-656b010ca120",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "README_japanese"
+		},
+		{
+			"SPDXID": "SPDXRef-6835c846-150e-405d-8b5b-745dc4b3a56f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "depcomp"
+		},
+		{
+			"SPDXID": "SPDXRef-a672e56a-cae7-4ba4-8c11-94a753b2682e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.in"
+		},
+		{
+			"SPDXID": "SPDXRef-7c180a0c-416e-4ed3-8d39-46db02594738",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "oniguruma.pc.in"
+		},
+		{
+			"SPDXID": "SPDXRef-3c078760-ee56-4ecd-a25a-87382529744d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "configure.ac"
+		},
+		{
+			"SPDXID": "SPDXRef-ee70fa75-6b78-4662-83be-bb35f93bc613",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "regset.c"
+		},
+		{
+			"SPDXID": "SPDXRef-6cddccb2-f63a-46a2-a7b7-ab3cf7ee65c4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.am"
+		},
+		{
+			"SPDXID": "SPDXRef-33455709-ff2f-4365-81f6-97d7f0c59262",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "scan.c"
+		},
+		{
+			"SPDXID": "SPDXRef-0216ce13-e765-4be6-88b4-51babdade3be",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "echo.c"
+		},
+		{
+			"SPDXID": "SPDXRef-748c3554-7e88-4a11-a0a5-1443aa73e1e0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "simple.c"
+		},
+		{
+			"SPDXID": "SPDXRef-4ddca842-d9c5-4c4a-b94b-47b5fb28453d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "callback_each_match.c"
+		},
+		{
+			"SPDXID": "SPDXRef-50c5426d-6388-4003-84de-8f3841ba40c0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "posix.c"
+		},
+		{
+			"SPDXID": "SPDXRef-39574eb8-60c3-48ae-9647-290d5aa492fd",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "count.c"
+		},
+		{
+			"SPDXID": "SPDXRef-ce8e3f9e-0087-41f3-be82-0dbf22531d32",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.in"
+		},
+		{
+			"SPDXID": "SPDXRef-fafbce8f-989c-4de9-b0af-67fc9fa33e24",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "syntax.c"
+		},
+		{
+			"SPDXID": "SPDXRef-84f6e149-314e-45fb-a1de-fcfb51f6111c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "user_property.c"
+		},
+		{
+			"SPDXID": "SPDXRef-0b08ca68-a2fe-420b-89e4-a826dfcc7dd8",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "sql.c"
+		},
+		{
+			"SPDXID": "SPDXRef-2e35f3f2-36be-4b2c-bc18-165f901734bb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "names.c"
+		},
+		{
+			"SPDXID": "SPDXRef-b7d12310-ee99-4d8b-a995-b69c54598536",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "bug_fix.c"
+		},
+		{
+			"SPDXID": "SPDXRef-81761a58-a38a-46b9-a133-8926f9421ce0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "listcap.c"
+		},
+		{
+			"SPDXID": "SPDXRef-116bcd17-5429-48eb-b2ed-bd40e8041561",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "encode.c"
+		},
+		{
+			"SPDXID": "SPDXRef-0e941db8-872a-4eb4-9095-bbec9586c5fb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "callout.c"
+		},
+		{
+			"SPDXID": "SPDXRef-e497ceb6-be32-429d-b81a-103c0942f495",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "oniguruma.pc.cmake.in"
+		},
+		{
+			"SPDXID": "SPDXRef-4d6087f2-4368-4605-8ff3-5a84b1e8e07d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ChangeLog"
+		},
+		{
+			"SPDXID": "SPDXRef-5fa0f3c9-745e-46c4-a27d-29543f144ac8",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "compile"
+		},
+		{
+			"SPDXID": "SPDXRef-5a25b00b-c38f-4067-b3a1-ba9bf91687b5",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "README.md"
+		},
+		{
+			"SPDXID": "SPDXRef-ccbea7f8-ec83-49ae-b124-a6dd149b63d3",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.sub"
+		},
+		{
+			"SPDXID": "SPDXRef-9e03f567-05e6-4bc0-b5e9-81d743ebb1a0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "install-sh"
+		},
+		{
+			"SPDXID": "SPDXRef-c90d5dab-724a-485f-b6de-f517dfdbc584",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onig-config.in"
+		},
+		{
+			"SPDXID": "SPDXRef-d31a0966-f9a1-4832-ae6f-07a21a45bd44",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "configure"
+		},
+		{
+			"SPDXID": "SPDXRef-3d432b8c-a5c3-4b79-919f-e942b15c3d53",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "index_ja.html"
+		},
+		{
+			"SPDXID": "SPDXRef-60be0257-35fa-4d08-8270-c3a7a6cf5ca7",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "config.guess"
+		},
+		{
+			"SPDXID": "SPDXRef-d38f968c-2df3-432e-bade-849587311c42",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq.spec"
+		},
+		{
+			"SPDXID": "SPDXRef-ee0f380a-a36b-4d46-b6ad-dc172fc342d6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq.1"
+		},
+		{
+			"SPDXID": "SPDXRef-bba90c8e-ee48-4286-b169-f2dfaa2f55cb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "NEWS.md"
+		},
+		{
+			"SPDXID": "SPDXRef-d8c3d9f1-e40a-45e6-995f-bcef3d3d18e5",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "aclocal.m4"
+		},
+		{
+			"SPDXID": "SPDXRef-758251ef-06ff-40cb-8f26-557175524fff",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libjq.pc"
+		},
+		{
+			"SPDXID": "SPDXRef-3c409d8f-6df6-460d-9c35-498a5ba8eb3a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq.1.prebuilt"
+		},
+		{
+			"SPDXID": "SPDXRef-ec0718d6-5420-465e-8dda-8e585e768c56",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "libjq.pc.in"
+		},
+		{
+			"SPDXID": "SPDXRef-cf3c546b-fc98-41ed-a5ab-fc9186ed6711",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Makefile.in"
+		},
+		{
+			"SPDXID": "SPDXRef-ef532273-64bb-4596-a064-8c2206d66948",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "configure.ac"
+		},
+		{
+			"SPDXID": "SPDXRef-d68a3c0c-a16a-489b-aa6e-e99d6d45e2d8",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "ChangeLog"
+		},
+		{
+			"SPDXID": "SPDXRef-856041c7-f2c4-427f-b1cc-a359970de850",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "README.md"
+		},
+		{
+			"SPDXID": "SPDXRef-c5ae9a11-7aeb-45a2-b61e-fdacb6a77624",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "configure"
+		},
+		{
+			"SPDXID": "SPDXRef-0b8fa858-f2fa-4540-aa9e-aa79d497b789",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "mantest"
+		},
+		{
+			"SPDXID": "SPDXRef-d20dd8c9-1231-4538-9091-721f8b8e3f9a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onigtest"
+		},
+		{
+			"SPDXID": "SPDXRef-939e2909-8b61-4fe5-9a07-84a9956ef5fa",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manonigtest"
+		},
+		{
+			"SPDXID": "SPDXRef-cf159358-291e-40f2-8489-965c189d8f8c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manonig.test"
+		},
+		{
+			"SPDXID": "SPDXRef-7fa16fd4-491b-41ff-b236-9650058bcb26",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "man.test"
+		},
+		{
+			"SPDXID": "SPDXRef-e5f77f5d-4c21-49f0-b663-e2584900a86e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "input0.json"
+		},
+		{
+			"SPDXID": "SPDXRef-2c98d3d6-f5b2-4ef4-8daf-bb17e26ae0b9",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jqtest"
+		},
+		{
+			"SPDXID": "SPDXRef-6c5348c2-bdb4-45aa-98da-93879f9223dc",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf8-truncate.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-263bfa13-1eb9-4dc6-8316-31147b66f78c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "optionaltest"
+		},
+		{
+			"SPDXID": "SPDXRef-f1f072e9-78de-4c2f-a784-bc033ef7ac87",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "base64test"
+		},
+		{
+			"SPDXID": "SPDXRef-6cca5994-1d24-4d38-91e2-9c5293670244",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "b.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-af42a0e9-0848-4140-aaf6-05b86f5e2981",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "a.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-b41f08fc-0809-4a9d-8ff0-ba85245ec595",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_bind_order0.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-27fc538f-7a00-4aa7-a111-feacd36c917e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": ".jq"
+		},
+		{
+			"SPDXID": "SPDXRef-c392e6a8-6c8e-41d8-bed5-e9841bcefc65",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "syntaxerror.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-4e2886ea-acdd-4c53-98f7-688ba928c6ee",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_bind_order.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-3c84888b-05aa-4677-8425-fffa61d8403f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "shadow1.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-2c21b3a3-2ffa-4332-a405-a3fb4bfe7468",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_bind_order2.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-da08fa49-3520-48a2-b384-5bc15a2052b4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "g.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-da2bde15-2ac5-4643-b0c1-574258797835",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "c.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-08d12356-1beb-479f-ac51-6b6ac75a93f8",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "d.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-92bc94fd-f7bd-4934-8ba0-6bc431d0e581",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "data.json"
+		},
+		{
+			"SPDXID": "SPDXRef-543f3915-1bc8-4625-bb10-3a2c8689dc6f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "shadow2.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-7952afc0-40b8-4d30-af26-afbbfc0284a4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "e.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-39d8f02e-15af-4f62-96e7-944bc620c21d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "f.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-36de0ab3-854b-40ff-ac7b-89dee22fda3a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "test_bind_order1.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-3a932bd6-b260-42ad-b079-839d36f6ea8c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onig.test"
+		},
+		{
+			"SPDXID": "SPDXRef-233119d9-a426-4b95-9446-07f7946b6b2d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "onig.supp"
+		},
+		{
+			"SPDXID": "SPDXRef-87a37b40-7a44-42d6-833a-a89198eaedef",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "optional.test"
+		},
+		{
+			"SPDXID": "SPDXRef-013335a3-a7d4-4861-a421-e865c3af14a7",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq.test"
+		},
+		{
+			"SPDXID": "SPDXRef-16104c28-697e-4d77-94c1-9c639baca8bb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "no-main-program.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-8bd9b765-4d6a-40ce-a715-324a82283eec",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "utf8test"
+		},
+		{
+			"SPDXID": "SPDXRef-56f8f5bd-8509-4c9e-a04a-dfaae502aac0",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "setup"
+		},
+		{
+			"SPDXID": "SPDXRef-c2bdb482-ba37-44c8-a216-6b697f5a45d6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "shtest"
+		},
+		{
+			"SPDXID": "SPDXRef-651b0721-b180-48b0-a5e6-258dcaa019b1",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "yes-main-program.jq"
+		},
+		{
+			"SPDXID": "SPDXRef-22e27627-130c-406e-af1d-d5a145936739",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "base64.test"
+		},
+		{
+			"SPDXID": "SPDXRef-7e5a541d-711d-49de-98f2-f6c4ebe0fcab",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "local.supp"
+		},
+		{
+			"SPDXID": "SPDXRef-925688e0-671d-420f-8f75-d28fb2698ebf",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq-f-test.sh"
+		},
+		{
+			"SPDXID": "SPDXRef-eb37ca02-ba29-4f72-a2fe-766dc068bafe",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "_navbar.html.j2"
+		},
+		{
+			"SPDXID": "SPDXRef-80359e2e-07ba-4bbc-a812-f9ef021bf2e7",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "_footer.html.j2"
+		},
+		{
+			"SPDXID": "SPDXRef-ecb93838-4e68-47d8-9da3-09186c27e54a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "_head.html.j2"
+		},
+		{
+			"SPDXID": "SPDXRef-84a79410-6d79-4ad2-8deb-29505dd900eb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "default.html.j2"
+		},
+		{
+			"SPDXID": "SPDXRef-809f7f0d-03c7-4c9b-9954-228a2ed4b96f",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "index.html.j2"
+		},
+		{
+			"SPDXID": "SPDXRef-1ed81c58-4729-4812-a870-9f3053da2d18",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.html.j2"
+		},
+		{
+			"SPDXID": "SPDXRef-dc4efe1b-9405-4b28-ae0c-f6533a93556b",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Pipfile.lock"
+		},
+		{
+			"SPDXID": "SPDXRef-ba5ec277-0df6-4301-978c-8b561bea44f4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "build_website.py"
+		},
+		{
+			"SPDXID": "SPDXRef-01e2171d-ec24-4fa7-8e2c-3aff7d7b83fb",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "index.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-4e25a773-a21c-4e15-8c6e-cdd58e7a18e3",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "default.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-4a12f735-cf7f-4a83-a29e-e4074d0c4f23",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-b7007ad9-2a3e-4d6d-b65e-fe9909d0324e",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-ea47e358-afde-4810-a269-a00fa214216c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-356061ef-cd41-485d-9c2e-0bdd8e2d842c",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-30b6661d-0fd7-4076-8a85-cabf664ab293",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-e419c5d7-4f5b-4958-a62f-87be71d841b4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-fd869419-e560-4e07-89fe-0208def18742",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "default.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-562a4426-94ed-40df-b1a0-d5fa131078a2",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "build_manpage.py"
+		},
+		{
+			"SPDXID": "SPDXRef-7856ce32-ad00-4df7-8837-3f13f6133554",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "Pipfile"
+		},
+		{
+			"SPDXID": "SPDXRef-9bba3490-f845-4fff-a470-5d7b1cc34bbd",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "validate_manual_schema.py"
+		},
+		{
+			"SPDXID": "SPDXRef-5d4cadd0-2955-4d5a-92fa-7fdd8fc52e0a",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual_schema.yml"
+		},
+		{
+			"SPDXID": "SPDXRef-2b8e4c0b-0fac-4514-b0c0-b621a06e02f4",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "README.md"
+		},
+		{
+			"SPDXID": "SPDXRef-a4748a87-8406-4edc-a350-4b0776a81b48",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.svg"
+		},
+		{
+			"SPDXID": "SPDXRef-f48a1524-3eb9-4a34-8cd1-0beb97835f34",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "robots.txt"
+		},
+		{
+			"SPDXID": "SPDXRef-d4fd842c-9afc-4bae-be9d-4a2688a5ecca",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "icon.png"
+		},
+		{
+			"SPDXID": "SPDXRef-f7c61218-ec3b-4895-a621-8c7bd9ce5ec1",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": ".htaccess"
+		},
+		{
+			"SPDXID": "SPDXRef-a97f5b51-a4de-4d10-9647-e6ff66accc78",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "style.css"
+		},
+		{
+			"SPDXID": "SPDXRef-a669137a-46d4-47cb-bab5-2687c42340d6",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "jq.svg"
+		},
+		{
+			"SPDXID": "SPDXRef-0a09bc44-a2eb-45d8-aba2-acba22ff744d",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "manual-search.js"
+		},
+		{
+			"SPDXID": "SPDXRef-6a49d71f-789b-4da4-9f0b-2ebbb66ea978",
+			"fileContributors": [
+				"Stephen Dolan        <mu@netsoc.tcd.ie>"
+			],
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2CC97F5B3328F5934224E3090E2B80DCFE3575B4"
+				}
+			],
+			"fileName": "build_mantests.py"
+		}
+	],
+	"relationships": [
+		{
+			"spdxElementId": "SPDXRef-DOCUMENT",
+			"relatedSpdxElement": "SPDXRef-c943e2de-33b2-4c6a-a708-6289422798ae",
+			"relationshipType": "DESCRIBES"
+		}
+	]
+}

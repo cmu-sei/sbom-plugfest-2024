@@ -1,0 +1,1514 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:73905ada-3881-44d4-8801-cca76b4d598e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-12-09T21:18:52Z",
+    "lifecycles": [
+      {
+        "phase": "pre-build"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "name": "sbom4files",
+          "version": "0.4.5",
+          "type": "application"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "CDXRef-DOCUMENT",
+      "name": "opencv"
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "1-python_app_test",
+      "name": "apps/python_app_test.py",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f1858c08a8c4ea975f1c4bfc8e147ac6b7c2b27f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "94dc053ff63dafa2dfd20c1a6793a561eedbd2dd9d673dc9ba25c035e6a31d99"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eb6c91a6686263f1c7e4c13b41d50ca84ca7775ca02f6bc6b74c13cbda8ea77f5649c8367c56f2dc3df61a6183bfea41806e1bc3a2df322c11a2331aa90c38c7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is Python"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "2-CMakeLists",
+      "name": "apps/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "801dfa839285f028d842bf4b8393f83c9f25155e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d2b3f1bab0e9151464c742bad4cec8ef71cb37b3dd02a93d9d8360858bd71533"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "39550aa17015b7a882aa138bc61a378f598411c5a58d82c326f43c827cd80f043a31e973d7ca76f369b812888ba2ed52362e47ab15b6515ae1e7b9011a49c64e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "3-calibController",
+      "name": "apps/interactive-calibration/calibController.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fec0f2c7df6de71a47cee7711d734ddc9e442c92"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5a36c56596a844e85a99e682c73a605fdbe9009935db57abcda1ca5135ca0e6d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "76c66ddaf004d8a93991f27b7162a2820dbb02976b082a099b73946b75cf3251d6e8660aea5f6e0c8d3389b4bc9413c251821364739bf606de241f5b4243b747"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "4-main",
+      "name": "apps/interactive-calibration/main.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "664487f40e06f50ff80359c1126c8cb6819ed5fa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "809824dcaedb0580f0ba4dc08101585674134844307fe0259ec530c7b01dfcd9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9ac598e0ab414a3fcbf618ce5cab4bae68de8ed8342f6485c4129c9a6e5740e9b1d2f90dd717b033e32f4b44fa9e8d6ef9727ad96869b02049f1d384a4608b3b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "5-calibPipeline",
+      "name": "apps/interactive-calibration/calibPipeline.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f9b50006e5093fcc29f7b718333c681161487bb2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fef784bdd9a81c10c10727b41d3e79335c550aa965a108926740fa5058267a14"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "856b1557cef588acd5f084bb4cfcd7cfd278d69ccdf1234a6b7ba08ff4a10736871fca63514808125b7467230d57d4b10a6f8c410624e8be8c0f3952da6b5eb1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "6-frameProcessor",
+      "name": "apps/interactive-calibration/frameProcessor.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "13b7d9c32db51be30664223ff36fa2a01428a8ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7e91f92d5566758cb913fd5992205f48ba9a7e2bbb7b1caaba5783b8f37a1dbc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "24c5f0f56689b05cd865365744c658d797b09af46c440f57e69ce3d70da196d69913fd2c43683510c74934f0514810992a31dbb18f22d0a7bc19c603b2c43275"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "7-defaultConfig",
+      "name": "apps/interactive-calibration/defaultConfig.xml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "475a71cdb91236db4176d01b6d915c1c2c85dcde"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2b9407a9933d55d4d0aba4df4699bd90bb9fa9617ebd3d4af7d6c4d6f641b79a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c23b52d9c6d1e89ba0540f5130b1e9c6046c576a5e1ac35a133d58a6916fb5016e88cc325d226cfc703369843c5bbb181ebd4b5e426a619002092636a535a66a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "8-CMakeLists",
+      "name": "apps/interactive-calibration/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9185457434bcd06e48319c0e8a03e89a3a4285ef"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d8d5b14745bad9ffb8a853958558a5b6ceab66900d60a9cc863de6b88d40f3d2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dbf68f143b95f16483e214c4ad5b20bb14c371f77cdd1437a5bc2c2ff71af47b28362dd99b3652123a9ba150811880995aa205334ce09246831cb03049042b17"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "9-parametersController",
+      "name": "apps/interactive-calibration/parametersController.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "75fa9022ba3c917642ae30919953db422bf2462f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d7a6ed0f511a2dc187decfb372d395d1ab878ab123f36c63f170c9e2c0b9cfd1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0f3326fde21fbb66508f01576960b00e27b58ca7948309eb008a32c77a183481771712d230583971e9a4762c469d1b7004e83b894475fc5c8f7355dae914fe25"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "10-frameProcessor",
+      "name": "apps/interactive-calibration/frameProcessor.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0a5a52d6f46c906c1ee5412bffc9f4375b137525"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "44349d5bc35d4cbc2103fa2f7822851fc1d9ab7b900f1f20cb1c02cafa1abf74"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "84905b1826562c645c27f2d32e7af563b4ab7636d24d5a99c9f8cdaf4ad858c2e73b89aa64df68d625dde61d9c65181a0c158aa834ed2bc29cd7187f91e8cbc7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "11-parametersController",
+      "name": "apps/interactive-calibration/parametersController.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9d495f33bf995829e2818a43064b608ae12fda17"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bbef6c3346c67e74003a22b8ff62849f7b70cc22e2afa690749e85faded1f251"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "482da6766eeff2bd684ef3ed0d9e424408a89134b4e4089f20f8c5fa8da135a74ed81df68608ecc9bfc565b9bddea810470b891ee6eaf9dce0263f0acf9bb0cd"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "12-rotationConverters",
+      "name": "apps/interactive-calibration/rotationConverters.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c23ed2b9777e226f5a4e0a17b3ac63cf146de92a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6fecb3c0e10ee2655ec30b7fbf57cdef9477baaf98b728760f4fa0a87104b00e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7f1474d1e376f2356e818bb5e7efbea92ac7172079156945364aa2d552ff71f146c62a94d7cb756e91274b85a526bb9e58d14d2f8aa85bf7edb4ce7454f03680"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "13-calibPipeline",
+      "name": "apps/interactive-calibration/calibPipeline.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "277b646142c375012aa5d50caa350348d32f2f82"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5039d2a05d3d667243cae0b067f2800ffe6dfb191c77c761cc4f82a76a2c2a16"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2e5b9ae9e69e37d7200a546b5529c877d1b33701994eae14ffc949a1d513730d6d2544748139f20ae9ed2fd29e5f970d67979a755e7929e26096ef3a26a37c09"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "14-rotationConverters",
+      "name": "apps/interactive-calibration/rotationConverters.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9385dd249efb97a3fc5b0bd888b8e2fc4eb74987"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fa1668dfbb0895598ed7d776b4e05d80d320178348e6fecdfe3087d72855c8b9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a27fabffbc7b51a26209268ac5612ab039c053ee17046cf7b04eca1395aab7ab2cdba05d7e819efd932868fdbea4d96a80f6910b2ff9f1587d5f30c7324f22e5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "15-calibCommon",
+      "name": "apps/interactive-calibration/calibCommon.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3b0ef3930b0ad98b2504fc809831cc3f18e1c91a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "953881b9f9fe8255206614e3ae14e656b6201b4187429032008e6211ef66d49a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7307658d95a7bb3621a4f5af370fcadbb36c23ef357a39c22f371fd9631be418e3c000d3bbbc2683cebea949fc024e904712612fa944c0445507ae6db41080b5"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "16-calibController",
+      "name": "apps/interactive-calibration/calibController.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "22d7798bcc274094e5da99fb889425c7ae4649e8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "32f93453116422bb2e116d0f54470ef081cb29258a8f1ca078dee990811ef285"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b2a8e17311ab7fdf23e71424f7740c39807a6106dbab88518fb93a078e1886402bcb9ea381c64ecbcd842f5baf3bd457a2af36986760ff84f82e9edfc834b15b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "17-README",
+      "name": "apps/opencv_stitching_tool/README.md",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c7343bb6be4bb700648eafe2c37e5e6cf1cf1282"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "08dd1e5a38b5862f0c9c234a950f1bfe24f61a41e0165009a7b9b51d93c8092a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6fb5d5598f802abbb73d72da0be0bdc73e62f7006f7dbde9c280414bd3a9ed620fbc0b121ba72dbd56449e6a71daecf4b4e68c0396622c14a07745764604a999"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "18-model_diagnostics",
+      "name": "apps/model-diagnostics/model_diagnostics.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9ca81b5a8e243e48e6469e1b22e3294971bff5b8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f8d7cd9cbbcffb5289df8072ff6a4e77644e31ed31da42d9dc74e394ad217fb4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a492110d8e4aefc3429710ed4e9add6c8221ea3014e76346f99de3de26223acf6f0305da8f93b489e4eefb55c6a68c983b007208f300e7ea330f51f6e1ea2f6f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "19-CMakeLists",
+      "name": "apps/model-diagnostics/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fc46b202cf26179fdec7554890a7eb3f3c82c6c1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fc0e2714e89c098839fa3f3e12c557cb243a39ea2d24e374bb0d0ecd591f0a98"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b4f5bb74230e97845e765a53c571aeb251fdf7119f7fae851a5dde66d0bed8e7f17aa462a786cb5e8730f3c7ec6d8f6a0264be9895fea1818689fc8301eeeb7c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "20-cascadeclassifier",
+      "name": "apps/traincascade/cascadeclassifier.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "43ec75962c731c63af9988f23b3b35fe05d50295"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7cbba01c56fa9faf8c235aeb82e0d643fff26601d56fc9419d11819496226fcf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "59ef93a5702cf920c4c3b1ad9d3938d59e1afff7729346956ebda8dcbc444c8cd9cdf9817a145b93bc5aa386ee756e7aebcbb2a3dce41033d56c0082a6e10110"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "21-old_ml_inner_functions",
+      "name": "apps/traincascade/old_ml_inner_functions.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c3b6d3ff1c547974390fb65dc21dcdfc79608f8a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "81bbaa3b097c6402d30b4036efc11d1bd5a0b8c473037ff5257607ea0d58ca6d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8ba8542478b471b3875a2fc765c5d998ad878b770f1332473cfeffd2b5d1cf0955b5d4e273042dfed0ee80a80e68cd82f6fd270e1addfd1f2073343436754f31"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "22-haarfeatures",
+      "name": "apps/traincascade/haarfeatures.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c31edef3e8befb75022ea04c2a55641ca5ce8bfe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f96afc1cc313376da6997623a20fd069299a32ad9845c29934d43c0cc7abc05e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fb03d740b3d6fbc826970126938b77f8f8c25c5c6ec8ee1d7b034433fddb5ad3386830d0ec1c205cba19a63b08d3a980e831a6bbade41675bf1d47da70ec4fe4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "23-imagestorage",
+      "name": "apps/traincascade/imagestorage.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "eae44d839cfdcfe75c49495b402862249a7bcd74"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8efbc195fdc0c93e8a87593a5516c22bda9a17d0f861e3a3f403b7b6a351f3c6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "616ebc0a7f69a51c9bd258c3a551cf18965a91b1dcbdb7befbd09278a394fe1b67725c478c4f6f74d38d819e5823418be4dada7505327567fe9561448cc1a288"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "24-features",
+      "name": "apps/traincascade/features.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8fa7be8869d0bbc274337762704d587696d3e2fd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a93065fee5038212b04a9301a926b30c92c1c430f9eac3d7f5e425a90d5c396a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "44c11d0ba591d053f39edfc24f103d675bdeeafb05a56faf897650b0949294e54f00f6c8a67a79688a391201d65a4148f631b8c647d48ad74ce7ecc550c6c9b7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "25-HOGfeatures",
+      "name": "apps/traincascade/HOGfeatures.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d1fb80b1a09d15c489139b3f5ee3e3b767a74c1a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "914c0bea7e32dca442a6c8b5ae8e8d20b98d49e70dd2e77d95bb44746f195457"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f1f6ce580b3a97791c52d66b43a48ce41c7e7038183065c8473359d2528e766cabecd4280a7813b19ae3ae7ecd8cf604ff101a266221f38951e5c70bd0ba261f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "26-old_ml_boost",
+      "name": "apps/traincascade/old_ml_boost.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0513279ff39b6bdf1a3865ca4235b9ca449af2b1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "34ab66c3e22b0e49f57471178b23c8bd75c82f3d7fa6116a25996b9e4b5477f0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "90ff77f30af0255702103e90be79f8dc2d4991a46b6cc9bd2bda8990bf3fe0a067df91d1ee1e77616b09928443095b52908e6aa88caf60b5f86a8fe986419fae"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "27-HOGfeatures",
+      "name": "apps/traincascade/HOGfeatures.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4f7f952f0f648dc7f981cea531cd5ef0bfded054"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4737b7d0093d4cff773d31afee89aa6e514c8dcc138fc85ce9cb93aef33fa103"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d8a6fc9e60bf0a8cd54cc943670e3644c56e454bc8855ca2679239517d7cbae9882e28498ae6b1eddce30914d7a544b1666e66b87957d1c720df723ec7e0ff39"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "28-traincascade",
+      "name": "apps/traincascade/traincascade.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1d92dea68db7253690d6d9e3187f638602136f7a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3392ee3a11c12bffc3d7feb76c9155d3f85e02f852c411accc08ba090ab4de85"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "99c32c1c32961ae2ebb7715577586885cf4269913bcc1cd9fb47db52d53184af580f1e3a39e2c706a6bc56a18536603bdbb63421e4e59e2052a10a6053758f7a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "29-traincascade_features",
+      "name": "apps/traincascade/traincascade_features.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3d61560b06f0ac1868543b8bc37c683157c388d6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3e41c1fc1c16fee9ebdda31c8e4e4b2b4536f37841bc23718739c26a6cdf1334"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a546227796918f2d9d14308fecdf9d6915db6ab3d45cf7fe3a55431225372728f05a0f3c0ac19456b8024400925a15d4df57e67b0bf7c959fc1107081e64a1b1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "30-CMakeLists",
+      "name": "apps/traincascade/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fde3cc2abf751e901053f7eb049aa0f47e92d62f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e4c2c2e29c125796235b3405f6ec7ae601395bbe212d5dcfe98c499789913bd7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ba7b0139dd8bea49bf28c438249f4acacbbc12eaf9d07efafb94dc881dec18c8dcc71185089adec85d0a35cdb112284d2467146349f0379cd409764b93904973"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "31-imagestorage",
+      "name": "apps/traincascade/imagestorage.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "4b1e6c7d451e161d4d8fef5255c2ddd9d67264a8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0a80b85df89bcc584e4836edfa98cb0f4e64d806872aeeb1acf20d896159889d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6e910e67881699bc89b1d7c9ac829e96ef43d193307a91e2f17e8b4ad9e1558b03f7e6cf512997886d502bdad1a800b1f1658273eba958497e0c115751d5dc4e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "32-old_ml_tree",
+      "name": "apps/traincascade/old_ml_tree.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "83b6da366d95d1a91c84f564ab194f5ba922e9ef"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7edd5241924152d0be6d9b9fd359d0029716ad2207d4803c38feb0a0418a4622"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "55a65a3ad8ef30ff604a6330e218b8dfd4cbf618e27f33d657151ac4dddcd36849e6b5ce07860aafd70998b2e957891d10944f1a558b233e587a2c71ad22f62e"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "33-haarfeatures",
+      "name": "apps/traincascade/haarfeatures.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b74f84c49e6ee6ae14d89766d5de781aa983b225"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f3a50fd35c3b05fc3ded9f8b84d4ee1a0c68b5aadcc99f3dfdd0622f7348a95d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "40067de486545b143f355e153d4b8904e404962804fc93d84456bfca506143de2669591661670f9a5a9569a62df6ab8dc966a8366ad92b4fb616586ccc2c2c6a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "34-old_ml",
+      "name": "apps/traincascade/old_ml.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ee04a2f01f46a8759ce5e58b86a65af973f0e2bf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "562241b27e24b11b88cf4e450bd2f1dadcee30e505551c66536380779790afc3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9d8d086be637157591eef18f11be4a7100a3aad30118742e6713f2e85122d7915f290acafd3a76b1b85bd9cba0aca8828baaeb07d17d68b67d3b7b1dc7252485"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "35-lbpfeatures",
+      "name": "apps/traincascade/lbpfeatures.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ebb345fcebf293c4a53670edd534dbfbc3860a03"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d2e2cac6fd158ec723974d8108d38abaf89da68538d354624b1b3df407e0bd5e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8746b3f44722466bef266db9aa32c45fb9ef58baffa034decd47b2c1106c3769981094ccdaf0553437ed54301d4362649a9f44312a8eca9a438091c0fc1c345f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "36-cascadeclassifier",
+      "name": "apps/traincascade/cascadeclassifier.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "49e393c1aa7ea6705f21c87f7af32c5b478a529a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d13bb7adece9babb48686be1f5901236bd98c976329dc0dba2b019e325d3a282"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a509dcbfae8d02cd0a0ce21917abaa848f8e7dce391c2b2a32773633358295a63a3459b4f4fd962ab81e3e4577fabb104ca4b480f8d881966fb1d3515a1d2cd6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "37-old_ml_precomp",
+      "name": "apps/traincascade/old_ml_precomp.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "496be88cf2f64d584d3cf1cfc479520a886ef7a6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a480f2d5a78d6d4ee832648c2a6c09cc89013b6ddfa37e140b2d49192760a2ce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d675b2745b7255e5d73f4d837e96e657e8ad321fd13dc1225bba2b84c939b374d639ffa9f3670735ab24d36ea3a28c612ff0a16ab5f481140d96f1b56c8ab173"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "38-boost",
+      "name": "apps/traincascade/boost.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a79aa027507727c71ae4b26d9f84699ab40348d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "17fa6a5f60999b41f7d2569892fdd83ed7f837693671570000c5bff8cfc3cfb2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e1ac0760affb6a8e62f4f39448312cfca2a46c0785a316ff4a3af6908bb045d5a386cdb96d89a24f7180a6226291c88bc266ebde9fc1194a4e1f0e7bc9119419"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "39-old_ml_data",
+      "name": "apps/traincascade/old_ml_data.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "95f3bb381f5897f0f9d552c7705d1b7857f4d0cb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be9e72926d0f4ddb97a3752f9eb4975c3cf3165df83b00bddb464d9813946323"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ae33d0e4b313a09e2d14fff07dbe644d69db6a802a390d4b209003b006e4e386c8d45b0771474256c833d8f6ef65ed43711dcb059e18edd76b51561d278e47c6"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "40-boost",
+      "name": "apps/traincascade/boost.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "20dd5585d6f9f8b57de714b3b5f7726120aa22b4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2ba78fe30a7047e7b3ec5c05211afebfc805a857187ddb3c262ef6c6000b9d06"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "600c01f523fad4262c7f73f8bb11ff5dc68ca76047a9c6d01c45eba7364da312d5f3e0f8c95e2007c7bde3b16e844f46694e1239980b256e9cc94f8ab758c8a7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "41-lbpfeatures",
+      "name": "apps/traincascade/lbpfeatures.h",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dc5ee88d417dd3dd6f9e8363b9e022b1d5c95c6b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "856e1412b494832a612cc3695998606891e100916f247e022ff38d4defbbe131"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c7ce211ddec4e069af7ef8ad3a9d4df234b2b959021480003494642e576dfff1fa5f2015803659e551bee215f2982df2cc961be8aa4eb4e3f18950e3f4e3da84"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "42-createsamples",
+      "name": "apps/createsamples/createsamples.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8d4443ec403f8c8613b6b378f276e6bcc7fd083d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e94de4f370c949803ef9a615bf2da2dda3152c4a123338dc1470f38b0a672df3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2e98b1bee508c0af6d910689fedc1b3243a45a673b53c5ba710968e3ea7a11b736e77facbebece592b3a3d08362a980f600b6aa93a9ff9418ce2526e1ae8a878"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "43-CMakeLists",
+      "name": "apps/createsamples/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1e49cdc19afee9e358756efaa039a5bb172f9881"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f02248a20080a5d85f602f909a64cd211d49ddb8b1addef4d1555e535dee2cf3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9109eaac40924417b5af49f11157add5a177c6d19c87dc7178ca121afd91b3705ea91f0bc88b31bfc7076da965112cbda5e158ebb970ef03eb502ff97fe8bc1f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "44-utility",
+      "name": "apps/createsamples/utility.hpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "aa83b9ab1fde0d322e0f24dbf4cbe0d8ac110c8f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be6d99a302865fa0944d2ca2879044f2f7c7dc83e847a52b2c885a3fdcd84c71"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fe2b544c9286fd6939005fad8b0cdd8a4f0584ffe34bbbbedda148d5d46f178470ef404a09fca48d2fe288a195120fd73ccf0fdb9d95a457eee00f103483c4b4"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "45-utility",
+      "name": "apps/createsamples/utility.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "97ce5d2408756baa1d75ad7963f588d6b47ffc41"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6f84164da7039dd4a49dc8b63bf87610e8723784f6edf977fa1b64dc3536f524"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "95eabf125dda6000b74b8f2318e98ab75c360343d69e44b8c0dd6336a851106c3ff5a6dda9079e7fcb24bf45926862c9328f893204615b387614a78c8f5896d6"
+        }
+      ],
+      "copyright": "(C) 2000, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "46-opencv_version",
+      "name": "apps/version/opencv_version.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "160fde0a00f88f9fa4a1554b07c36d0cefb19024"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "45a40c8a1ad4d839c9254957fe9295f9203cc6263c2822b52c6e6f55fe00d4bb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "72135d16ee9057640e63ede7d46f4e86bcb8178fb793e2874ea81334692c16e6c3293ca34ecbba7d12a2025850104bb3f81c754a44f12c824350575a58cf7c85"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "47-CMakeLists",
+      "name": "apps/version/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "66d782f550bb1e9e03d43bc1d8173e5913179204"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e56041ac27cb783fd662f57b871c177b35e9a188ae6b00ba4e0f065739f2ae63"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bba560788257618040f7c9cd80045f3ed9ac4f9e230edfedd3dbbb324e1dcab5500cabd8b4e1b4774c275463b4c3d58aec7ebda497e4c44e5d78c481c8f9c9a0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "48-opencv_annotation",
+      "name": "apps/annotation/opencv_annotation.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "861d46b37010c82da6920d14f439004ee50c893e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fdbaf30e5607f48157bd02088fb2fd8bcb9668e6432e7e8bca406f1b077dec7a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b1fdf24ef845c5ca7b45d419a3280c3c5566509e8cf8ca8b4aa527d7fe187f9fc6e7ecca6c92a3923eda0bf3e550a941ca57e09c15f726ca91108b2ffbd0a6c3"
+        }
+      ],
+      "copyright": "(C) 2000-2008, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "49-CMakeLists",
+      "name": "apps/annotation/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "dfece1968c5cd3c932c431796d246689ea1a3550"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b1ee3970c6492c7cd596d5c5a5b0e8db6c70bce9ada86d30004256f1e3b8fcc2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "600db14d16dd456795d0c3ff4cd211c1b45faee8da30a6cf49a8757676b2a4a4926c43f42bbc8f814cbfb4d0602cd379e9c51e87b1b676d310b405c47f20b900"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "50-opencv_visualisation",
+      "name": "apps/visualisation/opencv_visualisation.cpp",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "45a5040f41c8b5ef052d69f1bad48286f80e71f0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a0f21f25becf1c77b1c25aae6e99e6e7f733bf19489a9ad20df5877a4d294540"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d0bedeaa0ff12e65e9741ca39780f22c8afd77c0da7a0c04033865df9e92454040aa3f292a4ba6f661f5f8ccbb17cd25f1b5f79c562742e2655ff23191835840"
+        }
+      ],
+      "copyright": "(C) 2000-2008, Intel Corporation, all rights reserved.",
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        },
+        {
+          "name": "Comment",
+          "value": "Source is C++"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "51-CMakeLists",
+      "name": "apps/visualisation/CMakeLists.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "db6a7bb84927c77d8827595c2b99383d79263f6a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bd6f49799e1ad29095180fd9d902a180bade8f8c647c31dafab02ccca041c7bf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "10f1ee7354c340e9df032097e1be17a0c880b062bf6167c007a80e56ee6e83a5bc371fb1b725f957630d308c6b9608d804e5986b9b9cc7a4cf0403ab5b7946f1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "License Comments",
+          "value": "Unable to determine license from the file."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "opencv-files",
+      "name": "opencv-files"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "CDXRef-DOCUMENT",
+      "dependsOn": [
+        "1-opencv-files"
+      ]
+    },
+    {
+      "ref": "opencv-files",
+      "dependsOn": [
+        "1-python_app_test",
+        "2-CMakeLists",
+        "3-calibController",
+        "4-main",
+        "5-calibPipeline",
+        "6-frameProcessor",
+        "7-defaultConfig",
+        "8-CMakeLists",
+        "9-parametersController",
+        "10-frameProcessor",
+        "11-parametersController",
+        "12-rotationConverters",
+        "13-calibPipeline",
+        "14-rotationConverters",
+        "15-calibCommon",
+        "16-calibController",
+        "17-README",
+        "18-model_diagnostics",
+        "19-CMakeLists",
+        "20-cascadeclassifier",
+        "21-old_ml_inner_functions",
+        "22-haarfeatures",
+        "23-imagestorage",
+        "24-features",
+        "25-HOGfeatures",
+        "26-old_ml_boost",
+        "27-HOGfeatures",
+        "28-traincascade",
+        "29-traincascade_features",
+        "30-CMakeLists",
+        "31-imagestorage",
+        "32-old_ml_tree",
+        "33-haarfeatures",
+        "34-old_ml",
+        "35-lbpfeatures",
+        "36-cascadeclassifier",
+        "37-old_ml_precomp",
+        "38-boost",
+        "39-old_ml_data",
+        "40-boost",
+        "41-lbpfeatures",
+        "42-createsamples",
+        "43-CMakeLists",
+        "44-utility",
+        "45-utility",
+        "46-opencv_version",
+        "47-CMakeLists",
+        "48-opencv_annotation",
+        "49-CMakeLists",
+        "50-opencv_visualisation",
+        "51-CMakeLists"
+      ]
+    }
+  ]
+}

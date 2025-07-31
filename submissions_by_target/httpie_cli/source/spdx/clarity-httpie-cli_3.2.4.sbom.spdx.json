@@ -1,0 +1,116 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "httpie-cli_3.2.4.zip",
+    "documentNamespace": "https://clarity.insignary.com/spdx/documents/httpie-cli_3.2.4.zip-4ecdec70-c640-4b0c-96ff-06c92fbc2a87",
+    "creationInfo": {
+        "created": "2024-11-28T20:22:54Z",
+        "creators": [
+            "Person: YunSeong Choi (yunseong@korea.ac.kr)",
+            "Organization: Insignary",
+            "Tool: Insignary Clarity-5.0.332b1.331"
+        ],
+        "licenseListVersion": "3.23"
+    },
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-e9906986-0a36-4ace-8c8c-cd497ed3de3c",
+            "spdxDocument": "https://clarity.insignary.com/spdx/documents/httpie-cli_3.2.4.zip-4ecdec70-c640-4b0c-96ff-06c92fbc2a87",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "3d846bcb54d1912e22ca05c26bd43caf903f7552"
+            }
+        }
+    ],
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-github-httpie-httpie-3.2.4",
+            "name": "httpie",
+            "versionInfo": "3.2.4",
+            "supplier": "Organization: httpie",
+            "originator": "NOASSERTION",
+            "downloadLocation": "https://github.com/jakubroztocil/httpie/archive/refs/tags/3.2.4.tar.gz",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "7dcc3d7d74f64dace5a1f361265b6b4f9c450227"
+            },
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3d846bcb54d1912e22ca05c26bd43caf903f7552"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5e2c9cc9f9c05a4fbb553c56386c1dc317f529c3ae9c050a2f2b7a5d4b9cdf1c"
+                },
+                {
+                    "algorithm": "MD5",
+                    "checksumValue": "5e3a9897cb8049d3c9975071c085f252"
+                }
+            ],
+            "homepage": "https://httpie.io/",
+            "sourceInfo": "The package was detected in the following paths: httpie-cli_3.2.4.zip",
+            "copyrightText": "Copyright © 2012-2022 Jakub Roztocil <jakub@roztocil.co>",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/httpie/httpie@3.2.4#https://github.com/jakubroztocil/httpie/archive/0.1.4.tar.gz",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:httpie:httpie:*:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "https://github.com/jakubroztocil/httpie/releases/tag/1.0.3",
+                    "referenceType": "advisory"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "https://github.com/httpie/cli",
+                    "referenceType": "git"
+                }
+            ],
+            "primaryPackagePurpose": "SOURCE"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-File-c69923a0-1ae9-459b-b197-07e3c887d598",
+            "fileName": "httpie-cli_3.2.4.zip",
+            "fileTypes": [
+                "SOURCE"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3d846bcb54d1912e22ca05c26bd43caf903f7552"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5e2c9cc9f9c05a4fbb553c56386c1dc317f529c3ae9c050a2f2b7a5d4b9cdf1c"
+                },
+                {
+                    "algorithm": "MD5",
+                    "checksumValue": "5e3a9897cb8049d3c9975071c085f252"
+                }
+            ],
+            "comment": "Zip archive data, at least v1.0 to extract"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relationshipType": "DESCRIBES",
+            "relatedSpdxElement": "SPDXRef-github-httpie-httpie-3.2.4"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-httpie-httpie-3.2.4",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-File-c69923a0-1ae9-459b-b197-07e3c887d598"
+        }
+    ]
+}
